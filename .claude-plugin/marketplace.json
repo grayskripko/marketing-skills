@@ -1,0 +1,15 @@
+{
+  "name": "marketing-skills",
+  "description": "Skills-only marketing plugins by Sergey Skripko: SEO audits and more.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "seo-audit",
+      "source": "./plugins/seo-audit",
+      "description": "Evidence-based SEO audits of sites, pages, exports and source code, with developer-ready fix plans."
+    }
+  ]
+}

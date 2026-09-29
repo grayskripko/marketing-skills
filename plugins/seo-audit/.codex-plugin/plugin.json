@@ -1,0 +1,48 @@
+{
+  "name": "seo-audit",
+  "version": "0.1.0",
+  "description": "Audit a website, a single page, Search Console and crawler exports, or a site's source code for technical, on-page and content SEO issues. Every finding shows its evidence and how sure it is, and the work ends in a prioritized fix plan with developer tickets.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/seo-audit",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "seo audit",
+    "technical seo",
+    "site audit",
+    "search console",
+    "indexing",
+    "sitemap",
+    "robots.txt",
+    "core web vitals"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SEO Audit Kit",
+    "shortDescription": "Evidence-based SEO audits",
+    "longDescription": "Five connected skills for SEO work: audit a site or a section, audit one page against a target query, analyze Search Console and crawler exports with fixed thresholds, review a site's source code and report issues as file:line, and turn findings into developer tickets with acceptance criteria. Every finding states its evidence and whether it was observed, read from your data, or still needs a check in a named tool. The plugin runs no code and stores nothing.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F6F5C",
+    "brandColorDark": "#3FA88C",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Review this Next.js project for SEO problems and list them as file:line.",
+      "Here are my Search Console queries and query-by-page exports. Find striking-distance queries, CTR outliers and cannibalization.",
+      "Run an SEO audit of https://example.com. B2B SaaS; the goal is more demo requests from organic search."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/seo-audit/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}
