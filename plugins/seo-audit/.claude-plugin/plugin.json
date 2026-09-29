@@ -24,5 +24,8 @@
     "robots-txt",
     "core-web-vitals",
     "structured-data"
-  ]
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/seo-audit/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/seo-audit/README.md"
 }

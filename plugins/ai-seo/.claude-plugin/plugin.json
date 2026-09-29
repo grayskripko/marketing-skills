@@ -22,5 +22,8 @@
     "brand-mentions",
     "share-of-voice",
     "citation-share"
-  ]
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/ai-seo/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/ai-seo/README.md"
 }

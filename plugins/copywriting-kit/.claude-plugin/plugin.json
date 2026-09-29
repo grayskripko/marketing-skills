@@ -21,5 +21,8 @@
     "stock-phrasing",
     "claims-check",
     "tone-of-voice"
-  ]
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/copywriting-kit/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/copywriting-kit/README.md"
 }
