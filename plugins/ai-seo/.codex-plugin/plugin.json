@@ -1,0 +1,49 @@
+{
+  "name": "ai-seo",
+  "version": "0.1.0",
+  "description": "Measure how AI answer engines and AI search features mention and cite a brand, check whether pages can be read and quoted accurately, and plan honest corrections to what those answers say. Builds a repeatable prompt panel, scores logged runs over time with sample-size checks, analyzes citation exports, and maps answer gaps and third-party sources. Runs no code and stores nothing.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/ai-seo",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ai seo",
+    "geo",
+    "generative engine optimization",
+    "aeo",
+    "answer engine optimization",
+    "ai visibility",
+    "ai citations",
+    "ai search",
+    "brand mentions",
+    "share of voice"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI Search Visibility Kit",
+    "shortDescription": "Measure AI answer visibility",
+    "longDescription": "Six connected skills for measuring and improving how accurately AI answer engines and AI search features describe and cite a brand. Build a repeatable prompt panel and run protocol, score the runs you log with sample sizes and a written rule for telling real change from run-to-run variation, analyze citation and AI-feature exports to rank pages by value against citation share, check whether one page can be quoted accurately, compare pasted answers for one query against your page, and plan honest work on the third-party sources those answers rely on. The plugin never queries AI engines itself and never invents their answers: you run the panel or paste what you saw. Calculations are printed so every number can be checked. It runs no code and stores nothing.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#3B4BA8",
+    "brandColorDark": "#7C8BE0",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Our AI visibility panel: Engine A mentioned us in 3/30 runs in Aug, 9/30 in Sep; 4 prompts rose, 0 fell. Real change or noise?",
+      "Can AI answers quote this? <div data-nosnippet>Invoices over $5,000 need two signers.</div> Target: two-signer approval",
+      "Build an AI visibility prompt panel for Acme Invoicing, a B2B invoicing app. Competitors: Northwind Pay and Globex Billing."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/ai-seo/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

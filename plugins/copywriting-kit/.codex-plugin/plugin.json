@@ -1,0 +1,49 @@
+{
+  "name": "copywriting-kit",
+  "version": "0.1.0",
+  "description": "Editing and diagnosis workflows for your own website copy and drafts: a change log for every edit, locked facts that are never altered, a scorecard that names the first broken layer, claims checked against your own evidence, and page drafts from a brief with proof placeholders instead of invented proof.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/copywriting-kit",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "copywriting",
+    "copy editing",
+    "website copy",
+    "landing page copy",
+    "message hierarchy",
+    "positioning",
+    "plain language",
+    "stock phrasing",
+    "claims check",
+    "tone of voice"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Copywriting Editor Kit",
+    "shortDescription": "Edit, diagnose and check copy",
+    "longDescription": "Five connected skills for your own web pages and drafts. Edit a draft with a change log first and every number, name and claim locked. Diagnose existing copy by naming the first broken layer (positioning, message priority or wording) before any rewrite, with a 12-point checklist score. Check claims against the evidence you provide and get accurate rewrites. Draft a landing, product, pricing or about page from a brief, with marked placeholders where proof is missing. Capture a voice profile from your own writing samples. Proof, urgency and testimonials are never invented. Not for ads or outreach.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#A4492A",
+    "brandColorDark": "#E0805A",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Edit this, keep every number: 'Northwind Ledger is a revolutionary platform that empowers teams to cut invoice time by 40%.'",
+      "Check against my notes: 'The leading invoicing tool, trusted by 10,000 teams.' Notes: 212 paying customers, no ranking data.",
+      "Diagnose before any rewrite: 'Reimagine finance. All-in-one for every business. Offer ends tonight! Get started | Book a demo'"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/copywriting-kit/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

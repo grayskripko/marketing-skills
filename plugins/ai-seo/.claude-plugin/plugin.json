@@ -1,0 +1,26 @@
+{
+  "name": "ai-seo",
+  "displayName": "AI Search Visibility Kit",
+  "version": "0.1.0",
+  "description": "Measure how AI answer engines and AI search features mention and cite a brand, check whether pages can be read and quoted accurately, and plan honest corrections to what those answers say. Builds a repeatable prompt panel, scores logged runs over time with sample-size checks, analyzes citation exports, and maps answer gaps and third-party sources. Runs no code and stores nothing.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/ai-seo",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ai-seo",
+    "geo",
+    "generative-engine-optimization",
+    "aeo",
+    "answer-engine-optimization",
+    "ai-visibility",
+    "ai-citations",
+    "ai-search",
+    "brand-mentions",
+    "share-of-voice",
+    "citation-share"
+  ]
+}

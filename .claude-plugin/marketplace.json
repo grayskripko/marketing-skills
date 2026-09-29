@@ -1,6 +1,6 @@
 {
   "name": "marketing-skills",
-  "description": "Skills-only marketing plugins by Sergey Skripko: SEO audits and more.",
+  "description": "Skills-only marketing plugins by Sergey Skripko: SEO audits, AI search visibility, copy editing.",
   "owner": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
@@ -10,6 +10,16 @@
       "name": "seo-audit",
       "source": "./plugins/seo-audit",
       "description": "Evidence-based SEO audits of sites, pages, exports and source code, with developer-ready fix plans."
+    },
+    {
+      "name": "ai-seo",
+      "source": "./plugins/ai-seo",
+      "description": "Measure and improve how a brand appears and is cited in AI answers: prompt panels, run reports, export analysis, page checks."
+    },
+    {
+      "name": "copywriting-kit",
+      "source": "./plugins/copywriting-kit",
+      "description": "Diagnose, edit and draft marketing copy with a fact lock, change log and proof check."
     }
   ]
 }
