@@ -1,0 +1,29 @@
+{
+  "name": "revops",
+  "displayName": "RevOps Metrics Kit",
+  "version": "0.1.0",
+  "description": "Check stated stage probabilities against what actually closed, build an ARR bridge with GRR and NRR that reconciles to zero, backtest forecast methods on your own history, plan a revenue target back to deals, SQLs and team capacity, and read funnel cohorts with intervals. Every number is printed with its formula, sample size and a 95% interval, computed only from data you paste.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/revops",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "revops",
+    "revenue-operations",
+    "arr-bridge",
+    "net-revenue-retention",
+    "gross-revenue-retention",
+    "stage-probability",
+    "forecast-accuracy",
+    "sales-capacity",
+    "funnel-conversion",
+    "sales-velocity",
+    "speed-to-lead"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/revops/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/revops/README.md"
+}
