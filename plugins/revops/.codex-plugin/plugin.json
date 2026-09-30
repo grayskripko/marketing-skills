@@ -7,7 +7,7 @@
     "url": "https://github.com/grayskripko",
     "email": "grayskripko@gmail.com"
   },
-  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/revops",
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/gust/plugins/revops",
   "repository": "https://github.com/grayskripko/marketing-skills",
   "license": "MIT",
   "keywords": [
@@ -43,8 +43,8 @@
       "Which forecast was closer? Actual/M1/M2 per quarter (k): 420/520/440, 510/590/470, 0/60/30, 460/560/480.",
       "Target $600k new ARR next quarter. Avg won deal $18k, won 22% of opps, SQL→opp 40%, cycle 60 days. SQLs per month?"
     ],
-    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/revops",
-    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/revops/PRIVACY.md",
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/gust/plugins/revops",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/gust/plugins/revops/PRIVACY.md",
     "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
   }
 }

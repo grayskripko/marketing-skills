@@ -7,7 +7,7 @@
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
   },
-  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/revops",
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/gust/plugins/revops",
   "repository": "https://github.com/grayskripko/marketing-skills",
   "license": "MIT",
   "keywords": [
@@ -23,7 +23,7 @@
     "sales-velocity",
     "speed-to-lead"
   ],
-  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/revops/PRIVACY.md",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/gust/plugins/revops/PRIVACY.md",
   "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
-  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/revops/README.md"
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/gust/plugins/revops/README.md"
 }
