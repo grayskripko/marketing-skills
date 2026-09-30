@@ -1,0 +1,48 @@
+{
+  "name": "token-saver",
+  "version": "0.1.0",
+  "description": "Lower token use in AI chat and coding sessions without losing meaning: short but safe answers that keep commands, numbers, warnings and confirmations even when asked to drop them, handoff notes that let a fresh session resume, an audit of what your setup loads into every request, trimming of long instruction files that keeps every rule, and reading plans that gather context with fewer file reads.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/token-saver",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "token saving",
+    "token usage",
+    "context window",
+    "cost control",
+    "concise answers",
+    "session handoff",
+    "instruction files",
+    "prompt length",
+    "reading plan"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Token Saver Kit",
+    "shortDescription": "Cut tokens, keep the meaning",
+    "longDescription": "Five skills for spending fewer tokens without dropping anything that matters. Trim a long instruction file with a ledger that proves every rule survived. Audit what your setup loads into every request and get the five changes worth making, with estimates only where sizes are known. Write a handoff note with fixed fields, including what was tried and failed, so a fresh session can resume without the old history. Plan how to investigate a coding problem with fewer and smaller file reads. Switch to short but safe answers: code, commands, paths, numbers, exact errors, warnings and confirmations stay word for word, even when the user asks to drop them. It does not change how the host counts or limits usage.",
+    "developerName": "Sergey Skripko",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2F6F4F",
+    "brandColorDark": "#6FBF8F",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Trim this instruction file, keep every rule: 'Always run tests. ALWAYS run tests before commit. Be nice. Use pnpm, never npm.'",
+      "My context report: instruction file 9k tokens, tool definitions 22k, chat history 140k. What should I cut first?",
+      "Handoff note: goal auth refactor; done token refresh; failing logout test '401 expected 200'; tried cookie domain fix, no luck."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/token-saver/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

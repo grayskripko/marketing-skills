@@ -1,6 +1,6 @@
 {
   "name": "marketing-skills",
-  "description": "Skills-only marketing plugins by Sergey Skripko: SEO audits, AI search visibility, copy editing.",
+  "description": "Skills-only plugins by Sergey Skripko: SEO audits, AI search visibility, copy editing, cold email, content strategy, customer research, token saving.",
   "owner": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
@@ -20,6 +20,26 @@
       "name": "copywriting-kit",
       "source": "./plugins/copywriting-kit",
       "description": "Diagnose, edit and draft marketing copy with a fact lock, change log and proof check."
+    },
+    {
+      "name": "cold-email",
+      "source": "./plugins/cold-email",
+      "description": "Review, check and write cold emails with a fact lock, merge QA and sender-setup checks."
+    },
+    {
+      "name": "content-strategy",
+      "source": "./plugins/content-strategy",
+      "description": "Plan content to your team's capacity: inventory fates, topic map, prioritized quarter plan, briefs, lead magnets."
+    },
+    {
+      "name": "token-saver",
+      "source": "./plugins/token-saver",
+      "description": "Short-but-safe answers, session handoff notes, context diet and lossless instruction trimming."
+    },
+    {
+      "name": "customer-research",
+      "source": "./plugins/customer-research",
+      "description": "Turn interviews, feedback and churn notes into traceable evidence: quote ledger, counts, strength rule."
     }
   ]
 }

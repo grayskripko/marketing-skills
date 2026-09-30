@@ -1,0 +1,30 @@
+{
+  "name": "customer-research",
+  "displayName": "Customer Research Kit",
+  "version": "0.1.0",
+  "description": "Traceable customer research from text you paste, no connectors needed: a quote ledger with ids, a printed theme-by-source count table, a fixed evidence-strength rule, contradictions, and a self-check that every quote appears verbatim in your input, with participants pseudonymised. Also checks interview guides for leading questions, codes why customers cancel subscriptions (stated vs evidenced), and builds an ideal customer profile marked backed or assumed line by line.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/customer-research",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "customer-research",
+    "customer-interviews",
+    "user-research",
+    "interview-synthesis",
+    "voice-of-customer",
+    "jobs-to-be-done",
+    "jtbd",
+    "icp",
+    "ideal-customer-profile",
+    "feedback-analysis",
+    "churn-analysis",
+    "customer-churn"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/customer-research/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/customer-research/README.md"
+}

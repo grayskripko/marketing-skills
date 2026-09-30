@@ -1,0 +1,50 @@
+{
+  "name": "content-strategy",
+  "version": "0.1.0",
+  "description": "Decide what content to make, fix or retire: a fate table for existing pages with the rule behind each decision, a topic map with buyer stage, intent and the new information each topic needs, a plan sized to the team's real hours with a printed planning score, writer briefs with proof slots, and lead-magnet plans. It plans; it does not write the content or build campaigns.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/content-strategy",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "content strategy",
+    "content plan",
+    "editorial calendar",
+    "content audit",
+    "content inventory",
+    "content pruning",
+    "topic map",
+    "content brief",
+    "content prioritization",
+    "lead magnet",
+    "B2B content"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Content Strategy Kit",
+    "shortDescription": "Plan content to your capacity",
+    "longDescription": "Five connected skills for teams with limited hours. Decide the fate of existing pages (keep, update, merge, redirect, retire or leave alone) with a numbered rule on every row and a list of what could not be checked. Build a topic map where every topic names the new information behind it or is marked commodity. Turn a list of ideas into a plan sized exactly to the team's hours, with a printed planning score and a not-now list. Write briefs a writer can work from, with proof slots instead of invented data, and plan lead magnets with an honest gate decision. Dates alone never decide a page's fate. It plans; it does not write the content.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#8A5A12",
+    "brandColorDark": "#D9A24A",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Keep, update, merge or cut: /blog/ap-tips-2021 (40 visits), /blog/ap-automation-guide (2,100), /blog/ap-tips-2023 (35).",
+      "Demo goal, 1 writer 6h/wk. Topics: ROI guide (own data), customer story (own data), AP glossary (none). What fits this quarter?",
+      "Topic map for Northwind Ledger: AP automation for 50-500 staff firms, goal demo requests, we have 40 customer interviews."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/content-strategy/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

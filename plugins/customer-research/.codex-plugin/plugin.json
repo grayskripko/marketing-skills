@@ -1,0 +1,51 @@
+{
+  "name": "customer-research",
+  "version": "0.1.0",
+  "description": "Traceable customer research from text you paste, no connectors needed: a quote ledger with ids, a printed theme-by-source count table, a fixed evidence-strength rule, contradictions, and a self-check that every quote appears verbatim in your input, with participants pseudonymised. Also checks interview guides for leading questions, codes why customers cancel subscriptions (stated vs evidenced), and builds an ideal customer profile marked backed or assumed line by line.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/customer-research",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "customer research",
+    "customer interviews",
+    "user research",
+    "interview synthesis",
+    "voice of customer",
+    "jobs to be done",
+    "jtbd",
+    "icp",
+    "ideal customer profile",
+    "feedback analysis",
+    "churn analysis",
+    "customer churn"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Customer Research Kit",
+    "shortDescription": "Turn interviews into evidence",
+    "longDescription": "Five connected skills for customer research you already have. Synthesise interview notes into a quote ledger with ids, a theme-by-source count table and a written strength rule, ending with a self-check that every quote is verbatim. Code many reviews, tickets or survey answers with a printed frame, counts and a loud-minority check. Analyse why customers cancel, separating the stated reason from the one the notes show. Check interview guides for leading questions, or build one from a goal. Build an ideal customer profile where every line is backed by ids or marked as an assumption. Participants are pseudonymised; quotes and customers are never invented.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2F6B5E",
+    "brandColorDark": "#6FB5A3",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why did they cancel? C1 'too pricey' (setup never finished, 2 logins) C2 'too pricey' C3 'moved to a rival' C4 'owner left'",
+      "Check my interview guide: 'Would you use a faster invoicing tool? Don't you hate manual entry? How much would you pay?'",
+      "Theme 5 calls: S1 'Close takes 4 days' S2 'We re-key invoices' S3 'I copy bank rows' S4 'Fridays go on exports' S5 'Close is OK'"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/customer-research/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

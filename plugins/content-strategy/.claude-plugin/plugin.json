@@ -1,0 +1,29 @@
+{
+  "name": "content-strategy",
+  "displayName": "Content Strategy Kit",
+  "version": "0.1.0",
+  "description": "Decide what content to make, fix or retire: a fate table for existing pages with the rule behind each decision, a topic map with buyer stage, intent and the new information each topic needs, a plan sized to the team's real hours with a printed planning score, writer briefs with proof slots, and lead-magnet plans. It plans; it does not write the content or build campaigns.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/content-strategy",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "content-strategy",
+    "content-plan",
+    "editorial-calendar",
+    "content-audit",
+    "content-inventory",
+    "content-pruning",
+    "topic-map",
+    "content-brief",
+    "content-prioritization",
+    "lead-magnet",
+    "b2b-content"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/content-strategy/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/content-strategy/README.md"
+}

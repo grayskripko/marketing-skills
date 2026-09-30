@@ -1,0 +1,49 @@
+{
+  "name": "cold-email",
+  "version": "0.1.0",
+  "description": "Review, check and write one-to-one business cold emails. A 12-check review with the user's facts locked and a change log, a pre-send check of merge fields, compliance lines and sender setup from pasted records, and sequences written from an offer brief with proof placeholders. It writes and checks only: it never sends, scrapes, finds addresses or adds contacts to any tool.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/cold-email",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "cold email",
+    "cold outreach",
+    "b2b outreach",
+    "sales email",
+    "follow-up",
+    "email sequence",
+    "email review",
+    "sender setup",
+    "spf dkim dmarc",
+    "can-spam"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Cold Email Kit",
+    "shortDescription": "Review and check cold emails",
+    "longDescription": "Five skills for careful one-to-one business outreach. Review a cold email with a 12-check scorecard that quotes the evidence, names the first failing check and rewrites it with every number, name and claim locked and a change log first. Check an email before you send it: merge fields across up to 25 sample rows, compliance lines such as sender identity, postal address and opt-out, and a sender-setup table built only from SPF, DKIM or DMARC records you paste. Write a short sequence from your offer with the plan printed first and proof placeholders instead of invented proof. Build an offer brief, and turn your prospect notes into dated opening lines. Nothing is sent, looked up or scraped.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Review and fix this cold email: \"Re: our chat. Hi {{firstName}}, Northwind cuts AP time 40%. Book a call or see the deck\"",
+      "Check before sending: \"Hi {{first_name}}, saw {{company}} is hiring AP staff.\" Rows: Ana,Acme | ,Globex | Li,Initech (Payroll)",
+      "Why might my cold emails land in junk? SPF: v=spf1 include:_spf.mailhost.test ~all. DKIM: none pasted. DMARC: none"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/cold-email",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/cold-email/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}
