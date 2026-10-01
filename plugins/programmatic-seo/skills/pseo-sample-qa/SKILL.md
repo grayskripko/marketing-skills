@@ -39,7 +39,7 @@ Accept 3 to 20 pages, each labelled with its key value (city, tool, product). If
 
 ## Step 2. Normalise and check key-only variation
 
-Follow `references/similarity-method.md`: visible text only, sentence splitting that keeps decimals and placeholders whole, lower case, key value replaced by `<KEY>`. Before removing anything, list pages whose masked text matches another page exactly. If at least 80% of the sample is such pages, say "the sample is one page with the key swapped" and go to Step 5.
+Follow `references/similarity-method.md`: visible text only, sentence splitting that keeps decimals and placeholders whole, lower case, key value replaced by `<ITEM>`. Before removing anything, list pages whose masked text matches another page exactly. If at least 80% of the sample is such pages, say "the sample is one page with the key swapped" and go to Step 5.
 
 ## Step 3. Strip and measure
 

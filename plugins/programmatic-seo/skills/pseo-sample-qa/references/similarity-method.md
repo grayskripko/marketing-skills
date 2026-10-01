@@ -6,7 +6,7 @@ Computed with the host's code tool when available. All thresholds are heuristics
 
 1. Visible text only. Drop navigation, footer and script text if they were pasted.
 2. Split into sentences at `.`, `!` or `?` followed by a space and an upper-case letter, at line breaks, or at the end of the text. Never split between two digits (so "0.8" stays whole) or inside a placeholder such as `{{city}}` or `[DATA NEEDED]`.
-3. Lower case. Replace the page's key value, and any variants the user lists, with `<KEY>`.
+3. Lower case. Replace the page's key value, and any variants the user lists, with `<ITEM>`.
 4. Key-only check, before any stripping: a page whose masked text is identical to another page's masked text is a key-only variation. If at least 80% of the samples are key-only variations of one another, report "the sample is one page with the key swapped" and skip the matrix; the remaining steps would strip everything.
 5. Template strip: a normalised sentence that appears in at least 80% of the samples is removed from every page. Print the removed sentences.
 6. Tokens for shingles: split the remainder on whitespace and punctuation, drop empty tokens. Numbers become separate tokens here ("1.2%" becomes "1", "2"); this is for shingles only.
