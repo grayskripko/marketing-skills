@@ -1,0 +1,48 @@
+{
+  "name": "programmatic-seo",
+  "version": "0.1.0",
+  "description": "For template-based SEO pages built from a dataset, not programmatic advertising. Decide whether a page set deserves to exist from your rows, specify the template, check pasted sample pages for near-duplicates and thin content, and roll out in gated batches with stop rules. Every verdict follows a printed table; it never writes the pages and never estimates search volume.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/breeze/plugins/programmatic-seo",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "programmatic seo",
+    "pseo",
+    "template pages",
+    "page templates",
+    "dataset pages",
+    "duplicate content",
+    "internal linking",
+    "indexation",
+    "rollout"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Programmatic SEO Gate",
+    "shortDescription": "Unique-page checks for pSEO",
+    "longDescription": "Four skills for template-based SEO pages built from a dataset, not programmatic advertising. Viability classifies your columns, scores each row by the distinguishing values it carries and returns Go, Narrow with the passing rows, or No-go. Template spec turns an approved page type into a block table, a variable-text target, banned blocks, noindex and merge rules, and a block map for one row. Sample check removes the shared template from pasted pages, masks the key value and prints a similarity matrix with near-duplicate and thin flags. Rollout plans the hierarchy, sitemap split and pilot batch, and computes stop rules from the batch counts you type. It never writes the pages, never estimates search volume and works only on data you paste.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#3E5C3A",
+    "brandColorDark": "#B9DDB2",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Page per tool? tool,fee,days,currencies,api / Acme,1.2%,2,3,y / Globex,1.2%,2,3,y / Initech,0.9%,5,12,n / Umbra,0.7%,1,8,n",
+      "Spec a template for 'Northwind Ledger vs {competitor}' pages. Columns: competitor, fee, payout_days, currencies, api",
+      "Rollout for 800 integration pages: batch 1 published 40, indexed 15, 6 indexed with zero impressions. Continue or stop?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/breeze/plugins/programmatic-seo",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/breeze/plugins/programmatic-seo/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}
