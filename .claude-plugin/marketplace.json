@@ -32,7 +32,7 @@
       "description": "Plan content to your team's capacity: inventory fates, topic map, prioritized quarter plan, briefs, lead magnets."
     },
     {
-      "name": "token-saver",
+      "name": "token-saver-kit",
       "source": "./plugins/token-saver",
       "description": "Short-but-safe answers, session handoff notes, context diet and lossless instruction trimming."
     },

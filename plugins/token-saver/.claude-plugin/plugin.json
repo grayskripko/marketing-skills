@@ -1,13 +1,13 @@
 {
-  "name": "token-saver",
+  "name": "token-saver-kit",
   "displayName": "Token Saver Kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lower token use in AI chat and coding sessions without losing meaning: short but safe answers that keep commands, numbers, warnings and confirmations even when asked to drop them, handoff notes that let a fresh session resume, an audit of what your setup loads into every request, trimming of long instruction files that keeps every rule, and reading plans that gather context with fewer file reads.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
   },
-  "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/token-saver",
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/gale/plugins/token-saver",
   "repository": "https://github.com/grayskripko/marketing-skills",
   "license": "MIT",
   "keywords": [
@@ -21,7 +21,7 @@
     "prompt-length",
     "reading-plan"
   ],
-  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/token-saver/PRIVACY.md",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/gale/plugins/token-saver/PRIVACY.md",
   "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
-  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/token-saver/README.md"
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/gale/plugins/token-saver/README.md"
 }

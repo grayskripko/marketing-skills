@@ -9,7 +9,7 @@ Skills-only plugins for marketing work, by Sergey Skripko. Each plugin lives in 
 | [copywriting-kit](plugins/copywriting-kit/) | Diagnose, edit and draft marketing copy with a fact lock, a rule-by-rule change log and a proof check against your own evidence. |
 | [cold-email](plugins/cold-email/) | Review, check and write cold emails: scorecard with a fact lock, per-row merge QA, sender-setup checks from pasted DNS records. |
 | [content-strategy](plugins/content-strategy/) | Decide what to keep, merge or retire, map topics, and plan a quarter that fits your team's hours. |
-| [token-saver](plugins/token-saver/) | Short-but-safe answers, session handoff notes, context diet and lossless instruction trimming. |
+| [token-saver-kit](plugins/token-saver/) | Short-but-safe answers, session handoff notes, context diet and lossless instruction trimming. |
 | [customer-research](plugins/customer-research/) | Interview guides, traceable synthesis, feedback and churn analysis, evidence-backed customer profiles. |
 
 ## Install in Claude Code
@@ -21,7 +21,7 @@ Skills-only plugins for marketing work, by Sergey Skripko. Each plugin lives in 
 /plugin install copywriting-kit@marketing-skills
 /plugin install cold-email@marketing-skills
 /plugin install content-strategy@marketing-skills
-/plugin install token-saver@marketing-skills
+/plugin install token-saver-kit@marketing-skills
 /plugin install customer-research@marketing-skills
 ```
 
