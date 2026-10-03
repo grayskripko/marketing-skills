@@ -87,7 +87,7 @@
       "description": "Get sellers ready and keep them sharp. Score a call you want coached against a behaviour rubric with a quoted line behind every score and recomputable talk and question counts."
     },
     {
-      "name": "cro",
+      "name": "cro-kit",
       "source": "./plugins/cro",
       "description": "Conversion rate optimization (CRO) for your own pages, forms, checkouts and A/B tests. Checks a page's layout, offer facts, trust signals, friction, speed field data and goal."
     }

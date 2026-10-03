@@ -20,7 +20,7 @@ Skills-only plugins for marketing work, by Sergey Skripko. Each plugin lives in 
 | [lead-magnets](plugins/lead-magnets/) | Lead Magnets Kit: Plan, check, read lead magnets. |
 | [community-marketing](plugins/community-marketing/) | Community Marketing Kit: Community growth, disclosed. |
 | [sales-enablement](plugins/sales-enablement/) | Sales Enablement Kit: Rep practice and coaching. |
-| [cro](plugins/cro/) | CRO Audit and Test Kit: Page checks and A/B test math. |
+| [cro-kit](plugins/cro/) | CRO Audit and Test Kit: Page checks and A/B test math. |
 
 ## Install in Claude Code
 
@@ -42,7 +42,7 @@ Skills-only plugins for marketing work, by Sergey Skripko. Each plugin lives in 
 /plugin install lead-magnets@marketing-skills
 /plugin install community-marketing@marketing-skills
 /plugin install sales-enablement@marketing-skills
-/plugin install cro@marketing-skills
+/plugin install cro-kit@marketing-skills
 ```
 
 ## Support
