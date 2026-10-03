@@ -1,0 +1,52 @@
+{
+  "name": "site-architecture",
+  "version": "0.1.0",
+  "description": "Plan a website's information architecture: a page tree where every page has exactly one parent, URL rules, navigation labels and breadcrumbs; a link plan computed from a links export (source and target) that uses only your own URLs and shows click depth before and after; hub page and child page link specs; which filter URLs get indexable pages, with the URL count worked out; and a redirect map checked for chains, loops and homepage targets for URL changes and site moves. Not a search audit and not software architecture.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/site-architecture",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "site architecture",
+    "information architecture",
+    "url structure",
+    "url hierarchy",
+    "internal linking",
+    "link plan",
+    "click depth",
+    "hub pages",
+    "breadcrumbs",
+    "navigation labels",
+    "faceted navigation",
+    "redirect map",
+    "site migration"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Site Architecture Kit",
+    "shortDescription": "URL trees, links, redirects",
+    "longDescription": "Five skills for planning how a website is organised, each ending in numbered checks with the failing rows. Site architecture turns a page list, menus or a site description into a tree where every page has one parent, a page table, URL rules, a navigation and breadcrumb spec with label checks, and a list of moved URLs. Link plan reads a links export, computes click depth and inlinks, proposes up to 30 new in-text links that use only URLs found in your data, and recomputes depth with the plan applied. Hub design wires one topic's pages into a hub with child pages and a link matrix. Facet policy counts the URLs your filters can create and decides which may be crawled and indexed, with a robots.txt and noindex conflict check. Redirect map builds or checks a map for chains, loops, homepage targets and temporary codes, and gives a launch checklist. Rules are cited to Google Search Central and Nielsen Norman Group pages with the date read; the plugin gives no traffic forecasts. It reads what you paste and, only if you name your own site and your assistant has a web tool, its robots.txt, up to three sitemaps and up to five public pages. It changes nothing on your site.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F5C4A",
+    "brandColorDark": "#BFE6D6",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Laptop filters, single-select: brand 8, RAM 4, GPU 6, screen 5, price 6. How many filter URLs, and which to index?",
+      "Plan the URL tree for a B2B SaaS site: 6 features, 40 integrations, blog, docs, pricing. One parent per page; nav spec.",
+      "Check my redirects: /old-pricing→/plans, /plans→/pricing, /team→/about, /about→/team, /guide→/, /Plans→/pricing (302)"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/site-architecture",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/site-architecture/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

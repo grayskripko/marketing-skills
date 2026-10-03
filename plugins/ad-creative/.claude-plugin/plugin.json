@@ -1,0 +1,29 @@
+{
+  "name": "ad-creative",
+  "displayName": "Ad Creative Preflight Kit",
+  "version": "0.1.0",
+  "description": "Character counts and numbered platform rules for ad text, then a statistical read of creative results. Counts every field against dated Google, Meta, LinkedIn and TikTok limits using each platform's counting rule; lists each problem with its rule id, source and read date; keeps a claim ledger so no figure appears without the user's proof; reads ad results with a declared primary metric, intervals and the impressions still needed; and builds search and social variant sets and evidence-traced angles that pass the same checks. Works only on text and numbers you paste; makes no images or video and changes nothing in any ad account.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/ad-creative",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ad-preflight",
+    "ad-copy",
+    "ad-policy",
+    "character-limits",
+    "responsive-search-ads",
+    "performance-max-assets",
+    "claim-ledger",
+    "creative-testing",
+    "test-readout",
+    "ad-angles",
+    "safe-zone"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/ad-creative/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/ad-creative/README.md"
+}

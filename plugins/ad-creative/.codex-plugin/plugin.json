@@ -1,0 +1,50 @@
+{
+  "name": "ad-creative",
+  "version": "0.1.0",
+  "description": "Character counts and numbered platform rules for ad text, then a statistical read of creative results. Counts every field against dated Google, Meta, LinkedIn and TikTok limits using each platform's counting rule; lists each problem with its rule id, source and read date; keeps a claim ledger so no figure appears without the user's proof; reads ad results with a declared primary metric, intervals and the impressions still needed; and builds search and social variant sets and evidence-traced angles that pass the same checks. Works only on text and numbers you paste; makes no images or video and changes nothing in any ad account.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/ad-creative",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ad preflight",
+    "ad copy",
+    "ad policy",
+    "character limits",
+    "responsive search ads",
+    "performance max assets",
+    "claim ledger",
+    "creative testing",
+    "test readout",
+    "ad angles",
+    "safe zone"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ad Creative Preflight Kit",
+    "shortDescription": "Ad preflight and test readouts",
+    "longDescription": "Five skills for checking ad text before it runs and reading creative tests after. Ad preflight counts each field of the ad text you paste against dated limits for Google search and Performance Max, Meta Feed and Reels, LinkedIn single image and TikTok in-feed, using each platform's own counting rule, and shows where the feed will cut the text. It then screens every line against numbered platform rules and US, UK and EU claim rules, each with its source page and read date, keeps a claim ledger, checks the offer against your landing text, and gives each ad a Ready, Fix or Hold verdict. Ad test readout fixes the primary metric first, prints every rate with a Wilson interval, compares ads with difference intervals, adjusts for several variants, says whether the comparison was randomised, and works out how many more impressions and days a test needs. Search ad set and social ad set draft text sets from your facts only, with a combination test, safe-zone pixels and disclosure lines. Angle matrix turns reviews and comments into evidence-traced angles. Fields without a verified row are reported as unknown, and rows older than six months are flagged for re-checking. No images, video, spending or account changes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#3B3A7A",
+    "brandColorDark": "#B7B5F0",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Count and rule-check this Reels ad: 'Struggling with anxiety? AcmeCalm is the #1 app doctors recommend — 50% off today only!'",
+      "Ad A: 40,000 impressions, 520 clicks, 26 sales. Ad B: 38,000, 610, 22. Same ad set, 10 days. Which one won?",
+      "15 RSA headlines + 4 descriptions for a payroll app. Facts: 14-day trial, no card to try, from $39/mo, setup in one day."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/ad-creative",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/ad-creative/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

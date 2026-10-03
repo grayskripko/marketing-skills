@@ -1,0 +1,31 @@
+{
+  "name": "site-architecture",
+  "displayName": "Site Architecture Kit",
+  "version": "0.1.0",
+  "description": "Plan a website's information architecture: a page tree where every page has exactly one parent, URL rules, navigation labels and breadcrumbs; a link plan computed from a links export (source and target) that uses only your own URLs and shows click depth before and after; hub page and child page link specs; which filter URLs get indexable pages, with the URL count worked out; and a redirect map checked for chains, loops and homepage targets for URL changes and site moves. Not a search audit and not software architecture.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/site-architecture",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "site-architecture",
+    "information-architecture",
+    "url-structure",
+    "url-hierarchy",
+    "internal-linking",
+    "link-plan",
+    "click-depth",
+    "hub-pages",
+    "breadcrumbs",
+    "navigation-labels",
+    "faceted-navigation",
+    "redirect-map",
+    "site-migration"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/site-architecture/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/site-architecture/README.md"
+}

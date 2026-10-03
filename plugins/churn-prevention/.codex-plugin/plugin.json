@@ -1,0 +1,53 @@
+{
+  "name": "churn-prevention",
+  "version": "0.1.0",
+  "description": "Keep subscribers with checks you can recompute. Audit a cancel flow against 16 numbered checks and dated cancellation rules for the US (federal and California), the EU and the UK; judge a save offer by who still pays after the discount ends, against a holdout; sort failed payments by decline code into never retry, customer must act, and retry within card-network caps; test churn signals on your own history for lift, coverage and lead time; plan a consent-checked win-back for cancelled subscriptions. Reads what you paste, quotes no benchmarks, and never makes cancelling harder. Not legal advice.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/churn-prevention",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "churn prevention",
+    "cancel flow",
+    "save offer",
+    "involuntary churn",
+    "failed payments",
+    "dunning",
+    "payment retries",
+    "decline codes",
+    "churn signals",
+    "subscription win-back",
+    "subscription retention",
+    "click to cancel",
+    "cancellation rules",
+    "holdout test"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Churn Prevention Kit",
+    "shortDescription": "Cancel flows, dunning, signals",
+    "longDescription": "Five skills for keeping subscribers, each built on arithmetic you can recompute. A cancellation discount that looks like a 25.0% save rate (90 of 360 accepted) can turn out, measured in the first full-price month against a holdout, to be 15.0% vs 10.0%, a difference of 5.0 points with a 95% interval from -8.5 to +12.3: not established. Cancel-flow audit checks a flow against 16 numbered checks and dated rules for the US (federal and California), the EU (including Germany and the EU withdrawal function) and the UK, and gives a redesign with one offer beside a visible cancel control. Save-offer economics separates acceptance, still paying after the discount, and gain over a holdout, with pause outcomes and cost per extra retained customer. Dunning plan sorts declines into never retry, customer must act, and wait-and-retry classes, checks retries against card-network limits and covers app-store grace periods. Churn signals tests which signals came before cancellations, with lift, recall, lead time and a leakage check. Win-back plan segments cancelled subscribers after consent checks and measures against a holdout. No benchmarks, no legal advice, and requests to make cancelling harder are declined.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F5F5B",
+    "brandColorDark": "#8FD3C7",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Audit my cancel flow: Settings > Plan > required survey > 50% off 'expires if you leave' > chat with support to finish.",
+      "Save offer, $50 plan: 360 saw it, 90 took 30% off for 3 months, 54 paid full price in month 4. Holdout 40: 4 paying. Worth it?",
+      "500 accounts, 60 cancelled. Seats removed fired on 50 (20 cancelled, 41 days ahead); export on 30 (18, 2 days). Act on which?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/churn-prevention",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/churn-prevention/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

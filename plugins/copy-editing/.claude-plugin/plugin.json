@@ -1,0 +1,30 @@
+{
+  "name": "copy-editing",
+  "displayName": "Copyedit & Proof Kit",
+  "version": "0.1.0",
+  "description": "Editing tools for prose you already have, from help articles and notices to reports and policies. A final proof that fixes only real slips, checks dates against weekdays, stated counts against lists and percentages against their total, and compares a final text with the approved one for a ship-or-hold verdict. A copyedit at the level you pick, light by default, with questions to the author instead of guesses. A style sheet and word list built from your own documents, with every variant counted and conflicting facts flagged. A cut to an exact word or character count with a ledger of what was removed. A refresh of one published page that lists every dated item and never invents a newer figure. Numbers, names and quotations keep their values. Checks are tuned for English.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/copy-editing",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "copy-editing",
+    "proofreading",
+    "final-proof",
+    "style-sheet",
+    "word-list",
+    "house-style",
+    "author-queries",
+    "tracked-changes",
+    "cut-to-length",
+    "word-count",
+    "content-refresh",
+    "outdated-content"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/copy-editing/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/copy-editing/README.md"
+}

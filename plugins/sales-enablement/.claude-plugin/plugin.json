@@ -1,0 +1,29 @@
+{
+  "name": "sales-enablement",
+  "displayName": "Sales Enablement Kit",
+  "version": "0.1.0",
+  "description": "Get sellers ready and keep them sharp. Score a call you want coached against a behaviour rubric with a quoted line behind every score and recomputable talk and question counts; certify reps with a knowledge check keyed to your own material and a role-play buyer who keeps facts back until asked; plan a demo where every scene answers a pain the buyer stated; find which recurring buyer questions your sellers answer without proof, not at all, or differently; and plan a rep's path to selling alone from your sales cycle and coaching hours. No benchmarks and nothing invented.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/sales-enablement",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "sales-enablement",
+    "sales-coaching",
+    "call-coaching",
+    "call-rubric",
+    "role-play",
+    "sales-certification",
+    "knowledge-check",
+    "rep-ramp",
+    "demo-plan",
+    "answer-gaps",
+    "seller-readiness"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/sales-enablement/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/sales-enablement/README.md"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "marketing-ideas",
+  "version": "0.1.0",
+  "description": "Checks whether a marketing idea can pay for the customers it brings before money is spent. From a product description it builds a context card (buyer, price, margin, demand state, existing assets), proposes one concrete idea per channel family, removes ideas that break disclosure or platform rules or lack a source of buyers, scores the rest with an evidence grade and returns one main bet plus two cheap probes. For a single idea it prints the most you can afford per customer, signup and click and whether a quoted cost fits. It writes test cards with pass and stop lines set before launch and a sample-size check, and reads channel test results with intervals. Every number is the user's or a labelled assumption.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/marketing-ideas",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "marketing ideas",
+    "growth ideas",
+    "acquisition channels",
+    "channel selection",
+    "channel fit",
+    "payback",
+    "break-even",
+    "go-to-market",
+    "growth experiments",
+    "experiment readout",
+    "startup marketing",
+    "launch platforms"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Marketing Ideas Kit",
+    "shortDescription": "Ideas gated on payback",
+    "longDescription": "Five skills for deciding which marketing ideas deserve money and how to tell whether they worked. Idea shortlist reads a product description, fills a context card with the buyer, price, margin, demand state and the assets the team already has, writes one concrete idea per channel family with a traffic source and a converter, removes ideas that are incomplete, break review, endorsement, email or platform rules, or fail on a cost you gave, and returns one main bet plus two probes with a not-now table. Idea ranking does the same for your own list, setting product features and content topics aside. Idea payback check takes one idea, such as a sponsorship, a booth or a launch day, and prints the most you can afford per customer, signup, click and person reached, a break-even table for a quoted cost, five failure modes and the cheapest test. Idea test card sets pass, iterate and stop lines before launch and checks whether the volume can show a result, switching to a threshold read when it cannot. Idea readout reads channel test counts with Wilson intervals, thin-sample labels and a coincidence check, and decides scale, iterate once, stop or inconclusive. No benchmarks and no invented rates: every number is yours or a labelled assumption, and every rule row carries the date it was read.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F5E4B",
+    "brandColorDark": "#9FE0C4",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Sponsor a 3,000-reader newsletter for $1,200? $39/mo plan, 85% margin, 6-mo payback; assume 2% click, 10% trial, 40% paid.",
+      "Marketing ideas for my $39/mo stock app for indie bookstores: 85% margin, 6-mo payback, $300/mo cash, 2 founders, 140 stores.",
+      "Results: 120 cold emails, 0 replies. 18 stores via distributor reps: 5 trials, 2 paid. Scale, iterate or stop each channel?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/marketing-ideas",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/marketing-ideas/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

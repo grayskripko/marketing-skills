@@ -1,0 +1,51 @@
+{
+  "name": "copy-editing",
+  "version": "0.1.0",
+  "description": "Editing tools for prose you already have, from help articles and notices to reports and policies. A final proof that fixes only real slips, checks dates against weekdays, stated counts against lists and percentages against their total, and compares a final text with the approved one for a ship-or-hold verdict. A copyedit at the level you pick, light by default, with questions to the author instead of guesses. A style sheet and word list built from your own documents, with every variant counted and conflicting facts flagged. A cut to an exact word or character count with a ledger of what was removed. A refresh of one published page that lists every dated item and never invents a newer figure. Numbers, names and quotations keep their values. Checks are tuned for English.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/copy-editing",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "copy editing",
+    "proofreading",
+    "final proof",
+    "style sheet",
+    "word list",
+    "house style",
+    "author queries",
+    "tracked changes",
+    "cut to length",
+    "word count",
+    "content refresh",
+    "outdated content"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Copyedit & Proof Kit",
+    "shortDescription": "Proof, copyedit, style, cut",
+    "longDescription": "Five skills for the editor's side of writing, on text you paste or attach.\n\nProofread is the final check: separate passes for spelling, grammar, punctuation, confusable words, doubled words, numbers, dates, names, references, link text, leftover markers and revision debris, each with a count even when it is zero. Weekdays are checked against dates, stated counts against the items listed and percentages against their total. Given an approved and a final version, it lists every difference as expected or unexpected and returns Ship or Hold.\n\nRedline edit is a copyedit at a light, medium or heavy level, light by default. Every change is logged with a category and a reason, unclear points become author queries, deliberate habits are left alone, and medium and heavy edits add plain-language checks before and after. Tracked changes in CriticMarkup on request.\n\nStyle sheet counts spelling, capital, hyphen, number and date variants in each of your documents, decides each with its basis, leaves near-ties open, flags facts that disagree between documents, checks cross-references and gives an exact find-and-replace list and a word list.\n\nCut to length hits a word, character or reading-time target exactly, protects the facts you name, logs every cut and says what the reader loses.\n\nContent refresh lists every dated item on one published page, converts relative dates against the publish date, changes only items you give new facts for, and marks the rest for checking.\n\nWhat it will not do: persuasion or conversion rewrites, rewriting website or marketing copy for impact, new copy, checking claims against evidence, reviews against voice or tone guides, translation, legal review, or making text pass AI detectors. Checks are tuned for English.",
+    "developerName": "Sergey Skripko",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#3B3F6B",
+    "brandColorDark": "#F2B544",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Final proof vs approved. Approved: 'Up to 10 guests each.' Final: 'Up to 100 guests each. Doors open Thursday 4 November 2026.'",
+      "Cut to 13 words, keep times: 'Starting from next month, the office will be open from 8 am until 6 pm on weekdays only.'",
+      "Posted 10 June 2024, now 3 Oct 2026. What is stale? 'Last year we added Saturday opening. Our laser cutter arrives this autumn.'"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/copy-editing",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/copy-editing/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

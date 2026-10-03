@@ -1,0 +1,49 @@
+{
+  "name": "cro",
+  "version": "0.1.0",
+  "description": "Conversion rate optimization (CRO) for your own pages, forms, checkouts and A/B tests. Checks a page's layout, offer facts, trust signals, friction, speed field data and goal tracking, and a form, signup or checkout field by field against dated EU and US checkout rules (UK rows unverified). Every finding is labelled as seen on the page, from your data or assumed, and gets one decision: fix now, A/B test, or research first. Finds where a funnel loses people, with intervals, segment gaps and a mix-shift check. Sizes A/B tests with the formula printed and says whether they can finish at your traffic. Judges finished tests only after checking the traffic split, planned sample, whole weeks and false-positive risk. Works on aggregate counts; it does not write copy or build deceptive variants.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/cro",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "cro",
+    "conversion rate optimization",
+    "checkout audit",
+    "form friction",
+    "funnel drop-off",
+    "ab test sample size",
+    "ab test duration",
+    "ab test verdict",
+    "sample ratio mismatch",
+    "false positive risk"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CRO Audit and Test Kit",
+    "shortDescription": "Page checks and A/B test math",
+    "longDescription": "Five skills for conversion rate optimization (CRO) on your own site, each with a fixed deliverable and the arithmetic printed. Page audit scores one landing, pricing, product, demo or signup page on thirteen rows: layout, whether the facts promised by the traffic source are on the first screen, cost and commitment, attributable proof, interruptions, speed from real-user field data, tap targets and contrast, continuity to the next step, and whether the goal event can be trusted. Every score quotes its evidence and is labelled seen, data or assumed; every problem becomes a fix card with one decision: fix now, A/B test, or research first, with the research method named. Wording is never scored. Flow audit builds a field ledger for a lead, opt-in or demo form, signup or checkout, runs sixteen flow checks and screens the checkout against dated EU and US rules (UK rows unverified) on the order summary and order-button wording, input-error correction, pre-selected extras, payment fees, mandatory fees in the price, auto-renewal terms and consent boxes, with PASS, FIX or CHECK and the date each rule was read. Funnel leaks reads step counts with Wilson intervals, Newcombe intervals for segment gaps and a check for traffic-mix shifts, and sizes conversions at stake only against a reference you name. A/B test plan prints the sample size per arm, whole weeks and a feasibility verdict before anything is built, plus a hypothesis card with the stopping and decision rules. A/B test verdict checks the traffic split first, then the plan, stopping and novelty, and only then reads the effect with intervals, false-positive risk and Holm correction, ending with Ship, Don't ship, Inconclusive or Invalid. Works on aggregate counts only; no benchmarks, no predicted lifts, no deceptive variants.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F5E4B",
+    "brandColorDark": "#8FD1B6",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "A/B test on our pricing page: A 300/10,000 signups, B 345/10,150. 50/50 split, 14 days. Can we ship B?",
+      "Signup rate is 3% on 6,000 visitors a week. How long must an A/B test run to detect a 10% relative lift?",
+      "Audit our checkout: 4 steps, account required, 16 fields, shipping cost shown only at the last step. We sell to EU and US."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/cro",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/cro/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

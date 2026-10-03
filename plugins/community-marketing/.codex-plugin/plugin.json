@@ -1,0 +1,51 @@
+{
+  "name": "community-marketing",
+  "version": "0.1.0",
+  "description": "Community marketing without astroturfing. Before someone connected to a product posts in a forum, subreddit, chat server or launch site they don't run, check the draft: connection stated in the opening sentence, the venue's own rules (pasted, or one public rules page), vote requests, links, and whether the venue allows AI-written text, with a Post, Revise, Ask the moderators first or Do not post verdict. Map how to take part in communities you already belong to, set up an ambassador or employee-advocacy programme with a disclosure kit and incentive rules for the US, UK and EU (each rule dated), read your own community's health from an export with sample sizes and intervals, and write guidelines, a moderation ladder and incident handling. Not legal advice. Refuses fake accounts, undisclosed promotion, vote or review manipulation and member scraping.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/community-marketing",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "community marketing",
+    "online community",
+    "community health",
+    "newcomer retention",
+    "time to first response",
+    "ambassador program",
+    "employee advocacy",
+    "brand advocates",
+    "affiliation disclosure",
+    "self-promotion rules",
+    "community guidelines",
+    "moderation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Community Marketing Kit",
+    "shortDescription": "Community growth, disclosed",
+    "longDescription": "Five skills for growing through communities while staying honest about who is speaking. Community post check reviews a draft that someone connected to a product wants to put in a forum, subreddit, chat server or launch site run by others. It runs thirteen checks, from the connection stated in the opening sentence to whether the venue allows AI-written text, and returns Post, Revise, Ask the moderators first or Do not post. Where the venue bans or has not stated its stance on AI text, it gives an outline to write yourself. Venue rules maps up to eight communities you already take part in to a participation mode, from contribute-only to stay out, with no posting schedule. Advocate program builds a disclosure kit that holds under both US and UK sources, a table of incentive and review rules for the US, UK and EU, a monitoring plan and a post audit. Community health reads an export of your own community: unanswered questions, time to first human response, and newcomer return. Example: 50.0% of newcomers who got a reply posted again against 16.7% of those who did not, a gap of 33.3 points with a 95% interval of 14.9 to 47.0. Community blueprint covers one outcome, join, sponsor or build, guidelines, a moderation ladder and incidents. Every rule carries the date it was read. Not legal advice.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#3B5249",
+    "brandColorDark": "#E7C873",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "I work on Rivetci. Check this sysadmin reply: \"Tired of flaky CI? I found Rivetci, it fixed everything. Upvote if it helps!\"",
+      "30 days: 300 questions, 48 unanswered. Newcomers: 42 of 84 who got a reply posted again, 6 of 36 who didn't. What does it say?",
+      "40 ambassadors get our paid plan at no cost plus swag and post about us. What must they disclose, and what can't we ask?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/community-marketing",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/community-marketing/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

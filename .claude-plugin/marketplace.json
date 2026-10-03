@@ -1,6 +1,6 @@
 {
   "name": "marketing-skills",
-  "description": "Skills-only plugins by Sergey Skripko: SEO audits, AI search visibility, copy editing, cold email, content strategy, customer research, token saving.",
+  "description": "Skills-only plugins by Sergey Skripko for marketing, SEO, sales and growth work.",
   "owner": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
@@ -40,6 +40,56 @@
       "name": "customer-research",
       "source": "./plugins/customer-research",
       "description": "Turn interviews, feedback and churn notes into traceable evidence: quote ledger, counts, strength rule."
+    },
+    {
+      "name": "site-architecture",
+      "source": "./plugins/site-architecture",
+      "description": "Plan a website's information architecture: a page tree where every page has exactly one parent, URL rules, navigation labels and breadcrumbs; a link plan computed from a links."
+    },
+    {
+      "name": "copy-editing",
+      "source": "./plugins/copy-editing",
+      "description": "Editing tools for prose you already have, from help articles and notices to reports and policies. A final proof that fixes only real slips, checks dates against weekdays, stated."
+    },
+    {
+      "name": "marketing-ideas",
+      "source": "./plugins/marketing-ideas",
+      "description": "Checks whether a marketing idea can pay for the customers it brings before money is spent. From a product description it builds a context card (buyer, price, margin, demand state."
+    },
+    {
+      "name": "churn-prevention",
+      "source": "./plugins/churn-prevention",
+      "description": "Keep subscribers with checks you can recompute. Audit a cancel flow against 16 numbered checks and dated cancellation rules for the US (federal and California), the EU and the UK."
+    },
+    {
+      "name": "ad-creative",
+      "source": "./plugins/ad-creative",
+      "description": "Character counts and numbered platform rules for ad text, then a statistical read of creative results. Counts every field against dated Google, Meta, LinkedIn and TikTok limits."
+    },
+    {
+      "name": "marketing-psychology",
+      "source": "./plugins/marketing-psychology",
+      "description": "Evidence grades and consumer-protection rule checks for the psychology in your marketing. Grade a claim such as 'losses hurt twice as much' against the original studies and their."
+    },
+    {
+      "name": "lead-magnets",
+      "source": "./plugins/lead-magnets",
+      "description": "Check an opt-in page, form, thank-you page and confirmation email against dated consent and sender rules for the US, EU and UK, and plan what each sign-up may receive given the."
+    },
+    {
+      "name": "community-marketing",
+      "source": "./plugins/community-marketing",
+      "description": "Community marketing without astroturfing. Before someone connected to a product posts in a forum, subreddit, chat server or launch site they don't run, check the draft: connection."
+    },
+    {
+      "name": "sales-enablement",
+      "source": "./plugins/sales-enablement",
+      "description": "Get sellers ready and keep them sharp. Score a call you want coached against a behaviour rubric with a quoted line behind every score and recomputable talk and question counts."
+    },
+    {
+      "name": "cro",
+      "source": "./plugins/cro",
+      "description": "Conversion rate optimization (CRO) for your own pages, forms, checkouts and A/B tests. Checks a page's layout, offer facts, trust signals, friction, speed field data and goal."
     }
   ]
 }

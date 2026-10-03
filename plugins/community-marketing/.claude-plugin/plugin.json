@@ -1,0 +1,30 @@
+{
+  "name": "community-marketing",
+  "displayName": "Community Marketing Kit",
+  "version": "0.1.0",
+  "description": "Community marketing without astroturfing. Before someone connected to a product posts in a forum, subreddit, chat server or launch site they don't run, check the draft: connection stated in the opening sentence, the venue's own rules (pasted, or one public rules page), vote requests, links, and whether the venue allows AI-written text, with a Post, Revise, Ask the moderators first or Do not post verdict. Map how to take part in communities you already belong to, set up an ambassador or employee-advocacy programme with a disclosure kit and incentive rules for the US, UK and EU (each rule dated), read your own community's health from an export with sample sizes and intervals, and write guidelines, a moderation ladder and incident handling. Not legal advice. Refuses fake accounts, undisclosed promotion, vote or review manipulation and member scraping.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/community-marketing",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "community-marketing",
+    "online-community",
+    "community-health",
+    "newcomer-retention",
+    "time-to-first-response",
+    "ambassador-program",
+    "employee-advocacy",
+    "brand-advocates",
+    "affiliation-disclosure",
+    "self-promotion-rules",
+    "community-guidelines",
+    "moderation"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/community-marketing/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/community-marketing/README.md"
+}

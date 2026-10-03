@@ -1,0 +1,30 @@
+{
+  "name": "marketing-ideas",
+  "displayName": "Marketing Ideas Kit",
+  "version": "0.1.0",
+  "description": "Checks whether a marketing idea can pay for the customers it brings before money is spent. From a product description it builds a context card (buyer, price, margin, demand state, existing assets), proposes one concrete idea per channel family, removes ideas that break disclosure or platform rules or lack a source of buyers, scores the rest with an evidence grade and returns one main bet plus two cheap probes. For a single idea it prints the most you can afford per customer, signup and click and whether a quoted cost fits. It writes test cards with pass and stop lines set before launch and a sample-size check, and reads channel test results with intervals. Every number is the user's or a labelled assumption.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/marketing-ideas",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "marketing-ideas",
+    "growth-ideas",
+    "acquisition-channels",
+    "channel-selection",
+    "channel-fit",
+    "payback",
+    "break-even",
+    "go-to-market",
+    "growth-experiments",
+    "experiment-readout",
+    "startup-marketing",
+    "launch-platforms"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/marketing-ideas/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/marketing-ideas/README.md"
+}

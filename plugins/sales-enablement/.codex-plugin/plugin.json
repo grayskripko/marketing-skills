@@ -1,0 +1,50 @@
+{
+  "name": "sales-enablement",
+  "version": "0.1.0",
+  "description": "Get sellers ready and keep them sharp. Score a call you want coached against a behaviour rubric with a quoted line behind every score and recomputable talk and question counts; certify reps with a knowledge check keyed to your own material and a role-play buyer who keeps facts back until asked; plan a demo where every scene answers a pain the buyer stated; find which recurring buyer questions your sellers answer without proof, not at all, or differently; and plan a rep's path to selling alone from your sales cycle and coaching hours. No benchmarks and nothing invented.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/sales-enablement",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "sales enablement",
+    "sales coaching",
+    "call coaching",
+    "call rubric",
+    "role-play",
+    "sales certification",
+    "knowledge check",
+    "rep ramp",
+    "demo plan",
+    "answer gaps",
+    "seller readiness"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sales Enablement Kit",
+    "shortDescription": "Rep practice and coaching",
+    "longDescription": "Five skills for whoever gets sellers ready. Call coaching scores one to five transcripts against a behaviour rubric of eleven scored rows on a 0 to 2 scale, maximum 22 (or eight demo rows, maximum 16), with a verbatim quote and turn or time behind every score or a plain \"not observed\", plus seller word share, open and closed questions and their spread across the call, counted by printed rules; it ends with two strengths, two rewritten moments, one drill and a list of the claims the seller made. Rep certification writes a knowledge check from your own pricing, product or messaging material with every answer keyed to a numbered source line and a list of questions the material cannot answer, and runs a text role-play with a fictional buyer who reveals hidden facts only when the rep asks the right question, then scores it on the same rubric with a pass rule and spaced re-tests. Demo runbook plans scenes from the pains the buyer stated, with proof slots, check-ins, a don't-show list and a time check, or checks an existing demo script. Question bank reads conversations with seller replies and shows, per recurring buyer question, every seller answer and whether it was proven, missing or contradictory, with counts and intervals. Ramp plan sizes the path to selling alone from your sales cycle and compares coach hours needed with hours available. Scores are practice feedback for the person coached, never input to employment decisions; the kit does not rank, compare or monitor sellers and offers a coaching plan per skill area instead. No benchmarks and nothing invented.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F5C4A",
+    "brandColorDark": "#8FD3B8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "30-min demo for a VP Support. Pains: first reply takes 9 hours, no weekend cover. We have AI triage, shared inbox, reports.",
+      "Make a 10-question rep quiz with answer key from these rules: Pro $40/seat, min 10 seats, annual only, max discount 15%.",
+      "Role-play a skeptical CFO at a 200-person logistics firm. I sell route-planning software. Score me when I say stop."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/sales-enablement",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/sales-enablement/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "lead-magnets",
+  "displayName": "Lead Magnets Kit",
+  "version": "0.1.0",
+  "description": "Check an opt-in page, form, thank-you page and confirmation email against dated consent and sender rules for the US, EU and UK, and plan what each sign-up may receive given the consent it gave. Choose a lead magnet for an offer you sell by buyer stage, an honest link to the offer and the traffic you have, and decide whether and how to gate it. Draft the asset from your own material with proof and promise checks. Read sign-up and sales-call rates by lead magnet and traffic source, with sample sizes and intervals. No invented figures or social proof.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/storm/plugins/lead-magnets",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "lead-magnets",
+    "lead-magnet",
+    "gated-content",
+    "opt-in",
+    "email-capture",
+    "consent",
+    "gdpr-consent",
+    "can-spam",
+    "checklist",
+    "template",
+    "calculator",
+    "conversion-rate"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/lead-magnets/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/lead-magnets/README.md"
+}
