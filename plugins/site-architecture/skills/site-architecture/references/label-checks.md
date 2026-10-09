@@ -1,6 +1,6 @@
 # Menu label checks L-01 to L-08
 
-Run on header, dropdown, footer and breadcrumb labels. Report pass or fail with the labels and targets involved. These are judgement checks; say what a fix would look like rather than scoring.
+Run on header, dropdown, footer and breadcrumb labels. Report failing checks only, with the labels and targets involved. These are judgement checks; say what a fix would look like rather than scoring.
 
 | Id | Check | Example of a fail | Typical fix |
 |---|---|---|---|
@@ -11,6 +11,6 @@ Run on header, dropdown, footer and breadcrumb labels. Report pass or fail with 
 | L-05 | One target under two labels | `/integrations/slack` listed under Features and Integrations | One home (SA-01); a body link from the other section |
 | L-06 | Utility links mixed into topical menus | "Careers" inside the Product dropdown | Move utility links to the utility layer (header corner or footer) |
 | L-07 | One section named differently in header, footer and breadcrumb | "Docs" in the header, "Documentation" in the footer, "Help Center" in the breadcrumb | One name everywhere |
-| L-08 | The customers' word is missing while an internal term is used | Customers say "invoices", the menu says "Billing objects" | Only when the user supplies customer wording (reviews, search terms, support tickets); otherwise "Not checked" |
+| L-08 | The customers' word is missing while an internal term is used | Customers say "invoices", the menu says "Billing objects" | Only when the user supplies customer wording (reviews, search terms, support tickets); otherwise listed once under Not checked |
 
-Breadcrumbs: a section that is only one or two levels deep does not need a breadcrumb trail; show the current section clearly instead (NN-BC, guideline 7). A trail starts at the homepage, ends with the current page as plain text, and follows the hierarchy (NN-BC).
+Breadcrumbs: a site that is only one or two levels deep does not need a breadcrumb trail; show the current section clearly instead (NN-BC, guideline 7). A trail starts at the homepage, ends with the current page as plain text, and follows the hierarchy (NN-BC).

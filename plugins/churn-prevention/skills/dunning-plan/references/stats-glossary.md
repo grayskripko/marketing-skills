@@ -45,27 +45,28 @@ Lift gets no interval of its own; the decision uses the Newcombe interval of the
 
 | Term | Formula |
 |---|---|
-| Naive save | accepted ÷ shown the offer |
-| Retained | paying full price in the first billing cycle after the discount ends ÷ everyone shown the offer (accepted or not) |
+| Acceptance rate | accepted ÷ offered; never called a save |
+| Retained | paying full price in the first billing cycle after the discount ends ÷ everyone offered (accepted or not) |
 | Holdout retained | paying in the same cycle ÷ holdout members (shown no offer) |
 | Incremental | retained − holdout retained, with the Newcombe interval |
 | Net save | an accepter who pays full price in the first billing cycle after the discount or pause ends |
 
-## Sample size for two groups
+## Sample size for a holdout and a treated group
 
-People per group to detect a change from p1 to p2, two-sided α = 0.05, power 0.8 (both editable):
+To detect a change from p_h (holdout) to p_o (treated), two-sided α = 0.05, power 0.8 (both editable). The holdout is a share h of everyone; k = (1 − h) / h treated per held-out person (k = 9 for a 10% holdout, k = 1 for a 50/50 split):
 
 ```
-p̄ = (p1 + p2) / 2
-n = ( 1.96 × sqrt(2 p̄ (1−p̄)) + 0.8416 × sqrt(p1(1−p1) + p2(1−p2)) )² / (p1 − p2)²
+p̄ = (p_h + k × p_o) / (1 + k)
+holdout n = ( 1.96 × sqrt(p̄(1−p̄)(1 + 1/k)) + 0.8416 × sqrt(p_h(1−p_h) + p_o(1−p_o)/k) )² / (p_o − p_h)²
+treated n = k × holdout n
 ```
 
-Round up. Check: 10% → 15% gives 685.6, so 686 per group.
+Round up. Never divide the equal-split figure by the holdout share. Checks, 10% → 15%: k = 9 gives 399.3 → 400 held out, 3,600 treated, 4,000 in all; k = 1 gives 685.6 → 686 per group.
 
 ## Other rules
 
 - Mix shares (what fraction of declines are of each type) are shown as counts and percentages with no interval.
 - n = 0: print "no data", not 0%.
-- n below 20: keep the row, add "thin sample" (heuristic).
+- n below 20: keep the row, add "too few to tell" (heuristic).
 - Durations: median with n; the mean only if asked, beside the median.
 - Rounding: compare with any threshold first, then round half away from zero.

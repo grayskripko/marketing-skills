@@ -21,7 +21,7 @@ Verdicts: pass, fail, ask (a fact the user has not given decides it) or not chec
 | OP-08 | Every field has a stated use before the next step; a phone field only when a call is the next step. | CR-05; NN/g Whitenton 2016-05-01 |
 | OP-09 | Optional fields are marked as optional. | NN/g Whitenton 2016-05-01 |
 | OP-10 | Each field has a visible label, not placeholder text alone; in HTML, the email and name inputs declare their purpose for autofill. | NN/g Sherwin 2014-05-11; WCAG 2.2 SC 3.3.2, SC 1.3.5 |
-| OP-11 | No dialog or overlay hides the form or the page content on arrival, on mobile in particular. | Google Search Central, "Avoid intrusive interstitials and dialogs", updated 2025-12-10, read 2026-10-03 |
+| OP-11 | No dialog or overlay hides the form or the page content on arrival, on mobile in particular. A legally required dialog, such as cookie consent or an age check, is the exception. | Google Search Central, "Avoid intrusive interstitials and dialogs", updated 2025-12-10, read 2026-10-08 |
 
 ## Consent and notice (rows chosen by region)
 
@@ -40,7 +40,7 @@ Verdicts: pass, fail, ask (a fact the user has not given decides it) or not chec
 | OP-17 | The thank-you page delivers or links the asset at once, says what happens next and offers one next step. | heuristic |
 | OP-18 | Primary-purpose test on the confirmation email: if a reasonable reader would take the subject line or opening as advertising, the message is commercial and needs accurate sender details, an honest subject, a valid postal address, a clear opt-out honoured within 10 business days, and identification as an advertisement unless the recipient gave prior affirmative consent. A delivery email with a small mention in the footer can stay transactional; say which way it falls and suggest counsel when it is close. | CR-09 |
 | OP-19 | UK and EU mail: the sender's identity is not hidden and a valid address to stop messages is given. | CR-06, CR-08 |
-| OP-20 | Mailbox provider rules, for the user to confirm with their sending tool (the page text cannot show them, so ask unless confirmed): spam rate below 0.3% for every sender; for bulk senders, SPF, DKIM and DMARC, one-click unsubscribe plus a visible link, and unsubscribes honoured within 2 days at Yahoo. | SR-01, SR-02 |
+| OP-20 | Mailbox provider rules, for the user to confirm with their sending tool (the page text cannot show them, so ask unless confirmed): spam rate below 0.3% for mail to Gmail and Yahoo addresses; for bulk senders, SPF, DKIM and DMARC, one-click unsubscribe plus a visible link, and unsubscribes honoured within 2 days at Yahoo. | SR-01, SR-02 |
 
 ## Output format
 
@@ -50,6 +50,6 @@ Counts per group, then: id | check | verdict | quoted evidence | register id. Re
 
 Form: email, phone, company size, a pre-ticked "send me offers" box; visitors from the UK and EU; nothing else given.
 - Fail: OP-08 (phone and company size have no stated use; no call is promised), OP-12 (the box is ticked).
-- Ask: OP-13 (does the download work without the tick?), OP-15 (who collects the data, where is the notice?), OP-03 (only if the page shows a count), OP-07 (how does the asset arrive?).
-- Not checked (14): OP-01, OP-02, OP-04 to OP-06, OP-09 to OP-11, OP-14, OP-16 and OP-17 to OP-20 (no page, box wording, thank-you page or email text). 2 fail + 4 ask + 14 not checked = 20.
-- Rewrites: "Work email (we send the checklist here)" and "☐ Also send me product news. Optional; the checklist arrives either way."
+- Ask: OP-13 (does the download work without the tick?), OP-15 (who collects the data, where is the notice?), OP-07 (how does the asset arrive?).
+- Not checked (15): OP-01 to OP-06, OP-09 to OP-11, OP-14, OP-16 and OP-17 to OP-20 (no page, box wording, thank-you page or email text; the user mentioned no count). 2 fail + 3 ask + 15 not checked = 20.
+- Rewrites, in the user's own words: "Email (we send your download here)" and "☐ Send me offers. Optional; your download arrives either way."

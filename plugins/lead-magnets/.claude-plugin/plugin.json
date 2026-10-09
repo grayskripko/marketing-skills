@@ -1,8 +1,8 @@
 {
   "name": "lead-magnets",
   "displayName": "Lead Magnets Kit",
-  "version": "0.1.0",
-  "description": "Check an opt-in page, form, thank-you page and confirmation email against dated consent and sender rules for the US, EU and UK, and plan what each sign-up may receive given the consent it gave. Choose a lead magnet for an offer you sell by buyer stage, an honest link to the offer and the traffic you have, and decide whether and how to gate it. Draft the asset from your own material with proof and promise checks. Read sign-up and sales-call rates by lead magnet and traffic source, with sample sizes and intervals. No invented figures or social proof.",
+  "version": "0.1.1",
+  "description": "Pick a lead magnet for what you sell and decide whether to gate it; draft it from your own material with no invented figures; check an opt-in page, form, thank-you page and confirmation email against dated US, EU and UK consent and sender rules; plan what each sign-up may receive given the consent it gave; and compare sign-up and sales-call rates by magnet, with honest ranges for small numbers. Checks, not legal advice.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

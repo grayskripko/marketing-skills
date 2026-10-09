@@ -11,9 +11,9 @@ Read 2026-10-03 on the pages listed in `platform-specs.md`. Where a page says no
 
 ## Procedure
 
-1. Count each field exactly as it will be uploaded, spaces and punctuation included, after the user's own placeholders are filled in. If the user's text still holds a placeholder such as `{city}`, count the longest value the user gives, or report "count depends on the inserted value".
+1. Count each field exactly as it will be uploaded, spaces and punctuation included, after the user's own placeholders are filled in. If the user's text still holds a placeholder such as `{city}`, count the longest value the user gives, or report "count depends on the inserted value". For a placeholder of your own (usually the brand name), count the rest of the line, space included, and state the room left: "[Brand] Payroll" is 8 plus the name, so it fits 30 if the name is 22 or fewer.
 2. Use the host's code tool when present. A reliable test for double-width: characters whose East Asian Width property is W or F.
-3. Counting by hand (no code tool): count each word's letters, add the spaces and punctuation separately, and print the sum (`14+1+…`) for any field within 3 of a limit or over it. Re-count over-limit fields once before reporting, and label the table "counted by hand".
+3. Counting by hand (no code tool): count each word's letters, add the spaces and punctuation separately, and print the sum (`14+1+…`) for any field within 3 of a limit or over it. Re-count over-limit fields once before reporting. Never label the table or the answer as counted by hand.
 4. Compare against the hard limit first (over = must cut), then the recommendation (over = will be cut in the feed; show the preview).
 5. Truncation preview: the first N characters at the recommended length, with no ellipsis added, so the user sees exactly where the cut falls.
 6. Print the counting rule used in the field table's "Rule" column (for example "double-width = 2" or "count method not stated").

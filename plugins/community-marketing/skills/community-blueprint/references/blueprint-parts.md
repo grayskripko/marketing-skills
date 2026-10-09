@@ -10,7 +10,7 @@ Pick one of Support; Product ideation and feedback; Acquisition and advocacy; Co
 
 | Option | Weekly hours needed (user's estimate) | What you own | Exit risk | When it fits |
 |---|---|---|---|---|
-| Not yet: test demand | about 2 hours, once | nothing yet | none | demand is unknown: ask a sample of members or customers (the user sets the number) whether they would join and where they already talk; build only if enough say yes (threshold set by the user; heuristic of this plugin) |
+| Not yet: test demand | about 2 hours, once (heuristic of this plugin) | nothing yet | none | demand is unknown: ask a sample of members or customers (the user sets the number) whether they would join and where they already talk; build only if enough say yes (threshold set by the user; heuristic of this plugin) |
 | Join existing venues | the poster's own time | nothing; your posts live on someone else's site | rules or owners change | members already gather elsewhere and the poster takes part personally |
 | Sponsor a venue through its owners (Mode 4) | the owners' terms plus follow-up | an agreement, not the members, unless the deal says so | the owner can end it | a respected venue fits and the owners offer it |
 | Build your own | moderation, answering and newcomer replies, every week | member list, export and search indexing, depending on the platform | high if the platform has no export | the stated hours cover the weekly load |

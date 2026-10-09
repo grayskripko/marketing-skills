@@ -4,9 +4,9 @@ All values are computed on followable links after the data gate. Print each form
 
 ## Depth
 
-- Convention: the start URL (usually the homepage) has depth 0. If the user did not name it, take the shortest root URL in the data, say so, and ask once at the end. A page linked from it has depth 1, and so on.
+- Convention: the start URL (usually the homepage) has depth 0. If the user did not name it, take `/`, or the shortest URL in the data if `/` is missing, say so, and ask once at the end. A page linked from it has depth 1, and so on.
 - Method: breadth-first search from the start URL over followable links. Depth = number of links on the shortest path.
-- Report per folder or template: n, median, p90 (nearest-rank), max, and pages with no path ("unreached").
+- Report per folder or template: pages, median depth, p90 (nearest-rank), deepest, and pages with no path ("not reachable"). p90 means 9 in 10 pages are this many clicks from the start URL or fewer.
 - Second pass: remove links whose source or target is a paginated listing beyond page 1 (`?page=`, `/page/n`), then recompute. Pages that become unreached depend on pagination alone; list their count by folder.
 - Example: `/` → `/blog` → `/blog/okta-setup` → `/features/sso` gives `/features/sso` depth 3. Adding `/features` (depth 1) → `/features/sso` makes it depth 2.
 
@@ -31,7 +31,7 @@ All values are computed on followable links after the data gate. Print each form
 |---|---|---|---|
 | A | A pages / all pages | body inlinks into A pages / all body inlinks | second − first |
 
-- A negative gap means the important pages get fewer body links than their number suggests. No pass mark. The idea of linking by business value rather than demand alone comes from practitioner practice (PR).
+- A negative gap means the important pages get fewer body links than their number suggests. No pass mark. Linking by business value rather than demand alone is a convention of this plugin.
 
 ## Clusters (only when the user labels clusters)
 
@@ -43,4 +43,4 @@ All values are computed on followable links after the data gate. Print each form
 
 ## By hand
 
-- Up to 200 edges without a code tool: list adjacency by source, run the search level by level, and mark "computed by hand — check". Above 200 edges, do not attempt it (rule 4).
+- Up to 200 edges without a code tool: list adjacency by source, run the search level by level, and show the arithmetic. Above 200 edges, do not attempt it (rule 4).

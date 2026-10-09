@@ -60,7 +60,7 @@ When the n above is larger than the reach available, or expected events (reach Ã
 | Lower bound of the interval at or above the pass line, no label | scale |
 | Upper bound below the stop line (or below the pass line when no stop line was set), no label | stop |
 | Zero successes, n of 20 or more, upper bound below the rate the pass line needs | stop (the one labelled case) |
-| No pre-set line; zero successes, n of 20 or more, upper bound below the rate the user calls worthwhile or a labelled assumed rate | stop (provisional); scale is never called on provisional lines |
+| No pre-set line; zero successes, n of 20 or more | stop (provisional), stated against the upper bound ("the rate is at most X%"); inconclusive instead if the user names a worthwhile rate at or below the upper bound; no worthwhile rate is assumed; scale is never called on provisional lines |
 | A threshold count met or missed as written on the card | as the card says |
 | The interval spans the line, or a label applies | inconclusive: name the next read point |
 | Missed, but one named change could plausibly fix the converter or the offer | iterate once, with the change and a new line written before the rerun |

@@ -1,6 +1,6 @@
 # Price checks
 
-All arithmetic is printed with its formula and inputs. Use the host's code tool when one is available; otherwise write "computed by hand, check the arithmetic". Money to two decimals, percentages to one decimal, rounding half away from zero.
+All arithmetic is printed with its formula and inputs. Use the host's code tool when one is available; otherwise work it by hand, with no remark about how it was computed. Money to two decimals, percentages to one decimal, rounding half away from zero.
 
 ## 1. Normalised table
 
@@ -10,7 +10,7 @@ All arithmetic is printed with its formula and inputs. Use the host's code tool 
 | Annual saving, % | 1 − annual ÷ (monthly × 12) |
 | Months free | 12 − annual ÷ monthly |
 | Price per seat or unit | price ÷ seats (or units); "n.a." when unlimited |
-| Price per day | monthly × 12 ÷ 365, always printed next to the billed amount and period (L10) |
+| Price per day | billed amount ÷ days in the billing period (monthly: monthly × 12 ÷ 365; annual: annual ÷ 365), always printed next to the billed amount and period (L10) |
 | Step-up ratio between tiers | higher tier ÷ lower tier |
 
 ## 2. Anchor read
@@ -26,11 +26,11 @@ Option D is a decoy for target T when all of these hold (L14):
 3. D is strictly worse than T on at least one attribute, price included;
 4. D is not dominated in the same way by the other option the buyer is weighing (otherwise it is simply a bad option, not a decoy).
 
-If the user gives only prices with no other attributes, write "decoy test not run: needs the feature list".
+If the user gives only prices, write "decoy test not run: needs at least one other attribute (seats, limits, features)". With any other attribute given, run the test on what is given and name which missing features could change the verdict.
 
 Per-unit price (per seat, per GB) is printed next to the matrix for information; it is not one of the attributes in the test, because the buyer pays the total.
 
-Print the dominance matrix: one row per pair, columns for price and each listed attribute, each cell "better / same / worse" for the first option of the pair, and a last column "dominated?".
+Print the dominance matrix only when a decoy is found or the user asks: one row per pair, columns for price and each listed attribute, each cell "better / same / worse" for the first option of the pair, and a last column "dominated?".
 
 Worked example (fictional):
 
@@ -45,7 +45,7 @@ Result: Pro-Lite is a decoy for Pro (grade C, L14). If Pro-Lite cost $69 instead
 
 ## 4. Price endings
 
-The left-digit effect applies only when the leftmost digit changes: $79 vs $80 changes it, $74 vs $75 does not (L06, grade B). Endings can also signal "discount quality", which may not suit a premium tier.
+The left-digit effect applies only when the leftmost digit changes: $79 vs $80 changes it, $74 vs $75 does not (L06, grade B). A 9 ending can still raise demand without a left-digit change: in catalogue tests a $39 dress outsold the same dress at $34 (L06). Endings can also signal "discount quality", which may not suit a premium tier.
 
 ## 5. Discount framing
 

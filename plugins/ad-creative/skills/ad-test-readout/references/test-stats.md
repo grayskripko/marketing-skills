@@ -50,7 +50,7 @@ Both get Wilson intervals and the label "diagnostic, not a sale". No good/bad ba
 ## Verdict per concept
 
 - **keep testing** — primary difference not resolved and the sample is still short of the planned size;
-- **iterate one variable** — resolved on a guardrail only, or the concept is mixed across formats;
+- **iterate one variable** — resolved on a guardrail only on a randomised design, or the concept is mixed across formats. On an observational design a guardrail-only gap gives keep testing, and any reason for the gap is a guess to test;
 - **retire** — the upper bound of its primary difference vs the reference is below 0;
 - **likely winner** — the lower bound is above 0 on a randomised design (on an observational design say "lead: confirm with a split test"). This names the better ad only; it is not advice on spend.
 - Roll single ads up to concept and format before judging ads with few conversions.
@@ -59,5 +59,5 @@ Both get Wilson intervals and the label "diagnostic, not a sale". No good/bad ba
 
 Rows: A 12,000 impressions, 240 clicks, 18 conversions; B 9,000, 207, 12; one ad set, 10 days.
 - CTR A 2.00% (1.76–2.27), B 2.30% (2.01–2.63); B − A +0.30 pp (−0.09 to +0.71): not resolved.
-- Conversions per 1,000 impressions A 1.50, B 1.33; B − A −0.017 pp (−0.121 to +0.097): not resolved.
+- Conversions per impression A 0.150%, B 0.133%; B − A −0.017 pp (−0.121 to +0.097): not resolved.
 - To detect CTR 2.0% → 2.4%: 21,109 impressions per arm. At 1,200 a day A needs 8 more days; at 900 a day B needs 14 more; the test needs about 14 more days.

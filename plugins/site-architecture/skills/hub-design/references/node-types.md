@@ -1,6 +1,6 @@
 # Node types and the link matrix
 
-Node types come from practitioner practice (PR); the next-step order and the counts are heuristics of this plugin.
+The node types are a convention of this plugin; the next-step order and the counts are heuristics of this plugin — change them if you like.
 
 | Node type | Answers | Example |
 |---|---|---|
@@ -15,7 +15,7 @@ Node types come from practitioner practice (PR); the next-step order and the cou
 
 ## Next-step order
 
-overview → subtopic → comparison → how-to → question. A link between two children is allowed when the target is the natural next step for someone who has just read the source. Product and use-case pages may be linked from any child where the text discusses them.
+A link between two children is allowed when the target is the natural next step for someone who has just read the source. Among how-to and support pages, that is the next task in the user's workflow (adding employees → running payroll). For other content the usual order is overview → subtopic → comparison → how-to → question. Product and use-case pages may be linked from any child where the text discusses them.
 
 ## Matrix
 

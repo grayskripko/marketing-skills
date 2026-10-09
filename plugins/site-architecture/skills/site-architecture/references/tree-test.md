@@ -13,13 +13,13 @@ Only for results the user pastes. Planning a study or a card sort is out of scop
 
 | Success rate | Band |
 |---|---|
-| below 40% | poor |
-| 41% to 60% | fair |
-| 61% to 80% | good |
-| 80% to 90% | very good |
-| above 90% | excellent |
+| under 40% | poor |
+| 40% to 60% | fair |
+| over 60% to 80% | good |
+| over 80% to 90% | very good |
+| over 90% | excellent |
 
-Boundaries as published; this plugin reads them as <40, 40–60, >60–80, >80–90, >90 (convention of this plugin).
+The published boundaries (40/41, 60/61, and 80 in two bands) leave a gap and an overlap; this table resolves them (convention of this plugin).
 
 NN-tree reports a median of 62% across the 98 studies and stresses that the team's own earlier results are the better comparison. Show the band as context, never as a pass mark; when a task's interval spans two bands, say so.
 

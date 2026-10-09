@@ -14,13 +14,13 @@ With p = k ÷ n and z = 1.96:
 
 Worked example: k = 11, n = 30. p = 0.3667; z² = 3.8416; 1 + z² ÷ n = 1.1281; centre = (0.3667 + 0.0640) ÷ 1.1281 = 0.3818; half-width = 1.96 × √(0.007741 + 0.001067) ÷ 1.1281 = 0.1631; interval 21.9% to 54.5%.
 
-Print it at any n of 1 or more. The interval is the range of shares consistent with the count; it is not a forecast.
+Print it when n is 20 or more, in words ("likely between 21.9% and 54.5%"); below that print k of n only. The interval is the range of shares consistent with the count; it is not a forecast.
 
 ## Labels
 
-- n below 20: "thin sample", a heuristic of this plugin. Shown, never called different from another group.
-- k = 1: "n = 1, single mention".
-- Two groups are compared only through the interval for their difference, never by whether their two intervals overlap; with thin samples, or groups that share conversations, not at all.
+- n below 20: k of n only, with one line above the table, "small sample: shows what came up, not how often". Never called different from another group.
+- k = 1: "single mention".
+- Two groups are compared only through the interval for their difference, never by whether their two intervals overlap; with samples under 20, or groups that share conversations, not at all.
 
 ## Rounding
 

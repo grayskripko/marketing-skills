@@ -9,7 +9,7 @@ Row ids refer to `rule-register.md`. "Law" cells describe what the source says; 
 | Same reward, not disclosed | Breaks US-255.5 | Banned as a concealed incentivised review: UK-P13 | EU-A7-2, EU-I-23c | Never (RF-5) |
 | Reviews or testimonials by officers, managers, staff, agents or their relatives | Disclosure required: US-465.5, paras (a) and (b); a manager who asks staff or relatives for reviews must tell them to disclose and fix undisclosed ones: US-465.5, para (c) | An employee or commercial link not made apparent is a concealed incentive: UK-CMA208 | Staff posing as consumers: EU-I-22 | Disclose always; staff never write "as a customer" |
 | Inviting only satisfied customers to review ("gating") | "May be" unfair or deceptive if posted reviews become much more positive: US-255.2-Ex11, US-255.2d | Can be cherry-picking: UK-CMA208 | Can misrepresent reviews: EU-I-23c | Never; invite everyone or a random sample (POL-GATE) |
-| Hiding or holding back negative reviews | US-465.7, US-255.2-Ex8 | UK-CMA208 | EU-I-23b when the brand displays reviews | Never |
+| Hiding or holding back negative reviews | US-465.7, US-255.2-Ex8 | UK-CMA208 | Misrepresenting reviews: EU-I-23c | Never |
 | Threats or pressure to make critics remove reviews | US-465.7 | UK-CMA208 | — | Never (RF-10) |
 | Fee per review, or asking advocates specifically for reviews | Not banned as such if disclosed and not sentiment-conditioned | Not banned as such if not concealed | — | No (POL-FEE); advocates review only as ordinary customers, with the disclosure line |
 | Buying followers, views or engagement | US-465.8 | — | Misrepresenting social endorsements: EU-I-23c | Never (RF-3) |

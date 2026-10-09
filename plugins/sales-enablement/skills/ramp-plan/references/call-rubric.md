@@ -8,7 +8,7 @@ Each scored row gets 0, 1 or 2, using the anchors below (behavioural anchors in 
 
 - A 0 also needs a quote: the line where the behaviour was due and did not happen (for example the buyer's stated problem with no sizing question after it, or the closing lines for CS-12).
 - "not observed": there is no moment to quote either way. No score is given.
-- "n/a": the situation never came up (for example the buyer raised no concern, so CS-09 cannot apply; no product was shown, so CS-10 cannot apply; the seller made no outcome claim, so CS-D06 cannot apply). The row leaves the maximum in every mode.
+- "n/a": the situation never came up (for example the buyer raised no concern, so CS-09 cannot apply; no product was shown, so CS-10 cannot apply; the seller made no outcome claim, so CS-D06 cannot apply). The row is taken out of the maximum in every mode.
 
 How "not observed" counts depends on the use:
 
@@ -55,7 +55,7 @@ All 8 are scored. Maximum = 8 × 2 = 16.
 
 ## Pass rule (certification and ramp gates only)
 
-Heuristic of this plugin, editable. A run passes when both hold:
+Default of this plugin; you can change it. A run passes when both hold:
 1. No 0 on any row the user marks critical (default critical rows: discovery CS-03, CS-05, CS-12; demo CS-D02, CS-D08).
 2. Points ≥ 70% of the available maximum, compared before rounding up to whole points.
 
@@ -70,4 +70,4 @@ Coaching never prints pass or fail; it prints points over the maximum of the row
 
 The buyer says "We lose half a day to it" (06:10); the seller only asks "Who handles that on your side?" (06:30) and shows the product at 07:40. The call ends "Great, let's talk next week" (14:20), "Sounds good" (14:30).
 
-Scored rows: CS-01 = 2, CS-02 = 2, CS-03 = 0 (quote 06:10, no sizing question followed), CS-04 = 0 (same moment), CS-05 = 1, CS-09 = 0, CS-10 = 1 (one follow-up at 06:30, no size, before the product at 07:40), CS-12 = 1 (agreement, but no date and no owner). Points 2 + 2 + 0 + 0 + 1 + 0 + 1 + 1 = 7 of a maximum of 16 over the 8 scored rows. Not observed: CS-06, CS-07, CS-08. In certification the same transcript would be 7 of 22, a fail (7 < 16, and CS-03 is 0).
+Scored rows: CS-01 = 2, CS-02 = 2, CS-03 = 0 (quote 06:10, no sizing question followed), CS-04 = 0 (same moment), CS-05 = 1, CS-09 = 0 ("I'm worried about migration effort", 10:20, answered at once with "Migration is easy…", 10:40), CS-10 = 1 (one follow-up at 06:30, no size, before the product at 07:40), CS-12 = 1 (agreement, but no date and no owner). Points 2 + 2 + 0 + 0 + 1 + 0 + 1 + 1 = 7 of a maximum of 16 over the 8 scored rows. Not observed: CS-06, CS-07, CS-08. In certification the same transcript would be 7 of 22, a fail (7 < 16, and CS-03 is 0).

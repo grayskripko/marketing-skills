@@ -1,20 +1,20 @@
 # Marketing Psychology Kit
 
-Evidence grades and dated rule checks for the psychology in your marketing. Each lever is quoted, graded and paired with the fact that makes it legitimate.
+Check the psychology in your marketing before you ship it: whether a countdown, "was" price or stock badge may break US, EU or UK consumer rules; which levers on a page to keep, fix or remove; whether a pricing table has a decoy; whether "losses hurt twice as much" is true; and why users stop before a key step. Every lever comes with the fact that must be true for it to be honest.
 
-| Element | Legitimate only if | Rules (read 2026-10-03) | Severity |
+| Element | Legitimate only if | Rules (read 2026-10-03) | Risk |
 |---|---|---|---|
-| "Ends tonight", timer resets daily | the offer really ends then | FTC Act §5; UCPD Annex I point 7; DMCC Act Sch. 20 para 7 | High |
+| "Ends tonight" timer that resets daily | the offer really ends then | US FTC Act §5; EU banned-practices list (Unfair Commercial Practices Directive, Annex I point 7); UK banned-practices list (DMCC Act 2024, Sch. 20 para 7) | High |
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| dark-pattern-check | a flow | dated US, EU, UK rules, honest versions |
-| persuasion-audit | a page or email | graded lever ledger, proof inventory |
-| price-framing | tiers and trials | normalised prices, anchors, decoy test |
-| evidence-check | a claim | graded evidence card |
-| behavior-diagnosis | "why don't users do X" | COM-B barrier map with intervals |
+| dark-pattern-check | a countdown, badge, price, trial or cancel path | whether it may break dated US, EU or UK rules, and an honest version |
+| persuasion-audit | a page or email | keep, fix or remove for each lever, and how to collect real proof |
+| price-framing | your tiers and plans | savings and per-seat math, a decoy check, discount framing |
+| evidence-check | a psychology claim | whether it holds, and how to say it accurately |
+| behavior-diagnosis | "why don't users do X", with counts or quotes | where they drop, why, and fixes that remove friction first |
 
 ## Examples
 
@@ -24,7 +24,7 @@ Evidence grades and dated rule checks for the psychology in your marketing. Each
 
 ## How it works
 
-Studies come only from a bundled, DOI-checked ledger. Rules carry read dates; older than six months shows "stale: re-check".
+Studies come only from a bundled ledger whose citations were checked against their published records on 2026-10-03; findings seen only through secondary summaries are marked as reported. Claims outside the ledger are marked as not checked. Rules carry read dates; a rule read more than six months ago is flagged "re-check this rule".
 
 ## Data and network
 
@@ -32,7 +32,7 @@ Network scope: this plugin ships no code and calls no service of its own. It rea
 
 ## Personal data
 
-Remove customer names first; any left become labels.
+Remove customer names and emails before pasting. Any that remain are replaced with neutral labels and never repeated.
 
 ## What it will not do
 

@@ -1,6 +1,6 @@
 # Payment-problem message skeletons
 
-Neutral, no blame, one action per message. Slots in square brackets; the team writes the final copy. The link slot is [UPDATE_LINK]; never paste real links, tokens or card details into a template.
+Neutral, no blame, one action per message. Fill every slot the user's facts cover (plan, price, retry dates and grace end from the timeline). Keep [UPDATE_LINK] and fields the system fills per customer, such as [CARD_ENDING], as slots; never paste real links, tokens or card details. The team writes the final copy.
 
 | Moment | Class | Subject idea | Slot 1 | Slot 2 | Slot 3 |
 |---|---|---|---|---|---|

@@ -1,20 +1,20 @@
 # Bridge test, capture rule and form design
 
-All rules on this page are heuristics of this plugin unless a register id is given. The user may override them, except the consent defaults, which come from the register. Print the step number that fired.
+All rules on this page are heuristics of this plugin unless a register id is given. The user may override them, except the consent defaults, which come from the register. The answer gives the capture mode and its reason in words, never the step number.
 
 ## Bridge test (applied before scoring)
 
 Form: "Once the reader has used [asset], they hold [result]; [offer] delivers [that result] with less effort, repeatedly, or across a team."
 
-- Passes (S5 = 2): "Once the reader has used the unbilled-hours calculator, they hold a monthly figure for hours worked but never invoiced; the invoicing product captures those hours automatically."
-- Passes with one extra step (S5 = 1): "Once the reader has used the month-end checklist, they hold a clean close; the product runs most of the close steps for them." The reader must first see the steps as a burden.
+- Passes (S5 = 2): "Once the reader has used the unbilled-hours calculator, they hold a monthly figure for hours worked but never invoiced; invoicing software turns those hours into invoices."
+- Passes with one extra step (S5 = 1): "Once the reader has used the month-end checklist, they hold a clean close; the product does the invoicing steps on the list." The reader must first see those steps as a burden.
 - Fails: a payroll vendor offering a recipe e-book. Nothing the reader holds afterwards is something payroll software produces, so no honest sentence exists. Excluded, with the reason printed.
 
-A sentence that needs words like "and then they will also want" to reach the offer, or that only works if the reader already wants the product, is a fail.
+A sentence that needs words like "and then they will also want" to reach the offer, or that only works if the reader already wants the product, is a fail. The offer half says only what the user said the offer does.
 
 ## Capture mode: ordered rule
 
-Go through the steps in order. The first one that fires decides; print its number.
+Go through the steps in order. The first one that fires decides.
 
 1. **Reach only.** The user wants search visibility, links, shares or citations and not contacts, or the asset teaches readers who are just noticing the problem. → **Open**, with an optional sign-up for updates next to it.
 2. **A tool.** The asset computes or scores something on the reader's own input (calculator, scorecard, self-assessment). → **Use first, then save by email**: the result is shown on screen before any email is asked for.
@@ -24,7 +24,7 @@ Go through the steps in order. The first one that fires decides; print its numbe
    - (b) a message after sign-up would be worth receiving for its own sake, not only a pitch;
    - (c) the reader is comparing or deciding, not just noticing the problem;
    - (d) a reader would plausibly pay a small sum for it.
-   Print each condition as true, false or unknown; unknown counts as false. Print which condition failed when step 4 ends in "summary open".
+   Judge each condition true, false or unknown; unknown counts as false. When step 4 ends in "summary open", say in words which condition failed.
 
 Whatever the step, the consent defaults below still apply: a full gate for EU or UK individuals asks for an email to deliver the asset, never for marketing consent.
 

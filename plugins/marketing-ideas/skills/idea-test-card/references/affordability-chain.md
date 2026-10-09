@@ -11,7 +11,7 @@ subscription:  affordable = price per month × gross margin × window months
 one-off sales: affordable = order value × gross margin × orders per customer inside the window
 ```
 
-- Window: the user's; otherwise 12 months, printed as "assumption, change me", with a note that a shorter window makes every line below stricter.
+- Window: the user's; otherwise 12 months, stated in the answer as a plain assumption ("I assumed a 12-month window"), with a note that a shorter window makes every line below stricter.
 - Gross margin: the user's; if missing, the chain is printed on an assumed margin, named in the Assumptions box, and every evidence grade is capped at D.
 - Orders per customer inside the window: the user's; otherwise an assumption, printed.
 - Yearly billing: use the yearly price × margin, counted once per year the window covers (cash basis: a yearly payment inside the window counts in full).

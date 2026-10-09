@@ -12,15 +12,15 @@ Read the funnel from the top and stop at the first step that is clearly weak com
 
 ## Verdicts
 
-Apply the rows in this order; the first that fires decides, so each magnet gets exactly one verdict: too early, retire, keep, fix bridge, fix page, hold. "Clearly lower" means the observed-difference interval excludes 0.
+Apply the rows in this order; the first that fires decides, so each magnet gets exactly one verdict: too early, retire, keep, fix the link to the offer, fix page, hold. "Clearly lower" means the observed-difference interval excludes 0.
 
 | Order | Verdict | Rule |
 |---|---|---|
-| 1 | too early | fewer than 30 sign-ups or fewer than 5 sales conversations for the magnet |
+| 1 | too early | fewer than 30 sign-ups; or fewer than 5 sales conversations (the first step after sign-up the user counts), unless the conversations-per-sign-up difference with another magnet on the same source already excludes 0 (then the later rows decide, and the verdict is provisional) |
 | 2 | retire | clearly lower on both views (sign-ups per visit and conversations per sign-up) than another magnet on the same source, with at least 20 events behind each compared rate |
 | 3 | keep | the pipeline view (conversations or opportunities per visit) is the highest or not distinguishable from the highest |
-| 4 | fix bridge | sign-ups per visit not clearly lower than any other magnet on the same source, and conversations per sign-up clearly lower than another magnet |
+| 4 | fix the link to the offer | sign-ups per visit not clearly lower than any other magnet on the same source, and conversations per sign-up clearly lower than another magnet |
 | 5 | fix page | sign-ups per visit clearly lower than another magnet on the same source, and conversations per sign-up not clearly lower |
 | 6 | hold | none of the above fired: "not distinguishable yet", re-check with more data |
 
-Each verdict prints the line that decided it. With "few events", "lag not checked" or "source not checked", the verdict is marked provisional.
+Each verdict gives its deciding reason in words, never the row number. With "few events", "lag not checked" or "source not checked", the verdict is marked provisional.

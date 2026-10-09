@@ -1,8 +1,8 @@
 {
   "name": "sales-enablement",
   "displayName": "Sales Enablement Kit",
-  "version": "0.1.0",
-  "description": "Get sellers ready and keep them sharp. Score a call you want coached against a behaviour rubric with a quoted line behind every score and recomputable talk and question counts; certify reps with a knowledge check keyed to your own material and a role-play buyer who keeps facts back until asked; plan a demo where every scene answers a pain the buyer stated; find which recurring buyer questions your sellers answer without proof, not at all, or differently; and plan a rep's path to selling alone from your sales cycle and coaching hours. No benchmarks and nothing invented.",
+  "version": "0.1.1",
+  "description": "Coaching and practice for sellers. Coach a sales call with a quote behind every score; quiz reps on your own pricing or product notes; rehearse with a practice buyer who reveals facts only when asked the right question; plan a demo where each scene answers a pain the buyer named; find buyer questions your team answers differently, without proof or not at all; and work out how long a new seller needs before selling alone, against your coaching hours. Uses only your material: no outside benchmarks, nothing invented. Does not rank or rate sellers.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

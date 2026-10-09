@@ -2,7 +2,7 @@
 
 Claims users often bring, each with a short correction and its source. No figures from other companies are used.
 
-1. **"A big launch day is a channel."** A launch, a viral post or a press mention arrives once. A channel brings buyers again next month at a cost you can predict. Treat a launch as a wave and plan where it lands (a list, a trial), or it leaves nothing behind. Source: practitioner consensus; Weinberg and Mares, *Traction* (2015), on testing channels for repeatability.
+1. **"A big launch day is a channel."** A launch, a viral post or a press mention arrives once. A channel brings buyers again next month at a cost you can predict. Treat a launch as a wave and plan where it lands (a list, a trial), or it leaves nothing behind. Source: Weinberg and Mares, *Traction* (2015), on testing channels for repeatability.
 2. **"Running many channels at once learns faster."** Each channel gets too little volume to read, and the team's hours are split. Test about three cheaply, then put most effort into the one that works. Source: *Traction* (2015).
 3. **"Launch platforms and building in public reach any buyer."** They reach the people who visit them, mostly other makers. They suit products whose buyers are makers. No source; check who visits the platform and whether your buyer is there before counting on it.
 4. **"A lifetime deal is quick revenue."** It is cash once, then years of support and refunds with no further income from those buyers. Count support hours and refunds against the payback window first.

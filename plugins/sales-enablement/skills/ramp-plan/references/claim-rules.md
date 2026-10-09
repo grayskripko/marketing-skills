@@ -7,11 +7,11 @@ Used when listing claims a seller made on a call, writing proof slots in a demo 
 | Reasonable basis before the claim | An objective claim (a number, "faster", "cuts time in half") needs evidence in hand before it is made. Missing evidence → [PROOF NEEDED]. | FTC Policy Statement Regarding Advertising Substantiation, 23 Nov 1984, https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation | 2026-10-03 |
 | Customer stories and typical results | A reference or testimonial must be real. A customer result presented to a buyer as what they can expect needs support that it is what buyers generally get, or a clear statement of what is generally expected. No invented customers, quotes or results. | FTC Guides Concerning the Use of Endorsements and Testimonials in Advertising, 16 CFR Part 255, § 255.2 (current text; source 88 FR 48102, 26 Jul 2023), https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255 | 2026-10-03 |
 
-Comparisons with competitors are handled by ground rule 10 (only facts the user supplies, with date and source, framed as fit and never disparaging). EU and UK comparative-advertising rules are not tabled in this version because their primary pages could not be read when it was built.
+Comparisons with competitors are handled by ground rule 10 (only facts the user supplies, with date and source, framed as fit and never disparaging). EU and UK comparative-advertising rules are not covered.
 
 ## How the skills use it
 
-- call-coaching: list each number, comparison or customer reference the seller said, with "proof needed?" yes or no. No verdict on legality or truth.
+- call-coaching: list each number, comparison, product capability, promise of results or customer reference the seller said, with "proof needed?" yes or no. No verdict on legality or truth.
 - demo-runbook: each outcome claim in a scene gets a proof slot or [PROOF NEEDED].
 - rep-certification: answer keys never state a claim that the source does not contain.
 

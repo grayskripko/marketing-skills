@@ -8,14 +8,16 @@
 
 ## Signal table (one row per signal)
 
-| Signal | Fired n | Churn if fired | Churn if not fired | Difference [Newcombe] | Lift | Precision | Recall | Median lead (days, n) | Verdict |
-|---|---|---|---|---|---|---|---|---|---|
+| Signal | Fired n | Churn if fired | Churn if not fired | Difference [95% range] | Lift | Recall | Median lead (days, n) | Verdict |
+|---|---|---|---|---|---|---|---|---|
+
+Precision equals churn if fired, so it gets no column.
 
 Verdicts, checked in this order:
-1. Thin sample: fired n or not-fired n below 20.
+1. Too few to tell: fired n or not-fired n below 20.
 2. No difference shown: the difference interval includes 0.
 3. Too late to act: median lead time shorter than the user's response time (default 14 days, a heuristic; use the user's figure if given).
-4. Keep: otherwise.
+4. Act on it: otherwise.
 
 ## One-action threshold search
 
@@ -35,20 +37,20 @@ Judge inactivity against how often the customer's need recurs (weekly payroll, m
 
 ## Watch rules
 
-At most three, only from signals with verdict Keep. Each: trigger, owner role, action, what to measure, and when to re-test.
+At most three, only from signals with verdict "act on it". Each: trigger, owner role, action, what to measure, and when to re-test.
 
-## Caveats printed every time
+## Caveats
 
-- Correlation, not cause.
-- Older cohorts look healthier because their least committed members already left (Fader & Hardie 2007, "How to project customer retention", Journal of Interactive Marketing 21(1)).
-- In B2B, seat removals are covered as a signal only; contraction revenue is out of scope.
+- Correlation, not cause (printed every time, once).
+- Only when cohorts are compared: older cohorts look healthier because their least committed members already left (Fader & Hardie 2007, "How to project customer retention", Journal of Interactive Marketing 21(1)).
+- Only when seat removals are a signal: they are covered as a signal only; contraction revenue is out of scope.
 
 ## Worked example
 
 500 accounts active on 1 January; 60 cancelled by 31 March: 60/500 = 12.0% [9.4 – 15.1].
 
-| Signal | Fired | Churn if fired | Churn if not | Difference | Lift | Precision | Recall | Lead | Verdict |
-|---|---|---|---|---|---|---|---|---|---|
-| Seats removed in December | 50 | 20/50 = 40.0% [27.6 – 53.8] | 40/450 = 8.9% [6.6 – 11.9] | +31.1 points [18.4, 45.1] | 4.5 (base 12.0%) | 40.0% | 33.3% | 41 | keep |
-| Data export started | 30 | 18/30 = 60.0% [42.3 – 75.4] | 42/470 = 8.9% [6.7 – 11.9] | +51.1 points [33.1, 66.6] | 6.7 (base 12.0%) | 60.0% | 30.0% | 2 | too late to act |
-| Cancel-confirmation page viewed | — | — | — | — | — | — | — | — | leakage, removed |
+| Signal | Fired | Churn if fired | Churn if not | Difference | Lift | Recall | Lead | Verdict |
+|---|---|---|---|---|---|---|---|---|
+| Seats removed in December | 50 | 20/50 = 40.0% [27.6 – 53.8] | 40/450 = 8.9% [6.6 – 11.9] | +31.1 points [18.4, 45.1] | 4.5 (base 12.0%) | 33.3% | 41 | act on it |
+| Data export started | 30 | 18/30 = 60.0% [42.3 – 75.4] | 42/470 = 8.9% [6.7 – 11.9] | +51.1 points [33.1, 66.6] | 6.7 (base 12.0%) | 30.0% | 2 | too late to act |
+| Cancel-confirmation page viewed | — | — | — | — | — | — | — | leakage, removed |

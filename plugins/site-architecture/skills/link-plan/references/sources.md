@@ -19,8 +19,5 @@ Google Search Central pages live under https://developers.google.com/search/docs
 | NN-tree | Nielsen Norman Group, Page Laubheimer | Tree Testing Part 2 (reports the Albert and Tullis review of 98 studies) | interpreting-tree-test-results | 2024-01-19 | 2026-10-03 |
 | NN-BC | Nielsen Norman Group, Page Laubheimer | Breadcrumbs: 11 design guidelines | breadcrumbs | 2018-12-23, reviewed 2026-09-01 | 2026-10-03 |
 | NN-FD | Nielsen Norman Group, Kathryn Whitenton | Flat vs. Deep Website Hierarchies | flat-vs-deep-hierarchy | 2013-11-10 | 2026-10-03 |
-| PR | Practitioner practice | published case notes of one SEO practitioner | not linked | 2024–2026 | 2026-10-03 |
 
-PR is a single practitioner. Rules that rest on PR describe a procedure (what to collect, what to decide, what to output), never a ranking mechanism, and their numbers are labelled "heuristic of this plugin".
-
-Rules marked "convention of this plugin" have no external source. They are choices that keep a plan consistent; the user may change them.
+Rules marked "convention of this plugin" or "heuristic of this plugin" have no external source. They are choices that keep a plan consistent; the user may change them.

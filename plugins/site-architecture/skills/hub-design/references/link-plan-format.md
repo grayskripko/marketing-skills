@@ -25,8 +25,8 @@ Without tiers, use the user's list of important pages, then depth.
 
 ## Provenance check
 
-Before printing, check every source and target against the input. Print the rule 3 line "n of n URLs checked against your data". A row whose URL is not found is removed and counted, never kept. If the user asks to make up URLs, decline that part (rule 3) and offer NEW pages as a separate list for site-architecture.
+Before printing, check every source and target against the input; the answer does not report the check. A row whose URL is not found is removed and counted, never kept. If the user asks to make up URLs, decline that part (rule 3) and offer NEW pages as a separate list for site-architecture.
 
 ## Off-topic inlinks (optional)
 
-For a hub, list existing body links into it from pages outside its subject, for the user to review. Adding new links does not cancel old off-topic ones (PR).
+For a hub, list existing body links into it from pages outside its subject, for the user to review. Adding new links does not cancel old off-topic ones (convention of this plugin).

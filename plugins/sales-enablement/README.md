@@ -1,16 +1,16 @@
 # Sales Enablement Kit
 
-Get sellers ready, with a quoted line behind every score: "We lose half a day to it" (06:10), never sized → CS-03 = 0.
+Coach a sales call, quiz reps on your own pricing, rehearse with a practice buyer, plan a demo around what the buyer said, and see how long a new seller needs before selling alone. Built only from your calls and your material; every score points to the line in the call that earned it.
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| call-coaching | 1 to 5 transcripts | quoted rubric rows, talk and question counts, a drill |
-| rep-certification | product or pricing notes | a source-keyed quiz; a role-play buyer who hides facts |
-| demo-runbook | discovery notes, capabilities, slot | one scene per pain, check-ins, PASS/FIX |
-| question-bank | 3+ conversations | answers per buyer question, proof status |
-| ramp-plan | role, sales cycle, coach hours | weeks, gates, coach hours needed vs available |
+| call-coaching | 1 to 5 transcripts | what to say differently, a score with quotes, one drill |
+| rep-certification | product or pricing notes | a quiz with answer key; a role-play buyer who holds facts back |
+| demo-runbook | discovery notes, capabilities, slot | a run of show: one scene per pain, what not to show, a time check |
+| question-bank | 3+ conversations | the buyer questions your team answers differently or without proof, with one proposed answer each |
+| ramp-plan | role, sales cycle, coach hours | weeks to selling alone; coach hours needed vs available |
 
 ## Examples
 
@@ -20,7 +20,7 @@ Get sellers ready, with a quoted line behind every score: "We lose half a day to
 
 ## How it works
 
-One 0–2 rubric for coaching, certification and ramp gates (11 rows, maximum 22, pass at 16). Every number shows its rule. No benchmarks; missing proof shows as [PROOF NEEDED]. Tuned for English.
+Coaching, role-plays and ramp checkpoints share one score sheet: 11 discovery behaviours scored 0, 1 or 2 (maximum 22) and 8 demo behaviours (maximum 16), each score backed by a quote. A practice pass is 70% (16 of 22, or 12 of 16) with no zero on the key behaviours. Every computed number shows how it was counted. No outside benchmarks and nothing invented; where proof is missing, the answer says so. Tuned for English.
 
 ## Data and network
 

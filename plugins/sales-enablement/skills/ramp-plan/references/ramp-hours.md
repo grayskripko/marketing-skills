@@ -1,6 +1,6 @@
 # Ramp plan: phases, timing rule and coach hours
 
-Every value below is an editable default of this plugin (heuristic), printed in the plan so each hours figure can be recomputed.
+Every value below is a default of this plugin that the user can change, printed in the plan so each hours figure can be recomputed.
 
 ## Inputs
 

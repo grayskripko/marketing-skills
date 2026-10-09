@@ -1,8 +1,8 @@
 {
   "name": "ad-creative",
   "displayName": "Ad Creative Preflight Kit",
-  "version": "0.1.0",
-  "description": "Character counts and numbered platform rules for ad text, then a statistical read of creative results. Counts every field against dated Google, Meta, LinkedIn and TikTok limits using each platform's counting rule; lists each problem with its rule id, source and read date; keeps a claim ledger so no figure appears without the user's proof; reads ad results with a declared primary metric, intervals and the impressions still needed; and builds search and social variant sets and evidence-traced angles that pass the same checks. Works only on text and numbers you paste; makes no images or video and changes nothing in any ad account.",
+  "version": "0.1.1",
+  "description": "Checks ad text before it runs and reads creative tests after. Counts every field against dated Google, Meta, LinkedIn and TikTok limits, screens each line against dated platform rules and US, UK and EU claim rules with their source pages, and gives each ad Ready, Fix or Hold with fixed text. Tells you which ad won, whether the gap is real and how much longer a test needs. Also drafts search and social ad text, and ad angles from your reviews, using the facts you give and no invented figures. Works only on text and numbers you paste; makes no images or video and changes nothing in any ad account.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

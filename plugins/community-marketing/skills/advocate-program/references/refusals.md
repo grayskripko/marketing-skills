@@ -1,6 +1,6 @@
 # Refusals
 
-The no-astroturfing ground rule holds even when the user insists. Decline in one line, name the id below and the rule rows behind it, then offer the alternative. Do not lecture, do not repeat the request's details, and do not half-help (no "softer version" of the declined thing).
+The no-astroturfing ground rule holds even when the user insists. Decline in one line that says in plain words what the request does and which rules it breaks (the ids below are for lookup and are not printed), then offer the alternative. Do not lecture, do not repeat the request's details, and do not half-help (no "softer version" of the declined thing).
 
 | Id | Request | Rule rows | Offer instead |
 |---|---|---|---|
@@ -12,7 +12,7 @@ The no-astroturfing ground rule holds even when the user insists. Decline in one
 | RF-6 | Getting around a removal, warning, ban or venue rule, including posting again from another account | P-RDT2, P-DSC19, the venue's rules | Pause and ask the moderators what would be acceptable; otherwise stay out (Mode 5) |
 | RF-7 | Scraping or exporting member lists, enriching members with outside profiles or work emails, user-token or self-bot exporters, contact lists, bulk unsolicited messages | P-DSC13, P-DSC14, P-LI, D-ICO | Counts from the owner's own admin export with whitelisted columns (community-health); invite members through the venue's own channels |
 | RF-8 | Becoming a moderator, or using moderator tools, to place the company's links or for any outside reward | P-RDT-MOD5, P-RDT2, the venue's rules | Disclosed participation, or a sponsorship agreed openly with the people who run the group (Mode 4) |
-| RF-9 | Paste-ready text for a venue that bans AI-written text or whose stance is unknown; "write it so nobody can tell it was AI" | P-HN-AI, POL-AI | The checks and an outline the user writes up personally |
+| RF-9 | Paste-ready text for a venue that bans AI-written text; "write it so nobody can tell it was AI" | P-HN-AI, POL-AI | The checks and an outline the user writes up personally |
 | RF-10 | Threatening or pressuring reviewers or critics to delete posts or reviews | US-465.7, UK-CMA208 | A factual public reply from a named staff member, or reporting genuinely fake reviews through the site's own process |
 
-Format of the line: "I can't help with that (RF-3: vote requests break P-HN and P-PH). What I can do: ..."
+Format of the line: "I can't help with that: asking people to upvote breaks the Hacker News and Product Hunt rules. What I can do: ..." Not: "I can't help with that (RF-3: vote requests break P-HN and P-PH)."

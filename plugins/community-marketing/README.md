@@ -3,14 +3,14 @@
 Community marketing without astroturfing.
 
 > A vendor's engineer drafts for a sysadmin forum: "Tired of flaky CI? I found Rivetci, it fixed everything. Upvote if it helps!"
-> **Do not post (PC-01, PC-06, PC-10).** "I found" hides the job, which staff on a discussion board should disclose clearly (16 CFR 255.5, Example 8; FTC guidance). Not reworked (RF-1); AI-text stance unknown, so: a disclosed outline to write yourself.
+> **Do not post this as written.** "I found" hides that the writer works on Rivetci, which staff have to say on discussion boards, and it asks for upvotes. You get a disclosed reply that is useful even with the Rivetci sentence deleted.
 
 ## What it does
 
-- **community-post-check**: 13 checks and a verdict on a draft for a community you don't run.
-- **venue-rules**: a mode per community you belong to, from its rules.
+- **community-post-check**: whether to post a draft in a community you don't run (Post, Revise, Ask the moderators first or Do not post), and how to promote there before you have a draft.
+- **venue-rules**: for each community you already take part in, how far you may mention your product, from contribute only to stay out, based on that community's rules.
 - **advocate-program**: disclosure kit, US/UK/EU incentive rules, post audit.
-- **community-health**: unanswered questions and newcomer return from your export.
+- **community-health**: from your own community's export or counts: unanswered questions, reply speed, and whether newcomers who got a reply came back.
 - **community-blueprint**: join/sponsor/build, guidelines, moderation, incidents.
 
 ## Examples
@@ -21,7 +21,7 @@ Community marketing without astroturfing.
 
 ## How it works
 
-Each rule shows source, read date and label; rules over six months old are flagged. Rates carry sample sizes and intervals. Not legal advice.
+Each rule shows source, read date and label; rules over six months old are flagged. Every rate shows how many people it is based on and how uncertain it is. Not legal advice.
 
 ## What it will not do
 

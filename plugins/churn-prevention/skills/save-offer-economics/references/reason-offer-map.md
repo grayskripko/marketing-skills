@@ -1,6 +1,6 @@
 # Reason groups and the one offer each may get
 
-Eight groups, R1 to R8. They line up one to one with the eight-way coding of cancellation reasons many research schemes use (price, value not reached, missing capability, quality, alternative, business event, service, other), so reasons coded elsewhere can be mapped here without re-reading the open text. These skills never code open text themselves.
+Eight groups, R1 to R8 (ids for internal use; the answer uses the group names). Reasons coded in another scheme are mapped to the nearest group, with the user's own label kept beside it, without re-reading the open text. These skills never code open text themselves.
 
 | Group | Covers | First offer (at most one per session) | When to offer nothing |
 |---|---|---|---|

@@ -1,8 +1,8 @@
 {
   "name": "churn-prevention",
   "displayName": "Churn Prevention Kit",
-  "version": "0.1.0",
-  "description": "Keep subscribers with checks you can recompute. Audit a cancel flow against 16 numbered checks and dated cancellation rules for the US (federal and California), the EU and the UK; judge a save offer by who still pays after the discount ends, against a holdout; sort failed payments by decline code into never retry, customer must act, and retry within card-network caps; test churn signals on your own history for lift, coverage and lead time; plan a consent-checked win-back for cancelled subscriptions. Reads what you paste, quotes no benchmarks, and never makes cancelling harder. Not legal advice.",
+  "version": "0.1.1",
+  "description": "Five skills for subscription churn, each computed from your own data. Start from \"customers keep cancelling\": split failed payments from chosen cancellations and see which to fix first. Audit a cancel flow against 16 checks and dated cancellation rules for the US (federal and California), the EU and the UK; judge a save offer by who still pays after the discount ends, against a holdout; sort failed payments by decline code into never retry, customer must act, and retry within card-network caps; test churn signals on your own history for lift, coverage and lead time; plan a consent-checked win-back for cancelled subscriptions. Reads what you paste, quotes no benchmarks, and never makes cancelling harder. Not legal advice.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

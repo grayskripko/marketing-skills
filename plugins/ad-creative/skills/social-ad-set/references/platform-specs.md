@@ -65,4 +65,4 @@ Not in the table: caption character maximum, TikTok safe-zone pixels. For text p
 
 ## Not in this plugin's checked table
 
-Microsoft Advertising, Pinterest, Reddit, Snapchat, X, Google Demand Gen and display formats, Meta carousel, Stories and video placements, LinkedIn video, carousel, document, message and text ads. Answer "not in this plugin's checked table — check the platform's current spec", with no number. If the user pastes the current limit from their ad tool, use it and label it "limit given by you".
+Microsoft Advertising, Pinterest, Reddit, Snapchat, X, Google Demand Gen and display formats, Meta carousel, Stories and video placements, LinkedIn video, carousel, document, message and text ads. Answer "check [platform]'s current spec for this field", with no number. If the user pastes the current limit from their ad tool, use it and label it "limit given by you".

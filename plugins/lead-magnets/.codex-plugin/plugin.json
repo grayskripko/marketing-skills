@@ -1,7 +1,7 @@
 {
   "name": "lead-magnets",
-  "version": "0.1.0",
-  "description": "Check an opt-in page, form, thank-you page and confirmation email against dated consent and sender rules for the US, EU and UK, and plan what each sign-up may receive given the consent it gave. Choose a lead magnet for an offer you sell by buyer stage, an honest link to the offer and the traffic you have, and decide whether and how to gate it. Draft the asset from your own material with proof and promise checks. Read sign-up and sales-call rates by lead magnet and traffic source, with sample sizes and intervals. No invented figures or social proof.",
+  "version": "0.1.1",
+  "description": "Pick a lead magnet for what you sell and decide whether to gate it; draft it from your own material with no invented figures; check an opt-in page, form, thank-you page and confirmation email against dated US, EU and UK consent and sender rules; plan what each sign-up may receive given the consent it gave; and compare sign-up and sales-call rates by magnet, with honest ranges for small numbers. Checks, not legal advice.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -28,7 +28,7 @@
   "interface": {
     "displayName": "Lead Magnets Kit",
     "shortDescription": "Plan, check, read lead magnets",
-    "longDescription": "Five skills for lead magnets, from the offer you sell to the numbers that come back. Magnet plan scores three to five candidate assets on buyer stage, the reader's current job, time to a first usable result, your own material, the link to your offer and your hours, and drops any candidate with no honest link to the offer. It then applies an ordered capture rule (open, use first, summary open, or full gate), keeps only form fields that have a use, and drafts consent box text per region. Magnet build runs ten checks before drafting the checklist, template, scorecard or calculator spec from your notes, and lists the claims the opt-in page may make. Opt-in check scores the page, form, thank-you page and confirmation email on 20 items with quoted evidence and dated rules from the GDPR, EDPB guidance, the UK ICO, CAN-SPAM and large mailbox providers, and rewrites only failing lines. Magnet follow-up maps who may receive what after sign-up and which consent records to keep. Magnet readout prints every rate with a Wilson interval, compares magnets with an observed-difference interval, leaves out sign-ups too recent to judge, and gives a verdict per magnet. Legal rows are checks, not legal advice.",
+    "longDescription": "Five skills for lead magnets, from the offer you sell to the numbers that come back. Magnet plan compares a few candidate assets for your offer, drops any with no honest link to it, picks one and says whether to gate it, which form fields to keep and what the consent box should say for US, EU and UK visitors. Magnet build writes the checklist, template, scorecard or calculator spec from your notes, keeps every figure to your own material and lists what the opt-in page may promise. Opt-in check reviews the page, form, thank-you page and confirmation email against dated rules from the GDPR, EDPB guidance, the UK ICO, CAN-SPAM and large mailbox providers, and rewrites only the failing lines. Magnet follow-up says who may be emailed after a download and which consent records to keep. Magnet readout compares your magnets on sign-ups and sales calls, with ranges that show when the numbers are too small to judge, and gives each one a verdict. Legal rows are checks, not legal advice.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [

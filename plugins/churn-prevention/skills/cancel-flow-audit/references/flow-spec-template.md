@@ -1,12 +1,12 @@
 # Redesigned flow spec (part d of the audit)
 
-Fill one row per screen. Copy slots are neutral and in square brackets; the team writes the final words.
+Fill one row per screen with the user's own facts (their offer, their page names, their plan). Leave a slot in square brackets only for a fact the user did not give, and name it. The team writes the final words.
 
 | Screen | Purpose | Content | Cancel control | Logged event |
 |---|---|---|---|---|
 | 1. Entry | Start from the plan or billing page | "Cancel subscription" link or button | Is the entry | cancel_started |
-| 2. Optional reason | Learn the reason group (R1–R8) | Reason options from `reason-offer-map.md`, plus "Skip" | "Continue to cancel" always active | reason_selected or reason_skipped |
-| 3. One offer (only if the reason group has one) | Present one alternative | Offer terms: [OFFER_PRICE], [OFFER_LENGTH], [PRICE_AFTER] | "Cancel subscription" beside "Accept", same size class (California: label "click to cancel" or a similar phrase, CA-e2) | offer_shown, offer_accepted, offer_declined |
+| 2. Optional reason | Learn the reason group (group names on screen, never R-numbers) | Reason options from `reason-offer-map.md`, plus "Skip" | "Continue to cancel" always active | reason_selected or reason_skipped |
+| 3. One offer (only if the reason group has one) | Present one alternative | The user's offer as given: price during the offer, how long, price after (a slot only for a term not given) | "Cancel subscription" beside "Accept", same size class (California: label "click to cancel" or a similar phrase, CA-e2) | offer_shown, offer_accepted, offer_declined |
 | 4. Confirmation | Finish | [END_DATE], what happens to data, how to restart | Is the final step | cancel_confirmed |
 | Receipt | Durable record | Email with date and time of the request and the end date | — | receipt_sent |
 

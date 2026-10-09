@@ -52,7 +52,7 @@ Fails everywhere: bio or profile only, "sp", "spon", "collab", a discount code a
 The brand stays responsible for what endorsers it works with say (US-255.1d). There is no fixed percentage to check (US-FAQ).
 
 1. Offer pre-approval of advocate posts first (US-FAQ suggests it when regular checks are too much).
-2. Otherwise sample each month: 10 posts or one per advocate per quarter, whichever is larger, or all if fewer, chosen at random across advocates (heuristic of this plugin; the user may change it).
+2. Otherwise sample each month: 10 posts or one post per three advocates, whichever is larger (so each advocate is checked about once a quarter), or every post if there are fewer, chosen at random across advocates (heuristic of this plugin; the user may change it).
 3. A miss is any Fail on PC-01, PC-02, PC-03, PC-08 or PC-11.
 4. First miss: ask the advocate to edit the post and resend the brief. Second miss: pause rewards until fixed. Third miss: end the arrangement (heuristic ladder of this plugin).
 5. Keep a log: date, post id, check ids failed, action, date fixed. Advocates appear as A1, A2 in summaries.

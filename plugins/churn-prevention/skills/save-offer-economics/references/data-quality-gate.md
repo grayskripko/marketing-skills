@@ -1,6 +1,6 @@
 # Data-quality gate
 
-Run before any calculation and print one short table. The question it answers is "can these numbers be trusted", not "which records need fixing". Anything that fails moves to a "Not checked" list with the reason; the rest of the analysis goes ahead.
+Run before any calculation. In the answer, print it after the results: one line when every check that applies passes, a short table of the failed checks only otherwise; never print a check that found nothing. The question it answers is "can these numbers be trusted", not "which records need fixing". Anything that fails moves to a "Not checked" list with the reason; the rest of the analysis goes ahead.
 
 | Check | How | Effect |
 |---|---|---|

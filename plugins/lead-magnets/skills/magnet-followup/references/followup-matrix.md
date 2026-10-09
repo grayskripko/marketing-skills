@@ -52,7 +52,7 @@ Follow `sender-rules.md`: the strictest deadline that applies (2 days for bulk m
 | subscriber type when known (individual or company address) | chooses the matrix row |
 | opt-out date | suppression |
 
-Store only what links the record to the processing (EDPB 05/2020 para 106). Counting events: the analytics events `generate_lead` on form submit and `qualify_lead` when sales accepts the lead, as listed among Google Analytics lead-generation events (support.google.com/analytics/answer/9267735, read 2026-10-03). A thank-you page view is a weaker count: reloads and return visits can fire it twice. Do not read opens as interest. Under Apple Mail Privacy Protection, messages are fetched in the background, which registers an open whether or not anyone looked at it (apple.com/legal/privacy/data/en/mail-privacy-protection, dated 2025-12-12, read 2026-10-03).
+Store only what links the record to the processing (EDPB 05/2020 para 106). Counting events: the analytics events `generate_lead` on form submit and `qualify_lead` when the lead is marked as meeting the qualified-lead criteria (in this plugin: when sales accepts it), as listed among Google Analytics lead-generation events (support.google.com/analytics/answer/9267735, read 2026-10-08). A thank-you page view is a weaker count: reloads and return visits can fire it twice. Do not read opens as interest. Under Apple Mail Privacy Protection, remote content is downloaded in the background, which registers an open whether or not anyone looked at it (apple.com/legal/privacy/data/en/mail-privacy-protection, dated 2025-12-12, read 2026-10-08).
 
 ## Consent-proof audit (optional)
 

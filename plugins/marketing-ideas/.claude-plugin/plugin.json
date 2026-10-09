@@ -1,8 +1,8 @@
 {
   "name": "marketing-ideas",
   "displayName": "Marketing Ideas Kit",
-  "version": "0.1.0",
-  "description": "Checks whether a marketing idea can pay for the customers it brings before money is spent. From a product description it builds a context card (buyer, price, margin, demand state, existing assets), proposes one concrete idea per channel family, removes ideas that break disclosure or platform rules or lack a source of buyers, scores the rest with an evidence grade and returns one main bet plus two cheap probes. For a single idea it prints the most you can afford per customer, signup and click and whether a quoted cost fits. It writes test cards with pass and stop lines set before launch and a sample-size check, and reads channel test results with intervals. Every number is the user's or a labelled assumption.",
+  "version": "0.1.1",
+  "description": "Helps a small team decide which marketing ideas deserve money, and whether a test worked. Describe your product and it suggests one main bet and two cheap tests, dropping ideas that break disclosure or platform rules; paste your own list and it ranks it. For one idea, such as a sponsorship or a booth, it works out the most you can pay per customer and per click and whether a quoted price fits. It sets pass and stop lines before a test and reads the results afterwards, showing each rate with its 95% range. Every number is yours or a labelled assumption.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

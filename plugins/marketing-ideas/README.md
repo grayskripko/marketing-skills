@@ -4,13 +4,13 @@ Checks whether a marketing idea can pay for its customers before you spend, drop
 
 > "Sponsor a 3,000-reader newsletter for $1,200? $39/mo plan, 85% margin, 6-mo payback; assume 2% click, 10% trial, 40% paid."
 >
-> **Test small first.** Affordable: $198.90 per customer, $7.96 per click, $0.16 per reader, against a $0.40 quote. Needs 6.03 customers (7); assumed rates give 2.4, about two-fifths of the cost back in six months.
+> **Test small first.** At your guessed rates the $1,200 slot brings about 2.4 paying customers, worth $477 over six months: two-fifths of its cost. It pays back only if a reader costs $0.16 or less (the quote works out to $0.40) or your rates are 2.5 times higher. Buy one classified first and measure clicks and trials.
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| idea-shortlist | a product description | main bet, two probes, check-lines |
+| idea-shortlist | a product description | one main bet, two cheap tests, the most you can pay per customer and click |
 | idea-ranking | your list of acquisition ideas | three to test first |
 | idea-payback-check | one idea, ideally a quote | verdict, break-even, cheapest test |
 | idea-test-card | ideas you picked | volume check, pass and stop lines, run time |
@@ -24,7 +24,7 @@ Checks whether a marketing idea can pay for its customers before you spend, drop
 
 ## How it works
 
-Every idea needs a source of buyers and a converter. Costs are judged against your figures; other numbers are labelled assumptions. Rule rows (US, EU, UK) are dated.
+Every idea must say where buyers come from and what turns them into customers, such as a demo or a trial. Costs are judged against your own figures; any other number is marked as an assumption. The disclosure and platform rules it checks (US, EU, UK) each carry the date they were read.
 
 ## Data and network
 
@@ -38,7 +38,7 @@ Write copy or ads, run ad accounts, build prospect lists, request or fake review
 
 ## Troubleshooting
 
-"Unknown": a cost or observed rate is missing.
+If a check says "unknown", add the quote or a rate you have measured and ask again.
 
 ## Support
 

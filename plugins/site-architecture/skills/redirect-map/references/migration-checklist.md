@@ -10,7 +10,7 @@
 | M-04 | Many-to-one | several old URLs share one target only when they were merged into it; Google asks for one-to-one mapping except for consolidation | G-move |
 | M-05 | Homepage targets | unrelated old pages do not point at `/`; such redirects may be treated as soft 404s. Any must-map URL pointed at `/` fails, and the closest page is proposed | G-move, G-404 |
 | M-06 | Temporary codes | permanent moves use a permanent redirect (301 or 308), not 302 or 307 | G-redir |
-| M-07 | Variants | case, trailing-slash, `index.html` and parameter variants of old URLs are covered by a rule | G-url |
+| M-07 | Variants | case, trailing-slash, `index.html` and parameter variants of old URLs are covered by a rule | convention of this plugin; G-url says Google treats `/APPLE` and `/apple` as two URLs |
 | M-08 | Target exists | every target is in the new structure or marked NEW | rule 3 |
 | M-09 | Must-map coverage | every old URL with clicks or backlinks has a row | G-move |
 | M-10 | Fallback rows | rows decided by the fallback below are counted and labelled | this file |
@@ -21,7 +21,7 @@ Slug collisions (two different old pages whose new paths would be the same) are 
 
 Used only when the user, a content review or the hand-off list gives no fate:
 - no clicks and no backlinks → 404 or 410 (Google currently treats them the same; G-404);
-- otherwise → 301 to the closest equivalent page, once its content covers the old page's subject (PR);
+- otherwise → 301 to the closest equivalent page, once its content covers the old page's subject;
 - never the homepage.
 Print: "deciding which pages to keep is a content decision; settle fate first if you have not".
 

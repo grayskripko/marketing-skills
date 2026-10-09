@@ -1,22 +1,19 @@
 # Churn Prevention Kit
 
-Recomputable numbers, and cancel flows that stay easy to leave. A 25% save rate can prove, against a holdout, to be no established effect:
+Five skills for subscription businesses that are losing customers. Review your cancel flow against US, EU and UK cancellation rules, check whether a save offer really kept people paying, plan failed-payment retries, test which warning signs come before cancellations, and plan a win-back that respects consent. Answers come from the numbers you paste, with the arithmetic shown.
 
-| | Offered | Holdout |
-|---|---|---|
-| Entered cancel flow | 360 | 40 |
-| Took 30% off, 3 months | 90 = 25.0% [20.8 – 29.7] | — |
-| Paying full price, month 4 | 54 = 15.0% [11.7 – 19.1] | 4 = 10.0% [4.0 – 23.1] |
-| Difference | +5.0 points [−8.5, +12.3]: not established | |
+Example: a cancellation discount that 90 of 360 people accepted (25%) looks like a win. In the first full-price month, 15.0% of the offered group were still paying against 10.0% of a holdout that saw no offer. The difference, +5.0 points (95% range −8.5 to +12.3), could be zero.
+
+Not sure where churn comes from? Start with "customers keep cancelling": the dunning-plan skill splits cancellations into failed payments and chosen ones and says which to fix first.
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| cancel-flow-audit | cancel steps and copy | checks CF-01 to CF-16, dated rules, redesigned flow |
+| cancel-flow-audit | cancel steps and copy | what fails and why, dated rules for your markets, a redesigned flow |
 | save-offer-economics | offer results, ideally with a holdout | gain over holdout, cost per subscriber kept |
-| dunning-plan | failed payments by decline code | retry classes, timeline, messages |
-| churn-signals | account history | lift, recall, lead time per signal |
+| dunning-plan | failed payments by decline code, or churn in general | where to start, retry classes, timeline, messages |
+| churn-signals | account history | which signals came before cancellations, how strongly and how many days ahead |
 | win-back-plan | cancellations with reason and consent | consent-checked segments, holdout |
 
 ## Examples
@@ -27,7 +24,7 @@ Recomputable numbers, and cancel flows that stay easy to leave. A 25% save rate 
 
 ## How it works
 
-Data checked and calculation shown first. Rates carry n and a 95% interval; no industry figures. Rules come from dated tables.
+The answer comes first, then the calculation and the data check behind it. Rates carry their sample size and a 95% range; no industry figures. Rules come from dated tables, each with its read date and link.
 
 ## Data and network
 
@@ -43,7 +40,7 @@ Make cancelling harder, charge or send anything, give legal advice, quote benchm
 
 ## Troubleshooting
 
-"Not checked" names a missing column or short window. Wide intervals mean few records.
+"Not checked" names a missing column or short window. Wide ranges mean few records.
 
 ## Support
 

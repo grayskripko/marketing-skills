@@ -1,7 +1,7 @@
 {
   "name": "marketing-psychology",
-  "version": "0.1.0",
-  "description": "Evidence grades and consumer-protection rule checks for the psychology in your marketing. Grade a claim such as 'losses hurt twice as much' against the original studies and their replications. Audit a page, email or paywall for the levers it uses: each one is quoted, graded and paired with the fact that makes it legitimate. Check countdowns, stock badges, reviews, 'was' prices, trials and cancellation paths against dated US, EU and UK rules. Read price tiers for anchors and decoys with the arithmetic shown. Diagnose why a target behaviour does not happen with COM-B. Never invents proof, studies or a promised lift.",
+  "version": "0.1.1",
+  "description": "Evidence grades and consumer-protection rule checks for the psychology in your marketing. Grade a claim such as 'losses hurt twice as much' against the original studies and their replications. Audit a page, email or paywall for the levers it uses: each one is quoted, graded and paired with the fact that makes it legitimate. Check countdowns, stock badges, reviews, 'was' prices, trials and cancellation paths against dated US, EU and UK rules. Read price tiers for anchors and decoys with the arithmetic shown. Find why users stop before a key step, such as connecting data or upgrading, and what to fix first. Never invents proof, studies or a promised lift.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -26,8 +26,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Marketing Psychology Kit",
-    "shortDescription": "Graded evidence, rule checks",
-    "longDescription": "Five skills that put evidence and dated rules next to the psychology in your marketing. Dark-pattern check takes a flow or element (countdown, stock or activity badge, reviews, was/now price, fees, pre-ticked extras, trial and renewal, cancel path, consent banner, streak rewards) and returns a register table: the fact each element depends on, the US, EU and UK rules it may engage with the date each was last read, severity as risk triage, a subscribe-versus-cancel count and an honest version. Persuasion audit reads a page, email, paywall or onboarding screen and lists every lever it pulls, quoted, with its evidence grade, the fact that makes it legitimate, any rule it touches and a keep, fix or remove verdict, plus a proof inventory with steps to collect real proof. Price framing normalises tiers, shows annual savings and per-day figures with formulas, and runs a decoy test that treats price as an attribute. Evidence check grades claims such as 'losses hurt twice as much' from A to D against replications and meta-analyses, citing only a checked ledger. Behavior diagnosis maps why a target behavior does not happen with COM-B, intervals on step rates and friction-first changes. It never writes fake proof, never predicts a lift and is not legal advice; rules read more than six months ago are flagged for re-checking.",
+    "shortDescription": "Check dark patterns and claims",
+    "longDescription": "Five skills that check the psychology in your marketing. Dark-pattern check says whether a countdown, stock badge, review, \"was\" price, fee, pre-ticked extra, trial, cancel path or consent banner may break US, EU or UK consumer rules, with the date each rule was read, and gives an honest version. Persuasion audit marks each lever on a page, email or paywall keep, fix or remove and says how to collect real proof. Price framing does the savings, per-seat and per-day math, checks for decoy tiers and compares percent and amount discounts. Evidence check says whether claims like \"losses hurt twice as much\" hold up and how to phrase them. Behavior diagnosis finds why users stop before a key step and ranks fixes that remove friction first. It never writes fake proof, never predicts a lift and is not legal advice; rules read more than six months ago are flagged for re-checking.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [

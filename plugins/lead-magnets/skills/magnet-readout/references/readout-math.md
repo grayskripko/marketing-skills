@@ -22,7 +22,7 @@ Do not compare by checking whether two separate intervals overlap. Do not comput
 ## Labels
 
 - "few events (k < 20)": the numerator is below 20. Heuristic of this plugin, used everywhere.
-- "too early": fewer than 30 sign-ups, or fewer than 5 sales conversations, for that magnet. No verdict other than "too early" is given.
+- "too early": fewer than 30 sign-ups, or fewer than 5 sales conversations (the first step after sign-up the user counts, here opportunities in example 2), for that magnet. No verdict other than "too early" is given.
 
 ## Maturity window
 
@@ -46,7 +46,7 @@ Checklist: 2,400 visits, 312 sign-ups, 9 sales calls. Calculator: 900 visits, 81
 | Calculator | 81/900 = 9.0% (7.3–11.0) | 14/81 = 17.3% (10.6–26.9), few events | 14/900 = 1.6% (0.9–2.6), few events |
 | Observed difference | checklist − calculator: +4.0 pp (1.6 to 6.2), different in this data | calculator − checklist: +14.4 pp (7.2 to 24.2), different in this data, few events: provisional | calculator − checklist: +1.2 pp (0.5 to 2.2), different in this data, few events: provisional |
 
-Calls per visit, calculator ÷ checklist = (14/900) ÷ (9/2,400) = 4.1 (unrounded 4.148). Reading: the checklist grows the list faster (list-growth view); the calculator brings more calls per visit (pipeline view). Lag, traffic source and counting method not checked. Verdicts, provisional, applying the rows of `diagnosis-tree.md` in order: calculator keep (row 3, calls per visit highest; row 2 does not fire); checklist fix bridge (row 4: sign-ups per visit the higher one, calls per sign-up clearly lower). Re-check when each call count reaches 20.
+Calls per visit, calculator ÷ checklist = (14/900) ÷ (9/2,400) = 4.1 (unrounded 4.148). Reading: the checklist grows the list faster (list-growth view); the calculator brings more calls per visit (pipeline view). Lag, traffic source and counting method not checked. Verdicts, provisional, as the user sees them: calculator keep, because it brings the most calls per visit; checklist fix the link to the offer, because it gets more sign-ups per visit but clearly fewer calls per sign-up. Re-check when each call count reaches 20.
 
 ## Worked example 2 (maturity window, projection)
 

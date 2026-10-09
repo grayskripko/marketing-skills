@@ -14,9 +14,9 @@ Google's URL guidance gives additive filtering as a typical way URL counts explo
 
 | Case | URL form | Crawl | Index | Source |
 |---|---|---|---|---|
-| One filter value with demand in the user's data | clean path or stable parameter | allowed | index, own title and H1 | PR |
-| Two or more filters, named in the demand data and passing the content gate | clean path or stable parameter | allowed | index | PR |
-| Two or more filters, not named in the demand data | parameter or not a link | disallowed or allowed with canonical to the category | not indexed | heuristic of this plugin, from PR |
+| One filter value with demand in the user's data | clean path or stable parameter | allowed | index, own title and H1 | convention of this plugin |
+| Two or more filters, named in the demand data and passing the content gate | clean path or stable parameter | allowed | index | convention of this plugin |
+| Two or more filters, not named in the demand data | parameter or not a link | disallowed or allowed with canonical to the category | not indexed | heuristic of this plugin |
 | Sort, view, session, tracking | parameter | disallowed | never indexed | G-url, G-page |
 | Empty result | its own URL | — | answers 404 | G-facet |
 

@@ -1,6 +1,6 @@
 # Proof scoring
 
-Score every proof element in the asset: testimonial, review excerpt, rating, customer count, logo strip, case number, award, press mention, expert quote.
+Score every proof element in the asset (print the scores only when the user asks for the full audit; otherwise say in words what makes each one weak): testimonial, review excerpt, rating, customer count, logo strip, case number, award, press mention, expert quote.
 
 ## Four criteria, 0-2 each (total 0-8)
 
@@ -35,4 +35,4 @@ Check the asset's numbers against each other: a weekly or daily rate × 52 or 36
 5. Record the date and the context so the quote stays checkable.
 6. Early-stage products: onboard the first customers by hand and collect proof from them as they reach a result (practical advice; no ledger evidence).
 
-Placeholders in drafts are bracketed descriptions only: [customer quote: role, company size, result and time frame].
+A draft holds at most one bracketed placeholder, for proof the user does not have yet, named under the text: [customer quote: role, company size, result and time frame].

@@ -51,7 +51,7 @@ Sitewide rules only. A community inside a platform (a subreddit, a server, a for
 | P-RDT2 | Reddit Rule 2: follow each community's rules; take part genuinely, in communities you have your own stake in; no spam or content manipulation | not stated sitewide; check the subreddit's rules | https://redditinc.com/policies/reddit-rules | read 2026-10-03 | platform |
 | P-RDT5 | Reddit Rule 5: no deceptive impersonation of a person or entity. Cited only for impersonation. Reddit has no sitewide disclosure rule and no sitewide "10% rule"; subreddit rules may add either | — | https://redditinc.com/policies/reddit-rules | read 2026-10-03 | platform |
 | P-RDT-MOD5 | Reddit Moderator Code of Conduct, Rule 5 (effective 2025-06-05): moderators may not take moderator actions (approving or removing posts, pinning, sidebar, widget or wiki edits, flair, "ad space") in exchange for any compensation or favour from a third party. Staff running their own company's subreddit is allowed if no compensation is received | — | https://redditinc.com/policies/moderator-code-of-conduct | read 2026-10-03 | platform |
-| P-RDT-fetch | Reddit pages are never fetched; the user pastes subreddit rules. reddit.com turns away scripted requests | — | — | 2026-10-03 | plugin policy |
+| P-RDT-fetch | Reddit pages are never fetched; the user pastes subreddit rules | — | — | 2026-10-03 | plugin policy |
 | P-HN | Hacker News: posting your own work part of the time is fine, but not using the site mainly for promotion; no asking for upvotes, comments or submissions; accounts should not be created routinely | see P-HN-AI | https://news.ycombinator.com/newsguidelines.html | read 2026-10-03 | platform |
 | P-HN-AI | Hacker News: no generated text in posts (write it yourself, don't automate posting); no generated or AI-edited text in comments | banned | https://news.ycombinator.com/newsguidelines.html | read 2026-10-03 | platform |
 | P-PH | Product Hunt launch rules: share the link anywhere, but do not ask people directly to upvote (asking them to visit and comment is allowed); company accounts are prohibited | not stated | https://www.producthunt.com/launch | read 2026-10-03 | platform |
@@ -64,7 +64,7 @@ Sitewide rules only. A community inside a platform (a subreddit, a server, a for
 | P-GH | GitHub Acceptable Use Policies, section 4: no coordinated inauthentic activity, fake accounts or rank abuse (for example starring or following by script); no bulk promotion | not stated | https://docs.github.com/en/site-policy/acceptable-use-policies | read 2026-10-03 | platform |
 | P-SE | Stack Exchange self-promotion help: reported to require stating your affiliation in posts about your product | not known | https://stackoverflow.com/help/promotion | unverified (page returned 403 on 2026-10-03) | platform |
 | P-GMAPS | Google Maps user-content policy: merchants may not offer any incentive for a review, discourage negative reviews, or selectively ask for positive ones | — | https://support.google.com/contributionpolicy/answer/7400114 | read 2026-10-03 | platform |
-| P-OTHER-REV | Other review sites (large retail and local-review sites) set their own incentive and solicitation bans, often stricter than law | — | the site's current policy page | unverified; tell the user to check that site's policy | platform |
+| P-OTHER-REV | Other review sites (large retail and local-review sites) may set their own incentive and solicitation bans, which can be stricter than law | — | the site's current policy page | unverified; tell the user to check that site's policy | platform |
 
 ## Privacy and data
 
@@ -82,7 +82,7 @@ Sitewide rules only. A community inside a platform (a subreddit, a server, a for
 | POL-GATE | Never invite only happy customers to review; invite everyone or a random sample | US-255.2-Ex11; UK-CMA208 |
 | POL-FEE | No fee per review and no asking advocates specifically for reviews; advocates review only as ordinary customers, with the disclosure line | US-255.5; UK-P13 |
 | POL-VOTE | No vote, like, star or boost requests anywhere, including forums whose rules say nothing about votes | P-HN, P-PH, P-RDT2, P-DSC15, P-LI, P-GH (platform) |
-| POL-AI | Outline only, never paste-ready text, where the venue bans AI-written text or its stance is unknown | P-HN-AI; the venue's own rules |
+| POL-AI | Outline only, never paste-ready text, where the venue bans AI-written text | P-HN-AI; the venue's own rules |
 
 ## Research and frameworks
 
@@ -91,6 +91,6 @@ Sitewide rules only. A community inside a platform (a subreddit, a server, a for
 | R-NNG | Participation is often roughly 90-9-1 but varies: blogs about 95-5-0.1, Wikipedia edits about 99.8-0.2-0.003 | Nielsen, "Participation Inequality", NN/g, 2006-10-08, https://www.nngroup.com/articles/participation-inequality/ | read 2026-10-03 |
 | R-TTFR | Time to first response: time from an item needing attention to the first reply, automated replies excluded | CHAOSS metric, https://chaoss.community/?p=3448 | read 2026-10-03 |
 | R-CAF | Contributor absence factor: the smallest number of contributors who together made half of all contributions | CHAOSS metric, https://chaoss.community/kb/metric-contributor-absence-factor/ | read 2026-10-03 |
-| R-SPACES | Six business outcomes of a community: Support; Product ideation and feedback; Acquisition and advocacy; Content and contribution; Engagement; Success | CMX, D. Spinks, updated 2025-01-31, https://www.cmxhub.com/blog/the-spaces-model | read 2026-10-03 |
+| R-SPACES | Six business outcomes of a community: Support; Product ideation and feedback; Acquisition and advocacy; Content and contribution; Engagement; Success | CMX, D. Spinks, 2021-02-15 (model updated February 2021), https://www.cmxhub.com/blog/the-spaces-model | read 2026-10-08 |
 | R-WIL | Wilson score interval (1927) | standard method | method |
 | R-NEW | Newcombe hybrid score interval for a difference of two proportions (1998) | standard method | method |

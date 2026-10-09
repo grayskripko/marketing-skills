@@ -13,7 +13,7 @@ How question-bank reads sales conversations for one thing: when buyers ask the s
 1. Extract every buyer question (an explicit "?" or an indirect question or concern that needs an answer, such as "I'd need to know whether…"), with conversation id and turn, and the seller reply that follows, verbatim.
 2. Group into canonical questions, each written as one plain sentence. **Merge rule**: two questions merge only when one correct answer would serve both. "Do you integrate with our CRM?" and "Does it sync both ways with our CRM?" do not merge: the second needs a different answer. Print the merge list.
 3. Category: price, fit, integration, risk and security, timing, authority, status quo, competitor, other.
-4. Count conversations containing the question (k of n; a conversation counts once), share and Wilson 95% interval (`rates.md`). k = 1 is labelled "n = 1, single mention" and is not ranked.
+4. Count conversations containing the question (k of n; a conversation counts once), share, and the likely range (Wilson 95% interval, `rates.md`) only when n is 20 or more. k = 1 is labelled "single mention" and is not ranked.
 5. Where it comes up: first call, demo, pricing, late stage, as labelled in the input; otherwise "not labelled".
 6. Each distinct seller answer, verbatim, with conversation id and seller pseudonym.
 7. Status per canonical question:
@@ -25,13 +25,13 @@ How question-bank reads sales conversations for one thing: when buyers ask the s
 | no answer | the seller deferred ("I'll check") with no follow-up in the input, changed the subject, or the question got no reply |
 | contradictory | two answers cannot both be true or differ on a fact (number, yes/no, date); this beats every other status |
 
-8. What followed: the next three buyer turns after each answer, labelled continued, changed topic or closed down; reported as "the conversation kept going in k of m", never as "this answer works".
+8. What followed (only when the user asks): the next three buyer turns after each answer, labelled continued, changed topic or closed down; reported as "the conversation kept going in k of m", never as "this answer works".
 
 ## Answer gaps
 
 Questions with status contradictory, no answer or answered without proof, ranked contradictory first, then no answer, then answered without proof, and by k (largest first) within each. For each gap: a proposed single answer built only from the user's material with its source line, otherwise [ANSWER NEEDED]. If the user's material shows one seller's answer is wrong, say which answer matches the material. Generic advice appears only when the user asks for ideas, in a box titled "Suggested, not from your conversations", at most 5 lines.
 
-## Self-check (printed)
+## Self-check (one line in the answer; list only exceptions)
 
 - every quote appears in the input (search for it);
 - every count traces to listed conversation ids;

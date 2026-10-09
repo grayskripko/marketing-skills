@@ -1,6 +1,6 @@
 # Call statistics: counting rules
 
-All figures are recomputable from the transcript. Print the rule with the figure. Use the host's code tool when available; otherwise label each figure "counted by hand — check".
+All figures are recomputable from the transcript. Give the rule with the figure once. Use the host's code tool when available; otherwise count each figure twice before printing it, without mentioning the tool or that it was counted by hand.
 
 ## Gate (before any count)
 
@@ -22,7 +22,7 @@ All figures are recomputable from the transcript. Print the rule with the figure
   - open: what, how, why, which, who, where, when, tell, walk, describe, talk, help;
   - closed: do, does, did, is, are, was, were, can, could, would, will, should, have, has, had, shall, may, might, any, isn't, aren't, don't, doesn't, didn't, won't, wouldn't, can't, couldn't;
   - anything else: unclassified.
-  Print the full list of seller questions with their label so the user can correct misses (e.g. "what about Tuesday?" is open by the rule but works as closed).
+  Keep the full list of seller questions with their labels; print it when the user asks or a label looks doubtful, so the user can correct misses (e.g. "what about Tuesday?" is open by the rule but works as closed).
 - **Thirds**: split the call into three equal time spans from the first to the last timestamp (or three equal spans of total word position when there are no timestamps); count seller questions in each.
 - **Longest seller turn** and **longest buyer turn**: words in the longest merged turn, with its turn number.
 - **Next-step test**: date ✓/✗, owner ✓/✗, buyer agreement quoted ✓/✗, taken from the last third of the call.

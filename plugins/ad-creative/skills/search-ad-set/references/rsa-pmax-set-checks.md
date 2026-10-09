@@ -7,8 +7,8 @@ Limits come from `platform-specs.md` (rows G-RSA-*, G-PMX-*). The role mix below
 | Role | Count | Purpose |
 |---|---|---|
 | Keyword | 4 | repeat the searcher's words so the ad reads as relevant |
-| Benefit | 3 | what changes for the buyer |
-| Proof | 2 | only from F-ids; otherwise `[proof needed: …]` |
+| Benefit | 3 | what changes for the buyer, only from F-ids; a slot the facts cannot fill becomes a keyword line |
+| Proof | 2 | only from F-ids; with no proof fact, write keyword lines instead and say which fact would add proof |
 | Offer | 2 | trial, price, guarantee, only from F-ids |
 | Call to action | 2 | a verb and the next step |
 | Brand | 1 | the name as the user writes it |
@@ -21,8 +21,8 @@ Paths (2): words from the keyword theme, each 15 or fewer, no spaces (use hyphen
 
 1. **Length:** every field under its hard limit with the count beside it, double-width counted 2.
 2. **Fact lock:** every number, price, rating and promise maps to an F-id. Lines without one are rewritten or marked.
-3. **Duplicates:** no two headlines open with the same three words; no phrase of three or more words appears in two assets, headlines and descriptions alike (a single keyword may recur); no two headlines, and no two descriptions, make the same core claim in different words (the second one is replaced). A description may carry a headline's fact in its own words, never the headline's wording. This also avoids GOO-ED-REP. Print "duplicate check: passed" or the failing pairs.
-4. **Combination test:** headlines are shown in any order and any three may appear together. Print 8 sampled triples as "H_a | H_b | H_c" and read each aloud: no triple may repeat a claim, contradict itself (two different prices), read as nonsense, or contain a headline that only makes sense right after another one. Replace any headline that breaks a triple and re-run. Sampling: if a code tool exists, pick 8 random ordered triples with a fixed seed and print the seed; otherwise pick triples that pair each offer and proof line with each other once.
+3. **Duplicates:** no two headlines open with the same three words; no phrase of three or more words appears in two assets, headlines and descriptions alike (a single keyword may recur: this plugin's convention, not a Google exception); no two headlines, and no two descriptions, make the same core claim in different words (the second one is replaced). A description may carry a headline's fact in its own words, never the headline's wording. This also guards against Google's repetition rule (GOO-ED-REP), which covers gimmicky repetition across assets too. Print "duplicate check: passed" or the failing pairs.
+4. **Combination test:** headlines are shown in any order and any three may appear together. Take 8 sampled triples ("H_a | H_b | H_c"; print them only if one fails or the user asks) and read each aloud: no triple may repeat a claim, contradict itself (two different prices), read as nonsense, or contain a headline that only makes sense right after another one. Replace any headline that breaks a triple and re-run. Sampling: if a code tool exists, pick 8 random ordered triples with a fixed seed and print the seed; otherwise pick triples that pair each offer and proof line with each other once.
 5. **Pinning:** default is none. Pin only text that must show every time (a legal qualifier, a regulated disclosure) and say that pinning narrows the combinations the system can test.
 6. **Must-survive list:** words that filter out the wrong buyers (price floors, "for teams of 10+", "UK only"). Remind the user that Google's text customization (formerly automatically created assets) and Final URL expansion can generate new text from the landing page, so they should check the served combinations and the asset report for these words.
 7. **Policy pass:** run the ad-preflight rule screen over the finished set and append its findings.
@@ -39,4 +39,4 @@ Paths (2): words from the keyword theme, each 15 or fewer, no spaces (use hyphen
 
 ## Paste-ready table (CSV)
 
-`field,position,text,characters,role,fact_ids,status`. Position is blank unless pinned; status is Ready or Hold. The user pastes it into their own ad tool; this plugin changes no account.
+`field,position,text,characters,role,fact_ids`, printed when the user asks. Position is blank unless pinned. The user pastes it into their own ad tool; this plugin changes no account.

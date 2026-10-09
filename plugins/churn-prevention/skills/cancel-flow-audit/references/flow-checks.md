@@ -1,10 +1,10 @@
 # Cancel-flow checks CF-01 to CF-16
 
-Each check gets Pass, Fail or Not checkable, the user's own words quoted as evidence, and the source id from `cancel-rules.md`. "Heuristic" means a practice of this plugin, not a legal duty; say so in the output. Every Fail comes with the compliant alternative from the last column.
+Each check gets Pass, Fail or Not checkable, the user's own words quoted as evidence, and the source id from `cancel-rules.md`. "Heuristic" means a recommended practice, not a legal duty; in the answer it is a plain recommendation and never presented as a law. Every Fail comes with the compliant alternative from the last column.
 
 | Id | Check | Source | Compliant alternative |
 |---|---|---|---|
-| CF-01 | A customer who joined online can also finish cancelling online | CA-d; DE-312k; UK-DMCC (from January 2027); US-ROSCA "simple mechanisms", with US-AMZ as an enforcement example | A cancel link or button in the account area that completes the job online |
+| CF-01 | A customer who joined online can also finish cancelling online, alone; a required chat or call with support fails here and under CF-02 | CA-d; DE-312k; UK-DMCC (from January 2027); US-ROSCA "simple mechanisms", with US-AMZ as an enforcement example | A cancel link or button in the account area that completes the job online |
 | CF-02 | No phone call, chat, agent or email exchange is needed to finish | CA-d ("obstruct or delay"); DP-FTC | Remove the human step; offer contact as an option, never as the gate |
 | CF-03 | The way in is easy to find from account or billing settings, without searching help pages | CA-d ("prominently located"); DE-312k (always available, directly and easily reachable). DE: a login required before the button can be reached is printed as **Fail (risk)** against DE-312k; say the statute text does not mention login and counsel should confirm | Put "Cancel subscription" on the plan or billing page itself; in Germany, reachable without logging in |
 | CF-04 | At most one save step before the final confirmation | heuristic; DP-FTC and DP-MATHUR describe repeated interruptions as a pattern. Not a California rule | Keep one screen with one offer, then the confirmation |

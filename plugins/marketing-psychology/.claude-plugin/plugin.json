@@ -1,8 +1,8 @@
 {
   "name": "marketing-psychology",
   "displayName": "Marketing Psychology Kit",
-  "version": "0.1.0",
-  "description": "Evidence grades and consumer-protection rule checks for the psychology in your marketing. Grade a claim such as 'losses hurt twice as much' against the original studies and their replications. Audit a page, email or paywall for the levers it uses: each one is quoted, graded and paired with the fact that makes it legitimate. Check countdowns, stock badges, reviews, 'was' prices, trials and cancellation paths against dated US, EU and UK rules. Read price tiers for anchors and decoys with the arithmetic shown. Diagnose why a target behaviour does not happen with COM-B. Never invents proof, studies or a promised lift.",
+  "version": "0.1.1",
+  "description": "Evidence grades and consumer-protection rule checks for the psychology in your marketing. Grade a claim such as 'losses hurt twice as much' against the original studies and their replications. Audit a page, email or paywall for the levers it uses: each one is quoted, graded and paired with the fact that makes it legitimate. Check countdowns, stock badges, reviews, 'was' prices, trials and cancellation paths against dated US, EU and UK rules. Read price tiers for anchors and decoys with the arithmetic shown. Find why users stop before a key step, such as connecting data or upgrading, and what to fix first. Never invents proof, studies or a promised lift.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

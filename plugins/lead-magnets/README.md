@@ -1,23 +1,18 @@
 # Lead Magnets Kit
 
-Plan, check and measure lead magnets with dated US, EU and UK consent rules. A readout:
+Pick, write, check and measure lead magnets: what to give away for your product and whether to gate it, the asset from your own notes, an opt-in form checked against dated US, EU and UK consent rules, who you may email afterwards, and which magnet brings sales calls.
 
-| Magnet | Sign-ups / visits | Calls / visits |
-|---|---|---|
-| Checklist | 312/2,400 = 13.0% (11.7–14.4) | 9/2,400 = 0.4% (0.2–0.7) |
-| Calculator | 81/900 = 9.0% (7.3–11.0) | 14/900 = 1.6% (0.9–2.6) |
-
-The checklist grows the list; the calculator brings 4.1 times more calls per visit. Call counts are under 20, so the verdict is provisional.
+Example readout: the checklist got 312 sign-ups from 2,400 visits (13.0%), the calculator 81 from 900 (9.0%). But the calculator brought 14 sales calls against the checklist's 9, about 4.1 times more calls per visit. Keep the calculator; fix how the checklist leads to your offer. Both call counts are under 20, so the verdict is provisional.
 
 ## What it does
 
 | Skill | You get |
 |---|---|
-| magnet-plan | scored pick for your offer, gate decision, fields, consent box text |
-| magnet-build | checks, then the asset from your notes |
-| optin-check | 20 dated checks on page, form and emails; rewrites |
-| magnet-followup | who may receive what, consent records, export audit |
-| magnet-readout | rates with intervals, a verdict per magnet |
+| magnet-plan | the magnet to make for your offer, whether to gate it, form fields, consent box text |
+| magnet-build | the asset from your notes, with no invented figures, plus what the page may promise |
+| optin-check | what to fix on your opt-in page, form and emails, with rewrites |
+| magnet-followup | who you may email after a download, and what records to keep |
+| magnet-readout | which magnet brings sign-ups and which brings sales calls, with a verdict for each |
 
 ## Examples
 
@@ -41,7 +36,7 @@ Buy or scrape lists, pre-tick consent, tie EU or UK downloads to marketing conse
 
 ## Troubleshooting
 
-"Not checked" and "ask" rows name what is missing. "Few events": under 20.
+If an answer says something was not checked, paste the missing text (page, thank-you page, email). "Few events" means fewer than 20 sign-ups or calls behind a rate, so treat that verdict as provisional.
 
 ## Support
 

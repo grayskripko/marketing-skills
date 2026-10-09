@@ -1,6 +1,6 @@
 # Data-quality gate
 
-Answers "can these numbers be trusted". Every item prints pass, flag or not checked, with a count. Nothing is removed silently: excluded rows are counted and their ids listed (at most 10).
+Answers "can these numbers be trusted". Every item is scored pass, flag or not checked, with a count; the answer shows only flags and checks that could not be run. Nothing is removed silently: excluded rows are counted and their ids listed (at most 10).
 
 | Id | Check | When it fails |
 |---|---|---|

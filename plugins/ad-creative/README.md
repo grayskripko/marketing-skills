@@ -1,20 +1,20 @@
 # Ad Creative Preflight Kit
 
-Checks ad text before launch and reads creative tests after. Every limit and rule is dated and sourced. The first example below returns:
+Checks ad text before it runs and reads creative tests after. Every limit and rule is dated and sourced. The first example below returns:
 
-| Text | Rule id | Result | Action |
+| Text | Rule | Result | Suggested fix |
 |---|---|---|---|
-| "Struggling with anxiety?" | META-PA | likely disapproval | "AcmeCalm: a routine for calmer evenings." |
-| "#1", "doctors recommend" | GEN-CL-RANK, GEN-CL-ENDORSE | Hold | name the source or drop the claim |
-| "50% off today only" | GEN-URG, GEN-PRICE | Hold | confirm end date and old price |
+| "Struggling with anxiety?" | Meta: no line that implies the viewer's health | likely disapproval | "AcmeCalm: an evening wind-down app." |
+| "#1", "doctors recommend" | US FTC: claims need proof before the ad runs | Hold | name the source or drop the claim |
+| "50% off today only" | Google, UK CAP Code: offers and deadlines must be real | Hold | confirm the end date and the old price |
 
 ## Skills
 
-- **ad-preflight**: counts, dated rule findings, claim ledger, Ready / Fix / Hold.
-- **ad-test-readout**: intervals, design label, days still needed.
-- **search-ad-set**: headlines and descriptions from your facts, combination test.
-- **social-ad-set**: LinkedIn, Meta, TikTok copy; one-variable variants.
-- **angle-matrix**: angles traced to pasted reviews, hypotheses.
+- **ad-preflight**: checks ad text you already have against platform limits and rules; Ready, Fix or Hold per ad, with fixed text.
+- **ad-test-readout**: which ad won, whether the gap is real, and how much longer the test must run.
+- **search-ad-set**: 15 Google headlines and 4 descriptions from your facts, checked so any three read well together.
+- **social-ad-set**: LinkedIn, Facebook, Instagram and TikTok ad copy, in variants that each change one thing.
+- **angle-matrix**: ad angles drawn from reviews and comments you paste, each traced to what customers said.
 
 ## Examples
 
@@ -24,7 +24,7 @@ Checks ad text before launch and reads creative tests after. Every limit and rul
 
 ## How it works
 
-Covers Google, Meta, LinkedIn, TikTok and US, UK, EU claim rules. Old rows are flagged; unlisted fields are unknown, never guessed. No figure enters your copy unless you supplied it.
+Covers Google, Meta, LinkedIn, TikTok and US, UK, EU claim rules. Rules read more than six months ago are flagged; limits the plugin has not checked are reported as unknown, never guessed. Copy uses the facts you give, in your words, and no figure you did not give.
 
 ## Data and network
 
@@ -38,7 +38,7 @@ Make images or video, change ad accounts, advise on spend, write political ads, 
 
 ## Troubleshooting
 
-"Not in this plugin's checked table": paste the limit your ad tool shows.
+"Not in this plugin's checked table": paste the limit your ad tool shows, and it is used as "your limit".
 
 ## Support
 

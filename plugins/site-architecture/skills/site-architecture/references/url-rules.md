@@ -1,6 +1,6 @@
 # URL rules sheet
 
-Print this sheet as an editable list. Each line shows its source id (see `sources.md`) or the label "convention of this plugin". When a current URL breaks a line, list it with the line number.
+Print the rules as a plain, editable list without ids, the source column or labels; U-07 to U-11 are conventions of this plugin, which only matters if the user asks where a rule comes from. When a current URL breaks a rule, list it with the rule written out. Sources are in `sources.md`.
 
 | # | Rule | Why | Source |
 |---|---|---|---|

@@ -4,10 +4,10 @@ A dated list of consumer-protection rules that persuasion mechanics most often e
 
 How to use it:
 - Default jurisdictions are US (federal, plus California where noted), EU and UK; use only the ones the user names if they name any. App-store rows only when the user says the flow runs inside that store's app.
-- For each element: find its DP row, state the "legitimate only if" fact, list the facts the user must confirm, list the source rows it may engage per jurisdiction with their read dates, give the severity, then the honest version.
-- Staleness: compare each source row's read date with today's date. If more than 6 months have passed, mark that row "stale: re-check" in the output. All rows below were read on 2026-10-03, so they turn stale after 2027-04-03.
+- For each element: find its DP row, state the "legitimate only if" fact, list the facts the user must confirm, name the source row it most directly engages in each market the user sells into (read dates stay here), give the severity, then the honest version.
+- Staleness: compare each source row's read date with today's date. If more than 6 months have passed, put "re-check this rule" next to it in the answer. All rows below were read on 2026-10-03, so they turn stale after 2027-04-03.
 - National rules: EU member states may add stricter rules (for example Germany's mandatory online cancel button for contracts concluded on a website, §312k BGB, https://www.gesetze-im-internet.de/bgb/__312k.html, read 2026-10-03). This register does not cover national rules; say so when the user sells into one country.
-- Close every register table with: "Not legal advice. Rules last read on [dates]; re-check any rule read more than 6 months before today."
+- Close any answer that names a law with "Not legal advice." Read dates and URLs are printed only when the user asks where a rule comes from.
 
 Pattern names follow published taxonomies: Mathur et al. 2019 (ledger L29); OECD, "Dark commercial patterns", Digital Economy Papers No. 336, 2022 (https://doi.org/10.1787/44f5e846-en); the FTC staff report (US-11); CMA, "Online choice architecture" discussion paper CMA155, April 2022 (https://www.gov.uk/government/publications/online-choice-architecture-how-digital-design-can-harm-competition-and-consumers). Read 2026-10-03.
 
