@@ -2,7 +2,7 @@
 
 ## What it does
 
-Editing and diagnosis workflows for your own website copy and drafts. Every edit comes with a change log, and every number, name and claim in your draft is locked so it cannot drift. Existing pages are diagnosed layer by layer before anything is rewritten. Claims are checked against the evidence you provide. Proof, testimonials and urgency are never invented: where proof is missing, the copy gets a visible `[PROOF NEEDED]` marker.
+Edit, diagnose and draft copy for your own website. Paste a draft and get the edited text back first, with a short list of what changed; every number, name and claim stays as you wrote it. Paste a page or give its URL and get the main problem in plain words and the top changes before anyone rewrites it. Claims are checked against the evidence you provide. Proof, testimonials and urgency are never invented: where proof is missing, the answer says what to collect.
 
 ## Skills
 
@@ -10,11 +10,11 @@ Each skill is chosen by what you give it:
 
 | You give | Skill |
 |---|---|
-| Your draft, plus "edit", "tighten" or "proofread" | `copy-edit`: fact-lock table, change log, clean text, before/after counts |
-| An existing page (URL or pasted), plus "what's wrong?" | `copy-diagnose`: first broken layer, 12-point checklist score, top 5 changes |
+| Your marketing draft, plus "edit", "tighten" or "make it less generic" | `copy-edit`: the edited text first, then what changed; every fact kept |
+| An existing page (URL or pasted), plus "what's wrong?" | `copy-diagnose`: the main problem in plain words, top 5 changes, a checklist score out of 24 |
 | Copy plus your evidence (notes, data, reviews) | `copy-proof-check`: claims ledger with accurate rewrites |
-| A brief, no page yet | `page-copy`: message brief, draft, three headlines, skim test, fact ledger |
-| Samples of your own writing | `voice-profile`: tone rules, word lists, rhythm figures |
+| A brief or product facts, no page yet | `page-copy`: the page draft, three headline options, gaps to fill |
+| Samples of your own writing | `voice-profile`: tone rules, word lists, rhythm targets |
 
 ## Examples
 
@@ -25,19 +25,20 @@ Each skill is chosen by what you give it:
 
 ## Sample output
 
-One row of a change log:
+**Your draft:** "Northwind Ledger is a revolutionary platform that empowers teams to cut invoice time by 40%."
 
-| # | Before | After | Pass | Rule | Reason |
-|---|---|---|---|---|---|
-| 1 | "a revolutionary platform that empowers teams to cut" | "a platform that lets teams cut" | P5 | SP-06 | Praise words carry no information; the claim is unchanged |
+**Edited:** "Northwind Ledger lets teams cut invoice time by 40%."
+
+**What changed:** "a revolutionary platform that empowers teams to cut" → "lets teams cut". The praise words told the reader nothing. 40% is unchanged; it needs a source before you publish.
 
 ## How it works
 
-The edit runs eight fixed passes (meaning, reader, specifics, proof, stock phrasing, rhythm, voice, action) and logs each change with a rule id. The diagnosis checks positioning, then message priority, then wording, and names the first layer that fails. The proof check gives each claim a status relative to your evidence only. Counts are computed with the assistant's code tool when it has one, and labelled approximate otherwise.
+The edit runs eight fixed passes (meaning, reader, specifics, proof, stock phrasing, rhythm, voice, action) and lists what it changed in plain words. The diagnosis checks positioning, then message order, then wording, and reports the first of these that fails. The proof check gives each claim a status relative to your evidence only. Counts are labelled approximate unless a code tool computed them.
 
 ## What it will not do
 
 - Write ads, cold email, social posts or search titles.
+- Proofread documents or policies for errors only.
 - Invent proof, testimonials, deadlines or scarcity.
 - Add typos or noise to text.
 - Imitate a real person's voice.
@@ -45,13 +46,13 @@ The edit runs eight fixed passes (meaning, reader, specifics, proof, stock phras
 
 ## Data and network
 
-The plugin contains only instructions and reference text. It ships no code and stores nothing. Only the copy-diagnose skill fetches pages: public pages at URLs the user gives, at most 3 per run. No skill runs web searches or calls any other service. If the assistant has a code tool, it may use it to count words and patterns in the text you pasted; the plugin ships no code. Text you paste stays in your conversation with the assistant.
+The plugin contains only instructions and reference text; it ships no code and stores nothing. Only the copy-diagnose skill fetches pages: public pages at URLs you give, at most 3 per run, and never a page the site's robots.txt disallows. No skill runs web searches or calls any other service. If the assistant has a code tool, it may use it to count words in the text you pasted. Text you paste stays in your conversation with the assistant. Names of private people in pasted reviews or notes are replaced with labels in the answer.
 
 ## Troubleshooting
 
 - **Page fetch fails or looks empty:** paste the page text.
 - **Counts look off:** they are approximate without a code tool; ask for a recount.
-- **The edit changed too much:** ask for the change log only, then accept rows one by one.
+- **The edit changed too much:** ask for the full change log, then accept rows one by one.
 
 ## Support
 

@@ -1,8 +1,8 @@
 {
   "name": "seo-audit",
   "displayName": "SEO Audit Kit",
-  "version": "0.1.0",
-  "description": "Audit a website, a single page, Search Console and crawler exports, or a site's source code for technical, on-page and content SEO issues. Every finding shows its evidence and how sure it is, and the work ends in a prioritized fix plan with developer tickets.",
+  "version": "0.1.1",
+  "description": "Audit a website, a single page, Search Console and crawler exports, or a site's source code for technical, on-page and content SEO issues. Every finding shows its evidence and how sure it is, and findings can be turned into a prioritized fix plan with developer tickets.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

@@ -1,47 +1,47 @@
 # Scorecard template
 
-Use this layout for the scorecard. Keep engines in separate rows; never add a blended total.
+Use this layout. Keep engines in separate rows; never add a blended total. Leave out any section with nothing in it.
 
-## 1. Data quality
+## 1. The answer
 
-- Periods: ... Engines: ... Prompts: ... Runs: ...
-- Thin groups (median runs per prompt below 3): ...
-- Mixed settings: ...
-- Rows skipped and why: ...
+One line per engine, for example: "Engine A, unbranded: 21 of 90 runs (23.3%) in 2026-08, 33 of 90 (36.7%) in 2026-09, +13.3 points: clear change (rule below)."
 
-## 2. Scorecard (unbranded prompts)
-
-| Engine | Period | Mention rate | Citation rate | Share of voice | Stability | n (runs) |
-|---|---|---|---|---|---|---|
-| Engine A | 2026-08 | 21/90 (23.3%) | 6/90 (6.7%) | 21/75 (28.0%) | 14/20 (70.0%) | 90 |
-
-Repeat the table for branded prompts, with a note on any wrong facts recorded in `notes`.
-
-## 3. Calculation table
-
-| Engine | Period | Group | Runs | Runs with mention | Runs with brand citation | Brand mentions | Competitor mentions | Prompts | Prompts all agreeing |
-|---|---|---|---|---|---|---|---|---|---|
-
-## 4. Changes between periods
+## 2. Changes between periods
 
 | Engine | Change in mention rate | Condition 1: at least 10 points | Condition 2: at least 30 runs each, not thin | Condition 3: at least 3 prompts same direction | Verdict |
 |---|---|---|---|---|---|
-| Engine A | 23.3% to 36.7% (+13.3 pts) | yes | yes (90, 90) | yes (6 up, 1 down) | real |
+| Engine A | 23.3% to 36.7% (+13.3 pts) | yes | yes (90, 90) | yes (6 up, 1 down) | clear change |
 
-State that the thresholds are heuristics.
+State once that the thresholds are heuristics, not a statistical test.
 
-## 5. Lost prompts
+## 3. Scorecard (unbranded prompts)
 
-Per-prompt table first (every unbranded prompt), then the lost list:
-
-| Engine | Period | Prompt ID | Runs | Runs with any competitor | Runs with the brand | Lost? |
+| Engine | Period | Mention rate | Citation rate | Share of voice (if asked) | Stability (if asked) | n (runs) |
 |---|---|---|---|---|---|---|
+| Engine A | 2026-08 | 21/90 (23.3%) | 6/90 (6.7%) | 21/75 (28.0%) | 14/20 (70.0%) | 90 |
 
-## 6. Cited instead
+Repeat for branded prompts, with a note on any wrong facts recorded in `notes`.
+
+## 4. Lost prompts
+
+Only the lost prompts; the full per-prompt table only on request.
+
+| Engine | Period | Prompt ID | Runs | Runs with any competitor | Runs with the brand |
+|---|---|---|---|---|---|
+
+## 5. Cited instead
 
 | Engine | Host | Citations | Brand's own? |
 |---|---|---|---|
 
-## 7. Next steps
+## 6. Next steps
 
-Route each item to the page check, the answer gap or the off-site plan, and name the next run date.
+Route each item in words to a page check, an answer-gap check or the off-site plan, and name the next run date.
+
+## 7. Data quality and calculation table
+
+- Periods, engines, prompts, runs.
+- Thin groups (median runs per prompt below 3), mixed settings, rows skipped and why: only those that exist.
+
+| Engine | Period | Group | Runs | Runs with mention | Runs with brand citation | Brand mentions | Competitor mentions | Prompts | Prompts all agreeing |
+|---|---|---|---|---|---|---|---|---|---|

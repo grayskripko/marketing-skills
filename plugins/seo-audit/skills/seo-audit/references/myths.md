@@ -2,6 +2,8 @@
 
 The skills in this plugin do not report the items below as problems. If the user raises one, answer in one or two sentences in plain words and name the source (Google Search Central, SEO Starter Guide and related documentation). Do not lecture.
 
+The Google pages behind these rows were re-read on 2026-10-08. If more than six months have passed, say the dated rows may be out of date and point to the source.
+
 ## Documented by Google as not mattering (or not in the way people think)
 
 | Claim | What Google's documentation says, in short |
@@ -37,4 +39,4 @@ Rules for these:
 ## Claims about AI search that are often overstated
 
 - "Structured data gets you cited by AI assistants." Google says no special markup is needed for its AI features, and published industry experiments have not shown a reliable citation gain from adding JSON-LD (treat that as a heuristic, not a rule). Recommend structured data for the rich results it supports and for clear entity information, not as an AI-visibility lever.
-- "llms.txt is required." No major search engine documents using it for ranking or citation. Do not report its absence as an issue.
+- "llms.txt is required." Google says its AI features need no new machine-readable files or AI text files. Do not report the absence of llms.txt as an issue.

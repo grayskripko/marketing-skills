@@ -70,7 +70,7 @@ Each check lists what to look at, what counts as confirmation, common false posi
 
 **6.2 Accuracy.** Values match the visible page (price, rating, availability). Markup describing content that is not on the page violates Google's structured data guidelines. Impact: Medium.
 
-Note: Google has reduced or removed some rich result types over time (for example FAQ rich results). Do not promise a rich result; recommend markup for supported types and correct entity information.
+Note: Google has reduced or removed some rich result types over time (for example FAQ rich results, which stopped appearing in Google Search on 2026-05-07 according to Search Console Help, Data anomalies, re-read 2026-10-08). Do not promise a rich result; recommend markup for supported types and correct entity information.
 
 ## 7. Performance
 

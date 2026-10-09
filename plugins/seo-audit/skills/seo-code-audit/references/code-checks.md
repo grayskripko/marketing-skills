@@ -72,7 +72,7 @@ Each check says what to look for in the source, why it matters, and the default 
 
 **10.1 Largest image lazy-loaded.** The hero or first product image uses `loading="lazy"` or a lazy image component, which delays the largest paint (web.dev guidance). Impact: Low to Medium.
 
-**10.2 Blocking resources.** Large synchronous scripts in the head, fonts without a display strategy. Impact: Low. Do not turn these into ranking claims; field data decides (see the data-review skill).
+**10.2 Blocking resources.** Large synchronous scripts in the head, fonts without a display strategy. Impact: Low. Do not turn these into ranking claims; field data decides (see seo-data-review).
 
 ## 11. Safety
 

@@ -1,8 +1,8 @@
 {
   "name": "ai-seo",
   "displayName": "AI Search Visibility Kit",
-  "version": "0.1.0",
-  "description": "Measure how AI answer engines and AI search features mention and cite a brand, check whether pages can be read and quoted accurately, and plan honest corrections to what those answers say. Builds a repeatable prompt panel, scores logged runs over time with sample-size checks, analyzes citation exports, and maps answer gaps and third-party sources. Runs no code and stores nothing.",
+  "version": "0.1.1",
+  "description": "Measure how ChatGPT, Perplexity, Google AI Overviews and other AI answers mention and cite a brand, check whether its pages can be read and quoted accurately, and plan honest work on the third-party sites those answers draw on. Builds a repeatable prompt panel, scores logged runs over time with sample-size checks, analyzes citation exports, and maps answer gaps and third-party sources. Contains no code of its own and stores nothing.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

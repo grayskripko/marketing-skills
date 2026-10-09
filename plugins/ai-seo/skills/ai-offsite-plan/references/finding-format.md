@@ -1,12 +1,12 @@
 # Finding format
 
-Every skill in this plugin reports findings in one shape, so results from the scorecard, the export analysis, the page check, the answer gap and the off-site plan can be read side by side.
+Every skill in this plugin uses these fields to sort and reason about findings, so results from the different skills line up. The user sees plain sentences without IDs; show the full table only when the user asks for it.
 
 ## Fields
 
 | Field | What goes in it |
 |---|---|
-| ID | Prefix plus number: `ACC-1` (crawler and snippet access), `CIT-2` (quotability of passages), `FRS-1` (freshness), `ENT-1` (source identity), `GAP-1` (answer gap), `MEAS-1` (measurement result), `OFF-1` (off-site source). |
+| ID | Internal only, never shown in a plain answer. Prefix plus number: `ACC-1` (crawler and snippet access), `CIT-2` (quotability of passages), `FRS-1` (freshness), `ENT-1` (source identity), `GAP-1` (answer gap), `MEAS-1` (measurement result), `OFF-1` (off-site source). |
 | Where | A URL, a passage located by its heading, an export row, a prompt ID, or a cited domain. |
 | Issue | One sentence describing what is wrong or missing. No advice in this field. |
 | Evidence | What was actually seen: the tag or directive, the quoted passage (short), the column values, or the counts with n. |

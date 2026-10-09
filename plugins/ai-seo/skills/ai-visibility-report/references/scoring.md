@@ -24,11 +24,11 @@ Rounding: compare values with thresholds before rounding; print percentages and 
 
 ## Thin sample
 
-An engine-period group is **thin** when the median number of runs per prompt is below 3 (heuristic). Thin groups are scored and shown, but no change involving them is called real.
+An engine-period group is **thin** when the median number of runs per prompt is below 3 (heuristic). Thin groups are scored and shown, but no change involving them is called a clear change.
 
 ## Noise rule (heuristic)
 
-Compare the unbranded mention rate of the same engine between two periods. The change is **real** only when all three hold:
+Compare the unbranded mention rate of the same engine between two periods. The verdict is **clear change** only when all three hold:
 
 1. The absolute change is at least 10 percentage points.
 2. Each period has at least 30 unbranded runs for that engine, and neither period is thin.
@@ -42,7 +42,7 @@ Why a rule is needed: AI answers change often. Ahrefs observed AI Overview conte
 
 An unbranded `prompt_id` is **lost** for an engine and period when the brand is mentioned in none of its runs and more than half of its runs mention at least one tracked competitor. Any tracked competitor counts: count runs that name one or more competitors, not individual competitors. Both phrasings are pooled per `prompt_id`.
 
-Print the per-prompt table before the lost list: engine | period | prompt_id | runs | runs with any competitor | runs with the brand | lost?
+List only the lost prompts with their counts. Print the full per-prompt table (engine | period | prompt_id | runs | runs with any competitor | runs with the brand | lost?) only if the user asks for it.
 
 ## Cited instead
 

@@ -3,11 +3,11 @@
 Patterns that make copy longer, vaguer or less credible without telling the reader anything. The catalogue is grouped by what each pattern costs the reader. Each entry has a cue for spotting it and a fix. Examples use fictional companies.
 
 How to use it:
-- In an edit, log every removal with its SP id.
+- SP ids are for your own tracking; never show them to the user.
 - Remove the pattern; do not replace it with another stock phrase.
 - A pattern is a problem only when it carries no information. Check the false-positive note of each family before flagging.
 - Correct grammar, a rich vocabulary and smooth reading are never signs of a problem.
-- In the examples, every fact in an "after" version is assumed to come from the user's material. In a real edit, a fact that is not in the user's material becomes a `[DETAIL NEEDED: …]` marker instead.
+- In the examples, every fact in an "after" version is assumed to come from the user's material. In a real edit, a fact that is not in the user's material is not added; name it as missing after the text.
 
 ## Family 1. Empty scaffolding (the reader waits for the point)
 
@@ -26,7 +26,7 @@ False positives: an opener that names the reader's specific situation is not sca
 | id | Pattern | Cue | Fix | Example (before → after) |
 |---|---|---|---|---|
 | SP-06 | Praise adjective | "revolutionary", "game-changing", "cutting-edge", "world-class" | Say what it does, or cut | "a revolutionary platform" → "a platform" |
-| SP-07 | Unbacked superlative | "best", "#1", "fastest", "leading" with no source | Remove, or send to proof check | "the fastest AP tool" → "approves invoices in the same screen as the PO" `[PROOF NEEDED: speed comparison]` |
+| SP-07 | Unbacked superlative | "best", "#1", "fastest", "leading" with no source | Remove, or send to proof check | "the fastest AP tool" → "approves invoices in the same screen as the PO" |
 | SP-08 | Empowerment verb | "empower", "unlock", "supercharge", "elevate" | Use the plain verb for what happens | "empowers teams to cut invoice time" → "lets teams cut invoice time" |
 | SP-09 | Intensifier stack | "truly", "incredibly", "seamlessly", "effortlessly" | Delete the intensifier; keep the fact | "seamlessly integrates" → "connects to" + the named system |
 | SP-10 | Decorative bold | Bold on many phrases in one section | Bold at most one phrase per section, or none | — |
@@ -83,8 +83,8 @@ False positives: a placeholder the user asked for is not residue; emoji that the
 | id | Pattern | Cue | Fix | Example (before → after) |
 |---|---|---|---|---|
 | SP-28 | Qualifier pile | "may potentially help to some extent" | One honest qualifier, or a scoped fact | "may potentially help reduce errors" → "flags invoices whose amount differs from the PO" |
-| SP-29 | Vague quantity | "many", "numerous", "a variety of" where a number exists | Use the number from the user's material or `[DETAIL NEEDED: count]` | "used by many teams" → "used by 212 teams" (from the brief) |
-| SP-30 | Weasel attribution | "experts say", "studies show" with no source | Name the source or cut | "Studies show automation saves time" → `[PROOF NEEDED: source]` or cut |
+| SP-29 | Vague quantity | "many", "numerous", "a variety of" where a number exists | Use the number from the user's material, or ask for it | "used by many teams" → "used by 212 teams" (from the brief) |
+| SP-30 | Weasel attribution | "experts say", "studies show" with no source | Name the source or cut | "Studies show automation saves time" → cut, and ask for the source |
 
 False positives: a real uncertainty stated once is honest; "some customers" is fine when the user cannot share a count.
 
@@ -94,3 +94,5 @@ Count SP-xx hits per 100 words of body copy. The bands below are a heuristic for
 - 0 to 1 hits per 100 words: score 2;
 - more than 1 and up to 3: score 1;
 - more than 3: score 0.
+
+Under 100 words of copy, apply the bands to the raw count and say so.

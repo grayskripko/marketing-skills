@@ -1,6 +1,6 @@
 # Data caveats
 
-Put the caveats that apply to the user's files at the top of the output. Sources were read on 2026-09-29.
+After the priority list, name only the caveats that apply to the user's files, in a few lines. Sources were read on 2026-09-29.
 
 ## Bing Webmaster Tools: AI Performance
 

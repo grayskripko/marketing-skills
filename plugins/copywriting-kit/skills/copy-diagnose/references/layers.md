@@ -1,6 +1,6 @@
 # The three layers
 
-Most copy that underperforms is broken above the level of words. Rewriting headlines on top of a broken positioning produces the same failure in new wording. Check the layers in this order and stop at the first one that fails.
+Rewriting headlines on top of an unclear audience or offer repeats the same problem in new words, so check the layers in this order and stop at the first one that fails. The L1–L3 labels are for you; in the answer, say "positioning", "message order" or "wording".
 
 ## L1 Positioning
 
@@ -44,6 +44,6 @@ Signs L3 is broken while L1 and L2 hold: the argument is right and in the right 
 
 ## Verdict wording
 
-- "L1 positioning is the first broken layer: the page does not say who it is for; the headline fits any finance tool."
-- "L1 holds; L2 message priority is the first broken layer: the first screen asks for three different actions."
-- "L1 and L2 hold; the problems are in L3 wording: 4.2 stock phrases per 100 words and no mechanism for the main promise."
+- "Fix positioning first: the page does not say who it is for, and the headline would fit any finance tool."
+- "Positioning is clear; fix the message order first: the first screen asks for three different actions."
+- "Positioning and order hold; the problem is wording: about 4 stock phrases per 100 words, and the main promise never says how it works."

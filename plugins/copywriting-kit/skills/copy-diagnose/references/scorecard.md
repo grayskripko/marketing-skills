@@ -10,7 +10,7 @@ Score each criterion 0, 1 or 2. For every score give the evidence location (sect
 | DG-04 | Specificity | Numbers, named steps or named systems in most claims | Some | Almost none |
 | DG-05 | Mechanism stated | The main promise says how it works | Partly, or only for minor promises | Not at all |
 | DG-06 | Real proof present | Identifiable testimonials, cases with numbers, or counts with a source | Proof exists but is vague or unsourced | No proof |
-| DG-07 | Real reason to act now | A real reason from the page or the user's material (a real deadline, a cost of waiting that the reader recognises) | No reason to act now (neutral: never add one to raise the score) | Urgency with no real basis ("limited time" with no date or plan behind it); flag it |
+| DG-07 | Urgency is real or absent | A real reason from the page or the user's material (a real deadline, a cost of waiting the reader recognises), or no urgency at all (never add one) | — | Urgency with no real basis ("limited time" with no date or plan behind it); flag it |
 | DG-08 | Single primary call to action | One primary action, others clearly secondary | Two actions of similar weight | Three or more |
 | DG-09 | Call to action says what happens next | Names the next step ("Book a 20-minute walkthrough") | Partly | Generic ("Learn more", "Submit") |
 | DG-10 | Skim test | Headings and calls to action alone carry the pitch | Partly | Headings are labels; the pitch is lost |
@@ -18,7 +18,7 @@ Score each criterion 0, 1 or 2. For every score give the evidence location (sect
 | DG-12 | Stock-phrasing density | 0 to 1 SP-xx hits per 100 words | More than 1, up to 3 | More than 3 |
 
 Notes:
-- DG-12 bands are a heuristic defined for this plugin (see `stock-phrasing.md`). Print the count and the word total it is based on.
+- DG-12 bands are a heuristic defined for this plugin (see `stock-phrasing.md`). Under 100 words of copy, apply the bands to the raw count and say so.
 - The first-screen boundary (roughly the first 60–80 words, or everything above the first call to action) is a heuristic; say which boundary was used.
 - Score what is on the page, not what the user says the product does. What the user says goes into Assumptions or the offer check.
 
@@ -32,6 +32,8 @@ Notes:
 | Proof | Something the reader can verify or recognise |
 
 ## Output table
+
+Print this table only when the user asks for it; otherwise give the one-line score from SKILL.md, Step 6. The ids are for the table only; in prose, name the check in plain words.
 
 | id | Score | Evidence location | Quote (up to 12 words) | Note |
 |---|---|---|---|---|

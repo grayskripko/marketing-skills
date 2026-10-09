@@ -1,8 +1,8 @@
 {
   "name": "copywriting-kit",
   "displayName": "Copywriting Editor Kit",
-  "version": "0.1.0",
-  "description": "Editing and diagnosis workflows for your own website copy and drafts: a change log for every edit, locked facts that are never altered, a scorecard that names the first broken layer, claims checked against your own evidence, and page drafts from a brief with proof placeholders instead of invented proof.",
+  "version": "0.1.1",
+  "description": "Edit, diagnose and draft copy for your own website: edited text first with every number, name and claim kept, a plain diagnosis of what is broken before any rewrite, claims checked against your own evidence, page drafts from your facts, and a voice profile from your own writing. Proof, testimonials and urgency are never invented.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

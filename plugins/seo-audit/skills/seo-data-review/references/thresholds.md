@@ -1,6 +1,6 @@
 # Fixed procedures and thresholds
 
-The numbers below are written down so that results can be checked: the calculation is always shown, row by row, before the flag lists. Numbers taken from a primary source name it. Everything else is labeled **heuristic**: a reasonable default chosen for reproducibility, which the user may override. Always print the thresholds used.
+The numbers below are written down so that results can be checked: the calculation is always shown, row by row, before the flag lists. Numbers taken from a primary source name it. Everything else is labeled **heuristic**: a reasonable default chosen for reproducibility, which the user may override. In the answer, a threshold shows in the calculation table and as a plain fact where a row is flagged; no separate list of thresholds.
 
 Search Console "position" is the average topmost position of the site's result across impressions. Treat it as an average, not a rank.
 
@@ -72,7 +72,7 @@ Always split by search type, country and device before calling a drop site-wide.
 ## 8. Days since last crawl (heuristic)
 
 - Needs a last-crawl date per URL (URL Inspection results exported through the API or a tool, or server logs).
-- Flag important URLs not crawled for more than 30 days. Falling crawl frequency often shows up before a traffic drop, so treat it as an early warning, not a verdict.
+- Flag important URLs not crawled for more than 30 days. Falling crawl frequency can show up before a traffic drop, so treat it as an early warning, not a verdict (heuristic).
 
 ## 9. Crawler export patterns
 

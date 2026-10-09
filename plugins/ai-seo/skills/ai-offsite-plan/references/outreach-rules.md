@@ -5,7 +5,7 @@ These rules keep the off-site plan honest and within the policies of the sites i
 ## Always
 
 - Disclose affiliation. Anyone speaking for the brand says who they work for, in every community, review reply or pitch.
-- Use only true, checkable facts from the user. Missing facts stay as placeholders.
+- Use only true, checkable facts from the user. Ask for missing facts; never fill them in by guess.
 - Follow each site's own rules on self-promotion, links and affiliation.
 - Keep a record of what was asked, of whom and when, so the next panel run can be compared.
 

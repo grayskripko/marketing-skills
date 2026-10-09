@@ -1,6 +1,6 @@
 # Claims that need evidence
 
-Shared by all copy skills in this plugin (each skill folder has an identical copy). The words in quotes below appear here as examples of claims to check, never as copy to use.
+The words in quotes below appear here as examples of claims to check, never as copy to use.
 
 ## Claim types
 
@@ -22,7 +22,7 @@ Shared by all copy skills in this plugin (each skill folder has an identical cop
 - **Match the strength to the evidence.** One case supports "helped one team", not "helps every team".
 - **Name the trade-off** where claims are heavy: "Fast to set up for teams on one accounting system; multi-entity setups take longer."
 - **Use the real count** instead of a rounded-up one: "212 paying customers", not "hundreds of teams" if the user has the number.
-- **Leave a marker** where proof is missing: `[PROOF NEEDED: count of active customers]`.
+- **Name the missing proof** instead of filling the gap: "needs a count of active customers".
 
 ## When the user wants testimonials but has none
 
@@ -35,9 +35,13 @@ And three interview questions: what problem made you look for a tool; what chang
 
 ## Background: why evidence matters
 
-Consumer-protection rules in many places expect marketing claims to be backed before they are published and endorsements to be genuine. Examples, named by title only:
-- United States: the FTC Endorsement Guides (16 CFR Part 255, revised July 2023); the FTC rule on consumer reviews and testimonials (16 CFR Part 465, in effect since 21 October 2024), which bars fake reviews and testimonials; and the FTC's 1984 policy statement on substantiation, which expects a reasonable basis for a claim before it is made.
-- European Union: the Unfair Commercial Practices Directive (2005/29/EC), as amended by Directive (EU) 2019/2161.
-- United Kingdom: the Digital Markets, Competition and Consumers Act 2024, whose fake-review provisions have applied since 6 April 2025.
+Consumer-protection rules in many places expect marketing claims to be backed before they are published and endorsements to be genuine. Examples (each read on the date shown):
+- United States: FTC Guides Concerning the Use of Endorsements and Testimonials in Advertising, 16 CFR Part 255, revision published 26 July 2023. https://www.ftc.gov/legal-library/browse/federal-register-notices/16-cfr-part-255-guides-concerning-use-endorsements-testimonials-advertising (read 2026-10-08)
+- United States: FTC Trade Regulation Rule on the Use of Consumer Reviews and Testimonials, 16 CFR Part 465, which bars fake reviews and testimonials; in effect since 21 October 2024 (60 days after its 22 August 2024 publication). https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials (read 2026-10-08)
+- United States: FTC Policy Statement Regarding Advertising Substantiation, 23 November 1984, which expects a reasonable basis for a claim before it is made. https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation (read 2026-10-08)
+- European Union: Unfair Commercial Practices Directive 2005/29/EC, https://eur-lex.europa.eu/eli/dir/2005/29/oj, as amended by Directive (EU) 2019/2161, https://eur-lex.europa.eu/eli/dir/2019/2161/oj (both read 2026-10-08).
+- United Kingdom: Digital Markets, Competition and Consumers Act 2024 (https://www.legislation.gov.uk/ukpga/2024/13), whose fake-review provisions have applied since 6 April 2025 under the commencement regulations, SI 2025/272 (https://www.legislation.gov.uk/uksi/2025/272/made, read 2026-10-08). The CMA guidance on fake reviews was published on 4 April 2025. https://www.gov.uk/government/publications/fake-reviews-cma208 (read 2026-10-08)
+
+If you mention any of these to the user and the read date is more than 6 months old, tell them to re-check the rule on the official page.
 
 This plugin checks claims against the user's own evidence. It does not give legal advice or decide whether a claim is permitted.

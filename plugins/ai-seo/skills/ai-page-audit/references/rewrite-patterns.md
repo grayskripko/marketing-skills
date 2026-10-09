@@ -1,6 +1,6 @@
 # Rewrite patterns
 
-Rewrites make an existing passage easier to quote accurately. They use only facts that are on the page or that the user supplied. Where a fact is missing, leave a placeholder in square brackets, for example `[number of integrations from you]`. Never add figures, customer names, quotes or claims.
+Rewrites make an existing passage easier to quote accurately. They use only facts that are on the page or that the user supplied. Never add figures, customer names, quotes or claims, and never widen a fact (do not turn "$12 per month" into "every plan costs $12"). A rewrite carries at most one placeholder, naming the missing fact, for example `[number of integrations]`; ask for other missing facts as questions after it.
 
 ## Patterns
 

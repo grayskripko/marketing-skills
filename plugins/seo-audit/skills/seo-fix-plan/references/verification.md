@@ -12,9 +12,9 @@ Search engines pick up changes at their own pace. These steps make the change di
 
 ## When to look and what counts as success
 
-Timings are heuristics; they vary with site size and how often it is crawled.
+Timings are this plugin's rules of thumb; they vary with site size and how often it is crawled. Write them as dates to check, not outcomes: "at 1–4 weeks, check whether URL Inspection shows the page indexed", never "indexed within 1–4 weeks". A canonical is a strong hint, not a command: even a correct tag does not guarantee Google picks that URL.
 
-| Change | Check right after release | Look again | Success signal |
+| Change | Check right after release | Look again | What to look for (not guaranteed) |
 |---|---|---|---|
 | noindex removed, robots.txt unblocked, canonical fixed | Page source; robots.txt; URL Inspection live test | 1–4 weeks | URL Inspection shows the page indexed with the expected canonical; Page indexing report counts move |
 | Pages added to the sitemap, links made crawlable | Sitemap content; page source | 2–6 weeks | Sitemap report shows URLs discovered; indexed count for that page type rises |

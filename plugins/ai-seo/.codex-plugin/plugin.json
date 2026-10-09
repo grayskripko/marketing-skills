@@ -1,7 +1,7 @@
 {
   "name": "ai-seo",
-  "version": "0.1.0",
-  "description": "Measure how AI answer engines and AI search features mention and cite a brand, check whether pages can be read and quoted accurately, and plan honest corrections to what those answers say. Builds a repeatable prompt panel, scores logged runs over time with sample-size checks, analyzes citation exports, and maps answer gaps and third-party sources. Runs no code and stores nothing.",
+  "version": "0.1.1",
+  "description": "Measure how ChatGPT, Perplexity, Google AI Overviews and other AI answers mention and cite a brand, check whether its pages can be read and quoted accurately, and plan honest work on the third-party sites those answers draw on. Builds a repeatable prompt panel, scores logged runs over time with sample-size checks, analyzes citation exports, and maps answer gaps and third-party sources. Contains no code of its own and stores nothing.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -26,7 +26,7 @@
   "interface": {
     "displayName": "AI Search Visibility Kit",
     "shortDescription": "Measure AI answer visibility",
-    "longDescription": "Six connected skills for measuring and improving how accurately AI answer engines and AI search features describe and cite a brand. Build a repeatable prompt panel and run protocol, score the runs you log with sample sizes and a written rule for telling real change from run-to-run variation, analyze citation and AI-feature exports to rank pages by value against citation share, check whether one page can be quoted accurately, compare pasted answers for one query against your page, and plan honest work on the third-party sources those answers rely on. The plugin never queries AI engines itself and never invents their answers: you run the panel or paste what you saw. Calculations are printed so every number can be checked. It runs no code and stores nothing.",
+    "longDescription": "Six connected skills for measuring and improving how accurately AI answer engines and AI search features describe and cite a brand. Build a repeatable prompt panel and run protocol, score the runs you log with sample sizes and a written rule for telling a clear change from run-to-run variation, analyze citation and AI-feature exports to rank pages by value against citation share, check whether one page can be quoted accurately, compare pasted answers for one query against your page, and plan honest work on the third-party sources those answers rely on. The plugin never queries AI engines itself and never invents their answers: you run the panel or paste what you saw. Calculations are printed so every number can be checked. It contains no code of its own and stores nothing.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [
