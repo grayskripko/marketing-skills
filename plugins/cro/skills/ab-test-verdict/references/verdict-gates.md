@@ -35,7 +35,7 @@ The unit of randomisation must equal the unit of analysis. Randomised by user bu
 
 - Planned n per arm reached? If not, print the share reached.
 - Whole weeks? If not, flag weekday imbalance.
-- Stopped early when the p-value first dipped below 0.05, with no sequential method chosen in advance → "this p-value is not valid at face value"; the verdict is capped at Inconclusive. Evan Miller (2010-04-18, https://www.evanmiller.org/how-not-to-run-an-ab-test.html, read 2026-10-03) simulated a test with a 50% baseline and no real effect, stopped at the first significant look or after 150 observations, and found 26.1% false positives instead of 5%. That is his worst case, with a look after every observation; fewer looks inflate less, but any unplanned stop inflates.
+- Stopped early when the p-value first dipped below 0.05, with no sequential method chosen in advance → "this p-value is not valid at face value"; the verdict is capped at Inconclusive. Evan Miller (2010-04-18, https://www.evanmiller.org/how-not-to-run-an-ab-test.html, read 2026-10-03) simulated a test with a 50% baseline and no real effect, stopped at the first significant look or after 150 observations, and found 26.1% false positives instead of 5%. That is his worst case, with a look after every observation; fewer looks inflate less, but any stop triggered by an early significant result inflates.
 - Variant or tracking changed mid-test → flag; read only the period after the change if it is long enough, else Inconclusive.
 
 ## Gate 4. Novelty
@@ -51,7 +51,7 @@ A relative lift larger than 3 × the smallest lift worth having, or larger than 
 | Arm | Visitors | Conversions | Rate [Wilson 95%] |
 |---|---|---|---|
 
-Then: absolute difference with its Newcombe 95% interval; relative lift with its log-ratio interval; pooled two-sided p-value (formulas in `rates-and-intervals.md`). For a continuous metric given as mean, SD and n per arm: difference of means with a Welch interval (mean difference ± 1.96 × √(sd_A²/n_A + sd_B²/n_B)).
+Then: absolute difference with its Newcombe 95% interval; relative lift with its log-ratio interval; pooled two-sided p-value (formulas in `rates-and-intervals.md`). For a continuous metric given as mean, SD and n per arm: difference of means with a Welch interval (mean difference ± t × √(sd_A²/n_A + sd_B²/n_B), t the 97.5% point of the t distribution with Welch–Satterthwaite degrees of freedom; close to 1.96 only for large samples).
 
 Wording rules:
 - Never "there is a 95% chance B is better". A p-value is the probability of data this extreme if there were no difference (ASA statement, Wasserstein & Lazar 2016, The American Statistician 70(2)).
@@ -65,7 +65,7 @@ Only when the result is significant. With π = the share of the user's past test
 FPR = (α/2)·(1 − π) ÷ [ (α/2)·(1 − π) + power·π ]
 ```
 
-If π is unknown, print three rows: π = 10% → 22.0%; π = 20% → 11.1%; π = one third → 5.9%. Source: Kohavi, Deng & Vermeer, "A/B Testing Intuition Busters", KDD 2022, Table 2 (read 2026-10-03), which also lists 8% → 26.4% for one company's search tests. Meaning: these figures describe the procedure, not this result. Over many tests whose ideas win at rate π, about this share of the results that reach p < 0.05 are false wins. They are never the probability that this particular result is false, and a result with a p far below 0.05 carries less risk than these rows.
+If π is unknown, print three rows: π = 10% → 22.0%; π = 20% → 11.1%; π = one third → 5.9%. Source: Kohavi, Deng & Vermeer, "A/B Testing Intuition Busters", KDD 2022, Table 2 (read 2026-10-03), which also lists 8% → 26.4% for one company's search tests. Meaning: these figures describe the procedure, not this result. Over many tests whose ideas win at rate π, about this share of the significant wins (p < 0.05 in the winning direction) are false. They are never the probability that this particular result is false, and a result with a p far below 0.05 carries less risk than these rows.
 
 ## Several arms or metrics (Holm)
 

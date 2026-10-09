@@ -1,8 +1,8 @@
 {
   "name": "cro-kit",
   "displayName": "CRO Audit and Test Kit",
-  "version": "0.1.0",
-  "description": "Conversion rate optimization (CRO) for your own pages, forms, checkouts and A/B tests. Checks a page's layout, offer facts, trust signals, friction, speed field data and goal tracking, and a form, signup or checkout field by field against dated EU and US checkout rules (UK rows unverified). Every finding is labelled as seen on the page, from your data or assumed, and gets one decision: fix now, A/B test, or research first. Finds where a funnel loses people, with intervals, segment gaps and a mix-shift check. Sizes A/B tests with the formula printed and says whether they can finish at your traffic. Judges finished tests only after checking the traffic split, planned sample, whole weeks and false-positive risk. Works on aggregate counts; it does not write copy or build deceptive variants.",
+  "version": "0.1.1",
+  "description": "Conversion rate optimization (CRO) for your own pages, forms, checkouts and A/B tests. Checks a page's layout, offer facts, trust signals, friction, speed field data and goal tracking, and a form, signup or checkout field by field against dated EU and US checkout rules (UK rows unverified). Every finding is labelled as seen on the page, from your data or assumed, and gets one decision: fix now, A/B test, or research first. Finds where a funnel loses people, with intervals, segment gaps and a mix-shift check. Sizes A/B tests with the formula printed and says whether they can finish at your traffic. Judges finished tests only after checking the traffic split, test unit, planned sample, whole weeks and early stopping, and adds the false-positive risk to significant results. Works on aggregate counts; it does not write copy or build deceptive variants.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

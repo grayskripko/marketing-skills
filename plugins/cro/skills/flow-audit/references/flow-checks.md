@@ -12,8 +12,8 @@ Verdict per row: PASS, FIX, CHECK (cannot tell from what was given) or not appli
 | FL-06 | Required and optional fields are marked; optional fields are few | NN/g, Whitenton 2016 |
 | FL-07 | Format rules (password rules, date format) are shown before entry, not only in the error | WCAG 2.2 SC 3.3.2 (A) |
 | FL-08 | Errors appear next to the field, say what is wrong and suggest a fix; entered data survives the error | WCAG 2.2 SC 3.3.1 (A), 3.3.3 (AA) |
-| FL-09 | Nothing given earlier in the same flow is asked again (shipping copied to billing on request) | WCAG 2.2 SC 3.3.7 Redundant Entry (A) |
-| FL-10 | Login or account steps need no memory or puzzle test; pasting into password fields works | WCAG 2.2 SC 3.3.8 Accessible Authentication (Minimum) (AA) |
+| FL-09 | Anything given earlier in the same flow and needed again is filled in or offered to select (shipping copied to billing on request) | WCAG 2.2 SC 3.3.7 Redundant Entry (A) |
+| FL-10 | Login or account steps offer a way through without a memory or puzzle test (for example, pasting into password fields works) | WCAG 2.2 SC 3.3.8 Accessible Authentication (Minimum) (AA) |
 | FL-11 | Accepted payment methods are shown before the payment step | Baymard reasons: not enough payment methods 9% |
 | FL-12 | Delivery time and returns terms are visible before payment | Baymard reasons: slow delivery 20%; returns policy 13% |
 | FL-13 | Every error, empty or declined state offers a way forward (retry, other method, contact) | heuristic of this plugin |

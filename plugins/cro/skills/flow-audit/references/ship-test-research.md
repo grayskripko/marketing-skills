@@ -7,7 +7,7 @@ Every fix card ends with exactly one of three decisions.
 No test needed, because there is nothing to learn that would change the call:
 - something is broken (an error, a dead link, a field that rejects valid input);
 - tracking is broken or the goal event fires twice;
-- information the buyer needs is missing (price or price basis, renewal terms, delivery time, what happens after submit);
+- information the buyer needs is missing (price or price basis, renewal terms, delivery time, what happens after submit). Exception: a price withheld on purpose that no ad promised is a pricing decision, so Research first;
 - a rule row came back FIX;
 - an accessibility problem blocks the action (target too small to tap, label missing, text unreadable at the given colours).
 

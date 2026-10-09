@@ -55,7 +55,7 @@ The same 2, 4 and 8 weeks are used in the affordable-lift table, so the two alwa
 
 ## More than two arms (A/B/n)
 
-At planning, divide α by the number of comparisons with control (k − 1), a Bonferroni split; at the verdict, Holm is used (the A/B test verdict skill). Example: three arms at 3.0 → 3.3% use α = 0.025 → 64,439 per arm (four arms, α = 0.0167 → 70,974 per arm), against 53,211 for a plain A/B. More arms cost traffic; they do not find winners faster.
+At planning, divide α by the number of comparisons with control (k − 1), a Bonferroni split; at the verdict, Holm is used (the A/B test verdict skill). Example: three arms at 3.0 → 3.3% use α = 0.025 → 64,439 per arm (four arms, α = 0.05 ÷ 3 ≈ 0.0167 → 70,974 per arm), against 53,211 for a plain A/B. More arms cost traffic; they do not find winners faster.
 
 ## Unequal split
 
@@ -81,7 +81,7 @@ n per arm = 2 · (z₁₋α/₂ + z₁₋β)² · σ² ÷ δ²   ≈ 16·σ²/δ
 
 ## Trigger point
 
-Count only visitors who could see the change. A change on the payment step is sized on visitors who reach payment, not on all visitors. Analysing everyone dilutes the effect; analysing only triggered visitors in both arms keeps it (Kohavi, Tang & Xu 2020, chapter on triggering).
+Count only visitors who could see the change. A change on the payment step is sized on visitors who reach payment, not on all visitors. Analysing everyone dilutes the effect; analysing only visitors who reached the trigger point in both arms keeps it, as long as control counts the visitors who would have seen the change at the same point (Kohavi, Tang & Xu 2020, chapter on triggering).
 
 ## Stopping rule (write before launch)
 

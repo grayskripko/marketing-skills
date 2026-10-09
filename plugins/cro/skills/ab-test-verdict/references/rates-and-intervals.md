@@ -52,4 +52,4 @@ Pooled p = (kA + kB) / (nA + nB); z = (pB − pA) / √( p(1−p)(1/nA + 1/nB) )
 
 ## Rounding
 
-Compare with thresholds before rounding. Rates one decimal (two below 1%), differences in percentage points two decimals, p-values two significant figures (below 0.0001 print "< 0.0001"). Visitors and weeks rounded up. Round half away from zero.
+Compare with thresholds before rounding. Rates one decimal (two below 1%), differences in percentage points two decimals below 1 pp and one decimal otherwise, p-values two significant figures (below 0.0001 print "< 0.0001"). Visitors and weeks rounded up. Round half away from zero.
