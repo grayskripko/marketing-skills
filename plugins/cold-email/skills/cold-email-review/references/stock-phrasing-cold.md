@@ -1,6 +1,6 @@
 # Stock phrasing in cold outreach
 
-Patterns that make an email read as mass-produced. Flag them when they appear in the user's text; never add them. Remove or replace each with something specific from the user's material, or with a `[DETAIL NEEDED]` slot. This list is this plugin's own grouping, and the ids are what the change log cites.
+Patterns that make an email read as mass-produced. Flag them when they appear in the user's text; never add them. Remove or replace each with something specific from the user's material, or leave the sentence out. This list is this plugin's own grouping; the ids are for your own use and are never shown to the user.
 
 ## Openers that could go to anyone
 - CS-01 Wellness wishes as the first line (hoping the reader is well, that the week is going great).

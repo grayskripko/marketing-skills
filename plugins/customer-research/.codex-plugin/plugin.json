@@ -1,7 +1,7 @@
 {
   "name": "customer-research",
-  "version": "0.1.0",
-  "description": "Traceable customer research from text you paste, no connectors needed: a quote ledger with ids, a printed theme-by-source count table, a fixed evidence-strength rule, contradictions, and a self-check that every quote appears verbatim in your input, with participants pseudonymised. Also checks interview guides for leading questions, codes why customers cancel subscriptions (stated vs evidenced), and builds an ideal customer profile marked backed or assumed line by line.",
+  "version": "0.1.1",
+  "description": "Turn interview notes, reviews, support tickets and cancellation reasons you paste into findings you can check: the main themes first, each with how many customers said it, in their exact words, and where they disagree. Also checks interview questions for leading wording, separates the reason customers gave for cancelling from the reason the notes show, and drafts an ideal customer profile that marks each line as backed by data or assumed. Works only on text you paste; names are replaced with role labels.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -28,7 +28,7 @@
   "interface": {
     "displayName": "Customer Research Kit",
     "shortDescription": "Turn interviews into evidence",
-    "longDescription": "Five connected skills for customer research you already have. Synthesise interview notes into a quote ledger with ids, a theme-by-source count table and a written strength rule, ending with a self-check that every quote is verbatim. Code many reviews, tickets or survey answers with a printed frame, counts and a loud-minority check. Analyse why customers cancel, separating the stated reason from the one the notes show. Check interview guides for leading questions, or build one from a goal. Build an ideal customer profile where every line is backed by ids or marked as an assumption. Participants are pseudonymised; quotes and customers are never invented.",
+    "longDescription": "Five skills for customer research, whether you already have notes or are planning interviews. Synthesise interview notes into themes that lead the answer, each with verbatim quotes, ids and a count you can check, checked before answering so that every quote is verbatim. Code many reviews, tickets or survey answers with a printed frame, counts and a check that a few long reviews do not dominate. Analyse why customers cancel, separating the stated reason from the one the notes show. Check interview guides for leading questions, or build one from a goal. Build an ideal customer profile where every line is backed by ids or marked as an assumption. Participants are pseudonymised; quotes and customers are never invented.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [

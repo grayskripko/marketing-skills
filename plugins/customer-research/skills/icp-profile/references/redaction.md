@@ -17,7 +17,7 @@ Keep: industry, size band, region, role or job title, tools and workflows the co
 
 If a segment description plus role would match only one or two accounts in the input, widen the size band or region (for example "10–50 staff, UK" instead of "12 staff, Leeds") and say once that you widened it.
 
-Customer account or record ids the user supplies (CRM ids, account numbers) identify a company record, not a person. Keep them as given, or map them to C-ids and print the mapping table so the user can trace every row back.
+Customer account or record ids the user supplies (CRM ids, account numbers) identify a company record, not a person. Keep them as given and use them as record ids; give C-ids only when the user supplied none.
 
 Special-category details are never analysed, coded or counted. Say once in the output that they were replaced.
 
@@ -32,12 +32,12 @@ Ids are pseudonyms. Someone with the original files can link them back, so the o
 
 ## Matching quotes after redaction
 
-The self-check compares each ledger quote with the input after the same redaction has been applied to the input. A token in a quote is therefore never counted as a mismatch. An excerpt joined with "…" is matched part by part: each part must appear verbatim.
+The self-check compares each quote with the input after the same redaction has been applied to the input. A token in a quote is therefore never counted as a mismatch. An excerpt joined with "…" is matched part by part: each part must appear verbatim and be whole sentences of the input.
 
 ## Data minimisation
 
 - Ask for no personal detail the task does not need. A role label is enough to analyse an interview.
-- Every output includes the fixed line "Reminder: remove personal data you do not need before pasting." directly under its first table (sources, frame or records).
+- Every output includes the fixed line "Reminder: remove personal data you do not need before pasting." directly under its first table, or at the end of the answer if it has no table.
 - Never build a profile of a named person, and never list people to contact.
 
 ## Consent note (practice, not legal advice)

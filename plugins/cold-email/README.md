@@ -1,16 +1,16 @@
 # Cold Email Kit
 
-Review, check and write one-to-one business cold emails. Scores show their evidence, your facts stay locked, and nothing is sent.
+Write, review and check one-to-one business cold emails. You get an email you can send, built only from the facts you give. Nothing is sent.
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| cold-email-review | your email or sequence | 12-check scorecard with quotes, fact-lock table, change log, rewrite |
-| cold-email-check | an email before sending, up to 25 rows, your DNS records | PASS / FIX / ASK rows, merge table, sender table |
-| cold-email-write | your offer and target | plan printed first, emails, fact ledger with proof slots |
-| cold-email-brief | an offer and an audience | offer brief and offer check |
-| cold-email-hooks | notes on up to 20 prospects or 3 pages | dated facts, opening lines, dropped facts |
+| cold-email-write | your offer and who it's for | a cold email and follow-ups, ready to paste |
+| cold-email-review | an email that gets no replies | a rewrite first, then what changed and why; a 12-check score on request |
+| cold-email-check | an email you're about to send, up to 25 sample rows, your DNS records | what to fix before sending, a fixed version, problem rows, what your records cover |
+| cold-email-brief | your offer and audience | whether the offer is ready, and what's missing |
+| cold-email-hooks | notes on up to 20 prospects, or links to up to 3 public pages | one opening line per prospect from a real, dated fact |
 
 ## Examples
 
@@ -20,7 +20,7 @@ Review, check and write one-to-one business cold emails. Scores show their evide
 
 ## How it works
 
-A scorecard row: `CE-02 | 0 | "Re: our chat" | First message with a reply prefix`. A merge row: `2 | (empty), Globex | MQ-01 first_name | fix`. Scores are checklists, not forecasts.
+A rewrite copies your numbers, names and claims exactly and adds none; a fact it lacks is asked for, not invented. In the pre-send check, the row ", Globex" is flagged because the first name is empty, and the fix adds a fallback ("Hi there"). Scores, when you ask for them, are checklists, not reply-rate forecasts.
 
 ## What it will not do
 
@@ -32,11 +32,11 @@ Notes, rows and replies can contain names and addresses. The plugin reads them i
 
 ## Data and network
 
-Network scope: only the cold-email-hooks skill fetches anything, and only public pages at URLs you give, at most 3 per run, one request each, no links followed, no login. No skill runs a web search. The plugin sends no email, looks up no address, runs no DNS query, calls no other service and stores nothing; if your assistant has a code tool, it may use it to count words and rows.
+Network scope: only the cold-email-hooks skill fetches anything, and only public pages at URLs you give, at most 3 public pages per run, one request each plus the site's robots.txt, following no links and never logging in; a page the site's robots.txt disallows is not fetched. No skill runs a web search. The plugin sends no email, looks up no address, runs no DNS query, calls no other service and stores nothing; if your assistant has a code tool, it may use it to count words and rows.
 
 ## Troubleshooting
 
-A page fails: paste its text. Sender table says "can't tell": paste DNS records or message headers.
+A page fails or its site does not allow fetching: paste its text. Sender table says "can't tell": paste DNS records or message headers.
 
 ## Support
 

@@ -1,6 +1,6 @@
 # Sender setup
 
-Judged only from records or headers the user pastes. No DNS query is run, and the user is never asked how many emails they send. Each cell is "met", "missing" or "can't tell from input". Sources were read on 2026-09-30; providers change their rules, so the output tells the user to confirm on the provider's page.
+Judged only from records or headers the user pastes. No DNS query is run, and the user is never asked how many emails they send. The table below says which provider requires what; the output's status column for the user's domain is "met", "missing" or "can't tell from input". Sources were read on 2026-09-30; providers change their rules, so the output tells the user to confirm on the provider's page.
 
 ## All senders
 
@@ -15,7 +15,7 @@ Judged only from records or headers the user pastes. No DNS query is run, and th
 
 ## If you ever send at that scale
 
-Printed as information, without asking about volume.
+The output gives one line pointing here; list the details if the user asks. Never ask about volume.
 
 - Google: senders of 5,000 or more messages a day to personal Gmail accounts need SPF and DKIM, a DMARC record, a From domain aligned with SPF or DKIM, and one-click unsubscribe for marketing and subscribed messages, plus a visible unsubscribe link.
 - Yahoo: bulk senders need SPF and DKIM, a DMARC policy of at least p=none that passes, a From domain aligned with the SPF or DKIM domain, a working list-unsubscribe header (one-click per RFC 8058 recommended) and must honor unsubscribes within 2 days.

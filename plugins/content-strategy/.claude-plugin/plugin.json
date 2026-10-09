@@ -1,8 +1,8 @@
 {
   "name": "content-strategy",
   "displayName": "Content Strategy Kit",
-  "version": "0.1.0",
-  "description": "Decide what content to make, fix or retire: a fate table for existing pages with the rule behind each decision, a topic map with buyer stage, intent and the new information each topic needs, a plan sized to the team's real hours with a printed planning score, writer briefs with proof slots, and lead-magnet plans. It plans; it does not write the content or build campaigns.",
+  "version": "0.1.1",
+  "description": "Decide what content to make, fix or retire: what to do with each existing page and why, topics your company can write from its own evidence, a plan that fits your team's real hours, briefs a writer can work from, and lead-magnet plans for a topic cluster. It plans; it does not write the content or build campaigns.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

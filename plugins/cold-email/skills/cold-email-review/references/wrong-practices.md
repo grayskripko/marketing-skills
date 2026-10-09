@@ -2,7 +2,7 @@
 
 These are reported only when they appear in the user's material. If the user asks about one, answer in one or two sentences.
 
-## Wrong practices (ids cited in change logs)
+## Wrong practices (ids for your own use; never shown to the user)
 - WP-01 The product is sold in line one instead of naming the reader's problem.
 - WP-02 An opener that fits anyone in the segment ("I see you run a finance team").
 - WP-03 Invented shared history: a meeting, call, referral or mutual contact the user has not confirmed.

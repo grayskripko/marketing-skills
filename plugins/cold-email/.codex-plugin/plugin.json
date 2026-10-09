@@ -1,7 +1,7 @@
 {
   "name": "cold-email",
-  "version": "0.1.0",
-  "description": "Review, check and write one-to-one business cold emails. A 12-check review with the user's facts locked and a change log, a pre-send check of merge fields, compliance lines and sender setup from pasted records, and sequences written from an offer brief with proof placeholders. It writes and checks only: it never sends, scrapes, finds addresses or adds contacts to any tool.",
+  "version": "0.1.1",
+  "description": "Write, review and check one-to-one business cold emails. Writes short sequences from your offer using only your facts; reviews a draft and returns the rewrite first, with every number, name and claim kept; checks an email before sending for merge fields, opt-out and sender lines, country rules and sender setup from records you paste; turns prospect notes, or up to 3 public pages you link, into opening lines. It never sends, creates drafts, finds addresses or adds contacts to any tool.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -25,8 +25,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Cold Email Kit",
-    "shortDescription": "Review and check cold emails",
-    "longDescription": "Five skills for careful one-to-one business outreach. Review a cold email with a 12-check scorecard that quotes the evidence, names the first failing check and rewrites it with every number, name and claim locked and a change log first. Check an email before you send it: merge fields across up to 25 sample rows, compliance lines such as sender identity, postal address and opt-out, and a sender-setup table built only from SPF, DKIM or DMARC records you paste. Write a short sequence from your offer with the plan printed first and proof placeholders instead of invented proof. Build an offer brief, and turn your prospect notes into dated opening lines. Nothing is sent, looked up or scraped.",
+    "shortDescription": "Write, review and check cold emails",
+    "longDescription": "Five skills for careful one-to-one business outreach. Write a short sequence from your offer, built only from facts you give. Review a cold email and get the rewrite first, with every number, name and claim kept, then what changed and why; a 12-check score on request. Check an email before you send it: merge fields across up to 25 sample rows, sender identity, postal address and opt-out lines, country rules, and what the SPF, DKIM or DMARC records you paste do and do not cover. Check whether an offer is ready, and turn your prospect notes, or up to 3 public pages you link, into dated opening lines. Nothing is sent, no address is looked up, and no page is read unless you give its link.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [

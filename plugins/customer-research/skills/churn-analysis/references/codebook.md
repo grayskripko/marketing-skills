@@ -19,4 +19,4 @@ This file is identical in every skill that uses it. Start from these codes; add 
 Rules:
 - One excerpt can carry more than one code.
 - Codes describe what the excerpt says, not what you think the person meant. Interpretation goes into themes, with ids.
-- An excerpt that only answers the interviewer's leading or hypothetical question is flagged "low-weight: prompted".
+- An excerpt that only answers the interviewer's leading or hypothetical question is marked "prompted" and counts half (see `evidence-rules.md`).

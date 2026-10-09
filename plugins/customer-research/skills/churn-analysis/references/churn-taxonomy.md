@@ -1,6 +1,6 @@
 # Churn taxonomy
 
-Each record (C01…) gets one primary reason, optional secondary reasons, and a controllable flag.
+Each record gets one primary reason, optional secondary reasons, and a controllable flag. The CH and LD codes are for working only: the answer names the reason in words.
 
 | Code | Reason | Controllable |
 |---|---|---|
@@ -19,7 +19,7 @@ When the notes, usage details or follow-up say more than the one-line reason, re
 
 | Id | Stated reason | Evidenced reason | Evidence |
 |---|---|---|---|
-| C07 | "too pricey" (CH1) | value not reached (CH2) | notes: setup never finished; 2 logins in 60 days |
+| C07 | "too pricey" (price) | value not reached | notes: setup never finished; 2 logins in 60 days |
 
 Count evidenced reasons in the main table when they exist; keep the stated reasons in a second column so the difference is visible.
 
@@ -35,7 +35,7 @@ When the text shows when the customer decided to leave (often weeks before cance
 
 ## Lost deals (separate table)
 
-Lost deals were never customers. Give them L01… ids and code them in their own table, never counted with cancellations and never given CH codes, tenure bands or a controllable-by-onboarding flag.
+Lost deals were never customers. Give them L01… ids and code them in their own table, never counted with cancellations and never given cancellation reasons, tenure bands or a controllable-by-onboarding flag.
 
 | Code | Reason |
 |---|---|

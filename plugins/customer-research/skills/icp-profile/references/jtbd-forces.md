@@ -15,4 +15,4 @@
 
 A switch happens when push and pull outweigh anxiety and habit. Print the four forces with ids for each job.
 
-Background: the switch timeline and the four forces come from the jobs-to-be-done practice of Bob Moesta and Clayton Christensen ("Competing Against Luck", 2016). The wording here is this plugin's own.
+Background: the switch timeline and the four forces come from the jobs-to-be-done interviewing practice of Bob Moesta and Chris Spiek; the jobs framing is set out in Christensen, Hall, Dillon and Duncan, "Competing Against Luck" (2016). The wording here is this plugin's own.

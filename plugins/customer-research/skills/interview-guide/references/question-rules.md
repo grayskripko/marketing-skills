@@ -1,6 +1,6 @@
 # Question rules
 
-Each question in a draft guide gets a verdict (keep, rewrite, cut) and the ids of the rules it breaks. A rewrite moves the question toward something the person already did.
+Each question in a draft guide gets a verdict (keep, rewrite, cut) and its problem in plain words. The ids are for this file only; never show them to the user. A rewrite moves the question toward something the person already did.
 
 | Id | Problem | Example (fictional) | Better |
 |---|---|---|---|
@@ -13,7 +13,7 @@ Each question in a draft guide gets a verdict (keep, rewrite, cut) and the ids o
 | QR7 | Jargon the person may not use | "How do you handle reconciliation variance?" | Use their words; ask "what do you call this step?" |
 | QR8 | Generalisation instead of an instance | "What do you usually do when…?" | "What did you do the last time…?" |
 
-Output table: #, original question, verdict, rule ids, rewrite.
+Output table: #, original question, verdict, problem in plain words, rewrite.
 
 After the table, give the guide in order with gaps filled: the timeline of the last time they did the job, the current workaround and its cost, alternatives they tried, and a closing question.
 

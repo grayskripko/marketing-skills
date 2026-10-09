@@ -36,7 +36,7 @@ Verbatim phrases by id, for the team to reuse later.
 
 ## Gaps
 
-Fields with no evidence, each turned into a question for the next research round.
+Fields with no evidence, each turned into a question for the next research round. They go here, not into empty rows of the card.
 
 ## Never
 

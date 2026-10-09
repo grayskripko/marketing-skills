@@ -1,14 +1,10 @@
-# Change log format
+# What changed
 
-Print the change log before the clean text so the user can reject any single change.
+Printed after the rewrite: at most five lines, biggest change first. Each line quotes before → after and gives the reason in plain words.
 
-| # | Rule | Before | After | Reason |
-|---|---|---|---|---|
-| 1 | CE-02 | Subject "Re: our chat" | Subject "Invoice matching at Acme" | First message; a reply prefix misstates the history |
-| 2 | CE-06 | "Book a call, see the deck or start a trial" | "Worth a look? Yes or no is fine." | One ask the reader can answer in a word |
+Example: Subject "Re: our chat" → "Time spent chasing client invoices": you have not spoken to Alex, and a fake reply makes readers distrust the sender.
 
 Rules:
-- One row per change; cite the CE check or the wrong-practice id it fixes.
-- "Before" and "After" quote the exact text; "—" means removed or added.
-- A cut locked fact is logged with its F id in the Reason column.
-- Merge fields such as `{{firstName}}` are never deleted silently: either keep them with a fallback noted, or log the cut.
+- Check and rule ids are for your own use and never appear in the answer.
+- Anything cut (invented contact, a fake "Re:", a superlative) is named here.
+- Merge fields such as `{{firstName}}` are never removed silently: keep them with a fallback ("there"), or say they were removed.
