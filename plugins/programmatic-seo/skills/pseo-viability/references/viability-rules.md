@@ -1,33 +1,39 @@
 # Viability rules
 
-All thresholds here are heuristics of this plugin, printed with that label.
+All thresholds here are rules of thumb of this plugin; in the answer they appear as plain recommendations (ground rule 4).
 
-## UV score per row
+## Profiles
 
-For each distinguishing column, find its most common value across the pasted rows (the mode). If the most frequent value appears only once, the column has no mode: every filled value counts. If several values tie for most frequent, all of them count as common (no point). A row earns one point for every distinguishing column where its value is filled and not a common value. The UV score is the sum.
+A row's profile is its values in the columns that set a page apart. Rows with the same profile would be the same page under different names; they share one page. A single row is a profile of one, not a duplicate.
 
-A row passes when its UV score is at least 3. With fewer than 3 distinguishing columns no row can pass; say so and go straight to the verdict.
+## Which profiles earn a page
 
-## Duplicate groups
+A profile earns a page when both hold:
+- at least 3 columns that set a page apart are filled with real values (not empty, N/A or TBD); and
+- it differs from every other profile on at least 2 of those columns.
 
-Rows identical on every distinguishing column form a group. The largest group's share of all rows is printed.
+Edge cases:
+- Two profiles are compared only on columns both have filled.
+- Two profiles that differ on only one column share one page that shows the difference in a small table.
+- Being the most common profile is not a fault; it is judged like any other.
+- With fewer than 3 columns that set pages apart, no profile can earn a page; say so and go straight to the verdict.
 
-## Verdict bands (no gaps)
+## Verdict (no gaps)
 
-| Band | Rule |
+Page share = pages earned ÷ rows pasted. Compared before rounding, printed with one decimal.
+
+| Verdict | Rule |
 |---|---|
-| Go | pass share at least 70% and the largest duplicate group holds at most 5% of rows |
-| Narrow | pass share at least 20% and below 70%, or pass share at least 70% with a duplicate group above 5% |
-| No-go | pass share below 20% |
+| Build all | page share at least 70% |
+| Build some | page share at least 20% and below 70% |
+| One hub page instead | page share below 20% |
 
-Percentages are compared before rounding and printed with one decimal.
+## Output per verdict
 
-## Outputs per band
-
-- Go: the full set may be built; the template still goes through a template specification and a sample check.
-- Narrow: list the ids or keys of the passing rows as the page set, keeping only the first row of any duplicate group (the others would be identical pages); print which rows were dropped for that reason. The other rows go into one hub page with a table, or stay unbuilt until their data is filled.
-- No-go: one hub page with a filterable table, or a small number of broader pages grouped by a distinguishing column.
+- Build all: one page per profile that earns one; rows sharing a profile share its page. The template still needs a specification and a sample check.
+- Build some: list each page and the rows it covers. The other rows go into one hub page with a table of all rows, or stay unbuilt until their data is filled.
+- One hub page instead: one hub page with a filterable table, or a small number of broader pages grouped by one column that sets pages apart.
 
 ## Sample size
 
-If fewer than 30 rows are pasted, add "thin sample, a heuristic of this plugin; the verdict may change on the full set".
+With fewer than 30 rows, add "small sample; the result may change on the full list".

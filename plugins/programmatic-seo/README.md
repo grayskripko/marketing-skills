@@ -1,19 +1,17 @@
 # Programmatic SEO Gate
 
-For template-based SEO pages built from a dataset, not programmatic advertising. Decide whether a page set deserves to exist, specify the template, check sample pages and roll out in gated batches. It never writes the pages.
+For SEO pages built from a dataset, one page per city, tool, integration or product (not programmatic advertising). Before you build hundreds of template pages, it tells you which rows have enough facts of their own to deserve a page, what the template must contain, whether your sample pages are near-copies, and when to stop a rollout. It never writes the pages.
 
-| Rows | Pass (UV ≥ 3) | Pass share | Largest duplicate group | Verdict |
-|---|---|---|---|---|
-| 40 | 10 | 25.0% | 75.0% | Narrow: build the 10 passing rows |
+Example: six payment tools, where three share the same fee, payout time, currencies and API, and two others match each other. Answer: build three pages, not six; tools with identical facts share a page.
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| pseo-viability | page-set idea plus rows or columns | column classes, per-row score, duplicate groups, Go / Narrow / No-go with the passing rows |
-| pseo-template-spec | approved page type and columns | block table, variable-text target, banned blocks, noindex and merge rules, block map for one row |
-| pseo-sample-qa | 3 to 20 pasted sample pages | similarity matrix after removing the shared template, flags and an action per page |
-| pseo-rollout | page count and URL pattern, later typed batch counts | hierarchy, sitemap split, pilot size, stop check, rollback |
+| pseo-viability | page-set idea plus rows or columns | which rows deserve a page, which share one, and the table behind it |
+| pseo-template-spec | chosen page type and columns | block table, how much of each page must change per row, banned blocks, noindex and merge rules, block map for one row |
+| pseo-sample-qa | 3 to 20 pasted sample pages | keep, merge or noindex per page, with the similarity table behind it |
+| pseo-rollout | page count and URL pattern, later typed batch counts | hierarchy, sitemap split, pilot size, continue or stop, rollback |
 
 ## Examples
 
@@ -23,11 +21,11 @@ For template-based SEO pages built from a dataset, not programmatic advertising.
 
 ## How it works
 
-Every verdict comes after a printed table. Thresholds are labelled as this plugin's heuristics. Missing values become `[DATA NEEDED]`; nothing is estimated or invented, including search volume. Requests for many near-identical pages, or for pages about private individuals, are declined with a dataset check offered instead.
+Each answer opens with the decision, then the table behind it. Thresholds are given as plain recommendations, and Google is named only where a recommendation rests on it. Missing facts are named; nothing is estimated or invented, including search volume. Requests for many near-identical pages, or for pages about private individuals, are declined with a dataset check offered instead.
 
 ## Data and network
 
-Network scope: this plugin fetches nothing and runs no web search. It works only on rows, tables and page text you paste or attach, runs nothing and changes no files or settings unless you ask, and may use the assistant's code or spreadsheet tool to compute the tables it shows. It stores nothing.
+Network scope: this plugin fetches nothing and runs no web search. It works only on rows, tables and page text you paste or attach, does not search your folders or files for data, runs nothing and changes no files or settings unless you ask, and may use the assistant's code or spreadsheet tool to compute the tables it shows. It stores nothing.
 
 ## What it will not do
 
@@ -35,7 +33,7 @@ Write or generate pages, audit a live site, estimate keyword volume, plan editor
 
 ## Troubleshooting
 
-No verdict means no rows were pasted. A column you think matters scored zero: reclassify it as distinguishing and rerun. Pages too short to compare are flagged thin.
+No verdict means no rows were pasted. A column you think matters was ignored: say it changes what a reader would do, and the check reruns with it. Pages too short to compare are flagged thin.
 
 ## Support
 

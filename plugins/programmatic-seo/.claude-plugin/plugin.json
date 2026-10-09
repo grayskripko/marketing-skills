@@ -1,8 +1,8 @@
 {
   "name": "programmatic-seo",
   "displayName": "Programmatic SEO Gate",
-  "version": "0.1.0",
-  "description": "For template-based SEO pages built from a dataset, not programmatic advertising. Decide whether a page set deserves to exist from your rows, specify the template, check pasted sample pages for near-duplicates and thin content, and roll out in gated batches with stop rules. Every verdict follows a printed table; it never writes the pages and never estimates search volume.",
+  "version": "0.1.1",
+  "description": "For template-based SEO pages built from a dataset (a page per city, tool, integration or product), not programmatic advertising. Checks from your rows which entries have enough facts of their own to deserve a page and which should share one, specifies the page template, checks pasted sample pages for near-duplicates and thin text, and plans a batched launch with stop rules. Each verdict comes with the table that decided it. It does not write the pages or estimate search volume.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

@@ -1,7 +1,7 @@
 {
   "name": "programmatic-seo",
-  "version": "0.1.0",
-  "description": "For template-based SEO pages built from a dataset, not programmatic advertising. Decide whether a page set deserves to exist from your rows, specify the template, check pasted sample pages for near-duplicates and thin content, and roll out in gated batches with stop rules. Every verdict follows a printed table; it never writes the pages and never estimates search volume.",
+  "version": "0.1.1",
+  "description": "For template-based SEO pages built from a dataset (a page per city, tool, integration or product), not programmatic advertising. Checks from your rows which entries have enough facts of their own to deserve a page and which should share one, specifies the page template, checks pasted sample pages for near-duplicates and thin text, and plans a batched launch with stop rules. Each verdict comes with the table that decided it. It does not write the pages or estimate search volume.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -24,8 +24,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Programmatic SEO Gate",
-    "shortDescription": "Unique-page checks for pSEO",
-    "longDescription": "Four skills for template-based SEO pages built from a dataset, not programmatic advertising. Viability classifies your columns, scores each row by the distinguishing values it carries and returns Go, Narrow with the passing rows, or No-go. Template spec turns an approved page type into a block table, a variable-text target, banned blocks, noindex and merge rules, and a block map for one row. Sample check removes the shared template from pasted pages, masks the key value and prints a similarity matrix with near-duplicate and thin flags. Rollout plans the hierarchy, sitemap split and pilot batch, and computes stop rules from the batch counts you type. It never writes the pages, never estimates search volume and works only on data you paste.",
+    "shortDescription": "Which dataset rows deserve an SEO page",
+    "longDescription": "Four skills for template-based SEO pages built from a dataset, not programmatic advertising. Viability groups rows with identical facts, checks that each group differs from the others on facts a reader acts on, and says build all, build some (with the page list) or one hub page instead. Template spec turns a chosen page type into a block table, how much of each page must change per row, banned blocks, noindex and merge rules, and a block map for one row. Sample check removes the shared template from pasted pages, ignores the swapped name and prints a similarity matrix with near-duplicate and thin flags. Rollout plans the hierarchy, sitemap split and pilot batch, and says continue or stop from the batch counts you type. It never writes the pages, never estimates search volume and works only on data you paste.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [
