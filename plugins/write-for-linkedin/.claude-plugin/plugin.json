@@ -1,0 +1,23 @@
+{
+  "name": "write-for-linkedin",
+  "displayName": "Write for LinkedIn®",
+  "version": "0.1.0",
+  "description": "Rewrite your LinkedIn® profile, draft a post in your voice, or help reply to a recruiter or contact. Works from the facts and text you supply. Supplied-excerpt briefs are secondary. No account connection or network access.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko/marketing-skills"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "linkedin-profile",
+    "linkedin-post",
+    "message-drafts",
+    "profile-rewrite",
+    "meeting-brief"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/write-for-linkedin/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/write-for-linkedin/README.md"
+}

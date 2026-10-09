@@ -1,0 +1,43 @@
+{
+  "name": "write-for-linkedin",
+  "version": "0.1.0",
+  "description": "Rewrite your LinkedIn® profile, draft a post in your voice, or help reply to a recruiter or contact. Works from the facts and text you supply. Supplied-excerpt briefs are secondary. No account connection or network access.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko/marketing-skills"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "linkedin-profile",
+    "linkedin-post",
+    "message-drafts",
+    "profile-rewrite",
+    "meeting-brief"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Write for LinkedIn®",
+    "shortDescription": "Profiles, posts and message drafts",
+    "longDescription": "Rewrite your LinkedIn® profile, draft a post in your voice, or help reply to a recruiter or contact. Works from the facts and text you supply. Supplied-excerpt briefs are secondary. No account connection or network access.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#365B4A",
+    "brandColorDark": "#A7CCB8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Rewrite my LinkedIn headline: project coordinator at Bramble Works. I manage only retail fit-outs. Target role: project manager.",
+      "Draft a plain LinkedIn post: at Bramble Works we added a handoff checklist. In one pilot only, weekly missed handoffs fell from 10 to 6. Include the percentage reduction.",
+      "Reply to this LinkedIn message: Please do not contact me again. Give me a short acknowledgment."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/write-for-linkedin/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

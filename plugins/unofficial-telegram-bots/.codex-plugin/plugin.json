@@ -1,0 +1,42 @@
+{
+  "name": "unofficial-telegram-bots",
+  "version": "0.1.0",
+  "description": "Help set up a Telegram bot and prepare a selected alert. Get setup instructions and message drafts; a live call requires a separately available secure tool. Bot guidance and drafts come first; permitted export review is secondary. No bundled sender, scheduler, listener or personal-inbox bridge.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "telegram",
+    "bot-notifications",
+    "chat-export",
+    "automation-setup"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Unofficial Telegram Bots",
+    "shortDescription": "Bot setup and notification drafts",
+    "longDescription": "Help set up a Telegram bot and prepare a selected alert. Get setup instructions and message drafts; a live call requires a separately available secure tool. Bot guidance and drafts come first; permitted export review is secondary. No bundled sender, scheduler, listener or personal-inbox bridge.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Help me create a Telegram bot and prepare one alert without sharing tokens.",
+      "Can a bot read my old private chats, or should I export them?",
+      "Help me set up a bot alert to my team group without pasting a token here."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

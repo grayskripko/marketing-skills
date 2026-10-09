@@ -1,0 +1,20 @@
+{
+  "name": "unofficial-telegram-bots",
+  "displayName": "Unofficial Telegram Bots",
+  "version": "0.1.0",
+  "description": "Help set up a Telegram bot and prepare a selected alert. Get setup instructions and message drafts; a live call requires a separately available secure tool. Bot guidance and drafts come first; permitted export review is secondary. No bundled sender, scheduler, listener or personal-inbox bridge.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "telegram",
+    "bot-notifications",
+    "chat-export",
+    "automation-setup"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}
