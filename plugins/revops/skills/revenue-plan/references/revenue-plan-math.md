@@ -32,7 +32,7 @@ Shift each step back by the median time between steps (or the whole cycle if onl
 coverage needed = 1 ÷ dollar-weighted win rate    (same pipeline definition)
 ```
 
-This is a dollar-to-dollar ratio. At a 20% dollar-weighted rate it is 5.0×. Multiples print with one decimal. Print it next to "3× is a common rule of thumb, not a property of your funnel".
+This is a dollar-to-dollar ratio. At a 20% dollar-weighted rate it is 5.0×. Multiples print with one decimal. Print it next to "3× is a rule of thumb, not a property of your funnel". If no dollar-weighted rate is given, write "Coverage not checked: needs your win rate in dollars"; never stand in the count rate.
 
 ## Capacity
 
@@ -42,8 +42,8 @@ Inputs: people carrying a number, start months, ramp months, quota per ramped pe
 month index k = 1 in the month a person starts, 2 the next month, and so on
 ramp factor   = min(1, k ÷ ramp months)
 ramped equivalents in a month = sum of ramp factors (fully ramped people count 1)
-expected bookings = ramped equivalents × monthly quota × attainment
-gap = target − expected bookings
+expected bookings for the period = sum over its months of (ramped equivalents × monthly quota × attainment)
+gap = period target − expected bookings for the period
 pipeline needed for the gap = gap ÷ dollar-weighted win rate
 ```
 
@@ -51,9 +51,9 @@ Print the ramp factor per person group per month. Team level only; never per per
 
 ## Sensitivity grids
 
-Two separate grids, because capacity bookings do not depend on funnel rates:
+Two separate grids, because capacity bookings do not depend on funnel rates. Show the funnel grid only if the user asks how sensitive the plan is or gives ranges; show the capacity grid only with team data.
 
 - Funnel grid: rows are the count win rate −5 pp, as given, +5 pp; columns are the SQL-to-opportunity rate −5 pp, as given, +5 pp; cells show SQLs needed per month.
 - Capacity grid: rows are attainment −10 pp, as given, +10 pp; columns are ramp months as given and +1; cells show expected bookings against target.
 
-Mark the base cell in each. All inputs appear in an Assumptions box the user can edit.
+Mark the base cell in each. Leave a cell blank if its rate would be 0% or below. All inputs appear in an assumptions list the user can edit.

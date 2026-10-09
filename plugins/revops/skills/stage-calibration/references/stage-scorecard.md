@@ -1,6 +1,6 @@
 # Stage definitions scorecard (SC-01 to SC-10)
 
-Scores the written definitions only, never individual deals. Each check is 0, 1 or 2, with a short quote from the user's text as evidence. Missing text scores 0 with "not described". The total is out of 20 and is labelled "checklist score, not a forecast of accuracy".
+Scores the written definitions only, never individual deals. The ids are for this file only; in the answer, name each check in plain words. Each check is 0, 1 or 2, with a short quote from the user's text as evidence. Missing text scores 0 with "not described". The total is out of 20 and is labelled "checklist score, not a forecast of accuracy".
 
 | Id | Check | 2 | 1 | 0 |
 |---|---|---|---|---|
@@ -15,4 +15,4 @@ Scores the written definitions only, never individual deals. Each check is 0, 1 
 | SC-09 | Definition changes are dated | yes | partly | no |
 | SC-10 | Closed-won is defined by a document or event, not by opinion | yes | partly | no |
 
-After the table, give two one-line rewrite suggestions in the user's own stage names. First, the check that explains a stage flagged outside its interval in the calibration table (for example, two stages sharing one exit criterion, SC-03, when both are miscalibrated). Then the lowest-scoring remaining check.
+After the table, give two one-line rewrite suggestions in the user's own stage names. First, the check that explains a stage flagged outside its interval in the calibration table (for example, two stages sharing one exit criterion, when both are miscalibrated). Then the lowest-scoring remaining check.

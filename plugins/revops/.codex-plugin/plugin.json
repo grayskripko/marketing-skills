@@ -1,7 +1,7 @@
 {
   "name": "revops",
-  "version": "0.1.0",
-  "description": "Check stated stage probabilities against what actually closed, build an ARR bridge with GRR and NRR that reconciles to zero, backtest forecast methods on your own history, plan a revenue target back to deals, SQLs and team capacity, and read funnel cohorts with intervals. Every number is printed with its formula, sample size and a 95% interval, computed only from data you paste.",
+  "version": "0.1.1",
+  "description": "Check stated stage probabilities against what actually closed, build an ARR bridge with gross and net revenue retention (GRR, NRR) that reconciles to zero, backtest forecast methods on your own history, plan a revenue target back to deals, SQLs and team capacity, and measure funnel conversion by cohort and source. Every figure shows its formula and every rate its sample size and 95% range, computed only from data you give.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -26,8 +26,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "RevOps Metrics Kit",
-    "shortDescription": "Recomputable revenue metrics",
-    "longDescription": "Five skills for revenue operations questions that need arithmetic you can check. Stage calibration compares the probability set for each stage with how often deals that reached it actually won, with a Wilson 95% interval and open deals left out, and scores the written stage definitions. ARR bridge classifies revenue by account into new, reactivation, expansion, contraction and churn for a named period, reconciles to zero, and computes GRR and NRR over the starting cohort. Forecast backtest compares forecasting methods on your own past periods with exact error formulas and a weak-evidence label when periods are few. Revenue plan works a target back to deals, SQLs and leads per month with the cycle lag, coverage from your own dollar-weighted win rate and a team capacity check. Funnel math reads lead and deal cohorts with intervals, time to first contact by source and a segment view. No benchmarks and no invented rates: every figure comes from data you paste.",
+    "shortDescription": "Revenue math from your own data",
+    "longDescription": "Five skills for revenue operations questions that need arithmetic you can check. Stage calibration compares the probability set for each stage with how often deals that reached it actually won, with a 95% range and open deals left out, and scores the written stage definitions. ARR bridge classifies revenue by account into new, reactivation, expansion, contraction and churn for a named period, reconciles to zero, and computes gross and net revenue retention (GRR, NRR) over the starting customers. Forecast backtest compares forecasting methods on your own past periods with exact error formulas and a weak-evidence label when periods are few. Revenue plan works a target back to deals, SQLs and leads per month with the cycle lag, coverage from your own dollar-weighted win rate and a team capacity check. Funnel math measures lead and deal conversion by cohort with 95% ranges, time to first contact by source and a segment view. No benchmarks and no invented rates: every figure comes from data you paste.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [
@@ -40,7 +40,7 @@
     "composerIcon": "./assets/icon.svg",
     "defaultPrompt": [
       "Our Stage 3 is set to 60%. Last year 50 closed deals reached it and 14 were won. Is 60% right? Show the math.",
-      "Which forecast was closer? Actual/M1/M2 per quarter (k): 420/520/440, 510/590/470, 0/60/30, 460/560/480.",
+      "Which forecast was closer? Actual / forecast A / forecast B per quarter (k): 420/520/440, 510/590/470, 0/60/30, 460/560/480.",
       "Target $600k new ARR next quarter. Avg won deal $18k, won 22% of opps, SQL→opp 40%, cycle 60 days. SQLs per month?"
     ],
     "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/gust/plugins/revops",

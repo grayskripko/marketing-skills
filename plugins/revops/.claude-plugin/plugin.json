@@ -1,8 +1,8 @@
 {
   "name": "revops",
   "displayName": "RevOps Metrics Kit",
-  "version": "0.1.0",
-  "description": "Check stated stage probabilities against what actually closed, build an ARR bridge with GRR and NRR that reconciles to zero, backtest forecast methods on your own history, plan a revenue target back to deals, SQLs and team capacity, and read funnel cohorts with intervals. Every number is printed with its formula, sample size and a 95% interval, computed only from data you paste.",
+  "version": "0.1.1",
+  "description": "Check stated stage probabilities against what actually closed, build an ARR bridge with gross and net revenue retention (GRR, NRR) that reconciles to zero, backtest forecast methods on your own history, plan a revenue target back to deals, SQLs and team capacity, and measure funnel conversion by cohort and source. Every figure shows its formula and every rate its sample size and 95% range, computed only from data you give.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

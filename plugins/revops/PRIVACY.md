@@ -7,6 +7,6 @@ RevOps Metrics Kit is a set of instructions and reference text for an AI assista
 - Purpose: computing the tables you ask for, during that conversation.
 - Recipients: the data goes to the provider of the AI assistant you use, under that provider's terms. The plugin sends it nowhere else.
 - Retention: the plugin keeps nothing. Retention of your conversation is set by your assistant provider.
-- Your controls: remove contact and owner columns before pasting; per-person views are produced only when you ask, with anonymous labels.
+- Your controls: remove contact and owner columns before pasting; per-person views are produced only when you ask, with anonymous labels; in the ARR bridge, account names that look like a person's name are shown as A1, A2 and so on.
 
 Questions: https://github.com/grayskripko/marketing-skills/issues

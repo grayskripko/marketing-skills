@@ -1,30 +1,32 @@
 # RevOps Metrics Kit
 
-Revenue numbers you can recompute. Every figure comes with its formula, sample size and a 95% interval, calculated from data you paste.
+Revenue numbers you can recompute. Every figure comes with its formula, and every rate with its sample size and a 95% range, calculated from data you paste.
 
-| Stage | Stated | Reached | Won | Observed | 95% interval | Verdict |
+Example: your CRM says deals at Stage 3 win 60% of the time. Your closed deals say 28%.
+
+| Stage | Stated | Reached | Won | Observed | 95% range | Verdict |
 |---|---|---|---|---|---|---|
-| Stage 3 | 60.0% | 50 | 14 | 28.0% | 17.5% – 41.7% | stated outside interval |
+| Stage 3 | 60% | 50 | 14 | 28.0% | 17.5% – 41.7% | stated outside range |
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| stage-calibration | stage probabilities, closed-deal counts or rows, stage definitions | observed win rate per stage with interval, open deals excluded, definitions scored SC-01 to SC-10 |
-| arr-bridge | revenue by account by period | a bridge that reconciles to zero, GRR and NRR over the starting cohort, logo churn |
-| forecast-backtest | past forecasts and what actually closed | error per method and period, MAPE, bias, ties split, a weak-evidence label |
+| stage-calibration | stage probabilities, closed-deal counts or rows, stage definitions | observed win rate per stage with a 95% range, open deals left out, and a ten-point check of your written stage definitions |
+| arr-bridge | revenue by account by period | a bridge that reconciles to zero, gross and net revenue retention (GRR, NRR) over the starting customers, customer-count churn |
+| forecast-backtest | past forecasts and what actually closed | how far each method missed each period, its average miss and whether it ran high or low, and a warning when there are too few periods |
 | revenue-plan | a target with your rates or team | deals, SQLs, leads and people per month with lag, coverage, capacity gap |
-| funnel-math | lead or deal rows with dates | cohort conversion with intervals, time to first contact by source, segment view, velocity |
+| funnel-math | lead or deal rows with dates | conversion by the month or quarter leads came in, with a 95% range; time to first contact by source; segment view; velocity |
 
 ## Examples
 
 - "Our Stage 3 is set to 60%. Last year 50 closed deals reached it and 14 were won. Is 60% right? Show the math."
-- "Which forecast was closer? Actual/M1/M2 per quarter (k): 420/520/440, 510/590/470, 0/60/30, 460/560/480."
+- "Which forecast was closer? Actual / forecast A / forecast B per quarter (k): 420/520/440, 510/590/470, 0/60/30, 460/560/480."
 - "Target $600k new ARR next quarter. Avg won deal $18k, won 22% of opps, SQL→opp 40%, cycle 60 days. SQLs per month?"
 
 ## How it works
 
-Each skill checks whether the data can be trusted, prints the calculation, then concludes. Your numbers are never changed and there are no benchmarks. Results are grouped by stage, segment, source or period; per-person figures only on request, under anonymous labels.
+Each skill gives the answer first, then the calculation behind it and a short check of whether the data can be trusted. Your numbers are never changed and there are no benchmarks. Results are grouped by stage, segment, source or period; per-person figures only on request, under anonymous labels.
 
 ## Data and network
 
@@ -40,7 +42,7 @@ Walk through deals one by one, run what-ifs on a single deal slipping, clean CRM
 
 ## Troubleshooting
 
-"Not checked" names the missing column. Wide intervals mean too few records.
+"Not checked" names the missing column. A wide 95% range means too few records.
 
 ## Support
 

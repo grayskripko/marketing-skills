@@ -1,6 +1,6 @@
 # ARR bridge definitions
 
-These are the definitions this plugin uses. They are printed in a box the user can change; if the user's company defines a term differently, use theirs and say so.
+These are the definitions this plugin uses by default. If the user's company defines a term differently, use theirs and say so.
 
 ## Period and cohort
 
@@ -12,7 +12,7 @@ These are the definitions this plugin uses. They are printed in a box the user c
 
 | Movement | Rule |
 |---|---|
-| New | not in the starting cohort, never had revenue before, has revenue at the end |
+| New | not in the starting cohort, never had revenue before, has revenue at the end (with no earlier history given, count it as new and say once that it is a reactivation if it paid before) |
 | Reactivation | not in the starting cohort, had revenue in an earlier period, has revenue at the end |
 | Expansion | in the cohort, end > start |
 | Contraction | in the cohort, 0 < end < start |
@@ -38,7 +38,7 @@ NRR = (start + expansion − contraction − churn) ÷ start
 
 New and reactivated accounts are outside the starting cohort and appear in neither. GRR cannot exceed 100% under this definition.
 
-Logo view next to the revenue view: starting logos, churned logos, logo churn % with n and interval.
+Customer-count view, when the user asks for churn, customer counts or a full bridge: starting customers, churned customers, customer-count churn % with n and 95% range.
 
 ## Worked check
 

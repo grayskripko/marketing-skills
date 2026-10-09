@@ -12,11 +12,11 @@ For each stage S:
 
 ## Output
 
-| Stage | Stated % | Reached (n) | Won | Observed % | 95% interval | Verdict |
+| Stage | Stated | Reached (n) | Won | Observed | 95% range | Verdict |
 |---|---|---|---|---|---|---|
-| Stage 3 | 60.0% | 50 | 14 | 28.0% | 17.5% – 41.7% | stated outside interval |
+| Stage 3 | 60% | 50 | 14 | 28.0% | 17.5% – 41.7% | stated outside range |
 
-Verdicts: "stated inside interval", "stated outside interval", "thin sample" (n below 20, heuristic), "no data".
+The Stated column shows the user's figure exactly as given. Verdicts: "stated inside range", "stated outside range", "no data"; with n below 20 (a heuristic of this plugin), "thin sample; stated inside/outside range", so a thin sample never hides a stated value outside its range.
 
 Then:
 

@@ -2,6 +2,8 @@
 
 ## Methods
 
+The ids M1–M4 are for this file only; in the answer, use the user's method names or the plain names below.
+
 Each method is applied to what was open at the start of each past period (a snapshot), then compared with what actually closed won in that period.
 
 | Id | Method | Needs |
@@ -24,7 +26,7 @@ MAPE          = mean of |e_t| over periods with A_t ≠ 0
 bias          = mean of e_t over the same periods
 ```
 
-A period with A_t = 0 has no percentage error. Exclude it from MAPE and bias and list it with the absolute difference F_t − A_t.
+A period with A_t = 0 has no percentage error. It is not a usable period: exclude it from MAPE, bias and wins, and list it with the difference F_t − A_t.
 
 ## Verdict rules
 
