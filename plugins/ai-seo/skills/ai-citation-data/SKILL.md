@@ -1,6 +1,6 @@
 ---
 name: ai-citation-data
-description: "Analyze exports that report AI citations or AI-feature visibility: the Bing Webmaster Tools AI Performance report (citations, cited pages, grounding queries, citation share, intents), the Search Console generative AI performance report (impressions by page, country, device and date), and analytics traffic in the AI Assistant channel. Joins them on normalized URLs with an optional page value list and ranks pages by business value against citation share, with a printed calculation table and data caveats. Use when the user shares or pastes one of these exports. Logged prompt-panel runs go to ai-visibility-report."
+description: "Find which pages to improve next using your AI citation, Google AI visibility and AI Assistant traffic exports. Joins them on normalized URLs with an optional page value list and ranks pages by business value against citation share, with a printed calculation table and data caveats. Use when the user shares or pastes one of these exports. Logged prompt-panel runs go to ai-visibility-report."
 ---
 
 # AI citation and AI-feature exports

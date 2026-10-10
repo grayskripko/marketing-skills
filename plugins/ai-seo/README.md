@@ -1,4 +1,4 @@
-# AI Search Visibility Kit
+Check and improve how ChatGPT, Google AI Overviews and other AI answers mention your brand.
 
 ## What it does
 

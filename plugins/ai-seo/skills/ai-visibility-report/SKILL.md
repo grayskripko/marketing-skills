@@ -1,6 +1,6 @@
 ---
 name: ai-visibility-report
-description: "Score logged prompt-panel runs from AI answer engines: mention rate, citation rate, share of voice and stability per engine and period, each with its counts, a written rule for whether a change between periods is a clear change or within run-to-run variation, and the sources cited instead of the brand. Use when the user pastes or attaches a filled panel sheet, many logged runs, or run totals per engine and period, or asks whether a change in their AI visibility is real or noise. One target query with a few pasted answers goes to ai-answer-gap; citation exports from webmaster tools go to ai-citation-data."
+description: "Check how often AI answers mention and cite your brand, whether that changed over time, and which sources they cite instead, using your logged results. Use when the user pastes or attaches a filled panel sheet, many logged runs, or run totals per engine and period, or asks whether a change in their AI visibility is real or noise. One target query with a few pasted answers goes to ai-answer-gap; citation exports from webmaster tools go to ai-citation-data."
 ---
 
 # AI visibility scorecard from logged runs
