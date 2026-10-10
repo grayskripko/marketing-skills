@@ -1,6 +1,6 @@
 ---
 name: ai-answer-gap
-description: "Find gaps between your page and the AI answers you paste for one query, and what to add or correct so those answers mention and cite your brand accurately. Use when the user gives one target query plus answers or sources they copied, and asks why they are not cited or what is missing. Many prompts or logged runs go to ai-visibility-report; a page check without answers goes to ai-page-audit."
+description: "Find what to add or correct on your page so AI answers mention and cite your brand accurately, using the answers and sources you paste for one query. Use when the user gives one target query plus answers or sources they copied, and asks why they are not cited or what is missing. Many prompts or logged runs go to ai-visibility-report; a page check without answers goes to ai-page-audit."
 ---
 
 # Answer gap for one query
