@@ -1,7 +1,7 @@
 {
   "name": "ai-seo",
-  "version": "0.1.4",
-  "description": "Check and improve how ChatGPT, Google AI Overviews and other AI answers mention your brand. Builds a repeatable prompt panel, scores logged runs over time with sample-size checks, analyzes citation exports, and maps answer gaps and third-party sources. Contains no code of its own and stores nothing.",
+  "version": "0.1.5",
+  "description": "Check whether AI answers mention or cite your brand in ChatGPT, Perplexity and Google AI Overviews, using answers you paste or runs you log yourself. To improve your AI search visibility, it also checks whether AI assistants can quote your web pages accurately and what to add so chatbot recommendations describe your business correctly. Builds a repeatable prompt panel, scores logged runs over time with sample-size checks, analyzes citation exports, and maps answer gaps and third-party sources. Contains no code of its own and stores nothing.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",

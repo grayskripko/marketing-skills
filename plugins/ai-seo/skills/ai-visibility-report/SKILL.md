@@ -1,6 +1,6 @@
 ---
 name: ai-visibility-report
-description: "Check how often AI answers mention and cite your brand, whether that changed over time, and which sources they cite instead, using your logged results. Use when the user pastes or attaches a filled panel sheet, many logged runs, or run totals per engine and period, or asks whether a change in their AI visibility is real or noise. One target query with a few pasted answers goes to ai-answer-gap; citation exports from webmaster tools go to ai-citation-data."
+description: "Compare how often ChatGPT, Perplexity and other AI answers mention or cite your brand from your logged runs: a scorecard per engine, changes over time and the sources cited instead. Use when the user pastes or attaches a filled panel sheet, many logged runs, or run totals per engine and period, or asks whether a change in their AI visibility is real or noise. One target query with a few pasted answers goes to ai-answer-gap; citation exports from webmaster tools go to ai-citation-data."
 ---
 
 # AI visibility scorecard from logged runs

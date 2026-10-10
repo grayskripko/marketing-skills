@@ -1,6 +1,6 @@
 ---
 name: ai-page-audit
-description: "Check whether ChatGPT, Google AI Overviews and other AI answers can quote your page accurately, and rewrite weak passages using only your facts. Use when the user gives one URL or the page text and asks whether AI answers can cite, quote or use that page, or what to change on it so AI answers describe it correctly. Returns a plain verdict, the changes that matter, rewrites, a 0-18 checklist score on request (not a forecast of citations) and a flag for text aimed at AI systems. Not for Google rankings, titles, indexing or page speed, or for a whole site: that is a general SEO audit. One query with pasted AI answers goes to ai-answer-gap."
+description: "Check whether AI assistants can accurately quote your web page from its URL or pasted text, then get priority fixes and rewritten passages that use only your facts. Use when the user gives one URL or the page text and asks whether AI answers can cite, quote or use that page, or what to change on it so AI answers describe it correctly. Returns a plain verdict, the changes that matter, rewrites, a 0-18 checklist score on request (not a forecast of citations) and a flag for text aimed at AI systems. Not for Google rankings, titles, indexing or page speed, or for a whole site: that is a general SEO audit. One query with pasted AI answers goes to ai-answer-gap."
 ---
 
 # Page check for AI answers
