@@ -1,6 +1,6 @@
 ---
 name: content-brief
-description: "Plan a content brief for your writer: goal and conversion point, reader and search intent, one angle, what is new in this piece and what proof is still needed, an outline where each section answers a question, evidence and internal links only from the user's material, where to share it, and a success metric. Use when the user picks one topic and asks for a content brief, writer brief or outline for an article, guide or page. Not for writing the article or any post or email, and not for ranking many topics."
+description: "Turn a chosen topic and research findings you provide into a writer's brief: goal and conversion point, reader and search intent, one angle, a question-led outline, evidence and internal links only from your material, where to share it, and a success metric. Use when the user picks one topic and asks for a content brief, writer brief or outline for an article, guide or page. Not for writing the article or any post or email, and not for ranking many topics."
 ---
 
 # Content brief

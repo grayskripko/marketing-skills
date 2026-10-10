@@ -1,6 +1,6 @@
 ---
 name: cold-email-check
-description: Pre-send check of a cold outreach email or template the user is about to send. Returns what to fix first and a fixed version, then a merge check for up to 25 sample recipient rows, opt-out, sender and country-rule checks, and what pasted SPF, DKIM or DMARC records or headers cover for Google, Yahoo and Microsoft. Use when the user says "before I send", asks to check an outreach email or template, merge fields, unsubscribe lines, legal basics, sender authentication, or why mail from their domain lands in junk. To improve the wording itself use cold-email-review. Not for newsletters or announcements to subscribers or existing customers.
+description: Check a cold outreach email or template before sending and return the fixes and a corrected version from the email, sample recipient rows and sender records you paste. Returns what to fix first and a fixed version, then a merge check for up to 25 sample recipient rows, opt-out, sender and country-rule checks, and what pasted SPF, DKIM or DMARC records or headers cover for Google, Yahoo and Microsoft. Use when the user says "before I send", asks to check an outreach email or template, merge fields, unsubscribe lines, legal basics, sender authentication, or why mail from their domain lands in junk. To improve the wording itself use cold-email-review. Not for newsletters or announcements to subscribers or existing customers.
 ---
 
 # Cold email check

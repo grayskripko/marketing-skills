@@ -1,8 +1,8 @@
 {
   "name": "cold-email",
   "displayName": "Cold Email Kit",
-  "version": "0.1.1",
-  "description": "Write, review and check one-to-one business cold emails. Writes short sequences from your offer using only your facts; reviews a draft and returns the rewrite first, with every number, name and claim kept; checks an email before sending for merge fields, opt-out and sender lines, country rules and sender setup from records you paste; turns prospect notes, or up to 3 public pages you link, into opening lines. It never sends, creates drafts, finds addresses or adds contacts to any tool.",
+  "version": "0.1.2",
+  "description": "Draft B2B cold outreach emails and follow-ups from your offer and audience; review and rewrite cold emails getting no replies, keeping every number, name and claim. Write prospect opening lines from notes you provide, and check outbound emails before sending using pasted emails, sample rows and sender records. Uses only your facts; never sends email, creates drafts in mail tools, finds addresses or adds contacts.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

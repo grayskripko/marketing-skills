@@ -1,6 +1,6 @@
 ---
 name: cold-email-brief
-description: Build an offer brief for cold outreach before any email is written. Returns a ready or not-ready verdict first, then the segment, trigger event, pain in the buyer's words, how the product produces the result, proof, one ask, an offer check and a segment check. Use when the user describes an offer and an audience and asks what to say in cold outreach, whether the offer is ready, or which segment to write to. With a draft email use cold-email-review; to write the emails use cold-email-write. Not for paid campaigns, landing pages or newsletters.
+description: Turn your offer and audience into a cold outreach brief, with a ready or not-ready verdict and the facts still needed before writing prospecting emails. Returns a ready or not-ready verdict first, then the segment, trigger event, pain in the buyer's words, how the product produces the result, proof, one ask, an offer check and a segment check. Use when the user describes an offer and an audience and asks what to say in cold outreach, whether the offer is ready, or which segment to write to. With a draft email use cold-email-review; to write the emails use cold-email-write. Not for paid campaigns, landing pages or newsletters.
 ---
 
 # Cold email brief

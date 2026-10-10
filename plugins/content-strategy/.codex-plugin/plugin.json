@@ -1,7 +1,7 @@
 {
   "name": "content-strategy",
-  "version": "0.1.2",
-  "description": "Plan what content to write next, what to fix or retire, and how to fit topics, writer briefs and lead magnets into your team's available hours. It plans; it does not write the content or build campaigns.",
+  "version": "0.1.3",
+  "description": "Decide what your team should publish next: plan blog topics and content marketing priorities around your goals, company evidence and available team hours. From your existing article list, recommend which old articles to update, merge or retire; turn a chosen topic and research findings you provide into a writer's brief, and plan lead magnets for your topic clusters. It plans; it does not write the content or build campaigns.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",

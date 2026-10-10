@@ -1,6 +1,6 @@
 ---
 name: cold-email-hooks
-description: Turn research notes the user pastes about named prospects, up to 20 per run, or up to 3 public pages the user links, into one opening line per prospect for cold outreach, each built on a sourced, dated fact tied to the offer, with dropped facts and the reason. Use when the user has prospect notes or a company page and asks for personalization, hooks, first lines or why-now angles for cold emails. Never finds, guesses or verifies addresses and never searches the web. To write the full emails use cold-email-write; to review a draft use cold-email-review. Not for newsletters or social posts.
+description: Write one prospect opening line per person for cold outreach from your supplied research notes (up to 20 prospects) or linked public pages (up to 3), using a sourced, dated fact tied to your offer, with dropped facts and the reason. Use when the user has prospect notes or a company page and asks for personalization, hooks, first lines or why-now angles for cold emails. Never finds, guesses or verifies addresses and never searches the web. To write the full emails use cold-email-write; to review a draft use cold-email-review. Not for newsletters or social posts.
 ---
 
 # Cold email hooks
