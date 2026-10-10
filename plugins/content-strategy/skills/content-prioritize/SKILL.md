@@ -1,6 +1,6 @@
 ---
 name: content-prioritize
-description: "Decide what your team should publish next by ranking your candidate topics into content marketing priorities against your goals, company evidence and available hours, then build a week-by-week content calendar that fits your team's writing hours and a not-now list with a reason for every cut. Use when the user gives candidate topics or ideas and asks what to do first, what fits their time, what to cut, or for a content plan for the month or quarter. Not for deciding the fate of existing pages, building a topic map from scratch, or writing the content."
+description: "Decide what your team should publish next by ranking your candidate topics into content marketing priorities against your goals, company evidence and available hours, then build a week-by-week plan and a not-now list with a reason for every cut. Use when the user gives candidate topics or ideas and asks what to do first, what fits their time, what to cut, or for a content plan for the month or quarter. Not for deciding the fate of existing pages, building a topic map from scratch, or writing the content."
 ---
 
 # Content prioritization
