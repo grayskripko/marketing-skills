@@ -1,0 +1,19 @@
+{
+  "name": "booking-faq",
+  "displayName": "Booking FAQ",
+  "version": "0.1.0",
+  "description": "Write booking FAQs, explain how to book, draft booking replies and check existing booking text using your approved terms. Use when you ask “write our booking FAQ”, “reply to this booking question” or “check our cancellation answers.” For local service owners. Provide customer questions with unnecessary personal details removed and approved terms for each branch. Keeps deposit and cancellation exceptions and separates booking questions, provisional holds and confirmed appointments. Uses only supplied text and files. Not for calendar access, checking availability, making reservations, sending messages or fetching links.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "booking-faq",
+    "appointment-policy",
+    "booking-messages",
+    "cancellation-copy"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}
