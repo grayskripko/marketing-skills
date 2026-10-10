@@ -1,6 +1,6 @@
 ---
 name: topic-map
-description: "Build a topic map from what the business actually knows: themes and topics by buyer stage and search intent, the offer each topic leads to and the company's own evidence behind it; topics with no such evidence are set aside as generic. Use when the user describes an offer, customers and a goal and asks what to write or post about, which topics or clusters to cover, or for a content map. Not for prioritizing an existing idea list, briefing one topic, or writing the content."
+description: "Plan what content to write next with a topic map: themes and topics by buyer stage and search intent, the offer each topic leads to and the company's own evidence behind it; topics with no such evidence are set aside as generic. Use when the user describes an offer, customers and a goal and asks what to write or post about, which topics or clusters to cover, or for a content map. Not for prioritizing an existing idea list, briefing one topic, or writing the content."
 ---
 
 # Topic map

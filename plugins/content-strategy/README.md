@@ -1,6 +1,6 @@
 # Content Strategy Kit
 
-Content strategy for teams with limited hours: what to keep, fix or retire, what to make next and what not to make now, with the reason or sum behind each decision. Covers content audits, pruning, topic maps, briefs, lead magnets and a plan that fits real capacity. It plans; it does not write the content or build campaigns.
+Plan what content to write next, what to fix or retire, and how to fit topics, writer briefs and lead magnets into your team's available hours. Covers content audits, pruning, topic maps, briefs, lead magnets and a plan that fits real capacity. It plans; it does not write the content or build campaigns.
 
 ## What it does
 

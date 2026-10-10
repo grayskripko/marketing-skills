@@ -1,6 +1,6 @@
 ---
 name: lead-magnet-plan
-description: "Plan one lead magnet that serves a topic cluster or fills one slot in a content plan, for one conversion point (demo, trial, newsletter, consultation): the asset type and why, the job it does for the reader, whether to ask for an email to get it and why, an outline, follow-up as titles only, and a metric. Use when the user's topic map or content plan needs a lead magnet, checklist, template, calculator or guide for a cluster or slot. Not for sign-up form fields or consent wording; not for writing the asset, email copy, landing-page copy, outreach or ads."
+description: "Plan a lead magnet such as a checklist, template, calculator or guide: the asset type and why, the job it does for the reader, whether to ask for an email to get it and why, an outline, follow-up as titles only, and a metric. Use when the user's topic map or content plan needs a lead magnet, checklist, template, calculator or guide for a cluster or slot. Not for sign-up form fields or consent wording; not for writing the asset, email copy, landing-page copy, outreach or ads."
 ---
 
 # Lead magnet plan

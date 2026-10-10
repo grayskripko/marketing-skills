@@ -1,6 +1,6 @@
 ---
 name: content-prioritize
-description: "Turn a list of content ideas into a plan that fits the team's real hours: the capacity sum, a 0-12 planning score per topic (shown on request, labelled as judgement), a week-by-week plan whose writing and reserved hours add up to the hours available, and a not-now list with a reason for every cut. Use when the user gives candidate topics or ideas and asks what to do first, what fits their time, what to cut, or for a content plan for the month or quarter. Not for deciding the fate of existing pages, building a topic map from scratch, or writing the content."
+description: "Plan what content to write next and what to do first within your team's available hours: the capacity sum, a 0-12 planning score per topic (shown on request, labelled as judgement), a week-by-week plan whose writing and reserved hours add up to the hours available, and a not-now list with a reason for every cut. Use when the user gives candidate topics or ideas and asks what to do first, what fits their time, what to cut, or for a content plan for the month or quarter. Not for deciding the fate of existing pages, building a topic map from scratch, or writing the content."
 ---
 
 # Content prioritization

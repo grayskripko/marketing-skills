@@ -1,7 +1,7 @@
 {
   "name": "content-strategy",
-  "version": "0.1.1",
-  "description": "Decide what content to make, fix or retire: what to do with each existing page and why, topics your company can write from its own evidence, a plan that fits your team's real hours, briefs a writer can work from, and lead-magnet plans for a topic cluster. It plans; it does not write the content or build campaigns.",
+  "version": "0.1.2",
+  "description": "Plan what content to write next, what to fix or retire, and how to fit topics, writer briefs and lead magnets into your team's available hours. It plans; it does not write the content or build campaigns.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -26,7 +26,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Content Strategy Kit",
-    "shortDescription": "Plan content to your capacity",
+    "shortDescription": "Plan what content to write next",
     "longDescription": "Five connected skills for teams with limited hours. Decide what happens to existing pages (keep, update, merge, redirect, retire or leave alone), with the reason on every row and a list of what could not be checked. Build a topic map where every topic names the company's own evidence behind it, or is set aside as generic. Turn a list of ideas into a week-by-week plan that fits the team's hours, with a planning score and a not-now list. Write briefs a writer can work from, using the team's own evidence, and plan lead magnets with a stated reason for asking or not asking for an email. A publish date alone never decides a page's fate. It plans; it does not write the content.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
