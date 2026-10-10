@@ -1,4 +1,4 @@
-# X Posts
+# Twitter Posts
 
 Write X posts, threads and replies, or check what supplied posts say about a topic or account over the dates you choose.
 

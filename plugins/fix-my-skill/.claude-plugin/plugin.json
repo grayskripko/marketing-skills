@@ -1,6 +1,6 @@
 {
-  "name": "skill-fixer",
-  "displayName": "Skill Fixer",
+  "name": "fix-my-skill",
+  "displayName": "Fix My Skill",
   "version": "0.1.0",
   "description": "Fix weak skills and instructions by comparing two independent attempts, splitting long instructions into smaller jobs, or adjusting an agent plan as results arrive. Use when asked “this skill gives inconsistent answers”, “split this long prompt”, or “run this instruction with agents”. Returns usable results and instructions you can reuse. Works from supplied text and authorized local files. Running agents needs the assistant’s built-in agent tools and normal allowance. Not for installing an agent runtime, changing permissions, fixing when a skill gets selected, or claiming that a test on one sample proves it works on every task.",
   "author": {

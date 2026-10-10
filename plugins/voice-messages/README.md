@@ -1,4 +1,4 @@
-# Voice Notes
+# Voice Messages
 
 Clean up voice notes and dictated transcripts and turn them into replies, emails, posts or interview answers without adding claims.
 For people who speak their first draft and want readable text that still sounds like them.

@@ -1,4 +1,4 @@
-# Skill Fixer
+# Fix My Skill
 
 Fix a weak skill or instruction: compare two separate attempts, split a long task into smaller jobs, or adjust an agent plan as results arrive.
 Works from supplied text and authorized local files. No extra account or paid API is required for planning or serial text work. To run agents, your assistant needs built-in agent tools. Runs use its normal allowance. Extra agents can add usage charges.

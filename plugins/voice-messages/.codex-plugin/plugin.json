@@ -1,5 +1,5 @@
 {
-  "name": "voice-notes",
+  "name": "voice-messages",
   "version": "0.1.0",
   "description": "Clean up voice notes and dictated transcripts so they are easy to read and still sound like you. Use when you say “clean up my voice note,” “turn this dictation into an email,” or “tidy my interview answer.” Paste the text or provide a transcript export. Keeps your facts, doubts and what you or your team actually did. Can produce a chat reply, email, post or interview answer. Not for transcribing audio, adding claims, sending or publishing. Needs no extra account or transcription service.",
   "author": {
@@ -18,7 +18,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Voice Notes",
+    "displayName": "Voice Messages",
     "shortDescription": "Clean up voice notes without changing meaning",
     "longDescription": "Clean up voice notes and dictated transcripts so they are easy to read and still sound like you. Use when you say “clean up my voice note,” “turn this dictation into an email,” or “tidy my interview answer.” Paste the text or provide a transcript export. Keeps your facts, doubts and what you or your team actually did. Can produce a chat reply, email, post or interview answer. Not for transcribing audio, adding claims, sending or publishing. Needs no extra account or transcription service.",
     "developerName": "Sergey Skripko",

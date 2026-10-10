@@ -1,6 +1,6 @@
 {
-  "name": "x-posts",
-  "displayName": "X Posts",
+  "name": "twitter-posts",
+  "displayName": "Twitter Posts",
   "version": "0.1.0",
   "description": "Write X posts, threads and replies from your facts, or research a topic or account using supplied posts over the dates you choose. Use when you ask “turn these notes into a post”, “find mentions in this export” or “compare what this account said before and after launch”. Paste text or supply a CSV/JSON export. Source links stay beside the claims they support and are not opened. No account connection or setup is needed. Not for live search, fetching account history, posting, scheduling or inventing facts.",
   "author": {
