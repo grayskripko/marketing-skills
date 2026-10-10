@@ -1,0 +1,43 @@
+{
+  "name": "linkedin-posts",
+  "version": "0.1.0",
+  "description": "Write LinkedIn posts in your voice, rewrite your profile, and draft messages from the facts and text you supply. Use when you ask “rewrite my profile”, “draft a post in my voice”, or “help me reply to a recruiter”. Paste the relevant text or provide an existing export. You get a draft to review and paste yourself. It can also summarize supplied person or company excerpts for a meeting. Not for account access, live profile searches, sending, publishing, scraping or automated engagement. No account connection or network access.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko/marketing-skills"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "linkedin-profile",
+    "linkedin-post",
+    "message-drafts",
+    "profile-rewrite",
+    "meeting-brief"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "LinkedIn Posts",
+    "shortDescription": "Write LinkedIn posts, profiles and messages",
+    "longDescription": "Write LinkedIn posts in your voice, rewrite your profile, and draft messages from the facts and text you supply. Use when you ask “rewrite my profile”, “draft a post in my voice”, or “help me reply to a recruiter”. Paste the relevant text or provide an existing export. You get a draft to review and paste yourself. It can also summarize supplied person or company excerpts for a meeting. Not for account access, live profile searches, sending, publishing, scraping or automated engagement. No account connection or network access.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#365B4A",
+    "brandColorDark": "#A7CCB8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Rewrite my LinkedIn headline: project coordinator at Bramble Works. I manage only retail fit-outs. Target role: project manager.",
+      "Draft a plain LinkedIn post: at Bramble Works we added a handoff checklist. In one pilot only, weekly missed handoffs fell from 10 to 6. Include the percentage reduction.",
+      "Reply to this LinkedIn message: Please do not contact me again. Give me a short acknowledgment."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/linkedin-posts/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

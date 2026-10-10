@@ -1,0 +1,43 @@
+{
+  "name": "whatsapp-messages",
+  "version": "0.1.0",
+  "description": "Write WhatsApp messages and replies from your facts, and summarize chat exports into decisions, tasks and unanswered questions. Use when you ask “help me reply to this WhatsApp message”, “what did we decide?” or “summarize this chat export”. Paste the messages or supply an export; no account connection is needed. It can also compare setup options for your goal. Not for sending messages, connecting accounts or monitoring a live inbox. It makes no network requests. Building a live integration is a separate task.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "chat-export",
+    "chat-summary",
+    "reply-drafts",
+    "business-messaging",
+    "setup-guidance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WhatsApp Messages",
+    "shortDescription": "Write WhatsApp messages and summarize chats",
+    "longDescription": "Write WhatsApp messages and replies from your facts, and summarize chat exports into decisions, tasks and unanswered questions. Use when you ask “help me reply to this WhatsApp message”, “what did we decide?” or “summarize this chat export”. Paste the messages or supply an export; no account connection is needed. It can also compare setup options for your goal. Not for sending messages, connecting accounts or monitoring a live inbox. It makes no network requests. Building a live integration is a separate task.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#284B63",
+    "brandColorDark": "#9BBACC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Help me reply to this WhatsApp message using only my facts.",
+      "Summarize this chat export and list decisions with source locations.",
+      "Compare exports and the Business Cloud API for my goal."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/whatsapp-messages/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

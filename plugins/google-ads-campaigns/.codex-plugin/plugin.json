@@ -1,0 +1,46 @@
+{
+  "name": "google-ads-campaigns",
+  "version": "0.1.0",
+  "description": "Plan Google Ads Search keywords and draft ads from your brief. Reviews Google Ads search terms, negative keywords, conversions, bidding and Performance Max using reports and settings you supply. Use when you ask “plan Search ads”, “review these search terms” or “check our bidding settings”. Works from pasted text, exports or screenshots. It also explains access setup; live account work needs separate tools and checks that the connection works. Not for automatic campaign changes, launching ads or promises of better performance. No connector is included.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "google-ads",
+    "search-terms",
+    "negative-keywords",
+    "keyword-planner",
+    "conversion-goals",
+    "bidding",
+    "performance-max",
+    "account-setup"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Google Ads Campaigns",
+    "shortDescription": "Plan Google Ads campaigns and review reports",
+    "longDescription": "Plan Google Ads Search keywords and draft ads from your brief. Reviews Google Ads search terms, negative keywords, conversions, bidding and Performance Max using reports and settings you supply. Use when you ask “plan Search ads”, “review these search terms” or “check our bidding settings”. Works from pasted text, exports or screenshots. It also explains access setup; live account work needs separate tools and checks that the connection works. Not for automatic campaign changes, launching ads or promises of better performance. No connector is included.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#234E52",
+    "brandColorDark": "#D4ECE8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Draft Search ads from this offer, page excerpt and keyword plan.",
+      "Review these search terms and propose negatives with match type and scope.",
+      "Group these keywords into a Search campaign plan. Leave missing volume and CPC unknown."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/google-ads-campaigns/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "youtube-transcript",
+  "displayName": "YouTube Transcript",
+  "version": "0.1.0",
+  "description": "Summarize YouTube video transcripts, list key takeaways, answer questions with timestamps, compare transcripts, and find videos for a research question. Use when you ask “summarize this video”, “what does this talk say about my question”, or “compare these transcripts”. Paste captions to start without setup, or supply public video links to try fetching captions. If access fails, use pasted text. Answers point to supplied timestamps or paragraphs when no times are given. Not for analyzing visuals, transcribing arbitrary audio, planning channel growth, or guaranteeing access to every video.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "transcripts",
+    "video research",
+    "timestamps",
+    "source comparison"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/youtube-transcript/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/youtube-transcript/README.md"
+}

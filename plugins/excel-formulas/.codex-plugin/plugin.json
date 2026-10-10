@@ -1,0 +1,42 @@
+{
+  "name": "excel-formulas",
+  "version": "0.1.0",
+  "description": "Write, fix and explain Excel and Google Sheets formulas from pasted cells and headers. Propose Excel Power Query cleaning and merge steps, flag ambiguous matches, and reconcile pivot summaries. No file access, accounts or live spreadsheet connection needed. Returns text proposals and expected results from sample rows; does not execute formulas, refresh queries or edit workbooks.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "excel",
+    "google-sheets",
+    "formulas",
+    "xlookup",
+    "sumifs",
+    "power-query",
+    "pivot-summary"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Excel Formulas",
+    "shortDescription": "Write and fix Excel formulas, queries and pivot summaries",
+    "longDescription": "Write, fix and explain Excel and Google Sheets formulas from pasted cells and headers. Propose Excel Power Query cleaning and merge steps, flag ambiguous matches, and reconcile pivot summaries. No file access, accounts or live spreadsheet connection needed. Returns text proposals and expected results from sample rows; does not execute formulas, refresh queries or edit workbooks.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive"
+    ],
+    "brandColor": "#246953",
+    "brandColorDark": "#72C6A4",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Fix this Excel formula from these cells and explain its result.",
+      "My Power Query merge doubles rows. Here are both samples and M.",
+      "Check this pivot summary against the pasted source rows."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

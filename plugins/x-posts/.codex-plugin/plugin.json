@@ -1,0 +1,44 @@
+{
+  "name": "x-posts",
+  "version": "0.1.0",
+  "description": "Write X posts, threads and replies from your facts, or research a topic or account using supplied posts over the dates you choose. Use when you ask “turn these notes into a post”, “find mentions in this export” or “compare what this account said before and after launch”. Paste text or supply a CSV/JSON export. Source links stay beside the claims they support and are not opened. No account connection or setup is needed. Not for live search, fetching account history, posting, scheduling or inventing facts.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "post-writing",
+    "thread-drafts",
+    "reply-drafts",
+    "twitter",
+    "x",
+    "supplied-post-research",
+    "chat-export"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "X Posts",
+    "shortDescription": "Write X posts, threads and replies",
+    "longDescription": "Write X posts, threads and replies from your facts, or research a topic or account using supplied posts over the dates you choose. Use when you ask “turn these notes into a post”, “find mentions in this export” or “compare what this account said before and after launch”. Paste text or supply a CSV/JSON export. Source links stay beside the claims they support and are not opened. No account connection or setup is needed. Not for live search, fetching account history, posting, scheduling or inventing facts.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Draft an X/Twitter post from these facts; keep only and might.",
+      "Review this supplied post export for mentions of our topic during September.",
+      "Explain this pasted thread with excerpt references."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

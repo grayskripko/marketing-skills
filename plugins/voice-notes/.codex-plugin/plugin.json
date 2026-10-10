@@ -1,0 +1,43 @@
+{
+  "name": "voice-notes",
+  "version": "0.1.0",
+  "description": "Clean up voice notes and dictated transcripts so they are easy to read and still sound like you. Use when you say “clean up my voice note,” “turn this dictation into an email,” or “tidy my interview answer.” Paste the text or provide a transcript export. Keeps your facts, doubts and what you or your team actually did. Can produce a chat reply, email, post or interview answer. Not for transcribing audio, adding claims, sending or publishing. Needs no extra account or transcription service.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "voice-note",
+    "dictation",
+    "transcript-cleanup",
+    "reply-draft",
+    "interview-answer"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Voice Notes",
+    "shortDescription": "Clean up voice notes without changing meaning",
+    "longDescription": "Clean up voice notes and dictated transcripts so they are easy to read and still sound like you. Use when you say “clean up my voice note,” “turn this dictation into an email,” or “tidy my interview answer.” Paste the text or provide a transcript export. Keeps your facts, doubts and what you or your team actually did. Can produce a chat reply, email, post or interview answer. Not for transcribing audio, adding claims, sending or publishing. Needs no extra account or transcription service.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Clean up this dictation: “We tested only the draft. It might help; we have no results yet.”",
+      "Turn this voice note into an email: “The sample arrived. Can you ask whether the final version is ready?”",
+      "Make this interview answer readable: “I wrote the checks. The team ran them in staging, not production.”"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/voice-notes/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

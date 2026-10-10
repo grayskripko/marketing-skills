@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-messages",
+  "displayName": "WhatsApp Messages",
+  "version": "0.1.0",
+  "description": "Write WhatsApp messages and replies from your facts, and summarize chat exports into decisions, tasks and unanswered questions. Use when you ask “help me reply to this WhatsApp message”, “what did we decide?” or “summarize this chat export”. Paste the messages or supply an export; no account connection is needed. It can also compare setup options for your goal. Not for sending messages, connecting accounts or monitoring a live inbox. It makes no network requests. Building a live integration is a separate task.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "chat-export",
+    "chat-summary",
+    "reply-drafts",
+    "business-messaging",
+    "setup-guidance"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/whatsapp-messages/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/whatsapp-messages/README.md"
+}
