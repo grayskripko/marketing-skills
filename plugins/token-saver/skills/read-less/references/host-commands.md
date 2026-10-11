@@ -1,6 +1,6 @@
 # Host commands
 
-Agent reference: select only the host identified by supplied evidence. Present relevant entries as user-operated UI guidance, never shell commands or authorization to reset the session. Entries record vendor sources and dates; installed support may differ. If support is unknown, say so and advise the user to follow the installed UI. Keep command tables and dated host-specific notes scoped to their named host.
+This is the only file in the plugin that names host-specific commands. Skills refer to actions in general terms ("the host's clear command") and point here. Each entry was checked against the vendor's own source on the date shown. If your host version differs, trust what your host shows.
 
 ## Claude Code
 

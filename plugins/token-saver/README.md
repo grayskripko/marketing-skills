@@ -8,9 +8,9 @@ Five skills that lower token use in AI chat and coding sessions without dropping
 
 | Skill | Give it | You get |
 |---|---|---|
-| prompt-trim | an instruction file or system prompt | trimmed text and rule-coverage check; ledger and change table when requested or needed for review |
-| context-diet | usage numbers, instruction files, tool list | load table, evidence-backed findings using 12 starter checks, up to 5 immediate changes |
-| session-handoff | a long session or a pasted work state | a task-appropriate note a fresh session can resume from |
+| prompt-trim | an instruction file or system prompt | rule ledger, change table, trimmed text, check that every rule is present |
+| context-diet | usage numbers, instruction files, tool list | load table, findings against 12 checks, top 5 changes |
+| session-handoff | a long session or a pasted work state | a fixed-field note a fresh session can resume from |
 | read-less | a coding task | a reading plan with the cheapest source for each question |
 | terse-mode | "shorter answers, please" | short but safe answers: commands, numbers, warnings and confirmations stay, even when asked to drop them |
 
@@ -22,7 +22,7 @@ Five skills that lower token use in AI chat and coding sessions without dropping
 
 ## How it works
 
-Each skill uses a defined procedure and adapts its output to the task and requested review depth. Active rules and resumption evidence are preserved; retained technical literals stay exact. Ordinary instruction prose may be reworded without changing its obligations.
+Each skill follows fixed steps and prints a fixed output. Nothing on the printed never-cut list is shortened.
 
 ## What to expect
 
