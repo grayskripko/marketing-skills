@@ -8,9 +8,9 @@ Typical blocks: title, main heading, summary line built from row facts, fact tab
 
 ## Targets (rules of thumb of this plugin)
 
-- Default: target 40% variable text for prose-heavy pages. Use a complete row-fact table plus its decision explanation instead of a token-share gate when supplied pages are structured specifications, directories or lookup results and every required decision field is present; report the actual share and which test was used. Never add words just to pass. Measure fixed and variable text with the sample-QA whitespace-and-punctuation tokenisation; for prose target t, variable tokens = ceil(fixed tokens × t/(1−t)); at 40%, ceil(fixed × 2/3).
-- Above the fold: the default 3 decision-relevant facts; use all required facts under the 2-fact/1-difference task exception when fewer facts fully answer that decision, and say which target was used.
-- Pass mark for publishing a row: its profile earns a page (the default 3 filled independent decision facts and 2 differing jointly filled decision fields against every other profile; use 2 filled facts and 1 differing field only when supplied user tasks or customer questions show that field alone changes the required action and the page fully answers that task, naming the task, field, counts and selected test; compared with every other profile).
+- Variable share: on a typical row, at least 40% of the page's words come from row data or from text written for that row.
+- Above the fold: at least three facts that set the page apart.
+- Pass mark for publishing a row: its profile earns a page (at least 3 filled columns that set a page apart, and a difference of at least 2 such columns from every other profile).
 
 ## Banned blocks
 

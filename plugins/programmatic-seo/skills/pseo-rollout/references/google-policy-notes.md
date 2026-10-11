@@ -1,6 +1,6 @@
 # Google policy notes
 
-Read on Google Search Central on 2026-10-08. Default: request source rechecking after 6 months; use immediate rechecking when supplied policy text or an update date contradicts these notes. Say which freshness condition applied; elapsed time is not evidence that policy changed.
+Read on Google Search Central on 2026-10-08. If today is more than six months after that date, tell the user to re-read the cited page before relying on it.
 
 | Page (last updated) | What it says, in short |
 |---|---|
@@ -8,4 +8,4 @@ Read on Google Search Central on 2026-10-08. Default: request source rechecking 
 | Google Search's guidance on using generative AI content (2026-10-01), https://developers.google.com/search/docs/fundamentals/using-gen-ai-content | Automation and AI are not banned as such; generating many pages without adding value for users may violate the scaled content abuse policy. |
 | How to specify a canonical with rel="canonical" and other methods (2026-07-10), https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls | When pages are duplicates, Google picks one version to show. Redirects and rel="canonical" are strong signals for your preferred version; listing a URL in a sitemap is a weak signal. |
 | Block search indexing with noindex (2025-12-10), https://developers.google.com/search/docs/crawling-indexing/block-indexing | noindex works as a meta tag or an HTTP header, and only if the page is not blocked by robots.txt and is otherwise crawlable. |
-| Build and submit a sitemap (2026-07-08), https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap | Hard caps are 50,000 URLs and 50 MB uncompressed per sitemap; split smaller for supplied batch monitoring or either cap, never raise either cap, and label URL-only file counts a lower bound when bytes are unknown; larger sets are split into several files, optionally listed in a sitemap index. |
+| Build and submit a sitemap (2026-07-08), https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap | One sitemap file is limited to 50,000 URLs or 50 MB uncompressed; larger sets are split into several files, optionally listed in a sitemap index. |

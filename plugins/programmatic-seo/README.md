@@ -10,7 +10,7 @@ Example: six payment tools, where three share the same fee, payout time, currenc
 |---|---|---|
 | pseo-viability | page-set idea plus rows or columns | which rows deserve a page, which share one, and the table behind it |
 | pseo-template-spec | chosen page type and columns | block table, how much of each page must change per row, banned blocks, noindex and merge rules, block map for one row |
-| pseo-sample-qa | default 3 to 20; use all supplied 1 or 2 pages for a limited check (one has no pairwise score), or labelled groups of at most 20 for larger sets, covering known template variants and weak-data cases with cross-group checks of repeated profiles; state checked count, known total and uncovered variants, never whole-site clearance pasted sample pages | keep, merge or noindex per page, with the similarity table behind it |
+| pseo-sample-qa | 3 to 20 pasted sample pages | keep, merge or noindex per page, with the similarity table behind it |
 | pseo-rollout | page count and URL pattern, later typed batch counts | hierarchy, sitemap split, pilot size, continue or stop, rollback |
 
 ## Examples
