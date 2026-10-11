@@ -7,7 +7,7 @@ Every column gets exactly one role. In the answer, mention a role only when it c
 | page subject | what the page is about: the city, tool, product, integration, model | no |
 | sets a page apart | a value that changes what the reader should know or do: price, fee, availability, opening hours, payout time, supported currencies, specifications, counts the business owns, its own review scores, its own case notes | yes |
 | swaps words only | the subject repeated in another form, a region name, a synonym, a category label shared by most rows | no |
-| unique but useless to the reader | a value that differs on every row but tells the reader nothing to act on: ids, slugs, URLs, coordinates, postcodes, population, founding year used as trivia | no |
+| record identifier or incidental fact | ids, slugs and URLs alone do not establish useful content; location or other facts count only when they change the reader's decision for this page purpose | context-dependent |
 | personal contact | personal emails, phone numbers, home addresses | ignored, never repeated |
 
 Rules:
