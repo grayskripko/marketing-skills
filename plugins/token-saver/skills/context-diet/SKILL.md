@@ -1,6 +1,6 @@
 ---
 name: context-diet
-description: Audit what an AI chat or coding setup sends with every request, from a pasted context or usage breakdown, the text of instruction and memory files, a list of enabled tools, or a description of how sessions are used, and return a load table, findings against all twelve fixed checks and prioritized supported changes (default five; fewer if unsupported, user-count or required-action exceptions), with token estimates only where sizes were shown or counted. Read-only. Use when the user shares context or usage numbers, asks why sessions use so many tokens, or asks what to cut from their setup. Do not use for shortening one instruction text (prompt-trim) or for a handoff note (session-handoff).
+description: Audit what an AI chat or coding setup sends with every request, from a pasted context or usage breakdown, the text of instruction and memory files, a list of enabled tools, or a description of how sessions are used, and return a load table, findings against twelve fixed checks and the five changes worth making, with token estimates only where sizes were shown or counted. Read-only. Use when the user shares context or usage numbers, asks why sessions use so many tokens, or asks what to cut from their setup. Do not use for shortening one instruction text (prompt-trim) or for a handoff note (session-handoff).
 ---
 
 # Context diet
@@ -14,7 +14,7 @@ Most of the tokens in a long chat or coding session are input: the history, the 
 3. Never shorten, paraphrase or drop anything on the list in `references/never-cut.md`.
 4. Never remove a confirmation step or a warning that comes before a destructive or irreversible action.
 5. Never copy secrets into the output. Keys, tokens and passwords become `<redacted>`.
-6. No invented observations. Prefer host-reported or user-supplied counts for the exact text and named model, then an available local tokenizer for that model. Default rough estimate for ordinary English prose: characters divided by 4, labeled approximate. Use characters divided by r only with a representative same-model, same-language, same-content-type sample containing positive character and token counts, where r = sample characters / sample tokens. For code, non-English or mixed content without calibration, report the character count and token count unknown. State the method and any divisor used. Counting characters with code does not make a token estimate exact. Plugin budgets are declared defaults, not measured observations; never use heuristic estimates to claim exact billing or compliance with a hard context limit.
+6. No invented numbers. Every figure is either shown by the host, pasted by the user, counted with the assistant's code tool, or labeled approximate (characters divided by 4 for tokens).
 7. Change no files, settings or permissions, and install or run nothing, unless the user asks for it in this conversation.
 8. Never tell the user to remove, avoid or prefer a named third-party tool, server, plugin or product. Report sizes and let the user decide.
 9. List any assumption you make under "Assumptions".
@@ -37,10 +37,10 @@ Do the audit with what is there. Put the missing inputs under "Not seen" at the 
 
 | Item | Source | Tokens | Loaded when | Evidence |
 |---|---|---|---|---|
-| e.g. instruction file | pasted text | ~2,300 | every request | approximate (chars ÷ 4) |
+| e.g. instruction file | pasted text | ~2,300 | every request | counted (chars ÷ 4) |
 
 - **Loaded when** is "every request" or "on demand".
-- **Evidence** is one of: "shown by host", "pasted by user", "counted with local model tokenizer", "approximate (chars ÷ 4)", "approximate (chars ÷ r; supplied same-content calibration)", or "size unknown". Default divisor is 4 for ordinary English prose; use calibrated r only with supplied same-content/model counts. Say which you used. A character count alone is not an exact token count.
+- **Evidence** is one of: "shown by host", "pasted by user", "counted with code tool", "approximate (chars ÷ 4)", or "size unknown". Never fill a number without one of these.
 - Context size is not the bill: most hosts price cached input differently from new input. If the user can show per-request input and cached-token counts, use them; otherwise say the ranking below is by context size, not by cost.
 
 ## Step 3. Findings against the twelve checks
@@ -53,14 +53,12 @@ Each check names the kind of host guidance it rests on. Host-specific commands, 
 
 **Neutral wording is required.** When a tool, server or plugin is part of a finding, describe it by what the user said about it ("definitions for tools you said you don't use in this workflow") and its size. Never name a third-party tool to remove or a replacement to prefer. The user decides.
 
-## Step 4. Prioritized changes (default 5)
-
-Default: show the 5 highest-ranked distinct supported changes. Use fewer when fewer evidence-backed actions exist; never pad. Use the user's requested count when supplied, bounded by supported actions. Include additional supported actions when they are necessary prerequisites or needed to meet the user's explicit target, preserving dependencies. Keep all applicable findings from all twelve checks in Step 3. State the selected count and briefly identify any exception to 5; do not ask the user to choose a preset.
+## Step 4. Top 5 changes
 
 | # | Change | Check | Before | After | Who does it |
 |---|---|---|---|---|---|
 
-- Respect prerequisites, then order by the size of the largest known item each change touches, largest first. If no size is known, say the order is by judgment. Do not sum overlapping savings.
+- Order by the size of the largest known item each change touches, largest first. If no size is known, say the order is by judgment.
 - Before and After only for items whose size was shown or counted; otherwise write "size unknown".
 - **Who does it**: "user" for settings, model choice and turning tools on or off; "assistant, if asked" for rewrites such as trimming a file.
 

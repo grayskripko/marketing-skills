@@ -6,7 +6,7 @@ Copy this block and fill every field. Write "none stated" when the conversation 
 HANDOFF
 
 Goal:
-<default one goal sentence; expand only for independent supplied goals or acceptance conditions that cannot be combined without loss>
+<one sentence>
 
 Done so far:
 - <what> (<path or artifact>)
@@ -29,7 +29,7 @@ Open questions:
 - <question>
 
 Next step:
-<default one starting action; one per independent supplied workstream only when necessary; preserve dependencies, identify the first action and explain expansion>
+<one concrete action>
 
 Commands to re-run:
 <command, copied exactly>

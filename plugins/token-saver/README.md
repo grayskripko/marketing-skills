@@ -9,7 +9,7 @@ Five skills that lower token use in AI chat and coding sessions without dropping
 | Skill | Give it | You get |
 |---|---|---|
 | prompt-trim | an instruction file or system prompt | rule ledger, change table, trimmed text, check that every rule is present |
-| context-diet | usage numbers, instruction files, tool list | load table, findings against 12 checks, prioritized changes (default 5; supported-count, user-count and required-action exceptions) |
+| context-diet | usage numbers, instruction files, tool list | load table, findings against 12 checks, top 5 changes |
 | session-handoff | a long session or a pasted work state | a fixed-field note a fresh session can resume from |
 | read-less | a coding task | a reading plan with the cheapest source for each question |
 | terse-mode | "shorter answers, please" | short but safe answers: commands, numbers, warnings and confirmations stay, even when asked to drop them |
@@ -26,7 +26,7 @@ Each skill follows fixed steps and prints a fixed output. Nothing on the printed
 
 ## What to expect
 
-Shorter replies trim explanation, not code. A published benchmark of a different skill, Caveman, reported about 8.5% fewer output tokens under forced activation and roughly 10% lower expected cost, with no detected quality difference; its raw full-run cost was 11.6% higher because of an outlier ([JetBrains, July 2026](https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/)). These figures are external observations, not this plugin's default savings forecast. Your savings remain unknown until comparable before/after tasks with the same model and settings provide token usage, outcomes and total costs including outliers; identify measured results separately from this benchmark. Larger savings usually come from short always-loaded instructions, starting fresh with a handoff note, and reading less. This plugin does not change how the host counts or limits usage.
+Shorter replies trim explanation, not code. One published measurement found about 8.5% fewer output tokens and about 10% lower cost per task with no measurable quality change ([JetBrains, July 2026](https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/)). Larger savings usually come from short always-loaded instructions, starting fresh with a handoff note, and reading less. This plugin does not change how the host counts or limits usage.
 
 ## When not to use it
 

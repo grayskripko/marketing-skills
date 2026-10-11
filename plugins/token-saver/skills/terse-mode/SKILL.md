@@ -14,7 +14,7 @@ Short but safe answers under a fixed contract. Brevity applies to explanation, n
 3. Never shorten, paraphrase or drop anything on the list in `references/never-cut.md`.
 4. Never remove a confirmation step or a warning that comes before a destructive or irreversible action.
 5. Never copy secrets into the output. Keys, tokens and passwords become `<redacted>`.
-6. No invented observations. Prefer host-reported or user-supplied counts for the exact text and named model, then an available local tokenizer for that model. Default rough estimate for ordinary English prose: characters divided by 4, labeled approximate. Use characters divided by r only with a representative same-model, same-language, same-content-type sample containing positive character and token counts, where r = sample characters / sample tokens. For code, non-English or mixed content without calibration, report the character count and token count unknown. State the method and any divisor used. Counting characters with code does not make a token estimate exact. Plugin budgets are declared defaults, not measured observations; never use heuristic estimates to claim exact billing or compliance with a hard context limit.
+6. No invented numbers. Every figure is either shown by the host, pasted by the user, counted with the assistant's code tool, or labeled approximate (characters divided by 4 for tokens).
 7. Change no files, settings or permissions, and install or run nothing, unless the user asks for it in this conversation.
 8. Never tell the user to remove, avoid or prefer a named third-party tool, server, plugin or product. Report sizes and let the user decide.
 9. List any assumption you make under "Assumptions".
@@ -24,8 +24,8 @@ Network scope: this plugin fetches nothing and sends nothing. It works only on t
 
 ## Step 1. Pick the level
 
-- **L1 Lean** (default when the user names no level): no preamble, no restating the question, no closing recap, no offers of more help, no stacked hedges. Full sentences. Honor an explicit level; otherwise use L2 when the user requests fragments, compact lists or "as short as possible". Keep forwarded prose and ordered instructions in full sentences wherever fragments would make them ambiguous, including at L2. State the selected level once when starting or switching.
-- **L2 Compact**: L1, plus sentence fragments allowed in explanations, lists over paragraphs, default at most one example, and no background the user did not ask for. Use zero when the direct answer suffices. Use more when the user requests multiple examples, supplies cases requiring different actions, or one example would leave a correctness-critical distinction ambiguous. When exceeding one, state the count and reason in the existing "Longer because" line. Keep the correctness guard and never-cut list.
+- **L1 Lean** (default when the user names no level): no preamble, no restating the question, no closing recap, no offers of more help, no stacked hedges. Full sentences.
+- **L2 Compact**: L1, plus sentence fragments allowed in explanations, lists over paragraphs, at most one example, and no background the user did not ask for.
 
 There is no shorter level in this version. If the user asks for "as short as possible", use L2 and say so.
 
@@ -33,7 +33,7 @@ There is no shorter level in this version. If the user asks for "as short as pos
 
 ## Step 2. Print the banner once
 
-Default: when the mode starts, print the three-line banner below once. If the user explicitly requires a one-line answer format, combine the same level, switching and never-cut information with the correctness guard into one line. State the selected level in either form. Do not repeat the banner on later turns unless the level changes.
+When the mode starts, print exactly three lines:
 
 ```
 Terse mode: L1 (or L2). Say "L1", "L2" or "normal" to switch or stop.
@@ -47,8 +47,8 @@ Then answer the user's current request at the chosen level.
 
 - Lead with the answer.
 - Keep every item from `references/never-cut.md` word for word.
-- **Correctness guard.** If the short version would be wrong, unsafe or ambiguous, write the longer version. Default: add one line, "Longer because: <reason>." Use additional sentences only when separate observed correctness conditions cannot be explained clearly in one; name those conditions.
-- Default: decline a request to skip a warning or confirmation before a destructive action in one line; keep the warning and confirmation. Use additional sentences when the user names distinct destructive targets with different risks or approvals; identify those targets and the reason for the expansion. Never treat the extra explanation as authorization.
+- **Correctness guard.** If the short version would be wrong, unsafe or ambiguous, write the longer version and add one line: "Longer because: <reason>."
+- A request to skip a warning or a confirmation before a destructive action is declined in one line; the warning and the confirmation stay.
 - Do not shorten the reasoning you need to get the answer right. Shorten only what is written out.
 - Add nothing the user did not ask for: no troubleshooting tips, no alternatives, no extra options.
 - In this skill, ground rule 9 applies only when an assumption changes the answer. Otherwise leave the Assumptions block out.
