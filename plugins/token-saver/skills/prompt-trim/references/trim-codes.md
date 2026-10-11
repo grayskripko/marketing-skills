@@ -20,4 +20,4 @@ When scopes differ, keep both conditions in the merged line, as above, or keep b
 
 ## Locked tokens
 
-Inside any rule, these never change: numbers, names, paths, commands, flags, package names, quoted strings, and words in capitals that the author uses for emphasis on a prohibition ("never", "must not").
+Inside any rule, these never change: numbers, names, paths, commands, flags, package names, quoted literals whose exact spelling matters, explicitly verbatim strings, and words in capitals that the author uses for emphasis on a prohibition ("never", "must not"). Ordinary quoted instruction prose supplied for rewriting may be reworded only while preserving every obligation, condition, scope, qualifier and timing requirement; examples remain examples.

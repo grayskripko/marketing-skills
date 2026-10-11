@@ -38,7 +38,7 @@ Use `references/handoff-template.md`. The fields, in order:
 2. **Done so far**: changes made, each with the path it touched. Test and build results go under Current state.
 3. **Current state**: what works, what fails, and the last error copied exactly.
 4. **Decisions and why**: one line each.
-5. **Tried and failed, don't retry**: one line each, with why it failed. Never omit this field when anything failed.
+5. **Tried and failed**: each attempt, its conditions, result and known reason. Do not invent a retry prohibition; preserve one only if the user stated it. Never omit this field when anything failed.
 6. **Constraints and preferences** the user stated.
 7. **Open questions**.
 8. **Next step**: one concrete action a new session can start with.
