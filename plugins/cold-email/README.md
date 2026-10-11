@@ -1,6 +1,6 @@
 # Cold Email Kit
 
-Write, review and check one-to-one business cold emails. You get an email you can send, built only from the facts you give. Nothing is sent.
+Write, review and check one-to-one business cold emails. You get cold-email copy built only from the facts you give; sending still depends on required identity, applicable recipient requirements and correct template rendering. Nothing is sent.
 
 ## What it does
 
@@ -20,7 +20,7 @@ Write, review and check one-to-one business cold emails. You get an email you ca
 
 ## How it works
 
-A rewrite copies your numbers, names and claims exactly and adds none; a fact it lacks is asked for, not invented. In the pre-send check, the row ", Globex" is flagged because the first name is empty, and the fix adds a fallback ("Hi there"). Scores, when you ask for them, are checklists, not reply-rate forecasts.
+A rewrite preserves retained factual values, scope and dates exactly and adds no facts. It can remove deceptive content or competing asks, explaining material removals; missing details are omitted or asked for when they change the work. In the pre-send check, the row ", Globex" is flagged because the first name is empty, and the fix adds a fallback ("Hi there"). Scores, when you ask for them, are checklists, not reply-rate forecasts.
 
 ## What it will not do
 

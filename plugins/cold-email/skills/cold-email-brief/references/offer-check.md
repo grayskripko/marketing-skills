@@ -9,4 +9,4 @@ Use these checks internally unless the user requests scoring. Each applicable li
 | Reason to act now | A specific real reason from the user's material | A general real reason | None given; flag invented urgency separately |
 | Proof | Specific proof with a source | Vague proof | None, or proof that looks invented |
 
-A missing mechanism sentence is not scored here; it is the first reason in the "Not ready yet" verdict.
+Assess a causal mechanism when the outreach claims a product outcome; an unexplained claimed outcome is a readiness issue. For discovery or transactional outreach, assess whether the proposition, relevance and next step are clear rather than requiring a product mechanism.

@@ -1,19 +1,15 @@
 # Planning score
 
-Six criteria, each 0, 1 or 2. Total 0 to 12. Label it "planning score, not a traffic forecast". All thresholds are heuristics of this plugin.
+Apply the parent skill’s context-sensitive constraints and rubric choice. For comparable discretionary articles, the original six equal-weight 0–2 criteria and 0–12 total remain an optional starting model. When showing a score, identify it as a planning judgment, not a traffic forecast; explain any adapted criteria or weights.
 
-| Id | Criterion | 2 | 1 | 0 |
-|---|---|---|---|---|
-| C1 | Business fit | leads directly to an offer or conversion point the user named | related to such an offer but indirect | no link to an offer |
-| C2 | Stage fit | matches a buyer stage the goal needs | adjacent stage: one step away | two or more steps away |
-| C3 | Evidence readiness | supplied material supports the proposed central claim | relevant material exists but the claim needs verification or collection | no relevant support supplied |
-| C4 | Demand evidence supplied by the user | two or more kinds (for example sales questions, support tickets, interviews where customers raised the topic unprompted) | one kind | none given (never invented) |
-| C5 | Effort | 4 hours or less | more than 4, up to 8 hours | more than 8 hours |
-| C6 | Reuse | feeds two or more other planned pieces or channels the user named (a planned piece counts without named channels) | one | none |
+- C1: contribution to the supplied conversion goal or audience outcome.
+- C2: fit to the actual audience journey or reader job. Use the four-stage B2B chain and stage distance only when the context supports them; do not infer a required stage from newsletter growth alone.
+- C3: evidence readiness — 2 when supplied material supports the central claim; 1 when relevant material exists but verification or collection is needed; 0 when relevant support is not supplied. Source ownership does not establish readiness.
+- C4: demand evidence — assess relevance, strength, independence, recency and representativeness; source diversity is corroboration, not proof. Mark unknown demand separately from low observed demand.
+- C5: effort relative to constrained capacity and typical assignments. Optional one-experienced-writer bands remain 2 for up to 4 hours, 1 for more than 4 up to 8, and 0 above 8; adapt when those bands cannot distinguish this backlog usefully.
+- C6: reuse — in the optional original default, 2 for feeding two or more supplied planned pieces or channels, 1 for one, and 0 for none; a planned piece counts without named channels. Retain this default when using the original rubric; explain any context-specific adaptation instead of silently changing it.
 
-Goal to stage: demo or sales requests → vendor choice and solution aware; awareness or newsletter growth → problem aware; retention or expansion → onboarding and expansion.
-
-Stage steps, in order: problem aware → solution aware → vendor choice → onboarding and expansion. The distance is the number of steps to the nearest stage the goal needs: one step = adjacent (1), two or more = 0.
+These are disclosed planning heuristics. Never invent demand, results, hours or evidence to fill the rubric.
 
 ## Capacity
 
@@ -23,13 +19,13 @@ Calculate availability only from known hours and horizon. Hours per week x weeks
 
 - Compare with thresholds before any rounding.
 - Totals print as integers. Derived numbers (hours) print with one decimal, rounded half away from zero.
-- Order by total (high first), then C1 (high first), then hours (low first), then input order.
+- For the unadapted optional six-factor default, order by total (high first), then C1 (high first), then hours (low first), then input order. For an adapted rubric, state the goal-relevant ranking and tie rule; apply deadlines and dependencies first.
 - Rank numbers are shared only when total, C1 and hours are all equal: 1, 2, 2, 4.
 
 ## Filling the plan
 
 Take topics in order. Topics without relevant support are deferred unless the user requests a useful supported synthesis or evidence-gathering step. Publish result-based pieces only after the central result is verified. Add work only when its hours fit the available production time; otherwise defer it. With unknown capacity, give a first assignment rather than a timed calendar.
 
-Reason for every not-now topic, the first that applies: "generic: no evidence of your own" (C3 = 0), "no business fit" (C1 = 0), "over capacity".
+Give a case-specific reason for each deferred topic. Examples: “central claim unsupported by supplied material”, “does not serve the supplied goal”, or “over capacity”. Missing supplied support does not establish that the company has no evidence or that the topic is generic. Allow relevant expertise, useful supported synthesis or an evidence-gathering assignment when appropriate.
 
-Swap option: when a topic left out as "over capacity" has a strictly higher total than at least one planned topic (ties do not count), name the planned pieces that would have to go to fit it, lowest-ranked first, with their totals and hours. Recheck the swapped plan like the main one: hours within the writing hours, pieces counted right. The user decides.
+Consider a feasible alternative portfolio when requested or necessary to resolve a material goal, coverage, deadline or dependency tradeoff. Name displaced work and compare capacity and consequences. Equal-score items and combinations of smaller items may warrant comparison; do not require one excluded item’s score to exceed a planned item’s score. The user chooses between materially different feasible alternatives. Do not add a mandatory swap section.

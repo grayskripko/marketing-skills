@@ -1,6 +1,6 @@
 # Inventory rules R1 to R8
 
-These checks support the requested page decisions; their ids are internal. Do not use a numeric traffic cutoff or a fixed metric hierarchy.
+These checks support the requested page decisions; their ids are internal. Do not use a numeric traffic cutoff to decide retirement, or a fixed metric hierarchy to choose a merge destination. Optional traffic screening identifies pages to review; it never establishes a deletion verdict.
 
 ## Decision checks
 

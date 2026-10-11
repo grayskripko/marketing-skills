@@ -2,7 +2,7 @@
 
 Use this when the user asks for a full synthesis or audit trail. Select relevant sections, preserve the requested shape and avoid repeating the answer. Retain evidence checks, sample warnings and strength qualifications wherever they apply.
 
-If N < 5, the line directly under the opening answer is: **Exploratory — fewer than 5 sources; not for sizing.** If N ≥ 5, say nothing about it.
+Include source-specific sampling qualifications only where they change interpretation; no automatic warning transition occurs at five sources.
 
 ## 1. Sources
 
@@ -52,7 +52,7 @@ Verbatim phrases by theme, with ids.
 
 ## 9. Top findings (up to 5)
 
-Each with its evidence line. Thin themes never appear here.
+Each with its evidence line. Include decision-relevant rare observations with their actual support and bounded scope; a support label does not determine decision priority.
 
 ## 10. What we cannot conclude from this data
 

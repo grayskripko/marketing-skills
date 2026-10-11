@@ -1,6 +1,6 @@
 # Research myths
 
-This file is identical in every skill that uses it. When the user leans on one of these, answer in one or two sentences and continue. Do not lecture.
+This file is identical in every skill that uses it. When the user leans on one of these, answer in one or two sentences and continue. 
 
 | Claim | Why it misleads |
 |---|---|

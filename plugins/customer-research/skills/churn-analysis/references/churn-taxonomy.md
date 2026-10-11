@@ -1,17 +1,17 @@
 # Churn taxonomy
 
-Each record gets one primary reason, optional secondary reasons, and a controllable flag. The CH and LD codes are for working only: the answer names the reason in words.
+Keep stated reasons and supported secondary/interacting explanations. Assign a primary cause only when supported; otherwise mark it unknown. Assess controllability separately against feasible action, resources, time horizon and customer circumstances when useful. CH and LD codes are internal; name reasons in words in the answer.
 
-| Code | Reason | Controllable |
-|---|---|---|
-| CH1 | price or budget | partly |
-| CH2 | value not reached (never set up, never adopted, results not seen) | yes |
-| CH3 | missing capability | yes |
-| CH4 | product quality (bugs, downtime, speed) | yes |
-| CH5 | moved to an alternative | partly |
-| CH6 | business event (closed, merged, downsized, champion left) | no |
-| CH7 | service or support | yes |
-| CH8 | other or unclear | — |
+| Code | Starting reason category |
+|---|---|
+| CH1 | price or budget |
+| CH2 | value not reached (never set up, never adopted, results not seen) |
+| CH3 | missing capability |
+| CH4 | product quality (bugs, downtime, speed) |
+| CH5 | moved to an alternative |
+| CH6 | business event (closed, merged, downsized, champion left) |
+| CH7 | service or support |
+| CH8 | other or unclear |
 
 ## Stated vs evidenced reason
 
@@ -25,7 +25,7 @@ Count stated reasons and evidence patterns separately. Where causation is not co
 
 ## Decided vs cancelled
 
-When the text shows when the customer decided to leave (often weeks before cancelling), record both dates or events. The decision moment is where the fix belongs.
+When the text shows when the customer decided to leave (often weeks before cancelling), record both dates or events. Use an evidenced decision moment to frame follow-up questions. Discuss possible intervention timing only when requested or decision-relevant, as a hypothesis rather than proof of an effective fix.
 
 ## Signals (heuristics from practitioners, not laws)
 

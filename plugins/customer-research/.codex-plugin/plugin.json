@@ -1,6 +1,6 @@
 {
   "name": "customer-research",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Turn interview notes, reviews, support tickets and cancellation reasons you paste into findings you can check: the main themes first, each with how many customers said it, in their exact words, and where they disagree. Also checks interview questions for leading wording, separates the reason customers gave for cancelling from the reason the notes show, and drafts an ideal customer profile that marks each line as backed by data or assumed. Works only on text you paste; names are replaced with role labels.",
   "author": {
     "name": "Sergey Skripko",

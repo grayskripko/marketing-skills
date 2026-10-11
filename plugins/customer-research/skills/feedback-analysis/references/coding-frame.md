@@ -4,9 +4,9 @@ Use for reviews, support tickets, open survey answers and score comments the use
 
 ## Build the frame
 
-1. Read a sample of about 30 items (all of them if fewer). Draft only the codes needed to distinguish the supplied issues.
+1. Sample across relevant supplied channels, time periods and segments. About 30 items is an optional starting budget; expand when decision-relevant distinctions remain uncovered. Draft codes that distinguish the supplied issues.
 2. Define the frame before coding everything: code, one-line definition, one example id. Print it only when requested or needed to resolve category ambiguity.
-3. Code every item. An item may carry up to 3 codes. Items that fit no code go to "other"; if "other" passes 10% of items, add a code and recode.
+3. Code every decision-relevant issue in every usable item. Split long items into linked excerpts if useful; count the original item once per theme. Review "other" for coherent new issues, rare consequential cases and ambiguity. Treat 10% as an optional review alert, not a requirement to invent one code or the only reason to revise the frame.
 
 ## Output components
 

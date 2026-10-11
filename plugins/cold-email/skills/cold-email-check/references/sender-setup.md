@@ -1,6 +1,6 @@
 # Sender setup
 
-Judged only from records or headers the user pastes. No DNS query is run, and the user is never asked how many emails they send. For an authentication diagnosis, report only relevant knowns, unknowns and admin fixes in the requested shape. Provider tables are background for provider-policy questions, not mandatory output. Sources were read on 2026-09-30; if provider-policy advice is requested, identify the applicable scope and any uncertainty about current verification.
+Judged only from records or headers the user pastes. Run no DNS query. Ask about sending volume and destination mix only when needed to determine requested provider-policy applicability. For an authentication diagnosis, report only relevant knowns, unknowns and admin fixes in the requested shape. Provider tables are background for provider-policy questions, not mandatory output. Sources were read on 2026-09-30; if provider-policy advice is requested, identify the applicable scope and any uncertainty about current verification.
 
 ## All senders
 
@@ -13,9 +13,9 @@ Judged only from records or headers the user pastes. No DNS query is run, and th
 | Spam complaint rate below 0.3% | required (Postmaster Tools; aim below 0.1%) | required | — |
 | DMARC record published (p=none at least) | recommended for every sender (heuristic of this plugin); required for bulk senders, see below | same | same |
 
-## If you ever send at that scale
+## Provider-specific bulk-sender requirements
 
-Use this block only when the user asks about provider requirements; omit it for paste-only authentication diagnosis. Keep providers and applicability scopes separate. Never ask about volume.
+Use this block only when the user asks about provider requirements; omit it for paste-only authentication diagnosis. Keep providers and applicability scopes separate. Use supplied volume and destination context; ask the minimum missing scope question only when it changes the requested applicability answer.
 
 - Google: senders of 5,000 or more messages a day to personal Gmail accounts need SPF and DKIM, a DMARC record, a From domain aligned with SPF or DKIM, and one-click unsubscribe for marketing and subscribed messages, plus a visible unsubscribe link.
 - Yahoo: bulk senders need SPF and DKIM, a DMARC policy of at least p=none that passes, a From domain aligned with the SPF or DKIM domain, a working list-unsubscribe header (one-click per RFC 8058 recommended) and must honor unsubscribes within 2 days.

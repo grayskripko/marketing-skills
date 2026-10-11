@@ -1,6 +1,6 @@
 # Stock phrasing in cold outreach
 
-Patterns that make an email read as mass-produced. Flag them when they appear in the user's text; never add them. Remove or replace each with something specific from the user's material, or leave the sentence out. This list is this plugin's own grouping; the ids are for your own use and are never shown to the user.
+Use these patterns as review prompts, not automatic bans. Flag misleading, unsupported, irrelevant or obstructive wording; replace it with supported specifics or omit it. Keep accurate, useful conventional language, justified credentials, free resources and meeting requests when they serve the recipient and the user's objective. This list is this plugin's own grouping; the ids are for your own use and are never shown to the user.
 
 ## Openers that could go to anyone
 - CS-01 Wellness wishes as the first line (hoping the reader is well, that the week is going great).

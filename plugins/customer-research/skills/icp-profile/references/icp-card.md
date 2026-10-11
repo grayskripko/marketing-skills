@@ -24,7 +24,7 @@ When the user names a target customer, answer the contrast once with ids. Use a 
 |---|---|---|
 | Size | early-stage startups | 20–80 person agencies (S02, S05, S07, S09) |
 
-This is the gap between the customer the team wants and the customer who pays.
+This fictional example illustrates a comparison of the stated target with evidenced attributes. In the user’s case, assert payment, retention or team motives only when supplied records support them.
 
 ## Anti-profile
 

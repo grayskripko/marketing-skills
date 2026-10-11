@@ -11,28 +11,23 @@ This file is identical in every skill that uses it. These are heuristics of this
 
 ## Weighted count
 
-A source that supports a theme with at least one unprompted quote counts 1. A source whose only support is quotes marked "prompted" (answers to a leading or hypothetical question) counts 0.5. Print the weighted count next to the raw count when they differ. Prompted quotes never lift a theme to Strong on their own.
+For interview-derived evidence, separate spontaneous reports, elicited concrete experience, leading agreement and hypothetical preference. Count raw sources once per theme. Do not weight by default. If the user requests the legacy heuristic, unprompted support counts 1 and prompted-only support counts 0.5; show raw and weighted support, disclose the convention and compare sensitivity. This is not a bias correction or effectiveness measure. Use item-count rules for short feedback and keep mixed-source denominators separate.
 
 ## Strength labels (interviews, including churn interviews)
 
-| Label | Rule |
-|---|---|
-| Strong | weighted count at least 3, raw count at least one third of N, and no source that contradicts the theme |
-| Moderate | weighted count at least 2 without meeting Strong, or meeting Strong with a contradicting source |
-| Thin | weighted count below 2: for example one source, or several whose only support is prompted answers. Kept and flagged with its count, never presented as a main finding |
+Use raw k/N, evidence type, independence, coverage, corroboration and contrary evidence by default. The legacy Strong/Moderate/Thin scheme is optional for comparable interviews when requested: Strong ≥3 weighted sources and ≥one third raw support with no contrary source; Moderate ≥2 weighted sources or contrary evidence; Thin <2. These are descriptive conventions only. Keep rare consequential observations eligible as findings with their actual count and scope.
 
 A theme built only from opinion or feature-request tags carries "stated preference — check against behaviour".
 
 ## Contradiction or boundary
 
-- A source **contradicts** a theme when it is in the same segment as at least one supporting source and reports the opposite of the theme statement itself. "The spreadsheet is fine" is the opposite of "copying is a pain", not of "they copy invoices". Only a contradiction caps the label at Moderate.
-- A source from a segment with no supporting source that reports the opposite is a **boundary**, not a contradiction. Write the scope into the theme statement (for example "…for firms of 10–50 staff"), keep the label, and list the source under outliers with its segment.
-- Segments are compared by the segment description (industry and size band).
+- A source **contradicts** a theme when it is in the same segment as at least one supporting source and reports the opposite of the theme statement itself. "The spreadsheet is fine" is the opposite of "copying is a pain", not of "they copy invoices". If the optional legacy label scheme is requested, a contradiction caps its label at Moderate; otherwise report the contrary evidence and scope directly.
+- A source from a segment with no supporting source that reports the opposite is a **boundary**, not a contradiction. Write the scope into the theme statement (for example "…for firms of 10–50 staff"), retain the source and its segment as contrary evidence; retain a label only if the optional scheme was requested.
+- Compare segments using decision-relevant supplied attributes, such as role, workflow, tenure, product version, use context, industry or size. Keep unexplained variation visible; do not create post-hoc segments merely to improve a strength label.
 
 ## Exploratory line
 
-- With fewer than 5 sources, put "Exploratory — fewer than 5 sources; not for sizing" directly under the opening answer and use no Strong label; themes that would be Strong are labelled Moderate.
-- With 5 or more sources, do not mention the exploratory line at all.
+Qualify prevalence-sensitive claims according to recruitment, independence, coverage and the target population at any N. State the relevant source type and usable count when coverage matters. Five sources do not remove a sampling limitation or establish market prevalence.
 
 ## Behaviour tags
 
