@@ -1,0 +1,39 @@
+{
+  "name": "sku-margin",
+  "version": "0.1.0",
+  "description": "Calculate product margins after costs, returns and ads. Use when you ask “can I afford this discount?”, “which products still make money after ads?” or “why do these reports disagree?” Compares your proposed prices, discounts and ad budgets using pasted tables or readable exports. Shows formulas, source rows and missing costs. Shared costs need a stated split. Fee terms and tax treatment come from your inputs. No store connection or paid API is needed.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "seller-margin",
+    "sku-contribution",
+    "discount-scenarios",
+    "export-reconciliation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SKU Margin",
+    "shortDescription": "Calculate product margins after costs and ads",
+    "longDescription": "Calculate product margins after costs, returns and ads. Use when you ask “can I afford this discount?”, “which products still make money after ads?” or “why do these reports disagree?” Compares your proposed prices, discounts and ad budgets using pasted tables or readable exports. Shows formulas, source rows and missing costs. Shared costs need a stated split. Fee terms and tax treatment come from your inputs. No store connection or paid API is needed.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Can I afford this discount? Use my supplied sales, refund, fee and cost tables.",
+      "Which SKUs contribute after ads and returns in these exports?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "shopify-products",
+  "version": "0.1.0",
+  "description": "Write and fix Shopify product titles, descriptions, tags, variants and SEO fields from supplier data, and prepare bulk CSV files. Three skills turn pasted supplier facts into copy, repair existing listing claims, and map products and variants to a supplied export or supported template. Preserve identifiers and variant scope, and distinguish new products from updates. No store connection or account is required to prepare drafts and files.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "products",
+    "product descriptions",
+    "supplier data",
+    "variants",
+    "csv import",
+    "product tags",
+    "seo fields"
+  ],
+  "displayName": "Shopify Products",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/shopify-products/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/shopify-products/README.md"
+}

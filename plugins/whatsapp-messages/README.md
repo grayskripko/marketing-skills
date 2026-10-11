@@ -1,6 +1,8 @@
+Write WhatsApp messages and replies, summarize a supplied chat export, or list decisions and unanswered questions.
+
 # WhatsApp Messages
 
-Write WhatsApp messages and replies, summarize a supplied chat export, or list decisions and unanswered questions. Drafts and notes need no account connection.
+Drafts and notes need no account connection.
 
 For people reviewing their own chats and businesses planning customer messaging.
 Needs pasted text or a supplied export. No account, key, installation or paid API is required. Live access needs a separately built integration, with its own accounts and services.
@@ -25,7 +27,7 @@ Each skill contains its own core rules and a worked example. Supplied messages a
 
 To start without setup, paste messages you have the right to share or choose Export chat in the mobile chat menu/contact information and supply only the relevant text file. Choose without media when text is enough. Menu placement varies. An export is a snapshot, not live monitoring or a backup you can restore.
 
-The setup skill can walk you through requirements and choices for the official Business Cloud API or explain unofficial Web libraries. It does not install, connect, deploy or send. The Cloud API needs eligible business accounts, securely stored access keys and a service that receives message events. Check the current terms and whether the account can use the API. It cannot read any personal inbox you choose. Unofficial bridges need software that stays running and a paired account. The account can be blocked. Stolen saved sessions can give someone access to it. No setup has been verified to prevent account blocking. Setup plans offer pasted text or exports when they fit your goal.
+The setup skill can walk you through requirements and choices for the official Business Cloud API or explain third-party Web libraries. It does not install, connect, deploy or send. The Cloud API needs eligible business accounts, securely stored access keys and a service that receives message events. Check the current terms and whether the account can use the API. It cannot read any personal inbox you choose. Third-party bridges need software that stays running and a paired account. The account can be blocked. Stolen saved sessions can give someone access to it. No setup has been verified to prevent account blocking. Setup plans offer pasted text or exports when they fit your goal.
 
 ## Personal data and network
 

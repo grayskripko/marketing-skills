@@ -1,0 +1,46 @@
+{
+  "name": "shopify-products",
+  "version": "0.1.0",
+  "description": "Write and fix Shopify product titles, descriptions, tags, variants and SEO fields from supplier data, and prepare bulk CSV files. Three skills turn pasted supplier facts into copy, repair existing listing claims, and map products and variants to a supplied export or supported template. Preserve identifiers and variant scope, and distinguish new products from updates. No store connection or account is required to prepare drafts and files.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "products",
+    "product descriptions",
+    "supplier data",
+    "variants",
+    "csv import",
+    "product tags",
+    "seo fields"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Shopify Products",
+    "shortDescription": "Write and fix Shopify products and bulk CSV files.",
+    "longDescription": "Write and fix Shopify product titles, descriptions, tags, variants and SEO fields from supplier data, and prepare bulk CSV files. Three skills turn pasted supplier facts into copy, repair existing listing claims, and map products and variants to a supplied export or supported template. Preserve identifiers and variant scope, and distinguish new products from updates. No store connection or account is required to prepare drafts and files.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#28544B",
+    "brandColorDark": "#86B8A8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Write Shopify product fields from these supplier facts.",
+      "Fix this listing against my supplier sheet.",
+      "Prepare a new-product Shopify CSV from these variant rows."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/shopify-products/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

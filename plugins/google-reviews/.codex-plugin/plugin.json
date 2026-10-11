@@ -1,0 +1,43 @@
+{
+  "name": "google-reviews",
+  "version": "0.1.0",
+  "description": "Analyze supplied Google customer reviews and draft business replies. Summarize review themes, identify potential policy concerns and prepare neutral review requests. Also check Google Business Profile and website details against approved branch facts and draft corrections. Works only from pasted text and readable files or screenshots you supply. Does not fetch live reviews or profiles, connect to accounts, publish replies, report reviews or edit profiles.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "google-reviews",
+    "review-replies",
+    "review-analysis",
+    "business-profile",
+    "branch-facts",
+    "hours",
+    "service-area",
+    "profile-corrections"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Google Reviews",
+    "shortDescription": "Analyze Google reviews and draft replies",
+    "longDescription": "Analyze supplied Google customer reviews and draft business replies. Summarize review themes, identify potential policy concerns and prepare neutral review requests. Also check Google Business Profile and website details against approved branch facts and draft corrections. Works only from pasted text and readable files or screenshots you supply. Does not fetch live reviews or profiles, connect to accounts, publish replies, report reviews or edit profiles.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Analyze these supplied Google reviews and draft replies using our approved branch facts."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

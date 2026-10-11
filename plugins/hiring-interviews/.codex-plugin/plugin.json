@@ -1,0 +1,40 @@
+{
+  "name": "hiring-interviews",
+  "version": "0.1.0",
+  "description": "Prepare hiring interviews from approved role requirements and organize the panel's notes. Use when a hiring manager asks to separate must-haves from preferences, plan interview questions and timing, or match notes to the employer's rubric. Returns requirement tables, interview kits or debrief drafts. Each point has a source; missing evidence and disagreements stay visible. People apply ratings, approve interview accommodations and make hiring decisions. Missing evidence is not failure. Review specific problematic criteria or legal issues when they affect the task. Not for applicant coaching, resumes, customer research interviews, candidate ranking or recommendations to hire or reject anyone.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "hiring-interviews",
+    "role-requirements",
+    "structured-interview",
+    "interview-notes",
+    "evidence-gaps"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hiring Interviews",
+    "shortDescription": "Prepare hiring interviews and organize panel notes",
+    "longDescription": "Prepare hiring interviews from approved role requirements and organize the panel's notes. Use when a hiring manager asks to separate must-haves from preferences, plan interview questions and timing, or match notes to the employer's rubric. Returns requirement tables, interview kits or debrief drafts. Each point has a source; missing evidence and disagreements stay visible. People apply ratings, approve interview accommodations and make hiring decisions. Missing evidence is not failure. Review specific problematic criteria or legal issues when they affect the task. Not for applicant coaching, resumes, customer research interviews, candidate ranking or recommendations to hire or reject anyone.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Map this approved role brief to our rubric and flag conflicts.",
+      "Build an interview kit using these approved requirements and panel times.",
+      "Prepare a debrief from these interview notes; show missing evidence."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills"
+  }
+}

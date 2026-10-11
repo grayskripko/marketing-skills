@@ -1,0 +1,42 @@
+{
+  "name": "product-returns",
+  "version": "0.1.0",
+  "description": "Analyze product return reasons and reviews to find listing fixes, product investigations and supplier briefs for each product code (SKU). Use when you ask “what should we fix first?” or “turn these complaints into a supplier brief.” Draft exact changes from current listings and approved variant facts, with references to the supplied rows. Keep customer reports separate from confirmed findings. Show sample counts when the records do not support a return rate. Works from pasted text or readable exports, without accounts or paid APIs. Not for publishing, sending messages, deciding or executing refunds, or proving defects. Outputs are drafts for seller review.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "returns",
+    "product-reviews",
+    "listing-corrections",
+    "supplier-quality",
+    "sku"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Product Returns",
+    "shortDescription": "Analyze product returns and reviews to find fixes",
+    "longDescription": "Analyze product return reasons and reviews to find listing fixes, product investigations and supplier briefs for each product code (SKU). Use when you ask “what should we fix first?” or “turn these complaints into a supplier brief.” Draft exact changes from current listings and approved variant facts, with references to the supplied rows. Keep customer reports separate from confirmed findings. Show sample counts when the records do not support a return rate. Works from pasted text or readable exports, without accounts or paid APIs. Not for publishing, sending messages, deciding or executing refunds, or proving defects. Outputs are drafts for seller review.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Compare these return reasons with our listing and suggest supported fixes.",
+      "Fix this sizing bullet using the approved variant facts.",
+      "Draft a supplier investigation brief from these complaints and inspection notes."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

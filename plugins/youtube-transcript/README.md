@@ -1,4 +1,4 @@
-# YouTube Transcript
+# Summarize YouTube transcripts, answer questions, and compare what videos say
 
 Summarize YouTube video transcripts, pull key takeaways, answer questions with timestamps, or compare transcripts. Pasted captions work without setup.
 
