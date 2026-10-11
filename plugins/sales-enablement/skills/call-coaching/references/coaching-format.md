@@ -1,6 +1,6 @@
 # Coaching format
 
-Feedback answers three questions in order (layout after Hattie and Timperley, 2007): where the seller was aiming, how the call went against that, and what to do next. It is written to the seller being coached, in plain second person, never about them to someone else.
+Feedback answers three questions in order (layout after Hattie and Timperley, 2007): where the seller was aiming, how the call went against that, and what to do next. Distinguish the requester from the coached seller. Address the seller as "you" when they are the requester or within an explicitly labelled seller handout. In coach-addressed analysis, use seller labels and describe behaviour, not personal traits.
 
 ## Optional blocks
 

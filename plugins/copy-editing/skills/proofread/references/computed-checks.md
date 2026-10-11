@@ -36,7 +36,7 @@ When text says "three talks", "two options" or "four steps", count the items act
 
 ## Totals
 
-- Percentages of one whole should sum to 100. Allow 1 point for rounding when each figure is rounded; anything outside is a query with the computed sum.
+- First establish that percentages describe mutually exclusive, exhaustive shares of the same whole. For nearest-rounded displayed values, derive each possible unrounded interval from its precision and compare 100 with the sum interval, respecting endpoint conventions. Use source values or the stated rounding method when available. Query an unexplained discrepancy with the computed sum; if denominator, coverage or rounding is unknown, ask rather than apply a universal one-point allowance.
 - Stated totals ("12 sessions across the three weeks: 4, 5 and 4") are summed and compared.
 - Ranges: the low end must be below the high end; units must match on both ends.
 

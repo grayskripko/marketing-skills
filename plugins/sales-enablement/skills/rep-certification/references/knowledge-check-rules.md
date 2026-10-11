@@ -20,7 +20,7 @@ A written check that the rep knows what the user's own material says. Retrieval 
 
 ## Source gaps
 
-A question a buyer would plausibly ask whose answer is not in the material goes to a "source gap" list with a one-line reason, including any such question the user asked for. Its missing substantive answer is never guessed. A requested topic may become an evidence-boundary item whose key says what the source does and does not establish, citing the omission. The list is part of the deliverable: it tells the user what their material is missing.
+A question a buyer would plausibly ask whose answer is not in the material goes to a "source gap" list with a one-line reason, including any such question the user asked for. A requested topic may become an evidence-boundary item whose key says what the source does and does not establish, citing the omission. The list is part of the deliverable: it tells the user what their material is missing.
 
 ## Answer key
 

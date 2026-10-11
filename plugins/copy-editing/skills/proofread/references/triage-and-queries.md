@@ -14,7 +14,7 @@ Missing negation: any sentence whose meaning would flip with "not" or "no" and t
 
 ## Query format
 
-`AQ-n · location · quote (12 words or fewer) · question · options`
+`AQ-n · location · shortest sufficient quote · question · options`
 
 Good queries:
 

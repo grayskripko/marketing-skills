@@ -1,6 +1,6 @@
 # Cut tiers
 
-Work from C1 down. Stop at the first tier that reaches the target. Log each cut with its tier and the words it saved, and check that the saved words add up to the original count minus the result; if they do not, recount. Never print "approx." in the ledger.
+Use these tiers as candidate categories, not a mandatory sequence. Try safe redundancies, equivalent wording and sentence merges before substantive deletions. Measure savings in the requested unit, verify each printed saving, and reconcile sequential savings with original minus result.
 
 | Tier | What goes | Watch for |
 |---|---|---|
@@ -9,7 +9,7 @@ Work from C1 down. Stop at the first tier that reaches the target. Log each cut 
 | C3 | long phrases with a short equivalent (`wordy-phrases.md`) | obligation words stay |
 | C4 | second and later examples of the same point | keep the example the reader is most likely to recognise |
 | C5 | secondary points, starting with the one that answers the least important reader question | list what went in "what the reader loses" |
-| C6 | short sentences joined where they share a subject | do not build sentences over 25 words |
+| C6 | short sentences joined where they share a subject | review sentences over 25 words for clarity; keep or split them according to clause structure, audience and protected meaning |
 
 ## Protected items
 

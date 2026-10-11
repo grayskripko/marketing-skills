@@ -1,6 +1,6 @@
 # Platform ad rules (numbered, dated)
 
-Each row: our id, the rule in our own words, an example we wrote ourselves (never the platform's own sample text), the page, and the date read. Severity used in findings:
+Each row: plugin row id, plugin-maintainer paraphrase, plugin-authored example (not an official platform example), the page, and the date read. Severity used in findings:
 - **likely disapproval** — the text matches a stated "not allowed" item;
 - **restricted** — the category is allowed with conditions set on the page;
 - **needs proof** — allowed only if the user holds evidence; goes to the claim ledger as Hold until shown;

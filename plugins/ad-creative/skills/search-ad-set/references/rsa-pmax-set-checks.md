@@ -14,7 +14,7 @@ Limits come from `platform-specs.md` (rows G-RSA-*, G-PMX-*). The role mix below
 | Brand | 1 | the name as the user writes it |
 | Short | 1 | 15 characters or fewer, useful for narrow slots and reused as the Performance Max short headline |
 
-Descriptions (4): benefit plus proof; feature plus outcome; offer plus call to action; the main objection answered.
+Descriptions: follow the requested count; use up to 4 for an unspecified complete RSA. Benefit/proof, feature/outcome, offer/CTA and objection are optional roles supported by the brief.
 Paths (2): words from the keyword theme, each 15 or fewer, no spaces (use hyphens).
 
 ## Checks before the set is printed
@@ -22,7 +22,7 @@ Paths (2): words from the keyword theme, each 15 or fewer, no spaces (use hyphen
 1. **Length:** every field under its hard limit with the count beside it, double-width counted 2.
 2. **Fact lock:** every number, price, rating and promise maps to an F-id. Lines without one are rewritten or marked.
 3. **Duplicates:** compare every headline pair and every description pair for exact duplicates and repeated core promises. Repeated names, keywords and qualifiers are not automatic failures, but do not excuse gimmicky repetition. Check representative headline/description combinations for redundancy and contradictions. Report findings and scope only when requested or when a remaining problem needs action; never claim all combinations passed from a small sample.
-4. **Combination test:** headlines are shown in any order and any three may appear together. Take 8 sampled triples ("H_a | H_b | H_c"; print them only if one fails or the user asks) and read each aloud: no triple may repeat a claim, contradict itself (two different prices), read as nonsense, or contain a headline that only makes sense right after another one. Replace any headline that breaks a triple and re-run. Sampling: if a code tool exists, pick 8 random ordered triples with a fixed seed and print the seed; otherwise pick triples that pair each offer and proof line with each other once.
+4. **Combination test:** headlines are shown in any order and any three may appear together. After standalone and pairwise checks, enumerate legal triples when feasible; otherwise prioritize high-risk combinations and state sampled scope. Eight is an optional spot-check default. For sampled checks, take legal triples ("H_a | H_b | H_c"; print them only if one fails or the user asks) and assess each for coherent standalone meaning: no triple may repeat a claim, contradict itself (two different prices), read as nonsense, or contain a headline that only makes sense right after another one. Replace any headline that breaks a triple and re-run. Sampling: if a code tool exists, select the representative ordered sample with a fixed seed; keep the seed internal unless an audit is requested; otherwise pick triples that pair each offer and proof line with each other once.
 5. **Pinning:** default is none. Pin only text that must show every time (a legal qualifier, a regulated disclosure) and say that pinning narrows the combinations the system can test.
 6. **Must-survive list:** words that filter out the wrong buyers (price floors, "for teams of 10+", "UK only"). Remind the user that Google's text customization (formerly automatically created assets) and Final URL expansion can generate new text from the landing page, so they should check the served combinations and the asset report for these words.
 7. **Policy pass:** run the ad-preflight rule screen over the finished set and append its findings.

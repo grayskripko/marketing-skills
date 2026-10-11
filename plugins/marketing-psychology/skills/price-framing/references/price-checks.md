@@ -28,7 +28,7 @@ Option D is a decoy for target T when all of these hold (L14):
 
 If the user gives only prices, write "decoy test not run: needs at least one other attribute (seats, limits, features)". With any other attribute given, run the test on what is given and name which missing features could change the verdict.
 
-Per-unit price (per seat, per GB) is printed next to the matrix for information; it is not one of the attributes in the test, because the buyer pays the total.
+Normalize options to the buyer's workload and billing period. Use expected all-in cost and relevant capacity or quality attributes; include unit economics when decision-relevant without double-counting derived measures. If usage or preferences are unknown, give conditional dominance scenarios. Mathematical dominance does not demonstrate a behavioral decoy effect.
 
 Print the dominance matrix only when a decoy is found or the user asks: one row per pair, columns for price and each listed attribute, each cell "better / same / worse" for the first option of the pair, and a last column "dominated?".
 

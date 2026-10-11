@@ -20,7 +20,7 @@ Buyer style (optional): direct (short answers, asks for price early) or reserved
 
 6. **Turn limit** (default 20 rep turns) and **stop phrase** ("end role-play").
 
-The user may write the brief or ask the model to draft one from their material. A drafted brief goes to the user (the coach) first, never to the rep; the rep then starts in a new message and sees only the scenario card.
+The user may write the brief or ask the model to draft one from their material. Determine the requested mode before disclosure. For a coach-pack request, show the coach pack and a separately labelled rep card. For a rep requesting live practice, keep hidden facts out of generated rep-visible text and show only the scenario card. If identity or mode is materially unclear, ask before displaying hidden facts. A new message does not hide earlier chat history.
 
 When the coach pasted the brief or hidden facts into this same conversation, say once, addressed to the coach, before play starts: the brief above stays visible in this chat; scroll it out of view, or start a new chat with only the scenario card, before handing the screen to the rep.
 

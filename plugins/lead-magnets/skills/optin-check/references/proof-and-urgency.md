@@ -20,4 +20,4 @@ Checks, not legal advice. Each row: rule in this plugin's words, source, read da
 - A no-cost label with every condition beside it: whatever the reader must do or give beyond an email (a call, a card, a trial) sits right next to the offer.
 - A result from the user's own data, with its base: "14 of 81 sign-ups booked a call", not "17% booked a call".
 
-Anything else becomes `[PROOF NEEDED: …]`. The plugin offers to remove the claim, or to replace it with the real figure the user supplies.
+Omit unsupported claims and name the missing evidence after the deliverable. Use at most one indispensable placeholder inside the deliverable. The plugin offers to remove the claim, or to replace it with the real figure the user supplies.

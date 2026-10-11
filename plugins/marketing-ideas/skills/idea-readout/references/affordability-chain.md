@@ -35,7 +35,7 @@ Each line multiplies the one above by the next rate down the path:
 | Per visit or click | per signup × visit-to-signup rate |
 | Per person reached | per visit × reach-to-visit rate |
 
-Rates: the user's observed rates first, then rates the user states as guesses, then the plugin's labelled assumptions ("assumption, change me"). **An observed rate always replaces an assumed one**: after a test, recompute every ceiling with what was observed. A ceiling computed from an assumed rate is never compared with an observed cost without saying so.
+Rates: the user's observed rates first, then rates the user states as guesses, then assumptions recorded internally and stated in plain language beside the affected calculation. **An observed rate always replaces an assumed one**: after a test, recompute every ceiling with what was observed. A ceiling computed from an assumed rate is never compared with an observed cost without saying so.
 
 ## Break-even for one idea with a known cost
 
@@ -50,7 +50,9 @@ Rates: the user's observed rates first, then rates the user states as guesses, t
 
 Rounding: keep unrounded values through every step; round counts of customers up only when printing; money to cents; compare with a line before rounding.
 
-## Gate wording
+## Internal gate states
+
+Use these states internally. In the answer, explain the cash shortfall or conditional payback result with the current user’s figures; do not paste state names or placeholders.
 
 - The user gave a cost and it is more than the user's marketing cash for the whole window: "fails on your quote (cash)".
 - The user gave a cost and the cost per expected customer is above the affordable cost **at rates the user observed**: "fails on your quote".

@@ -52,14 +52,14 @@ Fails everywhere: bio or profile only, "sp", "spon", "collab", a discount code a
 The brand stays responsible for what endorsers it works with say (US-255.1d). There is no fixed percentage to check (US-FAQ).
 
 1. Offer pre-approval of advocate posts first (US-FAQ suggests it when regular checks are too much).
-2. Otherwise sample each month: 10 posts or one post per three advocates, whichever is larger (so each advocate is checked about once a quarter), or every post if there are fewer, chosen at random across advocates (heuristic of this plugin; the user may change it).
+2. Otherwise recommend a brand-owned monitoring plan based on post volume, claim risk, prior misses and correction speed. Audit small batches fully; consider pre-approval for high-risk posts and new advocates. Ten posts per month is an editable low-risk starting budget. Random post sampling does not guarantee advocate coverage; propose an explicit rotation when coverage is required.
 3. A miss is any Fail on PC-01, PC-02, PC-03, PC-08 or PC-11.
-4. First miss: ask the advocate to edit the post and resend the brief. Second miss: pause rewards until fixed. Third miss: end the arrangement (heuristic ladder of this plugin).
+4. Recommend that the brand correct or contain harm first, then choose action by severity, intent, repetition, correction speed and applicable programme or employment terms. For repeated minor omissions, edit and rebrief → pause rewards until fixed → end participation is an editable example; serious harm may require immediate escalation.
 5. Keep a log: date, post id, check ids failed, action, date fixed. Advocates appear as A1, A2 in summaries.
 
 ## Audit mode
 
-Run pasted advocate posts through PC-01, PC-02, PC-03, PC-08 and PC-11 (`post-checks.md`). Report misses/posts checked with a Wilson 95% interval first, then one row per post (P1, P2, ...): advocate id, checks failed, quoted words, compliant / fix / stop.
+Run pasted advocate posts through PC-01, PC-02, PC-03, PC-08 and PC-11 (`post-checks.md`). Report exact misses/posts checked first; add an interval only when requested or justified for inference beyond the supplied batch, then one row per post (P1, P2, ...): advocate id, checks failed, quoted words, compliant / fix / stop.
 
 ## Measurement
 

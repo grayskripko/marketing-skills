@@ -1,6 +1,10 @@
 # Channel families
 
-Fourteen families. The shortlist writes one idea per family or "not applicable: reason". A channel only works as a pair: a source that brings strangers every week, and a converter that turns them into buyers. First-signal bands are heuristics of this plugin, not measurements; no family carries a cost figure, because costs must come from the user.
+These are candidate tests to recommend for the user's team. Adapt them to supplied assets, cash and hours; do not contact anyone, create prospect lists, spend, implement changes or launch tests as part of this skill.
+
+All recipe counts and dates below are illustrative starting scopes, not sufficiency thresholds. Select the smallest useful pilot from buyer availability, budget, marginal effort, conversion lag and the learning question.
+
+Fourteen families. The shortlist writes one idea per family or "not applicable: reason". A channel only works as a pair: an identifiable buyer source with its actual cadence, and a conversion path to the intended outcome; capture is required only for outcomes dependent on later follow-up. First-signal bands are heuristics of this plugin, not measurements; no family carries a cost figure, because costs must come from the user.
 
 | # | Family | Source of strangers | Typical converters | Demand states it fits | Cost structure | First signal (heuristic) |
 |---|---|---|---|---|---|---|
@@ -25,7 +29,7 @@ Fourteen families. The shortlist writes one idea per family or "not applicable: 
 2. **Paid search.** Needs search volume and an affordable click (check-line). Fails when the click costs more than the per-click check-line. Cheapest test: one tight group of searches with a spend cap.
 3. **Paid social and display.** Needs a way to reach the buyer role and a creative that names the pain. Fails when the audience cannot be narrowed to buyers. Cheapest test: one audience, two messages, a cash cap, a two-week floor.
 4. **Direct outreach.** Needs a lawful basis and a list of businesses that match (`platform-rules.md`). Fails with vague offers. Cheapest test: 50 to 100 tightly matched businesses (an editable default of this plugin), one offer, one follow-up.
-5. **Partners and resellers.** Needs a partner whose customers are your buyers and a reason for them to care. Fails when the partner gains nothing. Cheapest test: one partner, one joint offer, a named contact.
+5. **Partners and resellers.** Needs a partner whose customers are the user's buyers and a reason for them to care. Fails when the partner gains nothing. Cheapest test: one partner, one joint offer, a named contact.
 6. **Integration and marketplace listings.** Needs a working integration and a platform with buyers in it. Fails when the listing is buried. Cheapest test: list on the one platform where most current customers already are.
 7. **Product exposure and referral loops.** Needs output that non-users see, or retained customers willing to refer. Fails without retention. Cheapest test: a visible line on the output, or asking the happiest customers in person.
 8. **Free tools.** Needs a small job buyers search for or share, close to the paid product. Fails when the tool's users are not buyers. Cheapest test: a rough version on one page before building more. Designing the tool is out of scope; this family only asks whether it would bring signups.

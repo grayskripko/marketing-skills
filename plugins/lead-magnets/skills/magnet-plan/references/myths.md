@@ -1,6 +1,6 @@
 # Common claims, checked
 
-Short answers for when a user brings one of these up.
+Agent response guidance for claims the requesting user raises. Apply each row to supplied evidence; identify missing data. Human-facing advice in the Answer column is sample wording, not authorization to measure, store, qualify or contact anyone. Keep internal routing labels out of the reply.
 
 1. **"Gate everything; contacts are the point."** Gating trades readers for addresses. When reach, links or citations matter, or the reader is only noticing the problem, an open asset with an optional sign-up usually serves the goal better. magnet-plan's ordered capture rule decides per asset.
 2. **"Every extra field costs a fixed percentage of sign-ups."** No reliable fixed figure exists. Published usability research supports asking only for what is needed and labelling optional fields (NN/g, 2016); the size of the effect varies by page and audience, so measure your own.

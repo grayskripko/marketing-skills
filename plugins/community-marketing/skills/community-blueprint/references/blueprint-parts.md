@@ -8,7 +8,7 @@ Pick one of Support; Product ideation and feedback; Acquisition and advocacy; Co
 
 ## B. Join, sponsor or build
 
-| Option | Weekly hours needed (user's estimate) | What you own | Exit risk | When it fits |
+| Option | Weekly hours needed (user's estimate) | What the community owner controls | Exit risk | When it fits |
 |---|---|---|---|---|
 | Not yet: test demand | about 2 hours, once (heuristic of this plugin) | nothing yet | none | demand is unknown: ask a sample of members or customers (the user sets the number) whether they would join and where they already talk; build only if enough say yes (threshold set by the user; heuristic of this plugin) |
 | Join existing venues | the poster's own time | nothing; your posts live on someone else's site | rules or owners change | members already gather elsewhere and the poster takes part personally |
@@ -23,11 +23,11 @@ Score each candidate the user names 0, 1 or 2 on: admin export of members and po
 
 ## D. Member journey with graduated access (heuristic of this plugin)
 
-read only → introduction or rules acknowledgement → first post → links allowed after N posts or N days → direct messages to other members after the same threshold. The user sets N. Graduated access limits drive-by promotion and spam bots and gives newcomers a protected first step. Every newcomer's first post gets a reply within the reply window.
+Choose an onboarding path that fits purpose, risks, verification, staffing and platform controls. Graduated access is an optional anti-spam pattern. Choose link permissions, peer DMs and moderator contact separately; preserve necessary first-post evidence and private reporting. Use supplied thresholds; propose a reply commitment only when staffing supports it.
 
 ## E. Guidelines draft
 
-Separate **rules** (enforced, at most 8, each one sentence a moderator can apply) from **norms** (tone, good faith; encouraged, not enforced). When rewriting rules, give usable wording; show a scored before/after table only if requested. Fit enforcement and appeal to the available staffing; do not add staff or unsupported deadlines. Slots:
+Separate **rules** (enforced, concise and specific; include necessary safety/compliance provisions and linked detail without a hard count cap) from **norms** (tone, good faith; encouraged, not enforced). When rewriting rules, give usable wording; show a scored before/after table only if requested. Fit enforcement and appeal to the available staffing; do not add staff or unsupported deadlines. Slots:
 
 1. Purpose: who the space is for, in one line.
 2. Rules, numbered.
@@ -42,7 +42,7 @@ Separate **rules** (enforced, at most 8, each one sentence a moderator can apply
 
 ## F. First 90 days
 
-Founding members invited one by one from people who already help others; a reply rota so every newcomer's first post gets an answer; partnerships with other venues only through their owners (Mode 4); one measurement date. Then hand over to community-health with a stop rule: if the primary metric has not moved by the review date, change the plan or close the space.
+Founding members invited one by one from people who already help others; a reply rota so every newcomer's first post gets an answer; partnerships with other venues only through their owners (Mode 4); one measurement date. Then hand over to community-health with a stop rule: review after enough completed participation cycles and mature outcomes; compare the primary outcome and guardrails with a defined improvement or maintenance target, uncertainty, member value and cost. Distinguish insufficient evidence from failure; diagnose and revise before proposing closure.
 
 ## G. Risks
 

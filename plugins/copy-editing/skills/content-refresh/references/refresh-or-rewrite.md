@@ -30,4 +30,4 @@ Suggest "Updated [month year]" only when a Stale value was replaced or a section
 - "Creating helpful, reliable, people-first content" (Google Search Central): https://developers.google.com/search/docs/fundamentals/creating-helpful-content (its self-assessment asks whether dates are changed to make pages seem fresh when the content has not substantially changed).
 - Google Search Central, "Influence your byline dates": https://developers.google.com/search/docs/appearance/publication-dates (a visible, labelled date that agrees with the date in structured data).
 
-If this note is more than six months old when you use it, re-check these pages.
+Maintainer note: review source wording outside user editing runs when a source change could affect this advice. The executing agent must respect the skill's network scope and must not claim current source verification from this snapshot. If uncertain source wording determines the requested edit, identify that limitation.

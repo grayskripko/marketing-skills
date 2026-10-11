@@ -35,7 +35,7 @@ Questions with status contradictory, no answer or answered without proof, ranked
 
 - every quote appears in the input (search for it);
 - every count traces to listed conversation ids;
-- no answer was invented to fill a gap.
+
 
 ## Diff against a previous bank
 

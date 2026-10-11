@@ -25,7 +25,7 @@ All figures are recomputable from the transcript. Give the rule with the figure 
   Keep the full list of seller questions with their labels; print it when the user asks or a label looks doubtful, so the user can correct misses (e.g. "what about Tuesday?" is open by the rule but works as closed).
 - **Thirds**: split the call into three equal time spans from the first to the last timestamp (or three equal spans of total word position when there are no timestamps); count seller questions in each.
 - **Longest seller turn** and **longest buyer turn**: words in the longest merged turn, with its turn number.
-- **Next-step test**: date ✓/✗, owner ✓/✗, buyer agreement quoted ✓/✗, taken from the last third of the call.
+- **Next-step test**: date ✓/✗, owner ✓/✗, buyer agreement quoted ✓/✗, found anywhere in the call, then checked against later changes or cancellations.
 
 ## Targets
 

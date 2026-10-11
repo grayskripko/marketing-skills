@@ -2,9 +2,9 @@
 
 ## Guardrails (applied before any row)
 
-- Only communities the user already takes part in get a mode (P-RDT2). A stated interest in a venue ("I'd like to get into", "our customers are there") does not count. Venues the user names but does not take part in get one line, "join and read first; no promotion until you are a regular participant", and no mode, ideas or moderator request.
+- Map the venues the user names from their supplied rules, including explicit newcomer introductions, approved vendor formats and sponsorship routes. Participation history informs the wording; it is a permission prerequisite only when the applicable venue rules require it. Do not add a regular-participation gate or extend a Reddit-specific restriction to unrelated venues.
 - Rules are read only for venues the user names. No venue is ever added, ranked or suggested; this is never a target list.
-- At most 8 venues per answer (heuristic of this plugin). Extra venues are listed by name with "not mapped".
+- Map every supplied venue in manageable batches; identify missing evidence per venue rather than dropping entries because of count.
 - No schedule, cadence, quota or posting volume, ever. Ideas only.
 - No venue is chosen or suggested because it is large; the map follows the user's own participation.
 - Without the venue's rules, the mode is Mode 1 until the user pastes them or names one public rules page.
@@ -15,8 +15,8 @@ One mode per venue, from the venue's rules plus the poster's own standing there;
 
 | Mode | Name | When it applies | What the poster does |
 |---|---|---|---|
-| Mode 1 | Contribute only | Rules not seen; rules restrict vendors with no approved route; the poster is new to the venue | Answers questions and shares know-how; no product mention at all |
-| Mode 2 | Disclosed mention when relevant | Rules allow members to mention their own work with disclosure; the poster takes part regularly | Mentions the product only when someone asks or it directly answers the question, with the connection in the opening sentence (PC-01) |
+| Mode 1 | Contribute only | Rules not seen; or rules restrict vendor promotion with no approved route. Newcomer status alone is not a restriction. | Answers questions and shares know-how; no product mention at all |
+| Mode 2 | Disclosed mention when relevant | Rules allow the poster to mention their own work with disclosure; require regular participation only if the supplied rules do | Mentions the product only when someone asks or it directly answers the question, with the connection in the opening sentence (PC-01) |
 | Mode 3 | Moderator-approved post | Rules route vendor posts to a weekly thread, an AMA slot or prior approval | Uses that thread or slot, or sends the moderators a short request first |
 | Mode 4 | Sponsor or partner through the owners | The venue offers sponsorship or the owners are open to a partnership | Agrees terms with the owners in writing, never with members directly; any sponsored post carries the label the owners and the law require |
 | Mode 5 | Stay out | Rules ban vendors or self-promotion, or the poster takes part there only in a way unrelated to the product | No posts about the product. Taking part as an ordinary member for one's own interest is fine |
@@ -38,7 +38,7 @@ If the moderators decline, the venue is Mode 1 or Mode 5 for this product. Recor
 
 ## Contribution ideas
 
-Two per venue in modes Mode 1 to Mode 4, each tied to a question members of that venue already ask (from what the user pasted or described). Each idea must pass PC-04: useful with no product mention. No dates, frequency or volume. None for Mode 5.
+Give as many distinct ideas as the supplied member questions support for permitted noncommercial or approved promotional participation, each tied to a question members of that venue already ask (from what the user pasted or described). Each idea must pass PC-04: useful with no product mention. No dates, frequency or volume. None for Mode 5.
 
 ## Stop rules
 

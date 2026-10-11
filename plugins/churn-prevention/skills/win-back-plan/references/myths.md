@@ -2,7 +2,7 @@
 
 When the user states one of these, name it, give the short correction and the measurement that settles it on their own data, in one or two sentences. No figures are quoted for or against.
 
-| Claim | Correction | How to check on your own data |
+| Claim | Correction | Agent check using the user's data |
 |---|---|---|
 | "The FTC click-to-cancel rule is in force" | It was vacated on 8 July 2025; the FTC is at the advance-notice stage (March 2026) with no rule text. ROSCA and state laws such as California §17602 still apply | The dated rule rows in the cancel-flow audit |
 | "There is a normal save, pause-return, recovery or churn rate to aim for" | No figure is quoted. Rates differ with price, billing channel and how the save is counted | Your own baseline, measured against a holdout |

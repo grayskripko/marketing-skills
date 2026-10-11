@@ -44,7 +44,7 @@ Verdicts: pass, fail, ask (a fact the user has not given decides it) or not chec
 
 ## Output format
 
-Counts per group, then: id | check | verdict | quoted evidence | register id. Rewrites follow for failing rows only.
+Internal scoring record: counts per group, then id | check | verdict | quoted evidence | register id. Print the full scorecard only on explicit request; ordinary answers show relevant failures and unresolved checks in plain words. Rewrites follow for failing rows only.
 
 ## Worked example
 

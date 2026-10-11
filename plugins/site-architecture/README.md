@@ -1,6 +1,6 @@
 # Site Architecture Kit
 
-Plan how your website is organised: where each page sits and what its URL is, what the menus and breadcrumbs say, which internal links to add, which filter URLs search engines should index, and where old URLs redirect when you move. Built from your own page list or exports; it never invents a URL and marks every new page NEW.
+Plan how your website is organised: where each page sits and what its URL is, what the menus and breadcrumbs say, which internal links to add, which filter URLs search engines should index, and where old URLs redirect when you move. Built from your own page list or exports; it does not present proposed URLs as existing and identifies new addresses individually, or once for an entirely new set.
 
 Example: laptop filters brand 8, RAM 4, GPU 6, screen 5, price 6 (single-select) give 9 · 5 · 7 · 6 · 7 = 13,230 filter states, × 4 sort options = 52,920 URLs. facet-policy prints that formula, then marks as indexable only the filter pages your search-demand data supports.
 
@@ -9,7 +9,7 @@ Example: laptop filters brand 8, RAM 4, GPU 6, screen 5, price 6 (single-select)
 | Skill | Give it | You get |
 |---|---|---|
 | site-architecture | page list, menus or your domain | URL tree, page table, URL rules, nav spec, checks, moved-URL list |
-| link-plan | links export (source, target) | depth and inlinks, up to 30 new links, depth after |
+| link-plan | links export (source, target) | depth and inlinks, a default first batch of 30 link edits or the requested complete plan, depth after where graph coverage supports it |
 | hub-design | pages on one subject | hub outline, links between the pages, pages that overlap |
 | facet-policy | filters and values, optional queries | URL count, index decision per filter, rules sheet, conflicts |
 | redirect-map | old and new URLs, or a draft map | redirect map checked for chains, loops and homepage targets, launch checklist |
@@ -28,7 +28,7 @@ Audit a site, decide which content to keep, research keywords, write copy, chang
 
 ## Troubleshooting
 
-No web tool: paste a URL list, menu HTML or links export. Large export with no code or spreadsheet tool: up to 200 rows by hand; above that, it asks for two smaller exports instead (inlinks per page, and the links on your homepage and main section pages).
+No web tool: paste a URL list, menu HTML or links export. Large export with no code or spreadsheet tool: up to 200 rows by hand; above that, it asks for computational tooling or complete relevant link edges. Inlink totals and a partial outlink sample can guide priorities but cannot establish exact whole-site depths.
 
 ## Support
 

@@ -21,7 +21,7 @@ Community marketing without astroturfing.
 
 ## How it works
 
-Each rule shows source, read date and label; rules over six months old are flagged. Every rate shows how many people it is based on and how uncertain it is. Not legal advice.
+Rules have a dated source register, with source details available on request; stale or unverified evidence is explained when it affects a decision. Rates retain counts and observation windows; uncertainty is shown when requested or needed for inference. Not legal advice.
 
 ## What it will not do
 

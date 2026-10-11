@@ -1,6 +1,6 @@
 # Claim ledger
 
-The ledger lists every checkable statement in the ad, says what kind of proof it needs and whether the user has it. It never weakens a claim on its own: the user decides whether to supply proof, rewrite or drop.
+The ledger lists every checkable statement in the ad, says what kind of proof it needs and whether the user has it. Hold authorization: if the user requests a fix or rewrite, provide a fully claim-free alternative and identify the removed claims; otherwise retain Hold and state the evidence or removal choice needed. Reassess only after sufficient evidence arrives or the claim is removed. Do not clear Hold by assertion or replace an unsupported claim with a vaguer equivalent.
 
 ## Claim types
 

@@ -16,9 +16,9 @@ Eight groups, R1 to R8 (ids for internal use; the answer uses the group names). 
 Rules for every offer:
 - One offer per session, shown beside a cancel control that stays visible (CF-05, CF-08). A decline goes straight to confirmation.
 - Terms complete: price during the offer, how long, price after (CF-13).
-- An R1 discount never goes deeper than the user's stated discount ceiling; win-back offers never go deeper than the cancel-flow offer for the same reason.
-- Pause and downgrade carry an end date and an automatic return state the customer sees before accepting.
+- Apply the user's stated discount ceiling. For win-back, compare the historical cancel-flow offer where comparable, but do not infer a binding ceiling from history alone. Assess a deeper offer using supplied policy, current contribution, cannibalization and reason-fit evidence; do not endorse it when those inputs are missing.
+- Show the actual duration and end/resume policy when applicable; do not assume automatic resumption. A permanent downgrade states its agreed new price and effective date without inventing an end date. A manual-resume pause states how resumption works. Keep direct cancellation available.
 - No offer to accounts with a chargeback or a fraud flag.
-- An account that took an offer more than once in the last 12 months is out of the offer budget; it still gets the normal one-step cancellation.
+- Repeat offer use triggers review, not automatic exclusion. Use the supplied review window; 12 months is an optional starting window. Apply supplied eligibility policy or linked-history, paid-retention and contribution evidence. Normal one-step cancellation remains available.
 
 Sources: own synthesis. Background on why the reason for leaving shapes return: V. Kumar, Y. Bhagwat and X. Zhang (2015), "Regaining 'Lost' Customers", Journal of Marketing 79(4). Recovery after a service failure: D. Tokman, L. Davis and K. Lemon (2007), "The WOW factor", Journal of Retailing 83(1). Cited by name.

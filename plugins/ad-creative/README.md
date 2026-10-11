@@ -1,6 +1,6 @@
 # Ad Creative Preflight Kit
 
-Checks ad text before it runs and reads creative tests after. Every limit and rule is dated and sourced. The first example below returns:
+Checks ad text before it runs and reads creative tests after. Platform and legal reference rows carry sources and read dates; statistical methods are named, and editorial defaults are identified as plugin conventions. The first example below returns:
 
 | Text | Rule | Result | Suggested fix |
 |---|---|---|---|
@@ -11,8 +11,8 @@ Checks ad text before it runs and reads creative tests after. Every limit and ru
 ## Skills
 
 - **ad-preflight**: checks ad text you already have against platform limits and rules; Ready, Fix or Hold per ad, with fixed text.
-- **ad-test-readout**: which ad won, whether the gap is real, and how much longer the test must run.
-- **search-ad-set**: 15 Google headlines and 4 descriptions from your facts, checked so any three read well together.
+- **ad-test-readout**: descriptive creative leads, design-qualified uncertainty, and conditional sample/duration estimates for supported binary-rate tests.
+- **search-ad-set**: 15 Google headlines and 4 descriptions from your facts, checked for standalone meaning and representative combination coherence; universal compatibility requires exhaustive legal-combination checks.
 - **social-ad-set**: LinkedIn, Facebook, Instagram and TikTok ad copy, in variants that each change one thing.
 - **angle-matrix**: ad angles drawn from reviews and comments you paste, each traced to what customers said.
 
@@ -24,7 +24,7 @@ Checks ad text before it runs and reads creative tests after. Every limit and ru
 
 ## How it works
 
-Covers Google, Meta, LinkedIn, TikTok and US, UK, EU claim rules. Rules read more than six months ago are flagged; limits the plugin has not checked are reported as unknown, never guessed. Copy uses the facts you give, in your words, and no figure you did not give.
+Screens the listed Google, Meta, LinkedIn and TikTok placements and selected US, UK and EU claim rules; this is not comprehensive platform or jurisdictional clearance. Unsupported fields remain unknown. Rules read more than six months ago are flagged; limits the plugin has not checked are reported as unknown, never guessed. Copy uses the facts you give, in your words, and no figure you did not give.
 
 ## Data and network
 

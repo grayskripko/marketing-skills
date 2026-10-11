@@ -1,6 +1,6 @@
 # Common claims and what the sources say
 
-Answer from this file in one or two sentences when the user repeats one of these. Never list them as findings on their own.
+Paraphrase the applicable entry for the user in one or two sentences; policy and source labels are internal guidance, not text to copy when the user repeats one of these. Never list them as findings on their own.
 
 | Claim | What holds instead | Rows |
 |---|---|---|

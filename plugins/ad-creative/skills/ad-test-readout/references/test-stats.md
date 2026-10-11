@@ -4,7 +4,7 @@ z = 1.96 for 95%. All formulas below are standard; cite them by name.
 
 ## Data gate (run first)
 
-- clicks ≤ impressions; conversions ≤ clicks when conversions are click-based (say so if they are view-based); 3-second views and ThruPlays ≤ impressions.
+- Confirm whether each field counts unique binary outcomes or repeated events. For compatible binary counts, enforce clicks ≤ impressions and click-based conversions ≤ clicks; apply view ≤ impression gates only where the supplied metric definition requires them. Legitimate repeat-event totals require another model, not automatic rejection. State view-based attribution when applicable.
 - Same date range and same attribution setting for every row, or list the difference.
 - A row with zero impressions is dropped and listed.
 - Missing columns are listed under "Not checked" with what they would have allowed.
@@ -14,6 +14,8 @@ z = 1.96 for 95%. All formulas below are standard; cite them by name.
 The user's choice. If none is given, use conversions per impression, because it rewards an ad for both pulling the click and bringing the buyer. CTR, hook rate and hold rate are guardrails: shown, never used alone to name a winner.
 
 ## Wilson 95% interval for a rate k/n
+
+Applicability: independent binary outcomes with a defined observation unit and mature attribution. Establish these before using Wilson/Newcombe or fixed-horizon binary sample planning. Confidence 95%, alpha .05 and power 80% are defaults; honor a valid supplied plan. Event counts, clustered units and sequential designs need appropriate methods/inputs; the formulas below do not supply those methods. With insufficient inputs, report descriptive results and explicitly conditional scenarios.
 
 p = k/n; centre = (p + z²/2n) / (1 + z²/n); half-width = z·√(p(1−p)/n + z²/4n²) / (1 + z²/n). (Wilson, JASA 22:209–212, 1927.)
 
@@ -35,7 +37,7 @@ Compare each variant with one named reference. Order the p-values from a two-pro
 
 ## Sample size per arm (two proportions, two-sided α 0.05, power 80%)
 
-n = (1.96·√(2·p̄(1−p̄)) + 0.8416·√(p₁(1−p₁) + p₂(1−p₂)))² / (p₁ − p₂)², with p̄ = (p₁+p₂)/2. Print it in impressions and in days at the user's daily impressions per arm (more days needed = (n − impressions so far) / daily impressions, rounded up). "Not feasible at this delivery" is a valid answer; then offer a bigger difference to detect or an earlier-funnel primary metric chosen in advance.
+n = (1.96·√(2·p̄(1−p̄)) + 0.8416·√(p₁(1−p₁) + p₂(1−p₂)))² / (p₁ − p₂)², with p̄ = (p₁+p₂)/2. Print it in impressions and in days at the user's daily impressions per arm (more days needed = max(0, target − eligible observations so far) / eligible daily observations, rounded up; use impressions only when they are the applicable observation unit. Projection is conditional on stable delivery, the stated lift/error settings and attribution maturity; a new randomized test does not inherit the observational export as its sample). "Not feasible at this delivery" is a valid answer; then offer a bigger difference to detect or an earlier-funnel primary metric chosen in advance.
 
 ## Peeking
 
@@ -51,7 +53,7 @@ Both get Wilson intervals and the label "diagnostic, not a sale". No good/bad ba
 
 - **keep testing** — primary difference not resolved and the sample is still short of the planned size;
 - **iterate one variable** — resolved on a guardrail only on a randomised design, or the concept is mixed across formats. On an observational design a guardrail-only gap gives keep testing, and any reason for the gap is a guess to test;
-- **retire** — the upper bound of its primary difference vs the reference is below 0;
+- **retire candidate** — only with a suitable randomized design, mature attribution and a prespecified practically meaningful loss threshold supported by the interval and relevant guardrails. On observational delivery, report an observed laggard for confirmation, not retirement. At a completed planned horizon, an inconclusive result stays inconclusive; do not imply indefinite extension;
 - **likely winner** — the lower bound is above 0 on a randomised design (on an observational design say "lead: confirm with a split test"). This names the better ad only; it is not advice on spend.
 - Roll single ads up to concept and format before judging ads with few conversions.
 

@@ -24,9 +24,11 @@ One point each for: the result, the time it takes, who gets it. "Save 10 hours a
 
 Every number or claim in the asset without a visible source ("the fastest", "twice as fast", "trusted by thousands") goes on this list with the question to answer ("Where does '10 hours' come from: a survey, a time study, one customer?").
 
-Check the asset's numbers against each other: a weekly or daily rate × 52 or 365 against any stated total ("1,284 teams upgraded this week" is about 67,000 a year against "12,000 teams" in total), percentages against counts, dates against "new" or "launch" claims. List each contradiction with both quotes; a contradiction is a needs-evidence item, and the figure that cannot be backed is removed.
+Compare counts, percentages and dates using compatible populations, units, denominators and periods. A short-period flow need not persist for a year: 1,284 weekly upgrades and 12,000 total teams can coexist. Annualization is a conditional plausibility scenario only. List a contradiction with both quotes only when the stated definitions make the claims incompatible; otherwise ask for the missing definitions. Unsupported figures remain needs-evidence items.
 
 ## Collecting real proof
+
+Recommend this process to the requester; do not contact or onboard customers or publish identities as part of the audit. The quoted permission question is a customer-facing draft example, to adapt using supplied facts.
 
 1. Ask right after the customer gets a result (first report sent, first payout, first week saved), not at random times.
 2. Ask everyone at that moment, not only happy customers; publishing only positive reviews engages DP-04.

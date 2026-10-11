@@ -13,7 +13,7 @@ An edge list has one row per link: the page the link is on (source) and the page
 | target status | Status Code, Status | no; without it links to 3xx/4xx are Not checked |
 | final URL | Redirect URL, Final URL, Redirects To | no |
 
-Desktop crawlers and site-audit tools offer a links export with these or similar headers (often called all inlinks or all links). Map by meaning, print the map, and ask if a required column is unclear.
+Desktop crawlers and site-audit tools offer a links export with these or similar headers (often called all inlinks or all links). Map by meaning internally; show the mapping only when requested or needed to resolve a material ambiguity, and ask if a required column is unclear.
 
 Clean-up before computing:
 - Drop rows whose target is on another host, rows where source = target, and fragment-only targets.
@@ -28,4 +28,4 @@ Clean-up before computing:
 
 ## Too large to compute here
 
-Without a code or spreadsheet tool and more than 200 edges: ask for (a) the tool, or (b) two small exports: inlinks per URL with a navigation/body split, and the outlinks of the homepage and the main section pages. With (b), depth is computed only for pages the user flags as key.
+Without computational tooling, use 200 edges as a conservative guardrail and assess complexity. Ask for tooling or complete relevant edges for exact before/after. Aggregate inlinks and partial homepage/section outlinks support priorities and observed paths only: observed path length bounds true shortest depth above, while absent paths leave reachability unknown.

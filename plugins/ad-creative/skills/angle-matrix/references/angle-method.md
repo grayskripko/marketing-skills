@@ -8,7 +8,9 @@ An angle is a reason to buy, stated from one kind of buyer's side, that can be t
 - Replace any name, email or handle with the id. Never repeat personal details, even in quotes.
 - Quote at most one short phrase per evidence item; otherwise paraphrase.
 
-## Matrix columns
+## Optional internal matrix columns
+
+Use only requested or directly useful columns supported by evidence. Do not assign motivation or awareness from context alone; label any permitted working inference for validation. The SKILL.md evidence and output rules govern this schema.
 
 | Angle | Segment | Motivation (gain, relief, fear of loss, identity) | Awareness level | Objection it answers | Proof available (F-id) | Evidence (E-ids) | One-sentence message | Distinct from |
 |---|---|---|---|---|---|---|---|---|
@@ -19,7 +21,7 @@ Awareness level uses the five awareness stages named by Eugene Schwartz in *Brea
 
 1. Tag each evidence item with the problem, the outcome wanted, the trigger moment and any objection.
 2. Group items by those tags. A group with at least two evidence items from different sources becomes an angle; a group with one becomes "thin — one source".
-3. **Near-duplicate merge:** two angles merge if a reader would summarise them in the same sentence or they share the same motivation and outcome. Keep the better-evidenced wording; list the merged ids.
+3. **Near-duplicate merge:** Compare the prospective buyer’s problem, desired outcome, reason to buy and meaningful segment context. Merge only equivalent buyer propositions; shared motivation or outcome alone is insufficient. Keep the better-evidenced wording; list the merged ids.
 4. **Coverage gaps:** list segments or objections that appear in the evidence but no angle answers.
 5. **Hypotheses — no evidence:** angles the user or the model suggests without any E-id go in a separate list, never in the matrix.
 6. Rank angles by evidence count and spread of sources, not by taste; print the counts.

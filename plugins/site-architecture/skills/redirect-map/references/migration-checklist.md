@@ -13,17 +13,13 @@
 | M-07 | Variants | case, trailing-slash, `index.html` and parameter variants of old URLs are covered by a rule | convention of this plugin; G-url says Google treats `/APPLE` and `/apple` as two URLs |
 | M-08 | Target exists | every target is in the new structure or marked NEW | rule 3 |
 | M-09 | Must-map coverage | every old URL with clicks or backlinks has a row | G-move |
-| M-10 | Fallback rows | rows decided by the fallback below are counted and labelled | this file |
+| M-10 | Unresolved fate | rows lacking a decided fate are explicitly unresolved; no fate is assigned from clicks/backlinks alone | this file |
 
 Slug collisions (two different old pages whose new paths would be the same) are reported under M-04 unless they are a declared merge.
 
-## Fallback when fate is missing (heuristic of this plugin)
+## Missing fate
 
-Used only when the user, a content review or the hand-off list gives no fate:
-- no clicks and no backlinks → 404 or 410 (Google currently treats them the same; G-404);
-- otherwise → 301 to the closest equivalent page, once its content covers the old page's subject;
-- never the homepage.
-Print: "deciding which pages to keep is a content decision; settle fate first if you have not".
+Preserve decided fates. Otherwise leave the row unresolved and ask for keep/move/merge/remove intent; unknown metrics are not zero. Use clicks/backlinks only to prioritize verification. A redirect requires an evidenced equivalent; an approved removal with no replacement returns the decided 404/410. Never redirect an unrelated page to the homepage. Continue decided rows while flagging the unresolved ones.
 
 ## Launch checklist (G-move unless marked)
 
@@ -37,6 +33,8 @@ Print: "deciding which pages to keep is a content decision; settle fate first if
 8. Expect rankings to fluctuate while Google processes the move; for small and medium sites, most pages take a few weeks. No percentage is predicted (rule 5).
 
 ## Watch list
+
+Illustrative low-risk schedule only. Verify statuses and targets at launch and immediately after. Adapt later windows to risk, crawl activity, export latency, seasonality and each deployment cohort; compare comparable periods and extend observation when evidence is insufficient.
 
 | When | Compare (from the user's exports) |
 |---|---|

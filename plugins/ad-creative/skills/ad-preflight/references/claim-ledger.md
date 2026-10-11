@@ -1,6 +1,6 @@
 # Claim ledger
 
-The ledger lists every checkable statement in the ad, says what kind of proof it needs and whether the user has it. A request to check and fix or rewrite authorizes a claim-free alternative; otherwise the user chooses proof, rewrite or removal. Never turn an unsupported assertion into a vaguer equivalent. Screen qualitative product descriptors as well as numbers.
+The ledger lists every checkable statement in the ad, says what kind of proof it needs and whether the user has it. Hold authorization: if the user requests a fix or rewrite, provide a fully claim-free alternative and identify the removed claims; otherwise retain Hold and state the evidence or removal choice needed. Reassess only after sufficient evidence arrives or the claim is removed. Do not clear Hold by assertion or replace an unsupported claim with a vaguer equivalent. Never turn an unsupported assertion into a vaguer equivalent. Screen qualitative product descriptors as well as numbers.
 
 ## Claim types
 

@@ -20,7 +20,7 @@ Coach a sales call, quiz reps on your own pricing, rehearse with a practice buye
 
 ## How it works
 
-Coaching, role-plays and ramp checkpoints share one score sheet: 11 discovery behaviours scored 0, 1 or 2 (maximum 22) and 8 demo behaviours (maximum 16), each score backed by a quote. A practice pass is 70% (16 of 22, or 12 of 16) with no zero on the key behaviours. Every computed number shows how it was counted. No outside benchmarks and nothing invented; where proof is missing, the answer says so. Tuned for English.
+Coaching, role-plays and ramp checkpoints share one score sheet: 11 discovery behaviours scored 0, 1 or 2 (maximum 22) and 8 demo behaviours (maximum 16), each score backed by a quote. A practice pass is 70% (16 of 22, or 12 of 16) with no zero on the key behaviours. Every computed number shows how it was counted. No outside benchmarks. Real product and customer claims use your supplied material; missing proof is flagged. Practice scenarios may contain clearly labelled fictional details, and schedules and thresholds are adjustable planning defaults. Tuned for English.
 
 ## Data and network
 

@@ -11,7 +11,7 @@ Use internally before selecting an idea. Preserve the user’s facts and wording
 | Gross margin | share of the price left after the cost of serving it | assumption, and every grade is capped at D |
 | Payback window | months within which a customer should repay what was spent to win them | 12 months, shown as an assumption |
 | Buying motion | self-serve, assisted, or sales-led | rule below |
-| Demand state | one of four, with the quoted line it rests on | rule below |
+| Demand state | one or more overlapping signals, with the quoted evidence they rest on | rule below |
 | Stage | pre-launch, first customers, repeatable sales, scaling | from customer count and description |
 | Cash and hours | marketing cash per month; team hours per week | ask in the questions; meanwhile "not given" |
 | Asset inventory | what the team already has that an idea can use | prompts below |
@@ -35,7 +35,7 @@ Decide from the description (a trial button, a "book a demo" step, a contract me
 | New category or low urgency | buyers do not yet see the problem as one to solve | content with distribution, product exposure loops, PR hooks, customer stories | "a new kind of tool nobody budgets for" |
 | Few large buyers | a short list of organisations can buy, each worth a lot | direct outreach, events and speaking, partners and resellers | "about 300 hospital groups in the region" |
 
-When the description does not say, pick the most plausible state, quote the line that suggests it, and mark it "assumption, change me". If two states fit, say so and allow families from both.
+When the description does not say, state a plausible demand hypothesis and its evidence in plain language. Allow overlapping states and any family supported by actual buyer access and buying behavior; the table lists starting hypotheses, not eligibility limits.
 
 ## Asset inventory prompts
 

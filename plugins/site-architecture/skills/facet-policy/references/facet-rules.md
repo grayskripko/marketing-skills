@@ -2,6 +2,8 @@
 
 ## URL-space formula
 
+The following product counts optional, finite, independent and unrestricted selections. When those assumptions are unconfirmed it is an unconstrained upper bound, not an observed URL inventory. For dependent/capped/exclusive selections, count valid reachable states from constraints or supplied data. Report serialization aliases, crawlable URLs and pagination separately.
+
 - Single-select group with v values: v + 1 states (the +1 is "filter not applied").
 - Multi-select group with v values: 2^v states (each value on or off, including none).
 - Multiply the states of all filter groups.
@@ -15,8 +17,8 @@ Google's URL guidance gives additive filtering as a typical way URL counts explo
 | Case | URL form | Crawl | Index | Source |
 |---|---|---|---|---|
 | One filter value with demand in the user's data | clean path or stable parameter | allowed | index, own title and H1 | convention of this plugin |
-| Two or more filters, named in the demand data and passing the content gate | clean path or stable parameter | allowed | index | convention of this plugin |
-| Two or more filters, not named in the demand data | parameter or not a link | disallowed or allowed with canonical to the category | not indexed | heuristic of this plugin |
+| Multiple filters with relevant supplied demand evidence and collection utility | clean path or stable parameter | allowed | eligible subject to explicit user gates and technical checks | convention of this plugin |
+| Multiple filters without relevant demand evidence in the supplied sample | stable parameter or proposed landing | choose explicitly; keep crawlable if relying on noindex | conditional/not approved for indexing; missing sample evidence is not proof of no demand, and a broader listing is not automatically equivalent | heuristic of this plugin |
 | Sort, view, session, tracking | parameter | disallowed | never indexed | G-url, G-page |
 | Empty result | its own URL | — | answers 404 | G-facet |
 
@@ -34,7 +36,7 @@ Google's URL guidance gives additive filtering as a typical way URL counts explo
 
 ## Content gate
 
-An indexable combination lists at least N items (asked; if not answered, "assumed 10, heuristic of this plugin") and has text of its own beyond the product grid (an introduction, buying notes, specific questions). Apply this gate to the collection; continuation pages inherit its policy and do not separately need N items or repeated introductory copy. Otherwise noindex. This is a quality rule: Google's spam policies on doorway pages and scaled content are the reason not to publish thin filter pages in bulk.
+Apply explicit user minimum-item and original-text gates to the collection; continuation pages inherit its policy without repeated copy/count requirements. Without a user gate, assess distinct task utility, meaningful inventory/record information, demand evidence, stability and duplication. Ten is an optional retail review trigger, not a universal minimum; prose is one way to add value. Missing evidence leaves eligibility conditional. Do not create thin collections in bulk; retain the named spam-policy rationale.
 
 ## Rename and merge table
 

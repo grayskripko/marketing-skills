@@ -49,8 +49,8 @@ Detect the variant from these counts; state "US", "UK", "UK with -ize" or "mixed
 
 ## Decision rules
 
-- Decided: the most common form holds more than 60% of uses (heuristic of this plugin; override freely).
-- Open: 60% or less, or the two words may name two different things.
+- Decided: an explicit applicable rule or sufficiently representative comparable usage establishes the form; show the evidence.
+- Open: small or heterogeneous evidence, uncertain authority, or words that may name different things. A 60% share is only an optional review cue.
 - Error under any style: fixed whatever the counts (for example "login" as a verb).
 - The user's own pasted rule outranks every count; the basis column says "your rule".
 - Proper names are copied exactly from the form the user gives as correct; otherwise the majority form is offered, and the choice is open if the name is a third party's.

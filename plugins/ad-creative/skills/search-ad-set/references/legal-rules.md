@@ -1,6 +1,6 @@
 # Claim rules by jurisdiction (US, UK, EU)
 
-Paraphrased in our own words, with the page and the date read. Not legal advice: the output names the rule and what proof would answer it, and leaves the decision to the user and their adviser. Rows marked **unverified** could not be read on the official text on the read date; they are shown as "unverified — read at the link before relying on it" and never decide a verdict on their own.
+Plugin-maintainer paraphrases, not official quotations, with source page and read date. Not legal advice: the output names the rule and what proof would answer it, and leaves the decision to the user and their adviser. Rows marked **unverified** could not be read on the official text on the read date; they are shown as "unverified — read at the link before relying on it" and never decide a verdict on their own.
 
 ## United States (FTC)
 

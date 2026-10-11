@@ -1,12 +1,12 @@
 # Graph metrics
 
-All values are computed on followable links after the data gate. Print each formula once with its inputs.
+All values are computed on followable links after the data gate. These are internal methods; SKILL.md controls publication. Show formulas/inputs that determine requested numeric conclusions; folder, parsing and other diagnostics are optional unless requested or necessary to explain a material limitation.
 
 ## Depth
 
 - Convention: the start URL (usually the homepage) has depth 0. If the user did not name it, take `/`, or the shortest URL in the data if `/` is missing, say so, and ask once at the end. A page linked from it has depth 1, and so on.
 - Method: breadth-first search from the start URL over followable links. Depth = number of links on the shortest path.
-- Report per folder or template: pages, median depth, p90 (nearest-rank), deepest, and pages with no path ("not reachable"). p90 means 9 in 10 pages are this many clicks from the start URL or fewer.
+- Compute internally; if requested or material, report per folder or template: pages, median depth, p90 (nearest-rank), deepest, and pages with no path ("not reachable"). p90 means 9 in 10 pages are this many clicks from the start URL or fewer.
 - Second pass: remove links whose source or target is a paginated listing beyond page 1 (`?page=`, `/page/n`), then recompute. Pages that become unreached depend on pagination alone; list their count by folder.
 - Example: `/` → `/blog` → `/blog/okta-setup` → `/features/sso` gives `/features/sso` depth 3. Adding `/features` (depth 1) → `/features/sso` makes it depth 2.
 
@@ -14,7 +14,7 @@ All values are computed on followable links after the data gate. Print each form
 
 - Inlinks per page = distinct source pages with a followable link to it.
 - Split by link position: navigation (header, menu, footer, sidebar, breadcrumb) vs body (content). Without a position column, the split is Not checked.
-- Report: pages in the user's important list with 0 or 1 body inlinks; pages with navigation inlinks only.
+- Compute internally; if requested or material, report pages in the user's important list with 0 or 1 body inlinks; pages with navigation inlinks only.
 
 ## Links to redirects and errors
 
@@ -39,7 +39,7 @@ All values are computed on followable links after the data gate. Print each form
 
 ## After the plan
 
-- Add every planned link as a body link and rerun depth and inlinks. Print before → after for each page the plan touches, and the number of tier-A pages that still have no body-link path.
+- Add every planned link as a body link and rerun depth and inlinks. Recompute every affected page internally; show requested priority-page before/after results and body-only reachability only when requested or decision-relevant.
 
 ## By hand
 

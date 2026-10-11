@@ -15,7 +15,7 @@
 
 ## Converting relative time
 
-Reference = the publish date. Seasons assume the northern hemisphere unless stated; say which was assumed.
+Establish the relevant temporal anchor for each item from supplied composition, publication, revision or quotation context. Use publication date only where it anchors the publisher's narration. Determine season locale, cross-year season boundaries and fiscal versus calendar quarters from supplied context; query unresolved choices rather than assume northern seasons or calendar quarters. Record the anchor used.
 
 | Phrase | Converts to | Example, published 10 June 2024 |
 |---|---|---|

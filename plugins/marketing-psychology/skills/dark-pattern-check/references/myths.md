@@ -5,7 +5,7 @@ Answer in one or two sentences, name the study (authors, year) from the ledger r
 | Claim | Short answer | Ledger |
 |---|---|---|
 | Losses always hurt twice as much as gains | The average lab estimate is near 2, but it falls to about 1 in symmetric, unordered designs; treat "twice" as design-dependent | L04 |
-| People need seven touches before they buy | No study for this in the ledger; folklore | L34 |
+| People need seven touches before they buy | I have no research to cite for this threshold; do not present it as an established purchase rule | L34 |
 | Open loops work because people remember unfinished tasks | A 2025 meta-analysis found no memory advantage; the tendency to resume interrupted tasks does hold | L22, L23 |
 | Fewer options always convert better | Meta-analyses find an average effect near zero, with overload only under specific conditions | L15 |
 | A decoy tier always pushes buyers to the target plan | Lab effect with numeric tables; often absent in realistic settings | L14 |

@@ -2,7 +2,7 @@
 
 Use this as an internal coverage guide, not a mandatory answer layout. Include logging and experiments only when requested; 10% is an example, not a default. Use each customer’s actual cancellation timestamp, never the review date. Preserve the cancellation, confirmation and failure-fallback requirements below.
 
-Fill one row per screen with the user's own facts (their offer, their page names, their plan). Leave a slot in square brackets only for a fact the user did not give, and name it. The team writes the final words.
+Fill one row per screen with the user's own facts (their offer, their page names, their plan). Leave a slot in square brackets only for a fact the user did not give, and name it. Produce a flow specification by default and draft UI copy when requested, using the supplied facts and naming missing terms. The business owner approves implementation.
 
 | Screen | Purpose | Content | Cancel control | Logged event |
 |---|---|---|---|---|
@@ -14,6 +14,6 @@ Fill one row per screen with the user's own facts (their offer, their page names
 
 Store-billed subscriptions replace screens 3–4 with the store's own management page; see `store-billing.md`.
 
-Events to log for later measurement (feed the save-offer analysis): account id, timestamp, reason group, offer id and terms, accept or decline, paused flag and pause end date, holdout flag, cancel_confirmed timestamp. A holdout is a random share of sessions that see no offer; 10% is an editable default.
+Events to log for later measurement (feed the save-offer analysis): account id, timestamp, reason group, offer id and terms, accept or decline, paused flag and pause end date, holdout flag, cancel_confirmed timestamp. A holdout is a random share of sessions that see no offer; Choose allocation only for a requested experiment with baseline, worthwhile effect, feasible volume, horizon and opportunity cost; 10% is an example, not a default.
 
 If the customer chooses pause or downgrade, the screen states the date the pause ends or the new price starts, and what happens then.

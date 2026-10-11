@@ -1,6 +1,6 @@
 # Node types and the link matrix
 
-The node types are a convention of this plugin; the next-step order and the counts are heuristics of this plugin — change them if you like.
+The node types are a convention of this plugin; the next-step order and the counts are heuristics of this plugin — apply user-supplied overrides; otherwise adapt only when task evidence justifies the change, stating any material change to the recommendation.
 
 | Node type | Answers | Example |
 |---|---|---|
@@ -15,18 +15,18 @@ The node types are a convention of this plugin; the next-step order and the coun
 
 ## Next-step order
 
-A link between two children is allowed when the target is the natural next step for someone who has just read the source. Among how-to and support pages, that is the next task in the user's workflow (adding employees → running payroll). For other content the usual order is overview → subtopic → comparison → how-to → question. Product and use-case pages may be linked from any child where the text discusses them.
+A link between members is allowed when it supports the intended website visitor's task: prerequisite, definition, reference, comparison, alternative or next action. Use supplied workflows to choose direction. Overview → subtopic → comparison → how-to → question is one educational example, not a universal order. Product and use-case links require relevant source content.
 
 ## Matrix
 
 | Link | Status | Rule |
 |---|---|---|
 | hub → every child | required | from the contents block and from the outline section that introduces the child |
-| child → its hub | required | one upward link, plus the breadcrumb |
+| structural child → its hub | required | upward link and, where present, the approved structural breadcrumb; curated members keep their structural chain and use a relevant body link to the topic hub |
 | child → child, next step | allowed | in the paragraph where the next step comes up |
-| child → child, not a next step | not planned | leave out unless the user asks |
+| member → member, prerequisite/reference/alternative | allowed when useful | place where the reader needs it; next-step status is not required |
 | other hub → child | guest | body links only; the child keeps one parent |
-| between pages that share an intent | forbidden | they are merge or differentiate candidates instead |
-| comparison page → each compared hub | required when a comparison page exists | the comparison sits above both hubs |
+| between pages that share an intent | review | preserve useful existing links; overlap alone neither forbids a link nor authorizes removal |
+| comparison page → each compared hub | required when comparison exists | link to each subject; comparison does not automatically become their structural parent |
 
-Default counts per child: one link up and at most 4 sibling links (heuristic of this plugin). The hub carries one link per child; a hub with many children groups them by section rather than in one list.
+Structural children link upward; curated members retain their structural home and link contextually to the hub. Choose sibling links by reader need; four is only a review starting point. The hub links every member and groups large collections by useful sections.

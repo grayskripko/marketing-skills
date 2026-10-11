@@ -1,5 +1,7 @@
 # Hypothesis card
 
+User-facing template: adapt only relevant fields. Do not execute tests, sample sizing or deployments during this check. Include feasibility guidance only when traffic or feasibility is relevant to the request; sizing and shipping are recommendations to the requester.
+
 Use this instead of predicting a result, and only when the user plans to test a change or asks about lift: one card, for the top change. Test design, sample size and readouts are out of scope for this plugin.
 
 ```

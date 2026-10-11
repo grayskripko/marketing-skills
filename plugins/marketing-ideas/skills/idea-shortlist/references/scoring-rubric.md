@@ -6,8 +6,8 @@ Gates first, then a score on five anchored criteria, then an evidence grade. Anc
 
 | Gate | Passes when | Fails when | Unknown when |
 |---|---|---|---|
-| G1 Source and converter | both are named and the source brings people every week (or the idea is labelled a wave with a capture plan) | one is missing: the idea is "incomplete" and is not scored | never; ask instead |
-| G2 Demand fit | the family is listed for the demand state on the context card (`context-card.md`), including an assumed state: then print the assumption in the Assumptions box and carry on | the family needs searched-for demand and the card says nobody searches | the family fits only one of two plausible demand states |
+| G1 Source and converter | both are named, with actual cadence and outcome window; capture is required only when conversion depends on later follow-up | one is missing: the idea is "incomplete" and is not scored | never; ask instead |
+| G2 Demand fit | supplied evidence supports buyer access and the conversion mechanism; any material assumption is stated beside the recommendation | evidence rules out that buyer access or mechanism | fit is plausible but unverified; the family mapping is only a starting prior |
 | G3 Economics | the user gave a cost and cost per expected customer is at or below the affordable cost, or the idea needs no cash (hours are judged under "Cost within means") | the user gave a cost and either it is more than the user's marketing cash for the whole payback window, or the cost per expected customer is above the affordable cost at rates the user observed (`affordability-chain.md`) | no cost from the user: print the check-lines; or a user cost misses only at assumed rates: print "unknown: misses at assumed rates (share returned X%)" and allow it as a probe (verdict Test small first) |
 | G4 Prerequisite | the prerequisites in `idea-patterns.md` are present | one is clearly absent (a referral loop with no retained customers) | the description does not say |
 | G5 Rule colour | green or amber | red (`platform-rules.md`); a compliant variant may be scored instead | never |
@@ -38,21 +38,11 @@ Caps: any unknown gate caps the grade at C; a missing price or margin caps every
 
 ## Order and ties
 
-- Main bet: the highest total among ideas with no unknown gate (any grade). If all candidates are graded D, say so in the decision block.
-- If every candidate has an unknown gate, the highest total becomes the main bet labelled "pending your figure: [which]". An assumed demand state is not an unknown gate.
-- Optional further tests: consider the next highest from other families only when requested or when distinct value fits remaining capacity. An unknown gate may be explored in a cheap test; do not fill two additional slots by default.
-- Buyer reach: an idea with Buyer reach 0 or 1 is never the main bet. It can be a probe only when no idea with reach 2 or more remains, and its card then says the probe tests whether buyers are there.
-- Ties: the earlier first signal wins, then the lower cash.
+First enforce the user’s hard constraints and relevant prerequisites. Order by their goal, expected contribution, evidence, learning speed and reversibility; compare cash and scarce hours. The anchored equal-weight total is a disclosed starter aid, not a universal law. State sensitivity when priorities change the order. Recommend one main bet by default; add up to two useful tests only when requested or when distinct learning fits remaining capacity. Same-family tests may qualify. A speculative reach test must say that it tests buyer access; do not claim known fit from a guessed demand state.
 
 ## Bottleneck line
 
-Pick one, with the reason:
-- **Offer**: fails the four-part check. A working offer names a specific buyer, promises a concrete gain, gives a reason to act now, and shows proof from similar customers. Two or more missing parts: offer first, before any channel.
-- **Reach**: the offer passes, but too few buyers see it.
-- **Conversion**: people arrive but do not sign up or pay (the user's counts show it).
-- **Retention**: customers leave about as fast as they come.
-
-Net growth per period = new customers − customers lost (customers × churn rate). Zero or below: show the arithmetic and put retention ideas ahead of acquisition ideas.
+Assess offer, reach, conversion and retention using supplied evidence. Missing proof or urgency in the prompt is uncertainty, not automatic offer failure. Name a primary bottleneck only when supported. Compute net growth per period = new customers − customers × churn when given. Compare the value of avoidable retention improvement with acquisition, accounting for cohort maturity, buying cycle, natural completion and capacity; retain the arithmetic without a universal nonpositive-growth priority.
 
 ## Worked scoring (stock app for independent bookstores)
 
@@ -64,4 +54,4 @@ Card: $39 a month, 85% margin, 6-month window, $300 a month cash, two founders, 
 | "Made with" line on the printed monthly sheet | pass | pass | pass, hours only | pass (stores pin the sheet up where visitors see it) | green | pass | 1 | 3 | 1 | 3 | 3 | 11 | D (whether other booksellers see it is reasoning only) |
 | Booth at the trade show | pass | pass | fail on the user's quote: $3,000 is more than six months of the $300 budget ($1,800), and 3,000 ÷ 198.90 = 15.08, so 16 customers would be needed to pay it back within six months | pass | green | pass | — | — | — | — | — | not scored | — |
 
-Result: the rep idea is the main bet (14, grade B, no unknown gate). The booth goes to Not now with its arithmetic. The footer can be a probe; a second probe from another family (for example one classified in a booksellers' newsletter) keeps G3 "unknown" until the user has the quote, and its check-line is $198.90 per customer.
+Result: under these illustrative priorities, the rep idea is the main bet. The booth goes to Not now with the quoted-cost arithmetic. The footer is a possible test of whether other booksellers see it; add it or a newsletter classified only when requested or when distinct learning fits capacity. A newsletter quote remains unknown until supplied; the illustrative customer ceiling is $198.90.

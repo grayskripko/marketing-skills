@@ -2,7 +2,7 @@
 
 ## Concept rows
 
-A concept is one idea a viewer could repeat in a sentence ("month-end close without the backlog"). Variants inside a concept and placement change exactly one declared variable and say which. Adapt between placements; do not require identical platform copy. The following table is an internal planning aid, not a mandatory output:
+A concept is one idea a viewer could repeat in a sentence ("month-end close without the backlog"). For isolated-variable diagnosis, variants inside a concept and placement change one declared variable and say which. For concept screening or a user-supplied factorial plan, declare the intended contrast and changed components; do not attribute a bundled result to one component. Adapt between placements; do not require identical platform copy. The following table is an internal planning aid, not a mandatory output:
 
 | Concept | Variant | Variable changed | Opening line | Proof (F-id) | Format | What this variant tests |
 |---|---|---|---|---|---|---|
@@ -11,7 +11,7 @@ Variables to choose from: opening line, proof type (number, customer quote, demo
 
 ## Text per placement
 
-Size every field to the recommendation and show the hard limit next to it (`platform-specs.md`). Where only a recommendation exists, say "no hard limit stated; text past this point is cut in the feed". Where nothing is stated (TikTok caption), print "maximum unknown — check the platform's current spec" and keep the caption short by choice, not by a number.
+Use recommendations as drafting defaults, adapted to the request and placement; enforce hard maxima and distinguish them from recommendations (`platform-specs.md`). Where only a recommendation exists, say "no hard limit stated; longer text may truncate depending on rendering". Where nothing is stated (TikTok caption), print "maximum unknown — check the platform's current spec" and keep the caption short by choice, not by a number.
 
 ## Video opening and on-screen text
 

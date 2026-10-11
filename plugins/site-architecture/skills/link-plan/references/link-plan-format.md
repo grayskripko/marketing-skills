@@ -17,10 +17,10 @@
 4. Anything else the user asked for.
 Without tiers, use the user's list of important pages, then depth.
 
-## Caps (heuristics of this plugin — change them if you like)
+## Caps (heuristics of this plugin — apply user-supplied overrides; otherwise adapt only when task evidence justifies the change, stating any material change to the recommendation)
 
-- At most 30 rows per run.
-- At most 3 new links added to any one source page per run.
+- Default first review batch: 30 edits when no budget is supplied. Disclose remaining eligible work; provide the complete plan when requested. Recompute before/after for the selected edits only.
+- Choose new links per source by relevance, content length and reader task coverage. Three may be a starting review allowance, never a required maximum. Honor an explicit user budget.
 - Sources are pages whose subject is close to the target; a source with no connection to the target is not used, even when it would cut depth.
 
 ## Provenance check

@@ -10,11 +10,11 @@ Checks whether a marketing idea can pay for its customers before you spend, drop
 
 | Skill | Give it | You get |
 |---|---|---|
-| idea-shortlist | a product description | one main bet, two cheap tests, the most you can pay per customer and click |
-| idea-ranking | your list of acquisition ideas | three to test first |
+| idea-shortlist | a product description | one main bet, up to two optional useful tests, the most you can pay per customer and click |
+| idea-ranking | your list of acquisition ideas | up to three useful ideas to test first |
 | idea-payback-check | one idea, ideally a quote | verdict, break-even, cheapest test |
 | idea-test-card | ideas you picked | volume check, pass and stop lines, run time |
-| idea-readout | counts from tests you ran | scale, iterate once, stop or inconclusive |
+| idea-readout | counts from tests you ran | next feasible volume step, another bounded round, stop or inconclusive |
 
 ## Examples
 

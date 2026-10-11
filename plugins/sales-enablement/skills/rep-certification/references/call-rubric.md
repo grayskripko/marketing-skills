@@ -15,7 +15,7 @@ How "not observed" counts depends on the use:
 | Use | "not observed" | Verdict |
 |---|---|---|
 | Coaching a real call | left out of both points and maximum; listed separately | none; coaching is not pass or fail |
-| Certification role-play and ramp gates | counts as 0, because the drill gives the rep every chance to show the row | pass rule below |
+| Certification role-play and ramp gates | untested if no eliciting opportunity or sufficient evidence exists; score 0 only with evidence of an applicable missed opportunity; incomplete critical coverage prevents a full assessment verdict | pass rule below |
 
 ## Discovery rows (CS-01 to CS-12)
 
@@ -55,7 +55,7 @@ All 8 are scored. Maximum = 8 × 2 = 16.
 
 ## Pass rule (certification and ramp gates only)
 
-Default of this plugin; you can change it. A run passes when both hold:
+Use a supplied user replacement; otherwise apply this labelled practice default. Do not silently alter it or treat it as validated readiness evidence. A run passes when both hold:
 1. No 0 on any row the user marks critical (default critical rows: discovery CS-03, CS-05, CS-12; demo CS-D02, CS-D08).
 2. Points ≥ 70% of the available maximum, compared before rounding up to whole points.
 

@@ -24,4 +24,4 @@ Words that set duties, permissions, conditions or deadlines (must, shall, may, s
 - GOV.UK A to Z style guide: https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/style-guides/a-to-z-style-guide/
 - digital.gov plain language guide series: https://digital.gov/guides/plain-language
 
-If this note is more than six months old when you use it, re-check these pages before relying on the wording.
+Maintainer note: review source wording outside user editing runs when a source change could affect these checks. The executing agent must respect the skill's network scope and must not claim current source verification from this snapshot. If uncertain source wording determines the requested edit, identify that limitation.

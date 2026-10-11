@@ -1,5 +1,7 @@
 # Myths
 
+Use these corrections only when the user raises the matching claim; adapt them to supplied evidence. Business actions and review cadences below are recommendations for the user's team, not instructions to execute or schedule work. Do not fill three test slots when useful tests exceed capacity.
+
 Claims users often bring, each with a short correction and its source. No figures from other companies are used.
 
 1. **"A big launch day is a channel."** A launch, a viral post or a press mention arrives once. A channel brings buyers again next month at a cost you can predict. Treat a launch as a wave and plan where it lands (a list, a trial), or it leaves nothing behind. Source: Weinberg and Mares, *Traction* (2015), on testing channels for repeatability.

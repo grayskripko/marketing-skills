@@ -21,7 +21,7 @@ Example: 42/84 against 6/36 is 33.3 pp (14.9–47.0).
 
 - Never judge a difference by whether two intervals overlap; print the difference interval.
 - Compare with thresholds before rounding; print one decimal; round half away from zero.
-- n under 20: print the row, add "thin sample" (heuristic of this plugin), and do not call it different from another group.
+- For inference with n under 20, inspect precision and, when relevant, flag the small sample. Do not use n=20 as an automatic veto on a difference; assess sampling design, interval width, practical effect and decision consequences.
 - A difference between groups is an association. Write "association, not proof" and name one plausible other cause (for example, clearer first posts may attract both replies and returns).
 - Durations: median and 75th percentile, with n. No means for durations.
 - A rate the user gives without a denominator is marked "n not given" and gets no interval.
