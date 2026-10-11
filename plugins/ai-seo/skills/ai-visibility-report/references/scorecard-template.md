@@ -1,14 +1,18 @@
 # Scorecard template
 
-Use this optional layout only for a requested full report. Include only sections needed for the requested answer. Keep engines separate; never add a blended total. A short verdict does not require a scorecard, monitoring-alert table or next steps.
+Use this layout. Keep engines in separate rows; never add a blended total. Leave out any section with nothing in it.
 
 ## 1. The answer
 
-One line per engine with observed counts, rates and point change. For example: "Engine A: 21/90 (23.3%) to 33/90 (36.7%), +13.3 points observed; repeatability and cause are separate questions."
+One line per engine, for example: "Engine A, unbranded: 21 of 90 runs (23.3%) in 2026-08, 33 of 90 (36.7%) in 2026-09, +13.3 points: clear change (rule below)."
 
-## 2. Comparison, only when requested
+## 2. Changes between periods
 
-Show practical importance and uncertainty as supported by the supplied design. If the optional monitoring alert is used, show its actual conditions and values with "meets," "does not meet" or "unknown." Its 10-point / 30-run / three-prompt defaults and median-three repetition check are heuristics, not a statistical test. Do not present unmet conditions as proof of noise.
+| Engine | Change in mention rate | Condition 1: at least 10 points | Condition 2: at least 30 runs each, not thin | Condition 3: at least 3 prompts same direction | Verdict |
+|---|---|---|---|---|---|
+| Engine A | 23.3% to 36.7% (+13.3 pts) | yes | yes (90, 90) | yes (6 up, 1 down) | clear change |
+
+State once that the thresholds are heuristics, not a statistical test.
 
 ## 3. Scorecard (unbranded prompts)
 
@@ -32,7 +36,7 @@ Only the lost prompts; the full per-prompt table only on request.
 
 ## 6. Next steps
 
-Include follow-up actions only when requested or necessary for the current decision. Give a next run date only for a requested measurement plan, using supplied timing and an appropriate cadence.
+Route each item in words to a page check, an answer-gap check or the off-site plan, and name the next run date.
 
 ## 7. Data quality and calculation table
 

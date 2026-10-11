@@ -6,7 +6,7 @@ Rewrites make an existing passage easier to quote accurately. They use only fact
 
 1. **Answer first.** Start the section with one or two sentences that answer its heading directly, then give detail. Before: a paragraph of background, then the answer. After: the answer, then the background.
 2. **Stand alone.** Replace "as mentioned above", "this", "it" and "they" that point outside the section with the thing they refer to. A reader landing on the section should not need the previous one.
-3. **Claim, reason, limit, example.** Use reasons, limits, examples or sources when they are supported and necessary for accurate interpretation. Preserve material exceptions, but do not pad an atomic policy or invent explanatory facts to fill this pattern.
+3. **Claim, reason, limit, example.** Each key paragraph states the claim, why it holds, where it stops holding, and one example or source. The limit is what makes a passage safe to quote.
 4. **Specifics over adjectives.** Replace "fast", "flexible" or "powerful" with the number, condition or feature the user can confirm, or a placeholder.
 5. **Use the requested shape.** Use a table when a comparison needs one or the user asks for it. Do not repeat the same simple facts in prose and a table. For requested ready-to-paste sections, give each section once, name the product, and keep evidence notes outside the copy.
 6. **Name the source.** Say who the company is and what the page is in plain words near the top.

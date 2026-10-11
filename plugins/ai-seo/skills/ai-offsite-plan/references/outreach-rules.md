@@ -1,6 +1,6 @@
 # Outreach rules
 
-Apply these rules to proposed plans and drafts. Routes below describe actions for the user's representative, not actions to execute during this skill. Do not send, post, submit corrections, contact customers or maintain an external outreach log. Include a fact pack in a proposed draft when appropriate; attachment is not authorization to send it. Preserve affiliation disclosure and each destination's policy requirements. When a request conflicts with these rules, decline that part and offer the permitted route.
+These rules keep the off-site plan honest and within the policies of the sites involved. When a request conflicts with them, decline that part and offer the route below.
 
 ## Always
 

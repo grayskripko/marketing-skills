@@ -22,17 +22,21 @@ Compute every metric per engine and per period, and separately for `branded = no
 
 Rounding: compare values with thresholds before rounding; print percentages and point changes to one decimal, rounding half away from zero (a change of 6.25 points prints as +6.3).
 
-## Repetition and uncertainty
+## Thin sample
 
-Report runs, distinct prompt IDs, allocation, independent observation days and settings where supplied. Median repetitions below 3 may be flagged as below the manual monitoring default, but are not a universal adequacy test. Report observed rates for small groups; do not confuse an observed difference with reliability or causal attribution.
+An engine-period group is **thin** when the median number of runs per prompt is below 3 (heuristic). Thin groups are scored and shown, but no change involving them is called a clear change.
 
-## Optional manual monitoring alert
+## Noise rule (heuristic)
 
-For a requested comparison where this preset is useful, check an absolute rate change of at least 10 percentage points, at least 30 relevant runs per period with median repetitions of at least 3, and at least 3 prompt IDs moving in the overall direction, pooling phrasings. Print conditions only when using this preset. State "meets" or "does not meet the default monitoring alert," never proven change versus noise. Unknown conditions remain unknown. User goals and measurement design determine practical thresholds and uncertainty analysis.
+Compare the unbranded mention rate of the same engine between two periods. The verdict is **clear change** only when all three hold:
 
-Retain the cited Ahrefs AI Overview volatility study as background motivating repeat observations, not as a derivation of these thresholds or a guarantee of applicability to other engines. Preserve its original source and date in the background evidence.
+1. The absolute change is at least 10 percentage points.
+2. Each period has at least 30 unbranded runs for that engine, and neither period is thin.
+3. At least 3 `prompt_id`s changed their own mention rate in the same direction as the overall change (both phrasings pooled per `prompt_id`).
 
-Background evidence: Ahrefs observed AI Overview content changing about every 2.15 days on average, with about 45.5% of cited sources new when it changed (ahrefs.com/blog/ai-overview-change/, published 2025-11-11).
+Otherwise the change is **within run-to-run variation**. Print the three conditions with their values for every engine. Apply the same rule to citation rate if the user asks.
+
+Why a rule is needed: AI answers change often. Ahrefs observed AI Overview content changing about every 2.15 days on average, with about 45.5% of cited sources new when it changed (ahrefs.com/blog/ai-overview-change/, published 2025-11-11). A single difference between two small samples is often noise. The thresholds above are heuristics, not statistical tests; say so when reporting.
 
 ## Lost prompts
 

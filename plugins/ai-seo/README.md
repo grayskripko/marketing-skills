@@ -11,9 +11,9 @@ Each skill is chosen by what you give it:
 | You give | Skill |
 |---|---|
 | "Do we show up in ChatGPT?" with a brand, a category and competitors, no results yet | `ai-visibility-panel`: prompt panel as CSV and a run protocol |
-| A filled panel sheet or many logged runs | `ai-visibility-report`: per-engine scorecard, observed changes and evidence limits per engine, with an optional monitoring alert, sources cited instead |
+| A filled panel sheet or many logged runs | `ai-visibility-report`: per-engine scorecard, a clear-change-or-noise verdict per engine, sources cited instead |
 | A Bing AI Performance export, a Search Console generative AI report or AI Assistant channel data | `ai-citation-data`: pages ranked by value against citation share |
-| One page, and a question about being quoted in AI answers | `ai-page-audit`: a plain verdict, the changes that matter, rewrites, an optional checklist score over applicable checks (0-18 when all nine apply) and a warning if the page hides text aimed at AI |
+| One page, and a question about being quoted in AI answers | `ai-page-audit`: a plain verdict, the changes that matter, rewrites, a 0-18 checklist score and a warning if the page hides text aimed at AI |
 | One query plus answers you copied | `ai-answer-gap`: what to add or correct, with a sub-question coverage matrix |
 | URLs cited in answers, or "how do we get described correctly elsewhere" | `ai-offsite-plan`: source table and fact pack |
 
@@ -27,7 +27,7 @@ To try the scorecard and the export analysis with files, use the small fictional
 
 ## How it works
 
-The panel skill builds prompts, a blank log and a human run protocol suited to the user's objective and workload. The buyer-discovery preset offers adjustable buckets, 20-30 prompt IDs, spaced repetitions and monthly review. You run the selected engines and log actual observations with reproducible settings. The scorecard reports rates with counts, observed changes and evidence limits. An optional 10-point / 30-run / three-prompt monitoring alert is a disclosed convention, not proof of change or noise. Relevant owned-page gaps go to the page or answer-gap check; third-party sources go to an honest off-site plan. Sourced notes address claims such as llms.txt or schema benefits within their documented scope.
+The panel skill writes 20-30 buyer prompts in fixed buckets and a protocol: each engine measured separately, several runs per prompt, fixed settings. You run it on the engines you care about, for example ChatGPT, Perplexity, Google AI Overviews and AI Mode, Gemini, Claude or Microsoft Copilot, and log the results in the sheet. The scorecard prints every rate with its sample size and uses a written rule to separate a clear change from run-to-run variation. Pages that lose out go to the page check and the answer gap; third-party sources go to the off-site plan, which only uses disclosed, rule-abiding routes. Claims such as "add llms.txt" or "schema gets you cited" are answered from sourced notes, not repeated as advice.
 
 ## Data and network
 
@@ -39,7 +39,7 @@ Logs, exports and brand names you share stay in your conversation with the assis
 
 - **No web tool:** paste the page source ("view source") and robots.txt.
 - **Export not recognized:** say which report produced it, or paste the header row.
-- **Thin sample warning:** three spaced observations per prompt are a pilot default; report observed changes now and choose further collection from the decision and uncertainty.
+- **Thin sample warning:** run each prompt at least three times per engine before comparing periods.
 - **Mixed settings in the log:** keep one setting per engine, or split the log.
 
 ## Support
