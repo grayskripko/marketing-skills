@@ -30,7 +30,7 @@ Each check lists what to look at, what counts as confirmation, common false posi
 
 **2.6 Infinite and junk URL spaces.** Faceted filters, sort orders, session IDs, calendars and internal search that generate unbounded URL combinations. Check whether they are linked, indexable, and whether robots.txt or noindex controls them. Google's crawl budget guidance says budget mainly matters for very large sites (about 1 million+ unique pages changing about weekly, or 10,000+ unique pages changing daily, per Google's crawl budget guide); for small sites, report these for index quality rather than budget. Might be intentional: often Yes. Impact: Medium.
 
-**2.7 Depth.** Important pages reachable within a few clicks from the homepage. With a sample, estimate from navigation; confirm with a crawler export. A depth above 3 for pages tied to the goal is worth a finding (heuristic). Impact: Medium.
+**2.7 Depth.** Important pages reachable within a few clicks from the homepage. With a sample, estimate from navigation; confirm with a crawler export. Depth above 3 is an investigation screen (heuristic); establish weak discovery using crawl coverage, relevant inlinks, bot demand and page importance before reporting an SEO problem. Impact: Medium.
 
 ## 3. Rendering
 
@@ -56,7 +56,7 @@ Each check lists what to look at, what counts as confirmation, common false posi
 
 ## 5. Content
 
-**5.1 Template boilerplate share.** On 2 or 3 pages of the same template, estimate how much of the main content area is identical. When most of the main content is shared and only a name or number changes, pages look near-duplicate. Heuristic: flag when the unique part is clearly the minority of the main content. Impact: Medium to High for programmatic or listing templates.
+**5.1 Template boilerplate share.** On 2 or 3 pages of the same template, estimate how much of the main content area is identical. When most of the main content is shared and only a name or number changes, pages look near-duplicate. Heuristic: a minority unique-text share prompts investigation; assess distinct utility, intended indexability and user intent before reporting low value. Expand the initial 2 or 3 examples across relevant template states and contradictory evidence. Impact: Medium to High for programmatic or listing templates.
 
 **5.2 Intent coverage.** Does the page answer what someone searching for its main topic needs (price, specs, comparison, steps, availability)? Record what is missing, not a style opinion. Impact: Medium.
 

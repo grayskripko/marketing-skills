@@ -1,6 +1,6 @@
 # Site audit report template
 
-Optional example for a full site report, not a required layout. The user’s requested artifact takes precedence. Do not repeat actions under both Top changes and Findings. State decision-changing limitations where they matter; a separate Not checked or Scope block is optional. The closing offer is optional, not part of every answer.
+Optional example for a full site report, not a required layout. The user’s requested artifact takes precedence. Do not repeat actions under both Top changes and Findings. State decision-changing limitations where they matter; a separate Not checked or Scope block is optional. Include a next-step offer only when it advances the requested task or resolves a specific remaining decision; request an export only when its identified fields would resolve that decision.
 
 ```
 # SEO audit: <site or section>, <date>
@@ -30,7 +30,7 @@ Optional example for a full site report, not a required layout. The user’s req
 - Data provided by the user: <exports, or "none">
 - Assumptions: <only those that would change the answer if wrong>
 
-I can turn these into developer tickets with acceptance criteria. If you have Search Console or crawler exports, share them for a review with fixed thresholds.
+
 ```
 
 ## Writing rules

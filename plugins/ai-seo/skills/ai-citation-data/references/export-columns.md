@@ -16,7 +16,7 @@ What it covers: how often pages from the site are shown as sources in AI-generat
 | Topic cluster | Topic |
 | Date or period | Date |
 
-Where: Bing Webmaster Tools, the site's property, AI Performance. If the report offers a download, use it; otherwise copy the table from the screen. Grounding queries are a sample of citation activity, per Bing.
+Where: Bing Webmaster Tools, the site's property, AI Performance. Instructions to relay to the account owner when an export is missing: download the report if available, otherwise copy its table. Analyze supplied data; do not access the account. Grounding queries are a sample of citation activity, per Bing.
 
 ## Google Search Console: generative AI performance reports
 
@@ -52,10 +52,6 @@ Any table with a page URL and one value column: conversions, pipeline, revenue, 
 
 ## URL normalization before joining
 
-1. Lower-case the scheme and host; drop `www.` only if the user confirms both hosts serve the same site.
-2. Treat `http` and `https` as the same page.
-3. Remove the fragment (`#...`) and a trailing slash (except for the root `/`).
-4. Remove tracking parameters: `utm_*`, `gclid`, `fbclid`, `msclkid`, `mc_cid`, `mc_eid`, `ref`.
-5. Keep other query parameters; they may be different pages.
+Retain raw URLs and normalize scheme/host case. Preserve potentially meaningful path, fragment and query distinctions. Merge HTTP/HTTPS, trailing-slash or www variants only after supplied evidence, confirmed redirects/canonicals or the user establishes identity. Remove only confirmed attribution-only parameters; names such as `ref` do not establish that they are tracking-only. Stay within the network rule when checking identity; otherwise retain separate records and report ambiguous matches.
 
 List URLs that did not join after normalization, with the likely reason.

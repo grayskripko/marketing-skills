@@ -2,29 +2,27 @@
 
 ## Brief fields
 
-| Field | Required | Example (fictional) |
+| Field | Role in drafting | Example (fictional) |
 |---|---|---|
-| Product in one sentence | yes | "Acme Invoicing sends and chases invoices for small agencies." |
-| Audience | yes | "Owners of design and marketing agencies with 3–20 staff who invoice clients monthly." |
-| The one action | yes | "Start a 14-day trial." |
-| The reader's current alternative | yes | "Invoices built in a document template and chased by email." |
-| Facts (all the user gives; at least 2) | yes | "Sends reminders on a schedule the owner sets"; "Syncs paid invoices to the accounting system"; "212 paying customers" |
-| Proof assets | yes, or "none" | "Two customer quotes with permission", or "none" |
+| Product in one sentence | Minimum: known or clearly inferable | "Acme Invoicing sends and chases invoices for small agencies." |
+| Audience | Helpful context; needed when the requested copy depends on audience fit | "Owners of design and marketing agencies with 3–20 staff who invoice clients monthly." |
+| Intended actions | Needed for requested action copy; allow plan or audience routes | "Start a 14-day trial." |
+| The reader's current alternative | Helpful context; omit unsupported comparisons | "Invoices built in a document template and chased by email." |
+| Supplied facts | Enough relevant facts to support the requested copy; no quota | "Sends reminders on a schedule the owner sets"; "Syncs paid invoices to the accounting system"; "212 paying customers" |
+| Proof assets | Optional unless the requested section needs evidence; omit unsupported proof | "Two customer quotes with permission", or "none" |
 | Constraints | optional | Length, words to avoid, legal lines the user must include |
 | Voice profile | optional | From voice-profile |
 
-With the product and at least two facts, draft now. Never turn unknown product facts into assumptions. Omit unsupported statements; mark or briefly note only missing details material to use, fit, price or cancellation. Ask first only when the product or page type is unknown: one short list, most important first.
+Draft when the known product, page purpose and supplied facts support the requested copy without implying unknown material terms. Never turn unknown product facts into assumptions. Omit unsupported statements; mark or briefly note only missing details material to use, fit, price or cancellation. Ask first only when the product or page type is unknown: one short list, most important first.
 
 ## Message plan (for yourself; show it only when the user asks for a message brief)
 
 1. **Positioning line:** For [audience] who [current alternative and its cost], [product] [what it does], unlike [alternative], [differentiator from the facts].
 2. **Hierarchy:**
    - Main message: one sentence.
-   - Supporting point 1, with its proof (a brief fact number, or "no proof yet").
-   - Supporting point 2, with its proof.
-   - Supporting point 3, with its proof.
-3. **The one call to action,** worded as the next step.
-4. **Assumptions so far.**
+   - Distinct supporting points as warranted by the facts and reader decisions, each with its supporting fact or evidence. Do not force a minimum or maximum.
+3. **Action hierarchy,** with clearly named next steps appropriate to campaign, plan comparison or audience routing.
+4. **Provisional nonfactual drafting choices and unresolved material facts.** Keep unsupported product and audience claims out of public copy.
 
 ## Rules
 

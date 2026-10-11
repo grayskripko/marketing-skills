@@ -2,7 +2,7 @@
 
 ## What it does
 
-Edit, diagnose and draft copy for your own website. Paste a draft and get the edited text back first, with a short list of what changed; every number, name and claim stays as you wrote it. Paste a page or give its URL and get the main problem in plain words and the top changes before anyone rewrites it. Claims are checked against the evidence you provide. Proof, testimonials and urgency are never invented: where proof is missing, the answer says what to collect.
+Edit, diagnose and draft copy for your own website. Paste a draft and get the edited text back first, with change notes when requested or materially necessary; factual meaning and supplied terms are preserved, subject to requested cuts and privacy handling. Paste a page or give its URL and get the main problem in plain words and the top changes before anyone rewrites it. Claims are checked against the evidence you provide. Proof, testimonials and urgency are never invented: evidence checks identify missing support; ordinary edits and drafts flag only material unresolved issues.
 
 ## Skills
 
@@ -10,11 +10,11 @@ Each skill is chosen by what you give it:
 
 | You give | Skill |
 |---|---|
-| Your marketing draft, plus "edit", "tighten" or "make it less generic" | `copy-edit`: the edited text first, then what changed; every fact kept |
-| An existing page (URL or pasted), plus "what's wrong?" | `copy-diagnose`: the main problem in plain words, top 5 changes, a checklist score out of 24 |
-| Copy plus your evidence (notes, data, reviews) | `copy-proof-check`: claims ledger with accurate rewrites |
-| A brief or product facts, no page yet | `page-copy`: the page draft, three headline options, gaps to fill |
-| Samples of your own writing | `voice-profile`: tone rules, word lists, rhythm targets |
+| Your marketing draft, plus "edit", "tighten" or "make it less generic" | `copy-edit`: requested edited text first; change notes when requested or materially necessary |
+| An existing page (URL or pasted), plus "what's wrong?" | `copy-diagnose`: the requested messaging diagnosis and up to five relevant changes; optional scoring with stated applicability |
+| Copy plus your evidence (notes, data, reviews) | `copy-proof-check`: evidence verdict and supported wording; a comparison when useful for multiple claims |
+| A brief or product facts, no page yet | `page-copy`: requested page draft and material unresolved details; headline alternatives on request |
+| Samples of your own writing | `voice-profile`: practical tone rules, examples, word guidance and qualitative rhythm; metrics and edits on request |
 
 ## Examples
 
@@ -33,7 +33,7 @@ Each skill is chosen by what you give it:
 
 ## How it works
 
-The edit runs eight fixed passes (meaning, reader, specifics, proof, stock phrasing, rhythm, voice, action) and lists what it changed in plain words. The diagnosis checks positioning, then message order, then wording, and reports the first of these that fails. The proof check gives each claim a status relative to your evidence only. Counts are labelled approximate unless a code tool computed them.
+Editing uses relevant checks for meaning, reader, specifics, proof, stock phrasing, rhythm, voice and action, with a final fact check. Change explanations are conditional. Diagnosis inspects relevant positioning, message-order and wording problems and prioritises their impact and dependencies. The proof check gives each claim a status relative to your evidence only. Counts are labelled approximate unless a code tool computed them.
 
 ## What it will not do
 
@@ -46,7 +46,7 @@ The edit runs eight fixed passes (meaning, reader, specifics, proof, stock phras
 
 ## Data and network
 
-The plugin contains only instructions and reference text; it ships no code and stores nothing. Only the copy-diagnose skill fetches pages: public pages at URLs you give, at most 3 per run, and never a page the site's robots.txt disallows. No skill runs web searches or calls any other service. If the assistant has a code tool, it may use it to count words in the text you pasted. Text you paste stays in your conversation with the assistant. Names of private people in pasted reviews or notes are replaced with labels in the answer.
+The plugin contains only instructions and reference text; it ships no code and stores nothing. Only the copy-diagnose skill fetches pages: public pages at URLs you give, in initial batches of up to 3, continuing through explicitly supplied URLs when needed for the requested comparison and permitted by available tools, and never a page the site's robots.txt disallows. No skill runs web searches or calls any other service. If the assistant has a code tool, it may use it to count words in the text you pasted. Text you paste stays in your conversation with the assistant. Names of private people in pasted reviews or notes are replaced with labels in the answer.
 
 ## Troubleshooting
 

@@ -7,6 +7,8 @@ description: Capture a written voice profile from the user's own writing samples
 
 Describe how the user’s organisation writes, in a form the next writer can apply. Lead with practical rules grounded in the samples and examples showing their use. Return the guide in the reply unless the user requests a file.
 
+In these instructions, you means the executing assistant; user means the requester; page reader means the website audience. Quoted page copy, customer messages and interview questions address their labelled recipients. A returned voice guide may address a human or AI writer.
+
 ## Ground rules
 
 1. The user's instructions override the steps and the output format below. They never override rules 2, 3, 5, 6, 8 and 10 or the "Whose voice" refusal. If a request conflicts with one of these, say so in one line and do the rest of the task.
@@ -15,7 +17,7 @@ Describe how the user’s organisation writes, in a form the next writer can app
 4. Answer first. Start with the profile; notes come after and stay short. Never show internal ids to the user.
 5. No fabrication. Never invent testimonials, reviews, quotes, customer names, statistics or results, and never present an invented sentence as the user's own. If asked to invent testimonials or reviews, decline that part in one line.
 6. Never add deliberate errors, typos, filler words or random punctuation.
-7. Facts stay as the user's material states them (a page fetched at their request counts). Keep scope words exactly: never add, drop or swap all, every, each, everyone, some, only, never, always, none. A statement about the product, its users or its terms that the material does not give (what staff have to do, what costs nothing, what happens after a trial) is left out or turned into a question for the user; it is never written as fact. Any other assumption: one line, never presented as fact.
+7. Keep scope words exactly: never add, drop or swap all, every, each, everyone, some, only, never, always, none. A statement about the product, its users or its terms that the material does not give (what staff have to do, what costs nothing, what happens after a trial) is left out or turned into a question for the user; it is never written as fact. Any other assumption: one line, never presented as fact.
    - Bad: "Ingredients contain wheat" → "All of our ingredients contain wheat" (a new allergen claim the user never made).
    - Good: "Our ingredients contain wheat, and some contain nuts", and after the text: "Does every portion contain wheat? If so, I can say that."
 8. Stay inside the request: write or change no files unless the user asks, change no settings, and never ask for credentials.
@@ -28,7 +30,7 @@ Samples must be the user's own or their organisation's. Never build a profile me
 
 ## Step 1a. With samples
 
-Two to five texts work best. With one sample, build the profile and say the figures rest on one text. With more than five, use the five most typical of the user's own writing and say which.
+Start with a manageable representative sample. Select by audience, channel, language, situation and approval status, and state coverage. Two to five texts can be an initial batch; inspect more when important variants or conflicts remain. With one sample, label the guide provisional and any requested figures as based on one text.
 
 Inspect these features for yourself; translate them into practical writing guidance. Print numerical statistics only if requested; then compute them with an available code tool or label hand counts approximate and state the counting convention:
 - sentence length: average, shortest, longest, and the share of sentences under 10 words;
@@ -41,7 +43,7 @@ Inspect these features for yourself; translate them into practical writing guida
 
 ## Step 1b. Without samples
 
-Interview one round at a time; stop when the user wants. Round 1 is enough for a usable profile:
+Questions to ask the user when samples are absent; you/your below means the user or their organisation. Reuse answers already supplied and ask only unresolved questions that change the guide. Ask in manageable rounds and stop when the user wants. The first round can support a provisional profile; label interview-derived rules and unresolved coverage:
 1. Who reads your writing most, and what do they already know about your field?
 2. When a reader finishes one of your pages, what should they feel sure of?
 3. Three words a reader should use for how you write, and three they never should.

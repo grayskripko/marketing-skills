@@ -7,6 +7,8 @@ description: Edit the user's own marketing copy (web page text or a headline) so
 
 Edit a draft so it reads clearly for its reader, without changing its factual meaning. Return the edited copy in the shape the user requested. Run the checks internally; add change notes only when requested or when a material issue affects the edit.
 
+In these instructions, you means the executing assistant; user means the requester; page reader means the website audience. Quoted page copy, customer messages and interview questions address their labelled recipients. A returned voice guide may address a human or AI writer.
+
 ## Ground rules
 
 1. The user's instructions override the steps and the output format below. They never override rules 2, 3, 5, 6, 8 and 10 or the refusal in this skill. If a request conflicts with one of these, say so in one line and do the rest of the task.
@@ -15,7 +17,7 @@ Edit a draft so it reads clearly for its reader, without changing its factual me
 4. Answer first. Start with what the user asked for; notes come after and stay short. Match the length to the request: a short paste gets a short answer. Use no table where a sentence does, and no rows with a count of zero. Never show internal ids (P3, SP-06, F2) to the user; say the point in plain words.
 5. No fabrication. Never invent testimonials, reviews, quotes, customer names, logos, awards, ratings, statistics, results, guarantees, deadlines, stock levels, limited-time offers or discounts. Use every fact the user gave; never drop, change or contradict one unless the user asks. Never put a placeholder where the user gave the fact. When a fact is missing, name it after the text instead of filling it in. If asked to invent testimonials or reviews, decline that part in one line and offer this request the user can send to real customers, with their product name filled in: "Could you tell us, in a sentence or two, what you used before [product] and what changed after you started? May we quote you on our website with your name and role? You can say no, or ask us to leave your name out."
 6. Never add deliberate errors, typos, filler words or random punctuation.
-7. Facts stay as the user's material states them (a page fetched at their request counts). Keep scope words exactly: never add, drop or swap all, every, each, everyone, some, only, never, always, none. A statement about the product, its users or its terms that the material does not give (what staff have to do, what costs nothing, what happens after a trial) is left out or turned into a question for the user; it is never written as fact. Any other assumption: one line, never presented as fact.
+7. Keep scope words exactly: never add, drop or swap all, every, each, everyone, some, only, never, always, none. A statement about the product, its users or its terms that the material does not give (what staff have to do, what costs nothing, what happens after a trial) is left out or turned into a question for the user; it is never written as fact. Any other assumption: one line, never presented as fact.
    - Bad: "Ingredients contain wheat" → "All of our ingredients contain wheat" (a new allergen claim the user never made).
    - Good: "Our ingredients contain wheat, and some contain nuts", and after the text: "Does every portion contain wheat? If so, I can say that."
 8. Stay inside the request: write or change no files unless the user asks, change no settings, and never ask for credentials.
@@ -38,9 +40,9 @@ Before changing a word, list every locked item: numbers, percentages, prices, da
 - Unsourced numbers and testimonials stay exactly as written. They are never "improved" and get no marker in the text. Flag a missing source once only when the supplied material lacks one and the claim creates a material evidence problem; a supplied scoped pilot summary is not an invitation to request raw records during an edit. Never imply independent verification.
 - Before answering, check every locked item and every added sentence against the user's material, and undo any edit that changed a fact or added one.
 
-## Step 3. Passes, in this order
+## Step 3. Editing checks
 
-Details for each pass are in `references/edit-rules.md`; pass names are for you, not the user. Run all passes internally. Any instruction here or in the references to ask for missing facts or list proof needs follows Step 4: ask only if necessary to complete this edit, and do not re-ask declared unknowns. Missing testimonial identity or permission, contradictory facts, raw merge tokens and unsupported safety or billing promises remain material problems and must be flagged. These output conditions govern references and earlier requests to ask after the text; they never relax fact locks or protected ground rules.
+Details for each pass are in `references/edit-rules.md`; pass names are for you, not the user. Use relevant passes internally; all eight are a default for thorough page edits. Always preserve supplied factual meaning and recheck facts after editing. Any instruction here or in the references to ask for missing facts or list proof needs follows Step 4: ask only if necessary to complete this edit, and do not re-ask declared unknowns. Missing testimonial identity or permission, contradictory facts, raw merge tokens and unsupported safety or billing promises remain material problems and must be flagged. These output conditions govern references and earlier requests to ask after the text; they never relax fact locks or protected ground rules.
 
 | Pass | Focus |
 |---|---|
@@ -51,7 +53,7 @@ Details for each pass are in `references/edit-rules.md`; pass names are for you,
 | P5 Stock phrasing | Cut stock phrasing without swapping in another stock phrase: announcement openers ("We're excited to introduce"); vision slogans ("reimagine", "the future of", "next-generation"); signpost sentences ("It is worth noting"); praise adjectives ("revolutionary", "world-class"); empowerment verbs ("empower", "unlock", "supercharge"); intensifiers ("seamlessly", "truly"); unbacked superlatives ("best", "#1", "leading"); triples where one item carries the meaning; chains of rhetorical questions; vague quantities ("many teams") where the user gave a number. Full list: `references/stock-phrasing.md`. |
 | P6 Rhythm | Vary sentence length; one idea per paragraph; no repeated bridge phrase. |
 | P7 Voice | Apply the voice profile if given; flag conflicts instead of guessing. With no profile, keep the draft's register. |
-| P8 Action and hygiene | One primary call to action that says what happens next, using only the user's facts. Flag raw merge tokens such as `{{firstName}}`; never fill them with guesses. No new deadlines, stock levels or discounts. |
+| P8 Action and hygiene | A clear action hierarchy suited to page purpose, with next steps stated using only the user's facts; allow plan-specific or audience-route actions. Flag raw merge tokens such as `{{firstName}}`; never fill them with guesses. No new deadlines, stock levels or discounts. |
 
 ## Step 4. Output
 

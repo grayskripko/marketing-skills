@@ -36,4 +36,4 @@ Anything assumed rather than seen (the buyer's intent, which engines matter, why
 
 - One issue per finding. The same issue on many pages is one finding with a count and up to 3 examples.
 - Every rate taken from AI answers carries its n and the dates of the runs.
-- If a check could not be run (no access, cap reached, tool missing, no answers pasted), list it under "Not checked" with the way to check it. Do not guess a result.
+When an unchecked item materially limits the requested conclusion, state that limitation beside the affected conclusion. Give a way to check it only when needed for this task or requested; do not append a mandatory "Not checked" section.

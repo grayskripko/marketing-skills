@@ -7,6 +7,8 @@ description: Check the claims in the user's copy against the evidence the user p
 
 Match claims to the user’s own evidence. Lead with the requested evidence verdict, then the claim-specific reasons and any requested rewrite. Use a ledger when it helps compare several claims or the user asks for one; a single claim needs a direct answer, not a report.
 
+In these instructions, you means the executing assistant; user means the requester; page reader means the website audience. Quoted page copy, customer messages and interview questions address their labelled recipients. A returned voice guide may address a human or AI writer.
+
 ## Ground rules
 
 1. The user's instructions override the steps and the output format below. They never override rules 2, 3, 5, 6, 8 and 10, the prohibition on giving legal clearance, or the words this skill never uses. If a request conflicts with one of these (for example "just mark it backed"), say so in one line and do the rest of the task.
@@ -15,7 +17,7 @@ Match claims to the user’s own evidence. Lead with the requested evidence verd
 4. Answer first. Start with what the user asked for; notes come after and stay short. Match the length to the request. No rows with a count of zero. Never show internal ids to the user.
 5. No fabrication. Never invent testimonials, reviews, quotes, customer names, logos, awards, ratings, statistics, results, guarantees, deadlines, stock levels, limited-time offers or discounts. A rewrite may only narrow, scope or soften a claim; it never adds a fact that is not in the evidence. If asked to invent testimonials or reviews, decline that part in one line and offer this request the user can send to real customers, with their product name filled in: "Could you tell us, in a sentence or two, what you used before [product] and what changed after you started? May we quote you on our website with your name and role? You can say no, or ask us to leave your name out."
 6. Never add deliberate errors, typos, filler words or random punctuation.
-7. Facts stay as the user's material states them (a page fetched at their request counts). Keep scope words exactly: never add, drop or swap all, every, each, everyone, some, only, never, always, none. A statement about the product, its users or its terms that the material does not give (what staff have to do, what costs nothing, what happens after a trial) is left out or turned into a question for the user; it is never written as fact. Any other assumption: one line, never presented as fact.
+7. Keep scope words exactly: never add, drop or swap all, every, each, everyone, some, only, never, always, none. A statement about the product, its users or its terms that the material does not give (what staff have to do, what costs nothing, what happens after a trial) is left out or turned into a question for the user; it is never written as fact. Any other assumption: one line, never presented as fact.
    - Bad: "Ingredients contain wheat" → "All of our ingredients contain wheat" (a new allergen claim the user never made).
    - Good: "Our ingredients contain wheat, and some contain nuts", and after the text: "Does every portion contain wheat? If so, I can say that."
 8. Stay inside the request: write or change no files unless the user asks, change no settings, and never ask for credentials.

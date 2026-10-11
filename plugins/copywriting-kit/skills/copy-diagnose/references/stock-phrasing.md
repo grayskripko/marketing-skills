@@ -95,4 +95,4 @@ Count SP-xx hits per 100 words of body copy. The bands below are a heuristic for
 - more than 1 and up to 3: score 1;
 - more than 3: score 0.
 
-Under 100 words of copy, apply the bands to the raw count and say so.
+Use the bands only as optional rough defaults for comparable texts of at least 100 words, with a stated counting convention. For shorter copy, identify the phrases and their effect, with hit count and word count; do not assign a density grade.

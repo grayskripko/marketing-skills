@@ -5,7 +5,7 @@ Select only sections that help the requested guide; this is a menu, not a requir
 ```markdown
 # Voice profile: [organisation]
 
-Source: [n samples, total words] or [interview, date]
+Source: [sample coverage] or [interview, date]; include counts only if requested.
 
 ## Voice in one sentence
 [How this organisation sounds to its reader.]
@@ -24,7 +24,10 @@ Source: [n samples, total words] or [interview, date]
 - Use: [words and phrases that recur in the samples]
 - Avoid: [words the samples never use, plus the user's own list]
 
-## Rhythm targets
+## Rhythm guidance
+[Qualitative patterns and how to apply them.]
+
+## Optional measured rhythm — only when requested
 - Average sentence length: [n] words (range [a]–[b]).
 - Share of sentences under 10 words: [x%].
 - Paragraphs: [n] sentences on average.
@@ -35,7 +38,7 @@ Source: [n samples, total words] or [interview, date]
 - [user's items]
 - [stock phrasing the user wants gone]
 
-## Before / after (the user's own sentences)
+## Optional before / after — only when edits are requested (the user's own sentences)
 1. Before: [...] → After: [...] (rules applied: [...])
 2. ...
 3. ...

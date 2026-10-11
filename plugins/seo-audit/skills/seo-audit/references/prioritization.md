@@ -22,17 +22,13 @@ An excluded URL that should stay excluded has no impact. A pattern marked "Might
 
 ## Effort
 
-- **S**: a config or template change, under a day.
-- **M**: several templates or a content batch, a few days.
-- **L**: architecture, platform or large content work, a sprint or more.
-
-If the team size or stack is unknown, say the effort is an estimate.
+Preserve supplied effort in the user's units. Otherwise leave effort unknown unless implementation evidence supports a provisional estimate with stated assumptions. Separate hands-on effort, lead time, dependencies and risk. If S/M/L is useful, define it in the team's units; under a day, a few days and a sprint or more are optional planning examples, not estimates inferred from config/template/content/architecture labels. HTML evidence alone does not authorize an estimate.
 
 ## Ordering the top 5 and the plan
 
-1. All High-impact indexing and server problems first, whatever the effort.
-2. Then High impact with S or M effort.
-3. Then the remaining quick wins. **Quick wins**: Medium or High impact, S effort, fitting within the user's stated capacity for the next 7 days. High-impact S items are already placed by step 2.
-4. Everything else goes to "planned".
+1. Keep confirmed causal blockers prominent for affected goal pages; repair them before downstream work that depends on them.
+2. Rank independent work by affected business value, reach, expected benefit, confidence, dependencies, effort and risk.
+3. Quick wins fit the user's capacity and planning horizon with supported effort; use a seven-day horizon only as an explicit fallback assumption. Unknown effort does not establish capacity fit.
+4. Separate priority from commitment: retain important deferred blockers and permit useful independent work.
 
 Tie-breaker: the change closest to the stated business goal wins.

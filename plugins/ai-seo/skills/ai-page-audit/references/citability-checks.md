@@ -1,6 +1,6 @@
 # Citability checks
 
-Nine checks, each scored 0, 1 or 2, plus one unscored risk flag. The total (0-18) is a checklist score: how many documented prerequisites and quotability checks pass. It is not a prediction of citation. Checks 1 and 7 rest on documented rules; the others are editorial heuristics about how easily a passage can be lifted and quoted correctly, and the output says so.
+This is an optional editorial rubric. Select applicable checks by page type and target question; keep existing false-positive exceptions. Mark N/A checks and exclude them from the total: maximum = 2 × applicable checks, 18 only when all nine apply. Assess engine-specific eligibility and decisive barriers separately; stylistic scores do not override them. The 200-word inspection window, structure and visible-date criteria are defaults to adapt, not universal citation requirements.
 
 | # | Check | 2 | 1 | 0 | Usual false positives |
 |---|---|---|---|---|---|

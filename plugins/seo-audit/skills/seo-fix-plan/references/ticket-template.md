@@ -20,12 +20,12 @@
 
 ## Writing rules
 
-- Acceptance criteria are things someone can check in minutes: a tag present or absent, a status code, a URL in or out of the sitemap, a link present in server HTML. Not "SEO improved".
+- Acceptance criteria are observable outcomes appropriate to the change: tags, status codes, sitemap membership or server-HTML links for technical work; supported factual coverage, intended-reader utility and editorial review for content work. State necessary expertise and review dependencies. Do not use "SEO improved" as release acceptance.
 - One change per ticket. Group many URLs under one ticket only when one change fixes them all.
 - Name the role, not a person.
 - Use the team's words: "template", "component", "route", "CMS field" as the user describes their stack.
 - Preserve supplied effort estimates and mark new estimates as provisional with assumptions. Unknown dependencies remain unknown.
-- Verify the exact change on every affected route, including shared-template regressions. Do not require Search Console access or indexing requests unless available or explicitly conditional. Add sitemap work only when the finding or release changes the sitemap.
+- Verify every changed rule/template and high-risk route, locale and state. Use exhaustive automated population checks when feasible; otherwise justify representative samples for large route inventories and state remaining coverage limits, including shared-template regressions. Do not require Search Console access or indexing requests unless available or explicitly conditional. Add sitemap work only when the finding or release changes the sitemap.
 - No ranking, indexing or traffic promises. Later monitoring is optional unless requested; any suggested window is a rule of thumb, not a deadline.
 
 ## Example
@@ -45,5 +45,5 @@
   - No product card uses href="#" or a non-anchor element for navigation.
 - How to verify after release:
   - Fetch the category page source and count product links.
-  - At 2–6 weeks, check whether more product URLs are listed as indexed in the Page indexing report; a crawler export should already show products at click depth 2–3.
+  - If indexed-state monitoring was requested and Search Console access exists, inspect product index status after evidence of recrawl. Choose any comparison window from available comparable data. Verify crawlable product links against the supplied navigation structure; do not assume a universal click depth or recovery date.
 ```

@@ -1,6 +1,6 @@
 # Prompt buckets
 
-A panel covers the questions buyers ask at different stages. Use these buckets so every panel is built the same way and can be compared month to month. The counts are heuristics for a panel of 20-30 prompts; adjust to the user's category.
+Use these buckets as an adjustable commercial buyer-discovery starter. Select relevant intents from the user's objective and seed queries; omit irrelevant buckets. Counts apply to prompt IDs, with phrasing rows counted separately; adapt allocation and panel size to coverage and workload.
 
 | Bucket | What it tests | Typical count | Branded? | Example (fictional brand Acme Invoicing) |
 |---|---|---|---|---|

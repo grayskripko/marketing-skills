@@ -7,7 +7,7 @@ Search Console "position" is the average topmost position of the site's result a
 ## 1. Striking-distance queries (heuristic)
 
 - Rows: queries with average position from 8.0 to 20.0 inclusive.
-- Minimum volume: at least 100 impressions in the export period. If the property has more than 1,000,000 impressions in the period, raise the minimum to 1,000.
+- Select and disclose the minimum volume using period length, relevant segment, evidence sufficiency and business value. The reproducible starting default is 100 impressions; the legacy large-property screen uses 1,000 above 1,000,000 property impressions, but use that only with a stated rationale. A one-impression boundary does not establish a meaningful difference in opportunity.
 - Sort the screening table by impressions, descending. Choose recommended work by the business goal, retaining useful near misses; a screen pass is not a business-priority verdict. Consider commercially relevant queries present only in query-by-page data separately, without treating page-level averages as a property-level query position.
 - Output: query, position, impressions, clicks, CTR, and the landing page if the export has it.
 - Meaning: pages that already rank near the first page, where on-page work and internal links tend to pay off first.
@@ -18,7 +18,7 @@ Search Console "position" is the average topmost position of the site's result a
 - Only rows with at least 200 impressions.
 - Compute the median CTR of the user's own rows in each band.
 - Flag rows whose CTR is below half of their band's median.
-- If a band has fewer than 3 qualifying rows, still compute it, but say the baseline is thin. A band with one row cannot flag anything.
+- Build peers from comparable search context before using position bands. With fewer than 3 qualifying peers, show a descriptive comparison and its limitations rather than a categorical outlier verdict; a singleton cannot establish an outlier. The existing bands, 200-impression minimum and half-median cutoff remain disclosed fallback screens, not proof of comparable exposure.
 - Branded queries (containing the site or brand name) usually have much higher CTR; if the user names the brand, compute bands without branded rows and say so.
 - Do not use a generic industry CTR curve.
 - A low CTR is a reason to inspect the query's results page, not proof that the title is bad. Mention particular search features only when evidence or the user's question makes them relevant; do not attribute these rows to unobserved features.
@@ -27,26 +27,26 @@ Search Console "position" is the average topmost position of the site's result a
 
 - Needs a table with query and page together.
 - Only queries with at least 50 impressions.
-- Flag a query when two or more of the site's URLs each hold at least 20% of the query's clicks. If the query has fewer than 10 clicks in total, use impressions instead of clicks.
+- For a disclosed starting screen, flag shared-query exposure when two or more URLs each hold at least 20% of the query's clicks; below 10 query clicks, use impressions. Retain the 50-impression eligibility default unless context warrants another evidence minimum. This is not proof of harmful cannibalization: assess intent, temporal switching, canonical relationships and performance loss before recommending consolidation.
 - Output: query, each URL with its share, positions.
 - Might be intentional: Yes when the URLs serve different intents (for example a product page and a support article), so ask before merging.
 
 ## 4. Losing pages or queries (heuristic)
 
 - Needs two periods of equal length. Prefer the same period a year earlier to avoid seasonality; otherwise the immediately preceding period, and say seasonality is not controlled.
-- Flag rows where clicks in the previous period were at least 50 and fell by 30% or more.
+- Use 50 prior clicks and a 30% decline as disclosed starting screens, then consider absolute loss, relative loss and business value. Preserve relevant low-volume or smaller-relative-loss cases. Direct questions about named pages require their observed changes without an eligibility gate.
 - Compare clicks, not impressions, if either period touches a reporting anomaly that affects impressions but not clicks (`data-anomalies.md`).
 
 ## 5. Traffic-drop diagnosis (heuristic mapping)
 
 Read clicks and impressions together for the affected page or query group:
 
-| Pattern | Most likely cause | Next check |
+| Pattern | Hypotheses to test, not established causes | Next check |
 |---|---|---|
-| Clicks down, impressions flat | Something on the results page took the click: a feature, an AI answer, ads, a competitor snippet | Look at the results page for top queries; compare CTR by band |
+| Clicks down, impressions flat | Query, country, device or position mix changed; alternatively search-result features, ads or competing snippets changed click propensity | Look at the results page for top queries; compare CTR by band |
 | Clicks and impressions both down, position down | Rankings lost for a set of queries | Which query groups fell; what changed on those pages; competing pages |
 | Clicks and impressions both near zero | The page dropped out: 404, noindex, canonical change, robots.txt block, redirect | Check status, robots meta, canonical and robots.txt first; then manual actions, cannibalization, seasonality; only then content quality |
-| Impressions down, clicks flat, position up | Measurement or reporting change | Check the data anomalies list for those dates |
+| Impressions down, clicks flat, position up | Reporting change, demand change or loss of lower-position impressions; aggregate position does not track a fixed query set | Check the data anomalies list for those dates |
 
 Always split by search type, country and device before calling a drop site-wide.
 
@@ -66,13 +66,13 @@ Always split by search type, country and device before calling a drop site-wide.
 - A crawler export shows whether a URL is indexable, not whether Google indexed it. Whether Google indexed these URLs needs the Page indexing export or URL Inspection.
 
 - Needs a crawler export (indexable URLs) and a Search Console pages export.
-- Flag indexable URLs with 0 impressions over the last 90 days (use the export's full period if shorter, and state it).
+- Use zero impressions as an investigation screen, choosing the window by publication/change age, seasonal demand and expected exposure. For established pages, 90 days remains a disclosed fallback; use the export's full period if shorter and state coverage. Verify indexing and demand before proposing improve, merge or remove.
 - Suggested action per URL: improve, merge into a stronger page, or remove and redirect. Do not recommend mass deletion without the owner's review.
 
 ## 8. Days since last crawl (heuristic)
 
 - Needs a last-crawl date per URL (URL Inspection results exported through the API or a tool, or server logs).
-- Flag important URLs not crawled for more than 30 days. Falling crawl frequency can show up before a traffic drop, so treat it as an early warning, not a verdict (heuristic).
+- Screen important URLs against their update urgency and expected recrawl cadence; 30 days is a disclosed fallback for established pages, not a universal fault. Logs establish the last observed hit within their coverage, not necessarily the last crawl. Falling crawl frequency can show up before a traffic drop, so treat it as an early warning, not a verdict (heuristic).
 
 ## 9. Crawler export patterns
 

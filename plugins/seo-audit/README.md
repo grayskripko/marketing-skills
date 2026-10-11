@@ -26,7 +26,7 @@ Each skill is chosen by what you give it:
 
 ## How it works
 
-The site audit asks only for what it is missing (usually the domain and one business goal), samples one page per template, and diagnoses before it recommends anything. Answers lead with what you asked for; checks and caveats follow. Every finding uses one format and carries an evidence level: **Observed** (seen in the page, HTML or code), **From user data** (read from your export), or **Needs verification** (with the tool that can confirm it, such as URL Inspection or the Rich Results Test). Assumptions are listed separately, never as findings. Export analysis applies fixed, written thresholds and shows the calculation, so results can be checked and repeated. Claims that Google documents as non-issues, such as meta keywords or word-count targets, are not reported as problems.
+The site audit asks only for what it is missing (usually the domain and one business goal), samples one page per template, and diagnoses before it recommends anything. Answers lead with what you asked for; checks and caveats follow. Findings use consistent evidence fields in the requested format and carry an evidence level: **Observed** (seen in the page, HTML or code), **From user data** (read from your export), or **Needs verification** (with the tool that can confirm it, such as URL Inspection or the Rich Results Test). Assumptions are listed separately, never as findings. Export analysis applies fixed, written thresholds and shows the calculation, so results can be checked and repeated. Claims that Google documents as non-issues, such as meta keywords or word-count targets, are not reported as problems.
 
 Sample finding:
 

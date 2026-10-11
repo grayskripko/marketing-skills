@@ -15,7 +15,7 @@ Audit a live site or a section of it by sampling pages, and report the top chang
   - Page cap: at most 10 HTML pages per run. robots.txt and sitemap files do not count, but read at most 3 sitemap files. Do not fetch link targets just to check their status. When the cap is reached, say so and ask which sections to cover next.
   - No edits to files or settings, no running tools beyond reading, no looking for credentials, unless the user asks.
   - If pasted files show visitor IP addresses, emails or names of private people, do not repeat them: write Visitor 1, Visitor 2.
-  - A statement not backed by a fetched page, the user's data or a file is an assumption. Identify it as an assumption beside the affected claim; collect assumptions in a separate section only when the user asks for a report. Never present an assumption as a finding. Never invent facts about the site or benchmark numbers.
+  - A statement not backed by a fetched page, the user's data or a file is an assumption. Identify it as an assumption beside the affected claim; collect assumptions in a separate section only when the user asks for a report. Never present an assumption as a finding. 
 - If there is no web tool, or a fetch fails, ask the user to paste the page source (the "view source" HTML, not the browser's rendered view), robots.txt or the sitemap, and continue from what they paste.
 
 ## Writing the answer
@@ -76,7 +76,7 @@ Pick the 2-3 areas with the highest likely impact on the goal and look again, wi
 
 ## Step 5. Rank (pass 2)
 
-Anything that removes important pages from the index, or makes them return errors, comes first regardless of effort. Then High impact with small or medium effort, then quick wins, then the rest. Ties go to the change closest to the goal. Details: `references/prioritization.md`.
+Keep confirmed blockers prominent for affected goal pages and put them before dependent improvements. Rank independent work by business value, reach, confidence, dependencies, effort and risk; separate priority from capacity commitments. Details: `references/prioritization.md`.
 
 ## Step 6. Report
 
@@ -86,8 +86,8 @@ No promises about rankings or traffic: describe the mechanism and the metric to 
 
 ## If the user also provides an export
 
-Note it in the scope and apply the two main checks from `../seo-data-review/references/thresholds.md`, merging the results into the same findings; mention a check only when it flags a row:
-- striking distance: average position 8.0 to 20.0 and at least 100 impressions;
+Note it in the scope and use the two relevant screens from `../seo-data-review/references/thresholds.md`, including its parameter-selection, peer-comparability and evidence-sufficiency rules. Merge useful results into the same findings without letting a screen boundary determine business priority:
+- striking distance: select and disclose the same context-sensitive parameters as seo-data-review/references/thresholds.md, section 1;
 - CTR outliers: rows with at least 200 impressions whose CTR is below half the median CTR of their position band (1-3, above 3-7, above 7-10, above 10-20).
 
 For a full export review, suggest seo-data-review.

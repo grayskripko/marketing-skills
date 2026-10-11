@@ -1,6 +1,6 @@
 # Verification after release
 
-Use only the checks that apply to the supplied findings and requested deliverable. For next-week tickets, live source, headers, status and links normally establish release acceptance. Recrawl requests, sitemap maintenance and later metric windows below are optional follow-up guidance; require access or state the condition, and never add a new fix without evidence.
+Use this reference to write applicable post-release checks into tickets for the named owner. Do not fetch, submit indexing requests, resubmit sitemaps or edit links while generating the plan. Executing those steps belongs to a separately authorized task. Include only checks that apply to the supplied findings and requested deliverable. For next-week tickets, live source, headers, status and links normally establish release acceptance. Recrawl requests, sitemap maintenance and later metric windows below are optional follow-up guidance; require access or state the condition, and never add a new fix without evidence.
 
 ## Recrawl sequence for changed key pages
 
