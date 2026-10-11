@@ -2,7 +2,7 @@
 
 Use this when the user asks for a full synthesis or audit trail. Select relevant sections, preserve the requested shape and avoid repeating the answer. Retain evidence checks, sample warnings and strength qualifications wherever they apply.
 
-If N < 5, the line directly under the opening answer is: **Exploratory — fewer than 5 sources; not for sizing.** If N ≥ 5, say nothing about it.
+Default: with fewer than 5 independent interview sources in the population being described, say "Exploratory — k interviews; not for sizing" and cap otherwise-Strong themes at Moderate, leaving Thin unchanged. Use the named segment’s independent interview count when supplied data support a segment-specific claim, and separate interview and short-feedback counts when both are supplied. With 5 or more interviews omit the small-round line, but retain a claim-specific sampling qualification when recruitment excludes a relevant segment or the user asks about prevalence. State which source population was counted; no interview count makes market sizing valid.
 
 ## 1. Sources
 
@@ -19,7 +19,7 @@ Leave out the Date and Length columns when the input gives neither. Do not appen
 | S03-Q07 | "Month-end takes us four days, and one of those is copy-paste." | pain; cost of workaround | past behaviour | |
 | S05-Q02 | "Yes, a dashboard would be nice." | feature request | feature request | yes |
 
-Quotes are at most about 40 words; cut only at sentence boundaries and mark the cut with "…".
+Default: quotes at most about 40 words, complete sentences only. Use the shortest complete sentence(s) preserving the material qualification when longer than 40; state once that longer complete quotes were used. Mark omitted whole sentences with “…”.
 
 ## 3. Theme × source matrix
 
@@ -39,7 +39,7 @@ Contradictions (same segment, opposite experience) and boundaries (other segment
 
 ## 6. Next steps
 
-Up to 5 actions, each with the ids it would settle.
+Default: up to 5 actions, each tied to the ids it would settle. Use one action per distinct decision-changing uncertainty when supplied unresolved evidence groups require more than 5; merge actions that settle the same uncertainty. State the count and reason for expansion.
 
 ## 7. Needs behind requests
 
@@ -50,9 +50,9 @@ Up to 5 actions, each with the ids it would settle.
 
 Verbatim phrases by theme, with ids.
 
-## 9. Top findings (up to 5)
+## 9. Top findings (default up to 5; use the requested comparison’s distinct decision-relevant findings when more than 5 are necessary, and explain the decision-relevant reason for expansion)
 
-Each with its evidence line. Thin themes never appear here.
+Each with its evidence line. Default: recurring top findings exclude Thin themes. Include a bounded Thin incident when it directly answers the requested decision or its recorded consequence warrants investigation; retain the Thin label and count, and do not claim recurrence.
 
 ## 10. What we cannot conclude from this data
 

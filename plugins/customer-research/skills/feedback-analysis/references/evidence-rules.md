@@ -11,15 +11,15 @@ This file is identical in every skill that uses it. These are heuristics of this
 
 ## Weighted count
 
-A source that supports a theme with at least one unprompted quote counts 1. A source whose only support is quotes marked "prompted" (answers to a leading or hypothetical question) counts 0.5. Print the weighted count next to the raw count when they differ. Prompted quotes never lift a theme to Strong on their own.
+Default: each independent source contributes 1 per theme for unprompted support and 0.5 for prompted-only support. Use 0 for bare assent without customer-supplied detail when the question supplies the entire claim; retain its raw count. Merge records only when supplied ids establish the same participant/account; preserve record totals and state the counting unit. When interviewer wording is missing and prompting cannot be assessed, retain raw support and mark the affected weight unknown rather than assigning 0, 0.5 or 1. Calculate a support range using 0–1 for unknown contributions: give a strength label only if every value in that range gives the same label under the gates below; otherwise state "strength unresolved — prompting unknown", the count and the bounded finding. Prompted-only support never earns Strong. Show raw and weighted support when they differ, and disclose only the weighting or counting exception that affects the conclusion. These labels do not establish causation or prevalence.
 
 ## Strength labels (interviews, including churn interviews)
 
 | Label | Rule |
 |---|---|
-| Strong | weighted count at least 3, raw count at least one third of N, and no source that contradicts the theme |
-| Moderate | weighted count at least 2 without meeting Strong, or meeting Strong with a contradicting source |
-| Thin | weighted count below 2: for example one source, or several whose only support is prompted answers. Kept and flagged with its count, never presented as a main finding |
+| Strong | Default: Strong requires weighted support ≥3, raw support ≥ceil(N/3), N≥5, at least one unprompted supporting source, and no same-segment contrary report; Moderate requires weighted support ≥2 without Strong, including otherwise-Strong themes capped by a contradiction or N<5; Thin requires weighted support <2. Use the same numerical gates with N restricted to a named segment when supplied segment data show that the theme concerns only that segment; never choose a segment just to raise a label. Apply the N<5 cap within that segment. State the population and gates used beside the label. A Thin observation can lead when it directly answers the question or records a concrete consequential incident; retain Thin and its count rather than promoting its strength. |
+| Moderate | Apply the default and segment-specific gates in the Strong row; weighted support ≥2, otherwise not Strong. State any contradiction or small-population cap. |
+| Thin | Default weighted support <2. Use an explicitly bounded incident observation in the opening when the supplied incident directly answers the requested decision; keep Thin and the source count. |
 
 A theme built only from opinion or feature-request tags carries "stated preference — check against behaviour".
 
@@ -31,8 +31,8 @@ A theme built only from opinion or feature-request tags carries "stated preferen
 
 ## Exploratory line
 
-- With fewer than 5 sources, put "Exploratory — fewer than 5 sources; not for sizing" directly under the opening answer and use no Strong label; themes that would be Strong are labelled Moderate.
-- With 5 or more sources, do not mention the exploratory line at all.
+- Default: with fewer than 5 independent interview sources in the population being described, say "Exploratory — k interviews; not for sizing" and cap otherwise-Strong themes at Moderate, leaving Thin unchanged. Use the named segment’s independent interview count when supplied data support a segment-specific claim, and separate interview and short-feedback counts when both are supplied. With 5 or more interviews omit the small-round line, but retain a claim-specific sampling qualification when recruitment excludes a relevant segment or the user asks about prevalence. State which source population was counted; no interview count makes market sizing valid.
+- Default: omit the small-round line at N≥5; use a specific coverage or prevalence qualification when supplied recruitment or segment data reveal a gap. Say which limitation applies.
 
 ## Behaviour tags
 
@@ -47,7 +47,7 @@ Every quote gets one tag:
 
 ## Rounding
 
-Compare counts with thresholds before rounding. Print shares as whole percentages, rounding half away from zero. Ties in rankings share a rank (1, 2, 2, 4).
+Default: compare exact counts with thresholds before rounding; print whole percentages, with halves rounded away from zero. Use one decimal place when unequal exact shares would otherwise display as the same percentage and the comparison matters. Show k/N and state the precision used. Rank exact ties equally using competition ranks (1, 2, 2, 4); use consecutive tied ranks (1, 2, 2, 3) only when the user supplies that ranking convention, and name it.
 
 ## Include with the affected claim
 

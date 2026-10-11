@@ -1,6 +1,6 @@
 # Research myths
 
-This file is identical in every skill that uses it. When the user leans on one of these, answer in one or two sentences and continue. Do not lecture.
+This file is identical in every skill that uses it. When the user leans on one of these, default answer in 1 or 2 sentences and continue. Use more when the user requests a source explanation or their decision depends on distinguishing usability discovery from prevalence; state that distinction. Do not lecture.
 
 | Claim | Why it misleads |
 |---|---|

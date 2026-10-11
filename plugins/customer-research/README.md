@@ -30,7 +30,7 @@ Paste interview notes, reviews, support tickets or cancellation reasons and get 
 
 ## How it works
 
-Every theme cites quote ids and shows "k of N sources". A theme is called strong only when at least 3 interviews and at least a third of all interviews support it, and no interview in the same segment says the opposite. Answers to leading questions count half. With fewer than 5 interviews, results are marked exploratory.
+Every theme cites quote ids and k/N. Default interview weights are 1 for unprompted support and 0.5 for prompted-only support; bare assent without customer-supplied detail contributes 0 and remains in the raw count. Strong requires weighted support ≥3, raw support ≥ceil(N/3), N≥5, at least one unprompted supporting source and no same-segment contradiction. Use a named segment denominator only when supplied attributes support that scope; show segment and total counts and never select a segment to raise strength. Merge demonstrably repeated participants/accounts, retaining record totals. Missing interviewer wording leaves prompting unknown: retain raw counts and use the unknown-weight range in evidence-rules.md; do not fabricate a point weight or label. Below 5 independent interviews in scope, mark exploratory and cap otherwise-Strong at Moderate; Thin stays Thin. Keep material sampling limitations at any N. State only the scope or weighting treatment needed to interpret the finding. These are descriptive plugin heuristics, not statistical confidence or market prevalence.
 
 ## Personal data
 

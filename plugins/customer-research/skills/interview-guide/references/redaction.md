@@ -15,7 +15,7 @@ These are the only edits allowed inside a verbatim quote.
 
 Keep: industry, size band, region, role or job title, tools and workflows the company uses, plan, tenure. These are what make B2B research useful and do not identify a person on their own.
 
-If a segment description plus role would match only one or two accounts in the input, widen the size band or region (for example "10–50 staff, UK" instead of "12 staff, Leeds") and say once that you widened it.
+Default: widen segment description or role when their combination matches only 1 or 2 accounts in the supplied data. Use broader wording also above 2 when a supplied rare role, precise locality or unusual combination singles out an account; remove the unnecessary distinguishing attribute when widening is insufficient. Say once which generalisation was used. This is data minimisation, not a claim of anonymity or legal compliance.
 
 Customer account or record ids the user supplies (CRM ids, account numbers) identify a company record, not a person. Keep them as given and use them as record ids; give C-ids only when the user supplied none.
 
