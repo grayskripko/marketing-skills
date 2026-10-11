@@ -1,6 +1,6 @@
 {
   "name": "copywriting-kit",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Edit, diagnose and draft copy for your own website: edited text first with every number, name and claim kept, a plain diagnosis of what is broken before any rewrite, claims checked against your own evidence, page drafts from your facts, and a voice profile from your own writing. Proof, testimonials and urgency are never invented.",
   "author": {
     "name": "Sergey Skripko",
@@ -24,7 +24,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Copywriting Editor Kit",
+    "displayName": "Copywriting & Positioning",
     "shortDescription": "Edit, diagnose and check copy",
     "longDescription": "Five skills for your own web pages and drafts. Edit a draft and get the clean text first, with a short list of changes and every number, name and claim kept. Diagnose existing copy: what is broken first (positioning, message order or wording), the top changes, and a checklist score, before any rewrite. Check claims against the evidence you provide and get accurate rewrites. Draft a landing, product, pricing or about page from your facts, with gaps listed instead of invented proof. Capture a voice profile from your own writing samples. Proof, urgency and testimonials are never invented. Not for ads, outreach or errors-only proofreading.",
     "developerName": "Sergey Skripko",
