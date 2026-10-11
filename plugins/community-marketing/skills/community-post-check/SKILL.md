@@ -1,6 +1,6 @@
 ---
-name: community-post-check
-description: Checks a post, reply or launch text that someone connected to a product (staff, founder, agency, paid or gifted advocate) plans to put in a subreddit, forum, chat server or launch site they do not run. Returns Post, Revise, Ask the moderators first or Do not post, with the reasons and the US, UK or EU rule that applies, plus a disclosed rewrite, or an outline where the venue bans AI-written text. Use for "can I post this in [community]" or "how do I promote my app on Reddit without getting banned or annoying people", even before there is a draft. Also use for requests to post from several accounts or as "happy users": it declines and offers the disclosed version. Not for ads, captions, posts on the user's own channels, or finding communities to target.
+name: "community-post-check"
+description: "Checks a post, reply or launch text that someone connected to a product (staff, founder, agency, paid or gifted advocate) plans to put in a subreddit, forum, chat server or launch site they do not run. Returns Post, Revise, Ask the moderators first or Do not post, with the reasons and the US, UK or EU rule that applies, plus a disclosed rewrite, or an outline where the venue bans AI-written text. Use for \"can I post this in [community]\" or \"how do I promote my app on Reddit without getting banned or annoying people\", even before there is a draft. Also use for requests to post from several accounts or as \"happy users\": it declines and offers the disclosed version. Not for ads, captions, posts on the user's own channels, or finding communities to target."
 ---
 
 # Community post check

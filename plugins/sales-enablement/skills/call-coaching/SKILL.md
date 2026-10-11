@@ -1,6 +1,6 @@
 ---
-name: call-coaching
-description: Coaches one seller from one to five sales call transcripts or detailed call notes: what to say differently at the moments that mattered, two strengths and one drill, plus a score on 11 discovery behaviours (maximum 22) or 8 demo behaviours (maximum 16), each backed by a quote from the call, the seller's talk share and question counts, and the claims the seller made that need proof. Use when the user asks to coach, score or review a sales call, or what they or a rep should have done differently. Also use when the user asks to rank, rate or compare sellers or candidates, or to decide firing, bonus, promotion or hiring from call scores or quiz results, so the request is declined and a coaching plan offered. Not for call summaries, recaps, follow-up emails or CRM notes.
+name: "call-coaching"
+description: "Coaches one seller from one to five sales call transcripts or detailed call notes: what to say differently at the moments that mattered, two strengths and one drill, plus a score on 11 discovery behaviours (maximum 22) or 8 demo behaviours (maximum 16), each backed by a quote from the call, the seller's talk share and question counts, and the claims the seller made that need proof. Use when the user asks to coach, score or review a sales call, or what they or a rep should have done differently. Also use when the user asks to rank, rate or compare sellers or candidates, or to decide firing, bonus, promotion or hiring from call scores or quiz results, so the request is declined and a coaching plan offered. Not for call summaries, recaps, follow-up emails or CRM notes."
 ---
 
 # Call coaching

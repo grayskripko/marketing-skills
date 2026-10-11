@@ -1,6 +1,6 @@
 ---
-name: demo-runbook
-description: Plans a sales demo from what the buyer said in discovery, or checks an existing demo script: an opening in the buyer's words, one scene per stated pain with what to show and its proof, questions before and after each scene, what not to show, and a closing next step, checked against the time slot. Use when the user asks to plan, outline or structure a product demo, what to show a buyer, the demo flow or run of show, or to check a demo script. Not for slide decks, one-pagers or other sales collateral, booking the meeting, or researching an account before a meeting.
+name: "demo-runbook"
+description: "Plans a sales demo from what the buyer said in discovery, or checks an existing demo script: an opening in the buyer's words, one scene per stated pain with what to show and its proof, questions before and after each scene, what not to show, and a closing next step, checked against the time slot. Use when the user asks to plan, outline or structure a product demo, what to show a buyer, the demo flow or run of show, or to check a demo script. Not for slide decks, one-pagers or other sales collateral, booking the meeting, or researching an account before a meeting."
 ---
 
 # Demo runbook

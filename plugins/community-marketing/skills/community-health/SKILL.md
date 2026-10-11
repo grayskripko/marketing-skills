@@ -1,6 +1,6 @@
 ---
-name: community-health
-description: Reads the health of a community the user runs from an export or from counts: unanswered questions, time to first human reply, how many newcomers get a reply and come back, how much staff and a few members carry, and join-month cohorts. Each rate comes with its sample size and a 95% interval and is compared only with the community's own past, never with outside benchmarks. Returns up to three findings with one action each. Members appear only as ids; message text, names and emails are not read. Use when the user pastes community numbers or asks whether their own forum, Discord, Slack or user group is healthy, why newcomers don't come back, or how fast questions get answered.
+name: "community-health"
+description: "Reads the health of a community the user runs from an export or from counts: unanswered questions, time to first human reply, how many newcomers get a reply and come back, how much staff and a few members carry, and join-month cohorts. Each rate comes with its sample size and a 95% interval and is compared only with the community's own past, never with outside benchmarks. Returns up to three findings with one action each. Members appear only as ids; message text, names and emails are not read. Use when the user pastes community numbers or asks whether their own forum, Discord, Slack or user group is healthy, why newcomers don't come back, or how fast questions get answered."
 ---
 
 # Community health

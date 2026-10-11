@@ -1,6 +1,6 @@
 ---
-name: community-blueprint
-description: Plans or repairs a community the user runs or will run: whether to test demand, join existing venues, sponsor them through their owners or build their own given the weekly hours available; one goal with a metric; a comparison of the platforms the user names (for example Slack or Discourse); a member journey; guidelines with a promotion policy and a moderation ladder; and a first 90 days with a stop rule. Incident mode handles a moderation problem with a member: the rule it breaks, the step to take and a public note without names. Use when the user is starting, relaunching or reviving a community ("our Discord is dead"), writing a code of conduct or moderation rules, or handling an incident.
+name: "community-blueprint"
+description: "Plans or repairs a community the user runs or will run: whether to test demand, join existing venues, sponsor them through their owners or build their own given the weekly hours available; one goal with a metric; a comparison of the platforms the user names (for example Slack or Discourse); a member journey; guidelines with a promotion policy and a moderation ladder; and a first 90 days with a stop rule. Incident mode handles a moderation problem with a member: the rule it breaks, the step to take and a public note without names. Use when the user is starting, relaunching or reviving a community (\"our Discord is dead\"), writing a code of conduct or moderation rules, or handling an incident."
 ---
 
 # Community blueprint

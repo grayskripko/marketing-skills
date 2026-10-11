@@ -1,6 +1,6 @@
 ---
-name: ramp-plan
-description: Plans how a new seller (SDR, AE, AM, sales engineer, or the first seller after a founder) gets to running calls and deals alone: weeks per phase from the user's median sales cycle (the solo phase lasts at least one cycle), practice checks that end each phase, and the coach hours each week needs against the hours the coach has, with overload weeks flagged and missing practice material listed. Use when the user asks how long until a seller can sell alone, for a sales ramp or certification path, or whether their coaching time covers it. Not for first-day checklists, general new-employee goals, quota or hiring-capacity plans, or 30/60/90-day goal lists without a sales cycle or coaching hours.
+name: "ramp-plan"
+description: "Plans how a new seller (SDR, AE, AM, sales engineer, or the first seller after a founder) gets to running calls and deals alone: weeks per phase from the user's median sales cycle (the solo phase lasts at least one cycle), practice checks that end each phase, and the coach hours each week needs against the hours the coach has, with overload weeks flagged and missing practice material listed. Use when the user asks how long until a seller can sell alone, for a sales ramp or certification path, or whether their coaching time covers it. Not for first-day checklists, general new-employee goals, quota or hiring-capacity plans, or 30/60/90-day goal lists without a sales cycle or coaching hours."
 ---
 
 # Ramp plan
