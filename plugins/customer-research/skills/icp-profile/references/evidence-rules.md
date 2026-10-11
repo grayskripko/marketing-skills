@@ -4,9 +4,9 @@ This file is identical in every skill that uses it. These are heuristics of this
 
 ## Counting
 
-- N = number of sources (interviews, calls) or items (reviews, tickets, answers) in the input.
+- Define N separately for each source type using usable research records; preserve the supplied record total and identify excluded non-research instructions by id. Redact sensitive details without dropping otherwise usable records. Do not sum source types into unique people or accounts unless overlap is known.
 - A theme counts a source once, however many quotes from that source support it.
-- Build the theme × source counts before writing any theme statement or the opening answer. Print them after the answer; with fewer than 10 sources, as a "Sources" column of ids in the themes table.
+- Build source counts before writing findings. Cite supporting ids and meaningful counts within the requested deliverable; print a matrix only when requested for an audit trail.
 - Use the host's code or spreadsheet tool for counts when it is available; otherwise count by hand and recount; never say how the counts were made.
 
 ## Weighted count
@@ -49,7 +49,6 @@ Every quote gets one tag:
 
 Compare counts with thresholds before rounding. Print shares as whole percentages, rounding half away from zero. Ties in rankings share a rank (1, 2, 2, 4).
 
-## Always print
+## Include with the affected claim
 
-- "What we cannot conclude from this data", in 2 to 4 bullets: how common the need is in the market, willingness to pay unless past spending was discussed, and segments not sampled.
-- Contradictions and outliers, each with ids.
+State limits on market prevalence, willingness to pay without past-spending evidence, and unsampled segments wherever the requested conclusion depends on them. Retain relevant contradictions and outliers with ids beside the claim they qualify. Separate sections are optional; these evidentiary qualifications are not.

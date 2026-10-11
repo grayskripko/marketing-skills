@@ -1,6 +1,6 @@
 # Synthesis full layout
 
-Use this for full transcripts, or when the user asks for the audit trail. It comes after the opening answer (SKILL.md, "How the answer reads"). Leave out any section with nothing in it.
+Use this when the user asks for a full synthesis or audit trail. Select relevant sections, preserve the requested shape and avoid repeating the answer. Retain evidence checks, sample warnings and strength qualifications wherever they apply.
 
 If N < 5, the line directly under the opening answer is: **Exploratory — fewer than 5 sources; not for sizing.** If N ≥ 5, say nothing about it.
 
@@ -10,7 +10,7 @@ If N < 5, the line directly under the opening answer is: **Exploratory — fewer
 |---|---|---|---|---|
 | S01 | 2026-09-02 | [accounting firm, 20–50 staff, UK] | operations lead | ~2,900 words |
 
-Leave out the Date and Length columns when the input gives neither. Below the table, one fixed line: **Reminder: remove personal data you do not need before pasting.**
+Leave out the Date and Length columns when the input gives neither. Do not append a fixed privacy reminder; apply redaction and minimisation throughout.
 
 ## 2. Quote ledger
 

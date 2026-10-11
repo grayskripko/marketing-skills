@@ -1,5 +1,7 @@
 # Interview guide template
 
+Use these as optional components, not a required output layout. Fit the decision and time budget first. For competing investments, compare recent incidents, frequency, consequences, residual workaround gaps, actual attempts or spending and priority for each. A switching timeline is useful only when switching is relevant. Recruit firsthand workflow knowledge, including negative cases; do not require the proposed pain.
+
 ## Research brief
 
 - Decision this research informs (one sentence).

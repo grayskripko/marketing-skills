@@ -4,29 +4,22 @@ Use for reviews, support tickets, open survey answers and score comments the use
 
 ## Build the frame
 
-1. Read a sample of about 30 items (all of them if fewer). Draft 6 to 12 codes.
-2. Print the frame before coding everything: code, one-line definition, one example id.
+1. Read a sample of about 30 items (all of them if fewer). Draft only the codes needed to distinguish the supplied issues.
+2. Define the frame before coding everything: code, one-line definition, one example id. Print it only when requested or needed to resolve category ambiguity.
 3. Code every item. An item may carry up to 3 codes. Items that fit no code go to "other"; if "other" passes 10% of items, add a code and recode.
 
-## Tables to print, in order
+## Output components
 
-These come after the opening answer (the top complaints, each with count, share and ids).
-
-1. **Coding frame:** a table titled "Coding frame" with code, definition, example id. It is always printed in the answer; never say the frame was printed unless this table is present. The personal-data reminder line goes directly under it.
-2. **Counts:** code, items, share of items, share of text (words in items with that code ÷ all words), average rating if a rating column exists.
-3. **Complaint types** (see `complaint-types.md`), with counts; only types that have items.
-4. **Alternatives named by customers:** names exactly as they appear in the items, with counts and ids. Report what the items say; add no judgement and no names of your own.
-5. **Splits** by rating, plan or segment when those columns exist.
-6. **Representative verbatims:** 1 to 3 per code, with ids, redacted.
+Select only components needed for the requested deliverable: theme counts with ids, requested ratings and plan/segment comparisons, representative evidence and decision-relevant skew. A coding frame, complaint-type table or alternatives list is optional. Keep non-complaints separate and show their effect on averages when material.
 
 ## Long-item check
 
-For each code with at least 2 items, compare share of text with share of items. If share of text is more than twice the share of items and at least 10% of all text, flag it: "a few long items carry most of the words". A single item is never flagged. This is a heuristic of this plugin.
+Check whether repeated or long text exaggerates independent demand. Count each independent item once per theme. A qualitative warning is sufficient unless exact text shares improve the decision; if printing them, state the word-count unit, usable denominator and exclusions and verify the totals. A single long item can also distort text volume.
 
-## Bias note (always)
+## Source bias
 
-Public reviews over-represent very happy and very unhappy customers. Tickets over-represent problems. A run of complaints is not a rate. Say which of these applies to the input.
+A run of complaints is not a rate. Explain source bias only where it changes the requested interpretation.
 
 ## Churn and switching mentions
 
-List items that mention cancelling or moving to an alternative separately, with ids. Suggest analysing them as churn records for depth.
+Include cancellation or switching evidence when relevant to the request, with ids. A previous-tool mention alone does not establish cancellation or require churn analysis.

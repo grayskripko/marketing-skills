@@ -1,6 +1,6 @@
 # Ideal customer profile card
 
-The profile describes accounts (companies), not people. Every line is marked **Backed (ids)** or **Assumption**.
+The profile describes accounts (companies), not people. Mark claims **Backed (ids)** or **Assumption** inline or in a status column. Use only the fields needed for the requested research profile; the sections below are optional components, not a mandatory report. State observed non-fit as evidence, not a universal exclusion rule.
 
 | Field | Content | Status |
 |---|---|---|
@@ -18,7 +18,7 @@ The profile describes accounts (companies), not people. Every line is marked **B
 
 ## Assumed vs evidenced
 
-When the user names a target customer, print both side by side:
+When the user names a target customer, answer the contrast once with ids. Use a side-by-side comparison only if requested or clearer than integrating it into the profile:
 
 | | Assumed by the team | Evidenced by the data |
 |---|---|---|
@@ -41,4 +41,4 @@ Fields with no evidence, each turned into a question for the next research round
 ## Never
 
 - Signals about a named person, or a list of people to contact.
-- A profile without the Backed/Assumption column.
+- A profile that leaves evidence status unclear; inline Backed (ids) or Assumption labels are sufficient.

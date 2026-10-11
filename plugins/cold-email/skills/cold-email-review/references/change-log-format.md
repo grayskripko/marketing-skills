@@ -1,6 +1,6 @@
 # What changed
 
-Printed after the rewrite: at most five lines, biggest change first. Each line quotes before → after and gives the reason in plain words.
+When requested or needed to account for a material cut, explain changes after the rewrite in a few lines, biggest first. Use before → after only if it helps; do not impose a change-log format on a copy-only request.
 
 Example: Subject "Re: our chat" → "Time spent chasing client invoices": you have not spoken to Alex, and a fake reply makes readers distrust the sender.
 

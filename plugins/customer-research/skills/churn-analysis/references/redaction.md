@@ -37,9 +37,9 @@ The self-check compares each quote with the input after the same redaction has b
 ## Data minimisation
 
 - Ask for no personal detail the task does not need. A role label is enough to analyse an interview.
-- Every output includes the fixed line "Reminder: remove personal data you do not need before pasting." directly under its first table, or at the end of the answer if it has no table.
+- Include "Reminder: remove personal data you do not need before pasting." when asking for additional material that may contain personal data; omit it from completed analysis when no more material is requested.
 - Never build a profile of a named person, and never list people to contact.
 
 ## Consent note (practice, not legal advice)
 
-When a note or interview template is produced, include one line: ask the participant before recording, and say how notes will be kept and who will see them.
+When planning recording or producing a note template, include one line: ask the participant before recording, and say how notes will be kept and who will see them. A question rewrite or analysis alone does not require recording advice.

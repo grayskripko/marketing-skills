@@ -5,4 +5,4 @@
 - Specific: the reader's problem or company, not the sender's product name alone.
 - Plain: no all capitals, no strings of punctuation, no emoji as the main content.
 - Follow-ups may reuse the thread's subject as a real reply in the same thread; a new thread gets a new, accurate subject.
-- Give one alternative per step so the user can choose.
+- Give alternative subjects only when requested.

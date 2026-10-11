@@ -19,9 +19,9 @@ When the notes, usage details or follow-up say more than the one-line reason, re
 
 | Id | Stated reason | Evidenced reason | Evidence |
 |---|---|---|---|
-| C07 | "too pricey" (price) | value not reached | notes: setup never finished; 2 logins in 60 days |
+| C07 | "too pricey" (price) | possible value-not-reached explanation; price may also contribute | notes: setup never finished; 2 logins in 60 days |
 
-Count evidenced reasons in the main table when they exist; keep the stated reasons in a second column so the difference is visible.
+Count stated reasons and evidence patterns separately. Where causation is not confirmed, label inferred causes as hypotheses and retain competing or interacting explanations; do not replace a stated price reason merely because usage is low.
 
 ## Decided vs cancelled
 
@@ -31,7 +31,7 @@ When the text shows when the customer decided to leave (often weeks before cance
 
 - Churn concentrated among new customers points at onboarding or at acquiring the wrong customers.
 - Rising churn among long-tenure customers points at core value breaking or a stronger alternative.
-- "Price" together with low use usually means value not reached.
+- Price with low use may indicate value not reached, unaffordability or both; investigate the sequence rather than assuming causation.
 
 ## Lost deals (separate table)
 

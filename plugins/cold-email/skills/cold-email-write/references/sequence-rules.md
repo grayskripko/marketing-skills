@@ -2,10 +2,10 @@
 
 All numbers here are heuristics of this plugin.
 
-- At most 5 steps. Suggested day offsets: 0, 3, 7, 12, 20.
+- Default to at most 5 steps per sequence; honor explicitly requested variants separately. Suggested business-day offsets: 0, 3, 7, 12, 20.
 - Word targets: first email 50 to 125 words; follow-ups 30 to 80; the close 20 to 50.
 - Each step stands on its own: a reader who missed the earlier emails still understands it.
-- Each step brings one new reason to reply. Purposes to choose from, one per step:
+- Each substantive follow-up adds a distinct supplied fact, useful resource or practical angle. A close offers closure and is not counted as new proof. Do not repeat an asset and call it new value. Purposes to choose from, one per step:
   - Problem: the pain in the buyer's words and the mechanism.
   - Proof: one specific result or reference from the user's facts.
   - Angle: a different stakeholder's view of the same problem.

@@ -1,5 +1,7 @@
 # Offer brief template
 
+Use these fields internally; print this table only when the user requests a field table. Otherwise produce the requested concise brief and fixes.
+
 | Field | What goes here |
 |---|---|
 | Who | Role and company type, narrow enough that a stranger could name ten such companies |

@@ -1,29 +1,15 @@
 # Inventory rules R1 to R8
 
-These are this plugin's rules. The ids are internal: never show them in the answer. Numeric lines are heuristics of this plugin, computed from the user's own list; print them when used. Google sources are named where they exist.
+These checks support the requested page decisions; their ids are internal. Do not use a numeric traffic cutoff or a fixed metric hierarchy.
 
-## Before the rules
+## Decision checks
 
-- **Low traffic line:** 25% of the median of the traffic column (clicks or visits) in the user's list. Heuristic.
-- **Stronger page in a group:** more conversions, then more clicks or visits, then more backlinks, then the newer page.
-- A rule that needs a column the user did not supply is skipped and listed under Not checked.
-- **Candidates:** a row that meets the R4 or R5 conditions on the columns present, while conversions or backlinks are missing, gets "redirect candidate" or "retire candidate" with the check to make first, and goes into the top actions with that check first.
-- A row that no checked rule can decide, and that fails R5 on the columns present, gets "keep (not enough data)".
-
-## Order of checking
-
-R2 first, inside duplicate groups. Then R6 for every remaining row. Then R1, R3, R4, R5 and R8 in that order; the first match sets the fate. R7 applies to every row.
-
-## Rules
-
-- **R1 Keep.** The piece serves a current offer on the user's offer list (or is itself a product or pricing page by its URL or title), or has conversions above 0 in the period, or has traffic at or above the low traffic line. Without an offer list from the user, the offer part is not checked. If R3 also holds, the fate is Update.
-- **R2 Merge.** Two or more pieces answer the same buyer question with the same intent. Keep the stronger page; the others are "merge into" it (move any unique part, then redirect). Decided before the other rules for group members.
-- **R3 Update.** Still relevant, and the user marks a fact, price, product detail or screenshot as changed.
-- **R4 Redirect.** No conversions, traffic below the low traffic line, and the user's list contains a broader or better page that answers the same question. Redirect to that page.
-- **R5 Retire (404 or 410).** No conversions, traffic below the low traffic line, 0 backlinks, no better page to redirect to, and the user has not marked it as needed (for example "support", "legal", "sales uses this"). Needs the conversions, traffic and backlinks columns; without all three, R5 is not checked.
-- **R6 Leave alone.** Checked before R1, R3, R4 and R5. At any traffic level, pages that are correct and needed by a small audience or for legal reasons: legal and policy pages, support and implementation docs, reference pages, changelogs, archived announcements. Write "probably there on purpose; please confirm".
+- Preserve explicitly needed support, legal, implementation, reference and archive pages; update reported changed information. No confirmation is needed for a purpose the user already supplied.
+- Same question and same intent are prerequisites for a duplicate merge. Select the destination using relevance, coverage and supplied performance together, treating tiny conversion counts cautiously. Move unique useful material before redirecting.
+- Keep useful current-offer content; update supplied obsolete facts. Low traffic or age alone never justifies removal.
+- Redirect only to a relevant replacement. Retirement needs evidence of no continuing need, no conversions, no referring domains and no useful replacement. Where those checks are missing, label a candidate and name the check beside it; do not treat a missing column as zero.
+- Consolidate large sets of near-identical templated pages into distinct useful pages.
 - **R7 Never on age alone.** A publication or update date is never a reason for any fate. Google's helpful-content page lists, among its self-assessment questions, adding or removing lots of content mainly to seem fresher, and changing dates without substantial changes, as signs of content made for search engines rather than people (Google Search Central, "Creating helpful, reliable, people-first content", https://developers.google.com/search/docs/fundamentals/creating-helpful-content, read 2026-10-08).
-- **R8 Consolidate scaled near-duplicates.** Many templated pages whose text differs only in a swapped word (a city, an industry) → consolidate into the few pages with something distinct to say; list the survivors.
 
 ## Why merging and 404 or 410
 
@@ -31,4 +17,4 @@ Google's crawl-budget guide advises consolidating duplicate content and returnin
 
 ## Effort sizes for actions
 
-S: redirect, retire, small fact fix. M: update a section, merge two pages. L: rewrite or merge three or more pages.
+Describe effort only when the supplied material supports an estimate; otherwise omit it or say it needs a scope check.

@@ -1,6 +1,6 @@
 # Scorecard CE-01 to CE-12
 
-Each check scores 0, 1 or 2 and needs a quote from the email as evidence. The total is out of 24 and is a checklist score, not a reply-rate forecast. Bands and word counts below are rules of thumb of this plugin, not measured thresholds. The ids are for your own use; name checks in words when talking to the user.
+Each applicable check scores 0, 1 or 2 and needs a quote from the email as evidence. Keep scoring internal unless requested; a requested full score includes every applicable check. Recalculate the total from the displayed values. Judge footer items only where applicable to the supplied recipient context; unknown applicability is a question, not a scored absence. The total is out of 24 and is a checklist score, not a reply-rate forecast. Bands and word counts below are rules of thumb of this plugin, not measured thresholds. The ids are for your own use; name checks in words when talking to the user.
 
 | Id | Check | 2 | 1 | 0 |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@ Each check scores 0, 1 or 2 and needs a quote from the email as evidence. The to
 | CE-09 | Honesty of relationship | No claims of past contact or shared history that the user has not confirmed | Vague warmth ("we should connect") | Invented meeting, call, referral or mutual contact; flattery used as a hook |
 | CE-10 | Plain format | Plain text, at most one link, no attachment | Two links or light formatting | Images, several links, an attachment or a tracking-heavy layout in a first email |
 | CE-11 | Stock phrasing | None of the patterns in `stock-phrasing-cold.md` | One or two | Three or more |
-| CE-12 | Identity and opt-out | Sender name and company, a working opt-out line and, where the law requires, a postal address and identification as a commercial message | One of these missing | Two or more missing, or an opt-out that is hidden |
+| CE-12 | Identity and opt-out | Supplied sender identity, a working opt-out, and all footer items whose jurisdictional requirement is established | One applicable item missing | Two or more applicable items missing, or a hidden opt-out. Do not assume unknown jurisdiction requires a postal address or sales notice |
 
 In a pasted sequence, the first email uses the first-email band of CE-07, later emails the follow-up band and the last polite close the closing band.
 
