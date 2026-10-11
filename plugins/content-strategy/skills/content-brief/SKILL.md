@@ -35,7 +35,7 @@ Give a writer everything needed to make one piece that says something new. Open 
 
 ## Step 1. Intake
 
-Needed: the topic. Useful: reader, offer, conversion point, a list of internal pages, interview notes, data the company holds. If the topic is in the request, write the brief now and put open points under Assumptions.
+Needed: the topic. Useful: reader, offer, conversion point, a list of internal pages, interview notes, data the company holds. If the topic is in the request, write the brief now and place only consequential open points beside the affected title or outline item.
 
 ## Step 2. Build the requested brief
 
@@ -44,7 +44,7 @@ Use these as drafting checks, not required headings or fields. Keep only what th
 - Goal and conversion point: what the piece should lead the reader to do.
 - Reader: who, and the job they are doing when they find the piece.
 - Intent (learn, do, compare, evaluate, navigate or stay; see `references/intents.md`) and the question the piece answers first.
-- Target query: only if the user gives one, otherwise "not provided"; never volumes.
+- Target query: use a supplied query; otherwise do not force a keyword or invent volumes. Mention its absence only if it affects the writer’s assignment.
 - Angle: one sentence.
 - Working titles: three, each labelled with its angle; for the writer, not final. Neither the angle nor a title promises an outcome (a smooth switch, money saved) that the user's material has not shown.
 - What is new here: the company's own sources, as the user named them. Test: does the piece give original information, or restate what others have published? (`references/people-first.md`)
@@ -53,7 +53,7 @@ Use these as drafting checks, not required headings or fields. Keep only what th
 - Internal links: only from the list the user gave, otherwise "list not provided".
 - Call to action: tied to the offer.
 - Where to share it: one line naming only channels the user mentioned; no post text.
-- Success metric and when to check it, counted from publishing ("trial sign-ups from the page, 30 days after publishing").
+- Success measurement only when requested or necessary for this writer assignment; use the supplied goal and reporting period. Do not add a reporting window by default. For a one-screen writing brief, prioritize the angle, useful titles, supported outline, source boundaries, supplied links and CTA.
 - Do not: claims to avoid, topics other pages own.
 
 Never put a marker where the user said they have the material.

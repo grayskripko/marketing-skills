@@ -13,8 +13,6 @@ Each question in a draft guide gets a verdict (keep, rewrite, cut) and its probl
 | QR7 | Jargon the person may not use | "How do you handle reconciliation variance?" | Use their words; ask "what do you call this step?" |
 | QR8 | Generalisation instead of an instance | "What do you usually do when…?" | "What did you do the last time…?" |
 
-Output table: #, original question, verdict, problem in plain words, rewrite.
-
-After the table, give the guide in order with gaps filled: the timeline of the last time they did the job, the current workaround and its cost, alternatives they tried, and a closing question.
+Use one ordered comparison in the user’s requested format: question number, original, verdict, plain-language problems and usable rewrite or probe. Put necessary timeline, workaround-cost, alternatives and closing probes beside the relevant question. Do not add a second guide unless requested. Rewrites must not assume a problem the participant has not reported.
 
 Background: questioning about past behaviour rather than opinions or the future follows Rob Fitzpatrick, "The Mom Test" (2013). The wording above is this plugin's own.

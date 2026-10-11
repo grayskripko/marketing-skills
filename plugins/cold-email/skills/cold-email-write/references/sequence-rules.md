@@ -5,7 +5,7 @@ All numbers here are heuristics of this plugin.
 - Default to at most 5 steps per sequence; honor explicitly requested variants separately. Suggested business-day offsets: 0, 3, 7, 12, 20.
 - Word targets: first email 50 to 125 words; follow-ups 30 to 80; the close 20 to 50.
 - Each step stands on its own: a reader who missed the earlier emails still understands it.
-- Each substantive follow-up adds a distinct supplied fact, useful resource or practical angle. A close offers closure and is not counted as new proof. Do not repeat an asset and call it new value. Purposes to choose from, one per step:
+- Each substantive follow-up adds a reason absent from all earlier steps in that sequence; changing the wording of the mechanism or repeating the same asset is not a new reason. Compare each follow-up with its initial email and earlier follow-ups internally, then replace repetitions with an unused supplied fact or stakeholder angle. Do not invent asset contents, origins, requirements, workflow ownership or results to create novelty. If the supplied material supports no further reason, end with an honest close rather than filler. A close offers closure and is not counted as new proof. Purposes to choose from, one per step:
   - Problem: the pain in the buyer's words and the mechanism.
   - Proof: one specific result or reference from the user's facts.
   - Angle: a different stakeholder's view of the same problem.

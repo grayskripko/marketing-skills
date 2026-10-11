@@ -10,7 +10,7 @@ Use for reviews, support tickets, open survey answers and score comments the use
 
 ## Output components
 
-Select only components needed for the requested deliverable: theme counts with ids, requested ratings and plan/segment comparisons, representative evidence and decision-relevant skew. A coding frame, complaint-type table or alternatives list is optional. Keep non-complaints separate and show their effect on averages when material.
+Select only components needed for the requested deliverable: theme counts with ids, requested ratings and plan/segment comparisons, representative evidence and decision-relevant skew. A coding frame, complaint-type table or alternatives list is optional. Include a separate non-complaint row when comparing all usable records. Label all-item and complaint-only denominators distinctly; show neutral items’ effect on averages when material. Keep distinct needs separate and explain a misleading merged bucket when it changes the ranking.
 
 ## Long-item check
 

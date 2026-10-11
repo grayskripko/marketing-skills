@@ -17,7 +17,7 @@ Stage steps, in order: problem aware → solution aware → vendor choice → on
 
 ## Capacity
 
-Calculate availability only from known hours and horizon. Hours per week x weeks = total hours. Reserve: the share and purpose the user names; otherwise 20% for edits and distribution (a provisional planning allowance). Writing hours = total hours x (1 - reserve share). Reserved hours are used only for their stated purpose; leftover hours are shown as spare. Unknown capacity calls for one bounded first assignment and an actual-time checkpoint, not assumed staffing or quarterly totals.
+Calculate availability only from known hours and horizon. Hours per week x weeks = total hours. Reserve: the share and purpose the user names; otherwise 20% for edits and distribution (a provisional planning allowance). Writing hours = total hours x (1 - reserve share). Reserved hours are used only for their stated purpose; leftover production hours may be proposed as bounded timeboxes for supplied reuse or claim verification, without promising another publication; show unassigned remainder as spare. These timeboxes never consume a reserve assigned to another purpose. Unknown capacity calls for one bounded first assignment and an actual-time checkpoint, not assumed staffing or quarterly totals.
 
 ## Numbers, ties and ranks
 

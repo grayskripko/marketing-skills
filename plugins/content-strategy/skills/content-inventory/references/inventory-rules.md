@@ -4,7 +4,7 @@ These checks support the requested page decisions; their ids are internal. Do no
 
 ## Decision checks
 
-- Preserve explicitly needed support, legal, implementation, reference and archive pages; update reported changed information. No confirmation is needed for a purpose the user already supplied.
+- Preserve explicitly needed support, legal, implementation, reference and archive pages; update reported changed information. An archive status label alone does not establish continuing need: retain provisionally and check its reader value before retirement. No confirmation is needed for a continuing purpose the user already supplied.
 - Same question and same intent are prerequisites for a duplicate merge. Select the destination using relevance, coverage and supplied performance together, treating tiny conversion counts cautiously. Move unique useful material before redirecting.
 - Keep useful current-offer content; update supplied obsolete facts. Low traffic or age alone never justifies removal.
 - Redirect only to a relevant replacement. Retirement needs evidence of no continuing need, no conversions, no referring domains and no useful replacement. Where those checks are missing, label a candidate and name the check beside it; do not treat a missing column as zero.

@@ -52,7 +52,7 @@ Use findings with ids from a synthesis, feedback or churn analysis, or a list of
 
 ## Step 2. Profile
 
-Select fields relevant to the requested profile, each marked Backed (ids) or Assumption: industry; size band; region; business model; trigger that makes it urgent; current workaround; who feels the pain (role); who pays (role); company signals visible from outside (hiring for a role, tools used, a funding or growth event); why accounts stay or grow; deal-breakers. A field with no evidence goes under gaps, not into an empty row. Signals are about the company, never about a named person. Layout: `references/icp-card.md`.
+Lead the requested profile with one usable account description and qualification criteria, placing supplied ids and evidence status beside the relevant clauses. Observed ranges are recruitment starting points, not proven cutoffs. Use a field table only when requested or clearer. Select fields relevant to the requested profile, each marked Backed (ids) or Assumption: industry; size band; region; business model; trigger that makes it urgent; current workaround; who feels the pain (role); who pays (role); company signals visible from outside (hiring for a role, tools used, a funding or growth event); why accounts stay or grow; deal-breakers. A field with no evidence goes under gaps, not into an empty row. Signals are about the company, never about a named person. Layout: `references/icp-card.md`.
 
 ## Step 3. Jobs and forces
 
@@ -64,7 +64,7 @@ If the user names a target customer, answer whether the evidence supports it onc
 
 ## Step 5. Anti-profile, words, gaps
 
-Include requested non-fit cases with churn or lost-deal ids; distinguish observed non-fit from firm qualification rules. Use customer words as supporting evidence rather than a mandatory phrase bank. Include only gaps that change the research profile or next decision; do not enumerate every missing field.
+Include requested non-fit cases with churn or lost-deal ids; distinguish observed non-fit from firm qualification rules. Prefer demonstrated job constraints over demographic exclusions; keep capability-dependent blockers conditional. Use customer words as supporting evidence rather than a mandatory phrase bank. For a research ICP, turn gaps that change the profile or next decision into concrete recent-event questions or recruitment contrasts tied to the qualification they test. Do not enumerate unrelated missing fields.
 
 ## Step 6. Close
 

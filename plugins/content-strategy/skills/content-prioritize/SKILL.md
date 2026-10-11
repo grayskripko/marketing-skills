@@ -42,7 +42,7 @@ Needed: candidate topics, capacity (people and hours per week, or pieces per mon
 Hours per week x weeks = total hours; minus the reserve = writing hours. If the user names a reserve, use their share and only their purpose. Otherwise reserve 20% for edits and distribution (a heuristic of this plugin) and list it under Assumptions.
 Bad: "The 25% for edits also covers promotion." Good: "Edits: 6 h, 1.5 h a week; promotion has no hours in this plan."
 
-Hours per piece: the user's own, as given, without caveats that revise them; otherwise these heuristics of this plugin (one experienced writer, research to publishing): glossary entry or short answer page 2; update of an existing piece 2; recap of the team's own material 3; short article (600 to 900 words) 4; checklist 4; explainer or how-to (1,200 to 1,800 words) 6; comparison or buyer's guide 8; template or calculator spec 8; customer story with an interview 10; long guide or hub page 12; original research from own data 16.
+Hours per piece: preserve the user's supplied estimates. If capacity is unknown and the user asks for a starting plan, bound the first assignment by scope and measure actual effort; do not assign a default hour estimate or cadence. For a timed plan with known capacity but missing piece estimates, the following provisional estimates may be used (one experienced writer, research to publishing): glossary entry or short answer page 2; update of an existing piece 2; recap of the team's own material 3; short article (600 to 900 words) 4; checklist 4; explainer or how-to (1,200 to 1,800 words) 6; comparison or buyer's guide 8; template or calculator spec 8; customer story with an interview 10; long guide or hub page 12; original research from own data 16.
 
 ## Step 3. Score
 
@@ -65,10 +65,10 @@ Then lay the plan out by week (or month) and check before printing:
 - no week goes over the weekly hours;
 - edits of a piece come after its draft;
 - the writing column adds up to the writing hours used, and the reserved column to the reserve;
-- hours left over show as "spare: N h" and are not given to other work.
+- after fitting the chosen pieces, remaining production hours may support reuse opportunities or claim verification already supplied by the user. Give each supporting task an explicit proposed time cap and purpose; do not claim the cap guarantees completion, change supplied piece estimates, add extra publication commitments or use the reserve for another purpose. Any unassigned or unused hours remain “spare: N h”.
 
 ## Step 5. Output
 
-Follow the requested order: if asked to rank and show scores before the plan, do that. Explain scores briefly as planning judgements, not forecasts. For a timed plan, show enough hours and totals to verify feasibility and preserve the user’s exact reserve purpose. Include reasons for deferred ideas and consequential dependencies beside them. Use only columns the request needs; do not require metrics, Assumptions, a swap section or a week-by-week calendar for a simple starting-plan request. Unknown capacity calls for a first assignment and a way to measure actual effort, not a fabricated schedule.
+Follow the requested order: if asked to rank and show scores before the plan, do that. Explain scores briefly as planning judgements, not forecasts. For a timed plan, show enough hours and totals to verify feasibility and preserve the user’s exact reserve purpose. Include reasons for deferred ideas and consequential dependencies beside them. Use only columns the request needs; do not require metrics, Assumptions, a swap section or a week-by-week calendar for a simple starting-plan request. Unknown capacity calls for a first assignment and a way to measure actual effort, not a fabricated schedule. Make that assignment executable: name the supplied source to review, one supported reader question to answer, the accuracy check and the supplied conversion next step. When a growth goal is supplied, add one short outcome check tied to it, such as attributed newsletter subscriptions; do not invent a newsletter promise, target or reporting window.
 
 If the user insists on more volume than capacity allows, show which quality step would be dropped to make room (research, proof, editing) and leave the decision to the user. Keep the plan at capacity.

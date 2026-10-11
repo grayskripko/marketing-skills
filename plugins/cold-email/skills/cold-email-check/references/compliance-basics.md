@@ -29,6 +29,12 @@ Each row is the general rule as the law states it, read on the statute's own tex
 
 For any other country, add one ASK row: "check the rule for recipients in [country]".
 
+## UK named business contacts
+
+When recipient data identifies a person, UK GDPR obligations also apply to business marketing: establish a lawful basis, provide required privacy information and honor objections to direct marketing. Corporate-subscriber status under PECR does not satisfy these separate requirements. Check unresolved conditions beside the affected row; do not assume consent is the only possible lawful basis or invent a privacy-notice URL.
+
+Source: Information Commissioner’s Office, “Business-to-business marketing”, https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/ (read 2026-10-11; guidance under review).
+
 ## Always
 - CO-08 An opt-out reply means stop and suppress (ground rule 7).
 - CO-09 No deceptive subject, sender or claimed relationship (ground rule 5).
