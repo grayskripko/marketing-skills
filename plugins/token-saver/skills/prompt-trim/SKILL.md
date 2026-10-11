@@ -14,7 +14,7 @@ Instruction files load with every request, so every extra line is paid again and
 3. Never shorten, paraphrase or drop anything on the list in `references/never-cut.md`.
 4. Never remove a confirmation step or a warning that comes before a destructive or irreversible action.
 5. Never copy secrets into the output. Keys, tokens and passwords become `<redacted>`.
-6. No invented numbers. Every figure is either shown by the host, pasted by the user, counted with the assistant's code tool, or labeled approximate (characters divided by 4 for tokens).
+6. No invented observations. Prefer host-reported or user-supplied counts for the exact text and named model, then an available local tokenizer for that model. Default rough estimate for ordinary English prose: characters divided by 4, labeled approximate. Use characters divided by r only with a representative same-model, same-language, same-content-type sample containing positive character and token counts, where r = sample characters / sample tokens. For code, non-English or mixed content without calibration, report the character count and token count unknown. State the method and any divisor used. Counting characters with code does not make a token estimate exact. Plugin budgets are declared defaults, not measured observations; never use heuristic estimates to claim exact billing or compliance with a hard context limit.
 7. Change no files, settings or permissions, and install or run nothing, unless the user asks for it in this conversation.
 8. Never tell the user to remove, avoid or prefer a named third-party tool, server, plugin or product. Report sizes and let the user decide.
 9. List any assumption you make under "Assumptions".
@@ -31,7 +31,7 @@ Network scope: this plugin fetches nothing and sends nothing. It works only on t
 
 List every instruction or constraint as R1, R2, … with where it is in the original (section or line). A rule is anything that changes what the assistant should do: a must, a never, a preference, a default, a format, a path, a command.
 
-Examples are not rules. List each example under the rule it illustrates. Code an extra example T3 when the rule is already clear or already has one example.
+Examples are not rules. List each example under the rule it illustrates. Default: retain one example per rule when illustration is needed. Retain zero when the rule alone fully specifies the behavior; retain more when additional source examples carry distinct conditions, scopes, boundary cases or required formats not otherwise specified. Apply T3 only to redundant examples that add none of these. Preserve required literal examples exactly. State the retained count and reason in the existing change-table row when deviating from one; do not add a separate example audit.
 
 ## Step 3. Change table
 
@@ -52,13 +52,13 @@ Codes from `references/trim-codes.md`:
 
 Print the full trimmed text, ready to paste.
 
-If the file is under 300 words, print the ledger one line per rule and group all T2 filler into one change-table row.
+Default compact-audit cutoff: under 300 whitespace-separated words; otherwise use the full layout. Use compact at any length only when every rule and its source fit on one line without losing a condition, there are no scope conflicts needing explanation, and every T2 deletion remains individually locatable inside one grouped row. Use full even below 300 when any of those conditions fails. State compact/full and briefly identify the observed exception to the 300-word default. Keep every rule and every changed span traceable.
 
 ## Step 5. Counts and the zero-loss check
 
 ```
 Words: <before> → <after>
-Tokens: ~<before> → ~<after> (approximate, chars ÷ 4, unless counted with the code tool)
+Tokens: <before> → <after> (state: host count, local model tokenizer, approximate chars ÷ 4, approximate chars ÷ r with supplied calibration, or unknown; use the same method for both)
 Rules present: <n> of <n>   (or: missing R4, R9)
 Conflicts: <pairs or none>
 Loads every request: <which sections, if the user said the file is always loaded>

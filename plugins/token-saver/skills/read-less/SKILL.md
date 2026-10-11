@@ -14,7 +14,7 @@ In coding sessions, file reads and command output are usually the largest part o
 3. Never shorten, paraphrase or drop anything on the list in `references/never-cut.md`.
 4. Never remove a confirmation step or a warning that comes before a destructive or irreversible action.
 5. Never copy secrets into the output. Keys, tokens and passwords become `<redacted>`.
-6. No invented numbers. Every figure is either shown by the host, pasted by the user, counted with the assistant's code tool, or labeled approximate (characters divided by 4 for tokens).
+6. No invented observations. Prefer host-reported or user-supplied counts for the exact text and named model, then an available local tokenizer for that model. Default rough estimate for ordinary English prose: characters divided by 4, labeled approximate. Use characters divided by r only with a representative same-model, same-language, same-content-type sample containing positive character and token counts, where r = sample characters / sample tokens. For code, non-English or mixed content without calibration, report the character count and token count unknown. State the method and any divisor used. Counting characters with code does not make a token estimate exact. Plugin budgets are declared defaults, not measured observations; never use heuristic estimates to claim exact billing or compliance with a hard context limit.
 7. Change no files, settings or permissions, and install or run nothing, unless the user asks for it in this conversation.
 8. Never tell the user to remove, avoid or prefer a named third-party tool, server, plugin or product. Report sizes and let the user decide.
 9. List any assumption you make under "Assumptions".
@@ -24,7 +24,7 @@ Network scope: this plugin fetches nothing and sends nothing. It works only on t
 
 ## Step 1. Restate the task as questions
 
-Turn the user's task into 3 to 7 concrete questions, for example "which function returns the 401?" or "where is the logout route registered?".
+Default: turn the task into 3 to 7 concrete, nonduplicated questions, for example "which function returns the 401?" or "where is the logout route registered?". Use 1 or 2 when the supplied task leaves only that many unresolved decisions. Use more than 7 only when named components, acceptance criteria or supplied failure cases leave more than 7 independent decisions after grouping duplicates. Each question must affect the next action; group by component and resolve the first blocker first. State the question count and briefly identify any exception to 3–7. Never invent questions to reach 3 or omit a required branch to stay below 7.
 
 ## Step 2. Reading plan
 
