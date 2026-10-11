@@ -29,7 +29,7 @@ For each step and split: segment rate with interval; the gap to the comparison s
 
 ## Mix-shift check (Simpson's paradox)
 
-When an earlier period is given and a split exists: if the pooled rate moved but each segment's rate did not (every segment's own difference interval includes 0), the change comes from a shift in traffic mix, not from the page. Print "traffic mix changed; the page did not get worse in any segment".
+When periods and segment shares are available, decompose the observed pooled change into mix and within-segment changes. If observed segment rates are unchanged, say that reweighting explains the observed aggregate drop; this does not prove equivalent underlying rates or rule out deterioration. If segment difference intervals include zero, say no change was detected, not that no change occurred. Do not recommend a redesign solely from a pooled decline explained by the observed mix. Keep the user’s actual goal in view: completed signups do not establish qualified-signup outcomes.
 
 Example: earlier period mobile 80/4,000 = 2.0%, desktop 240/6,000 = 4.0%, pooled 3.2%. This period mobile 140/7,000 = 2.0%, desktop 120/3,000 = 4.0%, pooled 2.6%. The pooled drop of −0.60 pp [−1.07 – −0.13] is real, yet neither segment changed: mobile went from 40% to 70% of traffic.
 
@@ -44,9 +44,9 @@ The reference must be one the user can point to:
 - the same step in an earlier period;
 - a target the user names.
 
-A negative stake prints as 0, "at or above the reference". Every stake is labelled "upper bound, not a forecast": it assumes the whole gap could be closed and that the people won would convert downstream like those already there.
+A negative stake prints as 0, "at or above the reference". Label a stake “reference scenario at unchanged volume, not a forecast”; it assumes the gap closes and newly won people convert downstream like existing people. It is not a proven ceiling. Reserve “upper bound” for a mathematically established maximum. Show a supplied business-target scenario before peer parity.
 
-Example (segment reference): checkout start → order, mobile 840/2,400 = 35.0% against desktop 572/1,100 = 52.0%; the gap is +17.0 pp [+13.5 – +20.5]; stake = 2,400 × 0.17 × 1 ≈ 408 orders in the period, upper bound.
+Example (segment reference): checkout start → order, mobile 840/2,400 = 35.0% against desktop 572/1,100 = 52.0%; the gap is +17.0 pp [+13.5 – +20.5]; stake = 2,400 × 0.17 × 1 ≈ 408 orders in the period, a reference scenario at unchanged volume, not a forecast.
 
 Example (earlier-period reference): visit 20,000 → pricing 6,000 (30.0%) → signup start 1,500 (25.0%) → signup done 900 (60.0%) → paid 90 (10.0%); earlier rates 31% / 28% / 61% / 11%.
 
@@ -67,4 +67,4 @@ Why counts alone do not rank. In a chain of multiplied rates, raising any one st
 
 ## Next step per leak
 
-For each leak worth acting on: which audit next (page or flow), one research method (`ship-test-research.md`), and whether an A/B test is feasible at that step's traffic.
+For the requested priority, name the next action. Add research only when the cause needs investigation, and test feasibility only when requested or decision-changing.

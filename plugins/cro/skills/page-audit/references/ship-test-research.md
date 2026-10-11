@@ -1,6 +1,6 @@
 # Fix now, A/B test or research first
 
-Every fix card ends with exactly one of three decisions.
+For fixes included in the requested answer, choose one decision; this reference does not require fix cards or additional answer sections. Follow the requested format. A reversible hierarchy change that follows an explicit primary goal, or simplification of a short form with no material workflow dependency, can be recommended without a research gate or promised uplift. Estimate effort only from implementation evidence. Include research, example-lift sizing and “not now” items only when requested or decision-changing.
 
 ## Fix now
 
@@ -29,7 +29,7 @@ For Assumed findings, or a leak with no visible cause. Name one method:
 
 1. Seen and Data findings before Assumed ones (Assumed never enters the top 5).
 2. Closer to the conversion goal first.
-3. Lower effort first.
+3. Lower effort first only when implementation evidence supports it; otherwise effort is unknown.
 
 No invented impact scores, no predicted lift.
 

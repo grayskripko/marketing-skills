@@ -2,7 +2,7 @@
 
 Each row is scored 0 (fails), 1 (partly) or 2 (passes), quotes its evidence and carries an evidence class (Seen / Data / Assumed). An Assumed row is never 0. A row with nothing to judge is "Not checked", never 2.
 
-**No copy rows.** Headline quality, tone, wording of buttons, value proposition phrasing and the writing of testimonials are never scored here. When they look like the problem, print one line: "the wording may be the issue; a copy review fits". Offer clarity rows check whether facts are present and findable, not how well they are written.
+**No persuasive-copy rows.** Headline quality, tone, value proposition phrasing and testimonial writing are not scored. Functional action labels and disclosure of supplied cost, commitment and next-step facts remain in scope. Offer clarity rows check whether those facts are present and findable before the action.
 
 | Id | Area | Check | 0 looks like | Source |
 |---|---|---|---|---|
@@ -25,6 +25,8 @@ Each row is scored 0 (fails), 1 (partly) or 2 (passes), quotes its evidence and 
 Countdowns, stock warnings, pre-selected upsells: one line, not a score: "a pressure tactic is present; whether it is manipulative or lawful is out of scope here". A request to add one follows ground rule 4.
 
 ## Fix card
+
+Use only when the user asks for implementation detail. Owner is a suggestion; effort needs implementation evidence or is unknown.
 
 | Field | Content |
 |---|---|

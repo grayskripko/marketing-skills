@@ -59,13 +59,13 @@ Wording rules:
 
 ## False-positive risk
 
-Only when the result is significant. With π = the share of the user's past tested ideas that really won:
+Only when the user asks about long-run false-positive scenarios and the assumed testing procedure applies. With π = the share of the user's past tested ideas that really won:
 
 ```
 FPR = (α/2)·(1 − π) ÷ [ (α/2)·(1 − π) + power·π ]
 ```
 
-If π is unknown, print three rows: π = 10% → 22.0%; π = 20% → 11.1%; π = one third → 5.9%. Source: Kohavi, Deng & Vermeer, "A/B Testing Intuition Busters", KDD 2022, Table 2 (read 2026-10-03), which also lists 8% → 26.4% for one company's search tests. Meaning: these figures describe the procedure, not this result. Over many tests whose ideas win at rate π, about this share of the significant wins (p < 0.05 in the winning direction) are false. They are never the probability that this particular result is false, and a result with a p far below 0.05 carries less risk than these rows.
+If π is unknown and the user requests examples, explain these illustrative scenarios: π = 10% → 22.0%; π = 20% → 11.1%; π = one third → 5.9%. Source: Kohavi, Deng & Vermeer, "A/B Testing Intuition Busters", KDD 2022, Table 2 (read 2026-10-03), which also lists 8% → 26.4% for one company's search tests. Meaning: these figures describe the procedure, not this result. Over many tests whose ideas win at rate π, about this share of the significant wins (p < 0.05 in the winning direction) are false. They are never the probability that this particular result is false, and a result with a p far below 0.05 carries less risk than these rows.
 
 ## Several arms or metrics (Holm)
 
@@ -88,9 +88,9 @@ The same text is written into the plan before launch.
 1. **Invalid — rerun:** split p below 0.0005, or a unit mismatch that cannot be fixed.
 2. **Don't ship:** the interval for B − A lies entirely below 0 (a real loss: "learn what moved it"), or a guardrail is breached.
 3. **Ship:** the interval lies entirely above 0 and guardrails hold. If its upper end is below the smallest lift worth having, add "the effect is real but smaller than the lift you said was worthwhile". If only its lower end is below that lift, add "it may be smaller than worthwhile". Compare in the same unit: the relative (log-ratio) interval with a relative lift worth having, or the percentage-point interval with that lift converted to points at the control rate (10% of 3.0% = 0.30 pp).
-4. **Inconclusive:** everything else. Print the range still plausible and the n per arm that the observed rate and the smallest lift worth having would need. A split Warning, an early stop or a mid-test change caps the verdict here.
+4. **Inconclusive:** everything else. For a valid analysis, print the decision-relevant effect range. Ordinary intervals after uncorrected outcome-driven stopping or biased allocation do not establish excluded effects. Use a supplied usable confirmation plan for a fresh test with its stopping rule fixed before launch; give new sizing only when requested or no usable original plan exists. A split Warning, an early stop or a mid-test change caps the verdict here. Never resume until significance returns.
 
-"Inconclusive" is a result, not a failure: the test ruled out effects outside the interval, that is gains above its upper end and losses below its lower end.
+For a valid fixed-horizon or otherwise correctly calibrated analysis, an Inconclusive result gives the effect range compatible with that analysis. Do not use nominal intervals from an uncorrected stopped or biased test to rule out effects.
 
 ## What you can claim
 

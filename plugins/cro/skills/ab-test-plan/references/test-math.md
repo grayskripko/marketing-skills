@@ -41,7 +41,7 @@ Always whole weeks, so each weekday appears equally often in both arms. A test t
 
 ## Affordable lift
 
-Invert the formula: for a fixed number of weeks, n per arm = weeks × weekly eligible ÷ arms; find the smallest p₂ whose n does not exceed it. Print it for 2, 4 and 8 weeks, each lift rounded **up** to one decimal (a rounded-down lift understates what the test needs). Example at 3.0% and 6,000 a week: 31.2% relative at 2 weeks, 21.7% at 4 weeks (3.0 → 3.65%), 15.1% at 8 weeks.
+Invert the formula: for a fixed number of weeks, n per arm = weeks × weekly eligible ÷ arms; find the smallest p₂ whose n does not exceed it. Print it for the requested horizon, or for 2, 4 and 8 weeks in a general planning request, each lift rounded **up** to one decimal (a rounded-down lift understates what the test needs). Example at 3.0% and 6,000 a week: 31.2% relative at 2 weeks, 21.7% at 4 weeks (3.0 → 3.65%), 15.1% at 8 weeks.
 
 ## Feasibility verdict (heuristic of this plugin, editable)
 
@@ -49,9 +49,9 @@ Invert the formula: for a fixed number of weeks, n per arm = weeks × weekly eli
 |---|---|
 | 1–4 | **Run** |
 | 5–8 | **Run only with** one of: the full number of weeks computed (print it) if the decision can wait that long, a bolder change, a higher-traffic step, or a metric closer to the change (keep the final metric as a guardrail) |
-| more than 8 | **Do not A/B test this lift.** Fix now if it is a clarity fix or a bug; otherwise research first; or pool pages that share one template into one test |
+| more than 8 | **Do not A/B test this lift.** Discuss pooling comparable pages or other testing options. Recommend implementation without conversion proof only when the user asks about that choice and an independent defect justifies it |
 
-The same 2, 4 and 8 weeks are used in the affordable-lift table, so the two always agree.
+Use the same distinct newly enrolled eligible users and requested horizons throughout. Weekly unique counts require cross-week deduplication; persistent assignment and conversion/guardrail observation windows may extend decision time beyond enrollment time.
 
 ## More than two arms (A/B/n)
 

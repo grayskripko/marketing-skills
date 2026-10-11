@@ -4,7 +4,7 @@ Answer briefly from this file when the user raises one of these.
 
 | Claim | Short answer |
 |---|---|
-| "p < 0.05 means a 95% chance that B is better." | No. The p-value is how surprising the data would be if there were no difference. The chance B is really better depends also on how often your ideas win (the A/B test verdict skill prints this false-positive risk). |
+| "p < 0.05 means a 95% chance that B is better." | No. The p-value is how surprising the data would be if there were no difference. The chance B is really better depends also on how often your ideas win (false-positive scenarios are explained when requested, with their assumptions). |
 | "Stop the test as soon as it turns significant." | Only under a sequential method chosen before launch. Stopping at the first significant look inflates false positives; in Evan Miller's worst-case simulation, to 26.1% instead of 5%. |
 | "+13% with p = 0.11 is directionally a win." | The interval runs from a loss to a large gain. That is Inconclusive; it rules out only effects outside the interval (a loss worse than the lower end or a gain above the upper end). |
 | "100 conversions per arm is always enough." | The visitors needed depend on the baseline rate and the smallest lift worth having; compute them (the A/B test plan skill prints the formula). |
