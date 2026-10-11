@@ -1,6 +1,6 @@
 {
   "name": "content-strategy",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Decide what your team should publish next: plan blog topics and content marketing priorities around your goals, company evidence and available team hours. From your existing article list, recommend which old articles to update, merge or retire; turn a chosen topic and research findings you provide into a writer's brief, and plan lead magnets for your topic clusters. It plans; it does not write the content or build campaigns.",
   "author": {
     "name": "Sergey Skripko",
@@ -25,7 +25,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Content Strategy, Calendar & Audit",
+    "displayName": "Content Strategy & Content Calendar",
     "shortDescription": "Plan what content to write next",
     "longDescription": "Five connected skills for teams with limited hours. Decide what happens to existing pages (keep, update, merge, redirect, retire or leave alone), with the reason on every row and a list of what could not be checked. Build a topic map where every topic names the company's own evidence behind it, or is set aside as generic. Turn a list of ideas into a week-by-week plan that fits the team's hours, with a planning score and a not-now list. Write briefs a writer can work from, using the team's own evidence, and plan lead magnets with a stated reason for asking or not asking for an email. A publish date alone never decides a page's fate. It plans; it does not write the content.",
     "developerName": "Sergey Skripko",

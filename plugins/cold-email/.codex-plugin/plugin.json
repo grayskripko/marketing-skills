@@ -1,6 +1,6 @@
 {
   "name": "cold-email",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Draft B2B cold outreach and prospecting emails, plus follow-ups, from your offer and audience; review and rewrite cold emails getting no replies, keeping every number, name and claim. Write prospect opening lines from notes you provide, and check outbound emails before sending using pasted emails, sample rows and sender records. Uses only your facts; never sends email, creates drafts in mail tools, finds addresses or adds contacts.",
   "author": {
     "name": "Sergey Skripko",
@@ -24,7 +24,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Cold Email Outreach",
+    "displayName": "Cold Email Kit",
     "shortDescription": "Write, review and check cold emails",
     "longDescription": "Five skills for careful one-to-one business outreach. Write a short sequence from your offer, built only from facts you give. Review a cold email and get the rewrite first, with every number, name and claim kept, then what changed and why; a 12-check score on request. Check an email before you send it: merge fields across up to 25 sample rows, sender identity, postal address and opt-out lines, country rules, and what the SPF, DKIM or DMARC records you paste do and do not cover. Check whether an offer is ready, and turn your prospect notes, or up to 3 public pages you link, into dated opening lines. Nothing is sent, no address is looked up, and no page is read unless you give its link.",
     "developerName": "Sergey Skripko",
