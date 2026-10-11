@@ -1,6 +1,6 @@
 # Codebook
 
-This file is identical in every skill that uses it. Start from these codes; add a new code only when an excerpt fits none of them, and record its definition in the internal working frame; print definitions only when requested for an audit trail or needed to resolve category ambiguity.
+This file is identical in every skill that uses it. Start from these codes; add a new code only when an excerpt fits none of them, and print its definition in the coding table.
 
 | Code | What it captures | Example of a fitting excerpt (fictional) |
 |---|---|---|
@@ -19,4 +19,4 @@ This file is identical in every skill that uses it. Start from these codes; add 
 Rules:
 - One excerpt can carry more than one code.
 - Codes describe what the excerpt says, not what you think the person meant. Interpretation goes into themes, with ids.
-Mark excerpts answering a leading or hypothetical question as "prompted"; distinguish concrete experience from agreement or prediction. Use raw source counts by default; optional weighting is described in `evidence-rules.md`.
+- An excerpt that only answers the interviewer's leading or hypothetical question is marked "prompted" and counts half (see `evidence-rules.md`).

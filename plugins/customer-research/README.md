@@ -20,7 +20,7 @@ Paste interview notes, reviews, support tickets or cancellation reasons and get 
 | 2+ interview transcripts or call notes | `interview-synthesis` |
 | A batch of reviews, tickets or survey answers | `feedback-analysis` |
 | Subscription cancellations or customer exit notes | `churn-analysis` |
-| Findings or top-company accounts for a B2B account-level research profile | `icp-profile` |
+| Findings or a list of top customers | `icp-profile` |
 
 ## Examples
 
@@ -30,7 +30,7 @@ Paste interview notes, reviews, support tickets or cancellation reasons and get 
 
 ## How it works
 
-Themes cite source IDs and meaningful raw counts. Interview evidence distinguishes reported experience from prompted agreement or hypothetical preference, and keeps differing experiences visible. Labels and half-weighting are optional descriptive conventions, not confidence measures. Sampling limits depend on recruitment and coverage; five interviews do not establish prevalence.
+Every theme cites quote ids and shows "k of N sources". A theme is called strong only when at least 3 interviews and at least a third of all interviews support it, and no interview in the same segment says the opposite. Answers to leading questions count half. With fewer than 5 interviews, results are marked exploratory.
 
 ## Personal data
 
