@@ -34,6 +34,6 @@ Anything assumed rather than seen (the buyer's intent, which engines matter, why
 
 ## Rules
 
-- One issue per finding. The same issue on many pages is one finding with a count and up to 3 examples.
+- Default: one finding per distinct issue with up to 3 examples when repeated across pages. Use fewer when fewer occurrences exist; use one example per materially different supplied template or failure mechanism when three would hide distinct fixes. Include all affected locations when the requested correction needs exact locations. State the count and selection used; give the total affected count independently of displayed examples.
 - Every rate taken from AI answers carries its n and the dates of the runs.
 - Never guess an unchecked result. Mention an unchecked item only if it changes the requested conclusion or deliverable, beside the affected statement. Give a verification step only when needed for the current task; no mandatory "Not checked" section.

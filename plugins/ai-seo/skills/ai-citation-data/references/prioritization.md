@@ -6,12 +6,12 @@ This is an optional prioritization heuristic, not a required ranking. Use the us
 
 - **Value**: the column the user names, or conversions, then clicks, then sessions.
 - **Branded and navigational queries are set aside first.** Exclude every grounding query that contains the brand name (ask for it if it is not clear from the data) or that the export labels Navigational. They are left out of each page's share, the median and the low-share list, and are shown in a separate "branded and navigational" block. A brand's share on its own-name queries is expected to be high and says little about discovery.
-- **Citation share**: from the Bing AI Performance export, averaged over the page's remaining grounding queries (simple mean; say so). If only citation counts exist, use a stated value/count ordering; do not substitute counts into a citation-share formula. Print the citations behind each share next to it; when the pages' citation counts differ by 5 times or more, say so next to the priority list, because a share built on a few citations is less stable.
+- **Citation share**: default simple mean over eligible nonbranded/nonnavigational grounding queries; state this averaging method. Use an exposure-weighted mean only when the export supplies comparable per-query exposure denominators matching the share definition; show weights. Counts alone require a stated value/count ordering, not a share substitute. Default: flag a ≥5× difference in citation counts beside priorities and print counts. Use a low-support warning regardless of ratio when an export explicitly supplies low-volume, suppressed or incomplete observations; use “volume ratio unavailable” when counts are missing, and show 0 versus nonzero directly rather than dividing by zero. State the trigger used. Never turn counts into a confidence level without the sampling design.
 - **AI-feature impressions**: from the Search Console generative AI report, when present. Used as context, not in the priority rule.
 
 ## Ordered priorities
 
-When the user supplies a method, use it. Otherwise, for a requested ordered list, use the optional editorial index value × (1 − mean eligible observed citation share as a fraction), descending. Show the method, value, mean share, citation counts and arithmetic once. The index is not expected additional conversions, a search rank or proof that edits will increase citations. With counts alone, use a stated value/count ordering, not the share formula.
+When the user supplies a method, use it. Otherwise, for a requested ordered list, default to the optional editorial index value × (1 − mean eligible observed citation share as a fraction), descending. Use the supplied value/count ordering when these exports contain counts but no observed shares, or the user’s supplied priority method when specified. State the method used. The constant 1 is the whole-share complement and must not be tuned; absent shares remain unknown. Show the method, value, mean share, citation counts and arithmetic once. The index is not expected additional conversions, a search rank or proof that edits will increase citations. With counts alone, use a stated value/count ordering, not the share formula.
 
 Rank all eligible confirmed matches with observed shares. Do not truncate the order to a top third. Unknown shares, unconfirmed hosts and pages with only branded/navigational observations stay outside this order, identified as measurement gaps or branded retrieval evidence. Never zero-fill absent rows without established completeness and omission semantics.
 
@@ -26,4 +26,4 @@ Rank all eligible confirmed matches with observed shares. Do not truncate the or
 
 ## Re-measure
 
-If requested, choose comparable equal-length post-change periods. Four weeks is an optional cadence, not a minimum waiting requirement.
+Default: equal-length 4-week post-change and comparison windows. Use equal-length windows aligned to supplied campaign dates or the user’s actual reporting cadence when those differ; retain comparable settings and query population. State dates and duration used. Four weeks is a workload cadence, not a minimum biological/algorithmic waiting period.

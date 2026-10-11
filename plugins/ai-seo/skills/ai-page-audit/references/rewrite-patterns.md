@@ -1,10 +1,10 @@
 # Rewrite patterns
 
-Rewrites make an existing passage easier to quote accurately. They use only facts that are on the page or that the user supplied. Never add figures, customer names, quotes or claims, and never widen a fact (do not turn "$12 per month" into "every plan costs $12"). A rewrite carries at most one placeholder, naming the missing fact, for example `[number of integrations]`; ask for other missing facts as questions after it.
+Rewrites use only page or supplied facts and preserve their exact scope. Default: 0 placeholders when facts suffice, at most 1 named required fact otherwise. Use a bundled clarification before complete copy when multiple independent necessary facts are missing; omit optional unknowns. State the missing fact beside unfinished copy and add no unsupported claims.
 
 ## Patterns
 
-1. **Answer first.** Start the section with one or two sentences that answer its heading directly, then give detail. Before: a paragraph of background, then the answer. After: the answer, then the background.
+1. **Answer first.** Default: 1-2 sentences immediately answer the heading, then detail. Use additional sentences when the supplied claim has material conditions/exceptions that cannot fit without changing its scope; keep those conditions with the answer. State the extended treatment only when needed to explain a requested length constraint.
 2. **Stand alone.** Replace "as mentioned above", "this", "it" and "they" that point outside the section with the thing they refer to. A reader landing on the section should not need the previous one.
 3. **Claim, reason, limit, example.** Each key paragraph states the claim, why it holds, where it stops holding, and one example or source. The limit is what makes a passage safe to quote.
 4. **Specifics over adjectives.** Replace "fast", "flexible" or "powerful" with the number, condition or feature the user can confirm, or a placeholder.
@@ -16,4 +16,4 @@ Rewrites make an existing passage easier to quote accurately. They use only fact
 
 Give the requested ready-to-paste text or markup directly. Explain only changes needed to interpret or apply it, outside the copy. Use a passage/evidence/rewrite table only when requested, not as a default wrapper. Do not add missing-facts columns or questions when the supplied facts suffice.
 
-Show at most three rewrites, for the lowest-scoring checks. The rewrite keeps the page's meaning and tone; it does not add sales language.
+Default: up to 3 rewrites for the weakest distinct checks. Use the user’s complete requested passage list when supplied, or fewer when fewer weaknesses exist. State the selection used. Preserve meaning, conditions and tone; add no sales claims.

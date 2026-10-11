@@ -7,7 +7,7 @@ A set of true facts for consistent use. Fill only supplied or public-page facts;
 | One-sentence description | What the company does, for whom, where | |
 | Good fit | The customers and use cases it suits | |
 | Not a fit | Cases where another type of product is a better choice | |
-| Key features | Three to five, each with a concrete detail | |
+| Key features | Default 3-5 verified features with a concrete detail. Use fewer when fewer facts are supplied; use all specifically requested features relevant to the supplied editor’s question when more than five are needed. State the selection used; invent none. | |
 | Public pricing | As published, with the date checked | |
 | Limits | Known limits a buyer should know | |
 | Differences | What it does differently, stated as facts, without comparisons to named competitors | |

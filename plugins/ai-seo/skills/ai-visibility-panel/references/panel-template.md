@@ -29,4 +29,4 @@ P01,discovery,no,b,"We are a 20-person agency. What invoicing software should we
 P14,brand-direct,yes,a,"What does Acme Invoicing cost and who is it for?",Engine A,,,,,,,,,
 ```
 
-Deliver one row per prompt and phrasing, with `engine` set to the first engine and the run and result columns empty. The person running the panel copies the block for each further engine and for runs 2 and 3.
+Deliver one row per prompt and phrasing, engine set to the first user-chosen engine and result columns empty. Default: copies for each selected engine and repetitions 1-3. Use the actual selected repetition count when supplied logs or capacity require an adapted protocol; state it. Never prefill results.

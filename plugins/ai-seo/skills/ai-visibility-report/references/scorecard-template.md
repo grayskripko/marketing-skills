@@ -8,11 +8,11 @@ One line per engine, for example: "Engine A, unbranded: 21 of 90 runs (23.3%) in
 
 ## 2. Changes between periods
 
-| Engine | Change in mention rate | Condition 1: at least 10 points | Condition 2: at least 30 runs each, not thin | Condition 3: at least 3 prompts same direction | Verdict |
+| Engine | Observed change | Effect threshold used (default 10 points) | Runs each / repetition check (default 30 / median 3) | Matched IDs moving (default 3) | Rule used and decisive verdict |
 |---|---|---|---|---|---|
 | Engine A | 23.3% to 36.7% (+13.3 pts) | yes | yes (90, 90) | yes (6 up, 1 down) | clear change |
 
-State once that the thresholds are heuristics, not a statistical test.
+Name the rule used: default 10 points / 30 matched runs each / median 3 repeats per prompt/phrasing / 3 moving matched IDs, or an applicable supplied validated design. Use the exact decisive labels and missing-evidence branches in `scoring.md`; narrow-panel movement does not pass the default breadth gate. Show observed changes even when a gate fails. This is not a statistical or causal result.
 
 ## 3. Scorecard (unbranded prompts)
 
@@ -41,7 +41,7 @@ Route each item in words to a page check, an answer-gap check or the off-site pl
 ## 7. Data quality and calculation table
 
 - Periods, engines, prompts, runs.
-- Thin groups (median runs per prompt below 3), mixed settings, rows skipped and why: only those that exist.
+- Default thin flag: median repeats below 3; use the matched-cell and unequal-allocation checks when supplied cells differ. State the check used, counts, mixed settings and excluded rows only when present.
 
 | Engine | Period | Group | Runs | Runs with mention | Runs with brand citation | Brand mentions | Competitor mentions | Prompts | Prompts all agreeing |
 |---|---|---|---|---|---|---|---|---|---|

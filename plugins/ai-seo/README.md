@@ -13,7 +13,7 @@ Each skill is chosen by what you give it:
 | "Do we show up in ChatGPT?" with a brand, a category and competitors, no results yet | `ai-visibility-panel`: prompt panel as CSV and a run protocol |
 | A filled panel sheet or many logged runs | `ai-visibility-report`: per-engine scorecard, a clear-change-or-noise verdict per engine, sources cited instead |
 | A Bing AI Performance export, a Search Console generative AI report or AI Assistant channel data | `ai-citation-data`: pages ranked by value against citation share |
-| One page, and a question about being quoted in AI answers | `ai-page-audit`: a plain verdict, the changes that matter, rewrites, a 0-18 checklist score and a warning if the page hides text aimed at AI |
+| One page, and a question about being quoted in AI answers | `ai-page-audit`: a plain verdict, the changes that matter, rewrites, a default 0-18 checklist score (an applicable-check denominator for page types where a trait does not apply; the report states which) and a warning if the page hides text aimed at AI |
 | One query plus answers you copied | `ai-answer-gap`: what to add or correct, with a sub-question coverage matrix |
 | URLs cited in answers, or "how do we get described correctly elsewhere" | `ai-offsite-plan`: source table and fact pack |
 
@@ -27,11 +27,11 @@ To try the scorecard and the export analysis with files, use the small fictional
 
 ## How it works
 
-The panel skill writes 20-30 buyer prompts in fixed buckets and a protocol: each engine measured separately, several runs per prompt, fixed settings. You run it on the engines you care about, for example ChatGPT, Perplexity, Google AI Overviews and AI Mode, Gemini, Claude or Microsoft Copilot, and log the results in the sheet. The scorecard prints every rate with its sample size and uses a written rule to separate a clear change from run-to-run variation. Pages that lose out go to the page check and the answer gap; third-party sources go to the off-site plan, which only uses disclosed, rule-abiding routes. Claims such as "add llms.txt" or "schema gets you cited" are answered from sourced notes, not repeated as advice.
+The panel defaults to 25 buyer prompt IDs within a 20-30 full-panel range, or a 10-unbranded-ID starter when the stated run budget is constrained; it uses fewer when buyer evidence supports fewer distinct intents and states size, allocation and actual workload, alongside a protocol: each engine measured separately, several runs per prompt, fixed settings. You run it on the engines you care about, for example ChatGPT, Perplexity, Google AI Overviews and AI Mode, Gemini, Claude or Microsoft Copilot, and log the results in the sheet. The scorecard prints every rate with its sample size and uses a written rule to separate a clear change from run-to-run variation. Pages that lose out go to the page check and the answer gap; third-party sources go to the off-site plan, which only uses disclosed, rule-abiding routes. Claims such as "add llms.txt" or "schema gets you cited" are answered from sourced notes, not repeated as advice.
 
 ## Data and network
 
-Network scope: this plugin fetches only URLs you type or paste, including URLs inside logs or exports you paste, plus the robots.txt file of those sites. It fetches public pages only, never logs in or submits forms, and skips paths a site's robots.txt disallows. At most 10 page fetches per run; robots.txt files do not count. Web search is used only when you explicitly ask for it, at most 10 queries per run, and every query is listed in the output. The plugin never queries AI answer engines, runs no code of its own and stores nothing; if the assistant has a code or spreadsheet tool, it may use it to compute the tables you see.
+Network scope: this plugin fetches only URLs you type or paste, including URLs inside logs or exports you paste, plus the robots.txt file of those sites. It fetches public pages only, never logs in or submits forms, and skips paths a site's robots.txt disallows. Default and maximum: 10 page fetches and, only when you explicitly ask, 10 search queries per run; robots.txt does not count. Fewer are used when your supplied URLs or requested work need fewer, and the answer states the counts used. Larger supplied lists are handled in bounded batches; the ceiling stays 10. Every search query is listed. The plugin never queries AI answer engines, runs no code of its own and stores nothing; if the assistant has a code or spreadsheet tool, it may use it to compute the tables you see.
 
 Logs, exports and brand names you share stay in your conversation with the assistant.
 
@@ -39,7 +39,7 @@ Logs, exports and brand names you share stay in your conversation with the assis
 
 - **No web tool:** paste the page source ("view source") and robots.txt.
 - **Export not recognized:** say which report produced it, or paste the header row.
-- **Thin sample warning:** run each prompt at least three times per engine before comparing periods.
+- **Thin sample warning:** default to 3 repetitions per prompt and phrasing per engine; if your log has fewer, it still reports observed rates and says repeated evidence is insufficient for a clear-change verdict. The report states the repetitions and rule used.
 - **Mixed settings in the log:** keep one setting per engine, or split the log.
 
 ## Support
