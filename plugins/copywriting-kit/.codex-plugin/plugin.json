@@ -1,7 +1,7 @@
 {
   "name": "copywriting-kit",
-  "version": "0.1.2",
-  "description": "Rewrite your website and marketing copy so it is clearer, using only your product facts. Diagnose what is wrong with your homepage messaging and how your site explains what you sell before any rewrite, draft landing, product and pricing pages from your brief, check marketing claims against evidence you provide, and capture your brand voice from your own writing. Edits keep every number, name and claim; proof, testimonials and urgency are never invented.",
+  "version": "0.1.3",
+  "description": "Edit, diagnose and draft copy for your own website: edited text first with every number, name and claim kept, a plain diagnosis of what is broken before any rewrite, claims checked against your own evidence, page drafts from your facts, and a voice profile from your own writing. Proof, testimonials and urgency are never invented.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
