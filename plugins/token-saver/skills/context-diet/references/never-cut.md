@@ -1,6 +1,6 @@
 # What is never cut
 
-Every skill in this plugin keeps the items below exactly as they are. Shorter wording applies to explanation around them, never to them.
+Select material according to the task: preserve all active obligations when trimming instructions, and all state, constraints and evidence needed to resume a handoff. Irrelevant or superseded material may be omitted from summaries, with material omissions disclosed. Preserve retained items under “Keep verbatim” exactly; “Keep in full sentences” governs presentation rather than requiring reproduction of all source text.
 
 ## Keep verbatim
 
@@ -18,8 +18,4 @@ Every skill in this plugin keeps the items below exactly as they are. Shorter wo
 - Legal, medical and contractual wording.
 - Steps whose order matters. Keep the order and the numbering.
 
-## Keep the reasoning
 
-- A short answer never skips the check or the reasoning that makes it correct.
-- A short answer never skips a clarifying question the task needs.
-- If the short version would be wrong, unsafe or ambiguous, give enough detail to make it correct and safe. Explain the extra detail only when that explanation helps the user.

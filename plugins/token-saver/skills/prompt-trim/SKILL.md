@@ -5,7 +5,7 @@ description: Shorten an instruction text for an AI assistant, such as a project 
 
 # Prompt trim
 
-Instruction files load with every request, so every extra line is paid again and again. This skill makes them shorter while proving that no rule was lost.
+Build a rule ledger, produce a rule-preserving rewrite, and verify obligations, scope, exceptions and timing against the ledger.
 
 ## Ground rules
 
@@ -14,13 +14,13 @@ Instruction files load with every request, so every extra line is paid again and
 3. Never shorten, paraphrase or drop anything on the list in `references/never-cut.md`.
 4. Never remove a confirmation step or a warning that comes before a destructive or irreversible action.
 5. Never copy secrets into the output. Keys, tokens and passwords become `<redacted>`.
-6. No invented numbers. Every figure is either shown by the host, pasted by the user, counted with the assistant's code tool, or labeled approximate (characters divided by 4 for tokens).
-7. Change no files, settings or permissions, and install or run nothing, unless the user asks for it in this conversation.
+6. Every figure is either shown by the host, pasted by the user, counted with the assistant's code tool, or labeled approximate (characters divided by 4 for tokens).
+7. Change no files, settings or permissions, and install or run nothing unless the user asks for it in this conversation, except local counting allowed by the scope rule below.
 8. Never tell the user to remove, avoid or prefer a named third-party tool, server, plugin or product. Report sizes and let the user decide.
 9. List any assumption you make under "Assumptions".
-10. Without a file or code tool, work from pasted text: request the text and continue once it arrives.
+10. Use available conversation and pasted text. Request missing source text only when the requested operation requires it and no permitted tool can obtain it.
 
-Network scope: this plugin fetches nothing and sends nothing. It works only on text the user pastes or files the user names in the current workspace, and it runs nothing and changes no files or settings unless the user asks.
+Use only the conversation, pasted text and files the user names in the current workspace. Do not fetch external sources or send data. Local word/character counting is permitted for requested counts unless the user prohibits execution; otherwise label estimates. Run no other commands and change no files or settings unless requested. Apply any stricter skill-specific boundary.
 
 ## Step 1. Check the input
 
@@ -29,11 +29,11 @@ Network scope: this plugin fetches nothing and sends nothing. It works only on t
 
 ## Step 2. Rule ledger
 
-List every instruction or constraint as R1, R2, … with where it is in the original (section or line). A rule is anything that changes what the assistant should do: a must, a never, a preference, a default, a format, a path, a command.
+Build a complete ledger of every instruction or constraint as R1, R2, … with its original section or line; print it according to Step 4’s review-depth rule. A rule is anything that changes what the assistant should do: a must, a never, a preference, a default, a format, a path, a command.
 
-Examples are not rules. List each example under the rule it illustrates. Code an extra example T3 when the rule is already clear or already has one example.
+Examples are not rules. List each example under the rule it illustrates. Code an example T3 only when its instructional contribution is redundant. Retain distinct behaviors, edge cases and format variants; if equivalence is uncertain, preserve the example or flag it for task validation.
 
-## Step 3. Change table
+## Step 3. Change mapping and review table
 
 | Span | Code | Rules affected | Note |
 |---|---|---|---|
@@ -52,18 +52,18 @@ Codes from `references/trim-codes.md`:
 
 Print the full trimmed text, ready to paste.
 
-If the file is under 300 words, print the ledger one line per rule and group all T2 filler into one change-table row.
+Always build and verify the complete rule mapping. Select printed detail by rule density, conflicts, risk and requested review depth: concise changes plus counts for simple edits; full ledger and coded change table when requested or needed for review. The 300-word cutoff is a formatting default, not a correctness threshold.
 
 ## Step 5. Counts and the zero-loss check
 
 ```
 Words: <before> → <after>
 Tokens: ~<before> → ~<after> (approximate, chars ÷ 4, unless counted with the code tool)
-Rules present: <n> of <n>   (or: missing R4, R9)
+Rules present: <n> of <n> (or: missing R4, R9)
 Conflicts: <pairs or none>
 Loads every request: <which sections, if the user said the file is always loaded>
 ```
 
-If any rule is missing, fix the trimmed text before printing it.
+
 
 Edit the file on disk only if the user asks, and then only the file the user named.

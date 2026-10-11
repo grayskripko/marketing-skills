@@ -1,6 +1,6 @@
 # Handoff note template
 
-Copy this block and fill every field. Write "none stated" when the conversation has nothing for a field.
+Use this coding template when applicable. For other tasks use the core fields in SKILL.md and add only relevant supplied evidence. In the coding template, write “none stated” for applicable fields with no supplied information. Record supported failed attempts without inventing retry prohibitions.
 
 ```
 HANDOFF
@@ -19,8 +19,8 @@ Current state:
 Decisions and why:
 - <decision> because <reason>
 
-Tried and failed, don't retry:
-- <attempt>: <why it failed>
+Tried and failed:
+- <attempt>: <conditions>; <result>; <known reason or “none stated”>; <retry prohibition only if the user stated one>
 
 Constraints and preferences:
 - <as the user stated them>

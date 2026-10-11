@@ -5,7 +5,7 @@ description: Plan how a coding assistant should investigate a bug, a failing tes
 
 # Read less
 
-In coding sessions, file reads and command output are usually the largest part of what gets sent with every later request. A plan made before reading keeps them small.
+Draft a bounded reading plan with a source and stop condition for each material uncertainty. Do not execute it unless the user requested execution.
 
 ## Ground rules
 
@@ -14,24 +14,24 @@ In coding sessions, file reads and command output are usually the largest part o
 3. Never shorten, paraphrase or drop anything on the list in `references/never-cut.md`.
 4. Never remove a confirmation step or a warning that comes before a destructive or irreversible action.
 5. Never copy secrets into the output. Keys, tokens and passwords become `<redacted>`.
-6. No invented numbers. Every figure is either shown by the host, pasted by the user, counted with the assistant's code tool, or labeled approximate (characters divided by 4 for tokens).
-7. Change no files, settings or permissions, and install or run nothing, unless the user asks for it in this conversation.
+6. Every figure is either shown by the host, pasted by the user, counted with the assistant's code tool, or labeled approximate (characters divided by 4 for tokens).
+7. Change no files, settings or permissions, and install or run nothing unless the user asks for it in this conversation, except local counting allowed by the scope rule below.
 8. Never tell the user to remove, avoid or prefer a named third-party tool, server, plugin or product. Report sizes and let the user decide.
 9. List any assumption you make under "Assumptions".
-10. Without a file or code tool, work from pasted text: request the text and continue once it arrives.
+10. Use available conversation and pasted text. Request missing source text only when the requested operation requires it and no permitted tool can obtain it.
 
-Network scope: this plugin fetches nothing and sends nothing. It works only on text the user pastes or files the user names in the current workspace, and it runs nothing and changes no files or settings unless the user asks.
+Use only the conversation, pasted text and files the user names in the current workspace. Do not fetch external sources or send data. Local word/character counting is permitted for requested counts unless the user prohibits execution; otherwise label estimates. Run no other commands and change no files or settings unless requested. Apply any stricter skill-specific boundary.
 
 ## Step 1. Restate the task as questions
 
-Turn the user's task into 3 to 7 concrete questions, for example "which function returns the 401?" or "where is the logout route registered?".
+Create the smallest set of concrete questions needed to choose the next action, for example “which function returns the 401?”. Use 3–7 as a starting default for medium investigations; use fewer for direct lookups and stage broader work.
 
 ## Step 2. Reading plan
 
 | # | Question | Cheapest source | Why this source | Expected size | Stop when |
 |---|---|---|---|---|---|
 
-Cheapest sources, in the order to try them, from `references/reading-rules.md`:
+Choose the least expensive source likely to resolve the current uncertainty, using `references/reading-rules.md`. These are source options, not a mandatory order; a small README, overview or failing test may be the best first source without a search anchor:
 
 1. a search for a specific name or string;
 2. reading a line range around a search hit;
@@ -42,10 +42,10 @@ Cheapest sources, in the order to try them, from `references/reading-rules.md`:
 
 ## Step 3. Rules for the session
 
-Print the five rules from `references/reading-rules.md` as a short checklist the user can keep in view.
+Use `references/reading-rules.md` to construct the plan and apply those rules yourself when execution is requested. Label any printed checklist as execution rules; print it only when useful for review. Identify actions requiring the user separately.
 
 If the host offers a way to keep bulky output out of the main conversation, mention it in one neutral line and point to `references/host-commands.md`.
 
 ## Step 4. Run nothing
 
-This skill proposes. It does not run searches, commands or tests unless the user asks it to carry out the plan, and then one row at a time.
+This skill proposes. Run searches, commands or tests only when the user requests execution; an explicit “plan and investigate” request authorizes both. When executing, the agent applies the reading rules and checks each row’s stop condition.

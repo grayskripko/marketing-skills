@@ -1,6 +1,6 @@
 {
   "name": "token-saver-kit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Lower token use in AI chat and coding sessions without losing meaning: short but safe answers that keep commands, numbers, warnings and confirmations even when asked to drop them, handoff notes that let a fresh session resume, an audit of what your setup loads into every request, trimming of long instruction files that keeps every rule, and reading plans that gather context with fewer file reads.",
   "author": {
     "name": "Sergey Skripko",
