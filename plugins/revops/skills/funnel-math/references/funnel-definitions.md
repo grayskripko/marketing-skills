@@ -2,7 +2,7 @@
 
 ## Cohorts
 
-Group records by the period they entered the funnel (created month or quarter), not by the period they converted. A cohort's later steps can still be open; say "cohort still maturing" when the newest cohort is younger than the median time to the step being measured.
+Group by when records entered the funnel, using the user's reporting/event cadence (monthly by default), never conversion period. Check every cohort's step-specific follow-up and unresolved outcomes. Mark incompletely observed cohorts; median age is only a quick warning, not proof of maturity. Use comparable fixed-horizon outcomes or an appropriate censoring-aware method when needed. Show k/n and requested duration summaries; intervals follow the rate-evidence rule.
 
 ## Cohort table
 

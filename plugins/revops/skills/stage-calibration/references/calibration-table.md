@@ -4,9 +4,9 @@
 
 For each stage S:
 
-- reached(S) = closed deals whose furthest stage was S or later. If the export has one "furthest stage" column, a deal reached every stage up to it.
+Use actual stage-entry history where available and separate pipeline paths/definition versions. Furthest-stage inference means a deal reached every prior stage only after mandatory sequential traversal is confirmed; otherwise affected exposure denominators are unknown.
 - won(S) = deals in reached(S) that closed won.
-- observed(S) = won(S) ÷ reached(S), with n = reached(S) and a Wilson 95% interval.
+- observed(S) = won(S) ÷ reached(S), with n = reached(S); add an appropriate interval only under the rate-evidence rule.
 - Deals still open are excluded, because their outcome is not known yet. Count them per stage in a note: "k open deals that reached this stage are not counted."
 - If only stage counts are given ("50 reached Stage 3, 14 won"), use them directly and say that censoring could not be checked.
 
@@ -20,6 +20,6 @@ The Stated column shows the user's figure exactly as given. Verdicts: "stated in
 
 Then:
 
-- Adjacent stages whose intervals overlap: "this table does not show that these two stages separate outcomes". The same deals sit in both rows, so no test for a difference is run between them.
+- Do not infer overlap from aggregate stage counts or separation from marginal-interval overlap. Confirm the traversal/dependence model; use suitable paired or transition evidence when available.
 - A suggested probability per stage, written as "from your data: 28.0%, n = 50". Never smoothed or blended with outside figures.
 - The period the closed deals cover, and whether stage definitions changed inside it (if the user says so, split at that date).

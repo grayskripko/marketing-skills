@@ -36,7 +36,7 @@ This is a dollar-to-dollar ratio. At a 20% dollar-weighted rate it is 5.0×. Mul
 
 ## Capacity
 
-Inputs: people carrying a number, start months, ramp months, quota per ramped person, expected attainment (a team-level assumption).
+Inputs: people/start dates, supplied or historical ramp factors, quota and expected attainment with a stated ramp convention. Prefer user/historical curves; the linear formula below is only a labelled fallback for full-month starts. Allow zero-output training and partial periods; do not count ramp twice through attainment.
 
 ```
 month index k = 1 in the month a person starts, 2 the next month, and so on
@@ -53,7 +53,7 @@ Print the ramp factor per person group per month. Team level only; never per per
 
 Two separate grids, because capacity bookings do not depend on funnel rates. Show the funnel grid only if the user asks how sensitive the plan is or gives ranges; show the capacity comparison only when requested and supported by team data.
 
-- Funnel grid: rows are the count win rate −5 pp, as given, +5 pp; columns are the SQL-to-opportunity rate −5 pp, as given, +5 pp; cells show SQLs needed per month.
+- Funnel grid: use requested count-win and SQL-to-opportunity ranges first. Otherwise choose plausible scenarios from history/uncertainty or label ±5 pp as an optional default where valid.
 - Capacity comparison: use requested scenarios. If unspecified, label attainment ±10 pp and ramp +1 month as assumptions. For a target-feasibility question include 100% attainment and each ramp’s break-even attainment. Show both ramps’ monthly quota capacity and a simple bookings-against-target comparison; report gap/pipeline separately for requested cases.
 
-Mark the base cell in each. Leave a cell blank if its rate would be 0% or below. All inputs appear in an assumptions list the user can edit.
+Mark the base cell in each. Mark conversion scenarios outside (0,100%] invalid; do not treat attainment above 100% as invalid. All inputs appear in an assumptions list the user can edit.

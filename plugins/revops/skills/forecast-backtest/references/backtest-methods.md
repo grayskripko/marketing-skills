@@ -26,12 +26,12 @@ MAPE          = mean of |e_t| over periods with A_t ≠ 0
 bias          = mean of e_t over the same periods
 ```
 
-A period with A_t = 0 has no percentage error. It is not a usable period: exclude it from MAPE, bias and wins, and list it with the difference F_t − A_t.
+For each pair, dollar error = forecast − actual; positive means overforecast. MAE = mean absolute dollar error; dollar bias = mean signed dollar error. These include zero-actual periods. Percentage error = (forecast − actual) ÷ actual; MAPE and percentage bias use only nonzero-actual periods and report their coverage. Zero actual makes percentages undefined, not dollar errors or closest-period wins. Use requested/business-relevant metrics; do not add unrelated percentage comparisons.
 
 ## Verdict rules
 
-- A method is "closest" in a period if its |e_t| is the smallest. Compare errors before rounding; if two or more methods have exactly the same |e_t|, each gets half a win (a third for three, and so on).
-- Name a closest method overall only if its wins, counting partial wins, are more than half of the usable periods. Otherwise say "no method is consistently closer" and add the lowest MAPE and the lowest absolute bias as separate facts.
-- With 4 or fewer usable periods print "n = k periods, weak evidence" (heuristic of this plugin).
-- Without at least two past periods for at least two methods, say that a backtest is not possible with this data and stop. Do not produce a number of your own in that case.
+- Closest-period wins follow the chosen loss, include zero periods when that loss is defined there, and split exact ties equally before rounding.
+- Use the requested loss to name the best method; report frequency wins separately. Majority is necessary only for a majority claim.
+- Four or fewer periods is a default caution. Assess representative history, horizon, dependence, seasonal/regime coverage and advantage stability; five periods does not establish adequacy.
+- Evaluate errors for every available forecast/actual pair. One method supports absolute evaluation; at least two comparable methods are needed for relative comparison. Label a single-period comparison a postmortem; reserve consistency claims for sufficiently representative repeated history. Missing actuals block only affected pairs.
 - Lead with the requested verdict. Only when the user asks what each method says for the current period, show one row per method next to that method's past MAPE and bias, headed "what each method would say, not a forecast". Never one blended number.

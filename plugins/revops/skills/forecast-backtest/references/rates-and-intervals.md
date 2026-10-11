@@ -1,6 +1,6 @@
 # Rates and intervals
 
-Every observed rate shows k/n. Use a Wilson 95% range for historical stage calibration and when justified inference about a broader/future population is requested; do not automatically attach sampling intervals to a complete observed cohort or saved-period frequency. A binomial interval requires an appropriate trial model and target. Print formulas only when asked.
+Show count rates as k/n and dollar ratios with monetary numerator, denominator and unit. Historical closed-only rates describe that cohort; current-deal calibration requires a compatible target cohort and definition version. Add sampling intervals only for a stated inferential target and an appropriate trial/dependence model. Wilson 95% is the default for suitable binary trials; accept requested confidence levels. Do not automatically attach intervals to complete-cohort ledgers or saved-period frequencies. Show requested metric inputs and arithmetic; print interval derivations only when asked.
 
 ## Wilson score interval
 
@@ -41,4 +41,4 @@ A dollar-weighted win rate is won amount ÷ closed amount (won + lost) on the sa
 
 ## Medians
 
-Durations (days in stage, days to first contact, cycle length) use the median, with n. Print a requested or decision-relevant mean with its label, alongside the median when useful. Do not assert outlier distortion without checking the data.
+Durations (days in stage, days to first contact, cycle length) use the median, with n. Print a requested or decision-relevant mean with its label, alongside the median when useful. <delete>

@@ -1,6 +1,6 @@
 # RevOps Metrics Kit
 
-Revenue numbers you can recompute. Every figure comes with its formula, and every rate with its sample size and a 95% range, calculated from data you paste.
+Revenue numbers you can recompute from data you paste. Requested metrics show their inputs and calculation. Count rates show counts; uncertainty ranges are added when the inferential question and model support them.
 
 Example: your CRM says deals at Stage 3 win 60% of the time. Your closed deals say 28%.
 
@@ -12,11 +12,11 @@ Example: your CRM says deals at Stage 3 win 60% of the time. Your closed deals s
 
 | Skill | Give it | You get |
 |---|---|---|
-| stage-calibration | stage probabilities, closed-deal counts or rows, stage definitions | observed win rate per stage with a 95% range, open deals left out, and a ten-point check of your written stage definitions |
+| stage-calibration | stage probabilities, closed-deal counts or rows, stage definitions | observed win rate per stage with a range when inference is justified, open deals left out, and a ten-point check of your written stage definitions |
 | arr-bridge | revenue by account by period | a bridge that reconciles to zero, gross and net revenue retention (GRR, NRR) over the starting customers, customer-count churn |
 | forecast-backtest | past forecasts and what actually closed | how far each method missed each period, its average miss and whether it ran high or low, and a warning when there are too few periods |
 | revenue-plan | a target with your rates or team | deals, SQLs, leads and people per month with lag, coverage, capacity gap |
-| funnel-math | lead or deal rows with dates | conversion by the month or quarter leads came in, with a 95% range; time to first contact by source; segment view; velocity |
+| funnel-math | lead or deal rows with dates | conversion by entry cohort with counts and a range when inference is justified; time to first contact by source; segment view; velocity |
 
 ## Examples
 
@@ -42,7 +42,7 @@ Walk through deals one by one, run what-ifs on a single deal slipping, clean CRM
 
 ## Troubleshooting
 
-"Not checked" names the missing column. A wide 95% range means too few records.
+"Not checked" names the missing column. A wide range indicates limited precision under the stated model; sample size, observed outcomes and dependence affect uncertainty.
 
 ## Support
 
