@@ -17,11 +17,11 @@ The items the user names; when the user names nothing, every number, name and da
 
 ## Impossible targets
 
-Count the words the protected items need on their own. If that count, or that count plus the fewest joining words that still make a sentence, is above the target, the target is impossible. Say so, give the shortest version that keeps them all, and print its count.
+Count the protected spans in the target's unit. If they alone, or with the fewest usable joining characters, exceed the target, follow Step 4: preserve their exact wording and give the verified fallback count. Omit nonprotected context and allow a readable fragment only for an explicitly requested shortest fallback; disclose lost facts, attribution and relationships.
 
 ## What the reader loses
 
-One or two lines: the points, examples or nuance removed in C4 and C5. Write "nothing factual" only when no cut went beyond C3.
+One or two lines: the points, examples or nuance removed in C4 and C5. Write "nothing factual" only after checking that no fact, relationship, attribution or nuance was lost, even by a shorter phrase; the tier label alone is not evidence.
 
 ## Reading-time targets
 

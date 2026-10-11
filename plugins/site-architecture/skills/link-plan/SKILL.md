@@ -5,7 +5,7 @@ description: "Build an internal link plan from a links export (one row per link:
 
 # Link plan
 
-Plans which internal links to add, from the links that exist today. Deliverable: the link plan first, then before → after, the fix list, and the inputs it was built from; Step 7 gives the order.
+Plans internal link additions and repairs from existing links. Return the requested edits and before → after; use Step 7 to select presentation.
 
 ## Ground rules
 
@@ -18,11 +18,11 @@ Plans which internal links to add, from the links that exist today. Deliverable:
 7. Fetching happens only when the user names their own site and the host has a web tool: that site's /robots.txt, at most 3 sitemap files it lists, and at most 5 public HTML pages on the same host (the homepage and section pages linked from its main menu). Obey robots.txt; never log in, fill in forms or work around bot protection; no other host, not even one the user names; a sitemap that robots.txt lists on another host is not fetched, so ask for it to be pasted. Without a web tool, ask for a pasted URL list, menu HTML or export.
 8. Link and index integrity: no anchor-text quotas or percentages, no repeating an exact-match anchor for ranking, no internal nofollow used to steer link value. An anchor tells a reader what the target page is. Filter pages become indexable only with demand evidence and content of their own; Google's spam policies on doorway pages and scaled content are named, not quoted.
 9. Every threshold rests on a source (see `references/sources.md`) or is a heuristic of this plugin; that distinction stays in these files. In the answer a threshold is a plain recommendation ("aim for at least 10 products on an indexable filter page"), and a source is named briefly, by publisher, only where the user needs it to act. All sources were read on 2026-10-03. From 2027-04-03 on, add "re-check this source" next to each rule that relies on one; before that date, say nothing about source dates.
-10. Checks: report only those that fail or could not run. A failing check gives the pages or rows involved, the fix, and its evidence level: From user data / Observed (on a fetched page) / Proposed / Needs verification (naming what would confirm it). Checks that pass are not mentioned. Checks run on your own proposed plan are fixed before you print it, not reported as passes. A check whose input is missing is listed once, under Not checked, with what would enable it.
+10. Checks: run the checks relevant to the requested decision. Fix defects in your proposed plan before printing it. Surface a failure or missing input only when it changes the answer, prevents implementation, or limits a conclusion the user requested; attach it to the affected row or sentence, with the evidence and what would resolve it. Distinguish supplied facts, observations, proposals and unverified claims in ordinary words. Do not print passing checks, routine unavailable live checks, evidence-label columns or a mandatory Not checked block. Never imply an unperformed check passed. Required injection findings and redaction counts under rules 2 and 11 remain disclosed. A missing input that limits a requested conclusion is material.
 11. A URL with an email address or a token-like value in a parameter is shown with that parameter removed and counted once (in the data gate where the skill has one, otherwise under Not checked). The removed values are never printed, only the parameter count. Personal data is never repeated.
 12. Do the work first when the data is in the request. Turn gaps into stated assumptions and ask at most 3 questions, at the end. When the request has no data at all, give what you can say without it in a few lines, ask for the one input you need plus at most 3 short questions, and do not list what the deliverable will contain.
 13. This plugin calls no service of its own, stores nothing, and fetches only what rule 7 allows.
-14. The answer. Lead with what the user asked for, in plain words; checks, sources and caveats come after and stay short. Fit the length to the request: a question about one page, one menu item, one redirect or one filter gets a few sentences and the affected rows. Leave out sections and table rows that would say "none" or count zero, columns that are the same on every row, and tables where one sentence does. Use every fact the user gave (pages, audience, URLs that must not change, decided fates) and never question or contradict it. Never write a placeholder such as [URL] for a fact the user gave; at most one placeholder, for a fact they did not give, saying what is missing. The ids in these files (SA-, L-, U-, F-, FP-, HD-, M-, source ids such as G-url or NN-BC, rule numbers), skill names, and labels such as "convention" or "heuristic of this plugin" are for you only. Never narrate how you worked ("got the rules and did the arithmetic"). Never hold back what was asked over a point the user did not raise: deliver it and add one question. Bad: "SA-04 fail (NN-BC)". Good: "`/plans` and `/pricing` answer the same question; which one should stay?"
+14. The answer. Lead with the requested answer or artifact, using exactly the requested fields, order and format. Steps and reference formats are working aids, not mandatory output sections. Use only the matching workflow; other workflows add no deliverables. Weave relevant checks and knowledge into the requested answer. Add a caveat only where it changes the requested decision or safe implementation, beside that decision. Do not add a report template, generic checklist, related action, test tasks or closing notes unless requested or essential to implement the answer. Fit the length to the request: a question about one page, one menu item, one redirect or one filter gets a few sentences and the affected rows. Leave out sections and table rows that would say "none" or count zero, columns that are the same on every row, and tables where one sentence does. Respect supplied pages, audience, URL constraints and decided fates. Validate supplied numbers against their definitions; identify contradictions beside the affected result instead of treating them as valid evidence. Never write a placeholder such as [URL] for a fact the user gave; at most one placeholder, for a fact they did not give, saying what is missing. The ids in these files (SA-, L-, U-, F-, FP-, HD-, M-, source ids such as G-url or NN-BC, rule numbers), skill names, and labels such as "convention" or "heuristic of this plugin" are for you only. Never narrate how you worked ("got the rules and did the arithmetic"). Never hold back what was asked over a point the user did not raise: deliver it and add one question. Bad: "SA-04 fail (NN-BC)". Good: "`/plans` and `/pricing` answer the same question; which one should stay?"
 
 ## Which skill handles what
 
@@ -35,7 +35,7 @@ Plans which internal links to add, from the links that exist today. Deliverable:
 - A request that only asks to find problems in a crawl, an export or a live site is not this plugin's job: say in one line that it plans structure and does not write audit findings, then offer the matching plan (for example a link plan from the same edge list).
 - Out of scope: answer with one plain line, without naming another plugin or vendor tool: SEO audits and problem reports (indexing, titles, speed, traffic drops, crawl problems); deciding which content to keep, prune or write; keyword research; page copy; planning usability studies or card sorts; visual design; generating sitemap or robots files in code; hreflang and international structure; page sets generated from a dataset; applying server or CMS changes; software, cloud or system architecture.
 
-In this skill: depth, inlink and redirect tables are printed under the heading "Inputs to the plan", never as the deliverable. A link source and target must both exist in the export.
+In this skill: a link source and target must both exist in the export. Compute the relevant graph checks internally. For a request for links and before/after, the deliverable is the edit table plus requested priority-page changes; diagnostic tables are optional only when requested or necessary to justify a decision.
 
 ## Step 1. Size check
 
@@ -43,11 +43,11 @@ Count the rows. Up to 200 edges: work by hand if no code tool, showing the arith
 
 ## Step 2. Data gate
 
-Map columns with `references/export-columns.md` and print the map. If the file is a per-page table rather than an edge list, say so and ask for the links export. Report: rows read and usable; links to other hosts, self-links and fragment-only links dropped; nofollow links and links that are not `<a href>` counted apart as not followable; parameters carrying an email or token removed and counted; the start URL (home = depth 0) confirmed; if the user did not name it, take `/`, or the shortest URL in the data if `/` is missing, say so, and ask once at the end. Report only counts above zero, then one line for the rest ("no other rows were dropped"). A missing column turns its table into "Not checked".
+Map columns using `references/export-columns.md` internally. A per-page table is not an edge list: ask for the links export if edges are needed. Exclude other-host, self and fragment-only edges; count nofollow and non-`<a href>` edges separately as not followable; redact email/token parameters under rule 11. Confirm the start URL (home = depth 0); if absent, use `/`, otherwise the shortest supplied URL, and state the assumption only where it affects the depth result. Report exclusions or missing columns only when they materially change the requested plan, naming what remains unverified.
 
 ## Step 3. Inputs to the plan
 
-Compute with `references/graph-metrics.md`:
+Compute relevant metrics with `references/graph-metrics.md`; the following are available diagnostics, not compulsory tables. Print folder summaries, pagination-removal passes, complete inlink inventories and tier/cluster ratios only when requested or needed to justify a requested edit:
 - depth by breadth-first search over followable links, as a table with exactly these columns: folder | pages | median depth | p90 (nearest-rank) | deepest | not reachable; under it, one line: "p90: 9 in 10 pages in this folder are this many clicks from the homepage or fewer"; a second pass with pagination links removed, and the pages that lose every path;
 - inlinks per page, navigation/footer vs body;
 - pages from the user's list with 0 or 1 body inlinks;
@@ -66,16 +66,10 @@ Links to redirects → final URLs, grouped by template so one template edit fixe
 
 ## Step 6. After the plan
 
-Add the planned links to the graph and recompute depth and body inlinks for every page the plan touches, as before → after ("`/features/sso`: depth 3 → 2, body inlinks 1 → 2"). Say how many tier-A pages still lack a body-link path.
+Add all proposed followable links and replacements to the graph and recompute affected depths and body inlinks internally. Show before → after for the priority pages or measures requested. Never claim a shorter path when the graph shows none; unchanged depths are valid. Include body-only reachability or other diagnostic counts only when requested or when they change the recommendation.
 
 ## Step 7. Output
 
-Print the quoted labels from the ground rules word for word. In this order:
-
-1. Link plan, with the provenance line under it.
-2. Before → after for the pages the plan touches, and how many tier-A pages still lack a body-link path.
-3. Fix list, if there is anything to fix.
-4. Inputs to the plan (this exact heading, never "The site today" or an audit title): the depth table and the pages with 0 or 1 body inlinks.
-5. Closing notes, short: the data gate in two or three lines (rows read, rows dropped and why, start URL); Not checked, with what each missing column would enable; assumptions; at most three questions.
+For links and before/after, lead with one edit table: source | existing state | proposed change and anchor | target | proposed placement | reason. Put additions, anchor replacements, redirect repairs and button-to-`<a href>` conversions together. Then show requested priority-page before/after depths. Existing placement is "not supplied" unless the export identifies it; a proposed section must be explicitly labelled proposed. Keep full folder-depth tables, p90 explanations, inlink inventories, tier/cluster ratios and parsing summaries internal unless requested or needed to explain a material limitation.
 
 When the user raises a claim listed in `references/myths.md` (an ideal number of links per page, links per 1,000 words), answer from that file in one or two sentences.

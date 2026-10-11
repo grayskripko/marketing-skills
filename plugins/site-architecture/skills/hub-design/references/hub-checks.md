@@ -15,11 +15,11 @@ The skill lists the pair and its evidence; the user decides. A merge the user co
 
 | Id | Check | Fails when |
 |---|---|---|
-| HD-01 | One hub per child | a child sits under two hubs |
+| HD-01 | One structural home | an approved structural child has conflicting parent chains; curated membership under several hubs is allowed |
 | HD-02 | Hub links every child | any child missing from the hub's contents block or outline |
 | HD-03 | Every child links up | a child without a body or breadcrumb link to its hub |
-| HD-04 | No forbidden pair linked | two same-intent pages link to each other instead of being merged or differentiated |
+| HD-04 | Existing links preserved | links are removed solely because pages share an intent, without reader-path evidence and scope to change them |
 | HD-05 | Distinct intents | two children share a primary intent |
 | HD-06 | Contents block present | the hub has no block listing all children |
-| HD-07 | Breadcrumb agrees | a child's breadcrumb parent is not the hub (for example still under Blog) |
+| HD-07 | Breadcrumb agrees with structural home | a proposed breadcrumb conflicts with the approved structural parent chain; a curated Blog member keeps its Blog chain |
 | HD-08 | URLs checked | a URL not in the input and not marked new |

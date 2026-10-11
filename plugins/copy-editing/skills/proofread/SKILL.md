@@ -77,7 +77,7 @@ Open `references/version-check.md` first and follow it. Align the two texts by p
 
 ## Step 5. Verdict
 
-**Hold** when any blocker exists: a leftover marker, an unexpected change to a locked item, numbers that disagree, a weekday that does not match its date, a possible missing negation, or chat debris. Otherwise **Ship after n fixes**. Name each blocker on the verdict line.
+**Hold** when any blocker exists: a leftover marker, an unexpected change to a locked item, numbers that disagree, a weekday that does not match its date, a possible missing negation, or chat debris. An intentional merge field is not itself an error. If its population is unconfirmed, require confirmation before sending; do not assert that it will reach readers unfilled. Clear this issue only when population is confirmed. Otherwise **Ship after n fixes**. Name each blocker on the verdict line.
 
 ## Step 6. Outside a proof
 

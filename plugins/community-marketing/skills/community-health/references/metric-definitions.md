@@ -1,6 +1,6 @@
 # Metric definitions
 
-Print the definitions box before any rate, with the user's own values where given. Every default is editable and labelled.
+Use the user's definitions wherever given. State only a necessary default or ambiguity beside the affected metric; print a definitions box only when requested or needed to resolve several competing definitions. Every default is editable and labelled.
 
 ## Definitions box
 

@@ -66,7 +66,7 @@ Each milestone is something a person can observe, with who checks it and which K
 
 ## Material checklist
 
-Needed: product and pricing notes (for knowledge checks), at least one role-play brief per call type, a demo plan for the main buyer role, a bank of buyer questions with agreed answers. For each: exists or missing; missing items point to rep-certification, demo-runbook or question-bank.
+Needed: product and pricing notes (for knowledge checks), at least one role-play brief per call type, a demo plan for the main buyer role, a bank of buyer questions with agreed answers. For each: exists or missing; missing items include a proposed owner, needed-by week and supplied creation/approval estimate. Missing estimates leave total capacity unresolved; never invent durations. Activity hours are delivery-only. Missing items point to rep-certification, demo-runbook or question-bank.
 
 ## Worked example
 

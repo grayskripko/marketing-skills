@@ -1,5 +1,7 @@
 # Statistics glossary
 
+Use intervals for inferential outcome comparisons, not automatically for complete historical cohort totals or categorical decline counts. Keep counts and denominators visible. Calculation examples and allocation ratios do not prescribe a 10% holdout.
+
 One set of definitions for every skill in this plugin. z = 1.96 throughout.
 
 ## Rate with a Wilson 95% interval
@@ -67,6 +69,6 @@ Round up. Never divide the equal-split figure by the holdout share. Checks, 10% 
 
 - Mix shares (what fraction of declines are of each type) are shown as counts and percentages with no interval.
 - n = 0: print "no data", not 0%.
-- n below 20: keep the row, add "too few to tell" (heuristic).
+- n below 20: keep the row and show the actual count; flag small-sample uncertainty for inference, not an automatic ban on case review or known decline-class actions.
 - Durations: median with n; the mean only if asked, beside the median.
 - Rounding: compare with any threshold first, then round half away from zero.

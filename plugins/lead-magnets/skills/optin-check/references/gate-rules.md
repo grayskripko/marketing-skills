@@ -12,21 +12,11 @@ Form: "Once the reader has used [asset], they hold [result]; [offer] delivers [t
 
 A sentence that needs words like "and then they will also want" to reach the offer, or that only works if the reader already wants the product, is a fail. The offer half says only what the user said the offer does.
 
-## Capture mode: ordered rule
+## Capture mode
 
-Go through the steps in order. The first one that fires decides.
+Choose for the stated goal before asset type. Reach only: open. Contacts and reach: summary open, full version by email. Contacts only: full email-delivery gate when the asset is unique company material or a working instrument not freely available elsewhere, useful follow-up exists, readers are comparing or deciding, and plausible paid value is supplied; otherwise recommend summary open and explain the missing condition. Unknown conditions count as false. Treat the user’s supplied facts as facts, not independently verified market evidence. For tools, use-first/save-by-email is an option with a tradeoff, not an override of the stated goal; a finished spreadsheet can be email-gated. If the goal is missing, recommend a mode provisionally and ask only if the choice materially changes the work.
 
-1. **Reach only.** The user wants search visibility, links, shares or citations and not contacts, or the asset teaches readers who are just noticing the problem. → **Open**, with an optional sign-up for updates next to it.
-2. **A tool.** The asset computes or scores something on the reader's own input (calculator, scorecard, self-assessment). → **Use first, then save by email**: the result is shown on screen before any email is asked for.
-3. **Contacts and reach together.** → **Summary open, full version by email** (summary, first section or one table open).
-4. **Contacts only.** → **Full gate** only when all four conditions hold; otherwise summary open, full version by email.
-   - (a) the substance is figures the company gathered itself, or a working instrument that does part of the reader's job, and neither is available at no cost elsewhere;
-   - (b) a message after sign-up would be worth receiving for its own sake, not only a pitch;
-   - (c) the reader is comparing or deciding, not just noticing the problem;
-   - (d) a reader would plausibly pay a small sum for it.
-   Judge each condition true, false or unknown; unknown counts as false. When step 4 ends in "summary open", say in words which condition failed.
-
-Whatever the step, the consent defaults below still apply: a full gate for EU or UK individuals asks for an email to deliver the asset, never for marketing consent.
+An email-delivery gate never requires EU or UK individuals to agree to marketing: the asset arrives either way, and each marketing stream has a separate unticked optional box. Give the requested fields and wording in the audience’s language when supplied.
 
 ## Fields
 

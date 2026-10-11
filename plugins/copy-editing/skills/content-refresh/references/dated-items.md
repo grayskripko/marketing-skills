@@ -26,16 +26,16 @@ Reference = the publish date. Seasons assume the northern hemisphere unless stat
 | this spring / summer / autumn / winter | that season of the reference year; if it had already ended by the publish date, it was a slip, query | autumn 2024 |
 | next spring | the first spring after the publish date | spring 2025 |
 | this quarter | the quarter containing the publish date | Q2 2024 |
-| recently, new, newest, latest, soon, upcoming, now | cannot be converted | always Check, with a query for the date; never a computed date |
+| recently, new, newest, latest, soon, upcoming, now | cannot be converted to an exact date | remove obsolete recency wording only when the underlying supplied fact stands; otherwise query, never invent a date |
 
-After conversion: if the converted point is before today's date and the sentence speaks of it as future, the item is Stale, computed. Rewrite only the time words ("Last year" → "In 2023"); an event that may or may not have happened becomes a query, not a guess.
+After conversion: if the converted point is before today's date and the sentence speaks of it as future, the item is Stale, computed. Convert resolvable time words ("Last year" → "In 2023"). For an expired future promise with an unknown outcome, withhold the sentence from publishable copy and record it for confirmation under rule 7; never guess that it happened.
 
 ## Statuses
 
 | Status | Set by | Text change |
 |---|---|---|
 | Current | the user confirms | none |
-| Stale, computed | conversion against dates | time words only; events become queries |
+| Stale, computed | conversion against dates | convert time words or remove obsolete recency without altering the historical fact; withhold expired promises and query their outcome |
 | Stale, per your facts | a value the user gave | replaced, source named in the ledger |
 | Check | no information | kept, plus `[UPDATE NEEDED: what and where to find it]` |
 

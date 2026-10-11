@@ -4,10 +4,10 @@ Text role-play in plain chat. The model plays a fictional buyer, never a real pe
 
 ## Pack (written before live mode)
 
-1. **Scenario card** (shown to the rep): company type and size, buyer role, how the meeting came about, the slot length, the rep's goal.
+1. **Scenario card** (shown to the rep): only explicitly rep-visible context, buyer role, meeting context, slot and goal. Company size and all other discovery facts stay coach-only until earned. Check every rep-visible part for leaks.
 2. **Buyer brief** (hidden from the rep): 4 to 6 hidden facts H1, H2 and so on, drawn from these kinds: budget status, who else decides and how, the event behind the timing, how the work is done today, what it costs them, what triggered the search, one real concern. Each fact has an unlock condition: the kind of question that earns it ("asks who else is affected", "asks what it costs them in hours or money").
 3. **Concerns**: two concerns the buyer raises at fixed turns (default turns 4 and 9), whatever the rep says.
-4. **Success condition**: a specific next step with a date, an owner and the buyer's agreement.
+4. **Success condition**: use the supplied criteria unchanged and map each to its evaluation check. If none are supplied, default to a next step with date, owner and buyer agreement. Defaults never add conditions to supplied criteria.
 5. **Setting**: how much the buyer gives away.
 
 | Setting | Facts volunteered | Push-back |

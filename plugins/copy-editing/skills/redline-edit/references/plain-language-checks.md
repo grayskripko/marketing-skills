@@ -1,6 +1,6 @@
 # Plain-language checks (medium and heavy levels)
 
-These are checks, not a score. Print them before and after the edit. They point at sentences worth a second look; they do not grade the text.
+These checks guide the edit internally, not a score. When the user requests before/after checks, show concrete familiar-wording and direct-sentence comparisons, with verified numerical measures only where useful. Otherwise do not print a checklist. They point at sentences worth a second look; they do not grade the text.
 
 | Check | How | Note |
 |---|---|---|

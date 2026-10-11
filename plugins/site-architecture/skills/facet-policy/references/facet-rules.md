@@ -26,15 +26,15 @@ Google's URL guidance gives additive filtering as a typical way URL counts explo
 |---|---|---|
 | F-01 | Parameters as `key=value`, joined with `&` | G-facet, G-url |
 | F-02 | Filters always in one fixed order; the same filter never twice in a URL | G-facet |
-| F-03 | A combination with no results answers 404 at its own URL, not a redirect to a shared error page; the same for duplicate or nonsense filters and pagination past the end | G-facet |
+| F-03 | Empty results, repeated filter keys, impossible combinations and pagination past the end answer 404 at their own URL; valid equivalent serializations are aliases and get an explicit redirect or canonical policy | G-facet; alias treatment is a convention of this plugin |
 | F-04 | Ways Google lists to keep crawlers out of filter URLs: robots.txt disallow, filters in fragments, a canonical to the unfiltered page, nofollow on filter links. The plugin treats nofollow as the least dependable of these | G-facet; ranking is the plugin's own reading |
-| F-05 | Each page of a paginated listing has its own URL and its own canonical, linked with `<a href>`; page 1 is not the canonical for the series | G-page |
+| F-05 | Each valid continuation page preserves active filters, has its own URL and self-canonical, and is linked with `<a href>`; normalize explicit page 1 to the base listing and keep the collection's index policy. Apply the original-copy gate to the collection, not separately to each continuation page | G-page; page-one normalization and gate scope are conventions of this plugin |
 | F-06 | A URL that relies on noindex must stay crawlable; a robots.txt disallow on it hides the noindex | G-noindex |
 | F-07 | Indexable filter pages are reachable through a normal crawlable link from the category | G-links |
 
 ## Content gate
 
-An indexable combination lists at least N items (asked; if not answered, "assumed 10, heuristic of this plugin") and has text of its own beyond the product grid (an introduction, buying notes, specific questions). Otherwise noindex. This is a quality rule: Google's spam policies on doorway pages and scaled content are the reason not to publish thin filter pages in bulk.
+An indexable combination lists at least N items (asked; if not answered, "assumed 10, heuristic of this plugin") and has text of its own beyond the product grid (an introduction, buying notes, specific questions). Apply this gate to the collection; continuation pages inherit its policy and do not separately need N items or repeated introductory copy. Otherwise noindex. This is a quality rule: Google's spam policies on doorway pages and scaled content are the reason not to publish thin filter pages in bulk.
 
 ## Rename and merge table
 

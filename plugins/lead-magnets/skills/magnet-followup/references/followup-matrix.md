@@ -6,24 +6,24 @@ What each sign-up may receive, by region, subscriber type and the consent the fo
 
 | Region | Subscriber | Consent recorded | Allowed after delivery | Basis |
 |---|---|---|---|---|
-| EU | individual | delivery only (no box ticked) | the asset only (one delivery message); no promotion and no follow-up tips | CR-02, CR-06 |
+| EU | individual | delivery only (no box ticked) | deliver the requested asset; no marketing without an applicable recorded basis; asset-related promotional tips still need that basis; no inference about unrelated non-marketing communications | CR-02, CR-06 |
 | EU | individual | ticked stream X | stream X only, with an opt-out in each message | CR-01, CR-03 |
 | EU | individual who bought earlier | delivery only | the customer exception may cover similar own products if an opt-out was offered at collection: confirm with counsel; in France an account without a purchase does not count | CR-06 |
 | EU-DE | individual | ticked stream X | as EU; keep the confirmed double opt-in click as proof (case law, not statute) | CR-12 |
 | EU | company address (legal person) | any | national law decides: ASK by member state | CR-06 |
-| UK | individual or sole trader | delivery only | the asset only; a download is not treated as a sale or negotiations, so the soft opt-in is not assumed: confirm with counsel | CR-07 |
+| UK | individual or sole trader | delivery only | deliver the requested asset; no marketing without an applicable recorded basis; asset-related promotional tips still need that basis; a download is not treated as a sale or negotiations, so the soft opt-in is not assumed: confirm with counsel | CR-07 |
 | UK | individual or sole trader | trial sign-up, quote request or request for details recorded | similar products under the soft opt-in, if an opt-out was offered at collection and is in every message | CR-07 |
 | UK | individual | ticked stream X | stream X only | CR-07 |
 | UK | corporate subscriber | any | allowed, with sender identity and a working opt-out | CR-07, CR-08 |
 | UK | any (charity soft opt-in) | n/a | applies to charities only; not to commercial senders | CR-07 |
 | US | any, B2B included | none needed | allowed under CAN-SPAM duties; honour opt-outs | CR-09, SR-03 |
 | US-CA | individual | any | as US, plus notice at collection if the company meets the thresholds: ASK | CR-10 |
-| any | any | hand-raise (reply, demo or call request, top scorecard band, calculator result above the user's level) | a person answers the request itself; that answer is not marketing | heuristic |
+| any | any | hand-raise (reply, demo or call request, top scorecard band, calculator result above the user's level) | a person answers the request itself; added promotion needs its own assessment and the request is not consent to unrelated marketing; a score or calculator result alone is not a request to be contacted | heuristic |
 | other | any | any | ASK | CR-11 |
 
 ## Message jobs (titles only)
 
-1. Deliver: the asset, or the link to it, and nothing else in the subject or opening (keeps the message transactional under the primary-purpose test, CR-09).
+1. Deliver: the asset, or the link to it, and nothing else in the subject or opening (this does not alone establish a transactional exemption; first classify the underlying content under CR-09).
 2. Help them use it: one tip or worked case for the asset itself, only in cells where marketing is allowed or the person ticked a stream that covers it (never in a "delivery only" cell for EU or UK individuals).
 3. One next step tied to the offer, only in cells that allow promotion.
 4. Reading channel for readers who are not ready: a low-frequency newsletter or digest they chose; never a sales push.
@@ -38,7 +38,7 @@ No subject lines, wait times, angles or body copy.
 
 ## Suppression
 
-Follow `sender-rules.md`: the strictest deadline that applies (2 days for bulk mail to Yahoo addresses; 10 business days as the US legal limit), applied across all lists; an opted-out address is never re-added; no bought, rented, scraped or appended addresses.
+Follow `sender-rules.md`: the strictest deadline that applies (2 days for bulk mail to Yahoo addresses; 10 business days as the US legal limit), Honour an explicitly stream-specific opt-out for that stream across every list holding it; honour a stop-all request or general direct-marketing objection across all marketing lists. Never reinterpret a general unsubscribe as a narrow stream withdrawal. Always provide a stop-all marketing option; do not require a preference choice to unsubscribe. If scope is ambiguous, pause marketing and resolve it. Never re-enrol a suppressed scope without a new valid affirmative request covering it; preserve the suppression record.  no bought, rented, scraped or appended addresses.
 
 ## Fields to store
 
@@ -56,10 +56,5 @@ Store only what links the record to the processing (EDPB 05/2020 para 106). Coun
 
 ## Consent-proof audit (optional)
 
-On a pasted export, count by row id:
-- rows with no consent wording version;
-- rows with no timestamp;
-- rows with no source page;
-- rows flagged for marketing but with no ticked box recorded;
-- rows with an opt-out date that are still flagged mailable.
-Print each as k/n of all rows, list at most 10 ids per check, and never print an email address or name. If the id column holds email addresses, names or phone numbers, use row numbers (row 1, row 2 …) instead and say so. A row can fail several checks; say so under the table.
+Count exact findings and distinct affected IDs. Check missing wording version, timestamp and source; flags without the basis required for that region and policy; unresolved withdrawals. Missing evidence is not a proven violation. Verify the actual wording behind the version before declaring consent valid; lack of marketing permission is not a ban on all non-marketing communication. Retain the private stable-ID/subscriber linkage, exact wording and correction history without printing contacts.
+Print exact counts and distinct affected ids, separating overlapping findings from affected records; use no sampling intervals. Verify the text behind a consent version before accepting its stream scope, and distinguish evidence gaps from proven conflicts. Keep a secure source-system id-to-subscriber link and correction history without printing contact data. List all affected ids for small exports; for large exports provide a complete redacted fix list, and never print an email address or name. If the id column holds email addresses, names or phone numbers, use row numbers (row 1, row 2 …) instead and say so. A row can fail several checks; say so under the table.

@@ -1,6 +1,6 @@
 # Call rubric
 
-One rubric and one scale for every skill in this plugin: call coaching, certification role-plays and ramp gates. A user's own rubric may replace the rows; the quote rule, the n/a rule and the pass rule stay.
+One rubric and one scale for every skill in this plugin: call coaching, certification role-plays and ramp gates. A user's own rubric may replace the rows. When interpreting supplied validated practice scores, use the supplied practice pass rule without changing scores or inferring readiness. For new scores, the quote and n/a rules and applicable certification or ramp gates stay.
 
 ## Scale
 

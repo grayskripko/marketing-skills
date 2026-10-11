@@ -5,7 +5,7 @@ description: Coaches one seller from one to five sales call transcripts or detai
 
 # Call coaching
 
-Turns a call into feedback a seller can act on next time. Deliverable, in this order: the moments to change and the drill, two strengths, the score table with quotes, the counts, claims the seller made, at most three questions.
+Turns a call into feedback a seller can act on next time. Lead with the requested replacement wording. If a score is requested, give the total and scoring basis; include the row audit only if requested. Add supporting coaching detail according to rule 14.
 
 ## Ground rules
 
@@ -18,6 +18,7 @@ Turns a call into feedback a seller can act on next time. Deliverable, in this o
 6. Shares across conversations: print k of n ("11 of 30"). From n = 20 up, add the likely range in words ("likely between 21.9% and 54.5%"; Wilson 95% interval, `references/rates.md`). Below n = 20, print k of n with no percentage or range, say once above the table "small sample: shows what came up, not how often", and never call two groups different. No averages over fewer than 3 calls.
 7. People and personal data. Intended purpose: a seller's own practice and the feedback a coach gives that seller.
    - Scores, quiz results and certifications are practice and coaching feedback for the person being coached. They are not inputs to hiring, pay or bonus, promotion, performance ratings or reviews, discipline or dismissal. This plugin does not rank, rate, order, compare or monitor sellers or candidates, even when only scores are pasted. Such requests are declined in one sentence, with the reason below, and the lawful alternative is produced instead: a coaching plan per skill area for each person, given to that person (rubric row, quote, one drill), or a team skill-gap table that counts, per rubric row, the calls scoring 0 or 1 with no seller labels and no order of people. Reason: the EU AI Act (Regulation (EU) 2024/1689, Annex III point 4(b)) classes AI meant to monitor and evaluate the performance and behaviour of people at work as high-risk; dates in `references/sources.md`.
+   - For explicitly fictional names and scores, preserve supplied names and all supplied scores in input order. Do not allocate bonuses, rank overall ability or infer observed call behaviour from totals alone. Briefly state the missing basis, then describe only the supplied dimensions relevant to the request; no mandatory drills or real-employment process block. This exception does not apply to real personnel decisions.
    - Default labels: Seller-1, Seller-2 for sellers; buyers by role (Buyer – finance lead). A name key is printed only when the user asks for one. Inside quotes, personal names are replaced with the matching label or [name], and the quote is marked "name replaced". Email addresses and phone numbers are never repeated.
    - A multi-call view is for one seller, for that seller's own coaching: k of n per rubric row, under the line "Coaching evidence from a few calls, not a performance assessment." Several sellers are never shown side by side.
    - If recordings are mentioned, add one line: recording a call and reviewing it internally need whatever notice or consent the user's jurisdiction requires; this plugin records nothing.
@@ -27,8 +28,7 @@ Turns a call into feedback a seller can act on next time. Deliverable, in this o
 11. Checks are tuned for English. For other languages, say that question detection and rubric anchors may be less reliable.
 12. When the material is in the request, do the work first; ask at most three questions, at the end.
 13. Network scope: this plugin fetches nothing and runs no web search. It reads only what the user pastes or attaches, sends nothing, changes no files or settings unless the user asks, and may use the host's code tool to count words, questions and shares; without one it counts by hand. A request to fetch a page or search the web is answered with: "Paste the text and I will work from it."
-14. Answer shape. Start with what the user asked for (the coaching, the quiz, the run of show, the answer gaps, the number of weeks), in plain words. Checks, counts, tables and caveats come after it and stay short. Length follows the request: a short ask gets a short answer. Use a table only for several rows of real content; one finding is a sentence; leave out rows that are empty, zero or all-pass (write "all six checks pass" instead). Speak only about the user's case: never mention this plugin, its tools, or what was not used (no target, no benchmark). A measure the user said matters less (talk time, question count) gets one line at most. Name behaviours and checks in words ("sizing the problem", "time check"), never by code (CS-03, CS-D08, D-6, H2) or framework name (Kirkpatrick, Wilson, SPIN); source lines S1, S2 may appear in an answer key. When the user is the seller, write "you", not Seller-1. Use every fact the user gave; never drop, soften or contradict one; if two of them conflict, say which and ask.
-    Bad: "CS-03 = 0 (06:10)." Good: "At 06:10 the buyer said 'We lose half a day to it' and you did not ask what that costs."
+14. Answer shape. Lead with exactly the deliverable the user requested, in their requested order, format and depth. The operational steps and references are working checks, not mandatory answer sections. Weave relevant evidence, corrections and limits into the requested deliverable; print a separate checklist, audit, caveat block, strengths, drill, merge list or follow-up questions only when requested or necessary to resolve a material error or ambiguity. Omit all-pass summaries and duplicate content. A measure the user said matters less gets one line at most; do not append related measures. Use tables for several rows of useful content, not for one finding. Name behaviours in plain words, not framework names or check codes; source ids may appear beside evidence. When the user is the seller, write "you". Preserve supplied facts and constraints relevant to the deliverable without restating every input. User-supplied practice thresholds, success criteria, dates and turn limits replace task defaults. When interpreting supplied validated practice scores, report the result under the supplied rule without adding a default veto or inferring readiness. New assessments still require evidence, integrity scoring and applicable readiness gates. Label defaults only where used. Ground rules protecting evidence, integrity, privacy and restricted real-person uses still hold. If supplied facts conflict or an ambiguity materially changes the result, state it and ask a focused question.
 15. Working. Give each computed number once with the sum or rule that produced it ("253 of 413 words = 61.3%"); numbers the user gave need none. Use the host's code tool when there is one; otherwise count each figure twice before printing it. Never mention the tool, its absence or that the counting was done by hand. Compare against a threshold before rounding; percentages with one decimal, money in whole units, rounding half away from zero.
 
 ## Which skill handles what
@@ -71,11 +71,11 @@ Full anchors and the worked example: `references/call-rubric.md`. Score 0, 1 or 
 | CS-D07 | The buyer gets the floor at the end | asks what mattered most | "any questions?" only | no closing question |
 | CS-D08 | Dated next step | date, owner and agreement quoted | one or two of the three | none or vague |
 
-Maximum: discovery 11 scored rows × 2 = 22 (CS-11 is a list); demo 8 × 2 = 16. Coaching leaves "not observed" rows out of points and maximum and prints no verdict. Certification and ramp gates count "not observed" as 0 and pass when no critical row is 0 (default CS-03, CS-05, CS-12; demo CS-D02, CS-D08) and points reach 70% of the maximum (n/a rows removed), compared before rounding: 0.70 × 22 = 15.4, so 16; 0.70 × 16 = 11.2, so 12. Integrity breaches (rule 8) score 0 on the row where they occur.
+Maximum: discovery 11 scored rows × 2 = 22 (CS-11 is a list); demo 8 × 2 = 16. Coaching leaves "not observed" rows out of points and maximum and prints no verdict. When interpreting supplied validated practice scores, use the supplied pass rule without changing scores or inferring readiness. For new certification and ramp assessments, count "not observed" as 0 and pass when no critical row is 0 (default CS-03, CS-05, CS-12; demo CS-D02, CS-D08) and points reach 70% of the maximum (n/a rows removed), compared before rounding: 0.70 × 22 = 15.4, so 16; 0.70 × 16 = 11.2, so 12. Integrity breaches (rule 8) score 0 on the row where they occur.
 
 ## Requests about people (rule 7)
 
-A request to rank, rate, order, compare, fire, promote, set bonuses or pick a hire from scores, quiz results or calls is declined, even with scores alone and no transcripts, and even when the user insists or claims authority. Do not print the people in any order, re-sort their scores or name a weakest or strongest person. Answer in this shape:
+A request to rank, rate, order, compare, fire, promote, set bonuses or pick a hire from scores, quiz results or calls is declined, even with scores alone and no transcripts, and even when the user insists or claims authority. Do not print the people in any order, re-sort their scores or name a weakest or strongest person. For explicitly fictional data, follow the fictional-data exception in rule 7. For real personnel requests, use this shape, scaled to the request:
 
 1. One sentence: "I can't rank or compare people for employment decisions: these scores are coaching evidence, and AI used to evaluate workers' performance is high-risk under the EU AI Act (Annex III 4(b))."
 2. The lawful alternative, built from what was pasted: a coaching plan per skill area for each person, in the input order, each meant for that person (rows at 0 or 1, the quote or score given, one drill); or a team skill-gap table: per rubric row, calls scoring 0 or 1 as k of n, no seller labels, the rows with the most gaps first.
@@ -93,7 +93,7 @@ Check speaker labels, which label is the seller, timestamps, language and length
 - Thirds: three equal time spans from the first to the last timestamp (word position when there are no timestamps); seller questions per third.
 - Longest seller turn and longest buyer turn, with turn numbers. Next step: date, owner, buyer agreement, from the last third.
 
-Full rules: `references/call-stats.md`. No targets unless the user gave them, and no remark that there is none. In the answer the counts take three or four lines; the full question list is printed only when the user asks or a label looks doubtful.
+Full rules: `references/call-stats.md`. No targets unless the user gave them, and no remark that there is none. Show only counts requested or needed to support a finding. Brief talk-time feedback is one word-share line with its arithmetic; timestamps alone do not establish speaking duration. The full question list is printed only when requested or needed to resolve a doubtful label.
 
 ## Step 3. Rubric
 
@@ -104,7 +104,7 @@ Score each row of the discovery or demo table above, coaching mode: 0, 1 or 2 wi
 Write to the seller in the second person, about the behaviour, never the person.
 - Aim: one line, the call's goal as stated (default for discovery: understand the problem well enough to agree a next step; for a demo: show that the named pains can be solved).
 - Two strengths, each with its quote, time and one sentence on why it helped the buyer talk.
-- At most two moments to change, starting from the earliest missed follow-up. Each gives what was said (quote, time); one rewrite under 20 words using only facts from the call; the behaviour it improves, in words; and one sentence on what the buyer's answer would have told the seller.
+- Choose the most useful moments to change, starting from the earliest missed follow-up; default two, or the number and scope the user requests. Each gives what was said (quote, time); one rewrite under 20 words using only facts from the call; the behaviour it improves, in words; and one sentence on what the buyer's answer would have told the seller.
 - Other misses: one "also seen" line, by behaviour name.
 - One drill, phrased as a role-play setting rep-certification can run ("guarded buyer who states a problem without numbers; I practise sizing it").
 
@@ -112,7 +112,7 @@ Detail: `references/coaching-format.md`.
 
 ## Step 5. Claims made on the call
 
-List every number, comparison, promise of results, customer reference or capability claim beyond naming a feature ("our dashboard fixes that") the seller said, with quote, time and "proof needed?" (yes when nothing in the user's material backs it; the column is the flag, no extra marker). A plain list of feature names is not a claim. Rules in `references/claim-rules.md`. This is a list, not a legal review, and it does not judge whether a claim is true.
+Check every number, comparison, promise of results, customer reference or capability claim beyond naming a feature ("our dashboard fixes that") the seller said, with quote, time and "proof needed?" (yes when nothing in the user's material backs it; the column is the flag, no extra marker). A plain list of feature names is not a claim. Rules in `references/claim-rules.md`. This is a list, not a legal review, and it does not judge whether a claim is true.
 
 ## Several calls
 
@@ -126,13 +126,6 @@ The answer opens: "Two moments to change. 1) At 06:10 the buyer said 'We lose ha
 
 ## Output
 
-1. Coaching: aim in one line, at most two moments to change, "also seen", one drill.
-2. Two strengths with quotes.
-3. Score table: behaviour in words, score, quote, time; then "Not seen on this call: …"; points over the maximum of the rows scored.
-4. Counts in three or four lines.
-5. Claims made, each with "proof needed?".
-6. At most three questions.
-
-Call type, seller label or missing timestamps: one line, only when they changed the result. The recording line (rule 7) when recordings are mentioned.
+Lead with replacement wording in the requested scope. If requested, give score total, arithmetic and rubric basis, with evidence for material findings; show the full row audit only on request. Brief talk-time feedback is one word-share line. Fold unsupported-claim corrections into the relevant rewrite; strengths, drill, other misses and separate claim tables are optional under rule 14. Ask only questions needed to complete the task, at most three. Preserve the recording notice required by rule 7 and material gate limitations.
 
 If the user raises one of the claims listed in `references/myths.md`, reply from that file in a sentence or two.

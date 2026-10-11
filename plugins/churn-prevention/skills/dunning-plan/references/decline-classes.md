@@ -1,6 +1,8 @@
 # Decline classes and retry limits
 
-Re-check any row older than 6 months. Card-network figures here come from acquirer and processor pages, not from the networks' own rulebooks, which are not public; say so when citing them. Where sources disagree the row is marked "conflicting sources". If a figure cannot be confirmed for the user's processor, print beside it: "check your processor's current network retry limits".
+An unknown processor code is unclassified: hold automated retries pending processor-confirmed mapping and retry advice. A catch-all example below does not classify an unknown local code.
+
+Re-check any row older than 6 months. Card-network figures here come from the cited acquirer and processor pages; do not infer network-rulebook availability from those sources. Distinguish initial attempts from reattempts and confirm unresolved applicable limits with the processor. Where sources disagree the row is marked "conflicting sources". If a figure cannot be confirmed for the user's processor, print beside it: "check your processor's current network retry limits".
 
 ## Classes
 

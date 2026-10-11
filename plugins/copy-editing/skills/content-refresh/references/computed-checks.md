@@ -7,11 +7,11 @@ Run these in the host's code tool when it has one. Without one, do them by hand,
 | Measure | Rule |
 |---|---|
 | words | split on runs of spaces and line breaks; "8 am" is 2, "e-mail" is 1, "3,000" is 1, a dash with spaces on both sides counts as 1 |
-| characters | report with and without spaces; line breaks are not counted |
+| characters | compute with and without spaces; report the measure the user requested; line breaks are not counted unless the user requires them |
 | sentences | split after `.`, `?` or `!` followed by a space and a capital or a digit; abbreviations such as "e.g." do not end a sentence |
 | reading time | words ÷ the user's words per minute, rounded up to the next half minute; ask for the speed rather than assume one |
 
-Always print the rule next to the count, because two tools can disagree by a few words.
+Use these counting rules internally. Print the count in the unit requested; explain the convention only when the user asks or it materially affects interpretation. Do not add unrequested counts. Recount the final displayed text after all edits; any printed average must use that final text and be rounded only after division.
 
 ## Weekday against date
 

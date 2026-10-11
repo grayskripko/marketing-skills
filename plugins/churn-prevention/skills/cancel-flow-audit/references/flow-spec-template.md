@@ -1,5 +1,7 @@
 # Redesigned flow spec (part d of the audit)
 
+Use this as an internal coverage guide, not a mandatory answer layout. Include logging and experiments only when requested; 10% is an example, not a default. Use each customer’s actual cancellation timestamp, never the review date. Preserve the cancellation, confirmation and failure-fallback requirements below.
+
 Fill one row per screen with the user's own facts (their offer, their page names, their plan). Leave a slot in square brackets only for a fact the user did not give, and name it. The team writes the final words.
 
 | Screen | Purpose | Content | Cancel control | Logged event |

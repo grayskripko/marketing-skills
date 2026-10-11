@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 
 - Anchor: a few words that tell a reader what the target page is, in the reader's language. No anchor repeated across rows for ranking; vary naturally (rule 8, G-links).
-- Placement: the heading of the section on the source page where the link belongs, chosen because that section discusses the target's subject. Not a footer or "related links" dump.
+- Placement: propose a relevant section of the source page and mark it proposed. Do not describe an existing link as already in that section unless the input says so; otherwise its current placement is not supplied. Avoid a footer or generic related-links dump.
 - Reason: one line, for example "tier A, no body inlink", "depth 4, nearest relevant page is depth 1", "next step after this how-to".
 
 ## Order

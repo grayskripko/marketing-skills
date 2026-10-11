@@ -10,7 +10,7 @@ Print the rules as a plain, editable list without ids, the source column or labe
 | U-04 | Parameters only for state that does not change what the page is about, written `key=value` and joined with `&` | Keeps one content page at one URL | G-url, G-facet |
 | U-05 | No fragments (`#...`) to load different content | Google Search generally ignores fragments, so content behind one is not a separate page | G-url |
 | U-06 | Words in the path are written for readers | Google says they have hardly any ranking effect beyond breadcrumbs | G-start |
-| U-07 | A page's folder is its parent section in the tree | Consistency between URL, breadcrumb and upward link; Google's own reason for folders is learning how often sections change | convention of this plugin, supported by G-start |
+| U-07 | For new or approved moved URLs, prefer a folder matching the structural section; preserve existing URLs unless a move is in scope | Predictable paths without treating curated membership or menu groups as parents; a mismatch alone does not justify migration | convention of this plugin, supported by G-start |
 | U-08 | No dates in evergreen paths (`/blog/2023/05/slug` → `/blog/slug`) | Avoids a URL change each time a post is refreshed; a maintenance cost, not a ranking claim | convention of this plugin |
 | U-09 | One trailing-slash policy, and the other form redirects to it | One URL per page | convention of this plugin |
 | U-10 | One URL pattern per page type (all features under one folder) | Predictable URLs; SA-03 checks it | convention of this plugin |

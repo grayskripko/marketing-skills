@@ -1,6 +1,6 @@
 # Claim ledger
 
-The ledger lists every checkable statement in the ad, says what kind of proof it needs and whether the user has it. It never weakens a claim on its own: the user decides whether to supply proof, rewrite or drop.
+The ledger lists every checkable statement in the ad, says what kind of proof it needs and whether the user has it. A request to check and fix or rewrite authorizes a claim-free alternative; otherwise the user chooses proof, rewrite or removal. Never turn an unsupported assertion into a vaguer equivalent. Screen qualitative product descriptors as well as numbers.
 
 ## Claim types
 

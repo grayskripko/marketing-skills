@@ -1,6 +1,6 @@
 # Data-quality gate
 
-Run before any calculation. In the answer, print it after the results: one line when every check that applies passes, a short table of the failed checks only otherwise; never print a check that found nothing. The question it answers is "can these numbers be trusted", not "which records need fixing". Anything that fails moves to a "Not checked" list with the reason; the rest of the analysis goes ahead.
+Run applicable checks before calculating; aggregate counts need no invented ids or row-level checks. Print nothing for passed or inapplicable checks. Explain only a failure that changes the requested result, next to that result, with the affected count and reason. Continue the valid analysis; do not create a mandatory gate table or Not checked list.
 
 | Check | How | Effect |
 |---|---|---|

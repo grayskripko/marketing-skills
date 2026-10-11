@@ -8,7 +8,7 @@
 | Refresh | more than five items change, or one section is out of date as a whole, but the main point holds | keeps the structure and places new facts into the sections that already exist |
 | Rewrite recommended | the main point is no longer true, or the page now serves a different reader | stops, names the reason, lists the ledger; writes nothing new |
 
-Counting rule: a ledger item "changes" when its status is Stale (either kind). Check items do not count, but more than five of them gets a note: "Many items need your facts before this page can be called current."
+Counting rule: a ledger item "changes" when its status is Stale (either kind). Check items do not count. Mention unresolved facts only when they block the requested result; do not trigger a generic caveat from their count.
 
 ## Seam check
 

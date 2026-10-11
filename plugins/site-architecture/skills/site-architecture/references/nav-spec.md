@@ -14,7 +14,7 @@ Fill the fields the site needs; leave out the rest.
 | Mobile | Which header items collapse, and that the breadcrumb does not wrap onto several lines | NN-BC guideline 9 |
 
 Two layers, kept apart:
-- Topical layer: header items, hubs, section menus and body links. Every topical link follows the tree.
+- Topical layer: header items, hubs, section menus and body links. The tree defines structural homes; relevant secondary and curated links may cross it without changing a breadcrumb or URL. Non-page menu groups have no URL and create no folder.
 - Utility layer: about, contact, legal, account, careers. Sitewide in the header corner or footer; outside the topical tree (convention of this plugin).
 
 Do not grade the header by its number of items. Judge whether each item is distinct, recognisable and leads to a page whose heading matches the label (L-01 to L-08).

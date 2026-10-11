@@ -1,6 +1,6 @@
 # Context card
 
-Filled before any idea is written. Each field keeps the user's wording; a field the user did not give is either derived (rule shown) or put in the Assumptions box with "change me".
+Use internally before selecting an idea. Preserve the user’s facts and wording; a missing field is either derived transparently or an explicit assumption stated beside the affected recommendation when material. Do not print the card or an assumptions box by default.
 
 | Field | What goes in | Derived how, when not given |
 |---|---|---|

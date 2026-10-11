@@ -13,4 +13,4 @@ Answer in one or two sentences, name the study (authors, year) from the ledger r
 | Scarcity always raises perceived value | Small lab effects; only legitimate when the limit is real | L16 |
 | Nudges lift conversion by 30% or more | At scale the average was 1.4 points (8.0% relative); journal averages are inflated by selective publication | L21 |
 | A/B test won once, so the principle is proven | One result on one page is not a general rule; many published findings fail to replicate | L26 |
-| Tired users buy on impulse late in the funnel | The ego-depletion effect did not replicate in a 23-lab study | L24 |
+| Tired users buy on impulse late in the funnel | The buying tactic is unsupported; a 23-lab null replication challenges ego depletion but does not show that fatigue never matters | L24 |

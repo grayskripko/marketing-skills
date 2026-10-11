@@ -14,7 +14,7 @@ The three levels below are this plugin's own working definitions. The type label
 | parallel lists | only broken grammar | yes | yes |
 | abbreviations expanded on first use | no | yes | yes |
 | sentence-level clarity | no | yes | yes |
-| plain-language checks before and after | no | yes | yes |
+| plain-language checks internally; before/after output on request | no | yes | yes |
 | main point first inside a section | no | no | yes |
 | headings that say what follows | no | no | yes |
 | splitting overloaded paragraphs | no | no | yes |

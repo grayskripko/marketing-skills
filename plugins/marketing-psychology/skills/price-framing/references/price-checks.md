@@ -62,4 +62,4 @@ Check and list, with facts to confirm:
 
 ## 7. Data that would decide it
 
-Name methods only; do not run them or invent results: Van Westendorp price sensitivity questions (L33), Gabor-Granger price ladders, conjoint analysis. Suggest separate reads for paying customers, churned customers and trial users who did not convert. This plugin does not set prices from costs or competitor prices.
+Name research methods only when the user asks what data would settle a remaining question; do not run them or invent results. Use only relevant existing segments, never trial users for a product with no trial. Do not set prices from costs or competitors.

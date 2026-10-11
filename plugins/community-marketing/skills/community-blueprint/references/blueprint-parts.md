@@ -27,7 +27,7 @@ read only → introduction or rules acknowledgement → first post → links all
 
 ## E. Guidelines draft
 
-Separate **rules** (enforced, at most 8, each one sentence a moderator can apply) from **norms** (tone, good faith; encouraged, not enforced). When rewriting existing rules, print a before/after table and score each existing rule 0–2 on specific, enforceable, visible to newcomers. Slots:
+Separate **rules** (enforced, at most 8, each one sentence a moderator can apply) from **norms** (tone, good faith; encouraged, not enforced). When rewriting rules, give usable wording; show a scored before/after table only if requested. Fit enforcement and appeal to the available staffing; do not add staff or unsupported deadlines. Slots:
 
 1. Purpose: who the space is for, in one line.
 2. Rules, numbered.

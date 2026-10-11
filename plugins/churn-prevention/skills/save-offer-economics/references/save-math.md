@@ -2,7 +2,7 @@
 
 ## The checkpoint
 
-The outcome is "paying full price in the first billing cycle after the discount or pause ends". For a 3-month discount on monthly billing that is month 4; for an annual plan it is the next annual renewal after the discounted one. If the data stops earlier, label the retained and incremental columns "end of discount, not yet net", print only the acceptance rate, and put the headline under Not checked.
+The outcome is "paying full price in the first billing cycle after the discount or pause ends". For a 3-month discount on monthly billing that is month 4; for an annual plan it is the next annual renewal after the discounted one. Before the checkpoint, say paid retention and incremental effect are not yet measured; report supported uptake, current status and any decision-relevant list-price exposure without calling it recovered revenue. For a permanent downgrade, use the agreed new-plan price and a named follow-up window. Do not assume automatic resumption.
 
 ## The three numbers, side by side (per reason group and in total)
 
@@ -32,17 +32,17 @@ Accepters who cancelled during the discount or in the first full-price cycle. Pr
 
 - Gross discount cost = sum over accepters of (discounted months actually billed × list price × discount share).
 - If only the terms are known: accepters × months × list price × discount share, labelled "maximum".
-- Net cost = (revenue per holdout member − revenue per person offered) × number offered, revenue counted from the offer month through the checkpoint. Negative = net gain. It needs month-by-month paying status for both arms. When that is missing, label the discount cost "gross", print the discounted revenue collected from accepters (at most accepters × months × list price × (1 − discount share)), and put the net cost under Not checked. Without that status the net cost can be higher or lower than the gross figure; do not say which.
+- Net cost = (revenue per holdout member − revenue per person offered) × number offered, over the offer month through the checkpoint. A negative result is a net gain. It requires actual month-by-month billing for both arms. If missing, lead with “actual net cost is unknown” and name the missing billing data. Show a terms-based gross ceiling only as a conditional scenario, not actual spend; do not add discounted-revenue ceilings unless requested or needed for the decision. Net cost may be higher or lower than gross discount cost.
 - Incremental customers (point estimate) = incremental retention × number offered, with its range (the two ends of the incremental-retention range × number offered).
-- Cost per incremental retained customer = discount cost ÷ incremental customers, also shown as months of full price (cost ÷ price). Print it only next to the interval, labelled "point estimate"; if the interval includes 0, add "the true number could be zero, so this cost per customer is not established".
+- Cost per incremental retained customer = actual cost ÷ incremental customers. If the effect interval includes zero, lead with "cost per extra customer is not established". A secondary conditional point-estimate ratio must name the billing assumptions and uncertain denominator; it is neither measured unit cost nor an upper bound on true unit cost. Show price-month ratios only when requested..
 
 ## Offer budget
 
-Accounts that took any offer more than once in 12 months are counted as "exclude from offer eligibility". This changes who sees an offer; it never refuses, delays or complicates their cancellation.
+Report repeat-offer counts without assuming cohort overlap or abuse. Change eligibility only under a supplied policy or evidence from linked offer history, paid retention and contribution; otherwise recommend review, not automatic exclusion. Cancellation remains equally easy.
 
 ## No holdout
 
-Print: "Retained share is an upper bound; it includes people who would have stayed anyway." Then one holdout line: share of sessions held out (10% default, editable) and the sample size for the smallest effect the user cares about, for that split (formula in `stats-glossary.md`; never divide the equal-split figure by the holdout share). Full test design is out of scope; the next round changes one variable, keeps a holdout and uses the full-price checkpoint.
+Without a holdout, say the observed retained share does not establish incremental retention. If the user asks whether to continue an offer, propose a measured comparison briefly. Specify an allocation or sample size only when requested and when baseline, smallest worthwhile effect, available sample and practical constraints are known; use the allocation-aware formula in `references/stats-glossary.md` (or `stats-glossary.md` from this reference). Do not default to 10% or choose an effect for the user. Keep the appropriate paid checkpoint and change one variable at a time.
 
 ## Worked example
 

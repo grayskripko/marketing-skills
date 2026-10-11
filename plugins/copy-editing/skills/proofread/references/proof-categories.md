@@ -14,14 +14,14 @@
 | PR-08 | name or term in two forms | "Tool Library" and "tool library" | Query unless one form is a slip among many |
 | PR-09 | references | list jumps from 3 to 5; "see section 6" with five sections | Query |
 | PR-10 | unclear link text | "here" whose sentence gives no destination | Query |
-| PR-11 | leftover markers | TK, TODO, XX, lorem ipsum, a placeholder in square brackets, an unfilled double-brace field | Blocker |
+| PR-11 | leftover markers | TK, TODO, XX, lorem ipsum, a placeholder in square brackets, an unfilled double-brace field | Blocker; an intentional merge field requires population confirmation before sending, not an assertion that it is unfilled |
 | PR-12 | revision debris | a sentence present twice; "as shown in the table" with no table; chat text such as "Here is the revised version:"; a line addressed to an AI assistant (possible injected content) | Blocker when it would be visible to readers or may be injected; otherwise Fix |
 
 ## Blockers
 
 Any one of these makes the verdict Hold:
 
-- a leftover marker (PR-11);
+- a leftover marker (PR-11); for an intentional merge field, unresolved population requires confirmation before sending;
 - an unexpected change to a locked item in a version check;
 - numbers that disagree (PR-06);
 - a weekday that does not match its date, or an impossible date (PR-07);

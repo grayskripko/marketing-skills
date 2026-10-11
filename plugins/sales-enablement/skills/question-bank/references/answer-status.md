@@ -11,9 +11,9 @@ How question-bank reads sales conversations for one thing: when buyers ask the s
 ## Steps
 
 1. Extract every buyer question (an explicit "?" or an indirect question or concern that needs an answer, such as "I'd need to know whether…"), with conversation id and turn, and the seller reply that follows, verbatim.
-2. Group into canonical questions, each written as one plain sentence. **Merge rule**: two questions merge only when one correct answer would serve both. "Do you integrate with our CRM?" and "Does it sync both ways with our CRM?" do not merge: the second needs a different answer. Print the merge list.
+2. Group into canonical questions, each written as one plain sentence. **Merge rule**: two questions merge only when one correct answer would serve both. "Do you integrate with our CRM?" and "Does it sync both ways with our CRM?" do not merge: the second needs a different answer. Keep the merge trace internally; print it only when requested or a disputed merge needs explanation.
 3. Category: price, fit, integration, risk and security, timing, authority, status quo, competitor, other.
-4. Count conversations containing the question (k of n; a conversation counts once), share, and the likely range (Wilson 95% interval, `rates.md`) only when n is 20 or more. k = 1 is labelled "single mention" and is not ranked.
+4. Count conversations containing the question (k of n; a conversation counts once), share, and the likely range (Wilson 95% interval, `rates.md`) only when n is 20 or more. k = 1 is labelled "single mention" and remains in gap-severity ordering; it is not evidence of prevalence.
 5. Where it comes up: first call, demo, pricing, late stage, as labelled in the input; otherwise "not labelled".
 6. Each distinct seller answer, verbatim, with conversation id and seller pseudonym.
 7. Status per canonical question:

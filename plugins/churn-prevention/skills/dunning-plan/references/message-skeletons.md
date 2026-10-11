@@ -1,6 +1,6 @@
 # Payment-problem message skeletons
 
-Neutral, no blame, one action per message. Fill every slot the user's facts cover (plan, price, retry dates and grace end from the timeline). Keep [UPDATE_LINK] and fields the system fills per customer, such as [CARD_ENDING], as slots; never paste real links, tokens or card details. The team writes the final copy.
+Neutral, no blame, one action per message. A grace-period duration does not establish the service end state. State access removal, cancellation, pause or automatic resumption only when supplied; otherwise label it as a policy choice for confirmation and keep the customer outline conditional. Fill every slot the user's facts cover (plan, price, retry dates and grace end from the timeline). Keep [UPDATE_LINK] and fields the system fills per customer, such as [CARD_ENDING], as slots; never paste real links, tokens or card details. The team writes the final copy.
 
 | Moment | Class | Subject idea | Slot 1 | Slot 2 | Slot 3 |
 |---|---|---|---|---|---|

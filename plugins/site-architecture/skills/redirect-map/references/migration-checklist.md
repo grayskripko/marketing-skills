@@ -31,7 +31,7 @@ Print: "deciding which pages to keep is a content decision; settle fate first if
 2. Internal links, canonicals, hreflang annotations and sitemaps point at the new URLs before launch; a sitemap of the new URLs is ready to submit at launch.
 3. Development blocks (noindex, robots.txt disallow, password) removed from the new URLs at launch.
 4. One kind of change at a time where possible (domain, CMS, layout).
-5. Small sites can move at once; large sites may move section by section.
+5. Choose rollout sequencing from deployment, testing and rollback constraints, not page count alone. Offer a sequencing recommendation only when requested or required for implementation.
 6. Change of address in Search Console only for a domain or subdomain change; "not applicable" for path or folder changes on the same host.
 7. Keep the redirects for at least one year, longer if links still arrive.
 8. Expect rankings to fluctuate while Google processes the move; for small and medium sites, most pages take a few weeks. No percentage is predicted (rule 5).

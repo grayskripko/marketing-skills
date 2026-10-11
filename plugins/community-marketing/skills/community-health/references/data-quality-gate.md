@@ -1,6 +1,6 @@
 # Data-quality gate
 
-Runs before any rate and answers "can these numbers be trusted", in one short table. It never turns into data-cleaning advice.
+Run the relevant checks before analysis. Export checks apply to exports; aggregate-count checks cover definitions, denominators and actual evidence about maturity. Report only issues that affect the requested conclusion, not a mandatory gate table. A period end alone does not establish the latest relevant first-post date.
 
 | Id | Check | What to print |
 |---|---|---|

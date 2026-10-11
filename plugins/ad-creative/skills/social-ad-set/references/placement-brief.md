@@ -2,7 +2,7 @@
 
 ## Concept rows
 
-A concept is one idea a viewer could repeat in a sentence ("month-end close without the backlog"). Variants inside a concept change exactly one declared variable and say which:
+A concept is one idea a viewer could repeat in a sentence ("month-end close without the backlog"). Variants inside a concept and placement change exactly one declared variable and say which. Adapt between placements; do not require identical platform copy. The following table is an internal planning aid, not a mandatory output:
 
 | Concept | Variant | Variable changed | Opening line | Proof (F-id) | Format | What this variant tests |
 |---|---|---|---|---|---|---|
@@ -28,9 +28,11 @@ Instagram Reels image, 1440×2560 (row M-IGR-SZ: 14% top, 35% bottom, 6% each si
 - each side 0.06 × 1440 = 86.4 → 87 px
 - text box 1440 − 2×87 = 1266 px wide, 2560 − 359 − 896 = 1305 px tall, starting 87 px from the left and 359 px from the top.
 
-For another canvas, recompute with the same rule. TikTok: no pixel values in the checked table; TikTok's in-feed page offers downloadable safe-zone templates in standard, right-to-left and with-anchor versions (row T-IF-VID), so point the user to them.
+For another canvas of the same verified image placement, recompute with the same rule. These image percentages do not establish a video safe zone; use video-specific verified guidance or the placement template/preview without invented coordinates. TikTok: no pixel values in the checked table; TikTok's in-feed page offers downloadable safe-zone templates in standard, right-to-left and with-anchor versions (row T-IF-VID), so point the user to them.
 
-## Asset section (for whoever makes the visuals; this plugin makes none)
+## Internal asset checks (this plugin renders no media)
+
+Consult the following checks as applicable. Output only requested handoff details and concrete issues requiring action; required creator and AI disclosures still belong inside the ad. Do not reproduce this list as a generic production checklist.
 
 - Ratio, pixels and file limits per placement from `platform-specs.md`.
 - Text layer: on-image words set by a person in a design tool, not left to an image model; they add to the headline rather than repeat it.

@@ -22,7 +22,7 @@ p = k/n; centre = (p + z²/2n) / (1 + z²/n); half-width = z·√(p(1−p)/n + z
 d = p_B − p_A. With Wilson limits (l_A, u_A) and (l_B, u_B):
 lower = d − √((p_B − l_B)² + (u_A − p_A)²); upper = d + √((u_B − p_B)² + (p_A − l_A)²). (Newcombe, Statistics in Medicine 17:873–890, 1998.)
 
-"Resolved" only when the interval excludes 0; otherwise "not resolved yet".
+If the interval excludes 0, say “interval excludes zero under the independent-observation rate model”; otherwise “not resolved yet”. Repeat exposure, platform-selected delivery and repeated peeking limit this interpretation; exclusion of zero is not a causal verdict on observational data.
 
 ## More than two variants
 

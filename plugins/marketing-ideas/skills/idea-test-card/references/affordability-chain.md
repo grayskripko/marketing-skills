@@ -12,7 +12,7 @@ one-off sales: affordable = order value × gross margin × orders per customer i
 ```
 
 - Window: the user's; otherwise 12 months, stated in the answer as a plain assumption ("I assumed a 12-month window"), with a note that a shorter window makes every line below stricter.
-- Gross margin: the user's; if missing, the chain is printed on an assumed margin, named in the Assumptions box, and every evidence grade is capped at D.
+- Gross margin: the user's; if missing, the chain is printed on an assumed margin, stated beside the affected calculation, and every evidence grade is capped at D.
 - Orders per customer inside the window: the user's; otherwise an assumption, printed.
 - Yearly billing: use the yearly price × margin, counted once per year the window covers (cash basis: a yearly payment inside the window counts in full).
 - Churn inside the window is ignored unless the user gives it; with monthly churn c over a window of w months the subscription line becomes price × margin × (1 − (1 − c)^w) ÷ c.
@@ -22,7 +22,7 @@ Monthly wording ("per month") is used only for subscriptions; one-off businesses
 
 ## Discounts, free periods and rewards
 
-A discount or free period costs the revenue given up, not the contribution: a free month on a $39 plan costs $39, because the cost of serving the customer is paid either way. A free month to both the referrer and the referred customer costs $78. Compare the reward cost per referred customer with the affordable cost on that basis.
+A discount or free period has a face value; that is not automatically its incremental economic cost. Record cash outlay, collections displaced from otherwise payable months, additional service cost and changes to the payback calendar separately. Two $39 credits have $78 face value. Their profit impact depends on whether the credited months would otherwise be paid and whether service continues beyond the original window. Compare the net effect with the contribution available inside that window without double-counting lost contribution. If the counterfactual or timing is unknown, show conditional scenarios and the fact needed to choose between them; do not declare a definitive CAC or loss. Do not charge billing credits to the cash budget as if cash were paid out.
 
 ## The chain
 

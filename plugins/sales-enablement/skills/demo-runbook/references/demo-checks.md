@@ -11,7 +11,7 @@ One row per pain the buyer stated: id (P1, P2…), the buyer's words quoted, sou
 | Scene | Pain | Capability shown | Proof slot | Minutes |
 |---|---|---|---|---|
 
-- One scene per pain: each scene answers one pain id and each pain gets one scene. A second capability that serves the same pain becomes that scene's proof slot or goes on the don't-show list. Two scenes on one pain only when the user asks, and the table says so.
+- Each scene must have a confirmed mechanism linking it to stated pain; related pains may share one coherent workflow and every pain must be addressed. Slow replies alone do not establish a triage need. A second capability that serves the same pain becomes that scene's proof slot or goes on the don't-show list. Two scenes on one pain only when the user asks, and the table says so.
 - Proof slot: a case, figure or reference from the user's material, otherwise [PROOF NEEDED].
 - Minutes are the user's estimate or a default of 6 per scene (you can change it).
 
@@ -30,13 +30,13 @@ Every capability the user listed that answers no pain in the ledger. Each gets o
 
 ## Discovery gaps
 
-For each of budget, how the decision is made, timeline, current way of working, trigger: known (with source) or unknown. Unknowns become opening questions, at most three.
+For each of budget, how the decision is made, timeline, current way of working, trigger: known (with source) or unknown. Ask at most three workflow-feasibility questions first; put relevant commercial unknowns in the trial discussion or close.
 
 ## PASS / FIX checks
 
 | Check | Rule | Basis | Status |
 |---|---|---|---|
-| D-1 Pain coverage | every scene maps to one pain in the ledger, one scene per pain | Cohan | PASS / FIX |
+| D-1 Pain coverage | every scene maps to stated pains and every stated pain is addressed; related pains may share a workflow | Cohan | PASS / FIX |
 | D-2 Scene count | at most 4 scenes | default | PASS / FIX |
 | D-3 Time | scene minutes ≤ two thirds of the slot, and the whole running order (opening, questions, scenes, close) ≤ the slot, both compared before rounding | default; leaves time for the buyer | PASS / FIX |
 | D-4 Check-ins | no closed check-in phrase | default | PASS / FIX |

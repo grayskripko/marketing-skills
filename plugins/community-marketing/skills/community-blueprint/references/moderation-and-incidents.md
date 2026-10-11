@@ -10,15 +10,8 @@
 | 4 | Removal from the community | owner or two moderators | public note without names | yes |
 | Appeal | One appeal per action, to someone who did not take it, answered within a stated time | | private | yes |
 
-Severe harm (threats, illegal content, doxxing, scams, spam bots, bulk messaging) may start at step 3 or 4. Every step names the rule broken. The log records date, rule, step and moderator, and never the member's personal details beyond the id.
+The ladder is an editable set of proportionate options, not a required progression or staffing commitment. Repeated or severe harm (threats, illegal content, doxxing, scams, spam bots, bulk messaging) may justify timeout or removal directly under an existing rule. Use the owner or an available unconflicted moderator; no invented independent reviewer or deadline. Every action names the rule broken. The private log records date, rule, action and moderator, never the member’s personal details beyond the id.
 
 ## Incident mode
 
-When the user describes an incident, print in this order:
-1. What happened, restated without names (members as M1, M2; no profile of anyone involved).
-2. Which community rule it breaks, quoted by number, or "no rule covers this".
-3. The platform floor that also applies (for example P-DSC13 for bulk unsolicited messages, P-DSC18 for impersonation, P-DSC19 for coming back on another account after a platform ban), with read dates.
-4. The ladder step, who decides, and why.
-5. A short public note without names: what happened in general terms, what was done, what members should do (for example ignore and report the messages).
-6. The rule gap: the rule or access setting that would have prevented it, written as a draft rule.
-7. Follow-up: what to check in a week.
+Lead with the action and available unconflicted decision-maker, justified by an existing rule and supplied history. Then provide the requested anonymous public note and prospective rule fixes. Keep evidence and report details private, log the rule and action, and retain a proportionate appeal route to someone who did not act. Do not invent chronology, messages from recipient counts, misconduct from appearances, extra staff, fixed deadlines or an action already completed. Platform context and follow-up appear only if needed for this decision.

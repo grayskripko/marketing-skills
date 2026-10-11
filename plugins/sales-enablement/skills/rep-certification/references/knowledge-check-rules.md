@@ -20,7 +20,7 @@ A written check that the rep knows what the user's own material says. Retrieval 
 
 ## Source gaps
 
-A question a buyer would plausibly ask whose answer is not in the material goes to a "source gap" list with a one-line reason, including any such question the user asked for. It is never answered, guessed or turned into an item. The list is part of the deliverable: it tells the user what their material is missing.
+A question a buyer would plausibly ask whose answer is not in the material goes to a "source gap" list with a one-line reason, including any such question the user asked for. Its missing substantive answer is never guessed. A requested topic may become an evidence-boundary item whose key says what the source does and does not establish, citing the omission. The list is part of the deliverable: it tells the user what their material is missing.
 
 ## Answer key
 
@@ -32,7 +32,7 @@ Pass = at least 80% of items correct and every critical item correct. Compare be
 
 ## Re-test schedule (default, you can change it)
 
-The same items, reshuffled with the options re-ordered, at about day 2, day 7 and day 21 after the first attempt; items missed earlier come first. Basis: spacing studies (Cepeda et al., 2006, a review of distributed practice; Cepeda et al., 2008) found that spreading study sessions beats massing them, and that the most useful gap grows with how long the material must be remembered. The exact days are this plugin's default, not a finding of those papers.
+When a schedule is requested without supplied dates, retake the same items, reshuffled with options re-ordered, at about day 2, day 7 and day 21 after the first attempt. A supplied first-retest date is the first actual retest; do not add further dates unless requested. Items missed earlier come first. Basis: spacing studies (Cepeda et al., 2006, a review of distributed practice; Cepeda et al., 2008) found that spreading study sessions beats massing them, and that the most useful gap grows with how long the material must be remembered. The exact days are this plugin's default, not a finding of those papers.
 
 ## Worked example
 

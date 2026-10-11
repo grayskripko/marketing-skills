@@ -40,7 +40,7 @@ Caps: any unknown gate caps the grade at C; a missing price or margin caps every
 
 - Main bet: the highest total among ideas with no unknown gate (any grade). If all candidates are graded D, say so in the decision block.
 - If every candidate has an unknown gate, the highest total becomes the main bet labelled "pending your figure: [which]". An assumed demand state is not an unknown gate.
-- Probes: the next two highest from two other families; an unknown gate is allowed for a probe because the probe exists to settle it.
+- Optional further tests: consider the next highest from other families only when requested or when distinct value fits remaining capacity. An unknown gate may be explored in a cheap test; do not fill two additional slots by default.
 - Buyer reach: an idea with Buyer reach 0 or 1 is never the main bet. It can be a probe only when no idea with reach 2 or more remains, and its card then says the probe tests whether buyers are there.
 - Ties: the earlier first signal wins, then the lower cash.
 

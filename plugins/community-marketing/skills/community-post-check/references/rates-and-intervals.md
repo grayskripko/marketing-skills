@@ -7,7 +7,7 @@ centre = (p + z²/(2n)) / (1 + z²/n)
 half-width = z × sqrt(p(1-p)/n + z²/(4n²)) / (1 + z²/n)
 interval = centre ± half-width, clipped to 0–100%.
 
-Print as "k/n = p% (low–high%)". Examples: 48/300 = 16.0% (12.3–20.6%); 7/12 = 58.3% (32.0–80.7%), thin sample.
+When an interval is requested or needed for inference, print as "k/n = p% (low–high%)". Otherwise show the relevant count or k/n and percentage only. Formulas and examples below are calculation guidance, not mandatory answer sections. Examples with intervals: 48/300 = 16.0% (12.3–20.6%); 7/12 = 58.3% (32.0–80.7%), thin sample.
 
 ## Newcombe 95% interval for a difference p1 − p2
 
