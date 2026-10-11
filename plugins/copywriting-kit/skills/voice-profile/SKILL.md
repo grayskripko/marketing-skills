@@ -5,7 +5,7 @@ description: Capture a written voice profile from the user's own writing samples
 
 # Voice profile
 
-Describe how the user's organisation writes, in a form another skill or person can apply. The answer is the voice profile in markdown, in the reply.
+Describe how the user’s organisation writes, in a form the next writer can apply. Lead with practical rules grounded in the samples and examples showing their use. Return the guide in the reply unless the user requests a file.
 
 ## Ground rules
 
@@ -30,7 +30,7 @@ Samples must be the user's own or their organisation's. Never build a profile me
 
 Two to five texts work best. With one sample, build the profile and say the figures rest on one text. With more than five, use the five most typical of the user's own writing and say which.
 
-Measure (for yourself; the figures appear only in the profile's Rhythm targets):
+Inspect these features for yourself; translate them into practical writing guidance. Print numerical statistics only if requested; then compute them with an available code tool or label hand counts approximate and state the counting convention:
 - sentence length: average, shortest, longest, and the share of sentences under 10 words;
 - paragraph length in sentences;
 - frequent sentence openers;
@@ -52,17 +52,16 @@ Rounds 2 and 3 (habits, then edges such as competitors and limits) are in `refer
 
 ## Step 2. Build the profile
 
-Template: `references/voice-template.md`.
-1. Voice in one sentence.
-2. Five to seven tone rules, each as do / don't.
-3. Sounds like / does not sound like: pairs built from the user's own sentences.
-4. Words to use; words to avoid.
-5. Rhythm targets from the measured figures.
-6. Never-say list: the user's own items, plus stock phrasing they want gone.
-7. Three before/after rewrites of the user's own sentences, showing the rules at work.
+Use `references/voice-template.md` as a guide, not a compulsory report.
+1. State the voice in one sentence.
+2. Give practical do / don’t rules grounded in approved sample quotations.
+3. Include words to use and the user’s never-say list.
+4. Explain rhythm qualitatively and show how a writer can apply it.
+5. Treat approved samples as exemplars, not drafts needing correction. Use before/after edits only when requested. New illustrations and counterexamples must be labelled as new; do not invent product capabilities or present them as the user’s writing.
+6. Include a short handoff check only if it helps the requested writer guide, using these specific voice rules rather than a generic copy checklist.
 
-Without samples, build items 3 and 7 from sentences the user gave in the interview. If there are none, leave those items out and say they need writing samples.
+Without samples, use interview sentences where available and label interview-derived rules. Do not invent source quotations.
 
 ## Output
 
-The profile as markdown in the reply, then one line: "Say 'save it' if you want this written to a file." Write a file only on that request and only where the host allows it.
+Return the requested guide in the reply. Do not add an automatic save offer. Write a file only if the user asks and only where the host allows it.

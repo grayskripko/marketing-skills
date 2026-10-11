@@ -1,6 +1,6 @@
 # Full change log (only when the user asks)
 
-The normal answer is the edited text, one "facts kept" line, up to five "what changed" bullets and "Needs your input" (see SKILL.md, Step 4). Use this format only when the user asks for a full change log or for counts.
+The normal answer is the requested edited copy. Use this format only when the user asks for a full change log or for counts. Evidence notes and questions follow SKILL.md, Step 4; an unchanged claim is not automatically a request for new evidence.
 
 ## Change log
 

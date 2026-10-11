@@ -15,7 +15,7 @@ Audit a live site or a section of it by sampling pages, and report the top chang
   - Page cap: at most 10 HTML pages per run. robots.txt and sitemap files do not count, but read at most 3 sitemap files. Do not fetch link targets just to check their status. When the cap is reached, say so and ask which sections to cover next.
   - No edits to files or settings, no running tools beyond reading, no looking for credentials, unless the user asks.
   - If pasted files show visitor IP addresses, emails or names of private people, do not repeat them: write Visitor 1, Visitor 2.
-  - A statement not backed by a fetched page, the user's data or a file is an assumption. List it under Assumptions; never present it as a finding. Never invent facts about the site or benchmark numbers.
+  - A statement not backed by a fetched page, the user's data or a file is an assumption. Identify it as an assumption beside the affected claim; collect assumptions in a separate section only when the user asks for a report. Never present an assumption as a finding. Never invent facts about the site or benchmark numbers.
 - If there is no web tool, or a fetch fails, ask the user to paste the page source (the "view source" HTML, not the browser's rendered view), robots.txt or the sitemap, and continue from what they paste.
 
 ## Writing the answer
@@ -23,14 +23,14 @@ Audit a live site or a section of it by sampling pages, and report the top chang
 - Lead with what the user asked for, in plain words: for "why isn't my site on Google", the cause you found; for an audit, the top changes. Tables, caveats and scope come after, short.
 - Match the length to the request. A narrow question gets the answer and only the findings that bear on it.
 - Use every fact the user gave (brand, goal, market, prices) as given; never contradict it or replace it with a placeholder.
-- Speak only about the user's case. Name a finding by what it is, never by a finding number, skill name or file name of this plugin. State a threshold as a plain fact where it applies ("clicks fell 74%"), and name a source only when the user needs it to act ("Google's canonical guidance says..."). Read dates, labels such as "heuristic", checks that found nothing, and what your tools could or could not do stay out of the answer unless the user asks how you worked; arithmetic done by hand is simply shown. Never hold back what was asked over a point the user did not raise: deliver it and add one question. Bad: "Fix finding 2 (thresholds used: 50 clicks, 30%), then use the fix-plan skill." Good: "Fix the canonical tag on /pricing first. I can turn these fixes into developer tickets."
+- Answer what was asked first, in the shape asked. Use the checks below to support that answer; a narrow question does not become an audit report. Name each issue in plain words, never by a finding number or by this plugin's skill or file names; keep file:line evidence or ticket IDs the user asked for. Give measurements as plain facts; if you apply a screening cutoff of your own, call it a heuristic once, not a Google rule. Put uncertainty next to the claim it affects, and mention a missing check only if it could change this answer or the next step. Ask a follow-up question only when you cannot finish without it.
 - Show numbers exactly as computed; never round a result into a word like "many". A share says what it is a share of, and its total is the same quantity summed over the right rows: a page's share of lost clicks is its loss divided by the losses of all rows that fell, not by the net change when another row gained (pages losing 120 and 55 while a third gains 5 carry 175 of 175 lost clicks, not "about 80%" of a net 170).
 - Use a table only when it is clearer than a list. Leave out a column that has the same value in every row (say it once above the table) and any section with nothing in it.
 
 ## Step 1. Intake
 
 - No domain yet: ask for the domain and the one business goal for organic search in a single message, and stop.
-- Domain given: start fetching now. Infer site type, market and language from the homepage. If the goal is not stated, infer it from the site and say in one line near the top which goal you assumed, since it sets the ranking. Ask about constraints (developer time, frozen templates, deadline) and available exports in one line at the end.
+- Domain given: use supplied evidence first and respect any source-only request; otherwise fetch within the ground rules. Infer missing site type, market or language only when needed. State a goal assumption if it changes priority. Ask about missing constraints or exports only if they are needed for this request.
 
 A useful goal is specific: "more demo requests from organic search", not "improve SEO".
 
@@ -58,13 +58,13 @@ Walk the checks in `references/checks.md` in this order, collecting evidence bef
 7. Performance.
 8. International setup, if the site has more than one language or country.
 
-Each finding has: where (URL or pattern), the issue in one sentence, evidence (the exact tag, header or value seen), evidence level, impact, effort, the fix and who does it, and how to verify. Full format: `references/finding-format.md`.
+For each reported issue, identify where, the exact evidence, the relevant action and how to confirm it. Distinguish observation from inference inline. Add impact or effort only when requested or needed to choose work; do not infer implementation time from HTML. `references/finding-format.md` is a field guide, not a required answer layout.
 
 - **Evidence levels.** Observed: seen in a fetched page or pasted HTML; quote the value. From user data: read from an export; name it. Needs verification: cannot be confirmed from here; name the tool (URL Inspection, Rich Results Test, field data in PageSpeed Insights, a rendering crawler). Anything that depends on JavaScript rendering, Google's chosen canonical, field performance or index status is Needs verification.
 - **Impact.** High: keeps pages tied to the goal from being crawled, rendered or indexed, returns errors on them, or breaks a whole template that carries them. Medium: weakens how those pages are understood or chosen. Low: cosmetic.
-- **Effort.** Under a day, a few days, or a sprint or more.
+- **Effort.** Preserve supplied estimates. If effort is needed but unknown, say what implementation detail is missing; do not assign a duration from page evidence alone.
 
-Some patterns are often deliberate: internal search pages kept out of the index, filter pages set to noindex, staging subdomains blocked. Report these as "might be intentional" and ask the owner to confirm. Never call a directive possibly intentional when it removes a page the user wants to rank, or when a staging directive reaches production. A count of excluded or non-indexed URLs is never a finding on its own.
+Preserve deliberate exclusions for search, filter, private and staging pages; ask about intent only when it is unknown. Check whether the mechanism achieves the stated intent: a robots block can prevent a supplied noindex from being read and does not guarantee removal from the index. Explain that conflict using pasted evidence without fetching blocked paths; recommend crawlable noindex for public pages requiring exclusion, with crawl-volume tradeoffs where relevant. Never treat exclusion of a page the user wants to rank, or a staging directive on production, as possibly intentional. An excluded-URL count alone is not an error.
 
 Never report these as problems (Google documents them as non-issues; details in `references/myths.md`): missing meta keywords, word count, heading order or the number of H1s, keywords in the domain, a missing llms.txt, sitemap priority or changefreq, a low Lighthouse lab score on its own. If the user asks about one, answer briefly.
 
@@ -80,14 +80,7 @@ Anything that removes important pages from the index, or makes them return error
 
 ## Step 6. Report
 
-Sections, in order (template: `references/report-template.md`):
-
-1. Top changes (up to 5; fewer if fewer are worth making). Open with one sentence: is anything keeping key pages out of the index? For each change: where, what is being lost and why, the action, who does it, and the metric that should move.
-2. Findings, sorted by impact.
-3. What not to do now: only if there is tempting work that will not move the goal yet; one line each.
-4. Not checked: only checks that could change the top changes, at most 5, each with how to check it.
-5. Scope: pages fetched, data used, and the assumptions that would change the answer if wrong.
-6. One line offering developer tickets, and a review of Search Console or crawler exports if the user has them.
+Use the user’s requested shape. For a sample audit, lead with the first fix and realistic priorities within the stated capacity, then account for the supplied pages or templates with concise evidence and actions. Do not duplicate those actions in a second findings section. `references/report-template.md` is optional for a full report. Add scope, assumptions, missing checks or ticket offers only when needed for this request.
 
 No promises about rankings or traffic: describe the mechanism and the metric to watch.
 

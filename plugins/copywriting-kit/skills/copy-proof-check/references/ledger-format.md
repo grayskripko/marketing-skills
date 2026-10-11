@@ -20,13 +20,13 @@
 
 ## Counts
 
-One line before the ledger, leaving out any status with zero: "Of 4 claims, 2 are stronger than your evidence, 1 needs evidence and 1 should be removed."
+Counts are optional. If useful or requested, give one line after the direct verdict, omitting zero statuses: "Of 4 claims, 2 are stronger than your evidence, 1 needs evidence and 1 should be removed."
 
 ## Rules
 
 - Quote the evidence line exactly as the user gave it, shortened with "…" if long.
 - A rewrite may only narrow, scope or soften a claim to match the evidence. It never adds a fact that is not in the evidence.
-- Where two evidence lines conflict, show both and judge the claim against the weaker line.
+- Use an explicitly corrected or superseding record when the evidence establishes that relationship, and explain the correction. Otherwise show the conflict and do not select a value merely because it is smaller; withhold the disputed claim until resolved.
 - Replace private people's names in quoted evidence lines with a role or a label ("Customer A").
 - A testimonial with its source and permission in the evidence, whose substance matches an evidence line, is "Backed by your evidence" with "confirm the exact wording with the customer" in the last column.
-- End with the one-line note from the skill: this is an evidence check, not legal advice.
+- Preserve all material measurement qualifiers in rewrites and final copy. Clarify evidence scope only where needed; no automatic closing note. Never give legal clearance.

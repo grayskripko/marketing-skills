@@ -5,7 +5,7 @@ description: Draft a landing, product or feature, pricing, or about page for the
 
 # Page copy from a brief
 
-Draft a page the reader can skim, built only on the user's facts. The answer is the page draft first, then three headline options and a short list of gaps.
+Draft a page the reader can skim, built only on the user’s facts. Return the requested page in the requested shape. Keep the message plan and checks internal; alternatives and proof-collection advice are opt-in.
 
 ## Ground rules
 
@@ -24,7 +24,7 @@ Draft a page the reader can skim, built only on the user's facts. The answer is 
 
 ## Step 1. Brief check
 
-If you know the product and have at least two facts, draft now: gaps become assumptions, and up to three questions go at the end. Ask first only when the product or the page type is unknown, for example "Help me write a pricing page" with nothing else. Then ask in one short list, most important first, for what the page type needs (for pricing: the plans and prices, what each includes, who each is for, the billing period, trial and cancel terms), and offer to draft with assumptions if they would rather not answer. Field list: `references/brief.md`.
+If you know the product and have at least two facts, draft now. Unknown product capabilities and terms remain unknown, never assumptions stated as facts. Mark only buyer-critical gaps; ask only questions needed to finish the requested page. Do not repeat a declared unknown as a demand for information. Ask first only when the product or the page type is unknown, for example "Help me write a pricing page" with nothing else. Then ask in one short list, most important first, for what the page type needs (for pricing: the plans and prices, what each includes, who each is for, the billing period, trial and cancel terms), and offer to draft with assumptions if they would rather not answer. Field list: `references/brief.md`.
 
 ## Step 2. Message plan (for yourself)
 
@@ -39,7 +39,7 @@ Each heading states a point, not a label. Details: `references/templates.md`.
 - **Product or feature:** what it does and for whom → the problem it removes → how it works → what it connects to or needs → proof → limits → call to action.
 - **About:** why the company exists → who is behind it (real people from the brief only) → commitments the user states → how to get in touch.
 
-Proof: use real proof from the brief. If the user said they have none, leave the proof section out, put the risk-reducers they gave (free trial, no card, cancel terms) next to the call to action, and list what proof to collect under Gaps. If the user said nothing about proof, use one `[PROOF NEEDED: …]` slot.
+Proof: use real proof from the brief. When none is supplied, omit the proof section; do not invent proof or add a proof-collection task unless requested. Put supplied risk-reducers (free trial, card requirements, cancellation terms) next to the call to action. A proof marker is useful only when the requested draft requires a proof section.
 
 ## Step 4. Check before answering
 
@@ -47,9 +47,6 @@ Check the draft and fix what you find. First trace every sentence to a fact in t
 
 ## Output
 
-1. **Page draft,** ready to paste.
-2. **Three headline options,** labelled outcome, problem and mechanism, each backed by a fact.
-3. **Gaps:** up to five lines, each naming a missing fact or missing proof and what would fill it.
-4. Assumptions, one line each, and up to three questions.
+Return the requested page draft, ready to paste. Give headline alternatives only when requested, each backed by a fact. Add a brief note or marker only for a missing fact that materially affects the buyer’s understanding or completion of this draft, such as unknown CSV requirements or trial-end billing. Do not add generic gaps, proof-collection advice or repeated plan descriptions. Use the plan comparison once, then explain only terms or questions it does not already answer.
 
 Give the message brief, a skim test (headings and calls to action only) or a claim-by-claim fact list only if the user asks.

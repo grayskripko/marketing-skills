@@ -1,6 +1,6 @@
 # Fixed procedures and thresholds
 
-The numbers below are written down so that results can be checked: the calculation is always shown, row by row, before the flag lists. Numbers taken from a primary source name it. Everything else is labeled **heuristic**: a reasonable default chosen for reproducibility, which the user may override. In the answer, a threshold shows in the calculation table and as a plain fact where a row is flagged; no separate list of thresholds.
+The numbers below are written down so that results can be checked: the calculation is always shown, row by row, before the flag lists. Numbers taken from a primary source name it. Everything else is labeled **heuristic**: a reasonable default chosen for reproducibility, which the user may override. In the answer, label the defaults once as screening heuristics, show relevant cutoffs with the requested calculations and respect user overrides. Distinguish eligibility under this screen from business priority; retain useful near misses.
 
 Search Console "position" is the average topmost position of the site's result across impressions. Treat it as an average, not a rank.
 
@@ -21,7 +21,7 @@ Search Console "position" is the average topmost position of the site's result a
 - If a band has fewer than 3 qualifying rows, still compute it, but say the baseline is thin. A band with one row cannot flag anything.
 - Branded queries (containing the site or brand name) usually have much higher CTR; if the user names the brand, compute bands without branded rows and say so.
 - Do not use a generic industry CTR curve.
-- Caveat to print: AI Overviews and AI Mode results are counted inside the same Web search type, and rich results, ads and other features change clicks at a stable position. A low CTR is a reason to look at the results page for that query, not proof that the title is bad.
+- A low CTR is a reason to inspect the query's results page, not proof that the title is bad. Mention particular search features only when evidence or the user's question makes them relevant; do not attribute these rows to unobserved features.
 
 ## 3. Cannibalization (heuristic)
 

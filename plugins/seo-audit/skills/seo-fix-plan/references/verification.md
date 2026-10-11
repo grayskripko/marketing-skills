@@ -1,5 +1,7 @@
 # Verification after release
 
+Use only the checks that apply to the supplied findings and requested deliverable. For next-week tickets, live source, headers, status and links normally establish release acceptance. Recrawl requests, sitemap maintenance and later metric windows below are optional follow-up guidance; require access or state the condition, and never add a new fix without evidence.
+
 ## Recrawl sequence for changed key pages
 
 Search engines pick up changes at their own pace. These steps make the change discoverable; none of them forces indexing.
@@ -12,7 +14,7 @@ Search engines pick up changes at their own pace. These steps make the change di
 
 ## When to look and what counts as success
 
-Timings are this plugin's rules of thumb; they vary with site size and how often it is crawled. Write them as dates to check, not outcomes: "at 1–4 weeks, check whether URL Inspection shows the page indexed", never "indexed within 1–4 weeks". A canonical is a strong hint, not a command: even a correct tag does not guarantee Google picks that URL.
+The windows below are optional monitoring heuristics, not default deliverables or evidence about this site. Include a calendar only when requested, label its assumptions and check tool access. Otherwise verify the release immediately and suggest indexed-state inspection after recrawl where relevant, without a fixed week range. A canonical remains a strong hint, not a guarantee of Google's selection.
 
 | Change | Check right after release | Look again | What to look for (not guaranteed) |
 |---|---|---|---|

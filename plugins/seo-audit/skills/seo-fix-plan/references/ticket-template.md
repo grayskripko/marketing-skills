@@ -9,13 +9,13 @@
 - Change: <the exact change; a short code or config sketch if it helps>
 - Owner: <developer | content | SEO | platform admin>
 - Effort: <S | M | L> (<assumptions behind the estimate>)
-- Depends on: <other ticket IDs, or none>
+- Depends on: <known prerequisites; if unknown, say "confirm before pickup" rather than asserting none>
 - Acceptance criteria:
   - <observable condition 1, e.g. "the product template's server HTML contains no robots noindex tag">
   - <observable condition 2, e.g. "robots.txt allows /product/">
 - How to verify after release:
   - <check and tool, e.g. "URL Inspection on 3 sample product URLs shows indexing allowed">
-  - <metric, when to check and expected direction, e.g. "Page indexing report at 2–6 weeks: indexed product URLs expected to rise">
+  - <only relevant follow-up, conditional on available access; inspect indexed status after recrawl, with no fixed window unless monitoring was requested>
 ```
 
 ## Writing rules
@@ -24,7 +24,9 @@
 - One change per ticket. Group many URLs under one ticket only when one change fixes them all.
 - Name the role, not a person.
 - Use the team's words: "template", "component", "route", "CMS field" as the user describes their stack.
-- No ranking, indexing or traffic promises. State the metric to watch, when to check it and the expected direction.
+- Preserve supplied effort estimates and mark new estimates as provisional with assumptions. Unknown dependencies remain unknown.
+- Verify the exact change on every affected route, including shared-template regressions. Do not require Search Console access or indexing requests unless available or explicitly conditional. Add sitemap work only when the finding or release changes the sitemap.
+- No ranking, indexing or traffic promises. Later monitoring is optional unless requested; any suggested window is a rule of thumb, not a deadline.
 
 ## Example
 

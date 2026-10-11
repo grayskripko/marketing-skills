@@ -1,6 +1,6 @@
 # Fact pack template
 
-A one-page set of true facts that editors, community answerers and the brand's own pages can use consistently. Fill only what the user supplied or what is on the user's public pages; ask for the rest.
+A set of true facts for consistent use. Fill only supplied or public-page facts; omit optional missing fields rather than asking for the rest.
 
 | Field | Content | Public proof (URL) |
 |---|---|---|
@@ -16,6 +16,6 @@ A one-page set of true facts that editors, community answerers and the brand's o
 | Contact for corrections | A role or channel, not a personal address, unless the user provides one | |
 
 Rules:
-- Leave out rows the user has not supplied and list those facts below the pack as questions.
+- Leave out optional unsupported rows; ask only for missing facts necessary for the requested deliverable. Supplied facts support internal drafts even when public proof is not supplied; mark proof needs only where required for external use.
 - The "Not a fit" row always stays; if the user has not said who the product does not suit, ask. It makes the pack more credible and quotes more accurate.
 - Keep one version and date it; update it when facts change.

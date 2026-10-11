@@ -18,7 +18,7 @@ The skills in this plugin do not report the items below as problems and do not r
 
 ## Claims with no documented support
 
-- **llms.txt gets a site cited.** Google says its AI search features need no special files (AI features page, row above). For other engines this is the plugin's own rule of thumb, not a platform statement: no major AI answer engine is known to document using an llms.txt file to choose or cite sources. The file is optional; its absence is never a finding.
+- **llms.txt gets a site cited.** Google says its AI search features need no special files (AI features page, row above). For other engines this is the plugin's own rule of thumb, not a platform statement: no major AI answer engine is known to document using an llms.txt file to choose or cite sources. The file is optional; its absence is never a finding. Google's no-special-files statement does not establish effects across other engines. Lack of cited support for a benefit is not proof of no benefit. When asked to choose between llms.txt and schema, prioritize accurate visible content and explain any optional choice by a supported use, without promising AI citation gains.
 
 ## Unverified or limited evidence
 

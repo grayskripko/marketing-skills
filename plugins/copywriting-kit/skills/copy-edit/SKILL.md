@@ -5,7 +5,7 @@ description: Edit the user's own marketing copy (web page text or a headline) so
 
 # Copy edit
 
-Edit a draft so it reads clearly for its reader, without changing what it says. The answer is the edited text first, then a short list of what changed and anything that needs the user's input.
+Edit a draft so it reads clearly for its reader, without changing its factual meaning. Return the edited copy in the shape the user requested. Run the checks internally; add change notes only when requested or when a material issue affects the edit.
 
 ## Ground rules
 
@@ -30,17 +30,17 @@ If the request contains the draft, edit it now. Ask first only when there is no 
 
 Before changing a word, list every locked item: numbers, percentages, prices, dates, durations; names of products, companies, people and places; product claims and promises, with their scope words (all, every, some, only, never); safety, allergy, price, trial and cancellation terms in the user's own wording; testimonials, quotes and endorsements, punctuation included.
 
-- Never change, add or cut a locked item.
+- Lock factual meaning, values, scope and exact quoted words, not sentence structure. Separate publishable copy from permission records, editorial annotations and declared unknowns: preserve their constraints without printing that metadata in public copy. Never change, add or cut a locked fact unless the user requests it.
 - Every sentence you add (a new section, a benefit, a note under a button) rests on a fact the user gave. What staff have to do, what is free, what happens after a trial: if the user did not say it, leave it out and ask after the text. Cut one only when the user asks for cuts or sets a length limit, and then name it in the facts line.
 - A word that narrows or extends what a feature does is a new claim. Add it only if the user's material says so; otherwise leave the phrase as it was or ask after the text.
   - Bad: "Automatic payment reminders help you follow up" → "Automatic payment reminders follow up on unpaid invoices" (the user never said what the reminders cover).
   - Good: keep "Automatic payment reminders help you follow up" and ask after the text: "Do the reminders go to clients with overdue invoices? If so, I can say that."
-- Unsourced numbers and testimonials stay exactly as written. They are never "improved" and get no marker in the text; list them under "Needs your input".
+- Unsourced numbers and testimonials stay exactly as written. They are never "improved" and get no marker in the text. Flag a missing source once only when the supplied material lacks one and the claim creates a material evidence problem; a supplied scoped pilot summary is not an invitation to request raw records during an edit. Never imply independent verification.
 - Before answering, check every locked item and every added sentence against the user's material, and undo any edit that changed a fact or added one.
 
 ## Step 3. Passes, in this order
 
-Details for each pass are in `references/edit-rules.md`; pass names are for you, not the user.
+Details for each pass are in `references/edit-rules.md`; pass names are for you, not the user. Run all passes internally. Any instruction here or in the references to ask for missing facts or list proof needs follows Step 4: ask only if necessary to complete this edit, and do not re-ask declared unknowns. Missing testimonial identity or permission, contradictory facts, raw merge tokens and unsupported safety or billing promises remain material problems and must be flagged. These output conditions govern references and earlier requests to ask after the text; they never relax fact locks or protected ground rules.
 
 | Pass | Focus |
 |---|---|
@@ -53,14 +53,13 @@ Details for each pass are in `references/edit-rules.md`; pass names are for you,
 | P7 Voice | Apply the voice profile if given; flag conflicts instead of guessing. With no profile, keep the draft's register. |
 | P8 Action and hygiene | One primary call to action that says what happens next, using only the user's facts. Flag raw merge tokens such as `{{firstName}}`; never fill them with guesses. No new deadlines, stock levels or discounts. |
 
-## Step 4. Output, in this order
+## Step 4. Output
 
-1. **The edited text,** ready to paste, with no markers in it and no sentence before it.
-2. **Facts kept,** one line, only after the check in Step 2 passes: "Your numbers, names and claims are unchanged." Never say the text is "accurate" or that "all facts are used". Name any item cut at the user's request.
-3. **What changed:** up to five short bullets, each "old words → new words" with a reason of a few words. Leave out changes the reader can see by comparing the two texts, such as joined or split sentences. Merge repeats. For a text over about 300 words, a table # | before | after | reason is fine.
-4. **Needs your input,** only if there is any: unsourced numbers or testimonials, missing details, and at most one question whose answer would change the edit (up to three for a long text).
+Return the edited text first, ready to paste, with no markers or introductory sentence. For a copy-only or paste-ready request, return just that copy unless a material contradiction or safety issue needs a brief note outside it.
 
-For a draft under about 150 words, items 2 to 4 together stay under about 80 words. Give before/after word counts only if the user asks. If the user asks for a full change log, use `references/change-log-format.md`.
+Give facts-kept statements, change explanations, counts and full change logs only when requested. If the user requested cuts, name any removed factual item in a short note. Flag only a newly discovered contradiction, a materially unsupported claim, or a missing fact necessary to finish the requested edit; do not repeat declared unknowns or request measurement records for a supplied scoped result merely because this is an edit.
+
+Never call an edit verified or accurate merely because its facts were preserved. For a requested full change log, use `references/change-log-format.md`.
 
 ## Requests aimed at AI detectors
 

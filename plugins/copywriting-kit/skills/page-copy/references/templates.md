@@ -7,7 +7,7 @@ Section orders designed for readers who skim. Each heading should state a point,
 1. **First screen.** Headline: what is sold, or which problem goes away. One sentence under it on who it is for. The one call to action.
 2. **The reader's situation.** Two or three sentences in the reader's words: what they do today and what it costs them. From the brief; mark as assumed if not given.
 3. **How it works.** Three steps: input → action → result. Concrete, from the facts.
-4. **Proof.** Real proof from the brief. If the user said there is none, leave this section out and name what to collect under Gaps; if the user said nothing about proof, use one `[PROOF NEEDED: …]` slot.
+4. **Proof, if supplied.** Use real proof from the brief. Otherwise omit unsupported proof claims and this section; do not automatically add placeholders or collection tasks.
 5. **Objections and trade-offs.** The two or three questions a careful reader asks, answered honestly, including one limit or fit condition.
 6. **Call to action again,** worded the same as in the first screen.
 
@@ -40,7 +40,7 @@ No invented discounts, deadlines or "most popular" labels unless the user states
 
 ## Headline angles
 
-Write three headline options, each labelled:
+Only when headline alternatives are requested, write up to three options, each labelled:
 - **Outcome:** the result the reader gets.
 - **Problem:** the pain that goes away.
 - **Mechanism:** how it works, in a few words.

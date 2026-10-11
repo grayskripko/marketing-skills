@@ -19,7 +19,7 @@ Score each criterion 0, 1 or 2. For every score give the evidence location (sect
 
 Notes:
 - DG-12 bands are a heuristic defined for this plugin (see `stock-phrasing.md`). Under 100 words of copy, apply the bands to the raw count and say so.
-- The first-screen boundary (roughly the first 60–80 words, or everything above the first call to action) is a heuristic; say which boundary was used.
+- With text-only input, use an explicitly stated opening-text boundary as a proxy; it does not establish the rendered first screen or visual weight. Score textual competing actions without claiming equal visual prominence.
 - Score what is on the page, not what the user says the product does. What the user says goes into Assumptions or the offer check.
 
 ## Offer check
@@ -33,7 +33,7 @@ Notes:
 
 ## Output table
 
-Print this table only when the user asks for it; otherwise give the one-line score from SKILL.md, Step 6. The ids are for the table only; in prose, name the check in plain words.
+Print item-level evidence and a verified total only when the user requests scoring. Otherwise use the criteria internally and omit the score. The ids are for the table only; in prose, name the check in plain words. Pasted text does not establish visual weight or viewport boundaries.
 
 | id | Score | Evidence location | Quote (up to 12 words) | Note |
 |---|---|---|---|---|

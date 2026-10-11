@@ -1,6 +1,6 @@
 # Prioritization rules for citation exports
 
-All thresholds here are heuristics; state them in the output and let the user change them.
+This is an optional prioritization heuristic, not a required ranking. Use the user's method when supplied; otherwise state this convention and its confirmed joined population if used. Keep unknown shares outside the ranking.
 
 ## Inputs per page
 
@@ -18,8 +18,8 @@ Print one row per page:
 
 - Value rank: 1 is the highest value. Tied values get the same rank, the smaller number, and the next rank skips (for example 1, 2, 2, 4).
 - Top third: rank ≤ ceil(number of pages with a value ÷ 3).
-- Median: the median citation share over the user's pages that are cited for at least one grounding query left after the branded and navigational exclusion. With an even count, the mean of the two middle values.
-- At or below median: citation share lower than or equal to the median. A page with value but absent from the Bing export has citation share 0 and counts as at or below median; mark it "not cited in the period".
+- Median: use only confirmed joined pages with observed shares for eligible nonbranded, nonnavigational queries. Exclude unknown shares and unconfirmed hosts. With an even count, take the mean of the two middle values.
+- At or below median: compare only observed eligible shares from confirmed joined pages. An absent Bing row is unknown unless completeness and omission semantics establish zero; list valuable missing or unjoined pages as measurement gaps, outside the share ranking.
 - A page cited only for branded or navigational queries gets no share in this table; list it in the "branded and navigational" block with its value, and do not mark it as a priority.
 - Priority: top third by value and at or below median.
 
@@ -36,4 +36,4 @@ Sort the priority list by value rank.
 
 ## Re-measure
 
-Set a re-measure date at least 4 weeks after the changes ship and compare periods of equal length.
+If requested, choose comparable equal-length post-change periods. Four weeks is an optional cadence, not a minimum waiting requirement.

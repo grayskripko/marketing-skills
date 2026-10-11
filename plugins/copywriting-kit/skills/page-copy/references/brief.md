@@ -13,7 +13,7 @@
 | Constraints | optional | Length, words to avoid, legal lines the user must include |
 | Voice profile | optional | From voice-profile |
 
-With the product and at least two facts, draft now and turn missing fields into assumptions. Ask first only when the product or page type is unknown: one short list, most important first.
+With the product and at least two facts, draft now. Never turn unknown product facts into assumptions. Omit unsupported statements; mark or briefly note only missing details material to use, fit, price or cancellation. Ask first only when the product or page type is unknown: one short list, most important first.
 
 ## Message plan (for yourself; show it only when the user asks for a message brief)
 

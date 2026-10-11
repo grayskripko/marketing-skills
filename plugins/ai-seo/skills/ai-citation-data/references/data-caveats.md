@@ -1,6 +1,6 @@
 # Data caveats
 
-After the priority list, name only the caveats that apply to the user's files, in a few lines. Sources were read on 2026-09-29.
+Use only limitations material to the requested decision, next to the affected claim. Do not infer sampling or channel configuration from a report name alone: separate documented report-level limits from properties confirmed in these files. Do not add generic caveats. Sources were read on 2026-09-29.
 
 ## Bing Webmaster Tools: AI Performance
 
@@ -25,5 +25,5 @@ After the priority list, name only the caveats that apply to the user's files, i
 ## General
 
 - None of these reports shows a brand's mentions without a link. Mentions are measured only by the prompt panel.
-- Compare equal-length periods with the same settings. Re-measure no earlier than 4 weeks after changes ship (heuristic).
+- Compare equal-length periods with the same settings. Choose any requested re-measure date from reporting cadence and data sufficiency; four weeks is optional.
 - Never convert citations or impressions into traffic, revenue or ranking claims.

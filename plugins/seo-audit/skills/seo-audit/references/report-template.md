@@ -1,6 +1,6 @@
 # Site audit report template
 
-Leave out any section with nothing in it. Keep "Not checked" if a check that could change the top changes was not possible.
+Optional example for a full site report, not a required layout. The user’s requested artifact takes precedence. Do not repeat actions under both Top changes and Findings. State decision-changing limitations where they matter; a separate Not checked or Scope block is optional. The closing offer is optional, not part of every answer.
 
 ```
 # SEO audit: <site or section>, <date>

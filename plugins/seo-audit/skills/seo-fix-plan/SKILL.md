@@ -19,7 +19,7 @@ Turn findings into tickets a team can pick up, grouped into critical, quick wins
 
 - Lead with the tickets. Open with one line: the goal and how many tickets are in each group that has any.
 - Match the length to the input: four findings get four short tickets, not a programme.
-- Speak only about the user's case. Name a finding by what it is, never by a finding number, skill name or file name of this plugin. State a threshold as a plain fact where it applies ("clicks fell 74%"), and name a source only when the user needs it to act ("Google's canonical guidance says..."). Read dates, labels such as "heuristic", checks that found nothing, and what your tools could or could not do stay out of the answer unless the user asks how you worked; arithmetic done by hand is simply shown. Never hold back what was asked over a point the user did not raise: deliver it and add one question. Bad: "Fix finding 2 (thresholds used: 50 clicks, 30%), then use the fix-plan skill." Good: "Fix the canonical tag on /pricing first. I can turn these fixes into developer tickets."
+- Answer what was asked first, in the shape asked. Use the checks below to support that answer; a narrow question does not become an audit report. Name each issue in plain words, never by a finding number or by this plugin's skill or file names; keep file:line evidence or ticket IDs the user asked for. Give measurements as plain facts; if you apply a screening cutoff of your own, call it a heuristic once, not a Google rule. Put uncertainty next to the claim it affects, and mention a missing check only if it could change this answer or the next step. Ask a follow-up question only when you cannot finish without it.
 - Ticket IDs (T-1, T-2) are fine: the tickets are the deliverable.
 
 ## Step 1. Inputs
@@ -38,7 +38,7 @@ Merge findings that share one fix (for example several pages affected by one tem
 
 ## Step 3. Write tickets
 
-Use `references/ticket-template.md`. Every ticket has: where, what, who (a role), effort, acceptance criteria someone can check in minutes (a tag present or absent, a status code, a URL in or out of the sitemap), and how to verify after release. If one of these cannot be stated, the ticket becomes an investigation task with the question to answer. No ranking, indexing or traffic promises and no deadlines for them: state the metric to watch, when to check it and the expected direction.
+Use `references/ticket-template.md`. Every ticket has: where, what, who (a role), effort, acceptance criteria someone can check in minutes (a tag present or absent, a status code, a URL in or out of the sitemap), and how to verify after release. If one of these cannot be stated, the ticket becomes an investigation task with the question to answer. No ranking, indexing or traffic promises or recovery deadlines. Verify the exact released change first; add later metric monitoring only when needed for the request, as an observation rather than a promised result.
 
 ## Step 4. What not to do now
 
@@ -46,10 +46,6 @@ Only if something tempting applies: work that will not move the goal until the c
 
 ## Output
 
-1. One line: goal, and the number of tickets in each group that has any.
-2. Critical tickets, then quick wins, then planned.
-3. What not to do now, if anything applies.
-4. After release: the recrawl steps and when to check which metric, at most 5 lines (`references/verification.md`).
-5. One line asking about capacity, if it was not given.
+Lead with actionable tickets in the requested fields, keeping critical blockers first even when deferred. If capacity is supplied, state what fits, what is deferred and the remaining capacity; state any hours-per-day assumption. Keep each release check with its ticket. Add a separate monitoring plan only when requested or necessary to assess a supplied finding. Ask about capacity only if absent and needed to choose commitments.
 
 Give the full re-audit checklist and a 30/60/90-day order only when the user asks.

@@ -1,6 +1,6 @@
 # Voice profile template
 
-Fill every section from the user's samples or interview answers. Mark figures "approximate" unless a code tool computed them.
+Select only sections that help the requested guide; this is a menu, not a required report. Ground each rule in samples or mark it as from interview. Keep quoted examples beside the rule they demonstrate. Use qualitative rhythm guidance by default; numeric targets and before/after rewrites are opt-in. Label new illustrative examples and do not use them to invent product behavior. If figures are requested, compute them or mark them approximate and state the counting convention.
 
 ```markdown
 # Voice profile: [organisation]

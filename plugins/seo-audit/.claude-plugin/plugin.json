@@ -1,7 +1,7 @@
 {
   "name": "seo-audit",
   "displayName": "Website SEO Audit",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Find SEO problems that may be holding your website back on Google and decide which fixes to make first to improve organic search. Audit a website, a single page, Google Search Console and crawler exports, or a site's source code for technical, on-page and content SEO issues. Every finding shows its evidence and how sure it is, and findings can be turned into a prioritized fix plan with developer tickets.",
   "author": {
     "name": "Sergey Skripko",
