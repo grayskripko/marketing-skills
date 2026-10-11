@@ -13,7 +13,7 @@ MQLs             = SQLs ÷ MQL-to-SQL rate        (only if given)
 
 Which win rate:
 - Counts (opportunities, SQLs, MQLs) use the count win rate: won deals ÷ closed deals.
-- If only a dollar-weighted rate is given, go through dollars instead: `pipeline $ needed = target ÷ dollar-weighted win rate`, then `opportunities = pipeline $ ÷ average opportunity size`. If average opportunity size is missing, use average won size and print "assumes lost deals were about the size of won ones" in the Assumptions box.
+- If only a dollar-weighted rate is given, go through dollars instead: `pipeline $ needed = target ÷ dollar-weighted win rate`, then `opportunities = pipeline $ ÷ average opportunity size`. If average opportunity size is missing, use average won size and print "assumes lost deals were about the size of won ones" beside that result.
 - Never divide a deal count by a dollar-weighted rate.
 
 Worked check: target 600,000, average won deal 18,000, count win rate 22%, SQL-to-opportunity 40% → 33.3 won deals, 151.5 opportunities, 378.8 SQLs; printed as 34, 152, 379.
@@ -51,9 +51,9 @@ Print the ramp factor per person group per month. Team level only; never per per
 
 ## Sensitivity grids
 
-Two separate grids, because capacity bookings do not depend on funnel rates. Show the funnel grid only if the user asks how sensitive the plan is or gives ranges; show the capacity grid only with team data.
+Two separate grids, because capacity bookings do not depend on funnel rates. Show the funnel grid only if the user asks how sensitive the plan is or gives ranges; show the capacity comparison only when requested and supported by team data.
 
 - Funnel grid: rows are the count win rate −5 pp, as given, +5 pp; columns are the SQL-to-opportunity rate −5 pp, as given, +5 pp; cells show SQLs needed per month.
-- Capacity grid: rows are attainment −10 pp, as given, +10 pp; columns are ramp months as given and +1; cells show expected bookings against target.
+- Capacity comparison: use requested scenarios. If unspecified, label attainment ±10 pp and ramp +1 month as assumptions. For a target-feasibility question include 100% attainment and each ramp’s break-even attainment. Show both ramps’ monthly quota capacity and a simple bookings-against-target comparison; report gap/pipeline separately for requested cases.
 
 Mark the base cell in each. Leave a cell blank if its rate would be 0% or below. All inputs appear in an assumptions list the user can edit.

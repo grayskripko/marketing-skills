@@ -6,7 +6,7 @@ Answer these briefly when the user raises them. Never list them as findings on t
 |---|---|
 | Everyone needs 3× pipeline coverage | Coverage needed is 1 ÷ your own dollar-weighted win rate on the same pipeline definition. At 20% that is 5.0×, at 40% it is 2.5×. |
 | Stage probabilities typed into the CRM are a forecast | They are assumptions until checked against what closed; stage-calibration does that check. |
-| A win-rate gap on a handful of deals means something | Compute the interval for the difference. If it includes 0, this check does not show a difference; thin samples are not compared at all. |
+| A win-rate gap on a handful of deals means something | Describe the observed gap with counts. For a claim beyond these records, check dependence and the sampling model and use an appropriate interval for the difference; small n warrants caution, not a blanket ban. |
 | Overlapping intervals prove two rates are the same | Not by themselves. Two intervals can overlap while the interval for the difference still excludes 0. |
 | Average cycle length describes a typical deal | Use the median; a few very long deals pull the mean. |
 | NRR can include new customers | NRR and GRR use only accounts present at the start of the period. New logos and win-backs sit outside that group. |

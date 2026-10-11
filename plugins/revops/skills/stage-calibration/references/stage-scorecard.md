@@ -1,6 +1,6 @@
 # Stage definitions scorecard (SC-01 to SC-10)
 
-Scores the written definitions only, never individual deals. The ids are for this file only; in the answer, name each check in plain words. Each check is 0, 1 or 2, with a short quote from the user's text as evidence. Missing text scores 0 with "not described". The total is out of 20 and is labelled "checklist score, not a forecast of accuracy".
+Scores the written definitions only, never individual deals. The ids are for this file only; in the answer, name each check in plain words. Each check is 0, 1 or 2, with a short quote from the user's text as evidence. Missing text scores 0 with "not described". When a combined total is requested, it is out of 20 and labelled "checklist score, not a forecast of accuracy". For a request to score definitions, assess each active stage on exit-criterion presence, buyer-side evidence and a distinct gate (0 = absent, 1 = partly specified, 2 = explicit), report each stage out of 6 with evidence, labelled "buyer-gate checklist score, not a forecast of accuracy", and keep the other seven checks as supporting system checks. State that seller-only or duplicated gates need rewriting regardless of administrative completeness; a signed Closed-won definition does not make an active-stage gate buyer-side.
 
 | Id | Check | 2 | 1 | 0 |
 |---|---|---|---|---|

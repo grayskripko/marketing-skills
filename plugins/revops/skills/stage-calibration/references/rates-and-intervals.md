@@ -1,6 +1,6 @@
 # Rates and intervals
 
-Every rate in this plugin is printed as `k / n = p%  [low% – high%]` with a Wilson 95% interval.
+Every observed rate shows k/n. Use a Wilson 95% range for historical stage calibration and when justified inference about a broader/future population is requested; do not automatically attach sampling intervals to a complete observed cohort or saved-period frequency. A binomial interval requires an appropriate trial model and target. Print formulas only when asked.
 
 ## Wilson score interval
 
@@ -20,7 +20,7 @@ Worked check: 14 of 50 → 28.0% [17.5% – 41.7%].
 
 - A stated value outside the interval: "stated X% is outside the observed range".
 - Comparing two separate groups (different sources, segments or cohorts, with no record in both): compute the interval for the difference (below). If it excludes 0, say the difference shows at this sample size; if it includes 0, say "this check does not show a difference". Overlapping single-rate intervals alone do not mean the gap is noise.
-- n below 20: add "thin sample" (heuristic of this plugin). Show the rate and interval, never hide the row, and never declare it different from another group.
+- Small n: keep the row and distinguish the exact observed difference from uncertain generalisation. There is no universal n = 20 significance threshold. Use a dependence-appropriate difference interval only for justified inference; the independent-proportions method below requires independent groups.
 - n = 0: print "no data", not 0%.
 - A rate the user gives without a denominator: print "n not given" instead of an interval.
 
@@ -41,4 +41,4 @@ A dollar-weighted win rate is won amount ÷ closed amount (won + lost) on the sa
 
 ## Medians
 
-Durations (days in stage, days to first contact, cycle length) use the median, with n. Print the mean only when the user asks, next to the median, with "a few long cases pull the mean".
+Durations (days in stage, days to first contact, cycle length) use the median, with n. Print a requested or decision-relevant mean with its label, alongside the median when useful. Do not assert outlier distortion without checking the data.

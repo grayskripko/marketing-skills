@@ -34,4 +34,4 @@ A period with A_t = 0 has no percentage error. It is not a usable period: exclud
 - Name a closest method overall only if its wins, counting partial wins, are more than half of the usable periods. Otherwise say "no method is consistently closer" and add the lowest MAPE and the lowest absolute bias as separate facts.
 - With 4 or fewer usable periods print "n = k periods, weak evidence" (heuristic of this plugin).
 - Without at least two past periods for at least two methods, say that a backtest is not possible with this data and stop. Do not produce a number of your own in that case.
-- By default the output ends with the verdict. Only when the user asks what each method says for the current period, show one row per method next to that method's past MAPE and bias, headed "what each method would say, not a forecast". Never one blended number.
+- Lead with the requested verdict. Only when the user asks what each method says for the current period, show one row per method next to that method's past MAPE and bias, headed "what each method would say, not a forecast". Never one blended number.

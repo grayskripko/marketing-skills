@@ -27,7 +27,7 @@ start + new + reactivation + expansion − contraction − churn = computed end
 reconciliation = reported end − computed end   (must be 0)
 ```
 
-If reconciliation is not 0, list the accounts whose movements do not add up and stop short of GRR and NRR until the user confirms.
+If reconciliation is not 0, report the gap and affected accounts only when identifiable. Do not allocate unknown adjustments. Calculate requested GRR/NRR provisionally on the classified starting-cohort basis if their inputs are known; withhold final reconciliation sign-off and state the unknown adjustment’s unresolved retention effect. Unknown required inputs or a zero denominator make the affected ratio undefined.
 
 ## Retention
 
@@ -38,7 +38,7 @@ NRR = (start + expansion − contraction − churn) ÷ start
 
 New and reactivated accounts are outside the starting cohort and appear in neither. GRR cannot exceed 100% under this definition.
 
-Customer-count view, when the user asks for churn, customer counts or a full bridge: starting customers, churned customers, customer-count churn % with n and 95% range.
+Customer-count view, when the user asks for churn, customer counts or a full bridge: starting customers, churned customers, customer-count churn % with k/n; a 95% range only when justified inference is requested, as in `rates-and-intervals.md`.
 
 ## Worked check
 

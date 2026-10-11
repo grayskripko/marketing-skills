@@ -9,19 +9,19 @@ Group records by the period they entered the funnel (created month or quarter), 
 | Cohort | Entered | Step | Converted | Rate | 95% interval | Median days (n) |
 |---|---|---|---|---|---|---|
 
-One row per cohort and step. Rates with n and interval as in `rates-and-intervals.md`.
+One row per cohort and available step, crossed with source when periods and sources are requested together. Rates show k of n; intervals follow the rate-evidence rule. Cross response metrics by the same cohort × source, showing requested period changes.
 
 ## Time to first contact
 
 - From record creation to the first logged touch, in hours.
-- Median and 75th percentile by source, with n. Percentiles use linear interpolation between ranks.
-- Share over the user's response-time target, with n and interval. If the user gives no target, report the distribution and ask.
+- Median with n and target compliance as k/n by the requested source and period; for time-and-source comparisons show cohort × source and cohort totals. Exactly the target counts as within.
+- Add 75th percentiles only when requested or useful, using linear interpolation. Intervals follow `rates-and-intervals.md`. If no target is given, show the distribution without inventing one.
 - Record ids over the target are listed only if the user asks.
 - Faster first contact is associated with better lead outcomes in published research (Oldroyd, McElheran and Elkington, "The Short Life of Online Sales Leads", Harvard Business Review, 2011). Use it only as a reason to measure; never quote its figures as the user's expected gain.
 
 ## Segment view
 
-Per segment and per source: opportunities, win rate by count with interval, dollar-weighted win rate, median cycle, average won size. To compare two groups, print the interval for the difference (see `rates-and-intervals.md`); do not decide from whether the two single-rate intervals overlap. Thin-sample rows are shown but not compared. Never lead the output with this table; it follows the cohort table.
+Use available funnel steps by the requested source/segment and cohort. Lead with the finding that answers the question. Describe observed differences with counts; for justified inference use `rates-and-intervals.md`, accounting for dependence and follow-up. Do not require uncollected downstream fields or ban comparison solely because n is small.
 
 ## Velocity
 
@@ -34,4 +34,4 @@ State which form was used. Never multiply the dollar-weighted rate by average wo
 
 ## What this data cannot show
 
-Close the output with this short section: causes, rep effort, market changes, and anything outside the pasted rows.
+Mention a limitation beside the affected result only when it prevents a material misreading; do not append a generic caveat section. Do not claim causes, rep effort or market changes from these rows.
