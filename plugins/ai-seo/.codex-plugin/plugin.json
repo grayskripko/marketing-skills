@@ -1,6 +1,6 @@
 {
   "name": "ai-seo",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Check and improve how ChatGPT, Google AI Overviews and other AI answers mention your brand. Builds a repeatable prompt panel, scores logged runs over time with sample-size checks, analyzes citation exports, and maps answer gaps and third-party sources. Contains no code of its own and stores nothing.",
   "author": {
     "name": "Sergey Skripko",

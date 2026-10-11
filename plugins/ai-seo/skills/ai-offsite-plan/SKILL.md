@@ -1,6 +1,6 @@
 ---
 name: ai-offsite-plan
-description: "Plan how to get your brand described accurately on the websites that AI answers cite. Classifies cited sources, lists correction and pitch opportunities with an allowed route for each, and builds a fact pack from facts the user supplies. Use when the user shares URLs cited in AI answers, asks how to get into the roundups, review sites and reference pages that AI answers quote, or asks how to be described accurately on other sites. It never writes reviews, undisclosed promotional posts, or reference-work articles about the user's own organization."
+description: "Plan how to get your brand described accurately in AI recommendations by identifying correction and outreach opportunities on the third-party websites that AI answers cite. Classifies cited sources, lists correction and pitch opportunities with an allowed route for each, and builds a fact pack from facts the user supplies. Use when the user shares URLs cited in AI answers, asks how to get into the roundups, review sites and reference pages that AI answers quote, or asks how to be described accurately on other sites. It never writes reviews, undisclosed promotional posts, or reference-work articles about the user's own organization."
 ---
 
 # Off-site source plan
