@@ -1,6 +1,6 @@
 # Myths
 
-Answer in one or two sentences and name the source.
+Answer in a default of one or two sentences (use the user’s requested length when supplied, retaining the decision first) and name the source.
 
 | Claim | Answer |
 |---|---|
