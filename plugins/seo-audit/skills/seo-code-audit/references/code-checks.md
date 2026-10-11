@@ -8,7 +8,7 @@ Each check says what to look for in the source, why it matters, and the default 
 
 **1.2 Global noindex in a layout.** A robots meta tag with noindex in a root layout, a shared head component or site-wide metadata, which every route inherits unless overridden. Impact: High.
 
-**1.3 robots.txt content.** A static or generated robots.txt that disallows directories containing pages meant to rank, or the CSS and JavaScript needed to render them. A disallowed page can still be indexed without content if linked, and a noindex on it is never seen. Impact: High when key paths are blocked.
+**1.3 robots.txt content.** A static or generated robots.txt that disallows directories containing pages meant to rank, or the CSS and JavaScript needed to render them. A disallowed page can still be indexed without content if linked, and a noindex on it is never seen. When changing a global noindex policy, preserve authentication for private routes: robots blocking is not access control. If an accessible public login page must stay out, permit reading its noindex without exposing private content. For environment-driven generated robots output, verify the deployed artifact after the actual release and any required regeneration; do not assume changing a runtime value updates cached or generated output. Do not infer generation mode or configured values from an excerpt alone. Name the variable, never request its secret value. Impact: High when key paths are blocked.
 
 ## 2. Head tags per route
 
@@ -32,7 +32,7 @@ Each check says what to look for in the source, why it matters, and the default 
 
 **4.2 Empty generated pages.** Listing or search result templates that return 200 with zero items. Impact: Medium.
 
-**4.3 Error handling.** Data-fetch failures that render a blank page with 200 instead of a 5xx or a retry. Impact: Medium.
+**4.3 Error handling.** Data-fetch failures that leave a blank or loading-only page with 200, including effect fetches with no response-status check or rejection handling. Recommend deliberate loading, retry and error behavior, with an appropriate server status where the server can determine the failure. Verify a failed content request after deployment as well as the successful response; source evidence alone does not prove a deployed failure. Impact: Medium.
 
 ## 5. Redirects
 

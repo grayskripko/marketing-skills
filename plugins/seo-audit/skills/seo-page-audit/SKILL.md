@@ -46,7 +46,7 @@ Infer from the query's wording what someone searching it wants: to learn, to com
 
 At minimum check: the title (present, says the topic, agrees with the main heading); the meta description; a visible main heading; a first screen that says what the page is and for whom; the content the query needs (prices, specs, steps, comparisons); crawlable `<a href>` links to related key pages; JSON-LD of a fitting type whose values match the visible page; a mobile viewport tag. Word count, heading order and meta keywords are not checks. Full list with default impacts: `references/page-checks.md`; myths not to report: `references/myths.md`.
 
-Report material issues with the exact evidence and relevant correction. Distinguish observed HTML from unverified Google behavior inline. Include impact and effort only if requested or needed for a decision; do not estimate either as a measured result from pasted HTML. `references/finding-format.md` is a field guide, not a required layout.
+Report material issues with the exact evidence and relevant correction. For a structured-data mismatch, put Rich Results Test validation beside the correction; it does not guarantee a rich result. Distinguish observed HTML from unverified Google behavior inline. Include impact and effort only if requested or needed for a decision; do not estimate either as a measured result from pasted HTML. `references/finding-format.md` is a field guide, not a required layout.
 
 ## Step 5. Competitor gaps (only if the user named competitors)
 
@@ -55,7 +55,7 @@ For each competitor page, list concretely where this page falls short for the ta
 ## Step 6. Title and description options
 
 Only when copy options are requested or useful to the requested page optimization, write 2 or 3 paired title and meta description options and recommend one. Each pair must:
-- lead with the target query or its closest natural wording, then a differentiator taken only from the page or the user's message (price, audience, trial terms), never an adjective the page does not support ("simple", "transparent", "best");
+- start titles with the target topic in natural wording; keep the recommended title concise rather than adding every differentiator. Descriptions should read as useful summaries, with varied openings; do not force the full query into every description. Use only differentiators from the page or the user’s message (price, audience, trial terms), never unsupported adjectives ("simple", "transparent", "best");
 - put the brand last, unless the query is branded. If the user did not give the brand, write the options without it and add one line after them: "Add your brand at the end." No bracket placeholders;
 - agree in meaning with the main heading and the first screen;
 - avoid repeating the same keyword.

@@ -22,22 +22,21 @@ Analyze exports the user provides with the fixed thresholds below, and say which
 - Lead with the answer in two or three sentences: the patterns that matter most for the user's goal, with their numbers. Calculations come after.
 - Match the length to the export: three rows get a short answer.
 - Answer what was asked first, in the shape asked. Use the checks below to support that answer; a narrow question does not become an audit report. Name each issue in plain words, never by a finding number or by this plugin's skill or file names; keep file:line evidence or ticket IDs the user asked for. Give measurements as plain facts; if you apply a screening cutoff of your own, call it a heuristic once, not a Google rule. Put uncertainty next to the claim it affects, and mention a missing check only if it could change this answer or the next step. Ask a follow-up question only when you cannot finish without it.
-- Show numbers exactly as computed; never round a result into a word like "many". A share says what it is a share of, and its total is the same quantity summed over the right rows: a page's share of lost clicks is its loss divided by the losses of all rows that fell, not by the net change when another row gained (pages losing 120 and 55 while a third gains 5 carry 175 of 175 lost clicks, not "about 80%" of a net 170).
+- Show numbers as computed and label rounding; never replace a computed result with a word like "many". For a trend question, show the aggregate click change explicitly, including 0% when unchanged, and lead with materially declining pages. A share says what it is a share of: each declining page’s share of gross lost clicks uses the sum of losses across declining rows, not a net change after gains. When explaining redistribution, show each declining page’s contribution together: losses of 120 and 55 total 175; shares are 120/175 = 68.5714…% and 55/175 = 31.4286…%. Keep gains separate and retain the supplied country, device and search-type scope.
 
 ## Step 1. Identify the export
 
-Match the columns against `references/export-columns.md`. Say which export it is, the date range if present, and the row count. If the columns match no known export, ask which tool and report produced it, or ask for the header row.
+Match the columns against `references/export-columns.md`. Identify the export and applicable dates where needed to interpret the answer. Count rows internally; report counts only when they clarify a pattern or coverage. For a few named URLs, fold the affected count and period into the relevant sentence instead of adding a separate eligibility or all-flagged percentage table. If the columns match no known export, ask which tool and report produced it, or ask for the header row.
 
 The standard Search Console performance export from the web interface gives separate tables (queries, pages, countries, devices, search appearance, dates), never query and page together. Cannibalization needs a query-by-page table (API, bulk data export, or a filtered export); without it, cannibalization is Needs verification.
 
 ## Step 2. Check data caveats before reading any trend
 
-Known reporting problem: from 2025-05-13 to 2026-04-27 Google reported Search impressions inaccurately; treat impressions, CTR and average position in that window as unreliable. Clicks were not affected. Other entries: `references/data-anomalies.md`, re-read on 2026-10-08. If today is more than 6 months after that date and the export covers dates after it, tell the user to re-check Google's "Data anomalies in Search Console" page for their dates.
+Check `references/data-anomalies.md` for date overlap before interpreting a trend. Its entries come from Google's own documentation, with the source beside each; cite that source beside the affected comparison. Known: from 2025-05-13 to 2026-04-27 Google reported Search impressions inaccurately; impressions, CTR and average position in that window are unreliable, clicks were not affected. The list was re-read on 2026-10-08. If today is more than 6 months after that date and the export covers later dates, tell the user to re-check Google's "Data anomalies in Search Console" page for those dates.
 
-- If the export's date range is known and overlaps an anomaly, say so in the answer, and never compare the affected metrics across the boundary; compare clicks instead.
-- Mention an anomaly only when the export's dates overlap it. Dates given without a year are the most recent ones that fit. If the range is truly unknown, add one line under Not checked, not a warning at the top.
-- If impressions fall sharply while clicks stay flat and average position improves, suspect a reporting change before a ranking change.
-
+- An overlap invalidates comparisons of the affected metrics across the boundary; compare unaffected metrics instead (usually clicks), without guessing correction factors. Do not assume the anomaly explains the whole change.
+- Show what the supplied figures report and distinguish arithmetic from interpretation. Flat clicks plus fewer impressions and a better aggregate position does not prove either ranking loss or ranking improvement: changing query mix or demand can change the aggregate.
+- Mention an anomaly only when the export's dates overlap it and it affects the requested conclusion. Dates given without a year are the most recent ones that fit. If the range is truly unknown and relevant to the conclusion, add one short missing-check note, not a warning at the top.
 ## Step 3. Run the fixed procedures
 
 Default thresholds (heuristics; the user may change them). Details and the other procedures: `references/thresholds.md`.
@@ -61,9 +60,9 @@ Run the procedures needed to answer the request, using the default heuristics be
 10. Log sample patterns (only if logs are provided).
 11. Performance results (field data only for Core Web Vitals verdicts).
 
-Do not run procedures without the necessary columns. Mention missing inputs only if they bear on the requested conclusion. When the user asks to see the maths, account for every eligible supplied row, including a singleton band as "insufficient peers" and an empty result as "no rows flagged". Explain a near miss as a screening boundary, not evidence that the row has no value.
+Do not run procedures without the necessary columns. Mention missing inputs only if they bear on the requested conclusion. When the user asks to see the maths, account for every eligible supplied row, including a singleton band as "insufficient peers" and an empty result as "no rows flagged". Explain a near miss as a screening boundary, not evidence that the row has no value. Lead recommendations with relevance to the business goal, not the count of screen passes. Keep commercially relevant near misses in that recommendation. Also consider useful queries appearing only in query-by-page data when their period and filters match: show those totals separately, keep their aggregation distinct from the query table and its CTR peer baseline, and do not invent a property-level average position from page-level averages.
 
-For each procedure that flagged rows the answer relies on, print a calculation table: the rows tested, the values tested (for CTR outliers: position, band, band median, cutoff, the row's CTR) and the result of each comparison. If more than 20 rows qualify, show every flagged row plus the top 20 by impressions, with totals. If the host has a code or spreadsheet tool, compute with it. The flags must match the table.
+For each numeric screening procedure that flagged rows the answer relies on, print a calculation table: the rows tested, the values tested (for CTR outliers: position, band, band median, cutoff, the row's CTR) and the result of each comparison. For a few named URLs with simple zero-impression or status findings, put the values, period and affected count beside their evidence and actions instead of a second screening table. If more than 20 rows qualify, show every flagged row plus the top 20 by impressions, with totals. If the host has a code or spreadsheet tool, compute with it. Every reported flag must match the shown values.
 
 ## Step 4. Report
 

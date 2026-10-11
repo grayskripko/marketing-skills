@@ -45,7 +45,7 @@ Using `references/frameworks.md`, find:
 
 Walk `references/code-checks.md`. For each problem, write a finding in the format from `references/finding-format.md`:
 - Where: `file:line` and the route or URL pattern it affects;
-- Evidence: a short quote of the code, at most a few lines;
+- Evidence: a short literal quote of the relevant directive, URL or expression, at most a few lines; pair it with every affected route established by the supplied files. Do not replace the quote with a paraphrase;
 - Evidence level: **Observed** for what the code clearly does; **Needs verification** when behavior depends on runtime values (environment variables, CMS data) or deployment config you cannot see, naming what to check on the deployed site;
 - Fix: the concrete change in that file, as a description or a short diff sketch. Do not apply it.
 

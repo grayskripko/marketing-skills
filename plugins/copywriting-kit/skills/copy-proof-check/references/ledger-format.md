@@ -28,5 +28,5 @@ Counts are optional. If useful or requested, give one line after the direct verd
 - A rewrite may only narrow, scope or soften a claim to match the evidence. It never adds a fact that is not in the evidence.
 - Use an explicitly corrected or superseding record when the evidence establishes that relationship, and explain the correction. Otherwise show the conflict and do not select a value merely because it is smaller; withhold the disputed claim until resolved.
 - Replace private people's names in quoted evidence lines with a role or a label ("Customer A").
-- A testimonial with its source and permission in the evidence, whose substance matches an evidence line, is "Backed by your evidence" with "confirm the exact wording with the customer" in the last column.
+- A testimonial with its source and permission in the evidence, whose substance matches an evidence line, is "Backed by your evidence" in substance. For unconfirmed exact wording, give an attributed paraphrase without quotation marks only when permission covers the substance; require wording confirmation for a direct quotation.
 - Preserve all material measurement qualifiers in rewrites and final copy. Clarify evidence scope only where needed; no automatic closing note. Never give legal clearance.

@@ -2,7 +2,7 @@
 
 A set of true facts for consistent use. Fill only supplied or public-page facts; omit optional missing fields rather than asking for the rest.
 
-| Field | Content | Public proof (URL) |
+| Field | Approved content | Evidence status / supplied public proof |
 |---|---|---|
 | One-sentence description | What the company does, for whom, where | |
 | Good fit | The customers and use cases it suits | |

@@ -44,11 +44,11 @@ Page value comes from the column the user names; otherwise conversions, then cli
 
 1. Set aside grounding queries that contain the brand name or are labelled Navigational; show them in a separate block.
 2. A page's citation share is the simple mean of its share over the remaining grounding queries. If only citation counts exist, use counts and say so.
-3. Compute the median only over confirmed matching pages with observed shares for eligible nonbranded queries (with an even count, the mean of the two middle values). An absent row means unknown unless export completeness and omission semantics establish zero. Keep high-value missing or unjoined pages as measurement gaps; do not zero-fill them or rank them by unknown share.
-4. Top third by value: value rank ≤ ceil(pages with a value ÷ 3); tied values share the smaller rank.
-5. If the user has not supplied a priority method, top-third value and at-or-below-median observed share is an optional heuristic for identifying measured opportunities, not an established ranking. State the method and population; sort measured opportunities by value rank and separately identify valuable measurement gaps.
+3. An absent row means unknown unless export completeness and omission semantics establish zero. Keep high-value missing or unjoined pages as measurement gaps, outside the observed-share ranking.
+4. Use the user's priority method when supplied. Otherwise, when asked for an ordered list, give a complete order of eligible measured pages with one transparent convention: value × (1 − mean eligible citation share expressed as a fraction), descending. This is an editorial prioritization index, not expected conversions or citation gains. With counts alone, do not substitute counts into this share formula; use a clearly described value/count ordering.
+5. Show the arithmetic needed to defend the chosen order in one table, with value, eligible observed share, citation counts and the calculation. Do not add a top-third cutoff that excludes remaining eligible pages. Show unknown shares and unconfirmed hosts separately. Keep impressions and GA4 conversions as separate context rather than adding them to page value.
 
-The calculation table has one row per page: page | value | value rank | top third | citation share | citations behind it | median | at or below median | priority. If cited pages' citation counts differ by 5 times or more, say that shares built on few citations are less stable. If the host has a code or spreadsheet tool, compute with it.
+If citation counts differ by 5 times or more, place that comparison beside the priorities and note that fewer citations provide thinner support. Citation share is observational, not a search rank. If the host has a code or spreadsheet tool, compute with it.
 
 Action per priority page: cited for some queries → strengthen the passages that answer them (page check); not cited in the period → check that it can be crawled and quoted first (page check). Details: `references/prioritization.md`.
 
@@ -59,10 +59,6 @@ Action per priority page: cited for some queries → strengthen the passages tha
 
 ## Step 5. Deliver
 
-1. Priority pages: page | value | citation share (citations behind it) | action, with one line on the rule that picked them.
-2. Low-share grounding queries.
-3. The re-measure date and what to compare.
-4. Caveats that apply to the files given, at most four lines (`references/data-caveats.md`). Always include that citation share is observational, not a ranking.
-5. The branded and navigational block, then the calculation table.
+Lead with the requested order and the arithmetic that defends it, using one table when needed. Keep valuable missing or unjoined pages separate and explain their unknown status beside them. Include relevant grounding queries and excluded branded rows only as needed to interpret the priorities. Give a re-measure plan only when requested. Place material export limitations next to the affected inference; no mandatory caveat block or second calculation table. Citation share remains observational, not a search rank.
 
 Never convert citations or impressions into traffic or revenue estimates.

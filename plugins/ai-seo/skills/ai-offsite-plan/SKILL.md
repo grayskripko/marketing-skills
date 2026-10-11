@@ -47,7 +47,7 @@ Finding new sources (more roundups on a topic, video coverage) needs a web searc
 
 ## Step 3. Build the fact pack
 
-Use `references/fact-pack-template.md`. Fill only fields the user supplied or that are on the user's public pages, and leave out empty rows except "Not a fit". Omit optional missing facts; ask only if a missing fact prevents the requested pack or draft. Supplied approved facts suffice for internal drafts; include public proof where supplied and identify any verification necessary before external use without delaying the draft. Never invent customers, figures, awards or quotes.
+Use `references/fact-pack-template.md`. Fill only fields the user supplied or that are on the user's public pages, and leave out empty rows except "Not a fit". Omit optional missing facts; ask only if a missing fact prevents the requested pack or draft. Supplied approved facts suffice for requested drafts. Label user-approved facts as user-approved, and supplied public-page text as public-page evidence with its URL; never label the former public proof. Add a proof requirement only for a specific route that requires it and only when that proof is missing. Do not require generic re-verification of complete approved facts or ask for optional absent fields. Never invent customers, figures, awards or quotes.
 
 ## Step 4. Deliver
 
@@ -55,4 +55,4 @@ Use `references/fact-pack-template.md`. Fill only fields the user supplied or th
 2. The source table: URL | type | brand present and how described | action and allowed route. Include supplied freshness evidence when relevant, including a visible update date or "No visible updated date". Add owner, effort or re-check columns only if the user asks for a tracker.
 3. The fact pack.
 4. Declined requests, if any, with the honest alternative (for example, posts that hide the author's affiliation are declined and replaced by a disclosed participation plan).
-5. Not checked, and how to check it.
+5. Mention unchecked evidence only beside a requested decision it materially limits. Do not append an unchecked-work section, verification assignment or missing-facts question after a complete draft.

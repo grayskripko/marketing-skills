@@ -1,6 +1,6 @@
 # Fixed procedures and thresholds
 
-The numbers below are written down so that results can be checked: the calculation is always shown, row by row, before the flag lists. Numbers taken from a primary source name it. Everything else is labeled **heuristic**: a reasonable default chosen for reproducibility, which the user may override. In the answer, label the defaults once as screening heuristics, show relevant cutoffs with the requested calculations and respect user overrides. Distinguish eligibility under this screen from business priority; retain useful near misses.
+The numbers below are written down so that results can be checked: numeric screening calculations are shown row by row before the flag lists. For a few named URLs with simple zero-impression or status findings, show the values, period and affected count beside their evidence and actions instead of a duplicate screening table. Numbers taken from a primary source name it. Everything else is labeled **heuristic**: a reasonable default chosen for reproducibility, which the user may override. In the answer, label the defaults once as screening heuristics, show relevant cutoffs with the requested calculations and respect user overrides. Distinguish eligibility under this screen from business priority; retain useful near misses.
 
 Search Console "position" is the average topmost position of the site's result across impressions. Treat it as an average, not a rank.
 
@@ -8,7 +8,7 @@ Search Console "position" is the average topmost position of the site's result a
 
 - Rows: queries with average position from 8.0 to 20.0 inclusive.
 - Minimum volume: at least 100 impressions in the export period. If the property has more than 1,000,000 impressions in the period, raise the minimum to 1,000.
-- Sort by impressions, descending.
+- Sort the screening table by impressions, descending. Choose recommended work by the business goal, retaining useful near misses; a screen pass is not a business-priority verdict. Consider commercially relevant queries present only in query-by-page data separately, without treating page-level averages as a property-level query position.
 - Output: query, position, impressions, clicks, CTR, and the landing page if the export has it.
 - Meaning: pages that already rank near the first page, where on-page work and internal links tend to pay off first.
 
@@ -35,7 +35,7 @@ Search Console "position" is the average topmost position of the site's result a
 
 - Needs two periods of equal length. Prefer the same period a year earlier to avoid seasonality; otherwise the immediately preceding period, and say seasonality is not controlled.
 - Flag rows where clicks in the previous period were at least 50 and fell by 30% or more.
-- Compare clicks, not impressions, if either period touches a reporting anomaly.
+- Compare clicks, not impressions, if either period touches a reporting anomaly that affects impressions but not clicks (`data-anomalies.md`).
 
 ## 5. Traffic-drop diagnosis (heuristic mapping)
 
@@ -101,4 +101,4 @@ Always split by search type, country and device before calling a drop site-wide.
 
 - Core Web Vitals "good" thresholds at the 75th percentile of field data (web.dev): Largest Contentful Paint at most 2.5 s, Interaction to Next Paint at most 200 ms, Cumulative Layout Shift at most 0.1.
 - Use field data (Search Console Core Web Vitals report, CrUX, the field section of PageSpeed Insights) for verdicts.
-- Lab results (Lighthouse) are for debugging only. Report lab issues as things to investigate, not as ranking problems.
+- Lab results (Lighthouse) are for debugging only. Interpret supplied LCP as loading, CLS as layout stability and TBT as blocking work; TBT is not INP. Label any diagnostic severity as belonging to that lab run, not a field CWV verdict or a cause of non-indexing. If field data is insufficient, say CWV is unknown and name PageSpeed Insights field data, CrUX or Search Console Core Web Vitals as the next evidence, including field INP. Put a necessary rendering check beside the affected page using URL Inspection’s crawled/live rendered view. For an indexing fix, assess later indexed status and impressions after recrawl, and the stated business outcome, without promising a date.

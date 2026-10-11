@@ -80,7 +80,7 @@ Anything that removes important pages from the index, or makes them return error
 
 ## Step 6. Report
 
-Use the user’s requested shape. For a sample audit, lead with the first fix and realistic priorities within the stated capacity, then account for the supplied pages or templates with concise evidence and actions. Do not duplicate those actions in a second findings section. `references/report-template.md` is optional for a full report. Add scope, assumptions, missing checks or ticket offers only when needed for this request.
+Use the user’s requested shape. For a sample audit, lead with the first fix, then account for every supplied page or template with concise evidence and its action. Quote a repeated directive once and name every affected sampled URL; a shared-template cause remains a hypothesis until its source is inspected. If capacity is supplied, finish with a short proposed sequence: name the responsible role, preserve supplied effort, and distinguish priority work from work only if time remains. Unknown implementation effort stays unknown; an allocation is not a promise that everything fits. Make Search Console inspection and recrawl requests conditional on access. Give each action once. `references/report-template.md` is optional for a full report. Add scope, assumptions, missing checks or ticket offers only when needed for this request.
 
 No promises about rankings or traffic: describe the mechanism and the metric to watch.
 

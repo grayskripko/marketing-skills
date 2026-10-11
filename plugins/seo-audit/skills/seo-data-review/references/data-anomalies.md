@@ -6,7 +6,7 @@ https://support.google.com/webmasters/answer/6211453 (Search Console Help, "Data
 ## How to use this list
 
 - If supplied dates overlap a documented anomaly affecting the conclusion, cite its source beside that conclusion and distinguish external documented context from the supplied numbers. Do not infer the anomaly’s size or assume it explains the entire change. If dates are unknown, mention that only when it affects the requested trend assessment.
-- Do not compare the affected metric across the boundary. Compare an unaffected metric instead (usually clicks).
+- Do not compare the affected metric across the boundary; compare an unaffected metric instead (usually clicks). Keep the supplied arithmetic as reported; the anomaly does not by itself explain the whole change.
 - Do not "correct" the data by guessing. Say what is unreliable and what is still usable.
 
 ## Entries
