@@ -4,7 +4,7 @@ Verdict per row: PASS, FIX, CHECK (cannot tell from what was given) or not appli
 
 | Id | Check | Source |
 |---|---|---|
-| FL-01 | Buying or signing up does not require creating an account first; a guest path or account creation after the order exists | Baymard reasons list (account required: 18% of US shoppers who abandoned, "just browsing" excluded), updated 2025-09-22 |
+| FL-01 | For checkout where identity is unnecessary before purchase, a guest path or account creation after the order exists. For account signup or authenticated services, assess avoidable identity burden and verification timing against stated security, entitlement and workflow needs; account creation itself is not a defect | Baymard reasons list (account required: 18% of US shoppers who abandoned, "just browsing" excluded), updated 2025-09-22 |
 | FL-02 | The total cost, shipping, taxes and fees included, is shown before the payment step | Baymard reasons: extra costs 40%; total not visible up front 12% |
 | FL-03 | The number of steps is shown and progress is visible | heuristic of this plugin |
 | FL-04 | Labels sit outside the fields; no placeholder-only labels | NN/g, Whitenton, "Website Forms Usability: Top 10 Recommendations", 2016-05-01; NN/g, "Placeholders in Form Fields Are Harmful", 2014-05-11, reviewed 2018-09-10; WCAG 2.2 SC 3.3.2 (A) |

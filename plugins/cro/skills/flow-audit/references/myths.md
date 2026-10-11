@@ -1,6 +1,6 @@
 # Common claims and what the evidence says
 
-Answer briefly from this file when the user raises one of these.
+Use this table as conceptual guidance when the user raises a claim; do not quote its agent commands or skill references as reply text. Perform applicable checks internally. Calculate sample size only when the baseline, worthwhile change and design inputs are available; otherwise ask for the missing inputs. Explain reference requirements without naming internal skills.
 
 | Claim | Short answer |
 |---|---|

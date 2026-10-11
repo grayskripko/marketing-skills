@@ -1,6 +1,6 @@
 # Fix now, A/B test or research first
 
-For fixes included in the requested answer, choose one decision; this reference does not require fix cards or additional answer sections. Follow the requested format. A reversible hierarchy change that follows an explicit primary goal, or simplification of a short form with no material workflow dependency, can be recommended without a research gate or promised uplift. Estimate effort only from implementation evidence. Include research, example-lift sizing and “not now” items only when requested or decision-changing.
+For fixes included in the requested answer, choose one decision; this reference does not require fix cards or additional answer sections. A reversible hierarchy change that follows an explicit primary goal, or simplification of a short form with no material workflow dependency, can be recommended without a research gate or promised uplift. Estimate effort only from implementation evidence. Include research, example-lift sizing and “not now” items only when requested or decision-changing.
 
 ## Fix now
 
@@ -21,7 +21,7 @@ Only for a change whose effect is uncertain and only when the test can finish: t
 
 For Assumed findings, or a leak with no visible cause. Name one method:
 - a one-question poll on that step ("What, if anything, is stopping you from …?"), read as themes, not percentages, below about 100 answers (heuristic);
-- session recordings filtered to that step, where your visitors' consent allows recording;
+- recommend that the user review recordings filtered to that step only where the user's visitors have consented; do not access, collect or process visitor-level recordings under this skill;
 - a task-based usability round with about five people per user group: it finds problems, it does not measure conversion (Jakob Nielsen, NN/g, 2000-03-18, https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/, read 2026-10-03; numbers about rates need far larger samples);
 - for a checkout or form step: the errors the server logged at that step, counted by type.
 
