@@ -1,6 +1,6 @@
 # Complaint types
 
-Default: each complaint-coded item gets 1 primary fix type. Use an issue-level type for each explicit distinct complaint when a supplied item needs materially different fixes; retain one record id and state item-level or issue-level classification used.
+Every complaint-coded item also gets one type. The type says what kind of fix it needs.
 
 | Type | Test | Usual owner |
 |---|---|---|
@@ -11,4 +11,4 @@ Default: each complaint-coded item gets 1 primary fix type. Use an issue-level t
 | price | the cost is the complaint, with or without value named | pricing, packaging |
 | service | slow, missing or unhelpful support or account handling | support, customer success |
 
-Default: when the same issue fits 2 types, choose the type its fix depends on and note the other. Use separate issue/type pairs when the text describes distinct failures requiring different fixes; state that issue-level coding was used.
+When one item fits two types, pick the one the fix depends on and note the other.

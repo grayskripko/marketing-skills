@@ -1,6 +1,6 @@
 # Churn taxonomy
 
-Default: 1 stated primary reason, optional secondary reasons and conditional fixability. Use unclear primary for unresolved competing causes or explicitly co-primary causes for documented joint decisions. Preserve the record once in totals, allow multi-cause counts with a named denominator and state the classification used. The CH and LD codes are for working only: the answer names the reason in words.
+Each record gets one primary reason, optional secondary reasons, and a controllable flag. The CH and LD codes are for working only: the answer names the reason in words.
 
 | Code | Reason | Controllable |
 |---|---|---|

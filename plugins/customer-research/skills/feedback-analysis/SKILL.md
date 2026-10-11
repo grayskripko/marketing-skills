@@ -17,7 +17,7 @@ For batches of short items. Never fetches reviews from websites.
 6. Personal data: use only what the user provides and ask for no personal detail the task does not need. In all output, a person's name becomes [NAME: role] or the source id; emails, phone numbers, addresses and handles become [CONTACT]; a customer's company becomes [COMPANY: industry, size band, region]; health, religion, politics, ethnicity and other special-category details become [SENSITIVE] and are never analysed. Account ids the user supplies stay as given. Ids are pseudonyms, not anonymisation. When asking the user to supply more material that may contain personal data, add: "Reminder: remove personal data you do not need before pasting." Do not append it to completed analysis when no more material is requested. Details: `references/redaction.md`.
 7. Counts: if the host has a code or spreadsheet tool, compute them with it. Otherwise count by hand and recount before writing the answer. The answer never says how counts were made.
 8. Stay inside the request: write no files unless asked, change no settings, never ask for credentials.
-9. Default: ask at most 3 necessary unsolicited clarification questions after analysing supplied material. Use fewer when the answer is already supported; exceed 3 only when additional unresolved facts prevent a correct requested decision, bundling related fields into one focused request and explaining the blocking gap. Requested interview questions have no such cap.
+9. If the material is already in the request, do the work first. Ask at most three unsolicited clarification questions, only when needed. This cap does not apply to interview guides or research questions the user requested; place those within the requested deliverable.
 10. Network: fetch nothing and run no web search. Work only on text and files the user pastes or attaches. Store nothing. A code or spreadsheet tool of the host may be used to count.
 11. Scope: customer research only. No research on employees or job candidates, no profile of a named person, no churn scores or predictions. "Exit" always means a customer leaving.
 
@@ -27,7 +27,7 @@ For batches of short items. Never fetches reviews from websites.
 - If the user asked what to do or investigate next, put that right after the answer, tied to ids.
 - Weave evidence into the requested deliverable. Perform checks before answering; print only a limitation that changes how the user should interpret or act on the answer, beside the relevant claim. Do not add a generic checklist or caveat block.
 - Consider every supplied fact (dates, tenure, usage, plan, segment, tools). Preserve decision-relevant facts accurately; do not repeat the input or add unrelated sections merely to mention every field. Never contradict or silently override a supplied fact.
-- Default: at most 1 placeholder for a missing fact, naming the gap. Use separately named missing fields when the user requests a fixed template with several required fields absent from the input; do not invent values. State that the supplied template’s missing fields were retained. Redaction tokens are not placeholders.
+- No placeholders such as [insert name] for a fact the user gave. At most one placeholder, for a fact the user did not give, and say which fact is missing. Redaction tokens are not placeholders.
 - Plain words. No internal codes ("price", not "CH1"; "leading question", not "QR2") and no bare method labels; explain a method term the first time it appears. The only codes the user sees are ids such as S01, S03-Q07, F014 and C02, because they trace the evidence. The answer talks only about the user's case: no self-check tallies ("0 and 0 failures"), no word on how counts were made, no "rule of thumb of this plugin". Anything inferred rather than said or recorded (a plan type, "fixable", daily use, who is satisfied) is marked as inference in the same sentence ("probably fixable, if the workaround fails"), never stated as fact.
 - Use a table when requested or when it makes the requested comparison easier to use; otherwise use concise prose. Leave out zero-count rows, empty sections and columns the input does not supply (no Date column when no dates were given).
 - Length follows the requested deliverable and the evidence needed to support it. A long input does not require a full report; use a full layout only when the user requests it.
@@ -37,12 +37,12 @@ For batches of short items. Never fetches reviews from websites.
 | The user brings | Skill |
 |---|---|
 | A research goal with no customer data, or a draft interview guide | interview-guide |
-| Default: 2 or more interviews for cross-source synthesis; use a single-source observation summary when only 1 transcript is supplied, label every finding single-source and Thin, and say single-source mode was used | interview-synthesis |
+| 2 or more interview transcripts or call notes | interview-synthesis |
 | Many short items: reviews, support tickets, open survey answers, score comments | feedback-analysis |
 | Customer subscription cancellations, exit-survey answers, churn-interview notes (lost-deal notes too, kept separate) | churn-analysis |
 | "Who is our ideal customer", "what job do we do", persona requests, with findings or a list of top customers | icp-profile |
 
-Tie-breaks: keep churn and lost-deal analysis separate and keep source types and denominators separate. Default: an ideal-customer request without evidence gets a short data request or at most 5 Assumption lines and an interview-guide offer. Use the user’s requested field count when they explicitly request a complete hypothetical profile; mark every unsupported field Assumption and state the requested-template exception was used. Never turn assumptions into customer findings.
+Tie-breaks: churn interviews go to churn-analysis. For mixed interviews and short items, combine the relevant methods within the requested answer. Keep counts and denominators separate by source type and segment; do not treat tickets as interviews or sum them into unique people/accounts unless overlap is known. An ideal-customer request with no evidence gets a short request for data, or at most five Assumption lines, and the offer of an interview guide.
 
 Not this plugin: brand voice or writing style; marketing copy, pages or emails; outreach or prospecting; content planning; search or site audits; market sizing; failed-payment recovery, cancel-flow design, retention offers and win-back plans; funnel or checkout drop-off counts.
 
@@ -52,7 +52,7 @@ Give each item an id (F001…). Note which columns exist: rating, date, plan, se
 
 ## Step 2. Frame and coding
 
-Default: read about 30 usable independent items, or all when fewer, to draft the coding frame; allow up to 3 issue codes per item and expand/recode when unmatched "other" exceeds 10% of usable items. Use a stratified initial sample that includes every supplied channel/plan/segment relevant to the decision, expanding beyond 30 when 30 cannot cover those strata. Use more than 3 codes only when an item explicitly describes more than 3 distinct issues; count it once per theme. Add a code below the 10% trigger when unmatched items share a materially distinct issue whose documented consequences affect the requested decision. State initial sample size, code-cap exceptions, and the reason for any early recoding; verify all usable items with the final frame. If other exceeds 10% but contains no coherent new issue, retain it with its count and heterogeneity; do not invent a code to satisfy the threshold. Review even one unmatched distinct consequential issue below 10% when it affects the requested decision.
+Read about 30 items (all of them if fewer) and draft only the codes needed to distinguish the supplied issues. Code every item, up to 3 codes each. Items that fit no code go to "other"; if "other" passes 10% of items, add a code and recode. Each complaint also gets one type: bug (does not work as designed), confusion (works, but they could not find or understand it), missing capability, expectation mismatch (works as designed, not as promised), price, or service. Details: `references/coding-frame.md`.
 
 ## Step 3. Output
 

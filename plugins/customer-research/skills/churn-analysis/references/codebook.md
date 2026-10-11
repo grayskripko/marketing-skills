@@ -19,4 +19,4 @@ This file is identical in every skill that uses it. Start from these codes; add 
 Rules:
 - One excerpt can carry more than one code.
 - Codes describe what the excerpt says, not what you think the person meant. Interpretation goes into themes, with ids.
-- Default: prompted-only support counts 0.5 and unprompted support 1 per independent source/theme. Use 0 for bare assent without customer detail, retaining the raw count. Merge demonstrably repeated participants/accounts. When prompting cannot be assessed, retain an unknown weight and use the range rule in `evidence-rules.md`; never equate missing wording with zero support. Show affected counts and the reason for the exception.
+- An excerpt that only answers the interviewer's leading or hypothetical question is marked "prompted" and counts half (see `evidence-rules.md`).

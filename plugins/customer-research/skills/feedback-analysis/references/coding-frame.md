@@ -4,9 +4,9 @@ Use for reviews, support tickets, open survey answers and score comments the use
 
 ## Build the frame
 
-1. Default: read about 30 usable independent items, all if fewer. Use a stratified sample across supplied decision-relevant channels, plans and segments; increase beyond 30 if needed to cover them. State sample size and coverage used. Code all usable items after defining the frame.
-2. Define the frame before coding everything: code, a default one-line definition and 1 example id. Use a longer definition plus supporting and contrasting example ids when the supplied items reveal an ambiguous boundary that changes counts; state that boundary. Print it only when requested or needed to resolve category ambiguity.
-3. Default: up to 3 issue codes per item and expand/recode when unmatched other >10% of usable items. Use all explicit distinct issues when an item contains more than 3; count that item once per theme. Expand below 10% when unmatched records share a distinct issue with documented consequences material to the decision. State code-cap exceptions and recoding trigger used; recode all usable items with the final frame. If other exceeds 10% but contains no coherent new issue, retain it with its count and heterogeneity; do not invent a code to satisfy the threshold. Review even one unmatched distinct consequential issue below 10% when it affects the requested decision.
+1. Read a sample of about 30 items (all of them if fewer). Draft only the codes needed to distinguish the supplied issues.
+2. Define the frame before coding everything: code, one-line definition, one example id. Print it only when requested or needed to resolve category ambiguity.
+3. Code every item. An item may carry up to 3 codes. Items that fit no code go to "other"; if "other" passes 10% of items, add a code and recode.
 
 ## Output components
 
