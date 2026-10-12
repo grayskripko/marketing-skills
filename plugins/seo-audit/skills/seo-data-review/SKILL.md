@@ -42,7 +42,7 @@ Check `references/data-anomalies.md` for date overlap before interpreting a tren
 Default thresholds (heuristics; the user may change them). Details and the other procedures: `references/thresholds.md`.
 
 - **Striking distance:** select and disclose parameters using references/thresholds.md, section 1; retain its position and volume values as starting screening defaults, and adapt to period, segment, evidence and business value.
-- **CTR outliers:** rows with at least 200 impressions whose CTR is below half the median CTR of their position band (1.0-3.0, above 3.0-7.0, above 7.0-10.0, above 10.0-20.0). A band with one row cannot flag anything. If the user names the brand, leave branded queries out of the bands. A low CTR is a reason to look at the results page, not proof the title is bad.
+- **CTR outliers:** to compare similar queries directly, use the peer CTR comparison in references/thresholds.md, including low-volume rows with their denominators. The fallback threshold screen is rows with at least 200 impressions whose CTR is below half the median CTR of their position band (1.0-3.0, above 3.0-7.0, above 7.0-10.0, above 10.0-20.0). A band with one row cannot flag anything. If the user names the brand, leave branded queries out of the bands. A low CTR is a reason to look at the results page, not proof the title is bad.
 - **Cannibalization:** queries with at least 50 impressions where two or more URLs each hold at least 20% of the clicks (impressions if the query has fewer than 10 clicks).
 - **Losing pages or queries:** two periods of equal length; at least 50 clicks before and a fall of 30% or more.
 

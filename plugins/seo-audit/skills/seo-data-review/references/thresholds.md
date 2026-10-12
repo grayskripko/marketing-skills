@@ -2,18 +2,20 @@
 
 The numbers below are written down so that results can be checked: numeric screening calculations are shown row by row before the flag lists. For a few named URLs with simple zero-impression or status findings, show the values, period and affected count beside their evidence and actions instead of a duplicate screening table. Numbers taken from a primary source name it. Everything else is labeled **heuristic**: a reasonable default chosen for reproducibility, which the user may override. In the answer, label the defaults once as screening heuristics, show relevant cutoffs with the requested calculations and respect user overrides. Distinguish eligibility under this screen from business priority; retain useful near misses.
 
-Search Console "position" is the average topmost position of the site's result across impressions. Treat it as an average, not a rank.
+Search Console "position" is the average topmost position of the site's result across impressions. Treat it as an average, not a rank. When several URLs of the site appear in one result, data grouped by page counts an impression for each URL, while data grouped by property counts one. Summed query-by-page impressions are page-row exposure, not unique query impressions for the site, and weighting page positions does not recover the site's topmost position. The Search Analytics API cannot aggregate by property when grouped or filtered by page (checked 2026-10-12: https://support.google.com/webmasters/answer/7042828, https://developers.google.com/webmaster-tools/v1/searchanalytics/query).
 
 ## 1. Striking-distance queries (heuristic)
 
 - Rows: queries with average position from 8.0 to 20.0 inclusive.
 - Select and disclose the minimum volume using period length, relevant segment, evidence sufficiency and business value. The reproducible starting default is 100 impressions; the legacy large-property screen uses 1,000 above 1,000,000 property impressions, but use that only with a stated rationale. A one-impression boundary does not establish a meaningful difference in opportunity.
 - Sort the screening table by impressions, descending. Choose recommended work by the business goal, retaining useful near misses; a screen pass is not a business-priority verdict. Consider commercially relevant queries present only in query-by-page data separately, without treating page-level averages as a property-level query position.
-- Output: query, position, impressions, clicks, CTR, and the landing page if the export has it.
+- Output for a broad review: query, position, impressions, clicks, CTR, and the landing page if the export has it. When the user only asks which opportunities to pick, show query, position, impressions, the screen result and business relevance, without CTR tables or page-audit advice. Keep relevant queries that appear only in page-level rows as separate evidence; do not sum page rows into a property-level pass.
 - Meaning: pages that already rank near the first page, where on-page work and internal links tend to pay off first.
 
 ## 2. CTR outliers by position band (heuristic)
 
+- Direct comparison of similar searches: take nonbrand peers that match device, country, period, search type, intent and reasonably close position. Show each row's CTR next to the other peers' pooled CTR, `sum(peer clicks) / sum(peer impressions)`, and the relative shortfall `1 - row CTR / peer CTR`. Keep low-volume rows in this comparison with their denominators visible. The result is a descriptive difference, not proof of equal exposure or of a weak title. Search Console defines CTR as clicks divided by impressions and position as an average (checked 2026-10-12: https://support.google.com/webmasters/answer/7042828).
+- The band screen below is the fallback when a threshold screen is asked for or no comparable peers exist. A row below its minimum stays visible in the direct comparison, so the screen alone cannot support a claim that only one query is weak.
 - Bands by average position, so that every value falls in exactly one band: 1.0 to 3.0; above 3.0 to 7.0; above 7.0 to 10.0; above 10.0 to 20.0. Rows above 20.0 are out of scope.
 - Only rows with at least 200 impressions.
 - Compute the median CTR of the user's own rows in each band.
