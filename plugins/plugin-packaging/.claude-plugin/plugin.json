@@ -18,5 +18,7 @@
     "missing skills",
     "broken references"
   ],
-  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-plugin-packaging/plugins/plugin-packaging/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-plugin-packaging/plugins/plugin-packaging/README.md"
 }
