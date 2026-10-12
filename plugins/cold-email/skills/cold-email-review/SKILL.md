@@ -55,7 +55,7 @@ Before changing a word, note for yourself every number, date, name, product clai
 
 ## Step 4. Rewrite
 
-Fix by material impact using the priority above. Keep one clear primary next step with effort appropriate to the recipient context and the user's objective; a brief permission ask is a default, while a justified routing question or meeting request is allowed. End with the footer of rule 8. Patterns to remove: `references/stock-phrasing-cold.md` and `references/wrong-practices.md`.
+Fix by material impact using the priority above. Keep one clear primary next step with effort appropriate to the recipient context and the user's objective; a brief permission ask is a default, while a justified routing question or meeting request is allowed. For a simple final reminder, keep one short offer question and a brief closure; do not restate the mechanism unless needed to identify the offer. Omit a new subject for an explicitly same-thread follow-up unless requested. End with the footer of rule 8. Patterns to remove: `references/stock-phrasing-cold.md` and `references/wrong-practices.md`.
 
 Example. Original: "Subject: Re: our chat. Hi Alex, LedgerLoop is a revolutionary platform that cuts invoice chasing 40%. Book a 30-minute call or check our deck." The user said: never spoke to Alex; the 40% is one documented pilot that went from 5 hours to 3 a week; the sender is Sam at LedgerLoop; the ask is a sample reminder, not a meeting. Rewrite:
 
@@ -74,6 +74,6 @@ How LedgerLoop produces the saving is missing; ask about it only if it would mat
 
 ## Step 5. Output, in this order
 
-Return the rewrite first, unless the user requested another order. Add brief before → after reasons only when requested or needed to explain a substantive cut. If the user requests a full score, show every applicable criterion with evidence and sum those displayed values; state exclusions and the applicable maximum. Otherwise keep scores internal. Footer criteria count only requirements applicable to the supplied recipient context; unknown applicability is a verification question, not an invented penalty. Ask at most three questions, only about gaps that materially change the rewrite. Label any requested score as a score of the original draft; scores describe checklist coverage, not predicted replies.
+Return the rewrite first, unless the user requested another order. Add brief before → after reasons only when requested or needed to explain a substantive cut. If the user requests a full score, show every applicable criterion with evidence; if they explicitly request line-by-line scoring, use that unit, define its editorial scale, and cover every original line. Sum the displayed values before printing the total, using the code tool when available or a second manual addition; state exclusions and the applicable maximum. Otherwise keep scores internal. Footer criteria count only requirements applicable to the supplied recipient context; unknown applicability is a verification question, not an invented penalty. Ask at most three questions, only about gaps that materially change the rewrite. Label any requested score as a score of the original draft; scores describe checklist coverage, not predicted replies.
 
 End there. Name cold-email-write or cold-email-check in one line only if the user asked for more emails or said they are about to send.
