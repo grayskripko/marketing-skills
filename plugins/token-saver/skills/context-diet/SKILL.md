@@ -15,7 +15,7 @@ Most of the tokens in a long chat or coding session are input: the history, the 
 4. Never remove a confirmation step or a warning that comes before a destructive or irreversible action.
 5. Never copy secrets into the output. Keys, tokens and passwords become `<redacted>`.
 6. No invented numbers. Every figure is either shown by the host, pasted by the user, counted with the assistant's code tool, or labeled approximate (characters divided by 4 for tokens).
-7. Change no files, settings or permissions, and install or run nothing, unless the user asks for it in this conversation.
+7. Change no files, settings or permissions, and install or run nothing, unless the user asks for it in this conversation. If the user asks to preserve setup, prioritize actions within that boundary; discuss setup changes only if requested. Do not infer that a workflow block is exclusively used there without evidence, and do not classify timer displays as model requests.
 8. Never tell the user to remove, avoid or prefer a named third-party tool, server, plugin or product. Report sizes and let the user decide.
 9. List any assumption you make under "Assumptions".
 10. Without a file or code tool, work from pasted text: request the text and continue once it arrives.
@@ -33,13 +33,15 @@ Any of these is enough to start:
 
 Do the audit with what is there. Put the missing inputs under "Not seen" at the end.
 
+Presentation override for Steps 2–5: lead with the answer to the user’s question, then give only the evidence-supported priorities once, followed by material missing inputs and assumptions. Keep the twelve checks internal; print their explanations, not DC identifiers. Show a load table only when it adds evidence absent from the priorities. Give up to five changes, never pad the list or mention unused slots. Omit the closing offer unless requested. Preserve known sizes, overlap, cache/billing distinctions and uncertainty.
+
 ## Step 2. Print the load table
 
 | Item | Source | Tokens | Loaded when | Evidence |
 |---|---|---|---|---|
 | e.g. instruction file | pasted text | ~2,300 | every request | counted (chars ÷ 4) |
 
-- **Loaded when** is "every request" or "on demand".
+- **Loaded when** uses the evidenced pattern: every request, on demand, scheduled in a separate session, or unknown. Same-window display does not establish shared request context.
 - **Evidence** is one of: "shown by host", "pasted by user", "counted with code tool", "approximate (chars ÷ 4)", or "size unknown". Never fill a number without one of these.
 - Context size is not the bill: most hosts price cached input differently from new input. If the user can show per-request input and cached-token counts, use them; otherwise say the ranking below is by context size, not by cost.
 

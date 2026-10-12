@@ -29,7 +29,7 @@ Network scope: this plugin fetches nothing and sends nothing. It works only on t
 
 ## Step 2. Rule ledger
 
-List every instruction or constraint as R1, R2, … with where it is in the original (section or line). A rule is anything that changes what the assistant should do: a must, a never, a preference, a default, a format, a path, a command.
+Inventory every instruction or constraint as R1, R2, … with its original location and applicability. Include domain and fictional/synthetic scope from headings or introductory text, as well as musts, nevers, preferences, defaults, formats, paths and commands. Preserve each scope in the trimmed text and requirement check.
 
 Examples are not rules. List each example under the rule it illustrates. Code an extra example T3 when the rule is already clear or already has one example.
 
@@ -52,7 +52,7 @@ Codes from `references/trim-codes.md`:
 
 Print the full trimmed text, ready to paste.
 
-If the file is under 300 words, print the ledger one line per rule and group all T2 filler into one change-table row.
+Keep the ledger, change table and zero-loss/count checks internal by default; this overrides the printing requirements in Steps 2, 3 and 5. Print the paste-ready text, genuine conflicts and requested on-demand suggestions. Print a ledger or change table when requested, with each rule’s applicability explicit; print counts only when requested and measured or clearly labeled approximate. If a requirement check is requested, give a concise check that includes contextual scope. Omit empty status fields and unspecified loading claims.
 
 ## Step 5. Counts and the zero-loss check
 

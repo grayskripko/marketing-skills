@@ -31,17 +31,9 @@ There is no shorter level in this version. If the user asks for "as short as pos
 
 `references/levels.md` shows one answer written at both levels.
 
-## Step 2. Print the banner once
+## Step 2. Answer directly
 
-When the mode starts, print exactly three lines:
-
-```
-Terse mode: L1 (or L2). Say "L1", "L2" or "normal" to switch or stop.
-Never cut: code, commands, paths, numbers, exact errors, warnings, confirmations, order of steps.
-Longer when needed: if a short answer would be wrong or unsafe, I will say so and give the full one.
-```
-
-Then answer the user's current request at the chosen level.
+Choose L1 or L2 internally and answer the current request. This overrides Step 1’s instruction to announce L2: print no banner, switching commands or never-cut list unless the user asks about the mode. Keep the required warnings and confirmations in the answer.
 
 ## Step 3. Answer every following turn at that level
 
