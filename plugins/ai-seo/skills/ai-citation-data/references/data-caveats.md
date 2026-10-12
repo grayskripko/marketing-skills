@@ -8,7 +8,7 @@ Use only limitations material to the requested decision, next to the affected cl
 - Citation counts show how often pages are referenced, not where they appear inside an answer or how important they are. Grounding queries are a sample. Source: Bing Webmaster blog, "Introducing AI Performance in Bing Webmaster Tools Public Preview" (2026-02-10).
 - Intents and topics come from machine classification in preview; labels can be broad, especially for niche sites (same June 2026 post).
 - The report covers Microsoft Copilot, AI summaries in Bing and some partner integrations, not every AI engine.
-- Shares for grounding queries that contain the brand name, or that are navigational, are expected to be high; they are set aside before comparing pages (see `prioritization.md`).
+When the user specifies the ranking population, follow it; for an unfiltered count ranking include every supplied row, including branded and navigational rows. The following exclusion applies only to the default discovery analysis or a user-requested discovery filter. - Shares for grounding queries that contain the brand name, or that are navigational, are expected to be high; they are set aside before comparing pages (see `prioritization.md`).
 
 ## Google Search Console
 
