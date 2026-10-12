@@ -1,0 +1,49 @@
+{
+  "name": "agent-debugging",
+  "version": "0.1.1",
+  "description": "Debug a failed AI agent run from traces, logs, configuration, transcripts and output files; find the supported fault and get a repair or reproducible escalation. Diagnose an agent stuck in a loop, wrong tool calls, unsupported answers, runtime failures and falsely claimed completion. Prepare or apply authorized local repairs through existing host tools, then check the actual task outcome from artifacts and receipts.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-debugging",
+    "debug-ai-agent",
+    "failed-agent-run",
+    "agent-stuck",
+    "wrong-tool-calls",
+    "tool-call-failure",
+    "agent-trace",
+    "claude-code",
+    "codex",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Debugging",
+    "shortDescription": "Debug a failed AI agent run",
+    "longDescription": "Debug a failed AI agent run from traces, logs, configuration, transcripts and output files; find the supported fault and get a repair or reproducible escalation. Diagnose an agent stuck in a loop, wrong tool calls, unsupported answers, runtime failures and falsely claimed completion. Prepare or apply authorized local repairs through existing host tools, then check the actual task outcome from artifacts and receipts.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#183D4A",
+    "brandColorDark": "#8BD5C5",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Debug this failed agent run from the logs and output file.",
+      "Show the smallest local repair for this supported failure.",
+      "Check whether this agent fix actually completed my task."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-debugging/plugins/agent-debugging/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "pl-agent-debugging",
+  "description": "Debug a failed AI agent run from traces, logs, configuration, transcripts and output files; find the supported fault and get a repair or reproducible escalation. Diagnose an agent stuck in a loop, wrong tool calls, unsupported answers, runtime failures and falsely claimed completion. Prepare or apply authorized local repairs through existing host tools, then check the actual task outcome from artifacts and receipts.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "agent-debugging",
+      "source": "./plugins/agent-debugging",
+      "description": "Debug a failed AI agent run from traces, logs, configuration, transcripts and output files; find the supported fault and get a repair or reproducible escalation. Diagnose an agent stuck in a loop, wrong tool calls, unsupported answers, runtime failures and falsely claimed completion. Prepare or apply authorized local repairs through existing host tools, then check the actual task outcome from artifacts and receipts."
+    }
+  ]
+}
