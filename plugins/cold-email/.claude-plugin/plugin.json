@@ -1,8 +1,8 @@
 {
   "name": "cold-email",
   "displayName": "Cold Email & Deliverability",
-  "version": "0.1.16",
-  "description": "Draft B2B cold outreach and prospecting emails, plus follow-ups, from your offer and audience; review and rewrite cold emails getting no replies, keeping every number, name and claim. Write prospect opening lines from notes you provide, and check outbound emails before sending using pasted emails, sample rows and sender records. Uses only your facts; never sends email, creates drafts in mail tools, finds addresses or adds contacts.",
+  "version": "0.1.17",
+  "description": "Draft B2B cold outreach and prospecting emails, plus follow-ups, from your offer and audience; review and rewrite cold emails getting no replies, keeping every number, name and claim. Write prospect opening lines from notes you provide, and diagnose why cold emails land in spam, checking outbound emails before sending from pasted emails, sample rows and sender records. Uses only your facts; never sends email, creates drafts in mail tools, finds addresses or adds contacts.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
