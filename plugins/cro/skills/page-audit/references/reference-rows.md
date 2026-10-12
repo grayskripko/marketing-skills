@@ -1,6 +1,6 @@
 # Dated reference rows
 
-Context, never targets (ground rule 5). Each output that uses a row prints its date; re-check any row read more than 6 months before today at its link.
+Context, never targets (ground rule 5). If an output needs a date, identify the stored source publication/update or read date explicitly. Never claim a source was checked today unless it was actually opened and verified in this run. Re-check any row read more than 6 months before today at its link; if that cannot be done, state that verification is unavailable.
 
 | Id | Row | Source | Published or updated | Read |
 |---|---|---|---|---|
