@@ -11,7 +11,7 @@
 | Supplied facts | Enough relevant facts to support the requested copy; no quota | "Sends reminders on a schedule the owner sets"; "Syncs paid invoices to the accounting system"; "212 paying customers" |
 | Proof assets | Optional unless the requested section needs evidence; omit unsupported proof | "Two customer quotes with permission", or "none" |
 | Constraints | optional | Length, words to avoid, legal lines the user must include |
-| Voice profile | optional | From voice-profile |
+| Voice profile | optional | From brand-voice |
 
 Draft when the known product, page purpose and supplied facts support the requested copy without implying unknown material terms. Never turn unknown product facts into assumptions. Omit unsupported statements; mark or briefly note only missing details material to use, fit, price or cancellation. Ask first only when the product or page type is unknown: one short list, most important first.
 

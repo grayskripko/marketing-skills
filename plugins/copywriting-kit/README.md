@@ -14,7 +14,7 @@ Each skill is chosen by what you give it:
 | An existing page (URL or pasted), plus "what's wrong?" | `copy-diagnose`: the requested messaging diagnosis and up to five relevant changes; optional scoring with stated applicability |
 | Copy plus your evidence (notes, data, reviews) | `copy-proof-check`: evidence verdict and supported wording; a comparison when useful for multiple claims |
 | A brief or product facts, no page yet | `page-copy`: requested page draft and material unresolved details; headline alternatives on request |
-| Samples of your own writing | `voice-profile`: practical tone rules, examples, word guidance and qualitative rhythm; metrics and edits on request |
+| Samples of your own writing | `brand-voice`: practical tone rules, examples, word guidance and qualitative rhythm; metrics and edits on request |
 
 ## Examples
 
