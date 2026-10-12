@@ -1,0 +1,15 @@
+{
+  "name": "pl-rag-evaluation",
+  "description": "Evaluate and debug wrong RAG answers, retrieval quality, missing documents and grounded citations from the question, source documents, retrieved passages and response. Use when the right document exists but the agent misses it, an AI knowledge-base answer makes unsupported claims, or a corrected run needs checking. Accept pasted traces, logs, configs, transcripts and files across stacks. Separate ingestion, retrieval, passage delivery and answer failures; return a supported correction and a focused follow-up check. Not for building vector databases, managing durable memory or deploying pipeline changes.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "rag-evaluation",
+      "source": "./plugins/rag-evaluation",
+      "description": "Evaluate and debug wrong RAG answers, retrieval quality, missing documents and grounded citations from the question, source documents, retrieved passages and response. Use when the right document exists but the agent misses it, an AI knowledge-base answer makes unsupported claims, or a corrected run needs checking. Accept pasted traces, logs, configs, transcripts and files across stacks. Separate ingestion, retrieval, passage delivery and answer failures; return a supported correction and a focused follow-up check. Not for building vector databases, managing durable memory or deploying pipeline changes."
+    }
+  ]
+}
