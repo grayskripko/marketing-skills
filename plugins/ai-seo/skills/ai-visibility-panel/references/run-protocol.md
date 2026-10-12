@@ -1,6 +1,6 @@
 # Run protocol
 
-The person running the panel follows these steps each period. All numbers below are heuristics chosen to keep manual work manageable while giving enough runs to see real changes; the user may change them, and the scorecard states the values used.
+The person running the panel follows these steps each period. The numbers below are workload and descriptive-monitoring heuristics chosen to keep manual work manageable; they do not guarantee statistical power. The user may change them, and the scorecard states the values used.
 
 ## Before the first run
 

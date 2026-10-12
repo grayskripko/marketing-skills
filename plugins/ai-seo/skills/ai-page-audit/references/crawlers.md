@@ -10,7 +10,7 @@ Agent names and purposes come from each vendor's own documentation, read on 2026
 | Anthropic | Claude-SearchBot | Search: improves search result quality | Content is not indexed for search, which may reduce visibility in user search results | support.claude.com, "Does Anthropic crawl data from the web, and how can site owners block the crawler?" |
 | Anthropic | Claude-User | User-triggered retrieval when a user asks a question | Content is not retrieved for user queries | same |
 | Anthropic | ClaudeBot | Collecting content that may be used for training | Future content is excluded from training data | same |
-| Perplexity | PerplexityBot | Search: surfaces and links sites in Perplexity answers; not used for training foundation models | The site is not surfaced in Perplexity search results | docs.perplexity.ai/guides/bots |
+| Perplexity | PerplexityBot | Search: surfaces and links sites in Perplexity answers; not used for training foundation models | Restricts PerplexityBot crawling for search; Perplexity recommends allowing this bot for search visibility. Perplexity-User is separate and generally ignores robots.txt | docs.perplexity.ai/guides/bots |
 | Perplexity | Perplexity-User | User-triggered visits when a user asks a question | Perplexity says this fetcher generally ignores robots.txt because the user requested it | same |
 | Google | Googlebot | Crawling for Google Search, including AI Overviews and AI Mode | The page cannot be crawled for Search at all | developers.google.com/search/docs/appearance/ai-features |
 | Google | Google-Extended | A control token, not a separate crawler: use of content for training Gemini models and for grounding in some other Google systems | No effect on Search or its AI features | developers.google.com/search/docs/crawling-indexing/google-common-crawlers |
@@ -18,7 +18,7 @@ Agent names and purposes come from each vendor's own documentation, read on 2026
 
 ## How to judge check 1
 
-- For being cited in answers that search the web, the search agents and user-triggered agents matter. Blocking a training-only agent (GPTBot, ClaudeBot, Google-Extended) does not by itself stop citation in search-based answers; it is a policy choice and may be intentional.
+- For being cited in answers that search the web, the search agents and user-triggered agents matter. GPTBot and ClaudeBot govern potential training collection separately from their vendors' search and user-retrieval agents; blocking them is a policy choice and does not by itself stop citation in search-based answers. Google-Extended governs Gemini training and some Gemini Apps and Vertex AI grounding; it does not govern Google Search, AI Overviews or AI Mode, so a Google-Extended block can matter for Gemini grounding only. Source: https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers (page updated 2026-07-14, reviewed 2026-10-12).
 - To limit what Google shows from a page in Search, including AI features, Google documents `nosnippet`, `data-nosnippet`, `max-snippet` and `noindex`.
 - Read robots.txt group matching carefully: a specific user-agent group replaces the `*` group for that agent.
 - Never advise blocking or unblocking without saying what each change affects, and let the owner decide.

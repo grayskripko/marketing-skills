@@ -20,7 +20,7 @@ When the user specifies the ranking population, follow it; for an unfiltered cou
 ## Google Analytics 4
 
 - The AI Assistant channel counts sessions from referrers on Google's list of AI assistants. Google's channel description says it excludes AI Overviews and AI Mode. Source: Analytics Help, "[GA4] Default channel group".
-- Visits from AI answers that pass no referrer (for example, some app or copied-link visits) land in Direct, so the channel undercounts.
+- Missing referrers can leave AI-origin visits unidentified (for example, some app or copied-link visits), so the AI Assistant channel shows identifiable AI traffic, not all traffic caused by AI answers.
 
 ## General
 

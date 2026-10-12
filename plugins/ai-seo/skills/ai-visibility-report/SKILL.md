@@ -63,11 +63,10 @@ Use an alternative decision boundary only when the user supplies a pre-specified
 
 ## Step 5. Deliver
 
-1. The answer: per engine, one line with the unbranded mention rate in each period (counts and n) and the verdict. If the user only asked whether a change is real, this line and the three conditions are the whole answer.
-2. The three conditions per engine, when the test ran.
-3. The scorecard per engine (unbranded, then branded), never blended across engines; share of voice and stability only when asked.
-4. Lost prompts and the sources cited instead.
-5. Next steps in words: owned pages that should answer lost prompts need a page check; one important query can be compared against pasted answers; third-party sites cited instead go into an off-site plan.
-6. Data problems that affect the verdict (thin groups, mixed settings, skipped rows), then the calculation table.
+1. For a short change or attribution verdict, give one bullet per engine: verdict, before/after mention counts and rates, percentage-point change, and the one supplied condition that determines interpretation. Fixed settings with repeated gains support observed improvement, not causation; one run per prompt leaves repeatability unknown; a search-setting change prevents attribution to site edits. These bullets are the complete deliverable unless another output was requested. For a team-facing attribution question, include one sentence the user can quote instead of an unrelated citation-status note.
+2. For a requested multi-period scorecard, show per engine and period: mentioned runs / valid runs, owned-citation runs / valid runs, distinct prompt IDs with any mention / observed IDs, and IDs mentioned in every repeat / IDs with at least two repeats. Add the analogous prompt-coverage and all-repeat counts for owned citations when supplied. Label the all-repeat measure as consistent presence, distinct from stability, which also counts consistent absence. Keep branded rows separate; share of voice only when requested.
+3. When asked which prompts are consistent, show engine | prompt ID | mentioned runs / runs | consistent yes, consistent no, mixed, or insufficient repeats. Then give the engine-level stability and overall mention rates. A single run is insufficient repeats, never stable or unstable. Omit unrelated citation metrics.
+4. For requested lost prompts, show the IDs and brand/competitor counts using the stated label rule. For requested alternative citation sites, count each host once per answer and, when assessing mention gaps, split those counts between brand-absent and brand-mentioned answers. Do not infer which source supported a mention, or identify competitor-owned domains without supplied ownership evidence.
+5. Show numerical monitoring gates only when that monitoring rule was requested or adopted. Include a data problem beside the verdict it changes; include next steps only when requested.
 
 Layout: `references/scorecard-template.md`. Do not guess why an engine changed; possible causes are assumptions.

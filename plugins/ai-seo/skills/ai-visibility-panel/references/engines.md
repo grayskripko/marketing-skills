@@ -8,9 +8,9 @@ This file lists AI answer surfaces a team commonly measures. It describes what a
 | Perplexity | The answer text with numbered sources | Signed in or out, mode (standard or research), country |
 | Google AI Overviews | The overview above the results, with linked sources, on queries where one appears | Signed in or out, country, device, language |
 | Google AI Mode | A conversational answer with linked sources | Signed in or out, country, device |
-| Gemini (Google) | The answer text; sources when it grounds with search | Signed in or out, model or mode, country |
-| Claude (Anthropic) | The answer text; sources when web search is on | Signed in or out, web search on or off, country |
-| Microsoft Copilot | The answer text with linked sources | Signed in or out, mode, country |
+| Gemini (Google) | Answer text and any sources or related links actually shown; not every response includes links | Account state, model or mode, country, connected sources and observed search use |
+| Claude (Anthropic) | Answer text and citations when web search is used | Account/plan, interface/model, country, search control if available, and whether search was actually used (the new Claude experience has no web-search toggle) |
+| Microsoft Copilot | Answer text and source links when a web-grounded response shows them | Exact Copilot product/surface, account state, mode/model, country and observed web-search use |
 
 ## How to use this list
 

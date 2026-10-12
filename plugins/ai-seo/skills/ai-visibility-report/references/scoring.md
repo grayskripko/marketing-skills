@@ -36,7 +36,7 @@ For uneven allocations, show minimum/range of repetitions and use comparable mat
 
 Use an alternative decision boundary only when the user supplies a pre-specified validated analysis and its sampling assumptions hold for these logs; name the method, boundary and adequacy criterion used. Historical no-intervention drift may be shown as context, but do not automatically replace 10 points with the maximum observed historical change or lower it to make a result pass. Apply this comparison to citation rate only when requested. The monitoring heuristic is neither a statistical significance test nor proof that an intervention caused a change.
 
-Why a rule is needed: AI answers change often. Ahrefs observed AI Overview content changing about every 2.15 days on average, with about 45.5% of cited sources new when it changed (ahrefs.com/blog/ai-overview-change/, published 2025-11-11). A single difference between two small samples is often noise. The thresholds above are heuristics, not statistical tests; say so when reporting.
+Why a rule is needed: AI answers change often. In its November 2025 study, Ahrefs reported average AI Overview persistence of 2.15 days and average cited-URL overlap of 54.5% between consecutive responses, a historical sample, not a refresh schedule (ahrefs.com/blog/ai-overview-change/, published 2025-11-11). A single difference between two small samples is often noise. The thresholds above are heuristics, not statistical tests; say so when reporting.
 
 ## Lost prompts
 

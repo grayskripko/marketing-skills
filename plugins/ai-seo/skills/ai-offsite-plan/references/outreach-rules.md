@@ -14,18 +14,18 @@ These rules keep the off-site plan honest and within the policies of the sites i
 - Write reviews for customers, or offer anything in exchange for a positive review. Any incentive for an honest review must be disclosed and allowed by the platform; if unsure, offer none.
 - Create or use accounts that hide who is behind them, or coordinate posts that look independent.
 - Pay for placements that are not disclosed as paid.
-- Write, ghost-write or directly edit a reference-work article about the user's own organization.
+- Present paid or affiliated reference-work contributions as independent, or bypass the site's declared request/review process.
 - Place hidden text or instructions for AI systems on any page.
 
-## Reference works: the conflict-of-interest route
+## Reference works: use the site's actual route
 
-Large reference works such as Wikipedia strongly discourage people with a conflict of interest from editing articles about themselves or their employer, and paid editors must disclose who pays them. The honest route:
+Apply the supplied site's rules first. A missing notability basis is a reason to defer new or expanded article work, not evidence that every affiliated draft is forbidden.
 
-1. Check notability first: are there several independent, reliable sources about the organization? If not, there is nothing to do there yet; work on independent coverage instead.
-2. If an article exists and is wrong: disclose the affiliation on the article's talk page and propose the correction there, with independent sources, or use the site's edit-request process.
-3. If no article exists: do not create one. Independent coverage comes first.
+1. New or expanded article: identify the independent reporting required by that site. If none is supplied, defer this route and identify the missing evidence.
+2. Existing factual error: disclose affiliation and propose the correction through the allowed talk-page or edit-request process. Use proof that the site accepts for the particular fact; do not require independent reporting for every routine correction unless its rules require it.
+3. When the source is actually Wikipedia, distinguish its discouragement of direct conflict-of-interest editing from its disclosed talk-page and Articles for Creation routes. Paid contributors must disclose the employer, client and affiliation. Do not transfer Wikipedia-specific rules to another named site.
 
-Source: Wikipedia, "Conflict of interest" guideline (read 2026-09-29).
+Source: Wikipedia, "Conflict of interest" guideline, https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest (reviewed 2026-10-12); use the live or supplied policy for the site being discussed.
 
 ## Communities
 
