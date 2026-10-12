@@ -1,5 +1,5 @@
 ---
-name: ai-crawler-access
+name: llms-txt-crawler-access
 description: "Generate or check an llms.txt file, check AI crawler access, and review robots.txt rules or pasted server logs for ChatGPT, Perplexity, Claude and Google AI search. Use for an llms.txt generator, validator or checker request, allowing AI search crawlers while limiting training crawlers, or diagnosing why an AI bot is blocked. Returns a Markdown draft, a review of supplied evidence, or exact proposed Before→After text. Contains no code; does not edit files, change settings or query AI engines."
 ---
 
