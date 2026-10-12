@@ -1,6 +1,6 @@
 {
   "name": "marketing-ideas",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Helps a small team decide which marketing ideas deserve money, and whether a test worked. Describe your product and it suggests one main bet and two cheap tests, dropping ideas that break disclosure or platform rules; paste your own list and it ranks it. For one idea, such as a sponsorship or a booth, it works out the most you can pay per customer and per click and whether a quoted price fits. It sets pass and stop lines before a test and reads the results afterwards, showing each rate with its 95% range. Every number is yours or a labelled assumption.",
   "author": {
     "name": "Sergey Skripko",
@@ -26,7 +26,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Marketing Ideas Kit",
+    "displayName": "Marketing Ideas & Growth Experiments Kit",
     "shortDescription": "Ideas gated on payback",
     "longDescription": "Five skills for deciding which marketing ideas deserve money and how to tell whether they worked. Idea shortlist reads a product description and the assets the team already has, writes one concrete idea per kind of channel, each with where buyers come from and what turns them into customers, drops ideas that are incomplete, break review, endorsement, email or platform rules, or fail on a cost you gave, and returns one main bet and two cheap tests. Idea ranking does the same for your own list, setting product features and content topics aside. Idea payback check takes one idea, such as a sponsorship, a booth or a launch day, and works out the most you can pay per customer, signup, click and person reached, whether a quoted cost breaks even, the likeliest ways it could fail and the cheapest test. Idea test card sets pass, iterate and stop lines before launch and checks whether the volume can show a result, switching to an at-least-k read when it cannot. Idea readout reads channel test counts with 95% ranges, flags samples too small to act on, checks for coincidences such as a price change, and decides scale, iterate once, stop or inconclusive. No benchmarks and no invented rates: every number is yours or a labelled assumption, and every rule carries the date it was read.",
     "developerName": "Sergey Skripko",
