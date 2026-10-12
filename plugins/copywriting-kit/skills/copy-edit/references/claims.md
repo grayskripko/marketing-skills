@@ -11,7 +11,7 @@ The words in quotes below appear here as examples of claims to check, never as c
 | Comparisons | "twice as fast as spreadsheets", "cheaper than hiring" | A like-for-like comparison the user ran or can cite |
 | Guarantees | "guaranteed savings", "never miss a payment" | The actual terms the business offers |
 | Customer counts | "trusted by 10,000 teams", "used in 40 countries" | A current count and what counts as a customer |
-| Testimonials and endorsements | quotes, star ratings, logos, "as seen in" | A real, identifiable source that agreed to be quoted; any relationship (paid, employee, partner) disclosed |
+| Testimonials and endorsements | quotes, star ratings, logos, "as seen in" | A real, identifiable source that agreed to be quoted; any material connection (payment, free product, employment, partnership) disclosed |
 | Before/after results | "from 10 days to 2 days" | A named case with its scope |
 | Urgency and scarcity | "offer ends Friday", "only 3 seats left", "limited time" | A real deadline or limit in the user's plan |
 | Awards and certifications | "award-winning", "certified" | The award or certificate name, issuer and year |

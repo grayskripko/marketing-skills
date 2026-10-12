@@ -7,7 +7,7 @@ Reference-wide output gate: ask for missing facts or list evidence needs only wh
 ## P1 Meaning
 
 - **P1.1** For each paragraph, name the reader question it answers ("what is it?", "will it work for me?", "how does it work?", "what does it cost?", "what do I do next?"). If it answers none, cut it or flag it.
-- **P1.2** One idea per paragraph. Split a paragraph that carries two.
+- **P1.2** Keep a paragraph around one reader question. Combine related offer, audience or action details when they answer the same question; split only when the reader benefits. Do not turn a short edit into one line per fact.
 - **P1.3** The first sentence of a section carries the section's point. Move buried points up.
 
 ## P2 Reader
@@ -49,7 +49,7 @@ Reference-wide output gate: ask for missing facts or list evidence needs only wh
 ## P8 Action and hygiene
 
 - **P8.1** Use an action hierarchy suited to page purpose: one dominant action for a campaign, or clearly labelled plan/audience choices for a comparison or routing page. Judge textual hierarchy from text; assess visual weight only from supplied visual evidence.
-- **P8.2** The call to action says what happens next: "Book a 20-minute walkthrough" rather than "Learn more". Use only facts from the user's material for details such as duration.
+- **P8.2** The call to action says what happens next: "Book a 20-minute walkthrough" rather than "Learn more". Use only facts from the user's material for details such as duration. When the user names the primary call to action, use it verbatim and make it recognisable as its own action line, with a short confirmed risk-reducer beside it ("Start a 10-day trial. No card required."). If the existing action is generic and the material gives a definite trial and duration, use that action once instead of adding a second one next to it. Keep literal or markup-free formats when requested.
 - **P8.3** Flag raw merge tokens (`{{firstName}}`, `[Company]`) and never fill them with guesses. Cut one only when the text type uses no greeting (for example a web page), and say so after the text.
 - **P8.4** Do not add deadlines, stock levels, discounts or "limited time" language. Existing ones stay as written and are listed for a proof check if no basis is given.
 - **P8.5** Consistency: product names, capitalisation, number formats and terms are the same throughout.

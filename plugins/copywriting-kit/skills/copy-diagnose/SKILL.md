@@ -1,6 +1,6 @@
 ---
 name: copy-diagnose
-description: Diagnose existing website copy before any rewrite. Says in plain words what to fix first (positioning, message order or wording), gives up to 5 ranked changes with examples built from the user's facts, lists claims that need evidence, and adds a 12-check score. Use when the user gives a live page URL or pastes a page and asks what is wrong with its copy or messaging, why it does not convert, or for a copy review before rewriting. To rewrite a draft use copy-edit; to check claims against evidence use copy-proof-check. Not for ads, emails, forms or checkout, A/B tests, search titles, technical audits or visibility in AI answers.
+description: Diagnose existing website copy before any rewrite. Says in plain words what to fix first (positioning, message order or wording), quotes the existing wording behind each problem, gives a short ranked fix summary, lists claims that need evidence, and scores the page only when asked. Use when the user gives a live page URL or pastes a page and asks what is wrong with its copy or messaging, why it does not convert, or for a copy review before rewriting. To rewrite a draft use copy-edit; to check claims against evidence use copy-proof-check. Not for ads, emails, forms or checkout, A/B tests, search titles, technical audits or visibility in AI answers.
 ---
 
 # Copy diagnosis
@@ -43,7 +43,7 @@ A change in a lower layer that should wait is marked in plain words: "after the 
 
 ## Step 4. Checklist (landing-page default; adapt applicability)
 
-Use the checks internally for diagnosis. Score only when the user asks for a score or scoring table. Select criteria by page purpose and supplied evidence. Mark irrelevant checks N/A and unobservable checks unknown; score applicable observable checks 2 (clearly done), 1 (partly) or 0 (missing or wrong), with a section and short quote. Show the applicable denominator, unknown coverage and rubric limits. Report critical factual defects separately from the total. Score the supplied page, not the business notes. Show item-level scores and verify their sum before reporting a total; if needed, add them twice independently.
+Use the checks internally for diagnosis. Score only when the user asks for a score or scoring table. Select criteria by page purpose and supplied evidence. Mark irrelevant checks N/A and unobservable checks unknown; score applicable observable checks 2 (clearly done), 1 (partly) or 0 (missing or wrong), with a section and short quote. Show the applicable denominator, unknown coverage and rubric limits. Report critical factual defects separately from the total. Score the supplied page, not the business notes. Freeze the item scores before computing the total. With a code tool, sum those exact scores and count the scored rows, and derive the denominator from the same rows; write "verified" only after that calculation. Without a code tool, show the addition explicitly (2 + 1 + 0 … = n) and do not claim tool verification. If any row changes, recompute. For a page-order or flow question (for example "does the order stop people starting a trial?"), score the page-order criteria in `references/scorecard.md` instead of the 12 default checks.
 1. Who it is for, what it replaces and how it differs are clear in the first screen.
 2. The first screen does one job.
 3. The reader is the subject.
@@ -55,13 +55,13 @@ Use the checks internally for diagnosis. Score only when the user asks for a sco
 9. The call to action names the next step.
 10. Headings alone carry the pitch.
 11. Where claims are heavy ("all-in-one", "for every business"), the page states a limit or a fit condition.
-12. Stock phrases: 0–1 per 100 words scores 2, up to 3 scores 1, more scores 0 (a heuristic for this plugin). Use these bands only as optional rough defaults for comparable texts of at least 100 words. For shorter copy, show the phrases, hit count and word count qualitatively; mark the density grade N/A.
+12. Stock phrases: 0–1 per 100 words scores 2, up to 3 scores 1, more scores 0 (a heuristic for this plugin). Use these bands only as optional rough defaults for comparable texts of at least 100 words. For shorter copy, mark the density grade N/A and name any stock phrases. Give a word count only when requested or needed to enforce a length limit; then define what is counted, use a code tool when available, and label a manual count approximate.
 
 Full table: `references/scorecard.md`.
 
 ## Step 5. Changes
 
-Rank up to 5 changes, fewer if fewer matter. Use every fact the user gave about the product, price and audience in the example lines; never contradict one. Note any reason to act now as real, absent (fine) or invented (flag it).
+When the user asks to diagnose before rewriting, organise findings as existing wording → problem → effect on the reader, quoting the page; then give a short ranked fix summary. Offer replacement lines only when requested or needed to explain one finding; they are never the main artifact. Otherwise rank up to 5 changes, fewer if fewer matter. Use every fact the user gave about the product, price and audience in any example lines; never contradict one. Note any reason to act now as real, absent (fine) or invented (flag it).
 
 ## Step 6. Answer
 

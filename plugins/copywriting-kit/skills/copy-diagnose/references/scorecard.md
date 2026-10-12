@@ -1,6 +1,6 @@
 # Diagnosis scorecard (DG-01 to DG-12)
 
-Use this 12-item rubric as a landing-page default. Select applicable criteria by page purpose and supplied material; mark irrelevant checks N/A and unobservable checks unknown. Print scoring only when requested. Give evidence and a quote of up to 12 words for each scored criterion. Sum earned points and show the available denominator (2 per applicable, observable criterion); state unknown coverage separately. Compare only equivalent rubric configurations. Report critical factual defects separately; a total cannot offset them. This is a qualitative checklist, not a conversion forecast.
+Use this 12-item rubric for a broad landing-page review. For a page-order or flow question, score these observable criteria instead: product explained before the commitment is asked; workflow in sequence; practical requirements next to the decision they affect; competing destinations; textual call-to-action hierarchy; headings in the order the reader decides. Add category clarity only when wording creates ambiguity. State the scale before the table (2 = supports the decision, 1 = partial or interrupted, 0 = blocks or omits it) and use the columns Criterion | Score | Existing evidence | Designer action. Do not add unrelated proof, urgency or style scores to fill the table. Otherwise use the 12-item rubric as a landing-page default. Select applicable criteria by page purpose and supplied material; mark irrelevant checks N/A and unobservable checks unknown. Print scoring only when requested. Give evidence and a quote of up to 12 words for each scored criterion. Sum earned points and show the available denominator (2 per applicable, observable criterion); state unknown coverage separately. Compare only equivalent rubric configurations. Report critical factual defects separately; a total cannot offset them. This is a qualitative checklist, not a conversion forecast.
 
 | id | Criterion | 2 | 1 | 0 |
 |---|---|---|---|---|
@@ -18,7 +18,7 @@ Use this 12-item rubric as a landing-page default. Select applicable criteria by
 | DG-12 | Stock-phrasing density | 0 to 1 SP-xx hits per 100 words | More than 1, up to 3 | More than 3 |
 
 Notes:
-- DG-12 bands are optional rough heuristics for comparable texts of at least 100 words, not empirical quality boundaries. For shorter copy, show phrases, hit count and word count with a qualitative explanation; do not give a density grade.
+- DG-12 bands are optional rough heuristics for comparable texts of at least 100 words, not empirical quality boundaries. For shorter copy, name the stock phrases and do not give a density grade; give a word count only when requested or needed for a length limit.
 - With text-only input, use an explicitly stated opening-text boundary as a proxy; it does not establish the rendered first screen or visual weight. Score textual competing actions without claiming equal visual prominence.
 - Score what is on the page, not what the user says the product does. What the user says goes into Assumptions or the offer check.
 

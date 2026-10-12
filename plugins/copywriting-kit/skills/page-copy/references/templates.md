@@ -1,6 +1,6 @@
 # Page templates
 
-Use these section orders as drafting guides, not required sections. Each heading should state a point. Combine or omit sections that merely repeat facts already explained; keep every material product qualification and buyer-facing term. For ready-to-paste copy, put material unresolved details in a brief note after the draft. Inline markers belong only in a requested annotated draft or a section that cannot be completed without the missing detail (see SKILL.md, rule 5). Never guess.
+Use these section orders as drafting guides, not required sections. When a heading is used, it should state a point; short About pages usually read best as connected paragraphs under one title. Combine or omit sections that merely repeat facts already explained; keep every material product qualification and buyer-facing term. For ready-to-paste copy, put material unresolved details in a brief note after the draft. Inline markers belong only in a requested annotated draft or a section that cannot be completed without the missing detail (see SKILL.md, rule 5). Never guess.
 
 ## Landing page
 

@@ -34,7 +34,7 @@ Before drafting, settle: who the page is for, what it replaces, relevant differe
 
 ## Step 3. Draft by page type
 
-Use headings that aid the reader’s decision and scanning; informative statements and conventional navigation or comparison labels are both valid. Treat the following section orders as adaptable examples. Details: `references/templates.md`.
+Use headings when they help readers find distinct information; informative statements and conventional navigation or comparison labels are both valid. A short, warm About page usually needs one title and connected paragraphs, not a section per fact. Do not repeat the same instruction in the body and the closing call to action. On a short feature page, use steps only when they add to the opening explanation. Treat the following section orders as adaptable examples. Details: `references/templates.md`.
 
 - **Landing:** first screen (what is sold or which problem goes away, plus the one call to action) → the page reader's situation only where supported by the user's input → how it works (input, action, result) → proof → objections and honest trade-offs → the same call to action again.
 - **Pricing:** who each plan is for (one line per plan, before the numbers) → what is included, real differences only → how billing works (period, what triggers a charge, how to cancel) → buyers' questions answered from the facts → a call to action per plan. No invented discounts, deadlines or "most popular" labels.
