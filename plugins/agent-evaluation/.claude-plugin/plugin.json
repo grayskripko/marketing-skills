@@ -1,0 +1,22 @@
+{
+  "name": "agent-evaluation",
+  "version": "0.1.0",
+  "description": "Plan agent evaluation and verify agent output against supplied requirements, artifacts, action receipts and escalation records. Plan agent evaluation, prepare agent regression tests, verify agent output and check agent results against requirements, sources, saved artifacts, action receipts and escalation. Work from pasted traces, logs, configs, transcripts, files and existing runner exports; return an acceptance report with observed failures and missing evidence.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent evaluation",
+    "agent evals",
+    "verify agent output",
+    "agent regression tests",
+    "check agent results"
+  ],
+  "displayName": "Agent Evaluation",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-evaluation/plugins/agent-evaluation/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-evaluation/plugins/agent-evaluation/README.md"
+}
