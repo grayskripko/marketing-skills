@@ -2,7 +2,7 @@
 
 | Fact id | Prospect | Fact | Source | Date | Age |
 |---|---|---|---|---|---|
-| P1-F1 | Acme (Head of Finance) | Posted an AP clerk opening | User note, line 3 | 2026-09-12 | 18 days |
+| P1-F1 | Acme (Head of Finance) | Posted an AP clerk opening | User note, line 3 | 2026-09-12 | 18 days (as of 2026-09-30) |
 | P1-F2 | Acme | Opened a second office | acme.test/news | undated | unknown |
 
 - Fact ids: P(prospect number)-F(fact number).
