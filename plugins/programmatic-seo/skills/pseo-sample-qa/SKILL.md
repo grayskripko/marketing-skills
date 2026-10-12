@@ -65,7 +65,7 @@ For each pair, take the five-word sequences of what remains: similarity = sequen
 | missing data | `[DATA NEEDED`, `{{`, TBD or similar left in the text | do not publish until fixed |
 | unsupported number | a number not in the pasted row for that page (only when rows are pasted) | do not publish until fixed |
 
-A page with no flag: keep.
+Apply the table as review signals, not automatic indexing or page-boundary decisions. A required setup screen stays available; duplicates may share explanatory content without merging away that screen. No flag means keep as a draft, not verified or ready for indexing. Without source rows, leave factual readiness unresolved. Do not prescribe noindex from short text, similarity or a navigation purpose alone. If similarity numbers are requested, include every requested pair and define tokenization; for a remainder below five tokens report the shingle comparison as unavailable, never silently omit the pair; a remainder below 50 tokens is a review signal, not a matrix exclusion. This takes precedence over the table, Step 4 and reference action/exclusion rules. State whether the reference punctuation-split tokens or decimal-preserving words are used; use that same convention for all totals and shingles, retain decimals intact in the separate source-number check, and recount displayed totals and shingle unions. If the user requests word counts, provide word counts separately from punctuation-split token counts.
 
 ## Step 6. Sample note
 
