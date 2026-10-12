@@ -70,10 +70,10 @@ Run these checks (detail in `references/demo-checks.md`) and give the time arith
 |---|---|---|
 | D-1 Pain coverage | every scene maps to supplied buyer pains, goals or required evaluation criteria; group related needs into coherent workflows and split a workflow when its proof requires multiple scenes; cover priority needs without redundant feature tours | Cohan, Great Demo! |
 | D-2 Scene count | scene count fits the buyer task and agreed agenda; four is a starting estimate for a short interactive demo, not an automatic failure threshold | default |
-| D-3 Time | scene minutes ≤ slot × 2 ÷ 3, and the whole running order (opening, questions, scenes, close) ≤ slot, both compared before rounding | default |
+| D-3 Time | the whole running order (opening, questions, scenes, close) ≤ slot, compared before rounding, with explicit time for buyer discussion; preserve mandatory checks and supplied durations. The two-thirds scene allocation is an optional internal planning default, not a pass/fail limit; print it only if requested | default |
 | D-4 Check-ins | questions obtain needed buyer information at meaningful transitions; use open questions for exploration and closed questions for logistics or precise confirmation | default |
 | D-5 Proof | every outcome claim has proof from the material or [PROOF NEEDED] | ground rule 3 |
-| D-6 Next step | the plan or script closes by asking for a next step with a date and an owner; in a plan, a question that uses the user's date and owner or asks the buyer for them counts | rubric CS-D08 |
+| D-6 Next step | ask what mattered most, whether the demonstrated workflow fits and what remains to verify. Ask for a trial date and owner only after a relevant use case and workable evaluation are established; preserve a supplied date and owner as an explicitly unagreed proposal. Without discovery, agree the next discovery or evaluation action before discussing a trial. This condition governs Step 3 Close and reference D-6. Present the runnable agenda and material fixes; keep successful timing, proof and coverage checks internal unless requested, overriding Output item 3 and reference output examples | rubric CS-D08 |
 
 Closed check-ins to flag: "does that make sense?", "any questions?", "make sense?", "is that clear?", "can you see my screen?" used as a check-in, "does that look good?", "pretty cool, right?". Open replacements: before a scene, "You said first replies take 9 hours; where does that stand today?"; after it, "How does that compare with how your team handles it now?".
 

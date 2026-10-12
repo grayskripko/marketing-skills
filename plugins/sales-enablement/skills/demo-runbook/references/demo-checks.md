@@ -38,7 +38,7 @@ For each of budget, how the decision is made, timeline, current way of working, 
 |---|---|---|---|
 | D-1 Pain coverage | every scene maps to stated pains and every stated pain is addressed; related pains may share a workflow | Cohan | PASS / FIX |
 | D-2 Scene count | at most 4 scenes | default | PASS / FIX |
-| D-3 Time | scene minutes ≤ two thirds of the slot, and the whole running order (opening, questions, scenes, close) ≤ the slot, both compared before rounding | default; leaves time for the buyer | PASS / FIX |
+| D-3 Time | the whole running order (opening, questions, scenes, close) ≤ the slot, compared before rounding, with explicit buyer discussion time; preserve mandatory checks and supplied durations. Two thirds is an optional internal allocation default, not a pass/fail limit; print it only if requested, including when following the worked example below | default; leaves time for the buyer | PASS / FIX |
 | D-4 Check-ins | no closed check-in phrase | default | PASS / FIX |
 | D-5 Proof | every outcome claim has a proof slot filled or flagged [PROOF NEEDED] | ground rule 3 | PASS / FIX |
 | D-6 Next step | the plan or script closes by asking for a next step with date and owner; in a plan written before the call, a question that uses the user's date and owner or asks the buyer for them meets this | rubric CS-D08 | PASS / FIX |
