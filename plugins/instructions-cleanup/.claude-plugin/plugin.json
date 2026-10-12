@@ -17,5 +17,7 @@
     "conflicting instructions",
     "instruction scope"
   ],
-  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-instructions-cleanup/plugins/instructions-cleanup/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-instructions-cleanup/plugins/instructions-cleanup/README.md"
 }
