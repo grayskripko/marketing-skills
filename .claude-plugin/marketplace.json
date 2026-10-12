@@ -1,0 +1,15 @@
+{
+  "name": "pl-agent-design",
+  "description": "Design an AI agent for one process: decide whether an agent is needed, then write its implementation specification. Use when you ask for AI agent design, an agent vs workflow decision, or an agent specification from pasted process notes, traces, logs, configs, transcripts or files. Map the work, choose the control pattern, and define inputs, tools, action limits, human review, stopping conditions and observable success for one process. Not for deploying agents, assigning workers or repairing a running system.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "agent-design",
+      "source": "./plugins/agent-design",
+      "description": "Design an AI agent for one process: decide whether an agent is needed, then write its implementation specification. Use when you ask for AI agent design, an agent vs workflow decision, or an agent specification from pasted process notes, traces, logs, configs, transcripts or files. Map the work, choose the control pattern, and define inputs, tools, action limits, human review, stopping conditions and observable success for one process. Not for deploying agents, assigning workers or repairing a running system."
+    }
+  ]
+}

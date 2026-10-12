@@ -1,0 +1,43 @@
+{
+  "name": "agent-design",
+  "version": "0.1.0",
+  "description": "Design an AI agent for one process: decide whether an agent is needed, then write its implementation specification. Use when you ask for AI agent design, an agent vs workflow decision, or an agent specification from pasted process notes, traces, logs, configs, transcripts or files. Map the work, choose the control pattern, and define inputs, tools, action limits, human review, stopping conditions and observable success for one process. Not for deploying agents, assigning workers or repairing a running system.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "AI agent design",
+    "agent vs workflow",
+    "agent specification",
+    "agent design patterns",
+    "agent architecture"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Design",
+    "shortDescription": "Design an AI agent",
+    "longDescription": "Design an AI agent for one process: decide whether an agent is needed, then write its implementation specification. Use when you ask for AI agent design, an agent vs workflow decision, or an agent specification from pasted process notes, traces, logs, configs, transcripts or files. Map the work, choose the control pattern, and define inputs, tools, action limits, human review, stopping conditions and observable success for one process. Not for deploying agents, assigning workers or repairing a running system.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245766",
+    "brandColorDark": "#8AC9D5",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Map this process before we choose an agent: [paste notes or transcript].",
+      "Should this use an agent or a fixed workflow? Here are the steps and constraints: [paste process].",
+      "Write an implementation specification from this process and tool config: [paste files]."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-design/plugins/agent-design/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}
