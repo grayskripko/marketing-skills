@@ -18,5 +18,7 @@
     "action-receipts"
   ],
   "displayName": "Agent Recovery",
-  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-recovery/plugins/agent-recovery/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-recovery/plugins/agent-recovery/README.md"
 }
