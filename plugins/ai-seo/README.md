@@ -10,7 +10,7 @@ Each skill is chosen by what you give it:
 
 | You give | Skill |
 |---|---|
-| "Do we show up in ChatGPT?" with a brand, a category and competitors, no results yet | `ai-visibility-panel`: prompt panel as CSV and a run protocol |
+| "Do we show up in ChatGPT?" with a brand, a category and competitors, no results yet | `ai-seo-audit`: prompt panel as CSV and a run protocol |
 | A filled panel sheet or many logged runs | `ai-visibility-report`: per-engine scorecard, a clear-change-or-noise verdict per engine, sources cited instead |
 | A Bing AI Performance export, a Search Console generative AI report or AI Assistant channel data | `ai-citation-data`: pages ranked by value against citation share |
 | One page, and a question about being quoted in AI answers | `ai-page-audit`: a plain verdict, the changes that matter, rewrites, a default 0-18 checklist score (an applicable-check denominator for page types where a trait does not apply; the report states which) and a warning if the page hides text aimed at AI |
