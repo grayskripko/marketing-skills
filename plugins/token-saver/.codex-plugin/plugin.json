@@ -1,6 +1,6 @@
 {
   "name": "token-saver-kit",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Lower token use in AI chat and coding sessions without losing meaning: short but safe answers that keep commands, numbers, warnings and confirmations even when asked to drop them, handoff notes that let a fresh session resume, an audit of what your setup loads into every request, trimming of long instruction files that keeps every rule, and reading plans that gather context with fewer file reads.",
   "author": {
     "name": "Sergey Skripko",
@@ -23,7 +23,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Token Saver Kit",
+    "displayName": "Token Saver & Context Handoff",
     "shortDescription": "Cut tokens, keep the meaning",
     "longDescription": "Five skills for spending fewer tokens without dropping anything that matters. Trim a long instruction file with a ledger that proves every rule survived. Audit what your setup loads into every request and get the five changes worth making, with estimates only where sizes are known. Write a handoff note with fixed fields, including what was tried and failed, so a fresh session can resume without the old history. Plan how to investigate a coding problem with fewer and smaller file reads. Switch to short but safe answers: code, commands, paths, numbers, exact errors, warnings and confirmations stay word for word, even when the user asks to drop them. It does not change how the host counts or limits usage.",
     "developerName": "Sergey Skripko",

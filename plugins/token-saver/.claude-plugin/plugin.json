@@ -1,7 +1,7 @@
 {
   "name": "token-saver-kit",
-  "displayName": "Token Saver Kit",
-  "version": "0.1.7",
+  "displayName": "Token Saver & Context Handoff",
+  "version": "0.1.8",
   "description": "Lower token use in AI chat and coding sessions without losing meaning: short but safe answers that keep commands, numbers, warnings and confirmations even when asked to drop them, handoff notes that let a fresh session resume, an audit of what your setup loads into every request, trimming of long instruction files that keeps every rule, and reading plans that gather context with fewer file reads.",
   "author": {
     "name": "Sergey Skripko",
