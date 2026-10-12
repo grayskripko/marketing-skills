@@ -57,7 +57,7 @@ Details for each pass are in `references/edit-rules.md`; pass names are for you,
 
 ## Step 4. Output
 
-Return the edited text first, ready to paste, with no markers or introductory sentence. For a copy-only or paste-ready request, return just that copy unless a material contradiction or safety issue needs a brief note outside it.
+Return the edited text first, ready to paste, with no markers or introductory sentence. For a short website section, use a plain section heading and a compact paragraph when that helps scanning, and keep any needed note to one sentence that names the open decision. For a copy-only or paste-ready request, return just that copy unless a material contradiction or safety issue needs a brief note outside it.
 
 Give facts-kept statements, change explanations, counts and full change logs only when requested. If the user requested cuts, name any removed factual item in a short note. Flag only a newly discovered contradiction, a materially unsupported claim, or a missing fact necessary to finish the requested edit; do not repeat declared unknowns or request measurement records for a supplied scoped result merely because this is an edit.
 
