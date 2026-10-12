@@ -18,5 +18,7 @@
     "mcp-security"
   ],
   "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
-  "displayName": "Agent Guardrails"
+  "displayName": "Agent Guardrails",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-guardrails/plugins/agent-guardrails/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-guardrails/plugins/agent-guardrails/README.md"
 }
