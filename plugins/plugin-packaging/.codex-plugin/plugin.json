@@ -1,0 +1,43 @@
+{
+  "name": "plugin-packaging",
+  "version": "0.1.0",
+  "description": "Repair a skills-only Claude plugin that fails to install, load skills or find its resources. Use when colleagues cannot install a package that works locally, a plugin manifest points at the wrong directory, plugin dependencies do not resolve, or missing skills and broken references appear after distribution. Paste manifests, a file inventory, configs, errors or an installation transcript. Get a package audit, corrected text or authorized local file repairs, and a loading receipt from supplied traces or requested harmless checks through an available named host. Not for new scaffolding, improving one skill’s answers, or team administration.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "Claude plugin packaging",
+    "plugin manifest",
+    "plugin dependencies",
+    "plugin not loading",
+    "missing skills",
+    "broken references"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Plugin Packaging",
+    "shortDescription": "Repair plugin packaging",
+    "longDescription": "Repair a skills-only Claude plugin that fails to install, load skills or find its resources. Use when colleagues cannot install a package that works locally, a plugin manifest points at the wrong directory, plugin dependencies do not resolve, or missing skills and broken references appear after distribution. Paste manifests, a file inventory, configs, errors or an installation transcript. Get a package audit, corrected text or authorized local file repairs, and a loading receipt from supplied traces or requested harmless checks through an available named host. Not for new scaffolding, improving one skill’s answers, or team administration.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#24485C",
+    "brandColorDark": "#79BDD5",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Audit this Claude plugin manifest and complete package inventory. Why do colleagues see missing skills?",
+      "Repair these authorized local plugin files without changing skill behavior, then validate the package.",
+      "Check whether this installation transcript proves the package loaded and read its bundled resource."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}
