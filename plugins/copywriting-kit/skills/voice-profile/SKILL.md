@@ -1,6 +1,6 @@
 ---
 name: voice-profile
-description: Capture a written voice profile from the user's own writing samples, or from a short interview when there are no samples. Returns the voice in one sentence, tone rules as do and don't, sounds-like and not-like pairs, words to use and avoid, rhythm targets, and three before/after rewrites of the user's own sentences. Returned as text; saved to a file only if the user asks. Use when the user shares samples of their own or their organisation's writing and asks to capture, define or document their tone of voice. The profile can then be applied in copy-edit or page-copy.
+description: Capture your brand voice as a written voice profile from the user's own writing samples, or from a short interview when there are no samples. Returns the voice in one sentence, tone rules as do and don't, sounds-like and not-like pairs, words to use and avoid, rhythm targets, and three before/after rewrites of the user's own sentences. Returned as text; saved to a file only if the user asks. Use when the user shares samples of their own or their organisation's writing and asks to capture, define or document their tone of voice. The profile can then be applied in copy-edit or page-copy.
 ---
 
 # Voice profile
