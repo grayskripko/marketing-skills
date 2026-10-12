@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and misbehaving skills
+    url: https://github.com/grayskripko/marketing-skills/discussions/1
+    about: Not sure it's a bug? Post the case in Discussions — I read every message.
