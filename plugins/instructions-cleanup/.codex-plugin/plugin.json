@@ -1,0 +1,42 @@
+{
+  "name": "instructions-cleanup",
+  "version": "0.1.0",
+  "description": "Fix conflicting CLAUDE.md and AGENTS.md instructions: map the active scopes, repair stale references and return a minimal patch that preserves approvals. Use pasted files, traces, logs, configs or transcripts to separate ignored rules from loading failures and conflicting instructions. Resolve rule ownership across repository and user sources with host-specific evidence. Apply changes to identified instruction files when requested.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "CLAUDE.md",
+    "AGENTS.md",
+    "ignored rules",
+    "conflicting instructions",
+    "instruction scope"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Instructions Cleanup",
+    "shortDescription": "Fix conflicting agent rules",
+    "longDescription": "Fix conflicting CLAUDE.md and AGENTS.md instructions: map the active scopes, repair stale references and return a minimal patch that preserves approvals. Use pasted files, traces, logs, configs or transcripts to separate ignored rules from loading failures and conflicting instructions. Resolve rule ownership across repository and user sources with host-specific evidence. Apply changes to identified instruction files when requested.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#235C51",
+    "brandColorDark": "#85C9B8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Which CLAUDE.md and AGENTS.md instructions apply to this launch directory?",
+      "Repair this stale test command and preserve our deployment approval rule."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}
