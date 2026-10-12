@@ -56,14 +56,14 @@ Use supplied Inspector output without setup. Propose Inspector setup when the us
 
 ## Worked example
 
-Fictional company: Cedar Lantern Studio. Supplied facts: Codex, HTTP endpoint `https://catalog.example.test/mcp`, bearer authentication from the locally configured variable `CATALOG_ACCESS`, and a Claude-format JSON object pasted into `config.toml`.
+Fictional company: Cedar Lantern Studio. Supplied facts: Codex, an HTTP MCP endpoint whose documentation asks for bearer authentication, with the token name given only as `<TOKEN_VARIABLE>`, and a Claude-format JSON object pasted into `config.toml`.
 
 Example output when no authorized client access is available:
 
 ```toml
 [mcp_servers.catalog]
-url = "https://catalog.example.test/mcp"
-bearer_token_env_var = "CATALOG_ACCESS"
+url = "<server URL from the provider documentation>"
+bearer_token_env_var = "<TOKEN_VARIABLE>"
 ```
 
-“Use TOML in Codex's config file. The supplied JSON belongs to a different client format. Keep CATALOG_ACCESS in the environment that starts Codex. Next, inspect the server in `/mcp` and discover its tools. Choose a tool whose documentation establishes that it is read-only before calling it. This snippet has been reviewed; a connection result has not been supplied.”
+“Use TOML in Codex's config file. The supplied JSON belongs to a different client format. Keep the token variable in the environment that starts Codex. Next, inspect the server in `/mcp` and discover its tools. Choose a tool whose documentation establishes that it is read-only before calling it. This snippet has been reviewed; a connection result has not been supplied.”
