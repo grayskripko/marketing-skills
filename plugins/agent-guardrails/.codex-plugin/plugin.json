@@ -1,0 +1,44 @@
+{
+  "name": "agent-guardrails",
+  "version": "0.1.0",
+  "description": "Define and check agent permissions, human approval and agent escalation for a real workflow. Use when you ask which actions an agent can take, when a person must approve or take over, or whether your agent guardrails match the runtime settings. Works from pasted tools, configs, traces, logs, transcripts and authorized files. Produces an action matrix, a control review and boundary findings tied to available evidence. Covers human in the loop and MCP security where they affect action authority. Not for connection repair, factual answer scoring or general code security scanning.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-guardrails",
+    "agent-permissions",
+    "human-approval",
+    "human-in-the-loop",
+    "agent-escalation",
+    "mcp-security"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Guardrails",
+    "shortDescription": "Agent permissions & approvals",
+    "longDescription": "Define and check agent permissions, human approval and agent escalation for a real workflow. Use when you ask which actions an agent can take, when a person must approve or take over, or whether your agent guardrails match the runtime settings. Works from pasted tools, configs, traces, logs, transcripts and authorized files. Produces an action matrix, a control review and boundary findings tied to available evidence. Covers human in the loop and MCP security where they affect action authority. Not for connection repair, factual answer scoring or general code security scanning.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#285A58",
+    "brandColorDark": "#83C5BE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Which actions can this agent take, and when must it ask me? Here are the tools and policy.",
+      "Review these runtime settings against our human approval requirements.",
+      "Check these pasted traces for actions taken before approval or after rejection."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

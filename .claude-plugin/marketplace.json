@@ -1,0 +1,15 @@
+{
+  "name": "pl-agent-guardrails",
+  "description": "Define and check agent permissions, human approval and agent escalation for a real workflow. Use when you ask which actions an agent can take, when a person must approve or take over, or whether your agent guardrails match the runtime settings. Works from pasted tools, configs, traces, logs, transcripts and authorized files. Produces an action matrix, a control review and boundary findings tied to available evidence. Covers human in the loop and MCP security where they affect action authority. Not for connection repair, factual answer scoring or general code security scanning.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "agent-guardrails",
+      "source": "./plugins/agent-guardrails",
+      "description": "Define and check agent permissions, human approval and agent escalation for a real workflow. Use when you ask which actions an agent can take, when a person must approve or take over, or whether your agent guardrails match the runtime settings. Works from pasted tools, configs, traces, logs, transcripts and authorized files. Produces an action matrix, a control review and boundary findings tied to available evidence. Covers human in the loop and MCP security where they affect action authority. Not for connection repair, factual answer scoring or general code security scanning."
+    }
+  ]
+}
