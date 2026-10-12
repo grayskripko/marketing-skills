@@ -1,7 +1,7 @@
 {
   "name": "marketing-ideas",
-  "displayName": "Marketing Ideas & Growth Experiments Kit",
-  "version": "0.1.4",
+  "displayName": "Marketing Ideas & Growth Experiments",
+  "version": "0.1.5",
   "description": "Helps a small team decide which marketing ideas deserve money, and whether a test worked. Describe your product and it suggests one main bet and two cheap tests, dropping ideas that break disclosure or platform rules; paste your own list and it ranks it. For one idea, such as a sponsorship or a booth, it works out the most you can pay per customer and per click and whether a quoted price fits. It sets pass and stop lines before a test and reads the results afterwards, showing each rate with its 95% range. Every number is yours or a labelled assumption.",
   "author": {
     "name": "Sergey Skripko",

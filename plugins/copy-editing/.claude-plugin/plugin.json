@@ -1,7 +1,7 @@
 {
   "name": "copy-editing",
-  "displayName": "Copyedit & Proofreading Kit",
-  "version": "0.1.5",
+  "displayName": "Copyedit & Proofreading",
+  "version": "0.1.6",
   "description": "Editing tools for prose you already have, from help articles and notices to reports and policies. A final proof that fixes only real slips, checks dates against weekdays, stated counts against lists and percentages against their total, and compares a final text with the approved one for a ship-or-hold verdict. A copyedit at the level you pick, light by default, with questions to the author instead of guesses. A style sheet and word list built from your own documents, with every variant counted and conflicting facts flagged. A cut to an exact word or character count with a ledger of what was removed. A refresh of one published page that lists every dated item and never invents a newer figure. Numbers, names and quotations keep their values. Checks are tuned for English.",
   "author": {
     "name": "Sergey Skripko",

@@ -1,6 +1,6 @@
 {
   "name": "lead-magnets",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Pick a lead magnet for what you sell and decide whether to gate it; draft it from your own material with no invented figures; check an opt-in page, form, thank-you page and confirmation email against dated US, EU and UK consent and sender rules; plan what each sign-up may receive given the consent it gave; and compare sign-up and sales-call rates by magnet, with honest ranges for small numbers. Checks, not legal advice.",
   "author": {
     "name": "Sergey Skripko",
@@ -26,7 +26,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Lead Magnets Kit",
+    "displayName": "Lead Magnets",
     "shortDescription": "Plan, check, read lead magnets",
     "longDescription": "Five skills for lead magnets, from the offer you sell to the numbers that come back. Magnet plan compares a few candidate assets for your offer, drops any with no honest link to it, picks one and says whether to gate it, which form fields to keep and what the consent box should say for US, EU and UK visitors. Magnet build writes the checklist, template, scorecard or calculator spec from your notes, keeps every figure to your own material and lists what the opt-in page may promise. Opt-in check reviews the page, form, thank-you page and confirmation email against dated rules from the GDPR, EDPB guidance, the UK ICO, CAN-SPAM and large mailbox providers, and rewrites only the failing lines. Magnet follow-up says who may be emailed after a download and which consent records to keep. Magnet readout compares your magnets on sign-ups and sales calls, with ranges that show when the numbers are too small to judge, and gives each one a verdict. Legal rows are checks, not legal advice.",
     "developerName": "Sergey Skripko",
