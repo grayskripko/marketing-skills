@@ -43,12 +43,12 @@ Use these as drafting checks, not required headings or fields. Keep only what th
 
 - Goal and conversion point: what the piece should lead the reader to do.
 - Reader: who, and the job they are doing when they find the piece.
-- Intent (learn, do, compare, evaluate, navigate or stay; see `references/intents.md`) and the question the piece answers first.
+- Intent (learn, do, compare, evaluate, navigate or stay; see `references/intents.md`) and the question the piece answers first. Use the intent to shape the brief; print the label only when the user asks for it.
 - Target query: use a supplied query; otherwise do not force a keyword or invent volumes. Mention its absence only if it affects the writer’s assignment.
 - Angle: one sentence.
 - Working titles: three, each labelled with its angle; for the writer, not final. Neither the angle nor a title promises an outcome (a smooth switch, money saved) that the user's material has not shown.
 - What is new here: the company's own sources, as the user named them. Test: does the piece give original information, or restate what others have published? (`references/people-first.md`)
-- Outline: each section with the question it answers; the first section answers the main question.
+- Outline: each section with the question it answers; the first section answers the main question. When the topic covers a period or process, follow it through to its final checks. Material from a source the user holds but has not reviewed goes in as optional within the sections where it may fit, until the writer confirms it is relevant; do not give it a section of its own.
 - Evidence to include: only from the user's material.
 - Internal links: only from the list the user gave, otherwise "list not provided".
 - Call to action: tied to the offer.
