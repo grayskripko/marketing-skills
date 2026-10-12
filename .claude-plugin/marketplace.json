@@ -1,0 +1,15 @@
+{
+  "name": "pl-mcp-debugging",
+  "description": "Troubleshoot MCP connection, authentication and missing-tool errors in my actual client from pasted traces, logs, configs, transcripts or files. Use when MCP won't connect in Claude Code or Codex, MCP authentication fails, or tools are missing or fail after connection. Get a minimal client-specific repair, what your supplied discovery and call results prove, and the next safe check. Pasted material needs no setup. Optional live checks use an existing trusted client and a documented read-only operation. Not for building MCP servers, general agent debugging or redesigning an owned callable tool interface.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "mcp-debugging",
+      "source": "./plugins/mcp-debugging",
+      "description": "Troubleshoot MCP connection, authentication and missing-tool errors in my actual client from pasted traces, logs, configs, transcripts or files. Use when MCP won't connect in Claude Code or Codex, MCP authentication fails, or tools are missing or fail after connection. Get a minimal client-specific repair, what your supplied discovery and call results prove, and the next safe check. Pasted material needs no setup. Optional live checks use an existing trusted client and a documented read-only operation. Not for building MCP servers, general agent debugging or redesigning an owned callable tool interface."
+    }
+  ]
+}
