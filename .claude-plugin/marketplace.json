@@ -1,0 +1,15 @@
+{
+  "name": "pl-detection-limits",
+  "description": "Check EPA method detection limit (MDL) studies under 40 CFR 136 Appendix B Revision 2. Works on spiked-sample and method-blank results you paste, with the lab's own calculation outputs. Matches results by analyte, matrix, instrument, batch, preparation and analysis date and units, then flags ineligible data, missing coverage, calculation errors and stale or mismatched MDL values. Recomputes MDLs, MDLb and the final MDL for initial studies and annual verifications, and reconciles MDL tables against the latest study. For environmental and QC laboratory technical managers and data reviewers.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "detection-limits",
+      "source": "./plugins/detection-limits",
+      "description": "Check EPA method detection limit (MDL) studies under 40 CFR 136 Appendix B Revision 2. Works on spiked-sample and method-blank results you paste, with the lab's own calculation outputs. Matches results by analyte, matrix, instrument, batch, preparation and analysis date and units, then flags ineligible data, missing coverage, calculation errors and stale or mismatched MDL values. Recomputes MDLs, MDLb and the final MDL for initial studies and annual verifications, and reconciles MDL tables against the latest study. For environmental and QC laboratory technical managers and data reviewers."
+    }
+  ]
+}
