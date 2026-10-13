@@ -26,7 +26,7 @@ Turn findings into tickets a team can pick up, grouped into critical, quick wins
 
 - Findings from any audit skill in this plugin, or the user's own list.
 - The business goal, if not already stated.
-- Constraints (developer hours or sprint length, who is available, systems that cannot change, deadline): draft tickets from the available evidence. Preserve supplied effort; otherwise leave it unknown unless implementation evidence supports a provisional estimate with assumptions. Ask for missing capacity only when needed to choose requested commitments.
+- Constraints (developer hours or sprint length, who is available, systems that cannot change, deadline): draft tickets from the available evidence. Preserve supplied effort and capacity units; state any conversion assumption. Leave unsupported repair effort unknown, but when a bounded investigation would make a ticket usable, offer a provisional discovery timebox explicitly as a proposed budget, with an output and stop condition; do not claim the repair fits it. Add a dependency only when the supplied evidence or a stated technical mechanism makes the change depend on it; distinguish priority order from a release gate. Limit the fix to the established defect and preserve intentional behavior elsewhere; shared-component regression checks do not establish new defects on every consumer. Ask for missing capacity only when needed to choose requested commitments.
 
 ## Step 2. Prioritize
 
