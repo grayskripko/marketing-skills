@@ -36,7 +36,7 @@ Before dropping an old fact, check whether a truthful past-tense sentence with i
 
 ## Step 3. Opening lines
 
-Use the strongest supported work fact to open the email, preserving tense, source and date and never implying a plan happened. When the user asks to start an email, add a short relevant reply question if useful; keep a requested single-sentence opener to one sentence. Without workflow evidence, ask whether the relevant check occurs before asking how it is done; do not presume use of the offer’s inputs, process or sites.
+Use the strongest supported work fact to open the email, preserving tense, source and date and never implying a plan happened. When the user asks to start an email, add a short relevant reply question if useful; keep a requested single-sentence opener to one sentence. Without workflow evidence, ask whether the task the offer addresses happens at all before asking how it is done; do not presume use of the offer’s inputs, process or sites.
 
 Bad: "Loved your inspiring post on leadership!" Good: "Acme posted an AP clerk opening on 12 September, so invoice volume may be on your mind."
 
