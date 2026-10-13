@@ -1,0 +1,48 @@
+{
+  "name": "method-transfer",
+  "version": "0.1.3",
+  "description": "Check an analytical method transfer between a sending and a receiving laboratory. Works on the method texts, transfer protocol, common-lot results and deviations you paste. Matches method numbers and versions, lot numbers, sample and replicate identifiers across those records, then lists method differences between sites and against the filed method, tests each predetermined acceptance criterion against the results, and drafts the transfer report. For analytical-transfer leads, CMC and QC scientists at pharmaceutical companies, CDMOs and contract laboratories.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "method-transfer",
+    "analytical-method-transfer",
+    "transfer-protocol",
+    "transfer-report",
+    "comparative-testing",
+    "acceptance-criteria",
+    "gap-analysis",
+    "pharmaceutical-qc",
+    "cdmo",
+    "cmc"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Method Transfer",
+    "shortDescription": "Check analytical method transfers between labs",
+    "longDescription": "Check an analytical method transfer between a sending and a receiving laboratory. Works on the method texts, transfer protocol, common-lot results and deviations you paste. Matches method numbers and versions, lot numbers, sample and replicate identifiers across those records, then lists method differences between sites and against the filed method, tests each predetermined acceptance criterion against the results, and drafts the transfer report. For analytical-transfer leads, CMC and QC scientists at pharmaceutical companies, CDMOs and contract laboratories.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2F4858",
+    "brandColorDark": "#F2A541",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "What differs between our HPLC method and the receiving lab's SOP? Both pasted below.",
+      "Did this method transfer pass the protocol criteria? Protocol and results below.",
+      "Draft the transfer report from this protocol, results and deviation."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-method-transfer/plugins/method-transfer/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
+  }
+}

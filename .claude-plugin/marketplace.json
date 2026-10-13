@@ -1,0 +1,15 @@
+{
+  "name": "pl-method-transfer",
+  "description": "Check an analytical method transfer between a sending and a receiving laboratory. Works on the method texts, transfer protocol, common-lot results and deviations you paste. Matches method numbers and versions, lot numbers, sample and replicate identifiers across those records, then lists method differences between sites and against the filed method, tests each predetermined acceptance criterion against the results, and drafts the transfer report. For analytical-transfer leads, CMC and QC scientists at pharmaceutical companies, CDMOs and contract laboratories.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "method-transfer",
+      "source": "./plugins/method-transfer",
+      "description": "Check an analytical method transfer between a sending and a receiving laboratory. Works on the method texts, transfer protocol, common-lot results and deviations you paste. Matches method numbers and versions, lot numbers, sample and replicate identifiers across those records, then lists method differences between sites and against the filed method, tests each predetermined acceptance criterion against the results, and drafts the transfer report. For analytical-transfer leads, CMC and QC scientists at pharmaceutical companies, CDMOs and contract laboratories."
+    }
+  ]
+}
