@@ -30,9 +30,21 @@ Only the content-audit skill fetches anything: when you give a sitemap URL, it r
 - The plan looks small: it matches the hours you gave; change the hours or the reserved share.
 - A fetch failed: paste the list instead.
 
-## Support
+## Related plugins
 
-Open an issue: https://github.com/grayskripko/marketing-skills/issues
+Where this plugin stops and another one of mine continues:
+
+- [Lead Magnets](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/lead-magnets/README.md): lead-magnet-plan only plans the asset; Lead Magnets drafts it with proof checks, checks the opt-in for consent rules and reads sign-up-to-deal results.
+- [Site Architecture & Faceted Navigation](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/site-architecture/README.md): Redirect and retire decisions from content-inventory need a checked redirect map, and a topic cluster needs a hub and child-page link spec, both of which Site Architecture builds.
+- [Customer Research Kit](https://github.com/grayskripko/marketing-skills/blob/wind/plugins/customer-research/README.md): topic-map labels topics without a source of new information as commodity; interview synthesis and feedback analysis are how a team gets that first-hand information.
+
+## Questions and feedback
+
+If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
+
+Bug reports also work in GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+
+Sergey Skripko. I build AI agents.
 
 ## License
 

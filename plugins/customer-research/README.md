@@ -53,9 +53,21 @@ The plugin fetches nothing and runs no web search. It works only on text and fil
 - **Counts look off:** without a code tool they are counted by hand; ask for a recount.
 - **A quote doesn't match your notes:** ask for it to be re-pulled from the input.
 
-## Support
+## Related plugins
 
-GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+Where this plugin stops and another one of mine continues:
+
+- [Ad Copy & Creative Preflight](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/ad-creative/README.md): angle-matrix takes exactly the reviews, survey answers and call notes this plugin has coded and turns them into evidence-traced ad angles.
+- [Churn Prevention](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/churn-prevention/README.md): churn-analysis explains why people cancel but changes nothing; Churn Prevention acts on it with cancel-flow, save-offer, dunning and win-back plans and tests churn signals on account data.
+- [Copywriting & Positioning](https://github.com/grayskripko/marketing-skills/blob/main/plugins/copywriting-kit/README.md): The quote ledger and ICP give evidence ids and the customer's own words, which copy-proof-check and page-copy need so claims stay within evidence.
+
+## Questions and feedback
+
+If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
+
+Bug reports also work in GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+
+Sergey Skripko. I build AI agents.
 
 ## License and privacy
 

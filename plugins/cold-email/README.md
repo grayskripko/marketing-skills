@@ -38,9 +38,21 @@ Network scope: only the cold-email-hooks skill fetches anything, and only public
 
 A page fails or its site does not allow fetching: paste its text. Sender table says "can't tell": paste DNS records or message headers.
 
-## Support
+## Related plugins
 
-Issues: https://github.com/grayskripko/marketing-skills/issues
+Where this plugin stops and another one of mine continues:
+
+- [Customer Research Kit](https://github.com/grayskripko/marketing-skills/blob/wind/plugins/customer-research/README.md): cold-email-brief needs a segment and the pain in the buyer's words; icp-profile and interview synthesis supply both marked backed or assumed instead of guessed.
+- [Sales Enablement & Role-Play](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/sales-enablement/README.md): Once replies turn into meetings, demo-runbook builds the demo from the prospect's stated pains and call-coaching scores how the calls went, which cold-email does not cover.
+- [Marketing Ideas & Growth Experiments](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/marketing-ideas/README.md): after the sequence has run, paste sent, replies and meetings into idea-readout to decide scale, iterate or stop with 95% ranges.
+
+## Questions and feedback
+
+If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
+
+Bug reports also work in GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+
+Sergey Skripko. I build AI agents.
 
 ## License
 
