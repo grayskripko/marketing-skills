@@ -1,0 +1,15 @@
+{
+  "name": "pl-lawyer-meetings",
+  "description": "Prepares meeting notes for your lawyer from your documents and account of events. Builds a document list, a sourced timeline, disputed accounts, gaps, questions and a concise agenda. Turns supplied meeting notes into actions, owners and open questions. Works from authorized files or pasted text; no accounts or paid APIs. Not legal advice, signing recommendations, lawsuit planning, privilege guarantees or court-deadline calculations.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "lawyer-meetings",
+      "source": "./plugins/lawyer-meetings",
+      "description": "Prepares meeting notes for your lawyer from your documents and account of events. Builds a document list, a sourced timeline, disputed accounts, gaps, questions and a concise agenda. Turns supplied meeting notes into actions, owners and open questions. Works from authorized files or pasted text; no accounts or paid APIs. Not legal advice, signing recommendations, lawsuit planning, privilege guarantees or court-deadline calculations."
+    }
+  ]
+}

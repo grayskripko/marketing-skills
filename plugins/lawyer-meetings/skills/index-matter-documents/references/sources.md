@@ -1,0 +1,19 @@
+# Sources for operational intake cards
+
+Retrieved and URL-load verified **2026-10-11**. This is a dated knowledge snapshot. Legal sources supply scoped distinctions; matrices are this package's implementation. Publication/version dates below are separate from retrieval date. These are packaged background sources, not documents supplied by the user; attribute each passage and version to its own registry entry. No state-law rule is asserted from model-code text.
+
+| ID | Primary text / provider specification and passage | Version / load evidence |
+|---|---|---|
+| F0 | [Official Federal Rules of Civil Procedure](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-civil-procedure.pdf), Rules 34(b)(2)(E), 37(e) | Official compilation amended through December 1, 2025; PDF loaded, 142 pages. Confirms current rule text used below. |
+| F1 | [Rule 34 and official committee notes reproduced by LII](https://www.law.cornell.edu/rules/frcp/rule_34), (b)(2)(E)(ii)–(iii), 2006 note under Subdivision (b) | Rule page lists amendments through 2015; HTML loaded. Ordinary/reasonably usable form, no requirement for duplicate forms; note on searchability. |
+| F2 | [Rule 37 and official committee notes reproduced by LII](https://www.law.cornell.edu/rules/frcp/rule_37), (e)(1)–(2), 2015 note | HTML loaded. Preservation, restoration/replacement, prejudice and intent are distinct predicates. |
+| E1 | [RFC 5322 Internet Message Format](https://www.rfc-editor.org/rfc/rfc5322), §§3.6.1, 3.6.4, 3.6.6 | October 2008 specification; RFC Editor text loaded via its canonical redirect. Origination Date, message identifiers and resent fields. |
+| E2 | [RFC 2046 MIME media types](https://www.rfc-editor.org/rfc/rfc2046), §§5.1, 5.2.1 | November 1996 specification; RFC Editor text loaded via its canonical redirect. Multipart boundaries and embedded message/rfc822. |
+| G1 | [UCC §2-607 model-code text](https://www.law.cornell.edu/ucc/2/2-607), (1)–(4) | HTML loaded; page supplies no revision date. Model code, with applicable enacted text to be collected separately. Acceptance/notice/remedy distinctions. |
+| P1 | [Stripe Invoicing overview](https://docs.stripe.com/invoicing/overview), Paid invoices and Out of band invoices | Live provider docs; no publication date displayed; text loaded. Use the specific event/out-of-band passage, not a claim that every paid invoice has a successful charge. |
+| P2 | [Stripe Customer credit balance](https://docs.stripe.com/invoicing/customer/balance), Credit balances and Transactions | Live provider docs; text loaded. Credit versus cash, automatic allocation and linked ledger transaction types. |
+| P3 | [Stripe Issue credit notes](https://docs.stripe.com/invoicing/dashboard/credit-notes), introductory policy and Get started | Live provider docs; text loaded. Credit notes reduce amount due without recording payment; total credit notes cannot exceed invoice total. |
+| P4 | [Stripe Balance transaction types](https://docs.stripe.com/reports/balance-transaction-types), Balance transaction source and types related to charges/payments | Live provider docs; text loaded. Source-object linkage, pending/available funds, fees, failures and reversals. |
+| P5 | [Stripe Payout reconciliation](https://docs.stripe.com/reports/payout-reconciliation), opening scope, Find transactions, Download report data, Payout timing and report availability | Live provider docs; text loaded. Automatic versus manual/instant payouts, itemized exports, estimated-arrival date and 5,000-row PDF limit. |
+
+The runtime reads the packaged snapshot and supplied records; it makes no web requests. Ask for updated authoritative text when a request needs a current legal determination or a provider behavior outside these passages. Do not infer jurisdiction, payment provider, destruction, acceptance or payment from a missing field.

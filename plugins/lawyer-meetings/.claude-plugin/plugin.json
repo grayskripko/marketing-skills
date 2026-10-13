@@ -1,0 +1,21 @@
+{
+  "name": "lawyer-meetings",
+  "displayName": "Lawyer Meetings",
+  "version": "0.1.3",
+  "description": "Prepares meeting notes for your lawyer from your documents and account of events. Builds a document list, a sourced timeline, disputed accounts, gaps, questions and a concise agenda. Turns supplied meeting notes into actions, owners and open questions. Works from authorized files or pasted text; no accounts or paid APIs. Not legal advice, signing recommendations, lawsuit planning, privilege guarantees or court-deadline calculations.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "lawyer-consultation",
+    "document-index",
+    "factual-timeline",
+    "legal-preparation"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-lawyer-meetings/plugins/lawyer-meetings/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-lawyer-meetings/plugins/lawyer-meetings/README.md"
+}
