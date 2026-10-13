@@ -1,0 +1,41 @@
+{
+  "name": "google-sheets-imports",
+  "version": "0.1.3",
+  "description": "Why is my Google Sheets import stuck, stale or asking for access? Use pasted IMPORTRANGE formulas, error messages, exports or your description of a screenshot to identify access, range, refresh and size problems. Get a corrected formula or a short repair plan with the permission risks explained. No account connection is needed for diagnosis. Setup guidance uses Google Sheets itself; it does not read or change your spreadsheets.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "google-sheets",
+    "importrange",
+    "google-sheets-imports",
+    "access",
+    "refresh",
+    "import-errors"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Google Sheets Imports",
+    "shortDescription": "Fix Google Sheets imports",
+    "longDescription": "Why is my Google Sheets import stuck, stale or asking for access? Use pasted IMPORTRANGE formulas, error messages, exports or your description of a screenshot to identify access, range, refresh and size problems. Get a corrected formula or a short repair plan with the permission risks explained. No account connection is needed for diagnosis. Setup guidance uses Google Sheets itself; it does not read or change your spreadsheets.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Diagnose import errors",
+      "Plan import freshness repairs"
+    ],
+    "brandColor": "#236B56",
+    "brandColorDark": "#75C9AA",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "My IMPORTRANGE says I need to connect these sheets. What should I check before allowing access?",
+      "My import is stale after the source changes. Here are the formula and the chain of spreadsheets."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

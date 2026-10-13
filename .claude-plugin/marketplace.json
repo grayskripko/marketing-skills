@@ -1,0 +1,15 @@
+{
+  "name": "pl-google-sheets-imports",
+  "description": "Why is my Google Sheets import stuck, stale or asking for access? Use pasted IMPORTRANGE formulas, error messages, exports or your description of a screenshot to identify access, range, refresh and size problems. Get a corrected formula or a short repair plan with the permission risks explained. No account connection is needed for diagnosis. Setup guidance uses Google Sheets itself; it does not read or change your spreadsheets.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "google-sheets-imports",
+      "source": "./plugins/google-sheets-imports",
+      "description": "Why is my Google Sheets import stuck, stale or asking for access? Use pasted IMPORTRANGE formulas, error messages, exports or your description of a screenshot to identify access, range, refresh and size problems. Get a corrected formula or a short repair plan with the permission risks explained. No account connection is needed for diagnosis. Setup guidance uses Google Sheets itself; it does not read or change your spreadsheets."
+    }
+  ]
+}
