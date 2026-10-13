@@ -1,0 +1,28 @@
+{
+  "name": "mill-certificates",
+  "version": "0.1.4",
+  "description": "Check mill test certificates (MTRs, MTCs, EN 10204 3.1 and 3.2) against purchase order and specification requirements. Reads pasted certificate text or exports, keeps certificate type separate from material grade, converts units, computes carbon equivalent and Charpy averages, separates missing from not-required results, builds a heat, lot and test traceability register from receiving rows, and drafts supplier requests. For receiving QA inspectors, material controllers and supplier-quality engineers.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "mill-test-certificate",
+    "mtr",
+    "mtc",
+    "en-10204",
+    "material-certificate",
+    "heat-traceability",
+    "receiving-inspection",
+    "supplier-quality",
+    "carbon-equivalent",
+    "charpy"
+  ],
+  "displayName": "Mill Certificates",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-mill-certificates/plugins/mill-certificates/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-mill-certificates/plugins/mill-certificates/README.md"
+}

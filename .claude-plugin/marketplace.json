@@ -1,0 +1,15 @@
+{
+  "name": "pl-mill-certificates",
+  "description": "Check mill test certificates (MTRs, MTCs, EN 10204 3.1 and 3.2) against purchase order and specification requirements. Reads pasted certificate text or exports, keeps certificate type separate from material grade, converts units, computes carbon equivalent and Charpy averages, separates missing from not-required results, builds a heat, lot and test traceability register from receiving rows, and drafts supplier requests. For receiving QA inspectors, material controllers and supplier-quality engineers.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "mill-certificates",
+      "source": "./plugins/mill-certificates",
+      "description": "Check mill test certificates (MTRs, MTCs, EN 10204 3.1 and 3.2) against purchase order and specification requirements. Reads pasted certificate text or exports, keeps certificate type separate from material grade, converts units, computes carbon equivalent and Charpy averages, separates missing from not-required results, builds a heat, lot and test traceability register from receiving rows, and drafts supplier requests. For receiving QA inspectors, material controllers and supplier-quality engineers."
+    }
+  ]
+}
