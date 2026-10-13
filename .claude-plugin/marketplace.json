@@ -1,0 +1,15 @@
+{
+  "name": "pl-legal-citations",
+  "description": "Checks a legal draft’s citations, quotations and factual claims against documents you supply. Shows wrong sources, changed words, wrong page references and claims the record does not support. Gives the source passage and a proposed correction for a lawyer to review. Use when you want to “check these citations,” “verify these quotes” or “check this motion against the appendix.” Works from pasted text or readable files. No accounts or paid APIs are required. Fetches nothing. Not for finding new cases, certifying current law or approving a filing.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "legal-citations",
+      "source": "./plugins/legal-citations",
+      "description": "Checks a legal draft’s citations, quotations and factual claims against documents you supply. Shows wrong sources, changed words, wrong page references and claims the record does not support. Gives the source passage and a proposed correction for a lawyer to review. Use when you want to “check these citations,” “verify these quotes” or “check this motion against the appendix.” Works from pasted text or readable files. No accounts or paid APIs are required. Fetches nothing. Not for finding new cases, certifying current law or approving a filing."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "legal-citations",
+  "version": "0.1.4",
+  "description": "Checks a legal draft’s citations, quotations and factual claims against documents you supply. Shows wrong sources, changed words, wrong page references and claims the record does not support. Gives the source passage and a proposed correction for a lawyer to review. Use when you want to “check these citations,” “verify these quotes” or “check this motion against the appendix.” Works from pasted text or readable files. No accounts or paid APIs are required. Fetches nothing. Not for finding new cases, certifying current law or approving a filing.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "legal-citations",
+    "quotations",
+    "record-support",
+    "lawyer-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Legal Citations",
+    "shortDescription": "Check citations/quotes/claims",
+    "longDescription": "Checks a legal draft’s citations, quotations and factual claims against documents you supply. Shows wrong sources, changed words, wrong page references and claims the record does not support. Gives the source passage and a proposed correction for a lawyer to review. Use when you want to “check these citations,” “verify these quotes” or “check this motion against the appendix.” Works from pasted text or readable files. No accounts or paid APIs are required. Fetches nothing. Not for finding new cases, certifying current law or approving a filing.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check these citations against the opinions I supplied.",
+      "Verify these quotations and printed page references.",
+      "Does the supplied record support each factual claim?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-legal-citations/plugins/legal-citations/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}
