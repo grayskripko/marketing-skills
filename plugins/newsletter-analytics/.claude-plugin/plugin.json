@@ -1,0 +1,22 @@
+{
+  "name": "newsletter-analytics",
+  "version": "0.1.3",
+  "description": "Checks why newsletter reports disagree, compares issue results, reviews subscriber growth and writes a short results memo. Use when you ask “why are these click rates different?”, “which issue did better?” or “which source brought readers who stayed?” Works from pasted reports or local exports. Shows formulas and separates measured results from possible explanations. Not for connecting accounts, live dashboards, writing newsletter copy, sending messages or changing subscriber lists.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "newsletter",
+    "newsletter-analytics",
+    "subscriber-growth",
+    "click-rates",
+    "cohort-analysis"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "displayName": "Newsletter Analytics",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-newsletter-analytics/plugins/newsletter-analytics/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-newsletter-analytics/plugins/newsletter-analytics/README.md"
+}
