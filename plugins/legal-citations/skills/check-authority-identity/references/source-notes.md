@@ -1,8 +1,6 @@
-# Source and workflow notes
+# Source notes
 
-Non-operational provenance for maintainers and explicit provenance questions. Background links are not retrieval instructions or evidence for the user’s matter. Keep this history out of ordinary comparison findings.
-
-Use the comparison steps to support the requested answer shape; output labels do not require separate sections. The comparison steps are editorial controls. All decisive comparison and protective rules are inline in SKILL.md. Keep these background notes out of matter answers.
+Background links are not retrieval instructions or evidence for the user’s matter.
 
 Background source reads were recorded by the research author on 2026-10-09. This package reviewed that research on 2026-10-10 and did not independently fetch those pages.
 
