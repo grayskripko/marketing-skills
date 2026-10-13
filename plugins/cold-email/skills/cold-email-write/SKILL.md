@@ -28,7 +28,7 @@ In this skill: nothing is fetched.
 
 ## LinkedIn messages
 
-When the user asks for a LinkedIn connection note, direct message or InMail instead of an email, follow `references/linkedin-messages.md`: pick the message type, keep its length, no subject except for InMail, no email footer or sequence, the same fact rules as for email, and pasted text only.
+When the user asks for a LinkedIn connection note, direct message or InMail instead of an email, follow `references/linkedin-messages.md` to the end and skip Steps 1–4 below: pick the message type, keep its length, no subject except for InMail, no email footer or sequence, the same fact rules as for email, and pasted text only.
 
 ## Step 1. Work out the brief (do not print it)
 

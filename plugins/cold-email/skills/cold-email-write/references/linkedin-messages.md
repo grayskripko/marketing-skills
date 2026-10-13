@@ -2,6 +2,10 @@
 
 This plugin drafts and reviews one-to-one LinkedIn copy from text the user pastes: their offer, profile excerpts, dated posts, notes and earlier conversation. It never opens LinkedIn, logs in, looks up or scrapes profiles, sends messages or invitations, or checks credits, limits or recipient settings. A profile URL alone is not enough: ask for the pasted text.
 
+## Route
+
+A LinkedIn request follows this file to the end: do not apply the email brief, subject, sequence, footer or output steps. Draft only the message type the user asked for.
+
 ## Three message types
 
 | Type | When it fits | Draft |
@@ -10,15 +14,33 @@ This plugin drafts and reviews one-to-one LinkedIn copy from text the user paste
 | Direct message | An existing first-degree connection, or a route the user says is open (Open Profile, shared group) | Body only, no subject line, no email footer. Short: one point, one question. |
 | InMail (LinkedIn Premium or Sales Navigator) | A stranger the user may contact through InMail | Subject up to 200 characters and body up to 1,900 characters including any signature. |
 
-LinkedIn prohibits promotional invitation messages to people the sender does not know. If the user asks for a sales pitch inside a connection note to a stranger, say so, offer a genuine nonpromotional note, and put the pitch in an InMail or a later direct message instead.
+LinkedIn prohibits promotional invitation messages to people the sender does not know. A connection note carries only the genuine professional reason to connect that the user supplied: no product benefit, mechanism, offer or sales call to action. If the user asked for a pitch in the note, give the nonpromotional note and one short sentence after it saying why the pitch was left out. Do not draft another message type unless asked, and do not imply that a later direct message will be possible.
 
-## Limits and quotas
+## Length and content
+
+Use the shortest accurate version: the context, the offer and the ask the user wants. Keep any boundary that changes the meaning of the offer (what it does not do, who it is not for). Add proof only when the user asks for it or the offer is not understandable or credible without it. A character limit the user gives is a maximum, not a target. Keep past facts in the past tense; print an exact date only when leaving it out could suggest the fact is current.
+
+When the user asks for character counts, give exactly the counts asked for (subject, body including the signature, signature alone) and check them.
+
+## What this mode can and cannot do
+
+Say the two limits separately and only when they matter: this mode works from pasted text and cannot queue, save, schedule or send anything; and, separately, Sales Navigator itself does not support bulk InMail. Never ask for account or composer access. Where useful, adapt the text for each lead from the context the user supplied.
+
+## A profile URL without pasted text
+
+Do not guess a name from the URL or open the page. If the user supplied facts about their own offer, give one clearly labelled unpersonalised example message, then ask once for pasted profile text (role, recent posts) and which route is open (connection, InMail). If the sender's facts are missing too, ask for them first. Say that no draft was created on LinkedIn.
+
+## Limits
 
 LinkedIn's own pages disagree on some numbers, so the drafts use conservative values (200 for a note, 200/1,900 for InMail) and do not promise any account's limits. Its help pages give no numeric weekly invitation quota and no character ceiling for ordinary messages; do not state "100 a week", a safe rate, a reset day or a way around a restriction. Answer quota questions with the dated facts below and say that the live balance shows only in the user's account.
 
 ## Follow-ups and stop requests
 
-Write a follow-up only when asked, from facts already in the conversation; do not reuse an email cadence or present one as LinkedIn policy. "Not interested", "stop" or a block ends the pitch: no further message, no workaround. An InMail credit refunded after a "not interested" reply is not permission to continue.
+Write a follow-up only when asked, from facts already in the conversation; do not reuse an email cadence or present one as LinkedIn policy. "Not interested", "stop" or a block ends the pitch: no further message, no workaround. When the user also asks about the InMail credit, explain once that Sales Navigator returns a credit when the recipient responds within 90 days, any response including "not interested", and keep that separate from the rule that the outreach ends. Give suppression entries for the user's own list with only the dates they supplied, and do not claim anything was recorded.
+
+## Quota and limit questions
+
+Answer with a compact register by topic: the rule, the source and the date it was checked, conflicts between LinkedIn's own pages, and what the pages do not say. Label it as the register bundled with this plugin. If the user asked you to rely on a different document they have not pasted, say so before answering and ask for it; never attribute these facts to that document.
 
 ## Sources (checked 2026-10-12)
 
