@@ -46,9 +46,21 @@ The plugin contains only instructions and reference text. It runs no code, calls
 - **Page cap reached:** name the sections or templates to cover next.
 - **No file access for the code audit:** paste the files the skill asks for.
 
-## Support
+## Related plugins
 
-Report problems and requests through GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+Where this plugin stops and another one of mine continues:
+
+- [AI Search Visibility & Brand Mentions (GEO/AEO)](https://github.com/grayskripko/marketing-skills/blob/main/plugins/ai-seo/README.md): After fixing classic search issues the next question is whether AI answer engines cite the site, which the audit does not measure; AI Search Visibility sets up the prompt panel and citation readout.
+- [Blog Content Strategy & Audit](https://github.com/grayskripko/marketing-skills/blob/wind/plugins/content-strategy/README.md): When seo-data-review flags losing or cannibalising pages, Content Strategy's content-inventory decides per URL whether to update, merge, redirect or retire, which the audit does not decide.
+- [Site Architecture & Faceted Navigation](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/site-architecture/README.md): The audit reports orphan pages, deep click depth and redirect chains but stops at tickets; Site Architecture builds the internal link plan and redirect map from the user's own links export to actually fix them.
+
+## Questions and feedback
+
+If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
+
+Bug reports also work in GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+
+Sergey Skripko. I build AI agents.
 
 ## License and privacy
 

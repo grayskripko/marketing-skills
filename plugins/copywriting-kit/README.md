@@ -54,9 +54,21 @@ The plugin contains only instructions and reference text; it ships no code and s
 - **Counts look off:** they are approximate without a code tool; ask for a recount.
 - **The edit changed too much:** ask for the full change log, then accept rows one by one.
 
-## Support
+## Related plugins
 
-Report problems and requests through GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+Where this plugin stops and another one of mine continues:
+
+- [CRO Checkout Audit and Test](https://github.com/grayskripko/marketing-skills/blob/squall/plugins/cro/README.md): A rewrite from copy-diagnose is only a hypothesis; CRO sizes the A/B test, judges the result, and checks the non-copy causes (forms, speed, tracking) the copy kit does not look at.
+- [Marketing Psychology & Dark Pattern Check](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/marketing-psychology/README.md): The copy kit locks facts but does not check urgency, scarcity, 'was' prices or review claims against consumer-protection rules; persuasion-audit and dark-pattern-check do.
+- [Copyedit & Proofreading](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/copy-editing/README.md): after copy-edit, run a final errors-only proofread with a Ship or Hold verdict, and compare the approved and final versions before publishing.
+
+## Questions and feedback
+
+If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
+
+Bug reports also work in GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+
+Sergey Skripko. I build AI agents.
 
 ## License and privacy
 

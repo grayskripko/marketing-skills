@@ -1,7 +1,7 @@
 {
   "name": "copywriting-kit",
   "displayName": "Copywriting & Positioning",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Edit, diagnose and rewrite copy for your own small-business or SaaS website: edited text first with every number, name and claim kept, a plain diagnosis of what is broken before any rewrite, claims checked against your own evidence, page drafts from your facts, and a brand voice guide from your own writing. Proof, testimonials and urgency are never invented.",
   "author": {
     "name": "Sergey Skripko",
@@ -23,6 +23,6 @@
     "tone-of-voice"
   ],
   "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/copywriting-kit/PRIVACY.md",
-  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/discussions",
   "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/copywriting-kit/README.md"
 }

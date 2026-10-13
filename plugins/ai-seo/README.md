@@ -43,9 +43,21 @@ Logs, exports and brand names you share stay in your conversation with the assis
 - **Thin sample warning:** default to 3 repetitions per prompt and phrasing per engine; if your log has fewer, it still reports observed rates and says repeated evidence is insufficient for a clear-change verdict. The report states the repetitions and rule used.
 - **Mixed settings in the log:** keep one setting per engine, or split the log.
 
-## Support
+## Related plugins
 
-Report problems and requests through GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+Where this plugin stops and another one of mine continues:
+
+- [Community & Reddit Marketing](https://github.com/grayskripko/marketing-skills/blob/storm/plugins/community-marketing/README.md): ai-offsite-plan names forums and subreddits that AI answers cite as opportunities; before anyone from the brand posts there, community-post-check checks disclosure and the venue's rules.
+- [Blog Content Strategy & Audit](https://github.com/grayskripko/marketing-skills/blob/wind/plugins/content-strategy/README.md): ai-answer-gap returns ranked sub-questions the page does not cover; content-brief turns one of them into a brief a writer can work from.
+- [SEO Audit](https://github.com/grayskripko/marketing-skills/blob/main/plugins/seo-audit/README.md): ai-page-audit scores one page, but if crawler access, rendering or indexing is broken across the site, the site-wide technical audit is what finds and tickets it.
+
+## Questions and feedback
+
+If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
+
+Bug reports also work in GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
+
+Sergey Skripko. I build AI agents.
 
 ## License and privacy
 

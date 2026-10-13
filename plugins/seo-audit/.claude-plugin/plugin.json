@@ -1,7 +1,7 @@
 {
   "name": "seo-audit",
   "displayName": "SEO Audit",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "description": "Use cases: SEO audit, website audit, ecommerce store SEO, organic traffic drop, technical and on-page SEO, Google Search Console errors, pages Google is not indexing. Find SEO problems that may be holding your website back on Google and decide which fixes to make first to improve organic search. Audit a website, a single page, Google Search Console and crawler exports, or a site's source code for technical, on-page and content SEO issues. Every finding shows its evidence and how sure it is, and findings can be turned into a prioritized fix plan with developer tickets.",
   "author": {
     "name": "Sergey Skripko",
@@ -26,6 +26,6 @@
     "structured-data"
   ],
   "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/seo-audit/PRIVACY.md",
-  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/discussions",
   "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/seo-audit/README.md"
 }
