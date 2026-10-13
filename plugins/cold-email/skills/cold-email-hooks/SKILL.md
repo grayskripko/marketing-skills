@@ -36,7 +36,7 @@ Before dropping an old fact, check whether a truthful past-tense sentence with i
 
 ## Step 3. Opening lines
 
-For each prospect, write one plain sentence from the highest-scoring fact that connects it to the reader's problem: no compliments, no "I noticed you". A past fact may lead into a question about today's workflow if it stays in the past tense with its source and date; never imply a plan was carried out. Attribute a publication date to the source, not to the event. With no usable prospect fact, ask one short workflow question using the supplied role and the offer's specific comparison objects or output; frame it as a question without asserting that the prospect already uses those inputs, follows that process or has that problem. The offer's target segment says nothing about this prospect's sites or workflow. Do not assert that the prospect currently has the problem.
+Use the strongest supported work fact to open the email, preserving tense, source and date and never implying a plan happened. When the user asks to start an email, add a short relevant reply question if useful; keep a requested single-sentence opener to one sentence. Without workflow evidence, ask whether the relevant check occurs before asking how it is done; do not presume use of the offer’s inputs, process or sites.
 
 Bad: "Loved your inspiring post on leadership!" Good: "Acme posted an AP clerk opening on 12 September, so invoice volume may be on your mind."
 
