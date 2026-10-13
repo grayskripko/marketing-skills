@@ -1,0 +1,42 @@
+{
+  "name": "grant-applications",
+  "version": "0.1.3",
+  "description": "Compare your grant application, budget and attachments with the funder’s supplied instructions and amendments. Use when someone asks “check our application before submission”, “turn this RFP into a checklist” or “why doesn’t this budget add up?” Supply readable instructions, amendments, application material and approved organization facts. Get requirements, draft fixes supported by those facts, and recalculated budget figures. Source locations and formulas help your authorized grant and finance reviewers check the results. Not for finding grants, submitting applications, certifying eligibility or predicting awards. Reads supplied material only; no network or account access.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "grant-application",
+    "grant-requirements",
+    "grant-budget",
+    "nonprofit",
+    "application-review"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Grant Applications",
+    "shortDescription": "Check grant drafts and budgets",
+    "longDescription": "Compare your grant application, budget and attachments with the funder’s supplied instructions and amendments. Use when someone asks “check our application before submission”, “turn this RFP into a checklist” or “why doesn’t this budget add up?” Supply readable instructions, amendments, application material and approved organization facts. Get requirements, draft fixes supported by those facts, and recalculated budget figures. Source locations and formulas help your authorized grant and finance reviewers check the results. Not for finding grants, submitting applications, certifying eligibility or predicting awards. Reads supplied material only; no network or account access.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245747",
+    "brandColorDark": "#88BEAA",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this grant draft against the supplied notice and amendments.",
+      "Recalculate this grant budget and compare it with the narrative."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

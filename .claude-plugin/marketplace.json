@@ -1,0 +1,15 @@
+{
+  "name": "pl-grant-applications",
+  "description": "Compare your grant application, budget and attachments with the funder’s supplied instructions and amendments. Use when someone asks “check our application before submission”, “turn this RFP into a checklist” or “why doesn’t this budget add up?” Supply readable instructions, amendments, application material and approved organization facts. Get requirements, draft fixes supported by those facts, and recalculated budget figures. Source locations and formulas help your authorized grant and finance reviewers check the results. Not for finding grants, submitting applications, certifying eligibility or predicting awards. Reads supplied material only; no network or account access.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "grant-applications",
+      "source": "./plugins/grant-applications",
+      "description": "Compare your grant application, budget and attachments with the funder’s supplied instructions and amendments. Use when someone asks “check our application before submission”, “turn this RFP into a checklist” or “why doesn’t this budget add up?” Supply readable instructions, amendments, application material and approved organization facts. Get requirements, draft fixes supported by those facts, and recalculated budget figures. Source locations and formulas help your authorized grant and finance reviewers check the results. Not for finding grants, submitting applications, certifying eligibility or predicting awards. Reads supplied material only; no network or account access."
+    }
+  ]
+}
