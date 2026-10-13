@@ -1,0 +1,49 @@
+{
+  "name": "spc-charts",
+  "version": "0.1.6",
+  "description": "Make SPC control charts and calculate control limits from your inspection data. Choose I-MR, Xbar-R, Xbar-S, p, u or c charts from how the data were collected, freeze a dated baseline and rule set, and list every out-of-control signal with its source row. Check Cpk and Ppk only when the process is stable and the data are sufficient. Works from data you provide for this task, pasted or as an export you name; no connectors.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "spc",
+    "control-chart",
+    "control-limits",
+    "i-mr-chart",
+    "xbar-r-chart",
+    "p-chart",
+    "western-electric-rules",
+    "nelson-rules",
+    "cpk",
+    "process-capability"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SPC Charts",
+    "shortDescription": "Control charts and limits from inspection data",
+    "longDescription": "Make SPC control charts and calculate control limits from your inspection data. Choose I-MR, Xbar-R, Xbar-S, p, u or c charts from how the data were collected, freeze a dated baseline and rule set, and list every out-of-control signal with its source row. Check Cpk and Ppk only when the process is stable and the data are sufficient. Works from data you provide for this task, pasted or as an export you name; no connectors.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#1F3A5F",
+    "brandColorDark": "#9FC3E7",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Set up a control chart and limits for these measurements.",
+      "Check these new points against our control limits.",
+      "Calculate Cpk and Ppk for this part feature."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-spc-charts/plugins/spc-charts/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

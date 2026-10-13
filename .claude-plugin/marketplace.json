@@ -1,0 +1,15 @@
+{
+  "name": "pl-spc-charts",
+  "description": "Make SPC control charts and calculate control limits from your inspection data. Choose I-MR, Xbar-R, Xbar-S, p, u or c charts from how the data were collected, freeze a dated baseline and rule set, and list every out-of-control signal with its source row. Check Cpk and Ppk only when the process is stable and the data are sufficient. Works from data you provide for this task, pasted or as an export you name; no connectors.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "spc-charts",
+      "source": "./plugins/spc-charts",
+      "description": "Make SPC control charts and calculate control limits from your inspection data. Choose I-MR, Xbar-R, Xbar-S, p, u or c charts from how the data were collected, freeze a dated baseline and rule set, and list every out-of-control signal with its source row. Check Cpk and Ppk only when the process is stable and the data are sufficient. Works from data you provide for this task, pasted or as an export you name; no connectors."
+    }
+  ]
+}
