@@ -1,0 +1,15 @@
+{
+  "name": "pl-fmea-linkage",
+  "description": "Check that the process flow diagram, PFMEA, control plan and work instructions agree by operation, characteristic, control and revision. Paste the rows and get the broken links with the source rows that show them: steps missing from a document, specification and control conflicts, special characteristics not carried through, stale revisions and mismatched reaction plans. Also lists every row to update after a drawing revision, process change or 8D action. Built-in Ford requirements effective 15 June 2026. For process-quality engineers and FMEA facilitators at manufacturing suppliers.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "fmea-linkage",
+      "source": "./plugins/fmea-linkage",
+      "description": "Check that the process flow diagram, PFMEA, control plan and work instructions agree by operation, characteristic, control and revision. Paste the rows and get the broken links with the source rows that show them: steps missing from a document, specification and control conflicts, special characteristics not carried through, stale revisions and mismatched reaction plans. Also lists every row to update after a drawing revision, process change or 8D action. Built-in Ford requirements effective 15 June 2026. For process-quality engineers and FMEA facilitators at manufacturing suppliers."
+    }
+  ]
+}

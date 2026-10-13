@@ -1,0 +1,48 @@
+{
+  "name": "fmea-linkage",
+  "version": "0.1.3",
+  "description": "Check that the process flow diagram, PFMEA, control plan and work instructions agree by operation, characteristic, control and revision. Paste the rows and get the broken links with the source rows that show them: steps missing from a document, specification and control conflicts, special characteristics not carried through, stale revisions and mismatched reaction plans. Also lists every row to update after a drawing revision, process change or 8D action. Built-in Ford requirements effective 15 June 2026. For process-quality engineers and FMEA facilitators at manufacturing suppliers.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "pfmea",
+    "process-fmea",
+    "control-plan",
+    "process-flow-diagram",
+    "fmea-linkage",
+    "work-instructions",
+    "special-characteristics",
+    "apqp",
+    "iatf-16949",
+    "automotive"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FMEA Linkage",
+    "shortDescription": "Check PFMEA, control plan and flow linkage",
+    "longDescription": "Check that the process flow diagram, PFMEA, control plan and work instructions agree by operation, characteristic, control and revision. Paste the rows and get the broken links with the source rows that show them: steps missing from a document, specification and control conflicts, special characteristics not carried through, stale revisions and mismatched reaction plans. Also lists every row to update after a drawing revision, process change or 8D action. Built-in Ford requirements effective 15 June 2026. For process-quality engineers and FMEA facilitators at manufacturing suppliers.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2E4A62",
+    "brandColorDark": "#5FB3A1",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Does our control plan match the PFMEA? Rows below.",
+      "Check linkage between process flow, PFMEA, control plan and work instructions.",
+      "Drawing went to rev D. What do we update in the PFMEA and control plan?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-fmea-linkage/plugins/fmea-linkage/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
+  }
+}
