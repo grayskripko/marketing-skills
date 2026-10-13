@@ -26,6 +26,10 @@ Judge a cold email the way a busy recipient reads it, then rewrite it without ch
 
 In this skill: nothing is fetched. If the user gives only a link to an email, ask them to paste the text.
 
+## LinkedIn messages
+
+For a pasted LinkedIn connection note, direct message or InMail, review it against `../cold-email-write/references/linkedin-messages.md` (type, length, no promotional note to a stranger, stop requests) instead of the email score, and return the rewrite first.
+
 ## Step 1. Intake
 
 If the email is in the request, start now. Note the email recipient (role and company type). If unstated, keep any tentative inference internal and do not treat it as supplied fact; ask a concise question only when the actual audience materially changes the rewrite. If several emails of a sequence are pasted, rewrite each with a justified purpose. Default to new value; allow an honest limited reminder when appropriate, except when the user explicitly requires a new reason in every follow-up. Recipient rows or DNS records belong to cold-email-check: say so in one line and review only the text. If no email is pasted, ask for one email and who receives it. Give general possible causes only when the user requests them, label them as hypotheses, and do not diagnose an unseen email.
