@@ -1,0 +1,15 @@
+{
+  "name": "pl-tool-schemas",
+  "description": "Fix AI agent tool contracts when connections work but tool choices, arguments or results fail. Use when you need an existing tool schema, function calling interface or structured tool output repaired from pasted traces, logs, configs, transcripts, definitions or selected code files. Audit the contract, patch names and parameters, make success and errors explicit, and check the repaired interface against supplied receipts or your selected installed runtime. Return concrete patches and observed checks for the owned tool. Not for MCP connection setup, whole-server creation, worker brief cleanup or grading final reports.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "tool-schemas",
+      "source": "./plugins/tool-schemas",
+      "description": "Fix AI agent tool contracts when connections work but tool choices, arguments or results fail. Use when you need an existing tool schema, function calling interface or structured tool output repaired from pasted traces, logs, configs, transcripts, definitions or selected code files. Audit the contract, patch names and parameters, make success and errors explicit, and check the repaired interface against supplied receipts or your selected installed runtime. Return concrete patches and observed checks for the owned tool. Not for MCP connection setup, whole-server creation, worker brief cleanup or grading final reports."
+    }
+  ]
+}
