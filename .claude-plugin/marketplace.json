@@ -1,0 +1,15 @@
+{
+  "name": "pl-hazop-actions",
+  "description": "Reconcile HAZOP and PHA recommendations with the action tracker and close-out records. Matches node, deviation and recommendation numbers to action IDs from pasted worksheet and tracker rows; lists recommendations with no action, actions with no recommendation, changed wording, stale revisions, missing owners and due dates, overdue and turnaround items; checks closed and declined actions against their MOC, work order and revision records; and works out the five-year revalidation date and carry-over list. For PHA coordinators, process safety engineers and HAZOP scribes.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "hazop-actions",
+      "source": "./plugins/hazop-actions",
+      "description": "Reconcile HAZOP and PHA recommendations with the action tracker and close-out records. Matches node, deviation and recommendation numbers to action IDs from pasted worksheet and tracker rows; lists recommendations with no action, actions with no recommendation, changed wording, stale revisions, missing owners and due dates, overdue and turnaround items; checks closed and declined actions against their MOC, work order and revision records; and works out the five-year revalidation date and carry-over list. For PHA coordinators, process safety engineers and HAZOP scribes."
+    }
+  ]
+}

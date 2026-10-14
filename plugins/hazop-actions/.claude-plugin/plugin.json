@@ -1,0 +1,28 @@
+{
+  "name": "hazop-actions",
+  "version": "0.1.3",
+  "description": "Reconcile HAZOP and PHA recommendations with the action tracker and close-out records. Matches node, deviation and recommendation numbers to action IDs from pasted worksheet and tracker rows; lists recommendations with no action, actions with no recommendation, changed wording, stale revisions, missing owners and due dates, overdue and turnaround items; checks closed and declined actions against their MOC, work order and revision records; and works out the five-year revalidation date and carry-over list. For PHA coordinators, process safety engineers and HAZOP scribes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "hazop",
+    "hazop-action-tracking",
+    "pha-recommendations",
+    "hazop-close-out",
+    "action-register",
+    "process-hazard-analysis",
+    "pha-revalidation",
+    "process-safety-management",
+    "psm",
+    "osha-1910-119"
+  ],
+  "displayName": "HAZOP Actions",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-hazop-actions/plugins/hazop-actions/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/discussions",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-hazop-actions/plugins/hazop-actions/README.md"
+}
