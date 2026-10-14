@@ -1,0 +1,15 @@
+{
+  "name": "pl-wps-crosschecks",
+  "description": "Check welding procedure specifications (WPS) against their procedure qualification records (PQR) and lab test reports under ASME Section IX. Works on pasted WPS, PQR, test report and joint-list text: matches PQR, coupon, specimen and WPS numbers and revisions, rebuilds WPS ranges process by process from coupon actuals, recomputes heat input and tensile stress, and flags unsupported ranges, transcription errors, superseded revisions and joints outside their WPS. For welding engineers, welding inspectors and QA document reviewers.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "wps-crosschecks",
+      "source": "./plugins/wps-crosschecks",
+      "description": "Check welding procedure specifications (WPS) against their procedure qualification records (PQR) and lab test reports under ASME Section IX. Works on pasted WPS, PQR, test report and joint-list text: matches PQR, coupon, specimen and WPS numbers and revisions, rebuilds WPS ranges process by process from coupon actuals, recomputes heat input and tensile stress, and flags unsupported ranges, transcription errors, superseded revisions and joints outside their WPS. For welding engineers, welding inspectors and QA document reviewers."
+    }
+  ]
+}

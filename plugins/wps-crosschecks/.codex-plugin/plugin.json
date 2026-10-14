@@ -1,0 +1,48 @@
+{
+  "name": "wps-crosschecks",
+  "version": "0.1.3",
+  "description": "Check welding procedure specifications (WPS) against their procedure qualification records (PQR) and lab test reports under ASME Section IX. Works on pasted WPS, PQR, test report and joint-list text: matches PQR, coupon, specimen and WPS numbers and revisions, rebuilds WPS ranges process by process from coupon actuals, recomputes heat input and tensile stress, and flags unsupported ranges, transcription errors, superseded revisions and joints outside their WPS. For welding engineers, welding inspectors and QA document reviewers.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "wps",
+    "pqr",
+    "asme-section-ix",
+    "welding-procedure",
+    "procedure-qualification",
+    "weld-map",
+    "heat-input",
+    "welding-inspection",
+    "qa-documentation",
+    "pressure-equipment"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WPS Crosschecks",
+    "shortDescription": "Check WPS, PQR and test reports agree",
+    "longDescription": "Check welding procedure specifications (WPS) against their procedure qualification records (PQR) and lab test reports under ASME Section IX. Works on pasted WPS, PQR, test report and joint-list text: matches PQR, coupon, specimen and WPS numbers and revisions, rebuilds WPS ranges process by process from coupon actuals, recomputes heat input and tensile stress, and flags unsupported ranges, transcription errors, superseded revisions and joints outside their WPS. For welding engineers, welding inspectors and QA document reviewers.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2F4858",
+    "brandColorDark": "#F26419",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Does this PQR support my WPS? Both are pasted below.",
+      "Check the PQR tensile and Charpy results against this lab report.",
+      "Which joints on this weld map use an old WPS revision?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-wps-crosschecks/plugins/wps-crosschecks/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
+  }
+}
