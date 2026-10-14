@@ -1,0 +1,15 @@
+{
+  "name": "pl-roadmap-planning",
+  "description": "Compares backlog choices and shows what each choice puts on hold. Use when you ask “what does this urgent feature push out?”, “what fits next quarter?” or “which estimates change our priorities?” Give it your goals, estimates, scoring method, dependencies and capacity in pasted tables or the export you name. It checks inputs, compares choices, tests only the ranges or scenarios you supply and drafts a decision note. Missing facts stay visible. Scores do not prove value or promise delivery dates. Not for general PRDs, fetching URLs, updating trackers, publishing roadmaps or making customer commitments. No accounts or paid APIs are required.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "roadmap-planning",
+      "source": "./plugins/roadmap-planning",
+      "description": "Compares backlog choices and shows what each choice puts on hold. Use when you ask “what does this urgent feature push out?”, “what fits next quarter?” or “which estimates change our priorities?” Give it your goals, estimates, scoring method, dependencies and capacity in pasted tables or the export you name. It checks inputs, compares choices, tests only the ranges or scenarios you supply and drafts a decision note. Missing facts stay visible. Scores do not prove value or promise delivery dates. Not for general PRDs, fetching URLs, updating trackers, publishing roadmaps or making customer commitments. No accounts or paid APIs are required."
+    }
+  ]
+}
