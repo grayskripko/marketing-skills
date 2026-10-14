@@ -11,7 +11,7 @@ Fill the template with each row and check:
 | MQ-03 | Value mismatch | A column contradicts the email (product, company or role named in the text differs from the row) |
 | MQ-04 | Past contact | The email claims a meeting or conversation that the row gives no basis for |
 | MQ-05 | Duplicate person | The same person appears twice (same name and company, or the same address if addresses were given) |
-| MQ-06 | Suppressed | The row's person appears on a suppression or opt-out list the user pasted |
+| MQ-06 | Suppressed | The row's person appears on a suppression or opt-out list the user supplied |
 | MQ-07 | Prior contact in notes (ASK) | The row's notes show earlier contact ("as discussed", "met at", "asked for pricing"): this person may not be cold; confirm and use a follow-up, not the cold template |
 | MQ-08 | Unverifiable row claim (ASK) | The template states something about the row ("is hiring", "just raised") that the supplied evidence does not establish in full, including the relevant role and current tense; a notice label/date alone is insufficient. If a dated notice supports it, rewrite to past tense with the date instead |
 

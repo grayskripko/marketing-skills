@@ -7,8 +7,8 @@ Write, review and check one-to-one business cold emails. You get cold-email copy
 | Skill | Give it | You get |
 |---|---|---|
 | cold-email-write | your offer and who it's for | a cold email and follow-ups, ready to paste |
-| cold-email-review | an email that gets no replies | a rewrite first, then what changed and why; a 12-check score on request |
-| cold-email-check | an email you're about to send, up to 25 sample rows, your DNS records | what to fix before sending, a fixed version, problem rows, what your records cover |
+| cold-email-review | an email that gets no replies | a rewrite in your requested format, relevant change notes and an editorial score on request |
+| cold-email-check | an email you're about to send, up to 25 sample rows, your DNS records | requested fixes, corrected copy, row decisions or an assessment of supplied records |
 | cold-email-brief | your offer and audience | whether the offer is ready, and what's missing |
 | cold-email-hooks | notes on up to 20 prospects, or links to up to 3 public pages | one opening line per prospect from a real, dated fact |
 
@@ -28,7 +28,7 @@ Send email, create drafts, add contacts to tools, find addresses, scrape, fake r
 
 ## Personal data
 
-Notes, rows and replies can contain names and addresses. The plugin reads them in the conversation and stores nothing. Addresses are never needed: redact them.
+Notes, rows and replies can contain names and addresses. Use data or a named export explicitly supplied for the task; the plugin does not scan memory, chat history or unrelated files and stores nothing. Addresses are never needed: redact them.
 
 ## Data and network
 

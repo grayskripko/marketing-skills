@@ -1,6 +1,6 @@
 # Sender setup
 
-Judged only from records or headers the user pastes. Run no DNS query. Ask about sending volume and destination mix only when needed to determine requested provider-policy applicability. For an authentication diagnosis, report only relevant knowns, unknowns and admin fixes in the requested shape. Provider tables are background for provider-policy questions, not mandatory output. Sources were read on 2026-09-30; if provider-policy advice is requested, identify the applicable scope and any uncertainty about current verification.
+Judged from supplied records or headers. Run no DNS query. Ask about sending volume and destination mix only when needed to determine requested provider-policy applicability. For an authentication diagnosis, report only relevant knowns, unknowns and admin fixes in the requested shape. Provider tables are background for provider-policy questions, not mandatory output. Sources were read on 2026-09-30; if provider-policy advice is requested, identify the applicable scope and any uncertainty about current verification.
 
 ## All senders
 
@@ -15,7 +15,7 @@ Judged only from records or headers the user pastes. Run no DNS query. Ask about
 
 ## Provider-specific bulk-sender requirements
 
-Use this block only when the user asks about provider requirements; omit it for paste-only authentication diagnosis. Keep providers and applicability scopes separate. Use supplied volume and destination context; ask the minimum missing scope question only when it changes the requested applicability answer.
+Use this block only when the user asks about provider requirements; omit it for records-only authentication diagnosis. Keep providers and applicability scopes separate. Use supplied volume and destination context; ask the minimum missing scope question only when it changes the requested applicability answer.
 
 - Google: senders of 5,000 or more messages a day to personal Gmail accounts need SPF and DKIM, a DMARC record, a From domain aligned with SPF or DKIM, and one-click unsubscribe for marketing and subscribed messages, plus a visible unsubscribe link.
 - Yahoo: bulk senders need SPF and DKIM, a DMARC policy of at least p=none that passes, a From domain aligned with the SPF or DKIM domain, one-click unsubscribe for marketing and subscribed mail (List-Unsubscribe with RFC 8058 POST recommended, mailto accepted) plus a visible unsubscribe link in the body and must honor unsubscribes within 2 days.
@@ -26,7 +26,7 @@ Use this block only when the user asks about provider requirements; omit it for 
 - Yahoo Sender Hub, "Sender Best Practices", senders.yahooinc.com/best-practices.
 - Microsoft Tech Community, "Strengthening Email Ecosystem: Outlook's New Requirements for High-Volume Senders" (2025-04-02, updated 2025-04-29).
 
-## Reading pasted records
+## Reading supplied records
 - SPF: a TXT record starting `v=spf1`. "~all" is a soft fail, "-all" a hard fail; "+all" makes any server pass and is a FIX; "?all" returns neutral (no protection) and should be tightened. More than one SPF record for a domain is a fault. More than 10 evaluated DNS-querying terms (include, a, mx, ptr, exists, redirect), counted recursively through includes, makes SPF fail with a permanent error (RFC 7208, section 4.6.4); terms in branches that are never evaluated do not count. Report "can't tell" when an include is not expanded.
 - DKIM: a TXT record at `<selector>._domainkey.<signing-domain>` whose key record usually starts `v=DKIM1` (recommended, not required: RFC 6376 defaults it when absent, and if present it must come first). Both selector and actual signing domain must be established; never assume the visible From domain is the signing domain. A `p=` key that looks cut off (very short, or ending mid-value in the paste) is "can't tell from input: publish or paste the full key".
 - DMARC: a TXT record at `_dmarc.domain` starting `v=DMARC1` with a `p=` tag. A `rua=` address receives aggregate reports, which show who sends as the domain; suggest adding one if missing.
