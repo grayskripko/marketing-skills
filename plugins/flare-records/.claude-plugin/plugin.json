@@ -1,6 +1,6 @@
 {
   "name": "flare-records",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Turn pasted refinery and chemical-plant flare data into 15-minute compliance blocks under 40 CFR 63.670: NHVvg, combustion zone net heating value (NHVcz), NHVdil, tip velocity and pilot-flame deviation blocks, with the HON and ethylene rule variants. Cross-checks historian flows, routing and pilot logs, gas analysis revisions, Method 22 observations and a draft periodic report, and lists each mismatch, gap or stale revision with the blocks it affects. For flare-compliance engineers and emissions consultants.",
   "author": {
     "name": "Sergey Skripko",
