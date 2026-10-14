@@ -1,0 +1,15 @@
+{
+  "name": "pl-tierii-inventories",
+  "description": "Build EPCRA Tier II chemical inventory quantities from pasted stock counts, receipts, usage and SDS composition: maximum amount on any one day, average daily amount, days on site, range codes and the threshold comparison, with extremely hazardous substances added across every mixture. Matches products, CAS numbers and SDS revisions across the records, catches gaps and stale revisions, and compares the result with last year's Tier II report. For EHS and environmental coordinators at plants, warehouses and depots, and consultants who prepare Tier II reports.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "tierii-inventories",
+      "source": "./plugins/tierii-inventories",
+      "description": "Build EPCRA Tier II chemical inventory quantities from pasted stock counts, receipts, usage and SDS composition: maximum amount on any one day, average daily amount, days on site, range codes and the threshold comparison, with extremely hazardous substances added across every mixture. Matches products, CAS numbers and SDS revisions across the records, catches gaps and stale revisions, and compares the result with last year's Tier II report. For EHS and environmental coordinators at plants, warehouses and depots, and consultants who prepare Tier II reports."
+    }
+  ]
+}

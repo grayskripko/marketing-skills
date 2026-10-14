@@ -1,0 +1,48 @@
+{
+  "name": "tierii-inventories",
+  "version": "0.1.2",
+  "description": "Build EPCRA Tier II chemical inventory quantities from pasted stock counts, receipts, usage and SDS composition: maximum amount on any one day, average daily amount, days on site, range codes and the threshold comparison, with extremely hazardous substances added across every mixture. Matches products, CAS numbers and SDS revisions across the records, catches gaps and stale revisions, and compares the result with last year's Tier II report. For EHS and environmental coordinators at plants, warehouses and depots, and consultants who prepare Tier II reports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "tier-ii",
+    "epcra",
+    "chemical-inventory",
+    "hazardous-chemical-inventory",
+    "sara-title-iii",
+    "extremely-hazardous-substances",
+    "sds",
+    "threshold-planning-quantity",
+    "ehs-compliance",
+    "environmental-reporting"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TierII Inventories",
+    "shortDescription": "Tier II max, average and thresholds",
+    "longDescription": "Build EPCRA Tier II chemical inventory quantities from pasted stock counts, receipts, usage and SDS composition: maximum amount on any one day, average daily amount, days on site, range codes and the threshold comparison, with extremely hazardous substances added across every mixture. Matches products, CAS numbers and SDS revisions across the records, catches gaps and stale revisions, and compares the result with last year's Tier II report. For EHS and environmental coordinators at plants, warehouses and depots, and consultants who prepare Tier II reports.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2E4A3F",
+    "brandColorDark": "#F2B134",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Are we over the Tier II threshold for sulfuric acid? Here are our counts and receipts.",
+      "Which ingredients in these SDSs count for Tier II?",
+      "What changed since last year's Tier II report?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-tierii-inventories/plugins/tierii-inventories/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
+  }
+}
