@@ -6,7 +6,7 @@ For product and engineering owners preparing a roadmap decision. Give it a backl
 
 ## What this package runs and connects to
 
-This package supplies Markdown skills and reference text, JSON platform metadata, a static SVG icon and a license. It includes no executable scripts, dependencies, installers, hooks, MCP or LSP servers, or background processes. Installing it does not run a program or connect an account. Development harnesses and evaluation records are kept outside this plugin folder in `plans/overnight/development/roadmap-planning/`.
+This package supplies Markdown skills and reference text, JSON platform metadata, a static SVG icon and a license. It includes no executable scripts, dependencies, installers, hooks, MCP or LSP servers, or background processes. Installing it does not run a program or connect an account.
 
 The skills analyze data you provide for this task: backlog rows you paste, or the export you name or attach for this request. All four skills permit your assistant's existing local tools to read that export and bundled references and to calculate; those calculations may execute code in the assistant's tool environment. The decision model also permits available host calculation tools and explains how to interpret CP-SAT results if the host uses that solver. No solver is bundled or required, and the skills do not direct software installation. Tool execution and temporary files are managed by your assistant provider.
 
