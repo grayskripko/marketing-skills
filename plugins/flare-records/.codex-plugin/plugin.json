@@ -1,0 +1,48 @@
+{
+  "name": "flare-records",
+  "version": "0.1.2",
+  "description": "Turn pasted refinery and chemical-plant flare data into 15-minute compliance blocks under 40 CFR 63.670: NHVvg, combustion zone net heating value (NHVcz), NHVdil, tip velocity and pilot-flame deviation blocks, with the HON and ethylene rule variants. Cross-checks historian flows, routing and pilot logs, gas analysis revisions, Method 22 observations and a draft periodic report, and lists each mismatch, gap or stale revision with the blocks it affects. For flare-compliance engineers and emissions consultants.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "flare",
+    "flare-compliance",
+    "refinery-mact",
+    "40-cfr-63-670",
+    "nhvcz",
+    "net-heating-value",
+    "pilot-flame",
+    "method-22",
+    "flare-monitoring",
+    "emissions-reporting"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Flare Records",
+    "shortDescription": "Flare 15-minute blocks and record checks",
+    "longDescription": "Turn pasted refinery and chemical-plant flare data into 15-minute compliance blocks under 40 CFR 63.670: NHVvg, combustion zone net heating value (NHVcz), NHVdil, tip velocity and pilot-flame deviation blocks, with the HON and ethylene rule variants. Cross-checks historian flows, routing and pilot logs, gas analysis revisions, Method 22 observations and a draft periodic report, and lists each mismatch, gap or stale revision with the blocks it affects. For flare-compliance engineers and emissions consultants.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2E3B4E",
+    "brandColorDark": "#F08A24",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Which of these flare blocks were below 270 Btu/scf?",
+      "Was this pilot loss a deviation? Logs pasted below.",
+      "Reconcile our draft flare report table against these logs."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-flare-records/plugins/flare-records/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
+  }
+}
