@@ -1,6 +1,6 @@
 {
   "name": "revops",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Check stated stage probabilities against what actually closed, build an ARR bridge with gross and net revenue retention (GRR, NRR) that reconciles to zero, backtest forecast methods on your own history, plan a revenue target back to deals, SQLs and team capacity, and measure funnel conversion by cohort and source. Every figure shows its formula and every rate its sample size and 95% range, computed only from data you give.",
   "author": {
     "name": "Sergey Skripko",
