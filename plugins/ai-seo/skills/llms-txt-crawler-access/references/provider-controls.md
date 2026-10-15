@@ -12,7 +12,7 @@ Reviewed 2026-10-12. Vendor-declared behaviour, not an independent compliance au
 | `Claude-SearchBot` | Claude search indexing | Disallow prevents its search indexing and may reduce visibility in Claude search answers. |
 | `ClaudeBot` | Potential training collection | Disallow excludes future material under Anthropic's policy; does not erase past training. |
 | `Claude-User` | Retrieval a Claude user asks for | Disallow prevents retrieval for user queries under Anthropic's policy. |
-| `Googlebot` | Google Search, including AI Overviews and AI Mode | Blocking it blocks Search too; there is no AI-only opt-out for Search. Supporting links in AI features need indexed, snippet-eligible pages; `nosnippet`, `data-nosnippet` and `max-snippet` apply. |
+| `Googlebot` | Google Search, including AI Overviews and AI Mode | Blocking it blocks Search too. The AI-only opt-out is the Search Console control (see SKILL.md), not a robots token. Supporting links in AI features need indexed, snippet-eligible pages; `nosnippet`, `data-nosnippet` and `max-snippet` apply. |
 | `Google-Extended` | Gemini training and grounding in Gemini Apps and Vertex AI | Control token only (no separate user agent). Does not affect Google Search inclusion or ranking; blocking it can affect Gemini grounding. |
 | `bingbot` | Bing indexing, which Copilot answers draw on | Blocks Bing crawling; removal from results needs a readable `noindex`, not only a robots block. |
 

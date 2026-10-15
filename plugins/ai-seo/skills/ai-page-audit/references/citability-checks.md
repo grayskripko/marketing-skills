@@ -1,6 +1,6 @@
 # Citability checks
 
-Default: nine checks scored 0 (fails), 1 (partly/uncertain) or 2 (passes), maximum 18, with the AI-directed-text risk kept outside the score. Use N/A for a check whose trait does not apply to the supplied page type (for example a time-sensitive freshness requirement for demonstrably evergreen facts, or prose structure for a functioning tool; missing author/date/access evidence alone never establishes inapplicability). Report X/(2 × applicable checks), list excluded checks and state the applicable-check variant used. Keep failures and unknown applicable evidence in the denominator. Do not infer citation likelihood from either score or compare changed-denominator totals without the component scores.
+Default: nine checks scored 0 (fails), 1 (partly/uncertain) or 2 (passes), maximum 18, with the AI-directed-text risk kept outside the score. Use N/A for a check whose trait does not apply to the supplied page type (for example a time-sensitive freshness requirement for demonstrably evergreen facts, or prose structure for a functioning tool; missing author/date/access evidence alone never establishes inapplicability). Report X/(2 × applicable checks) and name any excluded check. Keep failures and unknown applicable evidence in the denominator. Do not infer citation likelihood from either score or compare changed-denominator totals without the component scores.
 
 | # | Check | 2 | 1 | 0 | Usual false positives |
 |---|---|---|---|---|---|

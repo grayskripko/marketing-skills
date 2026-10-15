@@ -16,4 +16,4 @@ Rewrites use only page or supplied facts and preserve their exact scope. Default
 
 Give the requested ready-to-paste text or markup directly. Explain only changes needed to interpret or apply it, outside the copy. Use a passage/evidence/rewrite table only when requested, not as a default wrapper. Do not add missing-facts columns or questions when the supplied facts suffice.
 
-Default: up to 3 rewrites for the weakest distinct checks. Use the user’s complete requested passage list when supplied, or fewer when fewer weaknesses exist. State the selection used. Preserve meaning, conditions and tone; add no sales claims.
+Default: up to 3 rewrites for the weakest distinct checks. Use the user’s complete requested passage list when supplied, or fewer when fewer weaknesses exist. Preserve meaning, conditions and tone; add no sales claims.

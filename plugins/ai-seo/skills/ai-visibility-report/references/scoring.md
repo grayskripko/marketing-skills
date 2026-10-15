@@ -40,10 +40,10 @@ Why a rule is needed: AI answers change often. In its November 2025 study, Ahref
 
 ## Lost prompts
 
-When the user requests diagnostic classification, an unbranded prompt ID is **lost in this panel** when brand mentions are 0 and strictly more than 50% of its runs name a tracked competitor, pooling matched phrasings. Use **possible gap, insufficient repetition** when it has fewer than 3 repetitions per observed phrasing; retain the observed 0/n and competitor k/n. When the brand appears but competitor appearances outnumber brand appearances, use **competitor-dominated**, not lost. State the label rule used; never infer market absence.
+When the user requests diagnostic classification, an unbranded prompt ID is **lost in this panel** when brand mentions are 0 and strictly more than 50% of its runs name a tracked competitor, pooling matched phrasings. Use **possible gap, insufficient repetition** when it has fewer than 3 repetitions per observed phrasing; retain the observed 0/n and competitor k/n. When the brand appears but competitor appearances outnumber brand appearances, use **competitor-dominated**, not lost. Never infer market absence.
 
 List only the lost prompts with their counts. Print the full per-prompt table (engine | period | prompt_id | runs | runs with any competitor | runs with the brand | lost?) only if the user asks for it.
 
 ## Cited instead
 
-Split `cited_urls` on `;`, reduce each URL to its host without `www.`, and count hosts per engine and period. Default: show the top 10 with counts and mark the brand domain. Use all hosts when there are fewer than 10; include every tie at the tenth count, and show all supplied hosts when the user asks for a complete inventory. State the display limit used.
+Split `cited_urls` on `;`, reduce each URL to its host without `www.`, and count hosts per engine and period. Default: show the top 10 with counts and mark the brand domain. Use all hosts when there are fewer than 10; include every tie at the tenth count, and show all supplied hosts when the user asks for a complete inventory.
