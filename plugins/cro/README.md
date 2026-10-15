@@ -1,16 +1,14 @@
 # CRO Audit and Test Kit
 
-Conversion rate optimization (CRO) for your own pages, forms, checkouts and A/B tests. Every finding shows its evidence, and every number shows its arithmetic.
-
-> "Can we ship B? A: 300 signups from 10,000 visitors. B: 345 from 10,150." → **Inconclusive.** B converted 3.4% against A's 3.0%, but the data fit anything from a small loss to a 32% gain. The traffic split is fine. The answer gives the test size that would settle it.
+Conversion rate optimization (CRO) for your own pages, forms, checkouts and A/B tests: what to fix first, and what your numbers can and cannot tell you.
 
 ## Skills
 
-- **page-audit**: a landing, pricing or demo page and its numbers → what to fix first, each fix marked fix now, A/B test or research first.
-- **flow-audit**: a form, signup or checkout → which fields to cut or move later, where people get stuck, and a dated check of the order step against EU and US rules (UK rows not yet verified).
-- **funnel-leaks**: step counts split by device or source, or set against an earlier period → which step loses the most people, and how sure that is.
-- **ab-test-plan**: your conversion rate and weekly traffic → how many visitors and weeks a test needs, or a plain "don't A/B test this".
-- **ab-test-verdict**: visitors and conversions per version → Ship, Don't ship, Inconclusive or Invalid, after checking the test was run cleanly.
+- **page-audit**: a landing, pricing or demo page and its numbers → what to fix first, and what needs research.
+- **flow-audit**: a form, signup or checkout → which fields to cut or move later, where people get stuck, and a check of the order step against EU and US checkout rules (UK rules not verified at source).
+- **funnel-leaks**: step counts split by device or source, or set against an earlier period → which step or segment to fix first and what it is worth against your target.
+- **ab-test-plan**: your conversion rate and weekly traffic → how many visitors and weeks a test needs, and what lift a fixed deadline can detect.
+- **ab-test-verdict**: visitors and conversions per version → ship, hold or keep testing, with uneven splits and early stopping taken into account.
 
 ## Examples
 
@@ -20,7 +18,7 @@ Conversion rate optimization (CRO) for your own pages, forms, checkouts and A/B 
 
 ## How it works
 
-Each finding says whether it was seen on the page, comes from your data or is assumed. No industry averages, no predicted lifts. Legal checkout rules show the date each was read; this is not legal advice.
+Answers use your own numbers and targets; no industry averages as targets and no predicted lifts. Checkout rules cite the law they come from; this is not legal advice.
 
 ## Data and network
 
@@ -30,11 +28,11 @@ Send counts, not visitor-level exports. See PRIVACY.md.
 
 ## What it will not do
 
-Write copy, build deceptive variants (fake scarcity, hidden fees, pre-ticked extras), quote "good" conversion rates, or call a site compliant.
+Build deceptive variants (fake scarcity, hidden fees, pre-ticked extras), quote "good" conversion rates as targets, or call a site compliant.
 
 ## Troubleshooting
 
-"Do not A/B test": traffic cannot finish the test; the plan shows the lift it can detect. "Not checked" names the missing input.
+If a test cannot finish at your traffic, the plan shows the lift it can detect and the traffic it would need.
 
 ## Support
 
