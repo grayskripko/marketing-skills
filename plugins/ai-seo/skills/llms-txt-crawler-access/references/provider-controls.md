@@ -1,6 +1,6 @@
 # AI crawler purposes and controls
 
-Reviewed 2026-10-12. Vendor-declared behaviour, not an independent compliance audit. Re-check the source before changing a live robots file.
+<!-- Reviewed 2026-10-12. --> Vendor-declared behaviour, not an independent compliance audit. Re-check the source before changing a live robots file.
 
 | Token | Purpose | Effect and limits of blocking |
 |---|---|---|
@@ -18,12 +18,12 @@ Reviewed 2026-10-12. Vendor-declared behaviour, not an independent compliance au
 
 ## Sources
 
-- OpenAI crawlers and IP lists (`searchbot.json`, `gptbot.json`, `chatgpt-user.json`): https://developers.openai.com/api/docs/bots (no update date shown; reviewed 2026-10-12)
-- Perplexity crawlers and IP lists: https://docs.perplexity.ai/docs/resources/perplexity-crawlers (no update date shown; reviewed 2026-10-12)
-- Anthropic crawler policy (dated 2026-04-07): https://privacy.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler ; IP list https://claude.com/crawling/bots.json
-- Google common crawlers, Google-Extended scope (updated 2026-07-14): https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers
-- Google AI features and your website (updated 2025-12-10): https://developers.google.com/search/docs/appearance/ai-features
-- Verifying Google requests (updated 2026-03-20): https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests
+- OpenAI crawlers and IP lists (`searchbot.json`, `gptbot.json`, `chatgpt-user.json`): https://developers.openai.com/api/docs/bots <!-- no update date shown; reviewed 2026-10-12 -->
+- Perplexity crawlers and IP lists: https://docs.perplexity.ai/docs/resources/perplexity-crawlers <!-- no update date shown; reviewed 2026-10-12 -->
+- Anthropic crawler policy <!-- dated 2026-04-07 -->: https://privacy.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler ; IP list https://claude.com/crawling/bots.json
+- Google common crawlers, Google-Extended scope <!-- updated 2026-07-14 -->: https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers
+- Google AI features and your website <!-- updated 2025-12-10 -->: https://developers.google.com/search/docs/appearance/ai-features
+- Verifying Google requests <!-- updated 2026-03-20 -->: https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests
 - Robots Exclusion Protocol, RFC 9309 (September 2022): https://www.rfc-editor.org/rfc/rfc9309.html
 
 ## Example: allow AI search, limit training

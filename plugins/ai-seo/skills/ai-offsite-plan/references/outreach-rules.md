@@ -25,7 +25,7 @@ Apply the supplied site's rules first. A missing notability basis is a reason to
 2. Existing factual error: disclose affiliation and propose the correction through the allowed talk-page or edit-request process. Use proof that the site accepts for the particular fact; do not require independent reporting for every routine correction unless its rules require it.
 3. When the source is actually Wikipedia, distinguish its discouragement of direct conflict-of-interest editing from its disclosed talk-page and Articles for Creation routes. Paid contributors must disclose the employer, client and affiliation. Do not transfer Wikipedia-specific rules to another named site.
 
-Source: Wikipedia, "Conflict of interest" guideline, https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest (reviewed 2026-10-12); use the live or supplied policy for the site being discussed.
+Source: Wikipedia, "Conflict of interest" guideline <!-- https://en.wikipedia.org/wiki/Wikipedia:Conflict_of_interest, reviewed 2026-10-12 -->; use the live or supplied policy for the site being discussed.
 
 ## Communities
 

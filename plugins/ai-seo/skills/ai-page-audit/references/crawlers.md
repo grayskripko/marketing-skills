@@ -1,6 +1,6 @@
 # AI crawlers and controls
 
-Agent names and purposes come from each vendor's own documentation, read on 2026-09-29. Vendors add and rename agents; check the linked pages before advising a change.
+Agent names and purposes come from each vendor's own documentation. <!-- read 2026-09-29 --> Vendors add and rename agents; check the linked pages before advising a change.
 
 | Vendor | robots.txt token | Purpose | Effect of disallowing it | Source |
 |---|---|---|---|---|
@@ -14,11 +14,11 @@ Agent names and purposes come from each vendor's own documentation, read on 2026
 | Perplexity | Perplexity-User | User-triggered visits when a user asks a question | Perplexity says this fetcher generally ignores robots.txt because the user requested it | same |
 | Google | Googlebot | Crawling for Google Search, including AI Overviews and AI Mode | The page cannot be crawled for Search at all | developers.google.com/search/docs/appearance/ai-features |
 | Google | Google-Extended | A control token, not a separate crawler: use of content for training Gemini models and for grounding in some other Google systems | No effect on Search or its AI features | developers.google.com/search/docs/crawling-indexing/google-common-crawlers |
-| Microsoft | bingbot | Crawling for Bing; Bing's AI Performance report covers Copilot and Bing AI summaries, and Bing says it respects robots.txt and other owner controls | The page cannot be crawled for Bing | Bing Webmaster blog, 2026-02-10 |
+| Microsoft | bingbot | Crawling for Bing; Bing's AI Performance report covers Copilot and Bing AI summaries, and Bing says it respects robots.txt and other owner controls | The page cannot be crawled for Bing | Bing Webmaster blog <!-- 2026-02-10 --> |
 
 ## How to judge check 1
 
-- For being cited in answers that search the web, the search agents and user-triggered agents matter. GPTBot and ClaudeBot govern potential training collection separately from their vendors' search and user-retrieval agents; blocking them is a policy choice and does not by itself stop citation in search-based answers. Google-Extended governs Gemini training and some Gemini Apps and Vertex AI grounding; it does not govern Google Search, AI Overviews or AI Mode, so a Google-Extended block can matter for Gemini grounding only. Source: https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers (page updated 2026-07-14, reviewed 2026-10-12).
+- For being cited in answers that search the web, the search agents and user-triggered agents matter. GPTBot and ClaudeBot govern potential training collection separately from their vendors' search and user-retrieval agents; blocking them is a policy choice and does not by itself stop citation in search-based answers. Google-Extended governs Gemini training and some Gemini Apps and Vertex AI grounding; it does not govern Google Search, AI Overviews or AI Mode, so a Google-Extended block can matter for Gemini grounding only. <!-- https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers, page updated 2026-07-14, reviewed 2026-10-12 -->
 - To limit what Google shows from a page in Search, including AI features, Google documents `nosnippet`, `data-nosnippet`, `max-snippet` and `noindex`.
 - Read robots.txt group matching carefully: a specific user-agent group replaces the `*` group for that agent.
 - Never advise blocking or unblocking without saying what each change affects, and let the owner decide.

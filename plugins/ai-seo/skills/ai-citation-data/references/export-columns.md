@@ -1,6 +1,6 @@
 # Export columns and where to find each report
 
-Column names differ between interface languages, export paths and product updates. Map columns by meaning, confirm the mapping with the user when unsure, and ask for the header row if nothing matches. Report descriptions below were read on 2026-09-29.
+Column names differ between interface languages, export paths and product updates. Map columns by meaning, confirm the mapping with the user when unsure, and ask for the header row if nothing matches. <!-- Report descriptions read 2026-09-29. -->
 
 ## Bing Webmaster Tools: AI Performance
 

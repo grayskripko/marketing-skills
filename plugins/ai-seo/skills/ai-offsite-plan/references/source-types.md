@@ -14,7 +14,7 @@
 
 ## Context, not a rule
 
-Ahrefs studied 75,000 brands and found that mentions on YouTube correlate with brand visibility in AI answers (Spearman about 0.737, similar across the three AI surfaces studied: ChatGPT, AI Mode and AI Overviews), while stating that correlation is not causation (ahrefs.com/blog/ai-brand-visibility-correlations/, published 2025-12-12). Use this only to explain why video is on the list, never to rank actions.
+Ahrefs studied 75,000 brands and found that mentions on YouTube correlate with brand visibility in AI answers (Spearman about 0.737, similar across the three AI surfaces studied: ChatGPT, AI Mode and AI Overviews), while stating that correlation is not causation <!-- ahrefs.com/blog/ai-brand-visibility-correlations/, published 2025-12-12 -->. Use this only to explain why video is on the list, never to rank actions.
 
 ## Freshness
 
