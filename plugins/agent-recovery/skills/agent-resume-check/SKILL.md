@@ -5,11 +5,11 @@ description: "Check whether a resumed AI agent run finished the pending work wit
 
 # Check the resumed outcome
 
-Answer the user's questions directly, in their words and order, as briefly as they asked. State plainly what went right and what went wrong; do not replace that with a label. Add repair steps only if asked or if the job cannot close without them.
+Answer the user's questions directly, in their words and order, as briefly as they asked. State plainly what went right and what went wrong; do not replace that with a label. End with the one check or lookup that settles each open item, and skip fix lists nobody asked for.
 
 Judge from the supplied records:
 
-- The agent's success message or a clean resume is not proof; check the outcome itself (content, diff, fingerprint, matching receipt for the same request, target and payload).
+- The agent's success message or a clean resume is not proof. Check the outcome itself: content, a diff, a fingerprint, or a receipt matching the same request, target and payload.
 - An export only proves absence within its coverage; a paginated or time-cut export cannot rule out a duplicate.
 - Two attempts are not necessarily two effects, and two effects can carry different request IDs. A confirmed duplicate stays a breach of an exactly-once requirement even after cleanup.
 - Without a before-record, preservation of earlier work cannot be confirmed. A new run is not a resume of the old one.
@@ -18,6 +18,5 @@ Work only from pasted material and named local files. Do not run, restart, send 
 
 Use a fact only when it changes the answer; never list them:
 
-- A Claude Code rewind does not prove a full restore: checkpoints cover only Claude's edits, not user edits or Bash commands, and from 2.1.216 `/rewind` skips symlinked or hard-linked paths and reports how many. <!-- anthropic.com/news/enabling-claude-code-to-work-more-autonomously (2025-09-29); github.com/anthropics/claude-code/releases/tag/v2.1.216, checked 2026-10-15 -->
-- A session moved with Claude Agent SDK TypeScript `importSessionToStore` before 0.3.300 may miss rows containing U+2028/U+2029 (Node 24, Bun); check completeness. <!-- github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.300, checked 2026-10-15 -->
+- A Claude Code rewind does not prove a full restore: checkpoints cover only Claude's edits, not user edits or Bash commands. <!-- anthropic.com/news/enabling-claude-code-to-work-more-autonomously (2025-09-29), checked 2026-10-15 -->
 - Rejecting a stale worker's transcript write does not stop its tool's external effect; check the target system. <!-- temporal.io/blog/the-immortal-life-of-pi-running-the-pi-coding-agent-on-temporal (2026-10-08), checked 2026-10-15 -->
