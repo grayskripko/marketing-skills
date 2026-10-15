@@ -16,7 +16,7 @@ Example: laptop filters brand 8, RAM 4, GPU 6, screen 5, price 6 (single-select)
 
 ## How it works
 
-Each skill gives the plan first, then the calculation behind it and any problems its checks found. Rules cite Google Search Central or Nielsen Norman Group, or are labelled as this plugin's own defaults you can change.
+Each skill gives the plan you asked for, in a form a web team can build, and keeps the URLs and page decisions you fixed.
 
 ## Data and network
 

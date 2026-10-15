@@ -1,6 +1,6 @@
 {
   "name": "ad-creative",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Checks ad text before it runs and reads creative tests after. Counts every field against dated Google, Meta, LinkedIn and TikTok limits, screens each line against dated platform rules and US, UK and EU claim rules with their source pages, and gives each ad Ready, Fix or Hold with fixed text. Tells you which ad won, whether the gap is real and how much longer a test needs. Also drafts search and social ad text, and ad angles from your reviews, using the facts you give and no invented figures. Works only on text and numbers you paste; makes no images or video and changes nothing in any ad account.",
   "author": {
     "name": "Sergey Skripko",

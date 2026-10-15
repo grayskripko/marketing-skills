@@ -21,7 +21,7 @@ Community marketing without astroturfing.
 
 ## How it works
 
-Rules have a dated source register, with source details available on request; stale or unverified evidence is explained when it affects a decision. Rates retain counts and observation windows; uncertainty is shown when requested or needed for inference. Not legal advice.
+It works from the rules, drafts and numbers you supply and compares your community only with its own past. Law and platform rules it cites are kept inside each skill with their source pages; source details are available on request. Not legal advice.
 
 ## What it will not do
 
