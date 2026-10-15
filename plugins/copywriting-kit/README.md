@@ -68,7 +68,7 @@ If a skill works wrongly for your task, tell me in GitHub Discussions — I read
 
 Bug reports also work in GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
 
-Sergey Skripko. I build AI agents.
+Sergey Skripko. I build AI agents and fix poorly working skills.
 
 ## License and privacy
 
