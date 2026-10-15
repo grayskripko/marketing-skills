@@ -70,6 +70,11 @@ Never report these as problems (Google documents them as non-issues; details in 
 
 Do not rewrite copy or propose content in this pass.
 
+Recent Google changes. Use a fact only when it changes the answer; never list them.
+- Googlebot reads only the first 2 MB of an HTML response, headers included; later text, links or JSON-LD are ignored (15 MB is other crawlers' default, not Googlebot's). <!-- developers.google.com/search/blog/2026/03/crawler-blog-post (2026-03-31); checked 2026-10-15 -->
+- Back-button hijacking (scripts blocking a return to the results) is a spam policy enforced since 2026-06-15: manual action or demotion, also when ad code or an included library causes it. <!-- developers.google.com/search/blog/2026/04/back-button-hijacking; checked 2026-10-15 -->
+- A robots.txt block does not move crawl budget to other pages unless the site already hits its crawl capacity limit; noindexed URLs are still fetched. <!-- developers.google.com/crawling/docs/crawl-budget (2026-07-22); checked 2026-10-15 -->
+
 ## Step 4. Go deeper on the critical areas
 
 Pick the 2-3 areas with the highest likely impact on the goal and look again, within the cap: more pages of the affected template, the exact directive or tag responsible, and whether the pattern repeats on other templates. Report "template Y lacks X, here is where it comes from", not "some pages seem to lack X".

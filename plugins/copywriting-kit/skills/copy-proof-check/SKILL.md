@@ -53,6 +53,17 @@ Rules:
 
 What backs each kind of claim: a percentage or time saving needs a measurement with who, how many, the period and the baseline; a customer count needs a current count and what counts as a customer; a ranking needs a named, dated ranking; a comparison needs a like-for-like test; a testimonial needs the customer's own words, name or role, and permission; an award needs its name, issuer and year; urgency needs a real deadline or limit. More: `references/proof-types.md`.
 
+Regulator points (use a fact only when it changes the answer; never list them):
+- US: a review reused in the page's own marketing becomes a testimonial; the review-hosting exception stops covering it. <!-- ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers, checked 2026-10-15 -->
+- US: rewarding positive (5-star) reviews is barred even when disclosed; suggest a sentiment-neutral request. <!-- same FAQ, checked 2026-10-15 -->
+- Feedback taken at checkout, before delivery, is not a product review; never count it in a product rating. <!-- FTC Sitejabber order 2025-01-03, ftc.gov/legal-library/browse/cases-proceedings/sitejabber-timeline-item-2025-01-03, checked 2026-10-15 -->
+- A shown rating or review count must match its source, and each quote keeps its original wording, name and date (UK ASA, Harrison & James, 2026). <!-- asa.org.uk/advice-online/fake-consumer-reviews.html, checked 2026-10-15 -->
+- UK: giving positive reviews more prominence than negative ones is misleading (CAP 3.46). <!-- same ASA page, checked 2026-10-15 -->
+- UK: a genuine testimonial alone rarely substantiates the result it states; success stories imply typical results unless evidence shows otherwise. <!-- asa.org.uk/advice-online/substantiation.html; ASA ruling Robbins Research 2025-10-15; checked 2026-10-15 -->
+- UK: a site publishing reviews, imported ones and aggregate ratings included, needs a fake-review policy, regular risk assessment and steps to detect, investigate and act. <!-- gov.uk/government/publications/fake-reviews (CMA, 2025-04-04), checked 2026-10-15 -->
+- EU: "verified buyer" needs reasonable and proportionate checks; a page showing reviews says whether and how they are checked. <!-- Directive (EU) 2019/2161 art. 3, Annex I 23b-23c, checked 2026-10-15 -->
+- EU from 27 September 2026: no generic green claims ("eco-friendly") without recognised excellent performance, no whole-product claim that concerns one part, no offset-based "carbon neutral" product claim, no sustainability label without a certification scheme or public authority. <!-- Directive (EU) 2024/825 art. 4, Annex I 2a, 4a-4c, publications.europa.eu/resource/celex/32024L0825, checked 2026-10-15 -->
+
 ## Step 4. Output
 
 Lead with the requested evidence verdict. If asked whether a block can be published, say directly whether the supplied evidence supports the block as written, then distinguish wording to retain, qualify or remove; this is an evidence verdict, never legal clearance. For a single claim, give its status, matching evidence and supported wording in a short answer. For several claims, use a compact comparison when useful, with supported wording or a removal action beside each verdict. Keep all material evidence qualifiers in the requested rewritten block, but put reconciliation workings and editorial instructions in the comparison, not the public copy. Counts remain optional.

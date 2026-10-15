@@ -37,6 +37,11 @@ Check `references/data-anomalies.md` for date overlap before interpreting a tren
 - An overlap invalidates comparisons of the affected metrics across the boundary; compare unaffected metrics instead (usually clicks), without guessing correction factors. Do not assume the anomaly explains the whole change.
 - Show what the supplied figures report and distinguish arithmetic from interpretation. Flat clicks plus fewer impressions and a better aggregate position does not prove either ranking loss or ranking improvement: changing query mix or demand can change the aggregate.
 - Mention an anomaly only when the export's dates overlap it and it affects the requested conclusion. Dates given without a year are the most recent ones that fit. If the range is truly unknown and relevant to the conclusion, add one short missing-check note, not a warning at the top.
+Recent Google changes. Use a fact only when it changes the answer; never list them.
+- Latest completed rollouts, US/Pacific: May 2026 core update 2026-05-21 08:40 to 2026-06-02 05:40; September 2026 spam update (global, all languages) 2026-09-24 09:15 to 2026-10-08 01:00. Overlap is correlation, not proof. <!-- status.search.google.com/incidents/wdAXJk6LRRihEjpzEeWE and /XhUDXP7A67iHCD2kmbVu; checked 2026-10-15 -->
+- Improvements can show before the next announced core update (smaller ones run continually); never say to wait for one. <!-- developers.google.com/search/updates (2025-12-09); checked 2026-10-15 -->
+- Since 2026-08-30 a site reputation manual action affects searchers outside the EEA only (inside it the section may rank separately); split countries. <!-- developers.google.com/search/blog/2026/08/update-site-reputation-policy; checked 2026-10-15 -->
+
 ## Step 3. Run the fixed procedures
 
 Default thresholds (heuristics; the user may change them). Details and the other procedures: `references/thresholds.md`.

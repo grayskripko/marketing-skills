@@ -49,6 +49,10 @@ Walk `references/code-checks.md`. For each problem, write a finding in the forma
 - Evidence level: **Observed** for what the code clearly does; **Needs verification** when behavior depends on runtime values (environment variables, CMS data) or deployment config you cannot see, naming what to check on the deployed site;
 - Fix: the concrete change in that file, as a description or a short diff sketch. Do not apply it.
 
+Recent Google changes. Use a fact only when it changes the answer; never list them.
+- Googlebot reads only the first 2 MB of each HTML response, headers included; JSON-LD or links after a large inline bundle are not indexed. <!-- developers.google.com/search/blog/2026/03/crawler-blog-post; checked 2026-10-15 -->
+- A noindex in the server HTML that JavaScript later removes is unreliable, and a non-200 response may never be rendered. <!-- developers.google.com/search/updates (2025-12-15, 2025-12-18); checked 2026-10-15 -->
+
 ## Step 4. Report
 
 Return the requested file:line, suggested change and deployment check together for each relevant issue, with indexing blockers first. Distinguish code observations from deployment-dependent risks inline. Mention stack or scope only where needed to interpret a finding. Do not append ticket offers or monitoring schedules unless requested.

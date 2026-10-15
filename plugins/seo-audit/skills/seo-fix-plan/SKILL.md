@@ -40,6 +40,10 @@ Merge findings that share one fix (for example several pages affected by one tem
 
 Use `references/ticket-template.md`. Every ticket has: where, what, who (a role), effort, observable acceptance criteria appropriate to the change (for technical work, tags, status codes or sitemap membership; for content, supported facts, required coverage and editorial review), and how to verify after release. If one of these cannot be stated, the ticket becomes an investigation task with the question to answer. No ranking, indexing or traffic promises or recovery deadlines. Verify the exact released change first; add later metric monitoring only when needed for the request, as an observation rather than a promised result.
 
+Recent Google changes. Use a fact only when it changes the answer; never list them.
+- After a duplicate-content fix Google may keep a page in its duplicate cluster for up to two weeks; do not call the fix failed sooner. <!-- developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting (2026-08-21); checked 2026-10-15 -->
+- Migrations: redirect straight to the final URL (else ideally at most 3 hops, under 5), keep redirects at least 1 year, file Change of Address for every verified variant of the old domain, unused www/non-www and subdomains included. <!-- developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes (2026-08-20); checked 2026-10-15 -->
+
 ## Step 4. What not to do now
 
 Only if something tempting applies: work that will not move the goal until the critical items are done, one line each. For example: rewriting meta descriptions while key pages are not indexed; adding structured data to pages that return errors; new content while existing pages cannibalize each other.

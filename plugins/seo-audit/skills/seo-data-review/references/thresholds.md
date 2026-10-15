@@ -88,7 +88,7 @@ Always split by search type, country and device before calling a drop site-wide.
 | Duplicate titles | Exact duplicates among indexable URLs, grouped by template | heuristic |
 | Canonical to a bad target | Canonical pointing to a non-200 or noindexed URL | Google canonicalization documentation |
 | Deep pages | Crawl depth above 3 for pages the user marks as important | heuristic |
-| Heavy HTML | The heaviest 10% of HTML documents by size, listed for review; any HTML over 15 MB is truncated by Googlebot | 10% is heuristic; 15 MB is from Google's Googlebot documentation |
+| Heavy HTML | The heaviest 10% of HTML documents by size, listed for review; Googlebot ignores everything after the first 2 MB of an HTML file (headers included) | 10% is heuristic; 2 MB is from Google's Googlebot documentation and crawler post of 2026-03-31 (15 MB is the default for other Google crawlers) |
 | Key page type missing from sitemap | No URLs of a template the user names as important (for example products) | heuristic |
 
 ## 10. Server log sample (only if provided)
