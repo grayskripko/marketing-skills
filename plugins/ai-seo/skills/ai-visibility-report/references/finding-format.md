@@ -36,4 +36,4 @@ Anything assumed rather than seen (the buyer's intent, which engines matter, why
 
 - Default: one finding per distinct issue with up to 3 examples when repeated across pages. Use fewer when fewer occurrences exist; use one example per materially different supplied template or failure mechanism when three would hide distinct fixes. Include all affected locations when the requested correction needs exact locations. State the count and selection used; give the total affected count independently of displayed examples.
 - Every rate taken from AI answers carries its n and the dates of the runs.
-- If a check could not be run (no access, cap reached, tool missing, no answers pasted), list it under "Not checked" with the way to check it. Do not guess a result.
+- Mention an unavailable check beside the conclusion it materially limits; do not guess a result.

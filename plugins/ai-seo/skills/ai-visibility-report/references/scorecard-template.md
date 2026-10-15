@@ -1,10 +1,10 @@
 # Scorecard template
 
-Use this layout. Keep engines in separate rows; never add a blended total. Leave out any section with nothing in it.
+Use only requested sections. Monitoring gates and their table apply only when the monitoring heuristic is requested or adopted; ordinary observed changes do not require them. Keep engines separate; never add a blended total.
 
 ## 1. The answer
 
-One line per engine, for example: "Engine A, unbranded: 21 of 90 runs (23.3%) in 2026-08, 33 of 90 (36.7%) in 2026-09, +13.3 points: clear change (rule below)."
+One line per engine, for example: "Engine A, unbranded: 21 of 90 runs (23.3%) in 2026-08, 33 of 90 (36.7%) in 2026-09, +13.3 points: observed increase."
 
 ## 2. Changes between periods
 
@@ -34,7 +34,7 @@ Only the lost prompts; the full per-prompt table only on request.
 | Engine | Host | Citations | Brand's own? |
 |---|---|---|---|
 
-## 6. Next steps
+## 6. Next steps (only when requested)
 
 Route each item in words to a page check, an answer-gap check or the off-site plan, and name the next run date.
 

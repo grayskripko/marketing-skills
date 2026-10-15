@@ -15,5 +15,5 @@ A set of true facts for consistent use. Fill only supplied or public-page facts;
 
 Rules:
 - Leave out optional unsupported rows; ask only for missing facts necessary for the requested deliverable. Supplied facts support internal drafts even when public proof is not supplied; mark proof needs only where required for external use.
-- The "Not a fit" row always stays; if the user has not said who the product does not suit, ask. It makes the pack more credible and quotes more accurate.
+- Include supplied exclusions; omit an unknown optional exclusion rather than blocking a complete requested draft.
 - Keep one version and date it; update it when facts change.

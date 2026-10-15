@@ -2,7 +2,7 @@
 
 ## Input columns
 
-The log uses the panel sheet columns: `prompt_id, bucket, branded, phrasing, prompt, engine, run, date, settings, brand_mentioned, brand_position, brand_cited_url, competitors_mentioned, cited_urls, notes`. The minimum needed for scoring is `prompt_id`, `branded`, `engine`, `date` and `brand_mentioned`. Without `brand_cited_url` the citation rate is "not available"; without `competitors_mentioned` share of voice is "not available".
+The log uses the panel sheet columns: `prompt_id, bucket, branded, phrasing, prompt, engine, run, date, settings, brand_mentioned, brand_position, brand_cited_url, competitors_mentioned, cited_urls, notes`. Use the supplied `prompt_id`, `branded` and `brand_mentioned` data with engine and period labels from columns or accompanying context as needed for the requested calculation. Without `brand_cited_url` the citation rate is "not available"; without `competitors_mentioned` share of voice is "not available".
 
 A **run** is one row. A **prompt** is one `prompt_id` plus `phrasing`. Default period: calendar month. Use equal-length windows aligned to supplied change dates when a launch or campaign splits a month; retain comparable settings and prompt coverage, and name the boundaries used.
 
@@ -22,9 +22,9 @@ Compute every metric per engine and per period, and separately for `branded = no
 
 Rounding: compare values with thresholds before rounding; default display: one decimal, half away from zero; use two decimals if distinct supplied decision-relevant values collide at one decimal, and state the precision. Compare unrounded values.
 
-## Thin sample
+## Repetition evidence
 
-Default: an engine-period group is **thin** when median repetitions per prompt and phrasing are below 3. Use **insufficient repeated evidence** for a change involving such a group; still report every observed rate. When repetitions are uneven, also print the minimum and range and compare only matched prompt/phrasing cells with comparable allocation. State whether the median default or the uneven-allocation check determined the verdict.
+For change comparisons with uneven repetitions, compare only matched prompt/phrasing cells with comparable allocation and show the minimum and range. Still report observed rates. The numerical repetition gate belongs to the optional monitoring heuristic below; it does not replace the two-run denominator for descriptive stability.
 
 ## Noise rule (heuristic)
 
@@ -40,7 +40,7 @@ Why a rule is needed: AI answers change often. In its November 2025 study, Ahref
 
 ## Lost prompts
 
-Default: an unbranded prompt ID is **lost in this panel** when brand mentions are 0 and strictly more than 50% of its runs name a tracked competitor, pooling matched phrasings. Use **possible gap, insufficient repetition** when it has fewer than 3 repetitions per observed phrasing; retain the observed 0/n and competitor k/n. When the brand appears but competitor appearances outnumber brand appearances, use **competitor-dominated**, not lost. State the label rule used; never infer market absence.
+When the user requests diagnostic classification, an unbranded prompt ID is **lost in this panel** when brand mentions are 0 and strictly more than 50% of its runs name a tracked competitor, pooling matched phrasings. Use **possible gap, insufficient repetition** when it has fewer than 3 repetitions per observed phrasing; retain the observed 0/n and competitor k/n. When the brand appears but competitor appearances outnumber brand appearances, use **competitor-dominated**, not lost. State the label rule used; never infer market absence.
 
 List only the lost prompts with their counts. Print the full per-prompt table (engine | period | prompt_id | runs | runs with any competitor | runs with the brand | lost?) only if the user asks for it.
 
