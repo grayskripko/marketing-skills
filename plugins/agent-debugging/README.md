@@ -29,3 +29,9 @@ Network scope during use: none for additional workflow requests. No URL fetching
 Normal conversation processing follows the assistant host’s data settings. The no-network scope covers additional requests and subprocesses invoked for this workflow. Before running a local check, inspect provider, external-service and trace-exporter access; run only checks that make no such requests. Fresh hosted-agent checks require supplied exports or a separate authorized workflow and remain pending here.
 
 [Official references](references/official-docs.md) · [Privacy](PRIVACY.md) · [MIT license](LICENSE) · [Support](https://github.com/grayskripko/marketing-skills/issues)
+
+## Questions and feedback
+
+If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
+
+Sergey Skripko. I build AI agents and fix poorly working skills.

@@ -1,6 +1,6 @@
 {
   "name": "agent-debugging",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Debug a failed AI agent run from traces, logs, configuration, transcripts and output files; find the supported fault and get a repair or reproducible escalation. Diagnose an agent stuck in a loop, wrong tool calls, unsupported answers, runtime failures and falsely claimed completion. Prepare or apply authorized local repairs through existing host tools, then check the actual task outcome from artifacts and receipts.",
   "author": {
     "name": "Sergey Skripko",
