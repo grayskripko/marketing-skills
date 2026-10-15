@@ -1,6 +1,6 @@
 {
   "name": "instructions-cleanup",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Fix conflicting CLAUDE.md and AGENTS.md instructions: map the active scopes, repair stale references and return a minimal patch that preserves approvals. Use pasted files, traces, logs, configs or transcripts to separate ignored rules from loading failures and conflicting instructions. Resolve rule ownership across repository and user sources with host-specific evidence. Apply changes to identified instruction files when requested.",
   "author": {
     "name": "Sergey Skripko",
