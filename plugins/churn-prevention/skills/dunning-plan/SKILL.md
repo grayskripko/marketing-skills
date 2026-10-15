@@ -32,7 +32,7 @@ Sort declines by what fixes them:
 - Wait and retry (insufficient funds 51, do not honor 05, processing errors): a few spaced retries inside the grace period.
 - Codes you cannot identify: hold automatic retries until the processor confirms what they mean.
 
-Count the attempts already made per card, flag any that should not have happened, and keep the plan inside the user's grace period. Mastercard's 10 attempts in 24 hours and 35 in 30 days are fee thresholds, not prohibitions; advice codes 03 and 21 still mean stop.
+Count the attempts already made per card, flag any that should not have happened, and keep the plan inside the user's grace period. Mastercard's 10 attempts in 24 hours and 35 in 30 days are fee thresholds, not prohibitions; advice codes 03 and 21 still mean stop. The fee falls on retries after the 10th or 35th, so a count that reaches exactly 10 or 35 is still inside; counting the initial failure, as users often do, errs on the safe side. Per group, give how many attempts still fit and hold any batch that goes past them. <!-- https://www.paypal.com/us/brc/article/avoid-excessive-retries-penalties ("Allow 10 retries in a 24-hour period then charge a fee for subsequent retries"; same for 35 in 30 days); checked 2026-10-15 -->
 
 Dated facts (use a fact only when it changes the answer; never list them):
 - Visa category 1 also covers 14, 15, 46, 57 and the cardholder's stop-payment or revocation codes R0, R1, R3: never resubmit on the same card details. <!-- https://africa.visa.com/content/dam/VCOM/download/about-visa/visa-rules-public.pdf Table 7-2, 18 Apr 2026 ed.; checked 2026-10-15 -->

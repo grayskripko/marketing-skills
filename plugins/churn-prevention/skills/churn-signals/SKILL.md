@@ -20,6 +20,6 @@ description: "Tests which warning signs came before subscription cancellations i
 
 ## Testing signals
 
-Lead with which signals the team should act on and why. Per signal: cancel rate when it fired against when it did not, how many cancellers it caught, and the lead time against the time the team needs to act. A strong signal that fires two days before cancelling is too late for most actions.
+Lead with which signals the team should act on and why. Per signal: cancel rate when it fired against when it did not, how many cancellers it caught, and the lead time against the time the team needs to act. A strong signal that fires two days before cancelling is too late for most actions. A signal that fired on few accounts: if even the low end of its range sits above the rate when it did not fire, act on it as a short manual list and say how few it covers; call it too few to tell only when the range reaches that rate.
 
 Drop signals recorded after the cancel request or after the cut-off, and say so. To check an existing score: cancel rate by band, flag bands that do not rise with risk, never invent or tune weights. A signal that predicts cancellation does not show that acting on it prevents it; suggest how to check.

@@ -20,7 +20,7 @@ description: "Plans a win-back for subscribers who cancelled. Takes a list or co
 
 ## Who can be contacted
 
-Exclude, counting each person once: no valid marketing consent for their region (EU and UK: consent, or the soft opt-in for existing customers), opted out, chargeback or fraud, business closed. Hold unresolved complaints; defer those who cancelled very recently (a later send date, not an exclusion). Report separately: contact now, deferred, held, no campaign (cause not fixed), excluded. Only "contact now" is the contactable count. Totals must reconcile with the input.
+Exclude, counting each person once: no valid marketing consent for their region (EU and UK: consent, or the soft opt-in for existing customers), opted out, chargeback or fraud, business closed. Hold unresolved complaints; defer those who cancelled very recently (a later send date, not an exclusion). Report separately: contact now, deferred, held, no campaign (cause not fixed), excluded. Only "contact now" is the contactable count. Each group lands in exactly one of these five, so a group with no campaign is never also in contact now, and the five counts add up to the input total. Read each group's tenure, reason and other facts from the user's table, not from its label or order.
 
 ## Briefs
 
