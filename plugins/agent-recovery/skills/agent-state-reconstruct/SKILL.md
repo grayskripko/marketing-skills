@@ -15,3 +15,9 @@ Classify each required outcome from the supplied records only:
 - A wait loop is a dependency cycle only if it closes; a missing input is a blocker, not a cycle.
 
 Work only from pasted material and named local files. Do not run, restart, send or replay anything.
+
+Use a fact only when it changes the answer; never list them:
+
+- A tool call cut off by the stop: Claude Code 2.1.281+ marks it unknown on resume; earlier versions may not show it. Either way it is Uncertain. <!-- github.com/anthropics/claude-code/releases/tag/v2.1.281, checked 2026-10-15 -->
+- Missing turns are not proof nothing ran: before 2.1.286, `--resume`/`--continue` could lose every turn after parallel tool calls in a crashed or killed session; before 2.1.223, resume after a mid-session `/cd` came back empty. <!-- github.com/anthropics/claude-code/releases/tag/v2.1.286 ; /v2.1.223, checked 2026-10-15 -->
+- A recorded claim with no stored result means the call may have started; report it unknown, never as not run. <!-- temporal.io/blog/the-immortal-life-of-pi-running-the-pi-coding-agent-on-temporal (2026-10-08), checked 2026-10-15 -->

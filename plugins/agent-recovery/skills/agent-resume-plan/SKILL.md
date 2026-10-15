@@ -13,3 +13,10 @@ Give the ordered steps the user asked for, in their shape and length. Each step 
 - Reuse an existing approval for the exact pending call; ask for a new one only when the target, payload or scope changed.
 - Independent, already-authorized work can go first.
 - Exact command syntax depends on the installed library or CLI version; say so once instead of asserting undocumented behavior.
+
+Use a fact only when it changes the answer; never list them:
+
+- Claude Code cloud sessions (2.1.216+) re-run the interrupted turn on resume, so guard its writes first. Before 2.1.216 a resumed background agent fell back to the default agent's prompt and tools. <!-- github.com/anthropics/claude-code/releases/tag/v2.1.216, checked 2026-10-15 -->
+- Claude Agent SDK Python 0.2.137+: rewind with `resume_session_at` plus the `resume_drops_turn` guard, not by editing transcript files. <!-- github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.137, checked 2026-10-15 -->
+- OpenAI Agents SDK Python: resume with the original Session backend and ID and the returned state, not by replaying completed tools; after a partial Conversations append, repair remote history before retrying (0.24.0). Approval resume keeps completed tool results from 0.23.0. <!-- github.com/openai/openai-agents-python/releases/tag/v0.24.0 ; /v0.23.0, checked 2026-10-15 -->
+- LangGraph before 1.2.15 could save a checkpoint past a failed DeltaChannel write, replay exit-mode delta writes out of order, and let ToolNode swallow invalid resume values (prebuilt 1.1.1). <!-- github.com/langchain-ai/langgraph/releases/tag/1.2.15, checked 2026-10-15 -->

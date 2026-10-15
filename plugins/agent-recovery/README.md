@@ -33,9 +33,3 @@ To obtain missing runtime state, the agent can identify the exact session, check
 Network scope: the skills fetch no web pages, run no searches and call no external connectors or service APIs. They read pasted material and authorized named local files. No telemetry or package-owned storage. See [PRIVACY.md](PRIVACY.md).
 
 MIT. See [LICENSE](LICENSE).
-
-## Questions and feedback
-
-If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
-
-Sergey Skripko. I build AI agents and fix poorly working skills.
