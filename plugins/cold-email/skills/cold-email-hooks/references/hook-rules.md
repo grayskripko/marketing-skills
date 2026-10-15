@@ -9,7 +9,7 @@
 ## Drop, with the reason
 | Reason | Example |
 |---|---|
-| Stale | A historical fact used to imply a current workflow or need without current support; assess relevance and tense, not a fixed age cutoff. Keep it instead when a past-tense sentence with source and date still works as an opener |
+| Stale | A historical fact used to imply a current workflow or need without current support; assess relevance and tense, not a fixed age cutoff |
 | Personal life | Family, health, holidays, hobbies unrelated to work |
 | Unsourced | Not in the notes or the linked page |
 | Private | Information about the person that was neither published by them nor shared with the user directly (for example leaked, scraped or third-party personal data). What the prospect told the user directly, and the user confirms, is kept. |
