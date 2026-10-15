@@ -34,7 +34,7 @@ It stores nothing and needs no personal data (see PRIVACY.md).
 
 ## What it will not do
 
-Write copy or ads, run ad accounts, build prospect lists, request or fake reviews, or target named people. Not legal advice.
+Write ad copy or campaigns (a short draft of the first outreach message is the one exception), run ad accounts, build prospect lists, request or fake reviews, or target named people. Not legal advice.
 
 ## Troubleshooting
 

@@ -24,7 +24,7 @@ Check the psychology in your marketing before you ship it: whether a countdown, 
 
 ## How it works
 
-Studies come only from a bundled ledger whose citations were checked against their published records on 2026-10-03; findings seen only through secondary summaries are marked as reported. Claims outside the ledger are marked as not checked. Rules carry read dates; a rule read more than six months ago is flagged "re-check this rule".
+It answers from the facts you give, recomputes your numbers, and gives replacement copy you can paste. It does not invent proof, deadlines or studies.
 
 ## Data and network
 

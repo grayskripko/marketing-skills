@@ -4,11 +4,11 @@ Assess prerequisites and recommend a user-run test. The test-shape cells describ
 
 Recipe counts and dates are illustrative starting scopes. Choose the smallest feasible pilot that answers the current learning question within buyer availability, cost, outcome lag and platform limits; do not treat a recipe as evidence of sufficient sample size.
 
-Mechanisms, not named tactics. Each is adapted to the product before it is proposed. No company names and no results from other companies are kept here: such stories are usually self-reported and cannot be checked. Colour refers to `platform-rules.md`; "family" refers to `channel-map.md`.
+Mechanisms, not named tactics. Each is adapted to the product before it is proposed. No company names and no results from other companies are kept here: such stories are usually self-reported and cannot be checked. Colour refers to `platform-rules.md` (red: never propose; amber: allowed with its condition).
 
 P28 is retired: review requests are out of scope for this plugin.
 
-Columns: mechanism; prerequisites (all must hold, or the idea fails G4); demand states it suits; colour; cheapest test shape.
+Columns: mechanism; prerequisites (all must hold); demand states it suits; colour; cheapest test shape.
 
 ## Borrowed distribution
 

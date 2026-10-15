@@ -2,7 +2,7 @@
 
 Pick, write, check and measure lead magnets: what to give away for your product and whether to gate it, the asset from your own notes, an opt-in form checked against dated US, EU and UK consent rules, who you may email afterwards, and which magnet brings sales calls.
 
-Example readout: the checklist got 312 sign-ups from 2,400 visits (13.0%), the calculator 81 from 900 (9.0%). But the calculator brought 14 sales calls against the checklist's 9, about 4.1 times more calls per visit. Keep the calculator; fix how the checklist leads to your offer. Both call counts are under 20, so the verdict is provisional.
+Example readout: the checklist got 312 sign-ups from 2,400 visits (13.0%), the calculator 81 from 900 (9.0%). But the calculator brought 14 sales calls against the checklist's 9, about 4.1 times more calls per visit. Keep the calculator; fix how the checklist leads to your offer. Both call counts are small, so the verdict is provisional.
 
 ## What it does
 
@@ -22,7 +22,7 @@ Example readout: the checklist got 312 sign-ups from 2,400 visits (13.0%), the c
 
 ## How it works
 
-Legal rows carry a source and read date, are flagged after six months, and are checks, not legal advice. Figures come only from you; no industry rates, no invented proof.
+Legal points are checks, not legal advice. Figures come only from you; no industry rates, no invented proof.
 
 ## Data and network
 
@@ -36,7 +36,7 @@ Buy or scrape lists, pre-tick consent, tie EU or UK downloads to marketing conse
 
 ## Troubleshooting
 
-If an answer says something was not checked, paste the missing text (page, thank-you page, email). "Few events" means fewer than 20 sign-ups or calls behind a rate, so treat that verdict as provisional.
+If an answer says something was not checked, paste the missing text (page, thank-you page, email). With small numbers of sign-ups or calls, treat a readout verdict as provisional.
 
 ## Support
 

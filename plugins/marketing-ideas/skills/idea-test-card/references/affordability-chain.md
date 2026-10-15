@@ -12,7 +12,7 @@ one-off sales: affordable = order value × gross margin × orders per customer i
 ```
 
 - Window: the user's; otherwise 12 months, stated in the answer as a plain assumption ("I assumed a 12-month window"), with a note that a shorter window makes every line below stricter.
-- Gross margin: the user's; if missing, the chain is printed on an assumed margin, stated beside the affected calculation, and every evidence grade is capped at D.
+- Gross margin: the user's; if missing, the chain is printed on an assumed margin, stated beside the affected calculation.
 - Orders per customer inside the window: the user's; otherwise an assumption, printed.
 - Yearly billing: use the yearly price × margin, counted once per year the window covers (cash basis: a yearly payment inside the window counts in full).
 - Churn inside the window is ignored unless the user gives it; with monthly churn c over a window of w months the subscription line becomes price × margin × (1 − (1 − c)^w) ÷ c.
@@ -50,15 +50,6 @@ Rates: the user's observed rates first, then rates the user states as guesses, t
 
 Rounding: keep unrounded values through every step; round counts of customers up only when printing; money to cents; compare with a line before rounding.
 
-## Internal gate states
-
-Use these states internally. In the answer, explain the cash shortfall or conditional payback result with the current user’s figures; do not paste state names or placeholders.
-
-- The user gave a cost and it is more than the user's marketing cash for the whole window: "fails on your quote (cash)".
-- The user gave a cost and the cost per expected customer is above the affordable cost **at rates the user observed**: "fails on your quote".
-- The user gave a cost and it misses only at assumed or guessed rates: "unknown: misses at assumed rates (share returned X%)". This sends the idea to Test small first and allows it as a probe; it is never "fails on your quote".
-- The user gave a cost and it fits: "passes on your quote at the assumed rates", naming which rates are assumed (at observed rates: "passes on your quote").
-- No cost given: "unknown: hold a quote against these lines", followed by the per-customer, per-signup and per-click lines.
 
 ## Worked example: a newsletter sponsorship
 

@@ -6,7 +6,7 @@ Coach a sales call, quiz reps on your own pricing, rehearse with a practice buye
 
 | Skill | Give it | You get |
 |---|---|---|
-| call-coaching | 1 to 5 transcripts | what to say differently, a score with quotes, one drill |
+| call-coaching | 1 to 5 transcripts | what to say differently, a score with quotes if asked |
 | rep-certification | product or pricing notes | a quiz with answer key; a role-play buyer who holds facts back |
 | demo-runbook | discovery notes, capabilities, slot | a run of show: one scene per pain, what not to show, a time check |
 | question-bank | 3+ conversations | the buyer questions your team answers differently or without proof, with one proposed answer each |
@@ -20,7 +20,7 @@ Coach a sales call, quiz reps on your own pricing, rehearse with a practice buye
 
 ## How it works
 
-Coaching, role-plays and ramp checkpoints share one score sheet: 11 discovery behaviours scored 0, 1 or 2 (maximum 22) and 8 demo behaviours (maximum 16), each score backed by a quote. A practice pass is 70% (16 of 22, or 12 of 16) with no zero on the key behaviours. Every computed number shows how it was counted. No outside benchmarks. Real product and customer claims use your supplied material; missing proof is flagged. Practice scenarios may contain clearly labelled fictional details, and schedules and thresholds are adjustable planning defaults. Tuned for English.
+Scores, when you ask for them, are backed by quotes from the call and use your rubric and pass rule if you give one. Every computed number shows how it was counted. No outside benchmarks, and no defaults filled in where your own numbers are missing: it asks instead. Real product and customer claims use your supplied material; missing proof is flagged. Practice scenarios may contain clearly labelled fictional details. Tuned for English.
 
 ## Data and network
 
@@ -32,7 +32,7 @@ Read only, for a seller's own practice and coaching. Transcripts hold buyers' wo
 
 ## What it will not do
 
-Rank, compare or monitor sellers, or feed scores into hiring, pay or dismissal (EU AI Act, Annex III 4(b)); you get a coaching plan instead. Teach false deadlines; play a real person; fetch pages; write decks or outreach.
+Decide hiring, pay or dismissal from scores (EU AI Act, Annex III 4(b)); it describes what the scores show and leaves the decision to people. Teach false deadlines; play a real person; fetch pages; write decks or outreach.
 
 ## Troubleshooting
 
