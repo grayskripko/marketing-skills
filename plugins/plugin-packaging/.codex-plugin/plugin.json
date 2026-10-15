@@ -1,6 +1,6 @@
 {
   "name": "plugin-packaging",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Repair a skills-only Claude plugin that fails to install, load skills or find its resources. Use when colleagues cannot install a package that works locally, a plugin manifest points at the wrong directory, plugin dependencies do not resolve, or missing skills and broken references appear after distribution. Paste manifests, a file inventory, configs, errors or an installation transcript. Get a package audit, corrected text or authorized local file repairs, and a loading receipt from supplied traces or requested harmless checks through an available named host. Not for new scaffolding, improving one skill’s answers, or team administration.",
   "author": {
     "name": "Sergey Skripko",
