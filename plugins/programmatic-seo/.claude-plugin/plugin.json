@@ -1,7 +1,7 @@
 {
   "name": "programmatic-seo",
   "displayName": "Programmatic SEO Gate",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "For template-based SEO pages built from a dataset (a page per city, tool, integration or product), not programmatic advertising. Checks from your rows which entries have enough facts of their own to deserve a page and which should share one, specifies the page template, checks pasted sample pages for near-duplicates and thin text, and plans a batched launch with stop rules. Each verdict comes with the table that decided it. It does not write the pages or estimate search volume.",
   "author": {
     "name": "Sergey Skripko",

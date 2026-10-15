@@ -1,17 +1,17 @@
 # Programmatic SEO Gate
 
-For SEO pages built from a dataset, one page per city, tool, integration or product (not programmatic advertising). Before you build hundreds of template pages, it tells you which rows have enough facts of their own to deserve a page, what the template must contain, whether your sample pages are near-copies, and when to stop a rollout. It never writes the pages.
+For SEO pages built from a dataset, one page per city, tool, integration or product (not programmatic advertising). Before you build hundreds of template pages, it tells you which rows carry facts a reader would act on, what the template must contain, whether your sample pages are near-copies, and whether your batch numbers say continue or pause. It never writes the pages.
 
-Example: six payment tools, where three share the same fee, payout time, currencies and API, and two others match each other. Answer: build three pages, not six; tools with identical facts share a page.
+Example: six payment tools, where three share the same fee, payout time, currencies and API. Those three would be the same page under different names, so they can share one.
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| pseo-viability | page-set idea plus rows or columns | which rows deserve a page, which share one, and the table behind it |
-| pseo-template-spec | chosen page type and columns | block table, how much of each page must change per row, banned blocks, noindex and merge rules, block map for one row |
-| pseo-sample-qa | 3 to 20 pasted sample pages | keep, merge or noindex per page, with the similarity table behind it |
-| pseo-rollout | page count and URL pattern, later typed batch counts | hierarchy, sitemap split, pilot size, continue or stop, rollback |
+| pseo-viability | page-set idea plus rows or columns | which rows deserve a page, which can share one, and what data is missing |
+| pseo-template-spec | chosen page type and columns | block spec, empty-field handling, title pattern, block map for one row |
+| pseo-sample-qa | pasted sample pages | keep, merge or change per page, with the reason |
+| pseo-rollout | page count and URL pattern, later typed batch counts | launch plan, count check, continue or pause, action per group of pages |
 
 ## Examples
 
@@ -21,7 +21,7 @@ Example: six payment tools, where three share the same fee, payout time, currenc
 
 ## How it works
 
-Each answer opens with the decision, then the table behind it. Thresholds are given as plain recommendations, and Google is named only where a recommendation rests on it. Missing facts are named; nothing is estimated or invented, including search volume. Requests for many near-identical pages, or for pages about private individuals, are declined with a dataset check offered instead.
+Each answer opens with the decision and keeps to what you asked. Your constraints (budgets, required fields, windows, approved plans) are kept as given, and no cutoffs or scores are invented; Google is named only where a point rests on it. Missing facts are named; nothing is estimated or invented, including search volume. Requests for many near-identical pages, or for pages about private individuals, are declined with a dataset check offered instead.
 
 ## Data and network
 
