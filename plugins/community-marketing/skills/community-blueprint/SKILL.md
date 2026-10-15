@@ -20,4 +20,8 @@ description: "Plans or repairs a community the user runs or will run: whether to
 - Reddit: moderators may not take moderator actions for compensation or favours from a third party; staff running their own company's subreddit is allowed if no compensation is received (Moderator Code of Conduct, Rule 5). https://redditinc.com/policies/moderator-code-of-conduct (checked 2026-10-03).
 - Personal data on public pages is still protected, and mass scraping can be unlawful (joint statement by data-protection authorities including the UK ICO, 2023-08-24). https://www.priv.gc.ca/en/opc-news/speeches-and-statements/2023/js-dc_20230824/ (checked 2026-10-03).
 
+Newer facts (use a fact only when it changes the answer; never list them):
+
+- Discord: growing a server through join-for-join swaps, invite rewards or bought members is banned platform manipulation, so a referral reward for server joins is out. <!-- https://discord.com/safety/platform-manipulation-policy-explainer (2024-03-15), checked 2026-10-15 -->
+
 How to use these facts: cite one only when it decides something in the user's case, in plain words with a short source name ("the FTC's endorsement guidance"). Give the URL only if the user asks where a rule comes from. Never print the check dates; they are for maintainers. Do not add a legal-disclaimer block.

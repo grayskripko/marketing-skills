@@ -17,10 +17,15 @@ description: "Maps how someone connected to a product may take part in communiti
 
 - Reddit's sitewide rules ask for genuine participation and ban spam and content manipulation (Rule 2); there is no sitewide disclosure rule and no sitewide self-promotion ratio, so subreddit rules decide. https://redditinc.com/policies/reddit-rules (checked 2026-10-03).
 - Reddit moderators may not take moderator actions (approving or removing posts, pinning, sidebar or wiki edits, flair) in exchange for compensation or favours from a third party (Moderator Code of Conduct, Rule 5, effective 2025-06-05). Paying a moderator for placement is therefore off the table. https://redditinc.com/policies/moderator-code-of-conduct (checked 2026-10-03).
-- Hacker News: posting your own work some of the time is fine, but not using the site mainly for promotion; no vote requests; no generated or AI-edited comments. https://news.ycombinator.com/newsguidelines.html (checked 2026-10-03).
+- Hacker News: posting your own work some of the time is fine, but not using the site mainly for promotion; no requests for upvotes, comments or submissions; no generated or AI-edited comments. https://news.ycombinator.com/newsguidelines.html (checked 2026-10-03).
 - Product Hunt: no direct upvote requests; company accounts are prohibited. https://www.producthunt.com/launch (checked 2026-10-03).
 - Discord: no unsolicited bulk messages (item 13) or inauthentic engagement (item 15); a ban from one server is that server's matter, while dodging Discord-level enforcement with other accounts is banned (item 19). https://discord.com/guidelines (checked 2026-10-03).
 - LinkedIn: endorsing something in return for a personal benefit needs a clear notice of that benefit; no pre-agreed liking or resharing. https://www.linkedin.com/legal/professional-community-policies (checked 2026-10-03).
 - An employee promoting the employer's product in a community should disclose the job in the post (FTC Endorsement Guides, 16 CFR 255.5, Example 8). https://www.ecfr.gov/current/title-16/part-255 (checked 2026-10-03).
+
+Newer facts (use a fact only when it changes the answer; never list them):
+
+- Product Hunt: at least six months between launches of the same product or from the same company, and products sharing a root domain count together; an earlier relaunch needs a request and a significant update (new UI or pricing changes do not qualify). <!-- https://help.producthunt.com/en/articles/484934-can-i-relaunch-my-product updated 2026-07-07, checked 2026-10-15 -->
+- LinkedIn groups: the same post in several groups may be auto-flagged as spam and hidden from members, so each group needs its own version. LinkedIn has removed groups acting as engagement pods and warned members (including Top Voices); comments posted by extensions, scripts or tools are banned and demoted. <!-- https://www.linkedin.com/help/linkedin/answer/a545843 ; https://news.linkedin.com/2026/authentic-content-and-conversations (2026-03-13) ; checked 2026-10-15 -->
 
 How to use these facts: cite one only when it decides something in the user's case, in plain words with a short source name ("the FTC's endorsement guidance"). Give the URL only if the user asks where a rule comes from. Never print the check dates; they are for maintainers. Do not add a legal-disclaimer block.
