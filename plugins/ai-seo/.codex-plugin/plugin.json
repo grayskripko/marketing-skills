@@ -1,6 +1,6 @@
 {
   "name": "ai-seo",
-  "version": "0.1.52",
+  "version": "0.1.53",
   "description": "Check whether AI answers mention your brand in ChatGPT, Perplexity and Google AI Overviews, using answers you paste or log to show how often you appear, how your business is described and which sources get cited instead. Builds a repeatable prompt panel you run yourself, turns logged results into an AI search visibility scorecard, analyzes citation exports, and checks whether your web pages can be quoted accurately. Also drafts or checks llms.txt and robots.txt rules for AI crawlers. Contains no code of its own and stores nothing.",
   "author": {
     "name": "Sergey Skripko",
@@ -24,7 +24,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "AI Search Visibility & Brand Mentions (GEO/AEO)",
+    "displayName": "AI Search Visibility Report, Brand Mentions & Page Audit (GEO/AEO)",
     "shortDescription": "Check and improve AI mentions of your brand",
     "longDescription": "Seven connected skills for measuring and improving how accurately AI answer engines and AI search features describe and cite a brand. Build a repeatable prompt panel and run protocol, score the runs you log with sample sizes and a written rule for telling a clear change from run-to-run variation, analyze citation and AI-feature exports to rank pages by value against citation share, check whether one page can be quoted accurately, compare pasted answers for one query against your page, plan honest work on the third-party sources those answers rely on, and check AI crawler access or draft an llms.txt from supplied evidence. The plugin never queries AI engines itself and never invents their answers: you run the panel or paste what you saw. Calculations are printed so every number can be checked. It contains no code of its own and stores nothing.",
     "developerName": "Sergey Skripko",
