@@ -18,7 +18,7 @@ Current Claude Code. CLAUDE.md and auto memory provide context rather than enfor
 
 https://modelcontextprotocol.io/specification/2025-11-25/server/tools — read 2026-10-11.
 
-Pinned revision 2025-11-25. Protocol errors use top-level JSON-RPC error. Tool execution errors use result.isError=true; these can include input validation and upstream failures. inputSchema defines arguments; outputSchema describes outputs. CallToolResult.content (ContentBlock[]) is required; structuredContent is optional (schema https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/schema/2025-11-25/schema.ts — read 2026-10-12). Do not apply this revision to unidentified newer contracts.
+Pinned revision 2025-11-25. Protocol errors use top-level JSON-RPC error. Tool execution errors use result.isError=true; these can include input validation and upstream failures. inputSchema defines arguments; outputSchema describes outputs. CallToolResult.content (ContentBlock[]) is required; structuredContent is optional (schema https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/schema/2025-11-25/schema.ts — read 2026-10-12). The spec says a tool returning structuredContent SHOULD also return the serialized JSON in a TextContent block, for backwards compatibility (checked 2026-10-15). Do not apply this revision to unidentified newer contracts.
 
 ## OpenAI Agents SDK runner
 
@@ -37,6 +37,12 @@ Current Python SDK. Function and generation spans can contain sensitive inputs/o
 https://code.claude.com/docs/en/agent-sdk/permissions — read 2026-10-11.
 
 Current TypeScript/Python SDK. allowedTools/allowed_tools adds auto-approval rules, not a universal exposure restriction. Bare disallowedTools removes a definition; scoped patterns deny matching calls. Earlier permission decisions can avoid canUseTool. PreToolUse runs before every permission step. Map other write-capable tools before claiming read-only enforcement.
+
+## Claude Code permission settings
+
+https://code.claude.com/docs/en/permissions and https://code.claude.com/docs/en/settings — read 2026-10-15.
+
+Permission rules sit under permissions.allow, ask and deny in .claude/settings.json, .claude/settings.local.json or ~/.claude/settings.json. Rules are evaluated deny, then ask, then allow; a tool denied at any level cannot be allowed by another level.
 
 ## Anthropic agent evaluations
 
