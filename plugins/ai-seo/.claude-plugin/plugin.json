@@ -1,8 +1,8 @@
 {
   "name": "ai-seo",
   "displayName": "AI Search Visibility & Brand Mentions (GEO/AEO)",
-  "version": "0.1.56",
-  "description": "Check whether AI answers mention your brand in ChatGPT, Perplexity and Google AI Overviews, using answers you paste or log to show how often you appear, how your business is described and which sources get cited instead. Builds a repeatable prompt panel you run yourself, turns logged results into an AI search visibility scorecard, analyzes citation exports, and checks whether your web pages can be quoted accurately. Also drafts or checks llms.txt and robots.txt rules for AI crawlers. Contains no code of its own and stores nothing.",
+  "version": "0.1.57",
+  "description": "Check whether AI answers mention your brand in ChatGPT, Perplexity and Google AI Overviews, using answers you paste or log to show how often you appear, how your business is described and which sources get cited instead. Builds a repeatable prompt panel you run yourself, turns the AI answers you saved month to month into an AI visibility scorecard you can send as a client report, analyzes citation exports, and checks one page to tell you what to change so ChatGPT or Perplexity can quote it accurately. Also drafts or checks llms.txt and robots.txt rules for AI crawlers. Contains no code of its own and stores nothing.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
