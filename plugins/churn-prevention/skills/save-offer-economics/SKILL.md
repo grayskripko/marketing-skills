@@ -27,4 +27,7 @@ description: "Checks whether a discount, pause or downgrade offered when subscri
 - Pauses: paused accounts are not paying. Report resumed, cancelled and still paused; outcomes that have not matured are pending, not saves.
 - Repeat offer-takers: give the count; do not assume they overlap with another group.
 
+Dated facts (use a fact only when it changes the answer; never list them):
+- An App Store "save rate" from Apple's retention messaging counts subscribers who did not cancel within 24 hours of the message or who took the offer. It is not retention at the next full-price renewal and has no holdout. <!-- https://www.revenuecat.com/blog/growth/apple-retention-messaging-benchmarks (6 Oct 2026); checked 2026-10-15 -->
+
 For a board or founder line, give the counts and money, and one sentence on what they do and do not show.

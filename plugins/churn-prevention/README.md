@@ -24,7 +24,7 @@ Not sure where churn comes from? Start with "customers keep cancelling": the dun
 
 ## How it works
 
-The answer comes first, then the calculation and the data check behind it, kept to what your decision needs. Ranges and sample sizes appear when they change the decision.
+The answer comes first, then the calculation and the data check behind it. Rates carry their sample size and a 95% range; no industry figures. Rules come from dated tables, each with its read date and link.
 
 ## Data and network
 

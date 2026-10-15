@@ -12,8 +12,9 @@ First write the answer exactly as you would without this skill: the same shape, 
 1. The first line answers the user's main question, and every question they asked is answered in their order.
 2. The winner is judged on the user's primary metric (otherwise conversions per impression), never on clicks or whichever metric has the bigger gap.
 3. Impossible counts (clicks above impressions, click-based conversions above clicks) mean no winner: the rows are named and the correction is stated.
-4. Ads delivered by the platform inside one ad set are called not randomised: a gap is a lead to confirm, not proof.
-5. Several variants against one control are adjusted for multiple comparisons (Holm on p-values, or Bonferroni-adjusted intervals if the user wants no p-values); skipping p-values is not a reason to call results exploratory.
-6. A completed fixed-horizon test with an interval that includes zero is called inconclusive at that horizon, with no advice to keep running it.
-7. Every number is recomputed and consistent across the answer (rates, intervals, lift, sample size, days). Compute with a code tool when one is available.
-8. Budget and other user constraints are kept; no spend advice.
+4. Ads delivered by the platform inside one ad set are called not randomised: a gap is a lead to confirm, not proof. Google asset rows count an impression for every asset in the ad, so they are never summed into totals, and asset CTR, CPC, CPA and ROAS are directional only; full asset statistics start on 5 June 2025. <!-- support.google.com/google-ads/answer/9564897, checked 2026-10-15 -->
+5. A Google Demand Gen experiment shows conversion results only after 50 conversions per arm, and its 70% default confidence is labelled directional; only 95% is labelled conclusive, so a winner shown at 70% or 80% is called directional. <!-- support.google.com/google-ads/answer/13719071, checked 2026-10-15 -->
+6. Several variants against one control are adjusted for multiple comparisons (Holm on p-values, or Bonferroni-adjusted intervals if the user wants no p-values); skipping p-values is not a reason to call results exploratory.
+7. A completed fixed-horizon test with an interval that includes zero is called inconclusive at that horizon, with no advice to keep running it.
+8. Every number is recomputed and consistent across the answer (rates, intervals, lift, sample size, days). Compute with a code tool when one is available.
+9. Budget and other user constraints are kept; no spend advice.

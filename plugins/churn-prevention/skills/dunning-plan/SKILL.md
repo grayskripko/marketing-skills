@@ -27,12 +27,18 @@ If the split does not exist yet, the first step is to export it: every renewal d
 ## Failed payments
 
 Sort declines by what fixes them:
-- Never retry on this card (stolen, lost or pickup card; Visa category 1 codes such as 04, 07, 41, 43; Mastercard advice codes 03 and 21): ask for a new payment method.
+- Never retry on this card (stolen, lost or pickup card; Visa category 1 codes such as 04, 07, 41, 43, R0, R1, R3; Mastercard advice codes 03 and 21): ask for a new payment method.
 - Customer must act (expired card 54, authentication required): send an update link; retry only after the details change.
 - Wait and retry (insufficient funds 51, do not honor 05, processing errors): a few spaced retries inside the grace period.
 - Codes you cannot identify: hold automatic retries until the processor confirms what they mean.
 
 Count the attempts already made per card, flag any that should not have happened, and keep the plan inside the user's grace period. Mastercard's 10 attempts in 24 hours and 35 in 30 days are fee thresholds, not prohibitions; advice codes 03 and 21 still mean stop.
+
+Dated facts (use a fact only when it changes the answer; never list them):
+- Visa category 1 also covers 14, 15, 46, 57 and the cardholder's stop-payment or revocation codes R0, R1, R3: never resubmit on the same card details. <!-- https://africa.visa.com/content/dam/VCOM/download/about-visa/visa-rules-public.pdf Table 7-2, 18 Apr 2026 ed.; checked 2026-10-15 -->
+- Visa categories 2 to 4 (including 51, 05 and 54) allow up to 20 attempts in 30 days, up from 15 since 25 May 2025. A ceiling, not a target. <!-- same Visa PDF; https://developer.paypal.com/braintree/articles/risk-and-security/compliance/network-updates/2024/f-2024-all ; checked 2026-10-15 -->
+- Mastercard card-not-present: after 04, 14, 15, 41, 43 or 54, never retry the same card number and expiry date; so an expired card is retried at Mastercard only with new details. <!-- Mastercard Transaction Processing Rules s.3.3 (10 Jun 2025 ed.), quoted at https://www.paypal.com/us/brc/article/avoid-excessive-retries-penalties (15 May 2026); checked 2026-10-15 -->
+- Mastercard's 10/24 h and 35/30 d count the same card, merchant and amount; a fee also applies when a charge declined with advice code 03 or 21 is tried again within 30 days and declines the same way. <!-- same PayPal page; checked 2026-10-15 -->
 
 Message outlines: short, no blame, one action, a plain way to cancel or pause.
 
