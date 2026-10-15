@@ -18,7 +18,11 @@ Deliverable: a concise block spec (block, fixed or variable, source column, rule
 
 ## Facts plain answers often lack
 
-Use one only when it decides a point, cite the page by its title, and never show the check date in the answer.
+Use a fact only when it changes the answer; never list them. Cite the page by its title and never show the check date in the answer.
 
 - noindex works as a meta tag or HTTP header and only if the page is crawlable, not blocked in robots.txt; robots.txt blocks crawling, not indexing (https://developers.google.com/search/docs/crawling-indexing/block-indexing, checked 2026-10-08).
 - Among duplicates Google picks one version to show; redirects and rel="canonical" are strong signals of the preferred one, a sitemap listing is a weak one. A canonical does not add information to a thin page (https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls, checked 2026-10-08).
+- Googlebot indexes only the first 2 MB of an HTML file (uncompressed; CSS and JS files count separately); content past the cutoff is ignored, so keep essential blocks early and big inline scripts out.<!-- https://developers.google.com/search/docs/crawling-indexing/googlebot, updated 2026-02-03; https://developers.google.com/search/blog/2026/03/crawler-blog-post, checked 2026-10-15 -->
+- A noindex in the original HTML may stop Google from rendering the page, so removing it later with JavaScript may not work; pages meant to be indexed should not ship with noindex in the initial response.<!-- https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics; changelog 2025-12-15 https://developers.google.com/search/updates, checked 2026-10-15 -->
+- FAQ rich results stopped appearing in Google Search on 2026-05-07; an FAQ block or FAQPage markup no longer earns a rich result, so include one only for readers.<!-- https://developers.google.com/search/updates#may-2026, checked 2026-10-15 -->
+- Google's generative-AI guidance asks for manual fact-checking before publishing, and the review covers generated titles, meta descriptions, structured data and image alt text, not only the body text.<!-- https://developers.google.com/search/docs/fundamentals/using-gen-ai-content, updated 2026-10-01, checked 2026-10-15 -->

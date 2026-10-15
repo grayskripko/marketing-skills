@@ -18,7 +18,11 @@ Check the counts first: indexed cannot exceed published; a zero-impression count
 
 ## Facts plain answers often lack
 
-Use one only when it decides a point, cite the page by its title, and never show the check date in the answer.
+Use a fact only when it changes the answer; never list them. Cite the page by its title and never show the check date in the answer.
 
 - One sitemap file holds at most 50,000 URLs or 50 MB uncompressed; larger sets split into several files, optionally under a sitemap index (https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap, checked 2026-10-08).
 - noindex works as a meta tag or HTTP header and only if the page is crawlable, not blocked in robots.txt; robots.txt blocks crawling, not indexing (https://developers.google.com/search/docs/crawling-indexing/block-indexing, checked 2026-10-08).
+- Google's crawl-budget guide is for sites of roughly 1 million+ pages changing weekly, 10,000+ pages changing daily, or many URLs in "Discovered - currently not indexed"; Google says these are not exact thresholds, and they are not indexing caps.<!-- https://developers.google.com/crawling/docs/crawl-budget, updated 2026-07-22, checked 2026-10-15 -->
+- A noindex in the original HTML may stop Google from rendering the page, so removing it later with JavaScript may not work; pages meant to be indexed should not ship with noindex in the initial response.<!-- https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics; changelog 2025-12-15 https://developers.google.com/search/updates, checked 2026-10-15 -->
+- Adding or removing a lot of content, or changing page dates without real changes, to look fresh is something Google's helpful-content guidance says does not help.<!-- https://developers.google.com/search/docs/fundamentals/creating-helpful-content, updated 2026-10-05, checked 2026-10-15 -->
+- Google runs smaller core updates continually, so improvements to a paused set can show before the next announced core update; no recovery time is promised.<!-- https://developers.google.com/search/updates#december-2025, entry 2025-12-09, checked 2026-10-15 -->

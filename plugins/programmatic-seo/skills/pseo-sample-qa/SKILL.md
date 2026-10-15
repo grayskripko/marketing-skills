@@ -18,8 +18,10 @@ Set the shared template text aside and judge what each page tells a reader that 
 
 ## Facts plain answers often lack
 
-Use one only when it decides a point, cite the page by its title, and never show the check date in the answer.
+Use a fact only when it changes the answer; never list them. Cite the page by its title and never show the check date in the answer.
 
 - Google spam policies (https://developers.google.com/search/docs/essentials/spam-policies, checked 2026-10-08): scaled content abuse is many pages generated mainly to manipulate rankings rather than help users; doorway abuse includes pages aimed at specific cities or regions that funnel users to one page, and substantially similar pages that look more like search results than a browseable hierarchy. The policies turn on why pages were made and what they offer, not on templates or automation as such (generative-AI guidance, https://developers.google.com/search/docs/fundamentals/using-gen-ai-content, checked 2026-10-08).
 - Among duplicates Google picks one version to show; redirects and rel="canonical" are strong signals of the preferred one, a sitemap listing is a weak one. A canonical does not add information to a thin page (https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls, checked 2026-10-08).
 - noindex works as a meta tag or HTTP header and only if the page is crawlable, not blocked in robots.txt; robots.txt blocks crawling, not indexing (https://developers.google.com/search/docs/crawling-indexing/block-indexing, checked 2026-10-08).
+- Scaled content abuse examples include creating multiple sites to hide the scale, and scraped content run through automated translation, synonym swaps or similar obfuscation; splitting or rewording does not make a low-value set compliant.<!-- https://developers.google.com/search/docs/essentials/spam-policies#scaled-content, checked 2026-10-15 -->
+- Google's generative-AI guidance asks for manual fact-checking before publishing, and the review covers generated titles, meta descriptions, structured data and image alt text, not only the body text.<!-- https://developers.google.com/search/docs/fundamentals/using-gen-ai-content, updated 2026-10-01, checked 2026-10-15 -->
