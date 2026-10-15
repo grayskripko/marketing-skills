@@ -1,6 +1,6 @@
 ---
 name: win-back-plan
-description: "Plans a win-back for subscribers who cancelled. Takes a list or counts of cancelled subscriptions with cancel date, coded reason, tenure, plan, region and marketing-consent status, plus the product changes the user confirms are real. Leaves out everyone who may not be contacted (no valid consent under dated US, EU and UK rules, opted out, chargeback or fraud, business closed, cancelled too recently) and groups the rest by reason, time since cancelling and tenure. Gives each group the real change that answers its reason, or no campaign, with channel, up to three touches, an offer no deeper than the cancel-flow offer, and a holdout. Use when the user wants to bring back cancelled subscribers, not one finished email. Writes briefs; sends nothing."
+description: "Plans a win-back for subscribers who cancelled. Takes a list or counts of cancelled subscriptions with cancel date, coded reason, tenure, plan, region and marketing-consent status, plus the product changes the user confirms are real. Leaves out everyone who may not be contacted (no valid consent under dated US, EU and UK rules, opted out, chargeback or fraud, business closed), defers those who cancelled too recently and groups the rest by reason, time since cancelling and tenure. Gives each group the real change that answers its reason, or no campaign, with channel, touches, any offer within limits the user sets, and a holdout. Use when the user wants to bring back cancelled subscribers, not one finished email. Writes briefs; sends nothing."
 ---
 
 # Win-back plan
@@ -20,8 +20,8 @@ description: "Plans a win-back for subscribers who cancelled. Takes a list or co
 
 ## Who can be contacted
 
-Exclude, counting each person once: no valid marketing consent for their region (EU and UK: consent, or the soft opt-in for existing customers), opted out, chargeback or fraud, business closed; hold unresolved complaints. Totals must reconcile with the input.
+Exclude, counting each person once: no valid marketing consent for their region (EU and UK: consent, or the soft opt-in for existing customers), opted out, chargeback or fraud, business closed. Hold unresolved complaints; defer those who cancelled very recently (a later send date, not an exclusion). Report separately: contact now, deferred, held, no campaign (cause not fixed), excluded. Only "contact now" is the contactable count. Totals must reconcile with the input.
 
 ## Briefs
 
-A brief for every remaining group, not a sample: the real change from the user's list that answers that group's reason, or "no campaign: fix the cause first" when none does; channel; up to three touches; an offer no deeper than the user's ceiling; a holdout drawn within the group. Never invent changes, deadlines or account ids.
+A brief for every remaining group, deferred ones included, not a sample: the real change from the user's list that answers that group's reason, or "no campaign: fix the cause first" when none does; channel; the message angle and number of touches (no touch-by-touch copy unless asked); any offer, only within limits the user gives, never a limit you made up; a holdout drawn within the group. Asked about a deep discount: show the discounted price and compare it with any cheaper plan the user already has. Never invent changes, deadlines or account ids.
