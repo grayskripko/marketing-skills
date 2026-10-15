@@ -26,6 +26,10 @@ Return the completion finding and a short finding per requirement. Check the act
 
 Use met, unmet, pending or unknown. Do not add a confidence score.
 
+## Dated facts (use a fact only when it changes the answer; never list them)
+
+- Web agent on a public benchmark: a correct answer can come from leaked benchmark material (Anthropic: 11 of 1,266 BrowseComp answers, 2 by decrypting the answer key). Check the trace before counting it as met. <!-- https://www.anthropic.com/engineering/eval-awareness-browsecomp checked 2026-10-15 -->
+
 ## Answer rules
 
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.

@@ -10,14 +10,14 @@ This is a skills-only package of Markdown instructions and reference text, JSON 
 
 These skills work only from task text, attachments, and local files that you explicitly supply. They do not instruct the assistant to install software, search the web, fetch URLs or robots.txt, call APIs, send messages, publish content, or change account settings. URLs in this package identify sources or support pages; they are not connection endpoints or retrieval instructions. A supplied URL is treated as text: paste the relevant content instead.
 
-Local tool use is allowed: requested output files are written at your chosen destination using your assistant's existing file tools. The `agent-cases-export` skill instructs the assistant to validate actual saved JSONL/JSON bytes with an available local parser and a supplied local schema. This may execute a local parsing/schema-validation tool through the assistant host; no validator installation or remote schema retrieval is allowed. If a dependency is unavailable, the skill identifies the exact unverified check. The acceptance-plan skill may prepare a patch or executable assertion from a supplied runner contract, but does not execute it. Runner setup and live execution in your own infrastructure are described as later prerequisites; these skills do not run agents, graders, imports or deployments.
+Local tool use is allowed: requested output files are written at your chosen destination using your assistant's existing file tools. The acceptance-plan skill writes assertions in a supplied runner schema, or tool-neutral checks without one, and does not execute them. Runner setup and live execution in your own infrastructure are described as later prerequisites; these skills do not run agents, graders, imports or deployments.
 
 The publisher receives no task data and operates no collection, telemetry, or storage service for this plugin. Your assistant provider still processes and may retain your conversation, attachments and tool data under its own terms. Local execution and any temporary files are managed by that provider; requested output files remain at your chosen destination under your control.
 
 | Job | Skill | Result |
 |---|---|---|
 | Plan agent evaluation | `agent-acceptance-plan` | Requirements mapped to observable outcomes and the supplied runner contract |
-| Prepare agent regression tests | `agent-cases-export` | Redacted cases, importer-format export, provenance and unresolved-case collection |
+| Prepare agent regression tests | `agent-cases-export` | Redacted cases in the importer's format, or neutral JSONL; unresolved cases stay in, marked |
 | Verify agent output | `agent-outcomes-check` | Findings tied to sources, actual artifacts, action receipts and escalation |
 | Check agent results before release | `agent-release-report` | Readiness decision from supplied runs and grader records |
 
@@ -35,10 +35,4 @@ Retrieval-stage diagnosis belongs in RAG Evaluation. Checking a currently delega
 
 No runtime network requests: no searches, URL fetches, robots.txt requests, dependency downloads, remote schema resolution, uploads or telemetry. Only pasted inputs and selected task files are read. Requested local exports are saved at the chosen destination. No plugin-managed database or retention service is supplied. The assistant host handles chats and file/tool data under its own settings. See [PRIVACY.md](PRIVACY.md).
 
-Official format knowledge is embedded in every skill; dated supporting URLs and producer/version scope are in the [reference register](references/official-docs.md). Build and verification records are in [BUILD-NOTES.md](BUILD-NOTES.md).
-
-## Questions and feedback
-
-If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
-
-Sergey Skripko. I build AI agents and fix poorly working skills.
+Official format knowledge is embedded in every skill; dated supporting URLs are in the [reference register](references/official-docs.md). Skills also carry a few dated facts (OpenAI Evals retirement, Inspect scoring changes, judge reliability, infrastructure noise), each with its source and check date in a hidden comment.

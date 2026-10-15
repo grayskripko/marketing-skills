@@ -31,6 +31,10 @@ Return the export first.
 - OpenAI Agents SDK spans may omit sensitive payloads; missing output is unavailable, not empty.
 - LangGraph resumes restart the interrupted node; keep separate attempt IDs.
 
+## Dated facts (use a fact only when it changes the answer; never list them)
+
+- Moving cases from OpenAI Evals (read-only 2026-10-31) to Promptfoo means recreating prompts, provider, cases and assertions by hand. <!-- https://developers.openai.com/cookbook/examples/evaluation/moving-from-openai-evals-to-promptfoo checked 2026-10-15 -->
+
 ## Answer rules
 
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.

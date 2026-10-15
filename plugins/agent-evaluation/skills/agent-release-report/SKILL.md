@@ -27,6 +27,16 @@ Return the decision or direct answer first, then the case findings that decide i
 
 Apply the owner's acceptance policy when supplied. When there is none, report what is established and say the decision is theirs; do not invent a threshold or hold policy. Any rate shows its unit and denominator.
 
+## Dated facts (use a fact only when it changes the answer; never list them)
+
+- Scores migrated from OpenAI Evals to Promptfoo are a new run: similarity scores and recreated LLM graders may not reproduce old numbers, so no regression across the migration. <!-- https://developers.openai.com/cookbook/examples/evaluation/moving-from-openai-evals-to-promptfoo checked 2026-10-15 -->
+- Resource configuration is a condition: Anthropic measured a 6-point Terminal-Bench 2.0 gap from CPU/RAM settings alone (p < 0.01) and advises skepticism toward gaps under 3 points. <!-- https://www.anthropic.com/engineering/infrastructure-noise checked 2026-10-15 -->
+- Inspect 0.3.259+: an off-menu final `GRADE:` leaves the sample unscored (`grade_parse_failure`), so regrading old logs can change both score and denominator. <!-- https://inspect.aisi.org.uk/CHANGELOG.html checked 2026-10-15 -->
+- Inspect before 0.3.277: a cancelled run could drop an already-scored sample, and overflow recovery could drop the input the scorer saw. <!-- https://inspect.aisi.org.uk/CHANGELOG.html checked 2026-10-15 -->
+- Inspect 0.3.184+: input tokens exclude cached tokens; normalize before comparing cost across versions. <!-- https://inspect.aisi.org.uk/CHANGELOG.html checked 2026-10-15 -->
+- On hard tool-calling workflows without ground truth, six judges agreed with the reference only 77-82% (AgentJudgeBench); a judge grade is not a ground-truth outcome. <!-- https://arxiv.org/abs/2608.26623v1 checked 2026-10-15 -->
+- Braintrust Jev `confidence` measures how concentrated the probabilities are, not correctness. <!-- https://www.braintrust.dev/blog/evaluate-agent-responses-with-jev checked 2026-10-15 -->
+
 ## Answer rules
 
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.
