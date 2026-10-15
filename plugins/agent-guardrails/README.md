@@ -25,3 +25,9 @@ Start with whatever you have: “Which actions can this agent take, and when mus
 The embedded control map covers Claude Code, Codex, Claude Agent SDK, OpenAI Agents SDK, MCP authorization and LangGraph interrupts. It checks callback bypass, checks that run too late, repeated effects on resume, approval scope and retrieval access boundaries. It produces planning and evidence artifacts; host settings and application code provide enforcement.
 
 [Sources and control map](references/official-sources.md) · [Privacy](PRIVACY.md) · [License](LICENSE)
+
+## Questions and feedback
+
+If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
+
+Sergey Skripko. I build AI agents and fix poorly working skills.
