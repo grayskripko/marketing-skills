@@ -1,6 +1,10 @@
 # Test math
 
-Use only when the decision turns on it. Most small tests are decided by a count goal or a rule set before launch, and an interval adds nothing to that answer.
+Use when the decision turns on it or the user asks whether a volume is enough. When a count goal or a rule set before launch already decides, an interval adds nothing.
+
+## Is this volume enough?
+
+Take a low and a high rate from the user's own data. For each: expected count = n × p; chance of zero = (1 − p)^n; chance of at least k from the binomial (for k = 2: 1 − (1 − p)^n − n·p·(1 − p)^(n−1)). Say which outcome would change the decision.
 
 ## Count goals at small volume
 
