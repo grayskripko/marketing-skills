@@ -23,6 +23,7 @@ Every URL below was opened successfully on 2026-10-11. Moving client/framework p
 | [Anthropic Contextual Retrieval](https://www.anthropic.com/engineering/contextual-retrieval), read 2026-10-11 | Semantic matches can miss exact identifiers; lexical matching and chunk-specific context address different retrieval gaps. Used for routing a working search call to retrieval diagnosis, not a corpus-repair promise. |
 
 | [Claude Agent SDK permissions](https://code.claude.com/docs/en/agent-sdk/permissions), read 2026-10-11 | Allow entries preapprove rather than exclusively expose tools; earlier approvals can bypass the callback. Explicit deny entries preserve restrictions on other discovered tools. |
+| [Claude Code MCP](https://code.claude.com/docs/en/mcp) and [Codex CLI mcp_cmd.rs](https://github.com/openai/codex/blob/main/codex-rs/cli/src/mcp_cmd.rs), read 2026-10-15 | /mcp authentication and Re-authenticate, claude mcp login, first-use approval of project .mcp.json servers and claude mcp reset-project-choices; codex mcp list/get/login. |
 
 ## Authored operational choices
 
