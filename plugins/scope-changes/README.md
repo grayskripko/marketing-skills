@@ -27,7 +27,7 @@ Nothing is fetched: no URLs, web search, accounts, connectors or paid APIs. The 
 
 ## Limits and troubleshooting
 
-If an attachment cannot be read, paste the relevant passages with their version labels. If approvals conflict, paste the relevant messages and versions. The assistant can draft without estimates. It marks missing estimates as [DETAIL NEEDED: …]. It does not monitor accounts or authenticate signatures.
+If an attachment cannot be read, paste the relevant passages with their version labels. If approvals conflict, paste the relevant messages and versions. The assistant can draft without estimates. It marks a missing estimate or date as to be confirmed. It does not monitor accounts or authenticate signatures.
 
 [Privacy](PRIVACY.md) · [License](LICENSE)
 Support: https://github.com/grayskripko/marketing-skills/issues
