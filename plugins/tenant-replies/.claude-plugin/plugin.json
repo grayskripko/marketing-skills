@@ -1,7 +1,7 @@
 {
   "name": "tenant-replies",
   "displayName": "Tenant Replies",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Draft tenant replies from signed leases, amendments and case facts you provide. Find the clauses that support a reply and prepare a separate private manager note with sources and open questions. Use when you ask “write back to this tenant,” “find the lease clause,” or “summarize this case for the manager.” Works from pasted text or readable files, without accounts or paid APIs. Not for sending, dispatch, screening, eviction or default notices, or decisions about legal entitlement, enforceability, accommodations or retaliation disputes.",
   "author": {
     "name": "Sergey Skripko"

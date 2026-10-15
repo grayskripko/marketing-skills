@@ -30,7 +30,7 @@ Keep each case tied to the correct property and unit. Include whether the lease 
 
 Example: “Draft a reply to this locker request using the signed lease and approved manager instruction. Put sources and unresolved questions in a private note.”
 
-The internal note states the supplied property jurisdiction, or marks it unknown. The package does not draft eviction/default notices, screen tenants, approve accommodations, send messages, dispatch repairs or change records. For safety issues, it follows the supplied approved emergency process before routine case work. Without that process, it flags urgent manager review and asks for it.
+The internal note states the supplied property jurisdiction, or marks it unknown. The package does not draft eviction/default notices, screen tenants, approve accommodations, send messages, dispatch repairs or change records. For safety issues, it follows the supplied approved emergency process before routine case work. Without that process, it says so and still lists the decisions and actions to take that day.
 
 ## Data and network
 
