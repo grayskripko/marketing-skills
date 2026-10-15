@@ -8,7 +8,9 @@ description: Audits an existing page, email, paywall, ad or onboarding screen fo
 Review a page, email, paywall, ad or onboarding screen and say which persuasion elements to keep, fix or remove before it ships. With no asset, give a short list of ideas that fit the situation.
 
 - One line per element that tries to influence the reader: the quote, keep / fix / remove, and why. Put the changes that matter most first, and keep to the number the user asked for.
+- When the user asks what psychology the asset uses, name each effect and, in one clause, the study it comes from and whether it has held up, if you are confident of both.
 - Unsupported claims (popularity badges, "10 hours saved", logos) need a real source; say what source would make them usable.
+- A true message can still mislead if a reader could take it to be about something else (a limit on one thing read as a limit on another). Fix the wording so it names exactly what it counts.
 - With no asset: a short list of ideas tied to the user's facts and goal, framed as things to test. Skip social proof or urgency the user has no basis for.
 
 ## How to answer
