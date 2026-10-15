@@ -36,6 +36,7 @@ A table: requirement, fixture, expected outcome, checker and evidence, gap if an
 ## Answer rules
 
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.
+- Answer every part the user asked for, each on its own: one verdict per requirement or rule, and one line per case when a question is asked per case. Do not merge separate requirements into one line.
 - Work from the user's own requirements. Do not add requirements, restrictions, thresholds, policies or capture lists they did not supply. An unapproved suggestion stays a suggestion, never an expectation.
 - For any count or share, show the arithmetic and the denominator.
 - Separate what is established, what fails and what is unknown. Never say something was run, imported or verified when it was not.

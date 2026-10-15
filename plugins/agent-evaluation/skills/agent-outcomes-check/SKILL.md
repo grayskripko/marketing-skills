@@ -26,6 +26,8 @@ Return the completion finding and a short finding per requirement. Check the act
 
 Use met, unmet, pending or unknown. Do not add a confidence score.
 
+When asked what evidence is missing, name each missing item and the finding it would decide.
+
 ## Dated facts (use a fact only when it changes the answer; never list them)
 
 - Web agent on a public benchmark: a correct answer can come from leaked benchmark material (Anthropic: 11 of 1,266 BrowseComp answers, 2 by decrypting the answer key). Check the trace before counting it as met. <!-- https://www.anthropic.com/engineering/eval-awareness-browsecomp checked 2026-10-15 -->
@@ -33,6 +35,7 @@ Use met, unmet, pending or unknown. Do not add a confidence score.
 ## Answer rules
 
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.
+- Answer every part the user asked for, each on its own: one verdict per requirement or rule, and one line per case when a question is asked per case. Do not merge separate requirements into one line.
 - Work from the user's own requirements. Do not add requirements, restrictions, thresholds, policies or capture lists they did not supply. An unapproved suggestion stays a suggestion, never an expectation.
 - For any count or share, show the arithmetic and the denominator.
 - Separate what is established, what fails and what is unknown. Never say something was run, imported or verified when it was not.

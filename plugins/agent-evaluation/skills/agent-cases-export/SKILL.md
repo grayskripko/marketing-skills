@@ -12,15 +12,15 @@ Return the export first.
 - Separate request, conditions, fixtures, observed behaviour and expected outcome for each incident. A "done" message is a claim; a receipt or persisted record supports an action.
 - Expected outcomes come only from supplied requirements or approved owner decisions. An unapproved suggestion is never placed in `expected`; record it as an open question.
 - Merge explicit copies of the same report and say so. Keep distinct incidents separate even when they look alike.
-- Keep every distinct case. A case without an approved expectation stays in the export, clearly marked unresolved, unless the contract forbids that.
-- Keep what is needed to reproduce a case (fixtures, permissions, attempts, checkpoints) in fields the importer actually reads.
+- Only ready cases go into the importable lines: an approved expectation and not a copy. Never write a placeholder such as "UNRESOLVED" or null into `expected`.
+- List every unresolved, duplicate or unapproved case visibly next to the file, each with what it needs to become ready.
+- The prompt is what the agent will see: the request and any input data it is given. Attempts, resume or replay conditions, permissions, observed output and provenance go in a side table, unless the importer has its own fields for them.
 
 ## Format
 
 - With a supplied importer contract, use exactly its fields. An example shows only its own fields, not enums or optionality.
-- With no importer chosen, give one self-contained neutral JSONL stream with all cases. Do not ask which importer to target.
-- JSONL: one valid object per line, no blank lines, no surrounding array. Null differs from a missing field.
-- Do not claim an import succeeded because the lines parse.
+- With no importer chosen, give neutral JSONL lines with only id, prompt and expected for the ready cases. Do not ask which importer to target.
+- JSONL: every line must parse as JSON on its own; no bare words, comments or markers. No blank lines, no surrounding array. An omitted value is a missing key, not an invented token.
 
 ## Producer facts that change a mapping
 
@@ -38,6 +38,7 @@ Return the export first.
 ## Answer rules
 
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.
+- Answer every part the user asked for, each on its own: one verdict per requirement or rule, and one line per case when a question is asked per case. Do not merge separate requirements into one line.
 - Work from the user's own requirements. Do not add requirements, restrictions, thresholds, policies or capture lists they did not supply. An unapproved suggestion stays a suggestion, never an expectation.
 - For any count or share, show the arithmetic and the denominator.
 - Separate what is established, what fails and what is unknown. Never say something was run, imported or verified when it was not.
