@@ -5,7 +5,7 @@ description: "Design the hub page and child pages for one topic on a website: th
 
 # Hub design
 
-Give the hub as the user can publish it: title, a one-line introduction, and each member as a link with one sentence on what the reader gets there, in a sensible reading order. Then the missing links as a short table: from | to | placement.
+Give the hub as the user can publish it: title, a one-line introduction, and each member as a link in a sensible reading order. Add a one-line description only when the user's supplied content (summary, sections, queries) says something beyond the member's title; never restate the title, and nothing beyond the content. Otherwise the reading order, grouped by step, carries the hub. Then the missing links as a short table: from | to | placement. Any count in the first line matches the rows below it.
 
 - Missing links first means hub → member and member → hub links that do not exist yet. Add member → member links only when the supplied content shows a reader needs that next step; list them separately as optional.
 - Link each member once from the hub unless the user asks for more.
