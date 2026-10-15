@@ -13,3 +13,7 @@ Find the buyer questions the team answers differently, without proof, or not at 
 - When updating an earlier bank, lead with a direct comparison of the two snapshots: what is new, what grew, what changed status, what is still open.
 - Questions and statuses are per question, never per seller.
 - Only propose answers backed by the user's material.
+
+Dated facts. Use a fact only when it changes the answer; never list them.
+- In a Gartner survey of 632 B2B buyers (fieldwork 2024, released June 2025), 69% saw inconsistencies between what sellers said and the supplier's website. If the user has the website or pricing page, check agreed answers against it. <!-- https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-sales-survey-finds-61-percent-of-b2b-buyers-prefer-a-rep-free-buying-experience checked 2026-10-15 -->
+- 6sense's 2025 buyer study: 58% engaged sellers earlier to evaluate AI built into the product. Expect questions on how the AI works, data security and its pricing; if nobody answers them, they are gaps. <!-- https://6sense.com/science-of-b2b/buyer-experience-report-2025/ checked 2026-10-15 -->
