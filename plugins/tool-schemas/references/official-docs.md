@@ -47,7 +47,7 @@ Read 2026-10-11 UTC. Each URL below was opened during this build. Status, resolv
 - URL: https://code.claude.com/docs/en/agent-sdk/custom-tools
 - Read: 2026-10-11
 - Scope: Current Python/TypeScript SDK docs
-- Applied knowledge: tool()/@tool plus createSdkMcpServer/create_sdk_mcp_server defines registered tools. Zod or full JSON Schema carries bounds/optional fields. Defaults belong in handlers; controlled failures carry content and isError.
+- Applied knowledge: tool()/@tool plus createSdkMcpServer/create_sdk_mcp_server defines registered tools. Zod or full JSON Schema carries bounds/optional fields. Defaults belong in handlers; controlled failures carry content plus isError (TypeScript) or "is_error" (Python). Python @tool forwards only content and is_error. Rechecked 2026-10-15, including SDK source https://github.com/anthropics/claude-agent-sdk-python/blob/main/src/claude_agent_sdk/__init__.py.
 - Loaded: HTTP 200; 1078266 bytes. Resolved URL: https://code.claude.com/docs/en/agent-sdk/custom-tools
 
 ## Claude Agent SDK permissions
@@ -71,7 +71,7 @@ Read 2026-10-11 UTC. Each URL below was opened during this build. Status, resolv
 - URL: https://docs.langchain.com/oss/python/langchain/tools
 - Read: 2026-10-11
 - Scope: Current Python tools documentation
-- Applied knowledge: ToolRuntime is injected at execution and excluded from the model-facing schema. Preserve trusted context in the runtime rather than exposing it as arguments.
+- Applied knowledge: ToolRuntime is injected at execution and excluded from the model-facing schema. Preserve trusted context in the runtime rather than exposing it as arguments. Examples read runtime.context by attribute with a dataclass context_schema (rechecked 2026-10-15).
 - Loaded: HTTP 200; 1753022 bytes. Resolved URL: https://docs.langchain.com/oss/python/langchain/tools
 
 ## JSON Schema objects
