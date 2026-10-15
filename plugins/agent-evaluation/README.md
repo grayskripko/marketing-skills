@@ -36,3 +36,9 @@ Retrieval-stage diagnosis belongs in RAG Evaluation. Checking a currently delega
 No runtime network requests: no searches, URL fetches, robots.txt requests, dependency downloads, remote schema resolution, uploads or telemetry. Only pasted inputs and selected task files are read. Requested local exports are saved at the chosen destination. No plugin-managed database or retention service is supplied. The assistant host handles chats and file/tool data under its own settings. See [PRIVACY.md](PRIVACY.md).
 
 Official format knowledge is embedded in every skill; dated supporting URLs and producer/version scope are in the [reference register](references/official-docs.md). Build and verification records are in [BUILD-NOTES.md](BUILD-NOTES.md).
+
+## Questions and feedback
+
+If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
+
+Sergey Skripko. I build AI agents and fix poorly working skills.
