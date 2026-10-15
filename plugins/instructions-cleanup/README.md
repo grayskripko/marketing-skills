@@ -22,9 +22,3 @@ The bundled knowledge covers Claude Code's mixed CLAUDE.md/AGENTS.md selection, 
 For a Claude-only contradiction review, the native `/doctor prompt-audit` may already finish the job. This package focuses on ownership across instruction sources and hosts, with a reviewable patch. Plain shortening belongs to a text-reduction workflow; individual skill repair is a different job.
 
 Command strings in examples and proposed patches are instruction-file content, not commands this workflow executes. The optional native `/doctor prompt-audit` mentioned above is a separate Claude Code feature, not invoked by these skills. Both platform manifests describe the same supplied-material workflow; `.codex-plugin/` is metadata for Codex, not a connector or server.
-
-## Questions and feedback
-
-If a skill works wrongly for your task, tell me in GitHub Discussions — I read every message: https://github.com/grayskripko/marketing-skills/discussions
-
-Sergey Skripko. I build AI agents and fix poorly working skills.
