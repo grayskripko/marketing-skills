@@ -5,7 +5,7 @@ description: "Check whether a resumed AI agent run finished the pending work wit
 
 # Check the resumed outcome
 
-Answer the user's questions directly, in their words and order, as briefly as they asked. State plainly what went right and what went wrong; do not replace that with a label. End with the one check or lookup that settles each open item, and skip fix lists nobody asked for.
+Answer the user's questions directly, in their words and order, as briefly as they asked. State plainly what went right and what went wrong; do not replace that with a label. End with the check or lookup that settles each open item.
 
 Judge from the supplied records:
 

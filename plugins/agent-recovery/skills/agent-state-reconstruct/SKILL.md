@@ -5,7 +5,7 @@ description: "Reconstruct an interrupted AI agent run so you can resume the agen
 
 # Reconstruct interrupted work
 
-Answer exactly the questions asked, in the shape asked. Keep table rows to the outcomes the decision is about, so a small table stays small. If the user asks for an action table, what remains or what is safe, give the safe next move for each open item. End with the one check or lookup that settles each open item, and skip fix lists nobody asked for.
+Answer exactly the questions asked, in the shape asked. Keep table rows to the outcomes the decision is about, so a small table stays small. If the user asks for an action table, what remains or what is safe, give the safe next move for each open item. End with the check or lookup that settles each open item.
 
 Classify each required outcome from the supplied records only:
 
