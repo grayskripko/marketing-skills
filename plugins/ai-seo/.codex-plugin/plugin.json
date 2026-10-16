@@ -1,7 +1,7 @@
 {
   "name": "ai-seo",
-  "version": "0.1.64",
-  "description": "Check whether AI answers mention your brand in ChatGPT, Perplexity and Google AI Overviews, using answers you paste or log to show how often you appear, how your business is described and which sources get cited instead. Builds a repeatable prompt panel you run yourself, turns logged results into an AI search visibility scorecard, analyzes citation exports, and checks whether your web pages can be quoted accurately. Also writes llms.txt and robots.txt AI crawler rules into an open project, showing the diff, or checks the ones you have. Contains no code of its own and stores nothing.",
+  "version": "0.1.65",
+  "description": "Check whether AI answers mention your brand in ChatGPT, Perplexity and Google AI Overviews, and check one page (URL or pasted text) for what to change so those AI answers can quote it accurately, with rewrites you apply yourself. In Claude Code, creates llms.txt and AI crawler rules in robots.txt in your project, showing the diff before each change, and checks existing ones. Uses answers you paste or log to show how often you appear, how your business is described and which sources get cited instead. Builds a repeatable prompt panel you run yourself, turns logged results into an AI search visibility scorecard and analyzes citation exports. Contains no code of its own and stores nothing.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
