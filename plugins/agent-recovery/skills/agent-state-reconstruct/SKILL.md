@@ -14,7 +14,7 @@ Classify each required outcome from the supplied records only:
   - a timeout is not a failure;
   - a cancellation request does not mean the writer stopped or rolled back;
   - a checkpoint written before the attempt says nothing about its outcome.
-- Accepted, delivered and applied are different outcomes; claim only the one the receipt shows.
+- Accepted, delivered, applied and approved are different outcomes; claim only the one the records show.
 - A wait loop is a dependency cycle only if it closes; a missing input is a blocker, not a cycle.
 - When something must wait, name the safe move available now within the user's authority. That can be a read-only lookup by request ID, or preparing in a scratch location that does not overlap a writer that may still be live. The held side effect itself is never the fallback.
 
