@@ -16,7 +16,7 @@ Each skill is chosen by what you give it:
 | One page, and a question about being quoted in AI answers | `ai-page-audit`: a plain verdict, the changes that matter, rewrites, a default 0-18 checklist score on request (an applicable-check denominator for page types where a trait does not apply; the report states which) and a warning if the page hides text aimed at AI |
 | One query plus answers you copied | `ai-answer-gap`: what to add or correct, with a sub-question coverage matrix |
 | URLs cited in answers, or "how do we get described correctly elsewhere" | `ai-offsite-plan`: source table and fact pack |
-| "Generate or check llms.txt", robots.txt rules, or pasted bot-access logs | `llms-txt-crawler-access`: in an open project, creates or updates llms.txt and robots.txt AI crawler rules and shows the diff (asks before replacing existing content); otherwise the file text, effective crawler rules, or access diagnosis with exact proposed changes |
+| "Generate or check llms.txt", robots.txt rules, or pasted bot-access logs | `llms-txt-crawler-access`: llms.txt draft, effective crawler rules, or access diagnosis with exact proposed changes |
 
 ## Examples
 
