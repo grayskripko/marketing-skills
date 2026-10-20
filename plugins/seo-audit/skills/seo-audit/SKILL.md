@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: "Any SEO question or decision about the user's own site, even a quick one-liner or a side question: is my site ok for Google, what to fix first, why isn't it showing up, a traffic drop after a relaunch, is an agency's or cold email's SEO claim right, will a platform switch or reused product text hurt rankings, is paying for SEO worth it. Use cases: SEO audit, website audit, ecommerce store SEO, organic traffic drop, technical and on-page SEO, Google Search Console errors. Audit a website or one section of it (a sample of up to 10 pages) for technical, on-page and content SEO, with evidence for every finding and a ranked top 5 of changes. Use when the user asks for an SEO or site audit, or why their site is not on Google or not ranking, with or without a domain yet. For exactly one URL use seo-page-audit; for Search Console, crawler or log exports, seo-data-review; for a local codebase, seo-code-audit; for tickets, seo-fix-plan. Not for visibility in ChatGPT or other AI answers, or for writing articles."
+description: "Any SEO question or decision about the user's own site, even a quick one-liner or a side question: is my site ok for Google, what to fix first, why isn't it showing up, a traffic drop after a relaunch, is an agency's or cold email's SEO claim right, will a platform switch or reused product text hurt rankings, is paying for SEO worth it. Use cases: SEO audit, website audit, ecommerce store SEO, organic traffic drop, technical and on-page SEO, Google Search Console errors. Audit a website or one section of it (a sample of up to 10 pages) for technical, on-page and content SEO, with evidence for every finding and a ranked top 5 of changes. Use when the user asks for an SEO or site audit, or why their site is not on Google or not ranking, with or without a domain yet. For exactly one URL use seo-page-audit; for Search Console, crawler or log exports, search-console-data-review; for a local codebase, technical-seo-code-audit; for tickets, seo-fix-plan. Not for visibility in ChatGPT or other AI answers, or for writing articles."
 ---
 
 # SEO site audit
@@ -91,8 +91,8 @@ No promises about rankings or traffic: describe the mechanism and the metric to 
 
 ## If the user also provides an export
 
-Note it in the scope and use the two relevant screens from `../seo-data-review/references/thresholds.md`, including its parameter-selection, peer-comparability and evidence-sufficiency rules. Merge useful results into the same findings without letting a screen boundary determine business priority:
-- striking distance: select and disclose the same context-sensitive parameters as seo-data-review/references/thresholds.md, section 1;
+Note it in the scope and use the two relevant screens from `../search-console-data-review/references/thresholds.md`, including its parameter-selection, peer-comparability and evidence-sufficiency rules. Merge useful results into the same findings without letting a screen boundary determine business priority:
+- striking distance: select and disclose the same context-sensitive parameters as search-console-data-review/references/thresholds.md, section 1;
 - CTR outliers: rows with at least 200 impressions whose CTR is below half the median CTR of their position band (1-3, above 3-7, above 7-10, above 10-20).
 
-For a full export review, suggest seo-data-review.
+For a full export review, suggest search-console-data-review.
