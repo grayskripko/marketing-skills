@@ -1,11 +1,12 @@
 {
   "name": "ai-seo",
   "displayName": "AI Search Visibility & Brand Mentions (GEO/AEO)",
-  "version": "0.1.67",
-  "description": "Check whether AI answers mention your brand in ChatGPT, Gemini, Perplexity and Google AI Overviews, including product recommendations, and check one page for what to change so those answers can quote it accurately. For generative engine optimization (GEO): track brand mentions with a prompt panel you run yourself, then turn logged runs into an AI visibility report and scorecard: how often you appear, how your business is described (brand accuracy) and which sources get cited instead. In Claude Code, creates llms.txt and AI crawler rules in robots.txt in your project, showing the diff before each change, and checks existing ones. Also analyzes citation exports. Contains no code of its own and stores nothing.",
+  "version": "0.1.68",
+  "description": "Check whether AI answers mention your brand in ChatGPT, Gemini, Perplexity and Google AI Overviews, including product recommendations, and check one page for what to change so those answers can quote it accurately. For generative engine optimization (GEO): track brand mentions with a prompt panel you run yourself, then turn logged runs into an AI visibility report and scorecard: how often you appear, how your business is described (brand accuracy) and which sources get cited instead. In Claude Code, creates or updates llms.txt and AI crawler rules in robots.txt in your project when you ask, showing the diff for each file and asking before replacing existing content, and checks existing ones. Also analyzes citation exports. Contains no code of its own and stores nothing of its own; the crawler skill writes llms.txt or robots.txt in your project only when you ask.",
   "author": {
     "name": "Sergey Skripko",
-    "url": "https://github.com/grayskripko"
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
   },
   "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/ai-seo",
   "repository": "https://github.com/grayskripko/marketing-skills",

@@ -1,7 +1,7 @@
 {
   "name": "ai-seo",
-  "version": "0.1.67",
-  "description": "Check whether AI answers mention your brand in ChatGPT, Gemini, Perplexity and Google AI Overviews, including product recommendations, and check one page for what to change so those answers can quote it accurately. For generative engine optimization (GEO): track brand mentions with a prompt panel you run yourself, then turn logged runs into an AI visibility report and scorecard: how often you appear, how your business is described (brand accuracy) and which sources get cited instead. In Claude Code, creates llms.txt and AI crawler rules in robots.txt in your project, showing the diff before each change, and checks existing ones. Also analyzes citation exports. Contains no code of its own and stores nothing.",
+  "version": "0.1.68",
+  "description": "Check whether AI answers mention your brand in ChatGPT, Gemini, Perplexity and Google AI Overviews, including product recommendations, and check one page for what to change so those answers can quote it accurately. For generative engine optimization (GEO): track brand mentions with a prompt panel you run yourself, then turn logged runs into an AI visibility report and scorecard: how often you appear, how your business is described (brand accuracy) and which sources get cited instead. In Claude Code, creates or updates llms.txt and AI crawler rules in robots.txt in your project when you ask, showing the diff for each file and asking before replacing existing content, and checks existing ones. Also analyzes citation exports. Contains no code of its own and stores nothing of its own; the crawler skill writes llms.txt or robots.txt in your project only when you ask.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -26,12 +26,13 @@
   "interface": {
     "displayName": "AI Search Visibility & Brand Mentions (GEO/AEO)",
     "shortDescription": "Check and improve AI mentions of your brand",
-    "longDescription": "Seven connected skills for measuring and improving how accurately AI answer engines and AI search features describe and cite a brand. Build a repeatable prompt panel and run protocol, score the runs you log with sample sizes and a written rule for telling a clear change from run-to-run variation, analyze citation and AI-feature exports to rank pages by value against citation share, check whether one page can be quoted accurately, compare pasted answers for one query against your page, plan honest work on the third-party sources those answers rely on, and create or update llms.txt and robots.txt AI crawler rules in your project (showing the diff), or check AI crawler access from supplied evidence. The plugin never queries AI engines itself and never invents their answers: you run the panel or paste what you saw. Calculations are printed so every number can be checked. It contains no code of its own and stores nothing.",
+    "longDescription": "Seven connected skills for measuring and improving how accurately AI answer engines and AI search features describe and cite a brand. Build a repeatable prompt panel and run protocol, score the runs you log with sample sizes and a written rule for telling a clear change from run-to-run variation, analyze citation and AI-feature exports to rank pages by value against citation share, check whether one page can be quoted accurately, compare pasted answers for one query against your page, plan honest work on the third-party sources those answers rely on, and create or update llms.txt and robots.txt AI crawler rules in your project (showing the diff), or check AI crawler access from supplied evidence. The plugin never queries AI engines itself and never invents their answers: you run the panel or paste what you saw. Calculations are printed so every number can be checked. It contains no code of its own and stores nothing of its own; the crawler skill writes llms.txt or robots.txt in your project only when you ask.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [
       "Interactive",
-      "Read"
+      "Read",
+      "Write"
     ],
     "brandColor": "#3B4BA8",
     "brandColorDark": "#7C8BE0",

@@ -1,6 +1,6 @@
 # AI crawler purposes and controls
 
-<!-- Reviewed 2026-10-12. --> Vendor-declared behaviour, not an independent compliance audit. Re-check the source before changing a live robots file.
+<!-- Reviewed 2026-10-12. --> Vendor-declared behaviour, not an independent compliance audit. Re-check at the source only if the user asks or pastes it; otherwise state the dated fact and name the source to confirm before changing a live robots file.
 
 | Token | Purpose | Effect and limits of blocking |
 |---|---|---|
