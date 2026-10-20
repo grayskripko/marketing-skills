@@ -1,6 +1,6 @@
 ---
 name: copy-edit
-description: Edit the user's own marketing copy (web page text or a headline) so it is clearer and less generic, with every number, name, date and claim kept unchanged. Returns the edited text first, then a short list of what changed. Use when the user pastes such copy and asks to edit, tighten, rewrite, make it clearer or less generic, or apply their voice profile. For a live page with "what's wrong" or "why doesn't it convert" use copy-diagnose; to check claims against evidence use copy-proof-check; with no draft yet use page-copy. Not for errors-only proofreading, documents or policies, ads, cold email, or search titles and meta descriptions.
+description: Edit the user's own marketing copy (web page text or a headline) so it is clearer and less generic, with every number, name, date and claim kept unchanged. Returns the edited text first, then a short list of what changed. Use when the user pastes such copy and asks to edit, tighten, rewrite, make it clearer or less generic, or apply their voice profile. For a live page with "what's wrong" or "why doesn't it convert" use copy-diagnose; to check claims against evidence use copy-proof-check; with no draft yet use page-copy. Not for errors-only proofreading, documents or policies, ads, cold email, or search titles and meta descriptions. Also load it for a quick rewrite of a headline, hero, tagline or button text, including copy inside a component or template during coding work.
 ---
 
 # Copy edit

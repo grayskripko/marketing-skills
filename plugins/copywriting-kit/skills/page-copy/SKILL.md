@@ -1,6 +1,6 @@
 ---
 name: page-copy
-description: Draft a landing, product or feature, pricing, or about page for the user's own website from a brief or product facts when no page copy exists yet. Returns the page draft first, built only on the user's facts, then three headline options labelled by angle and a short list of gaps. Use when the user asks to write or draft one of these pages from scratch. For existing copy use copy-diagnose or copy-edit. Not for ads, cold email, social posts or search titles and meta descriptions.
+description: Draft a landing, product or feature, pricing, or about page for the user's own website from a brief or product facts when no page copy exists yet. Returns the page draft first, built only on the user's facts, then three headline options labelled by angle and a short list of gaps. Use when the user asks to write or draft one of these pages from scratch. For existing copy use copy-diagnose or copy-edit. Not for ads, cold email, social posts or search titles and meta descriptions. Also load it when a new page scaffolded in a repo (about, pricing, landing, feature) needs its actual copy.
 ---
 
 # Page copy from a brief

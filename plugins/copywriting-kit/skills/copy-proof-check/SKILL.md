@@ -1,6 +1,6 @@
 ---
 name: copy-proof-check
-description: Check the claims in the user's copy against the evidence the user provides (notes, data, case summaries, review exports) and return a claims ledger with a status relative to that evidence, the matching evidence line, and an accurate rewrite for claims that go beyond it. Use when the user pastes copy plus evidence and asks which claims their evidence backs, whether they can say a claim ("can we say 'trusted by 10,000 teams'?"), or to check claims before publishing. Without evidence, copy-diagnose lists the claims that need it. Not for checking ads against platform ad policies. This is an evidence check, not legal advice.
+description: Check the claims in the user's copy against the evidence the user provides (notes, data, case summaries, review exports) and return a claims ledger with a status relative to that evidence, the matching evidence line, and an accurate rewrite for claims that go beyond it. Use when the user pastes copy plus evidence and asks which claims their evidence backs, whether they can say a claim ("can we say 'trusted by 10,000 teams'?"), or to check claims before publishing. Without evidence, copy-diagnose lists the claims that need it. Not for checking ads against platform ad policies. This is an evidence check, not legal advice. Also load it for a quick 'can we say X?' about one claim, including a claim about to go into a banner or component.
 ---
 
 # Proof check
