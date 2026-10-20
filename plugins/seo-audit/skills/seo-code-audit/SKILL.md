@@ -1,6 +1,6 @@
 ---
 name: seo-code-audit
-description: Review a website project's source code for SEO problems and report each one as a file:line finding with a suggested change. Covers head tag generation per route, noindex and robots rules that can leak to production, sitemap generation, canonical logic, redirects, hreflang, server versus client rendering, status codes for missing pages and crawlable links. Read-only. Use when the user asks for an SEO review of their code, templates or framework config in a local project, or pastes source files. For a live site use seo-audit.
+description: Review a website project's source code for SEO problems and report each one as a file:line finding with a suggested change. Covers head tag generation per route, noindex and robots rules that can leak to production, sitemap generation, canonical logic, redirects, hreflang, server versus client rendering, status codes for missing pages and crawlable links. Read-only. Use when the user asks for an SEO review of their code, templates or framework config in a local project, or pastes source files. For a live site use seo-audit. Also load it for a quick or side question during coding work: meta or robots tags in a layout, robots.txt in public/, a sitemap or canonical in the repo, the status code of a 404 route.
 ---
 
 # SEO code audit

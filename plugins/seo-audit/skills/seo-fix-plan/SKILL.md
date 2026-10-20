@@ -1,6 +1,6 @@
 ---
 name: seo-fix-plan
-description: Turn SEO findings into a prioritized fix plan of developer and content tickets, each with the exact change, where to make it, owner role, effort, acceptance criteria and how to verify it after release. Use after an SEO audit, or when the user pastes a list of SEO issues and asks what to do, in what order, or for tickets.
+description: Turn SEO findings into a prioritized fix plan of developer and content tickets, each with the exact change, where to make it, owner role, effort, acceptance criteria and how to verify it after release. Use after an SEO audit, or when the user pastes a list of SEO issues and asks what to do, in what order, or for tickets. Also load it for a quick 'what first?' on a short list of SEO issues, or to turn review notes into tickets during coding work.
 ---
 
 # SEO fix plan

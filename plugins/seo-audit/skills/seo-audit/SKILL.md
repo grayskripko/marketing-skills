@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: "Use cases: SEO audit, website audit, ecommerce store SEO, organic traffic drop, technical and on-page SEO, Google Search Console errors. Audit a website or one section of it (a sample of up to 10 pages) for technical, on-page and content SEO, with evidence for every finding and a ranked top 5 of changes. Use when the user asks for an SEO or site audit, or why their site is not on Google or not ranking, with or without a domain yet. For exactly one URL use seo-page-audit; for Search Console, crawler or log exports, seo-data-review; for a local codebase, seo-code-audit; for tickets, seo-fix-plan. Not for visibility in ChatGPT or other AI answers, or for writing articles."
+description: "Use cases: SEO audit, website audit, ecommerce store SEO, organic traffic drop, technical and on-page SEO, Google Search Console errors. Audit a website or one section of it (a sample of up to 10 pages) for technical, on-page and content SEO, with evidence for every finding and a ranked top 5 of changes. Use when the user asks for an SEO or site audit, or why their site is not on Google or not ranking, with or without a domain yet. For exactly one URL use seo-page-audit; for Search Console, crawler or log exports, seo-data-review; for a local codebase, seo-code-audit; for tickets, seo-fix-plan. Not for visibility in ChatGPT or other AI answers, or for writing articles. Also load it for a quick question, even in the middle of other work, such as why a live site lost search traffic after a deploy."
 ---
 
 # SEO site audit
