@@ -1,5 +1,5 @@
 ---
-name: page-copy
+name: landing-page-copy
 description: "Any request for new copy for the user's own website page or page section, even a few lines or a side question: what to put at the top of a landing page, a headline and subhead for a new offer, what to write on an about or pricing page, copy for a page scaffolded in a repo. Draft a landing, product or feature, pricing, or about page for the user's own website from a brief or product facts when no page copy exists yet. Returns the page draft first, built only on the user's facts, then three headline options labelled by angle and a short list of gaps. Use when the user asks to write or draft one of these pages from scratch. For existing copy use copy-diagnose or copy-edit. Not for ads, cold email, social posts or search titles and meta descriptions."
 ---
 
