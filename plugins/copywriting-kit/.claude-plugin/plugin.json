@@ -1,8 +1,8 @@
 {
   "name": "copywriting-kit",
   "displayName": "Website Copywriting & Positioning",
-  "version": "0.1.24",
-  "description": "Edit, diagnose and rewrite copy for your own small-business or SaaS website: edited text first with every number, name and claim kept, a plain diagnosis of what is broken before any rewrite, claims checked against your own evidence, page drafts from your facts, and a brand voice guide from your own writing. Proof, testimonials and urgency are never invented.",
+  "version": "0.1.25",
+  "description": "Conversion copywriting for your own small-business or SaaS website: edit, diagnose and rewrite SaaS landing page copy, a sales page, homepage headline, pricing or about page. Edited text first with every number, name and claim kept, a plain diagnosis of what is broken (positioning, value proposition or messaging) before any rewrite, claims checked against your evidence, page drafts from your facts, and a brand voice guide from your own writing. Proof, testimonials and urgency are never invented.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
