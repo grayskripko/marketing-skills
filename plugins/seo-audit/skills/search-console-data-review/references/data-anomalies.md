@@ -1,6 +1,6 @@
 # Known Search Console data anomalies
 
-Only entries confirmed by Google's own documentation are listed. Each has its source. The list was checked on 2026-09-29 and re-read on 2026-10-08; newer anomalies may exist. When source currency could change the conclusion, use available read-only access to check the primary source unless the user restricts sources. If lookup is unavailable or excluded, identify the snapshot date and unresolved coverage; request a relevant entry only if needed to finish:
+Only entries confirmed by Google's own documentation are listed. Each has its source. The list was checked on 2026-09-29 and re-read on 2026-10-08; newer anomalies may exist. When source currency could change the conclusion, offer to check the primary source and do so only if the user agrees. If lookup is unavailable or declined, identify the snapshot date and unresolved coverage; request a relevant entry only if needed to finish:
 https://support.google.com/webmasters/answer/6211453 (Search Console Help, "Data anomalies in Search Console").
 
 ## How to use this list

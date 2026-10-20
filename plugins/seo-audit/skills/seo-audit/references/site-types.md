@@ -11,6 +11,8 @@ Use this to choose which templates to sample within the 10-page cap and which ch
 - Sample: homepage, a top category, a filtered category URL, a product page, an out-of-stock product if the user points one out, the sitemap.
 - Weigh more: product URLs present in the sitemap; faceted navigation and sort parameters generating indexable duplicates; canonical on variants; Product structured data matching visible price and availability; internal search pages open to indexing; pagination links crawlable.
 - Common deliberate patterns: filter combinations noindexed; cart, checkout and account blocked.
+- Shopify: the same product is often reachable at `/products/<handle>` and `/collections/<name>/products/<handle>`; check that the canonical points to `/products/<handle>` and which form the collection links use. The platform generates robots.txt and the sitemap; changes to robots.txt go through the `robots.txt.liquid` template.
+- WordPress with WooCommerce: tag, author, date and attachment archives often answer 200 as thin pages; check whether the SEO plugin in use noindexes them, and that product category and shop pages are not paginated duplicates of each other.
 
 ## Local business
 - Sample: homepage, each location page (up to the cap), a service page, contact page.
