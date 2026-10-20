@@ -17,6 +17,12 @@ Free skills-only plugins in the Claude plugin directory. Each plugin lives in it
 | [RAG Evaluation](https://github.com/grayskripko/marketing-skills/tree/pl-rag-evaluation/plugins/rag-evaluation) | Evaluate and debug wrong RAG answers, retrieval quality, missing documents and grounded citations from the question, source documents, retrieved passages and response. |
 | [Tool Schemas](https://github.com/grayskripko/marketing-skills/tree/pl-tool-schemas/plugins/tool-schemas) | Fix AI agent tool contracts when connections work but tool choices, arguments or results fail. |
 
+## Sales and marketing
+
+| Plugin | What it does |
+|---|---|
+| [LinkedIn Warm Leads](https://github.com/grayskripko/marketing-skills/tree/main/plugins/linkedin-warm-leads) | Find warm leads in your own LinkedIn data export: rank connections against your customer, score warmth from your shared history, find dropped conversations and draft follow-ups you send yourself. Synthetic sample export in [samples/linkedin-warm-leads](https://github.com/grayskripko/marketing-skills/tree/main/samples/linkedin-warm-leads). |
+
 ## Author
 
 Sergey Skripko. I build AI agents and fix poorly working skills.

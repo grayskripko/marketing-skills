@@ -20,6 +20,11 @@
       "name": "copywriting-kit",
       "source": "./plugins/copywriting-kit",
       "description": "Diagnose, edit and draft marketing copy with a fact lock, change log and proof check."
+    },
+    {
+      "name": "linkedin-warm-leads",
+      "source": "./plugins/linkedin-warm-leads",
+      "description": "Find warm leads in your own LinkedIn data export: rank connections against your customer, score warmth from shared history, find dropped conversations, draft follow-ups you send yourself."
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "name": "linkedin-warm-leads",
+  "displayName": "LinkedIn Warm Leads",
+  "version": "0.1.2",
+  "description": "Find warm leads in your own LinkedIn data export: rank your connections against the customer you describe, score how warm each one is from your real shared history (messages, invitations, endorsements, recommendations), find conversations you dropped and likely job changes, and draft follow-ups you send yourself. Reads only the export files you give it, in your conversation (with a local script for large files if a code tool is available); never sends, never opens LinkedIn, never looks people up.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/linkedin-warm-leads",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "warm-leads",
+    "linkedin-connections",
+    "linkedin-export",
+    "networking",
+    "follow-up",
+    "referrals",
+    "b2b-sales",
+    "relationship-strength",
+    "outreach-drafts"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/linkedin-warm-leads/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/discussions",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/linkedin-warm-leads/README.md"
+}

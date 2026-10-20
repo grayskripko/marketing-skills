@@ -1,0 +1,49 @@
+{
+  "name": "linkedin-warm-leads",
+  "version": "0.1.2",
+  "description": "Find warm leads in your own LinkedIn data export: rank your connections against the customer you describe, score how warm each one is from your real shared history (messages, invitations, endorsements, recommendations), find conversations you dropped and likely job changes, and draft follow-ups you send yourself. Reads only the export files you give it, in your conversation (with a local script for large files if a code tool is available); never sends, never opens LinkedIn, never looks people up.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/linkedin-warm-leads",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "warm leads",
+    "linkedin connections",
+    "linkedin export",
+    "networking",
+    "follow-up",
+    "referrals",
+    "b2b sales",
+    "relationship strength",
+    "outreach drafts"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "LinkedIn Warm Leads",
+    "shortDescription": "Find warm leads in your LinkedIn export",
+    "longDescription": "Three skills for the network you already have. Rank your LinkedIn connections against the customer you describe, using what your own data export shows: who asked about your work, who wrote last, who recommended or endorsed you, whose invitation note named a need. Find conversations you dropped, timings people gave that have now passed, and likely job changes, with a reply draft for each. Learn what the export contains, what it never contains (who liked your posts, impressions) and what the fast first archive is already good for. Everything is read from the files you give; nothing is sent, no profile is looked up and no contact is enriched.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F5E4E",
+    "brandColorDark": "#7FC8B2",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "My LinkedIn export is in this folder. I sell fractional RevOps to B2B SaaS teams of 20-200; buyers are VP Sales, CRO or founders. Who are the 10 people to contact this week?",
+      "Find LinkedIn conversations in my export that I dropped and that are worth reopening, and draft a reply for each.",
+      "I only got the first, small LinkedIn data archive so far. What can I already do with it to find clients?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/linkedin-warm-leads",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/linkedin-warm-leads/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
+  }
+}
