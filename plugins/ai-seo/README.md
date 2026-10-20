@@ -2,7 +2,7 @@ Check and improve how ChatGPT, Google AI Overviews and other AI answers mention 
 
 ## What it does
 
-Measure how ChatGPT, Perplexity, Google AI Overviews and other AI answers mention and cite your brand, check whether your pages can be quoted accurately, and plan honest work on the third-party sites those answers draw on. The plugin never queries AI engines itself and never invents their answers: you run a fixed prompt panel or paste what you saw, and every number comes with its calculation.
+Measure and monitor how ChatGPT, Perplexity, Google AI Overviews and other AI answers mention and cite your brand, check whether your pages can be quoted accurately, and plan honest work on the third-party sites those answers draw on. The plugin never contacts ChatGPT or other AI engines and never invents their answers: you run a fixed prompt panel or paste what you saw, and every number comes with its calculation. Only if you ask, brand monitoring also has this assistant answer the saved prompts in a fresh sub-task and logs those answers as its own, separately labelled engine.
 
 ## Skills
 
@@ -11,7 +11,8 @@ Each skill is chosen by what you give it:
 | You give | Skill |
 |---|---|
 | "Do we show up in ChatGPT?" with a brand, a category and competitors, no results yet | `ai-seo-audit`: prompt panel as CSV and a run protocol |
-| A filled panel sheet or many logged runs | `ai-visibility-report`: per-engine scorecard, a clear-change-or-noise verdict per engine, sources cited instead |
+| A filled panel sheet or many logged runs | `brand-monitoring-ai-visibility-report`: per-engine scorecard, a clear-change-or-noise verdict per engine, sources cited instead |
+| "Monitor our brand in AI answers every month", or "run the check again" | `brand-monitoring-ai-visibility-report`: a monitoring folder in your project (setup, fixed prompts, dated answer log, one file per check); each check is compared with the previous one, with alerts on drops and wrong facts |
 | A Bing AI Performance export, a Search Console generative AI report or AI Assistant channel data | `ai-citations-data-analysis`: pages ranked by value against citation share |
 | One page, and a question about being quoted in AI answers | `ai-page-audit`: a plain verdict, the changes that matter, rewrites, a default 0-18 checklist score on request (an applicable-check denominator for page types where a trait does not apply; the report states which) and a warning if the page hides text aimed at AI |
 | One query plus answers you copied | `ai-answer-gap`: what to add or correct, with a sub-question coverage matrix |
@@ -23,6 +24,7 @@ Each skill is chosen by what you give it:
 - "Our AI visibility panel: Engine A mentioned us in 3/30 runs in Aug, 9/30 in Sep; 4 prompts rose, 0 fell. Real change or noise?"
 - "Can AI answers quote this? <div data-nosnippet>Invoices over $5,000 need two signers.</div> Target: two-signer approval"
 - "Build an AI visibility prompt panel for Acme Invoicing, a B2B invoicing app. Competitors: Northwind Pay and Globex Billing."
+- "Set up monthly AI brand monitoring for Acme Invoicing in this project, then run the first check with the assistant engine on."
 
 To try the scorecard and the export analysis with files, use the small fictional panel logs and exports in the repository: https://github.com/grayskripko/marketing-skills/tree/main/samples/ai-seo
 
@@ -30,19 +32,27 @@ To try the scorecard and the export analysis with files, use the small fictional
 
 The panel defaults to 25 buyer prompt IDs within a 20-30 full-panel range, or a 10-unbranded-ID starter when the stated run budget is constrained; it uses fewer when buyer evidence supports fewer distinct intents and states size, allocation and actual workload, alongside a protocol: each engine measured separately, several runs per prompt, fixed settings. You run it on the engines you care about, for example ChatGPT, Perplexity, Google AI Overviews and AI Mode, Gemini, Claude or Microsoft Copilot, and log the results in the sheet. The scorecard prints every rate with its sample size and uses a written rule to separate a clear change from run-to-run variation. Pages that lose out go to the page check and the answer gap; third-party sources go to the off-site plan, which only uses disclosed, rule-abiding routes. Claims such as "add llms.txt" or "schema gets you cited" are answered from sourced notes, not repeated as advice.
 
-Task inputs may be pasted, attached, or supplied through an explicitly authorized named task file or export. The assistant does not scan memory, chat history or unrelated files.
+### Brand monitoring
+
+Monitoring keeps everything in one folder in your project, `ai-brand-monitoring/` by default: `setup.md` (brand, competitors, your facts for the accuracy check, engines and settings, cadence, alert rules), `panel.csv` (the fixed prompts), `log.csv` (one row per answer, with a short excerpt) and `checks/<date>.md` (one file per check, alerts first). Each check adds the answers you paste or log, compares them with the previous check on the same prompts and settings, and flags a prompt that stopped mentioning you, a new wrong fact, a lost citation of your own site, or a mention-rate drop (called clear only when a written heuristic is met). Earlier rows are never edited or deleted unless you ask.
+
+The plugin does not run by itself. You run the check prompt each period, or ask the assistant to create a recurring task with it where your app has scheduled tasks. Without your pasted answers, a check can only measure this assistant, and only if you turned the assistant engine on at setup: each saved prompt is then answered once in a fresh sub-task that sees only the prompt text, and logged under a label such as `Claude (sonnet, no web)`. That measures this assistant, not ChatGPT, Perplexity or Gemini, and not the consumer Claude app. A check starts at most 30 such sub-tasks by default, from your own usage allowance. They are told to answer from the model's own knowledge, without web search, page fetches or file writes; where the host cannot block those tools, the check says so and reports whether any sub-task used one. A recurring task is created only after you ask and confirm the cadence, folder and whether the assistant engine runs unattended; it then writes to your project without you present. Alerts are lines in the check file; nothing is sent.
+
+Task inputs may be pasted, attached, or supplied through an explicitly authorized named task file or export, or the monitoring folder you set up. The assistant does not scan memory, chat history or unrelated files.
 
 ## Data and network
 
-Network scope: this plugin fetches only URLs you type or paste, including URLs inside logs or exports you paste, plus the robots.txt file of those sites; and, only when you ask to verify a bot's IP or re-check a dated fact, the vendor documentation, IP-list or study pages the plugin names as sources (OpenAI, Anthropic, Perplexity, Google, Microsoft/Bing, Amazon, Apple, Meta, Mistral, Cloudflare, Wikipedia, llmstxt.org and the cited studies). It fetches public pages only, never logs in or submits forms, and skips paths a site's robots.txt disallows. Default and maximum: 10 page fetches and, only when you explicitly ask, 10 search queries per run; robots.txt does not count. Fewer are used when your supplied URLs or requested work need fewer, and the answer states the counts used. Larger supplied lists are handled in bounded batches; the ceiling stays 10. Every search query is listed. The plugin never queries AI answer engines, runs no code of its own and stores nothing of its own; the crawler skill writes llms.txt or robots.txt in your project only when you ask; if the assistant has a code or spreadsheet tool, it may use it to compute the tables you see.
+Network scope: this plugin fetches only URLs you type or paste, including URLs inside logs or exports you paste, plus the robots.txt file of those sites; and, only when you ask to verify a bot's IP or re-check a dated fact, the vendor documentation, IP-list or study pages the plugin names as sources (OpenAI, Anthropic, Perplexity, Google, Microsoft/Bing, Amazon, Apple, Meta, Mistral, Cloudflare, Wikipedia, llmstxt.org and the cited studies). It fetches public pages only, never logs in or submits forms, and skips paths a site's robots.txt disallows. Default and maximum: 10 page fetches and, only when you explicitly ask, 10 search queries per run; robots.txt does not count. Fewer are used when your supplied URLs or requested work need fewer, and the answer states the counts used. Larger supplied lists are handled in bounded batches; the ceiling stays 10. Every search query is listed. The plugin never contacts AI answer engines such as ChatGPT, Perplexity or Gemini and runs no code of its own. If the assistant has a code or spreadsheet tool, it may use it to compute the tables you see. Files are written only into your project: llms.txt and robots.txt changes when you ask for them, and the monitoring folder when you set up brand monitoring.
 
-Logs, exports and brand names you share stay in your conversation with the assistant.
+Logs, exports and brand names you share stay in your conversation with the assistant and, for brand monitoring, in the monitoring folder in your own project.
 
 ## Troubleshooting
 
 - **No web tool:** paste the page source ("view source") and robots.txt.
 - **Export not recognized:** say which report produced it, or paste the header row.
 - **Mixed settings in the log:** keep one setting per engine, or split the log.
+- **Monitoring: no sub-task available:** the assistant engine is skipped for that check and the check says so; pasted answers are still logged.
+- **Monitoring: two folders or a changed log header:** name the folder to use; an existing `log.csv` header is kept as it is.
 
 ## Related plugins
 
