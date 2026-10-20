@@ -1,5 +1,5 @@
 ---
-name: ai-citation-data
+name: ai-citations-data-analysis
 description: "Find which pages to improve for AI search visibility using your AI citation, Google AI visibility and AI Assistant traffic exports. Joins them on normalized URLs with an optional page value list and ranks pages by business value against citation share, with a printed calculation table and data caveats. Use when the user shares or pastes one of these exports. Logged prompt-panel runs go to ai-visibility-report."
 ---
 
