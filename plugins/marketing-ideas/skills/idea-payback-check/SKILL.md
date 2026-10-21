@@ -1,6 +1,6 @@
 ---
 name: idea-payback-check
-description: "Says whether one named marketing idea is worth its cost before money is spent: a sponsorship, a booth, a launch-platform day, a lifetime-deal listing, a partner listing or a referral reward. Gives a verdict (Go, Test small first or Not now), the numbers it rests on, the most the user can afford to pay, and the cheapest way to find out. Use when the user names one idea and asks should we, is it worth it, what can we afford or will it pay back. Not for choosing among several ideas, reading results of a test already run, or judging an ad account's performance."
+description: "A question about whether one named marketing idea is worth its price, even a quick one-liner: is a $2,000 conference booth worth it, should we launch on Product Hunt, is this newsletter sponsorship overpriced. Says whether one named marketing idea is worth its cost before money is spent: a sponsorship, a booth, a launch-platform day, a lifetime-deal listing, a partner listing or a referral reward. Gives a verdict (go, test small first or not now, in the user's own terms), the numbers it rests on, the most the user can afford to pay, and the cheapest way to find out. Use when the user names one idea and asks should we, is it worth it, what can we afford or will it pay back. Not for choosing among several ideas, reading results of a test already run, or judging an ad account's performance."
 ---
 
 # Idea payback check

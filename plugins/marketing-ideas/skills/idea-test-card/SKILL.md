@@ -1,6 +1,6 @@
 ---
 name: idea-test-card
-description: "Sets up a test for one to three marketing ideas or channels already chosen, before launch: what counts as working, pass and stop lines tied to what a customer may cost or to the user's goal, whether the expected volume can show a result, cash and hours caps, and when to read the result. Use when the user has picked ideas or channels and asks how to test them, how to set up a growth experiment, what counts as working, or for pass and stop lines. Not for A/B tests of two page versions."
+description: "A question about pass and stop lines for a test of one to three acquisition channels the user already chose, before launch, even a quick one-liner: how many signups from 200 cold emails would count as working, when should we stop the newsletter test. Sets up a test for one to three marketing ideas or channels already chosen, before launch: what counts as working, pass and stop lines tied to what a customer may cost or to the user's goal, whether the expected volume can show a result, cash and hours caps, and when to read the result. Use when the user has picked ideas or channels and asks how to test them, what counts as working, when to stop, or for pass and stop lines. Not for A/B tests of page or ad variants, product or pricing experiments, or running ad accounts."
 ---
 
 # Idea test card

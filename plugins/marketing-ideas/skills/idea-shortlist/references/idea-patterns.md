@@ -74,7 +74,7 @@ Columns: mechanism; prerequisites (all must hold); demand states it suits; colou
 
 ## Excluded patterns, with the reason
 
-- Matching people across sites or social profiles to find personal openers: profiling private individuals (ground rule 9).
+- Matching people across sites or social profiles to find personal openers: profiling private individuals (ground rule 4).
 - Using another product's or a trending app's name in your name, keywords or ads to catch its demand: impersonation risk and app-store rules 2.3.7 and 4.1(c).
 - Reviews written by staff, friends or paid writers who never used the product, or rewards for positive reviews only: 16 CFR 465.2, 465.4, 465.5.
 - Buying followers, views, votes or engagement: 16 CFR 465.8 and launch-platform rules.

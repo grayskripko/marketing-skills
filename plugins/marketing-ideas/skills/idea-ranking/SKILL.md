@@ -1,6 +1,6 @@
 ---
 name: idea-ranking
-description: "Ranks the user's own list of marketing or acquisition ideas (channels, tactics, offers) and names the ones to test first, with the reason and what would lift each lower idea. Reads vague ideas in their most plausible form, merges duplicates, sets aside product features, pricing changes and content topics, and drops ideas that break disclosure or platform rules or fail on a cost the user gave. Use when the user pastes several marketing ideas and asks which to test first or how to rank them. Not for lists of article or content topics, and not for coming up with ideas from scratch."
+description: "A question about which of the user's own marketing or acquisition ideas to test first, even a quick one-liner: TikTok or a newsletter first, which of these five channel ideas should we try. Ranks the user's own list of marketing or acquisition ideas (channels, tactics, offers) and names the ones to test first, with the reason and what would lift each lower idea. Reads vague ideas in their most plausible form, merges duplicates, sets aside product features, pricing changes and content topics, and drops ideas that break disclosure or platform rules or fail on a cost the user gave. Use when the user names two or more marketing ideas and asks which to test first or how to rank them. Not for lists of article or content topics, not for coming up with ideas from scratch, and not for judging one named idea."
 ---
 
 # Idea ranking

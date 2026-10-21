@@ -1,4 +1,4 @@
-# Marketing Ideas Kit
+# Marketing Ideas & Growth Experiments
 
 Checks whether a marketing idea can pay for its customers before you spend, drops ideas that break disclosure or platform rules, and gives the rest a cheap test with a stop line. By Sergey Skripko.
 
@@ -10,11 +10,11 @@ Checks whether a marketing idea can pay for its customers before you spend, drop
 
 | Skill | Give it | You get |
 |---|---|---|
-| idea-shortlist | a product description | one main bet, up to two optional useful tests, the most you can pay per customer and click |
+| idea-shortlist | a product description | one main bet, up to two cheap tests, the most a customer may cost |
 | idea-ranking | your list of acquisition ideas | up to three useful ideas to test first |
 | idea-payback-check | one idea, ideally a quote | verdict, break-even, cheapest test |
 | idea-test-card | ideas you picked | volume check, pass and stop lines, run time |
-| idea-readout | counts from tests you ran | next feasible volume step, another bounded round, stop or inconclusive |
+| idea-readout | counts from tests you ran | scale, another bounded round, stop or inconclusive |
 
 ## Examples
 
