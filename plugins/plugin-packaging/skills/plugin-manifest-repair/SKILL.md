@@ -1,11 +1,13 @@
 ---
-name: plugin-package-repair
+name: plugin-manifest-repair
 description: "Fix the manifest, paths and broken references in my existing skills-only Claude plugin so colleagues can use the same files. Use when the user says “repair this plugin manifest,” “package these missing resources,” or “fix my plugin dependencies” and supplies the affected files, an inventory and target host details. Return corrected file text or a minimal patch, with exact destination paths, or apply the requested authorized local repair and validate the package. Preserve package identity and skill behavior while repairing distribution mechanics. Not for new scaffolding, improving one skill’s answers, publishing a marketplace, installing dependencies or changing account settings."
 ---
 
 # Repair distribution files
 
 Fix the manifest, path, link or dependency defect so the same files work on a colleague's machine. Keep name, version, descriptions, invocation controls, permissions, dependencies the skill still needs, and the user's chosen host layout. Do not convert to another layout unless asked.
+
+If nothing has been supplied yet, answer the question in general terms, name the manifest, file list, log or transcript that would settle it for this package, and ask for it.
 
 ## How to repair
 

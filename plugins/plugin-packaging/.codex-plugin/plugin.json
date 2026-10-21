@@ -1,7 +1,7 @@
 {
   "name": "plugin-packaging",
-  "version": "0.1.2",
-  "description": "Repair a skills-only Claude plugin that fails to install, load skills or find its resources. Use when colleagues cannot install a package that works locally, a plugin manifest points at the wrong directory, plugin dependencies do not resolve, or missing skills and broken references appear after distribution. Paste manifests, a file inventory, configs, errors or an installation transcript. Get a package audit, corrected text or authorized local file repairs, and a loading receipt from supplied traces or requested harmless checks through an available named host. Not for new scaffolding, improving one skill’s answers, or team administration.",
+  "version": "0.1.3",
+  "description": "Plugin troubleshooting for a skills-only Claude plugin: plugin install failures, skills not loading, or bundled files it cannot find. Use when colleagues cannot install a package that works locally, a plugin.json manifest points at the wrong directory, plugin dependencies do not resolve, or broken references appear after you share it. Paste the manifest, a file inventory, configs, errors or an install transcript. Get the failing path or declaration, corrected file text or an authorized local repair, and a receipt of what the install evidence shows. Not for new scaffolding, improving one skill’s answers, or team administration.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
@@ -11,31 +11,32 @@
   "license": "MIT",
   "keywords": [
     "Claude plugin packaging",
-    "plugin manifest",
+    "plugin troubleshooting",
+    "plugin.json manifest",
+    "skills not loading",
     "plugin dependencies",
-    "plugin not loading",
-    "missing skills",
     "broken references"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Plugin Packaging",
-    "shortDescription": "Repair plugin packaging",
-    "longDescription": "Repair a skills-only Claude plugin that fails to install, load skills or find its resources. Use when colleagues cannot install a package that works locally, a plugin manifest points at the wrong directory, plugin dependencies do not resolve, or missing skills and broken references appear after distribution. Paste manifests, a file inventory, configs, errors or an installation transcript. Get a package audit, corrected text or authorized local file repairs, and a loading receipt from supplied traces or requested harmless checks through an available named host. Not for new scaffolding, improving one skill’s answers, or team administration.",
+    "shortDescription": "Fix plugins whose skills are not loading",
+    "longDescription": "Plugin troubleshooting for a skills-only Claude plugin: plugin install failures, skills not loading, or bundled files it cannot find. Use when colleagues cannot install a package that works locally, a plugin.json manifest points at the wrong directory, plugin dependencies do not resolve, or broken references appear after you share it. Paste the manifest, a file inventory, configs, errors or an install transcript. Get the failing path or declaration, corrected file text or an authorized local repair, and a receipt of what the install evidence shows. Not for new scaffolding, improving one skill’s answers, or team administration.",
     "developerName": "Sergey Skripko",
-    "category": "Business & Operations",
+    "category": "Developer Tools",
     "capabilities": [
       "Interactive",
-      "Read"
+      "Read",
+      "Write"
     ],
     "brandColor": "#24485C",
     "brandColorDark": "#79BDD5",
     "logo": "./assets/icon.svg",
     "composerIcon": "./assets/icon.svg",
     "defaultPrompt": [
-      "Audit this Claude plugin manifest and complete package inventory. Why do colleagues see missing skills?",
-      "Repair these authorized local plugin files without changing skill behavior, then validate the package.",
-      "Check whether this installation transcript proves the package loaded and read its bundled resource."
+      "My plugin works locally but my colleague sees missing skills. Here is the manifest and file list.",
+      "Repair these plugin files I authorize you to edit, then validate the package.",
+      "Does this install transcript show that the plugin loaded and its skill ran?"
     ],
     "websiteURL": "https://github.com/grayskripko/marketing-skills",
     "supportURL": "https://github.com/grayskripko/marketing-skills/issues"

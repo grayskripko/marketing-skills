@@ -1,11 +1,13 @@
 ---
-name: plugin-package-audit
-description: "Find why a skills-only Claude plugin works locally but fails to install, load skills or find its resources for colleagues. Use when the user reports “plugin not loading,” “missing skills,” or “the companion is installed but cannot be found” and supplies a plugin manifest, package inventory, marketplace declarations, configs or logs. Locate broken references and unresolved plugin dependencies against the named host’s package rules. Return the exact failing path or declaration and a small repair list. Not for writing a new plugin, changing a skill’s behavior, or diagnosing one valid skill’s task selection."
+name: skills-not-loading-audit
+description: "A question about why the user's own skills-only Claude plugin fails to install, has skills not loading or cannot find its files, even a quick one before the manifest is pasted. Find why a skills-only Claude plugin works locally but fails to install, load skills or find its resources for colleagues. Use when the user reports “plugin not loading,” “missing skills,” or “the companion is installed but cannot be found” and supplies a plugin manifest, package inventory, marketplace declarations, configs or logs. Locate broken references and unresolved plugin dependencies against the named host’s package rules. Return the exact failing path or declaration and a small repair list. Not for writing a new plugin, changing a skill’s behavior, or diagnosing one valid skill’s task selection."
 ---
 
 # Audit an existing plugin package
 
-Find the defect that stops the package loading, its skills being discovered, or its files being found on a colleague's machine, and give the edits that fix it. Use plugin-package-repair when the user authorizes local edits, plugin-install-check for runtime evidence.
+Find the defect that stops the package loading, its skills being discovered, or its files being found on a colleague's machine, and give the edits that fix it. Use plugin-manifest-repair when the user authorizes local edits, plugin-install-check for runtime evidence.
+
+If nothing has been supplied yet, answer the question in general terms, name the manifest, file list, log or transcript that would settle it for this package, and ask for it.
 
 ## What to check
 

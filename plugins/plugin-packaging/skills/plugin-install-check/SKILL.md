@@ -1,11 +1,13 @@
 ---
 name: plugin-install-check
-description: "Check whether my skills-only Claude plugin actually loads, invokes its skills and reads its bundled resources in the target host. Use when the user says “the install says success but skills are missing,” “does this transcript prove it works,” or “verify my repaired plugin” and supplies host evidence or requests a check through an available named host. Return a receipt for observed events and collect the requested harmless checks when available. Keep installation, enablement, discovery, invocation and resource access separate. Not for marketplace installation, changing account settings or judging skill answer quality."
+description: "A question about whether the user's own Claude plugin really loaded, found its skills or read its files after install, even a quick one before the transcript is pasted. Check whether my skills-only Claude plugin actually loads, invokes its skills and reads its bundled resources in the target host. Use when the user says “the install says success but skills are missing,” “does this transcript prove it works,” or “verify my repaired plugin” and supplies host evidence or requests a check through an available named host. Return a receipt for observed events and collect the requested harmless checks when available. Keep installation, enablement, discovery, invocation and resource access separate. Not for marketplace installation, changing account settings or judging skill answer quality."
 ---
 
 # Check target-host installation evidence
 
-Say what the supplied records prove about one package revision in one host: installed, enabled, discovered, invoked, bundled file read. A stage with no event is "not shown", not failed. Do not join traces from different revisions, sessions or hosts into one receipt; a local `--plugin-dir` load is not a colleague's marketplace install, and a Claude receipt is not a Codex one. Use plugin-package-repair for file edits.
+Say what the supplied records prove about one package revision in one host: installed, enabled, discovered, invoked, bundled file read. A stage with no event is "not shown", not failed. Do not join traces from different revisions, sessions or hosts into one receipt; a local `--plugin-dir` load is not a colleague's marketplace install, and a Claude receipt is not a Codex one. Use plugin-manifest-repair for file edits.
+
+If nothing has been supplied yet, answer the question in general terms, name the manifest, file list, log or transcript that would settle it for this package, and ask for it.
 
 ## Host rules that decide receipts
 

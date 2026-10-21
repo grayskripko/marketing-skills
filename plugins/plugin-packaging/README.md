@@ -1,35 +1,27 @@
 # Plugin Packaging
 
-Repair a skills-only Claude plugin that fails to install, load skills or find its resources.
-For authors sharing an existing package with colleagues. Paste manifests, configs, traces, logs, transcripts, a file inventory or the relevant files. No account, API key or installation is needed to review supplied artifacts. Applying repairs needs authorized local files; collecting new host evidence needs an existing target host and its provider connection.
+Plugin troubleshooting for a skills-only Claude plugin that works locally but fails for colleagues: install failures, skills not loading, broken references, a `plugin.json` manifest or plugin dependencies that do not resolve.
 
-## What this package runs and connects to
-
-This skills-only package contains Markdown instructions and reference text, JSON compatibility metadata for Claude Code and Codex, a license and a static SVG icon. It bundles no executable scripts, dependencies, installers, hooks, MCP or LSP servers, or background processes. Installing this package does not itself run a bundled program or connect an account.
-
-Supplied-artifact review uses the text, attachments, transcripts and package files you provide, runs no commands and returns corrected text or patches in the conversation. Documentation and support URLs are references, not retrieval instructions; the skills do not fetch those URLs or search the web.
-
-Requested local repair can read and write files inside the authorized package tree and run the existing Claude Code command `claude plugin validate ./<package-directory>`. Supplied-text repair may instead propose that command for you to run. Requested host checks can use the existing named host to inspect inventory and errors, invoke a harmless skill and read a bundled resource. Claude Code local loading uses `--plugin-dir <package-directory>` after inspecting the complete target package for executable components; packages with hooks or MCP companions are not loaded in this workflow. Checks proposed to you are distinguished from commands actually run. Other hosts require an available documented tool or supplied transcripts; an unavailable host yields a partial receipt.
-
-Host checks can make model requests through the host's existing provider connection, sending prompts and file contents read for the check to that provider; the host may also write session logs. This optional mode is not an offline or no-execution workflow. The skills do not install dependencies, run executable hooks or MCP companions, connect new accounts, send messages, publish content, or change account settings. Remote MCP URLs, dependency-installation rules and API/cache methods discussed in the package are diagnostic knowledge, not permission to execute companions or call their APIs.
-
-The publisher receives no task data through this package and operates no collection, telemetry or storage service for it. Your assistant and target-host providers process and may retain conversations, attachments and session data under their own terms and settings. Local repairs and host logs use existing assistant or host tools, not a bundled program. Opening a support link or posting an issue yourself is a separate action; avoid including secrets or private logs.
+Paste the manifest, a file inventory, configs, errors or an install transcript. No account or API key is needed to review what you supply. Local repairs need files you authorize the assistant to edit.
 
 | Skill | Result |
 |---|---|
-| plugin-package-audit | Located manifest, path, resource and companion-dependency defects |
-| plugin-package-repair | Corrected text or minimal authorized local file edits and validation |
-| plugin-install-check | A host-specific receipt from supplied transcripts or requested harmless host checks |
+| skills-not-loading-audit | The failing path or declaration and a small list of edits |
+| plugin-manifest-repair | Corrected file text or a minimal patch, or authorized local edits followed by `claude plugin validate` |
+| plugin-install-check | A receipt of what the supplied install evidence shows, stage by stage |
 
 Ask “It works locally but my colleague sees missing skills,” “Fix these broken references,” or “Does this log prove the plugin loaded?”
 
-The audit distinguishes a complete package inventory from an uploaded subset. Repairs preserve skill behavior and package identity. The receipt separates successful installation, enabled state, discovery, invocation and resource access. A valid manifest alone cannot fill those stages.
+## What this package runs and connects to
 
-For requested local repair, the assistant edits the authorized package and runs its available validator. For requested Claude Code checks, it can load the package locally with `--plugin-dir`, inspect discovery and invoke a harmless skill and, when relevant to the requested claim, capture its read of the affected bundled reference. Resource-free skills need no resource-read stage. It records the host version and package revision. Local development loading does not establish a colleague’s marketplace installation. Other hosts need an available documented tool or supplied transcript; an unavailable host produces a partial receipt with the missing evidence.
+The package is Markdown instructions, a references file, Claude Code and Codex manifests, a license and a static SVG icon. It bundles no scripts, hooks, MCP or LSP servers, installers or background processes, and installing it runs nothing.
 
-Network scope: supplied-artifact review fetches no URLs and calls no services. Host-rule summaries and official source links are bundled in [references](references/sources.md). Requested local repairs read and write authorized package files and run validation. Requested host checks use the existing host’s provider connection, which can receive prompts and read file contents and write session logs. Documentation URLs are not fetched during skill use. No accounts are connected, dependencies installed, executable hooks or MCP companions run, or settings changed by these skills. The package adds no telemetry or storage.
+- Reviewing supplied files runs no commands and fetches no URLs. The source links in the skills and in [references](references/sources.md) are for you to open; the skills do not fetch them.
+- Authorized local repair reads and writes files inside the package folder you name and runs `claude plugin validate ./<package-directory>`. Validation does not show that skills load or run.
+- If you ask for a check to be run, the assistant uses only a harmless skill, does not load a package that has hooks, MCP servers or `bin/`, and lists the commands it actually ran. A local `--plugin-dir` load does not prove a colleague's marketplace install.
+- The skills do not install dependencies, run hooks or MCP companions, connect accounts, send messages, publish, or change settings.
 
-The package includes Claude Code and Codex compatibility manifests. Each target host’s loading evidence is assessed separately. Individual-skill behavior repair and organization rollout have separate owners.
+The publisher receives no task data and runs no collection, telemetry or storage service. Your assistant's provider processes conversations under its own terms. Leave secrets and private logs out of files you paste and out of public issues.
 
 Support: https://github.com/grayskripko/marketing-skills/issues
 License: MIT; see [LICENSE](LICENSE).
