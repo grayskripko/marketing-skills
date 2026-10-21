@@ -1,4 +1,4 @@
-# Copyedit & Proof Kit
+# Copyedit & Proofreading
 
 Editor's checks for finished prose. Certain errors are fixed; the rest become questions.
 
@@ -6,11 +6,11 @@ Editor's checks for finished prose. Certain errors are fixed; the rest become qu
 
 | Skill | Give it | You get |
 |---|---|---|
-| proofread | final text, or approved and final | Ship or Hold, counts, version diff |
-| redline-edit | text and an edit level | change table, author queries |
+| proofread | final text, or approved and final | whether it can ship, the fixes, unapproved differences |
+| redline-edit | text and an edit level | clean version, list of changes, author questions |
 | style-sheet | pieces meant to match | variant counts, find-and-replace list |
-| cut-to-length | text and a target | exact count, cut ledger |
-| content-refresh | a published page and its date | dated-item ledger, refreshed text |
+| cut-to-word-count | text and a target | shorter text, exact count, what readers lose |
+| content-refresh | a published page and its date | refreshed text, list of changes |
 
 ## Examples
 
@@ -20,15 +20,11 @@ Editor's checks for finished prose. Certain errors are fixed; the rest become qu
 
 ## Sample output
 
-Verdict: **Hold**. "10" became "100"; weekday and date disagree:
-
-| # | Check | Quote | Question | Decision |
-|---|---|---|---|---|
-| 1 | PR-07 dates | "Thursday 4 November 2026" | Wednesday 4 November or Thursday 5 November? | Query |
+Cannot print yet: "10" became "100", which was not approved, and 4 November 2026 is a Wednesday, not a Thursday. Restore "10", and confirm whether the date or the weekday is right.
 
 ## How it works
 
-Separate counted passes; dates and totals computed with a code tool. Numbers, names and dates keep their values. Checks are tuned for English.
+Weekdays, counts and totals are computed with a code tool when there is one. Numbers, names and dates keep their values. Checks are tuned for English.
 
 ## Data and network
 

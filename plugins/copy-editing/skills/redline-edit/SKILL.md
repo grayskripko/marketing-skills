@@ -1,6 +1,6 @@
 ---
 name: redline-edit
-description: "Copyedit prose so it is correct, consistent and clear without changing what it says: a clean version, tracked changes on request, a short explanation of each change, and questions to the author where the meaning is uncertain. Use when the user asks to copyedit, wants tracked changes or a redline, names a light, medium or heavy edit, or wants a guide, notice, report or policy made clearer without changing what it says. Not for persuasion, new copy, brand voice review, a final proof, or cutting to a number."
+description: "Copyedit your own prose, from a whole policy to one paragraph you want clearer, so it is correct, consistent and clear without changing what it says: a clean version, tracked changes on request, a short explanation of each change, and questions to the author where the meaning is uncertain. Use when the user asks to copyedit, wants tracked changes or a redline, names a light, medium or heavy edit, or wants a guide, notice, report or policy made clearer without changing what it says. Not for persuasion, new copy, brand voice review, a final proof, or cutting to a number."
 ---
 
 # Copyedit

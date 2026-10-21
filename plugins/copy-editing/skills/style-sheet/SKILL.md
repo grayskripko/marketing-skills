@@ -1,6 +1,6 @@
 ---
 name: style-sheet
-description: "Build a style sheet and an exact find-and-replace list from the user's own documents: applies the user's rules or source of truth first, counts each variant, flags facts that disagree between documents, and leaves the documents unchanged unless asked. Use when the user has several pieces meant to read as one set and asks to make them consistent, asks which spelling to use, or wants a word list or style sheet. Not for voice or tone review, persuasion, or rewriting."
+description: "Make your own set of documents consistent: build a style sheet and an exact find-and-replace list from them, or say which spelling or term they should use: applies the user's rules or source of truth first, counts each variant, flags facts that disagree between documents, and leaves the documents unchanged unless asked. Use when the user has several pieces meant to read as one set and asks to make them consistent, asks which spelling to use, or wants a word list or style sheet. Not for voice or tone review, persuasion, or rewriting."
 ---
 
 # Style sheet
