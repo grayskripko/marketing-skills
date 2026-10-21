@@ -1,13 +1,14 @@
 ---
 name: inspect-export
-description: Check CSV and Excel exports before you clean or combine them. Returns the problems found, a proposed column mapping and a preview of how the data would look once cleaned or combined. Use when you ask “what is wrong with this export,” “check these files before merging,” or “why did my IDs and dates change.” It keeps identifiers as text and flags unclear dates, repeated keys, missing columns and formula-looking cells. Not for accounting conclusions, general statistical analysis or repairing a corrupt workbook. Use clean-and-merge when you want the cleaned file itself.
+description: "A question about what is wrong with the user's own CSV or Excel export, or why it looks wrong in Excel, even a quick one-liner sent before the file is attached. Check CSV and Excel exports before you clean or combine them. Returns the problems found, a proposed column mapping and a preview of how the data would look once cleaned or combined. Use when you ask “what is wrong with this export,” “check these files before merging,” or “why did my IDs and dates change.” It keeps identifiers as text and flags unclear dates, repeated keys, missing columns and formula-looking cells. Not for accounting conclusions, general statistical analysis or repairing a corrupt workbook. Use clean-and-merge-csv-files when you want the cleaned file itself."
 ---
 
 # Inspect CSV/Excel exports before cleanup
 
 ## How to answer
 
-- Give the result first: the cleaned, merged, split, deduplicated or matched rows themselves. Use a table, or CSV when the user wants CSV. Do not replace the data with descriptions of it, row-number references or a plan.
+- If no rows or files are attached yet, say in one or two lines what to paste or attach and stop there; do not invent sample data.
+- Give the findings first: the problems found and the proposed column mapping, with a short preview of cleaned rows where it helps. Do not replace the findings with a plan. Cleaned output files belong to clean-and-merge-csv-files.
 - Fix what you can. When a value has more than one reading, apply the most likely one, say which reading you used and what the other reading would give, and mark the row. Leave a value unconverted only when no reading holds up (an impossible date, text in a number column); keep the original and mark it. When totals are asked for, give them with the assumption stated rather than none.
 - Show the user's data back as they gave it, names, emails, phones and addresses included. Add privacy, access or storage-location advice only if the user raises it.
 - Take the user's stated facts and rules as given; do not ask them to confirm what they said. If a rule has two readings, apply the one that fits their words and name the other in one line.

@@ -1,12 +1,13 @@
 ---
-name: clean-and-merge
-description: Clean and combine CSV or Excel exports, or pasted rows. Returns the cleaned, merged, split or deduplicated rows, with short notes on anything uncertain. Use when you ask “combine these exports,” “clean this CSV without losing IDs,” “remove the duplicates” or “merge these sheets and show unmatched rows.” It keeps IDs as text, fixes dates, numbers and formats, checks that a join does not multiply rows, and marks values it could not fix. Not for inventing missing values, merging similar names without asking, posting financial adjustments or editing a live account. Use inspect-export when you only want the files checked first.
+name: clean-and-merge-csv-files
+description: "A request to clean, merge or deduplicate the user's own CSV or Excel exports or pasted rows, even a quick one-liner sent before the files are attached. Clean and combine CSV or Excel exports, or pasted rows. Returns the cleaned, merged, split or deduplicated rows, with short notes on anything uncertain. Use when you ask “combine these exports,” “clean this CSV without losing IDs,” “remove the duplicates” or “merge these sheets and show unmatched rows.” It keeps IDs as text, fixes dates, numbers and formats, checks that a join does not multiply rows, and marks values it could not fix. Not for inventing missing values, merging similar names without asking, posting financial adjustments or editing a live account. Use inspect-export when you only want the files checked first."
 ---
 
 # Clean and combine CSV/Excel exports
 
 ## How to answer
 
+- If no rows or files are attached yet, say in one or two lines what to paste or attach and stop there; do not invent sample data.
 - Give the result first: the cleaned, merged, split, deduplicated or matched rows themselves. Use a table, or CSV when the user wants CSV. Do not replace the data with descriptions of it, row-number references or a plan.
 - Fix what you can. When a value has more than one reading, apply the most likely one, say which reading you used and what the other reading would give, and mark the row. Leave a value unconverted only when no reading holds up (an impossible date, text in a number column); keep the original and mark it. When totals are asked for, give them with the assumption stated rather than none.
 - Show the user's data back as they gave it, names, emails, phones and addresses included. Add privacy, access or storage-location advice only if the user raises it.

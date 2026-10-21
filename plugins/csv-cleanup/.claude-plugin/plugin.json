@@ -1,8 +1,8 @@
 {
   "name": "csv-cleanup",
   "displayName": "CSV Cleanup",
-  "version": "0.1.2",
-  "description": "Clean and merge Excel and CSV exports without changing the originals. Keeps IDs as text, links output rows to their sources and leaves unclear values for review. Use when you ask “combine these monthly exports,” “clean this CSV without losing IDs,” or “reuse last month’s cleanup.” You get a new copy, an issue list and saved cleanup steps through the assistant’s local tools. Not for live account editing, background refresh, fetching data from the network or accounting conclusions. No account or paid API is required.",
+  "version": "0.1.3",
+  "description": "Clean CSV files and combine Excel files or CSV exports without changing the originals: data cleaning, merge CSV files, remove duplicates under your rule, fix dates and numbers, keep IDs as text. Use when you ask “merge these CSV files,” “clean this CSV without losing IDs,” “remove duplicates” or “do the same cleanup on this month’s export.” You get the cleaned rows, a new file when files are given, short notes on anything uncertain, and reusable steps on request. Not for live account editing, background refresh, fetching data from the network or accounting conclusions. No account or paid API is required.",
   "author": {
     "name": "Sergey Skripko"
   },
@@ -13,12 +13,13 @@
     "csv",
     "excel",
     "csv-cleanup",
+    "clean-csv",
+    "merge-csv",
     "data-cleaning",
-    "merge",
-    "duplicates",
-    "reusable-recipe"
+    "remove-duplicates",
+    "reusable-steps"
   ],
   "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
-  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/csv-cleanup/PRIVACY.md",
-  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/csv-cleanup/README.md"
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/csv-cleanup/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/csv-cleanup/README.md"
 }

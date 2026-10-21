@@ -1,12 +1,13 @@
 ---
 name: repeat-cleanup
-description: Repeat an agreed CSV or Excel cleanup on new exports. Returns the newly cleaned rows and a short note on what changed since last time. Use when you ask “do the same cleanup this month,” “reuse these mappings,” or “check why the new export does not fit the saved steps.” It flags added or renamed columns, changed types, new duplicate keys and the same file being added twice. Not for unattended monitoring, refreshing live connections or promising that every future file will work. Use clean-and-merge when there are no earlier cleanup steps.
+description: "A request to repeat an earlier cleanup of the user's own CSV or Excel exports on a new export, even a quick one-liner sent before the steps or the file are pasted. Repeat an agreed CSV or Excel cleanup on new exports. Returns the newly cleaned rows and a short note on what changed since last time. Use when you ask “do the same cleanup this month,” “reuse these mappings,” or “check why the new export does not fit the saved steps.” It flags added or renamed columns, changed types, new duplicate keys and the same file being added twice. Not for unattended monitoring, refreshing live connections or promising that every future file will work. Use clean-and-merge-csv-files when there are no earlier cleanup steps."
 ---
 
 # Reuse a cleanup on new exports
 
 ## How to answer
 
+- If no rows or files are attached yet, say in one or two lines what to paste or attach and stop there; do not invent sample data.
 - Give the result first: the cleaned, merged, split, deduplicated or matched rows themselves. Use a table, or CSV when the user wants CSV. Do not replace the data with descriptions of it, row-number references or a plan.
 - Fix what you can. When a value has more than one reading, apply the most likely one, say which reading you used and what the other reading would give, and mark the row. Leave a value unconverted only when no reading holds up (an impossible date, text in a number column); keep the original and mark it. When totals are asked for, give them with the assumption stated rather than none.
 - Show the user's data back as they gave it, names, emails, phones and addresses included. Add privacy, access or storage-location advice only if the user raises it.

@@ -1,20 +1,21 @@
 ---
 name: review-exceptions
-description: Review rows flagged during CSV or Excel cleanup and turn them into a short decision table. Shows each flagged row, the issue, what any approval covers and what still needs a decision. Use when you ask “which duplicates should I keep,” “help me resolve these unmatched rows,” or “review the dates you could not fix.” It applies the approvals and notes you give to exactly the rows they name. Not for guessing missing facts, treating similar names as the same person or certifying that the underlying records are true. Use clean-and-merge to apply the decisions to the data.
+description: "A question about rows left over or flagged after cleaning the user's own CSV or Excel exports (possible duplicates, unmatched rows, unclear dates), even a quick one-liner. Review rows flagged during CSV or Excel cleanup and turn them into a short decision table. Shows each flagged row, the issue, what any approval covers and what still needs a decision. Use when you ask “which duplicates should I keep,” “help me resolve these unmatched rows,” or “review the dates you could not fix.” It applies the approvals and notes you give to exactly the rows they name. Not for guessing missing facts, treating similar names as the same person or certifying that the underlying records are true. Use clean-and-merge-csv-files to apply the decisions to the data."
 ---
 
 # Review uncertain export rows
 
 ## How to answer
 
-- Give the result first: the cleaned, merged, split, deduplicated or matched rows themselves. Use a table, or CSV when the user wants CSV. Do not replace the data with descriptions of it, row-number references or a plan.
+- If no rows or files are attached yet, say in one or two lines what to paste or attach and stop there; do not invent sample data.
+- Give the decision table first: one line per flagged row. Do not replace it with descriptions of the rows or a plan.
 - Fix what you can. When a value has more than one reading, apply the most likely one, say which reading you used and what the other reading would give, and mark the row. Leave a value unconverted only when no reading holds up (an impossible date, text in a number column); keep the original and mark it. When totals are asked for, give them with the assumption stated rather than none.
 - Show the user's data back as they gave it, names, emails, phones and addresses included. Add privacy, access or storage-location advice only if the user raises it.
 - Take the user's stated facts and rules as given; do not ask them to confirm what they said. If a rule has two readings, apply the one that fits their words and name the other in one line.
 - Ask at most one question, after the result, and only when the answer would change the output.
 - Never drop a row silently. If a row is removed, say which one and why.
 - No placeholder text inside data cells: leave a missing value blank and say so in a note. CSV output must parse: quote every field that contains a comma, quote or line break.
-- Add only what the user asked for. No inventories, record-number columns, count reconciliations, decision records or checklists unless requested; keep notes to things that affect the data.
+- Add only what the user asked for. Beyond the decision table, no inventories, record-number columns, count reconciliations or checklists unless requested; keep notes to things that affect the data.
 - Talk about the user's data, not about these instructions.
 
 ## Checks to apply silently (mention one only when it affects the data)
