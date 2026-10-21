@@ -1,6 +1,6 @@
 ---
-name: agent-cases-export
-description: "Export agent evaluation cases and regression tests from supplied incidents in your runner's format. Use when you ask 'make agent evals from these logs', 'export these agent regression tests as JSONL', or 'map these incidents to our importer', with pasted traces, transcripts, configs, selected files and supported expectations. Return redacted fixtures, source locators, an export matched to the supplied importer contract and a review collection for unresolved cases. Pasted inputs need no setup. Not for collecting remote traces, inventing expected answers, tuning instructions, uploading datasets, running evaluations or claiming an import succeeded."
+name: agent-evals-export
+description: "A request to turn the user's own AI agent or chatbot failures, logs or incidents into eval cases or regression tests, even a quick one-liner sent before the logs are pasted. Export agent evaluation cases and regression tests from supplied incidents in your runner's format. Use when you ask 'make agent evals from these logs', 'export these agent regression tests as JSONL', or 'map these incidents to our importer', with pasted traces, transcripts, configs, selected files and supported expectations. Return redacted fixtures, source locators, an export matched to the supplied importer contract and a review collection for unresolved cases. Pasted inputs need no setup. Not for collecting remote traces, inventing expected answers, tuning instructions, uploading datasets, running evaluations or claiming an import succeeded."
 ---
 
 # Export agent regression cases
@@ -37,6 +37,7 @@ Return the export first.
 
 ## Answer rules
 
+- With nothing pasted yet, answer in general terms in a few lines, name the record that would settle it for the user's own agent (requirements, trace, receipt or runner export), and ask for it.
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.
 - Answer every part the user asked for, each on its own: one verdict per requirement or rule, and one line per case when a question is asked per case. Do not merge separate requirements into one line.
 - Work from the user's own requirements. Do not add requirements, restrictions, thresholds, policies or capture lists they did not supply. An unapproved suggestion stays a suggestion, never an expectation.

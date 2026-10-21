@@ -1,6 +1,6 @@
 ---
 name: agent-outcomes-check
-description: "Verify agent output and check whether the agent really completed the task it says is done. Use when you ask 'verify agent output', 'check agent results', or 'did it actually save, send or update this?', with pasted requirements, original sources, transcripts, traces, receipts, configs or selected artifact files. Return requirement-linked findings for factual answers, persisted work, tool actions, prohibited effects and human escalation, separating observed failures from missing evidence. Pasted inputs need no setup. Not for live account checks, replaying uncertain actions, diagnosing retrieval infrastructure, checking or combining a currently delegated team’s results, individual skill repair or rewriting prompts."
+description: "A question about whether the user's own AI agent really did what it says it did (saved, sent, updated or answered correctly), even a quick one-liner sent before the trace or records are pasted. Verify agent output and check whether the agent really completed the task it says is done. Use when you ask 'verify agent output', 'check agent results', or 'did it actually save, send or update this?', with pasted requirements, original sources, transcripts, traces, receipts, configs or selected artifact files. Return requirement-linked findings for factual answers, persisted work, tool actions, prohibited effects and human escalation, separating observed failures from missing evidence. Pasted inputs need no setup. Not for live account checks, replaying uncertain actions, diagnosing retrieval infrastructure, checking or combining a currently delegated team’s results, individual skill repair or rewriting prompts."
 ---
 
 # Check delivered outcomes
@@ -34,6 +34,7 @@ When asked what evidence is missing, name each missing item and the finding it w
 
 ## Answer rules
 
+- With nothing pasted yet, answer in general terms in a few lines, name the record that would settle it for the user's own agent (requirements, trace, receipt or runner export), and ask for it.
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.
 - Answer every part the user asked for, each on its own: one verdict per requirement or rule, and one line per case when a question is asked per case. Do not merge separate requirements into one line.
 - Work from the user's own requirements. Do not add requirements, restrictions, thresholds, policies or capture lists they did not supply. An unapproved suggestion stays a suggestion, never an expectation.

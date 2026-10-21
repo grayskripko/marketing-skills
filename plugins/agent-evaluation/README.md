@@ -17,7 +17,7 @@ The publisher receives no task data and operates no collection, telemetry, or st
 | Job | Skill | Result |
 |---|---|---|
 | Plan agent evaluation | `agent-acceptance-plan` | Requirements mapped to observable outcomes and the supplied runner contract |
-| Prepare agent regression tests | `agent-cases-export` | Redacted cases in the importer's format, or neutral JSONL; unresolved cases stay in, marked |
+| Prepare agent evals and regression tests | `agent-evals-export` | Redacted ready cases in the importer's format, or neutral JSONL; unresolved cases listed beside the file |
 | Verify agent output | `agent-outcomes-check` | Findings tied to sources, actual artifacts, action receipts and escalation |
 | Check agent results before release | `agent-release-report` | Readiness decision from supplied runs and grader records |
 
@@ -29,7 +29,7 @@ The package works with supplied Claude Code, Codex, MCP, Claude Agent SDK, OpenA
 
 For later execution in your infrastructure, provide its runner version, schema, existing config and approved action scope. The assistant can prepare the corresponding capture contract and explain prerequisites without reading credential files. Live runs use that infrastructure's accounts, provider usage and side effects; this package's jobs stop at preparation and supplied-result review.
 
-Retrieval-stage diagnosis belongs in RAG Evaluation. Checking a currently delegated team's combined result belongs in Agent Orchestration. Individual skill repair and instruction rewriting are separate jobs.
+Retrieval-stage diagnosis belongs in RAG Evaluation. Checking a currently delegated team's combined result is a separate job. Individual skill repair and instruction rewriting are separate jobs.
 
 ## Data and network
 

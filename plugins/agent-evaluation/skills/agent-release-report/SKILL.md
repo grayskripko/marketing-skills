@@ -1,6 +1,6 @@
 ---
 name: agent-release-report
-description: "Review agent evaluation results and regression tests to decide whether this release meets your acceptance requirements. Use when you ask 'review these agent evals', 'did our agent regression tests pass?', or 'can we ship this version?', with pasted runner logs, traces, artifacts, configs, rubric records and acceptance requirements. Return a readiness decision linked to actual case outcomes, separating behavior failures, runtime errors, grader disagreements and missing evidence. Compare prior results only where the same requirements and conditions apply. Pasted inputs need no setup. Not for running evaluations, tuning instructions, broad model rankings, changing grades automatically or deploying a release."
+description: "A question about whether a version of the user's own AI agent or chatbot is ready to ship, based on its eval or test results, even a quick one-liner. Review agent evaluation results and regression tests to decide whether this release meets your acceptance requirements. Use when you ask 'review these agent evals', 'did our agent regression tests pass?', or 'can we ship this version?', with pasted runner logs, traces, artifacts, configs, rubric records and acceptance requirements. Return a readiness decision linked to actual case outcomes, separating behavior failures, runtime errors, grader disagreements and missing evidence. Compare prior results only where the same requirements and conditions apply. Pasted inputs need no setup. Not for running evaluations, tuning instructions, broad model rankings, changing grades automatically or deploying a release."
 ---
 
 # Review agent evaluation results
@@ -41,6 +41,7 @@ When asked where human review is needed, answer per case and per grader record.
 
 ## Answer rules
 
+- With nothing pasted yet, answer in general terms in a few lines, name the record that would settle it for the user's own agent (requirements, trace, receipt or runner export), and ask for it.
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.
 - Answer every part the user asked for, each on its own: one verdict per requirement or rule, and one line per case when a question is asked per case. Do not merge separate requirements into one line.
 - Work from the user's own requirements. Do not add requirements, restrictions, thresholds, policies or capture lists they did not supply. An unapproved suggestion stays a suggestion, never an expectation.

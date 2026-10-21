@@ -1,6 +1,6 @@
 ---
 name: agent-acceptance-plan
-description: "Plan agent evaluation checks for answers, saved artifacts, tool actions and human escalation. Use when you ask 'plan our agent evaluation', 'define checks for this workflow', or 'what evidence should our runner capture?', with pasted requirements, configs, traces, transcripts or selected files. Return observable checks for answers, saved artifacts, action receipts, missing inputs, tool errors and human escalation, mapped to the runner contract you supply. Pasted inputs need no setup. Not for individual skill repair, prompt rewriting, retrieval pipeline diagnosis, worker dispatch or running an agent."
+description: "A question about how to test or accept the user's own AI agent or chatbot before it goes live, even a quick one-liner with nothing pasted yet. Plan agent evaluation checks for answers, saved artifacts, tool actions and human escalation. Use when you ask 'plan our agent evaluation', 'define checks for this workflow', or 'what evidence should our runner capture?', with pasted requirements, configs, traces, transcripts or selected files. Return observable checks for answers, saved artifacts, action receipts, missing inputs, tool errors and human escalation, mapped to the runner contract you supply. Pasted inputs need no setup. Not for individual skill repair, prompt rewriting, retrieval pipeline diagnosis, worker dispatch or running an agent."
 ---
 
 # Plan agent acceptance checks
@@ -35,6 +35,7 @@ A table: requirement, fixture, expected outcome, checker and evidence, gap if an
 
 ## Answer rules
 
+- With nothing pasted yet, answer in general terms in a few lines, name the record that would settle it for the user's own agent (requirements, trace, receipt or runner export), and ask for it.
 - Answer what was asked first, in the requested shape and length. When the user asks for short verdicts, give short verdicts.
 - Answer every part the user asked for, each on its own: one verdict per requirement or rule, and one line per case when a question is asked per case. Do not merge separate requirements into one line.
 - Work from the user's own requirements. Do not add requirements, restrictions, thresholds, policies or capture lists they did not supply. An unapproved suggestion stays a suggestion, never an expectation.
