@@ -1,5 +1,5 @@
 ---
-name: mcp-tool-check
+name: mcp-tools-missing
 description: "Find why my MCP tools are missing or failing after the server connects. Use when the user reports MCP missing tools, MCP tool not found, or a failed MCP call in Claude Code, Codex or an agent SDK. Read pasted discovery traces, logs, schemas, transcripts, configuration or supplied files; separate incomplete discovery, client filters, permissions, stale inventories, invalid arguments and tool execution errors. Return a supported correction and what the actual operation result proves. Pasted material needs no setup. Not for server authoring, initial connection repair, production writes or redesigning an owned callable tool interface."
 ---
 

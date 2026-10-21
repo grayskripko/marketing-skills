@@ -1,13 +1,13 @@
 # MCP Debugging
 
-Troubleshoot MCP connection, authentication and missing-tool errors in your actual client from pasted traces, logs, configs, transcripts or files. For developers and teams using Claude Code, Codex or agent SDKs. You need redacted material and the client name; reviewing supplied text needs no new account, API key or installation.
+MCP troubleshooting: fix MCP server connection, authentication and missing-tool errors in your actual client from pasted traces, logs, configs, transcripts or files. For developers and teams using Claude Code, Codex or agent SDKs. You need redacted material and the client name; reviewing supplied text needs no new account, API key or installation.
 
 | Skill | Give it | You get |
 |---|---|---|
 | mcp-connect | client name, config and startup output | the cause, a minimal client-specific fix and one safe check with what each result means |
-| mcp-tool-check | discovery trace, schemas and call results | missing-tool or failed-call repair and what the actual result proves |
+| mcp-tools-missing | discovery trace, schemas and call results | missing-tool or failed-call repair and what the actual result proves |
 
-Try "This config works in Claude Code but fails in Codex" or "The server connects, but the search tool is missing." Attach the relevant file or paste the redacted section. Keep secrets out of the conversation.
+Try "This config works in Claude Code but fails in Codex", "My MCP server won't connect: connection refused at startup" or "The server connects, but the search tool is missing." Attach the relevant file or paste the redacted section. Keep secrets out of the conversation.
 
 ## What this package runs and connects to
 
@@ -17,7 +17,7 @@ The skills read only the text and files you provide. They may suggest steps you 
 
 ## Data and network
 
-Default network fetches: none. If you ask for current documentation, the assistant may read official pages on code.claude.com, learn.chatgpt.com, developers.openai.com, modelcontextprotocol.io, openai.github.io, docs.langchain.com or anthropic.com; no trace or config is sent in a search query. If you authorize a live check through a client you already have connected, it contacts only your named server and its authentication provider. The publisher runs no collection, telemetry or storage service for this plugin. Your assistant provider processes your conversation under its own terms. See [PRIVACY.md](PRIVACY.md).
+Default network fetches: none. If you ask for current documentation, the assistant may read official pages on code.claude.com, learn.chatgpt.com, developers.openai.com, modelcontextprotocol.io, openai.github.io, github.com, raw.githubusercontent.com, docs.langchain.com or anthropic.com; no trace or config is sent in a search query. If you authorize a live check through a client you already have connected, it contacts only your named server and its authentication provider. The publisher runs no collection, telemetry or storage service for this plugin. Your assistant provider processes your conversation under its own terms. See [PRIVACY.md](PRIVACY.md).
 
 ## Support and license
 

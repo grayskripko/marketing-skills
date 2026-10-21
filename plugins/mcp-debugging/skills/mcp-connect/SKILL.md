@@ -5,7 +5,7 @@ description: "Fix my MCP connection error or MCP authentication failure in the c
 
 # Fix an MCP connection
 
-Once the server connects, use mcp-tool-check for missing tools, filters, permissions or failed calls.
+Once the server connects, use mcp-tools-missing for missing tools, filters, permissions or failed calls.
 
 ## How to answer
 
