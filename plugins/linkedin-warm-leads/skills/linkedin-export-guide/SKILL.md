@@ -1,6 +1,6 @@
 ---
 name: linkedin-export-guide
-description: "Any LinkedIn export question, including short questions like \"how do I download my LinkedIn connections?\", \"what's in my LinkedIn data archive?\" or \"does the export show who liked my posts?\": explain how to request your own LinkedIn data (\"Get a copy of your data\"), which files arrive in the fast and the 48-hour archive, what they contain and never contain (who liked, commented on or viewed your posts and profile, impressions, second-degree contacts), why emails are missing, how to load a large export, and what a partial export is already good for. For ranking connections use linkedin-connections-leads; for dropped conversations use linkedin-dm-follow-up."
+description: "Explain how to request your own LinkedIn data (\"Get a copy of your data\"), which files arrive in the fast and the 48-hour archive, what they contain and never contain (who liked, commented on or viewed your posts and profile, impressions, second-degree contacts), why emails are missing, how to load a large export, and what a partial export is already good for. For ranking connections use linkedin-connections-leads; for dropped conversations use linkedin-dm-follow-up. Use when the user asks things like \"how do I download my LinkedIn connections?\", \"what's in my LinkedIn data archive?\" or \"does the export show who liked my posts?\"."
 ---
 
 # Your LinkedIn data export: getting and reading it
