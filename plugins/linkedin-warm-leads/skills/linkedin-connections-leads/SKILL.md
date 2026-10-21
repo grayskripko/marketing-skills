@@ -1,9 +1,9 @@
 ---
-name: warm-leads-find
-description: Rank people in your own LinkedIn data export (Connections.csv, messages.csv, Invitations.csv, endorsements, recommendations) against the customer you describe, score how warm each one is from your real shared history, and draft first messages for you to send yourself. Use when the user has downloaded their LinkedIn data ("Get a copy of your data") and asks who in their network to contact, which connections are warm leads, or for a sortable list of connections. For dropped or unanswered conversations use warm-leads-revive. Never sends, never opens LinkedIn, never looks people up.
+name: linkedin-connections-leads
+description: "Any LinkedIn connections question, including short questions like \"who in my network should I contact?\", \"who's warm in my export?\" or \"which connections are leads?\": rank people in your own LinkedIn data export (Connections.csv, messages.csv, Invitations.csv, endorsements, recommendations) against the customer you describe, say how warm each one is from your real shared history with the evidence and its date, and draft first messages you send yourself; on request a sortable CSV. Use when the user has downloaded their LinkedIn data. For people who commented on a post use linkedin-comments-leads; for one DM thread or dropped conversations use linkedin-dm-follow-up. Never sends, never opens LinkedIn, never looks people up."
 ---
 
-# Warm leads: who in your own network to contact
+# LinkedIn connections: who in your own network to contact
 
 The user gives you their own LinkedIn export and, usually, a description of who buys from them. You find the people who fit and with whom they have real history, and say why in a sentence each, citing the evidence and its date.
 

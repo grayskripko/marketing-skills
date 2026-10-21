@@ -1,0 +1,31 @@
+Synthetic LinkedIn notification emails (invented people), as a mail search for sender linkedin.com would return them: From / Date / Subject / Snippet.
+
+From: Nina Petrova via LinkedIn <messages-noreply@linkedin.com>
+Date: Mon, 19 Oct 2026 16:02
+Subject: Nina just messaged you
+Snippet: Nina Petrova, CRO at Lumenpath: "Hi Maya, saw your post on stage definitions. Our CFO wants a reliable forecast by the January board meeting. Do you have any capacity in November?"
+
+From: LinkedIn <notifications-noreply@linkedin.com>
+Date: Sun, 18 Oct 2026 09:14
+Subject: Hannah Schulz and 11 others commented on your post
+Snippet: Hannah Schulz: "STAGES. Also, does this work if most of our revenue is self-serve..."
+
+From: LinkedIn <invitations@linkedin.com>
+Date: Sat, 17 Oct 2026 20:40
+Subject: Marcus Webb wants to connect
+Snippet: Marcus Webb, Chief Revenue Officer at Stackwise: "Enjoyed your post on forecast accuracy. We're rebuilding our sales process in Q1, would like to stay in touch."
+
+From: Tom Becker via LinkedIn <messages-noreply@linkedin.com>
+Date: Sat, 17 Oct 2026 11:05
+Subject: Tom sent you a new message
+Snippet: Tom Becker, Founder @ PipeSignal: "Hi Maya! Following up on my comment - do you have 10 minutes this week for a quick demo of PipeSignal?"
+
+From: Ethan Brooks via LinkedIn <messages-noreply@linkedin.com>
+Date: Thu, 16 Jul 2026 18:40
+Subject: Ethan sent you a new message
+Snippet: Ethan Brooks, VP Sales at Corvel Software: "Makes sense. Next week is our QBR, and then I'm out most of August. Can we pick this up after Labor Day?..."
+
+From: LinkedIn <notifications-noreply@linkedin.com>
+Date: Wed, 14 Oct 2026 07:30
+Subject: Congratulate Sarah Lee on starting a new position
+Snippet: Sarah Lee started a new position as VP Sales at Quarry Health.

@@ -1,9 +1,9 @@
 ---
-name: warm-leads-export
-description: Explain how to download your own LinkedIn data ("Get a copy of your data"), which files arrive in the fast and the 48-hour archive, what they contain and what they never contain (who liked, commented on or viewed your posts and profile, impressions, second-degree contacts), and how to load a large export into the conversation. Use when the user asks how to export LinkedIn connections or messages, what is in their LinkedIn data archive, whether the export shows who likes or comments on their posts, why emails are missing, or what they can already do with a partial export. For ranking connections use warm-leads-find; for dropped conversations use warm-leads-revive.
+name: linkedin-export-guide
+description: "Any LinkedIn export question, including short questions like \"how do I download my LinkedIn connections?\", \"what's in my LinkedIn data archive?\" or \"does the export show who liked my posts?\": explain how to request your own LinkedIn data (\"Get a copy of your data\"), which files arrive in the fast and the 48-hour archive, what they contain and never contain (who liked, commented on or viewed your posts and profile, impressions, second-degree contacts), why emails are missing, how to load a large export, and what a partial export is already good for. For ranking connections use linkedin-connections-leads; for dropped conversations use linkedin-dm-follow-up."
 ---
 
-# Warm leads: getting and reading your LinkedIn export
+# Your LinkedIn data export: getting and reading it
 
 ## How to request it
 

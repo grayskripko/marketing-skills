@@ -1,7 +1,7 @@
 {
   "name": "linkedin-warm-leads",
-  "version": "0.1.2",
-  "description": "Find warm leads in your own LinkedIn data export: rank your connections against the customer you describe, score how warm each one is from your real shared history (messages, invitations, endorsements, recommendations), find conversations you dropped and likely job changes, and draft follow-ups you send yourself. Reads only the export files you give it, in your conversation (with a local script for large files if a code tool is available); never sends, never opens LinkedIn, never looks people up.",
+  "version": "0.2.0",
+  "description": "Find warm LinkedIn leads in what you already have, from one line: which LinkedIn post comments come from potential clients, replies to comments that move people to a DM or a call, a LinkedIn follow-up plan for a DM thread that went quiet, and which LinkedIn connections in your own LinkedIn export are warm. Turns LinkedIn engagement into conversations. Works from comments or messages you paste, one post URL you give, your LinkedIn data export, and, when you ask, LinkedIn notification emails in your connected mail. Drafts only: never sends, never logs in to LinkedIn, never looks people up.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -13,20 +13,20 @@
   "keywords": [
     "linkedin",
     "warm leads",
+    "linkedin comments",
+    "linkedin dm",
+    "linkedin follow up",
     "linkedin connections",
     "linkedin export",
-    "networking",
-    "follow-up",
-    "referrals",
-    "b2b sales",
-    "relationship strength",
+    "reply to comments",
+    "social selling",
     "outreach drafts"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "LinkedIn Warm Leads",
-    "shortDescription": "Find warm leads in your LinkedIn export",
-    "longDescription": "Three skills for the network you already have. Rank your LinkedIn connections against the customer you describe, using what your own data export shows: who asked about your work, who wrote last, who recommended or endorsed you, whose invitation note named a need. Find conversations you dropped, timings people gave that have now passed, and likely job changes, with a reply draft for each. Learn what the export contains, what it never contains (who liked your posts, impressions) and what the fast first archive is already good for. Everything is read from the files you give; nothing is sent, no profile is looked up and no contact is enriched.",
+    "shortDescription": "Turn LinkedIn comments, DMs and your network into conversations",
+    "longDescription": "Five skills for the LinkedIn activity you already have. Sort the people who commented on your post into potential clients, peers and vendors pitching you, with a DM draft for the best few. Draft public replies to comments that keep the thread going and move people who show a need toward a call. Turn a quiet DM thread into a follow-up plan with the next message ready to paste. Rank the connections in your own LinkedIn data export by real shared history, and learn what the export contains. Works from what you paste, one post URL you give, your export, or LinkedIn notification emails in your connected mail when you ask. Nothing is sent, LinkedIn is never opened on its own and nobody is looked up.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [
@@ -38,9 +38,9 @@
     "logo": "./assets/icon.svg",
     "composerIcon": "./assets/icon.svg",
     "defaultPrompt": [
-      "My LinkedIn export is in this folder. I sell fractional RevOps to B2B SaaS teams of 20-200; buyers are VP Sales, CRO or founders. Who are the 10 people to contact this week?",
-      "Find LinkedIn conversations in my export that I dropped and that are worth reopening, and draft a reply for each.",
-      "I only got the first, small LinkedIn data archive so far. What can I already do with it to find clients?"
+      "Who in the comments of my LinkedIn post is a potential client? I sell fractional RevOps to B2B SaaS teams. <paste the comments>",
+      "Draft replies to these LinkedIn comments that move people to a call: <paste the comments>",
+      "Turn this LinkedIn DM thread into a follow-up plan: <paste the thread>"
     ],
     "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/linkedin-warm-leads",
     "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/linkedin-warm-leads/PRIVACY.md",

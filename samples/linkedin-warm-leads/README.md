@@ -1,11 +1,19 @@
-# Sample export for LinkedIn Warm Leads
+# Sample data for LinkedIn Warm Leads
 
-A synthetic LinkedIn "Get a copy of your data" export for trying the [linkedin-warm-leads](../../plugins/linkedin-warm-leads/) plugin. Every person, company and message is invented; addresses use example.com.
+Synthetic test data for the [linkedin-warm-leads](../../plugins/linkedin-warm-leads/) plugin. Every person, company, post and message is invented; addresses use example.com. The fictional user is Maya Lindqvist, a fractional RevOps consultant for B2B SaaS teams of 20-200 people.
 
-- `linkedin-export/`: the complete archive of a fictional fractional RevOps consultant, Maya Lindqvist: 140 connections, about 150 messages, invitations, endorsements, recommendations, her own posts, comments and reactions. File layout and quirks follow real exports (the "Notes:" lines at the top of Connections.csv, newest-first messages, a group chat, two connections with the same name, one message containing an instruction aimed at AI assistants).
+- `pasted/post-comments.txt`: the comments on one of her posts, as they look when copied from LinkedIn: potential clients, peers, vendors pitching, a recruiter, a job seeker, bot-like comments, and one comment with an instruction aimed at AI assistants.
+- `pasted/post-reactions.txt`: a copied reactions list (names, degree, headline only).
+- `pasted/dm-thread-quiet.txt`: a DM thread with a prospect who asked to resume after a date that has passed.
+- `pasted/dm-thread-declined.txt`: a DM thread where the prospect said no.
+- `pasted/linkedin-notification-emails.txt`: LinkedIn notification emails as a mail search would return them (sender, date, subject, snippet), for trying the mail path without a connector.
+- `linkedin-export/`: her complete LinkedIn data export: 140 connections, about 150 messages, invitations, endorsements, recommendations, her own posts, comments and reactions. File layout and quirks follow real exports.
 - `linkedin-export-first-archive/`: only the files LinkedIn delivers within minutes (no Connections or messages).
 
-Try:
-- `My LinkedIn export is in samples/linkedin-warm-leads/linkedin-export. I sell fractional RevOps to B2B SaaS teams of 20-200; buyers are VP Sales, CRO or founders. Who are the 10 people to contact this week?`
-- `Find conversations I dropped in samples/linkedin-warm-leads/linkedin-export and draft replies.`
+Try (paste the file contents after the request):
+- `Who in the comments of my LinkedIn post is a potential client? <pasted/post-comments.txt>`
+- `Draft replies to these LinkedIn comments that move people to a call: <pasted/post-comments.txt>`
+- `Turn this LinkedIn DM thread into a follow-up plan: <pasted/dm-thread-quiet.txt>`
+- `These are my LinkedIn notification emails from this week. Who should I answer first? <pasted/linkedin-notification-emails.txt>`
+- `My LinkedIn export is in samples/linkedin-warm-leads/linkedin-export. Buyers are VP Sales, CRO or founders. Who's warm?`
 - `I only have samples/linkedin-warm-leads/linkedin-export-first-archive so far. What can I already do with it?`

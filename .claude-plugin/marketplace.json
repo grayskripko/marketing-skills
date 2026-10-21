@@ -24,7 +24,7 @@
     {
       "name": "linkedin-warm-leads",
       "source": "./plugins/linkedin-warm-leads",
-      "description": "Find warm leads in your own LinkedIn data export: rank connections against your customer, score warmth from shared history, find dropped conversations, draft follow-ups you send yourself."
+      "description": "Find warm LinkedIn leads in what you already have: potential clients in your post comments, replies to comments, DM follow-up plans, warm connections in your own export. Drafts only; never sends."
     }
   ]
 }
