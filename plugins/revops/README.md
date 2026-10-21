@@ -1,22 +1,22 @@
-# RevOps Metrics Kit
+# RevOps Metrics & Forecast Accuracy
 
-Revenue numbers you can recompute from data you paste. Requested metrics show their inputs and calculation. Count rates show counts; uncertainty ranges are added when the inferential question and model support them.
+Revenue operations (RevOps) numbers you can recompute from data you paste. Each figure shows its calculation; rates from small samples are shown as k of n with a range.
 
 Example: your CRM says deals at Stage 3 win 60% of the time. Your closed deals say 28%.
 
-| Stage | Stated | Reached | Won | Observed | 95% range | Verdict |
-|---|---|---|---|---|---|---|
-| Stage 3 | 60% | 50 | 14 | 28.0% | 17.5% – 41.7% | stated outside range |
+| Stage | Stated | Closed deals that reached it | Won | Observed | 95% range |
+|---|---|---|---|---|---|
+| Stage 3 | 60% | 50 | 14 | 14 of 50 (28.0%) | 17.5% – 41.7% |
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| stage-calibration | stage probabilities, closed-deal counts or rows, stage definitions | observed win rate per stage with a range when inference is justified, open deals left out, and a ten-point check of your written stage definitions |
-| arr-bridge | revenue by account by period | a bridge that reconciles to zero, gross and net revenue retention (GRR, NRR) over the starting customers, customer-count churn |
-| forecast-backtest | past forecasts and what actually closed | how far each method missed each period, its average miss and whether it ran high or low, and a warning when there are too few periods |
-| revenue-plan | a target with your rates or team | deals, SQLs, leads and people per month with lag, coverage, capacity gap |
-| funnel-math | lead or deal rows with dates | conversion by entry cohort with counts and a range when inference is justified; time to first contact by source; segment view; velocity |
+| stage-calibration | stage probabilities, closed-deal counts or rows, stage definitions | observed win rate per stage as k of n with a range, open deals left out, and a review of each stage definition you supply |
+| arr-bridge | revenue by account by period | a bridge that reconciles to the reported end, gross and net revenue retention (GRR, NRR) over the starting accounts |
+| forecast-backtest | past forecasts and what actually closed | signed error per period, average miss and whether each method ran high or low; each period shown when there are few |
+| revenue-plan | a target with your rates or team | deals, opportunities, SQLs and leads per month shifted by the cycle, coverage, team capacity |
+| funnel-math | lead or deal rows with dates | conversion by entry cohort as k of n; time between steps; time to first contact against your target; source or segment comparisons; velocity |
 
 ## Examples
 
@@ -26,15 +26,15 @@ Example: your CRM says deals at Stage 3 win 60% of the time. Your closed deals s
 
 ## How it works
 
-Each skill gives the answer first, then the calculation behind it and a short check of whether the data can be trusted. Your numbers are never changed and there are no benchmarks. Results are grouped by stage, segment, source or period; per-person figures only on request, under anonymous labels.
+Each skill gives the answer first, then the calculation behind it. It first checks whether your inputs can all be true together and leads with any conflict. Your numbers are kept as given and there are no benchmarks.
 
 ## Data and network
 
-Network scope: this plugin fetches nothing and runs no web search. It works only on data you paste or attach, runs nothing and changes no files or settings unless you ask, and may use the assistant's code or spreadsheet tool to compute the tables it shows.
+Network scope: this plugin fetches nothing and runs no web search. It works only on data you paste or attach, runs no scripts of its own, changes no files or settings unless you ask, and uses the assistant's code or spreadsheet tool to compute the tables it shows.
 
 ## Personal data
 
-Exports can contain owner or contact names. The skills ignore them and never repeat them; remove those columns before pasting if you can. See PRIVACY.md.
+Exports can contain owner or contact names. The skills do not need them; remove those columns before pasting. See PRIVACY.md.
 
 ## What it will not do
 
@@ -42,7 +42,7 @@ Walk through deals one by one, run what-ifs on a single deal slipping, clean CRM
 
 ## Troubleshooting
 
-"Not checked" names the missing column. A wide range indicates limited precision under the stated model; sample size, observed outcomes and dependence affect uncertainty.
+If a figure depends on an input you did not give, it is shown as a range at that input's bounds. A wide range on a rate means the sample is small.
 
 ## Support
 

@@ -1,6 +1,6 @@
 ---
 name: funnel-math
-description: "Cohort funnel analysis from lead or deal rows: conversion per step by entry cohort, time between steps, time to first contact against the user's target, source or segment comparisons, and sales velocity. Use when the user pastes leads, MQLs, SQLs or opportunities with dates and asks about conversion, cohorts, response time or differences between sources."
+description: "A question about your own funnel conversion, response time or sales velocity, even a quick one-liner before you paste lead or deal rows. Cohort funnel analysis from lead or deal rows: conversion per step by entry cohort, time between steps, time to first contact against the user's target, source or segment comparisons, and sales velocity. Use when the user pastes leads, MQLs, SQLs or opportunities with dates and asks about conversion, cohorts, response time or differences between sources."
 ---
 
 # Funnel math
@@ -14,7 +14,8 @@ Answer the question first with the key figures, worded so it agrees with every r
 - Cover every item the user listed or supplied, in the format and scale they asked for.
 - Compute every figure with code and re-check the headline against them.
 - Before concluding, look in the rows for structural facts that explain the result (skipped or out-of-order stages, records counted twice, cohorts of different age or mix); if found, lead with them.
+- A general question with no data (what a metric means, how to work it out, whether a check is worth doing): answer it in a few lines using the method below, then say which rows of the user's own data would settle it for them.
 
-Group records by when they entered the funnel, not when they converted, and show conversion as k of n. Flag recent cohorts that have not had time to convert before comparing them. Name the specific records behind any count the user asked about (for example leads that missed a response target).
+Group records by when they entered the funnel, not when they converted, and show conversion as k of n. Flag recent cohorts that have not had time to convert before comparing them. Name the specific records behind any count the user asked about (for example leads that missed a response target), by record id, not by personal name.
 
 Velocity, if asked: open opportunities x count win rate x average won size / cycle days, or open pipeline $ x dollar-weighted win rate / cycle days. Never multiply a dollar-weighted rate by average deal size.

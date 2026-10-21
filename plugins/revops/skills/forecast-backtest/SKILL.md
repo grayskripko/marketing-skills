@@ -1,6 +1,6 @@
 ---
 name: forecast-backtest
-description: "Backtests forecast methods on the user's own past periods: compares each method's past forecast with what actually closed and reports signed error, average miss and bias per method. Use when the user pastes past forecasts or pipeline snapshots next to actual results, or asks which forecasting method has been more accurate for them."
+description: "A question about how accurate your own past sales forecasts were, even a quick one-liner before you paste forecasts and actuals. Backtests forecast methods on the user's own past periods: compares each method's past forecast with what actually closed and reports signed error, average miss and bias per method. Use when the user pastes past forecasts or pipeline snapshots next to actual results, or asks which forecasting method has been more accurate for them."
 ---
 
 # Forecast backtest
@@ -14,6 +14,7 @@ Answer the question first with the key figures, worded so it agrees with every r
 - Cover every item the user listed or supplied, in the format and scale they asked for.
 - Compute every figure with code and re-check the headline against them.
 - Before concluding, look in the rows for structural facts that explain the result (skipped or out-of-order stages, records counted twice, cohorts of different age or mix); if found, lead with them.
+- A general question with no data (what a metric means, how to work it out, whether a check is worth doing): answer it in a few lines using the method below, then say which rows of the user's own data would settle it for them.
 
 Error = forecast - actual (positive = overforecast). Report mean absolute error and mean signed error (bias) in currency; percentage errors are undefined for periods with zero actual, so say which periods they cover. Say which method was closest in how many periods. With few periods, show each period's error so the reader sees the spread.
 

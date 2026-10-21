@@ -1,6 +1,6 @@
 ---
 name: arr-bridge
-description: "Builds an ARR or MRR movement bridge for a period (start plus new, reactivation and expansion, minus contraction and churn, equals end) and computes gross and net revenue retention over starting customers. Use when the user pastes revenue by account by period or a movements list, or asks for NRR, GRR or churned revenue."
+description: "A question about your own ARR or MRR movements, churned revenue or gross and net revenue retention, even a quick one-liner before you paste revenue by account. Builds an ARR or MRR movement bridge for a period (start plus new, reactivation and expansion, minus contraction and churn, equals end) and computes gross and net revenue retention over starting customers. Use when the user pastes revenue by account by period or a movements list, or asks for NRR, GRR or churned revenue."
 ---
 
 # ARR bridge
@@ -14,6 +14,7 @@ Answer the question first with the key figures, worded so it agrees with every r
 - Cover every item the user listed or supplied, in the format and scale they asked for.
 - Compute every figure with code and re-check the headline against them.
 - Before concluding, look in the rows for structural facts that explain the result (skipped or out-of-order stages, records counted twice, cohorts of different age or mix); if found, lead with them.
+- A general question with no data (what a metric means, how to work it out, whether a check is worth doing): answer it in a few lines using the method below, then say which rows of the user's own data would settle it for them.
 
 Classify each account by comparing start and end of the period: new (no revenue before), reactivation (revenue earlier, none at start), expansion (end > start > 0), contraction (0 < end < start), churn (start > 0, end = 0). A zero end shows revenue stopped, not why.
 

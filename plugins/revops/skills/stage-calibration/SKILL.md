@@ -1,6 +1,6 @@
 ---
 name: stage-calibration
-description: "Checks whether the win probability set for each sales stage matches what actually closed, and reviews written stage definitions. Use when the user gives stage probabilities, stage counts, closed-deal rows or stage definitions, or asks whether a stage percentage is right."
+description: "A question about the win probabilities or exit criteria of your own sales stages, even a quick one-liner. Checks whether the win probability set for each sales stage matches what actually closed, and reviews written stage definitions. Use when the user gives stage probabilities, stage counts, closed-deal rows or stage definitions, or asks whether a stage percentage is right."
 ---
 
 # Stage calibration
@@ -14,6 +14,7 @@ Answer the question first with the key figures, worded so it agrees with every r
 - Cover every item the user listed or supplied, in the format and scale they asked for.
 - Compute every figure with code and re-check the headline against them.
 - Before concluding, look in the rows for structural facts that explain the result (skipped or out-of-order stages, records counted twice, cohorts of different age or mix); if found, lead with them.
+- A general question with no data (what a metric means, how to work it out, whether a check is worth doing): answer it in a few lines using the method below, then say which rows of the user's own data would settle it for them.
 
 Per stage: observed = won / closed deals that reached the stage, shown as k of n next to the stated probability. Leave open deals out of the rate and say how many. Infer that a deal passed earlier stages only if the pipeline is strictly sequential; otherwise use actual stage-entry history. A closed deal skipped a stage if it has no entry for that stage, whichever other stages it entered. For small samples, show an interval suited to the data (exact intervals for 0 or 100% outcomes).
 

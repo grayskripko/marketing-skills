@@ -1,8 +1,8 @@
 {
   "name": "revops",
   "displayName": "RevOps Metrics & Forecast Accuracy",
-  "version": "0.1.6",
-  "description": "Check stated stage probabilities against what actually closed, build an ARR bridge with gross and net revenue retention (GRR, NRR) that reconciles to zero, backtest forecast methods on your own history, plan a revenue target back to deals, SQLs and team capacity, and measure funnel conversion by cohort and source. Every figure shows its formula and every rate its sample size and 95% range, computed only from data you give.",
+  "version": "0.1.7",
+  "description": "Revenue operations (RevOps) math from data you paste: check stated stage probabilities against what actually closed, build an ARR bridge with gross and net revenue retention (GRR, NRR) that reconciles to zero, backtest your sales forecast methods on your own history, plan a revenue target back to deals, SQLs and team capacity, and measure funnel conversion by cohort and source. Each figure shows its calculation, small-sample rates show k of n with a range, and no figure comes from benchmarks.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
