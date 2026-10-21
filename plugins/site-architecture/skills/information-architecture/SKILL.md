@@ -1,6 +1,6 @@
 ---
-name: site-architecture
-description: "Plan a website's information architecture: a page tree where every page has one parent, URLs and URL rules, navigation menus, labels and breadcrumbs, and the list of URLs that move. Works from a page list, sitemap URLs, current menus, the user's own domain or a description of a site still to be built; can also read pasted tree-test results. Use when the user asks how to structure or restructure a website, what the URL structure or page hierarchy should be, or how to organise navigation menus, labels and breadcrumbs. Not for search audits, page copy, page sets generated from a dataset, or software architecture."
+name: information-architecture
+description: "A question about the page tree, URL structure, menus or breadcrumbs of your own website, even a quick one-liner. Plan a website's information architecture: a page tree where every page has one parent, URLs and URL rules, navigation menus, labels and breadcrumbs, and the list of URLs that move. Works from a page list, sitemap URLs, current menus, the user's own domain or a description of a site still to be built; can also read pasted tree-test results. Use when the user asks how to structure or restructure a website, what the URL structure or page hierarchy should be, or how to organise navigation menus, labels and breadcrumbs. Not for search audits, page copy, page sets generated from a dataset, or software architecture."
 ---
 
 # Site architecture
@@ -19,5 +19,6 @@ First line answers the question asked (which option, which labels to fix, ranked
 - If two supplied numbers contradict each other, say so next to the conclusion they affect.
 - Tree-test results: give success and directness rates per task and what the first clicks show about each label. To claim one tree beats another, test the difference between them (for example a two-proportion test); overlapping per-tree intervals do not settle it. Do not add benchmark bands or sample-size rules, and do not plan another study unless asked. Compute p-values with a script, not by hand. Check the counts fit together (direct successes cannot exceed successes or correct first clicks) and flag any that do not. End with the decision (which label or tree to use) and what to look at next.
 - The "3-click rule" and "at most 7 menu items" are not criteria; if the user raises them, say in a sentence that research does not support them.
+- A general question with no page list or menu: answer it in a few lines from these rules; ask for the page list or menu only if the user wants a plan.
 
 If the user names their own site and a web tool exists, read at most its robots.txt, 3 sitemaps it lists and 5 public pages on that host. Show URLs without email or token parameters. Produce plans only; change nothing live.

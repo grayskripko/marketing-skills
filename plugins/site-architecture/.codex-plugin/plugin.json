@@ -1,7 +1,7 @@
 {
   "name": "site-architecture",
-  "version": "0.1.8",
-  "description": "Plan a website's information architecture: a page tree where every page has exactly one parent, URL rules, navigation labels and breadcrumbs; a link plan computed from a links export (source and target) that uses only your own URLs and shows click depth before and after; hub page and child page link specs; which filter URLs get indexable pages, with the URL count worked out; and a redirect map checked for chains, loops and homepage targets for URL changes and site moves. Not a search audit and not software architecture.",
+  "version": "0.1.9",
+  "description": "Plan site structure and information architecture for a website: a page tree where every page has exactly one parent, URL rules, navigation labels and breadcrumbs; an internal linking plan from a links export (source and target) that uses only your own URLs, with inlinks and click depth before and after; hub page and child page links; which filter URLs get indexable pages, with the URL count worked out; and a redirect map for site migrations and URL changes, checked for chains, loops and homepage targets. Not a search audit and not software architecture.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -12,6 +12,7 @@
   "license": "MIT",
   "keywords": [
     "site architecture",
+    "site-structure",
     "information architecture",
     "url structure",
     "url hierarchy",
@@ -29,7 +30,7 @@
   "interface": {
     "displayName": "Site Architecture & Faceted Navigation",
     "shortDescription": "URL trees, links, redirects",
-    "longDescription": "Five skills for planning how a website is organised; each gives the plan first, then the problems its checks found. Site architecture turns a page list, menus or a site description into a tree where every page has one parent, a page table, URL rules, a navigation and breadcrumb spec with label checks, and a list of moved URLs. Link plan reads a links export, computes click depth and inlinks, proposes up to 30 new in-text links that use only URLs found in your data, and recomputes depth with the plan applied. Hub design wires one topic's pages into a hub with child pages and a link matrix. Facet policy counts the URLs your filters can create and decides which may be crawled and indexed, with a robots.txt and noindex conflict check. Redirect map builds or checks a map for chains, loops, homepage targets and temporary codes, and gives a launch checklist. Each rule cites a Google Search Central or Nielsen Norman Group page with the date read, or is labelled as this plugin's own default you can change; the plugin gives no traffic forecasts. It reads what you paste and, only if you name your own site and your assistant has a web tool, its robots.txt, up to three sitemaps and up to five public pages. It changes nothing on your site.",
+    "longDescription": "Five skills for planning how a website is organised; each answers the question you asked first, in a form a web team can build. Information architecture turns a page list, menus or a site description into a tree where every page has one parent, with URL rules, navigation and breadcrumbs and the list of URLs that move, as far as you ask for them. The internal linking plan reads a links export, computes click depth and inlinks, proposes new links that use only URLs found in your data (the most useful 30 or so first when you give no number), and shows what the edits change. Hub design wires one topic's pages into a hub with child pages. Facet policy counts the URLs your filters can create and decides which may be crawled and indexed, with a robots.txt and noindex conflict check. The site migration redirect map builds or checks a map for chains, loops, homepage targets and temporary codes, and gives a launch checklist when you ask. The plugin gives no traffic forecasts. It reads what you paste and, in information architecture only, if you name your own site and your assistant has a web tool, its robots.txt, up to three sitemaps and up to five public pages. It changes nothing on your site.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [

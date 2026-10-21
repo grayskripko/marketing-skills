@@ -1,6 +1,6 @@
 ---
 name: hub-design
-description: "Design the hub page and child pages for one topic on a website: the hub's contents, the links missing between the hub and its pages, pages that seem to share an intent (for the user to decide), and breadcrumb and menu alignment. Works from the URLs and titles of the topic's existing or planned pages, optionally query-by-page rows or pasted top search results. Use when the user asks how to organise a set of pages on one subject into a hub with child pages, or how those pages should link to each other. Not for choosing what topics to write about or writing the pages."
+description: "A question about a hub page for one topic on your own website and how its pages link to each other, even a quick one-liner. Design the hub page and child pages for one topic on a website: the hub's contents, the links missing between the hub and its pages, pages that seem to share an intent (for the user to decide), and breadcrumb and menu alignment. Works from the URLs and titles of the topic's existing or planned pages, optionally query-by-page rows or pasted top search results. Use when the user asks how to organise a set of pages on one subject into a hub with child pages, or how those pages should link to each other. Not for choosing what topics to write about or writing the pages."
 ---
 
 # Hub design
@@ -13,5 +13,6 @@ Give the hub as the user can publish it: title, a one-line introduction, and eac
 - No page-type labels or link matrices unless asked.
 - Two pages that seem to answer the same need: raise it as a question with the evidence; the user decides any merge.
 - Say how navigation reaches the hub only if it changes.
+- A general question with no page list: answer it in a few lines from these rules; ask for the topic's URLs and titles only if the user wants a hub plan.
 
 Show URLs without email or token parameters. Produce plans only; change nothing live.

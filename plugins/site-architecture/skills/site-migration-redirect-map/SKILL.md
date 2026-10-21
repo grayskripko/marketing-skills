@@ -1,6 +1,6 @@
 ---
-name: redirect-map
-description: "Build or check a redirect map for URL changes and site moves: each old URL mapped to its new URL or to 404/410, with chains, loops, homepage targets, temporary codes and case or slash variants fixed, plus a launch checklist when asked. Takes old URLs with their decided fate, plus the new URL list or rules, or a draft map to check. Use when the user moves to a new domain, CMS or URL scheme, merges pages whose fate is decided, or asks to build or review redirects. Not for deciding which pages to keep or prune."
+name: site-migration-redirect-map
+description: "A question about redirects for your own site migration or URL change, even a quick one-liner such as how long to keep them. Build or check a redirect map for URL changes and site moves: each old URL mapped to its new URL or to 404/410, with chains, loops, homepage targets, temporary codes and case or slash variants fixed, plus a launch checklist when asked. Takes old URLs with their decided fate, plus the new URL list or rules, or a draft map to check. Use when the user moves to a new domain, CMS or URL scheme, merges pages whose fate is decided, or asks to build or review redirects. Not for deciding which pages to keep or prune."
 ---
 
 # Redirect map
@@ -12,6 +12,7 @@ Lead with the corrected map: old | destination | code | what changed. Keep the u
 - A row without a decided fate stays unresolved with one question; clicks and backlinks set priority, not fate.
 - Flag a destination that is not 200 or is noindexed.
 - Variants: cover case and trailing slash. Redirects pass the query string through; never strip utm, gclid or other parameters the site uses for attribution.
+- A general question with no map (how long to keep redirects, where removed pages should go): answer it in a few lines from these rules; ask for the old and new URLs only if the user wants a map.
 
 When a launch checklist is asked for, make it something a team can tick, before / at / after launch, with the expected result for each row (status code, one hop, the right `Location`):
 - before: test every row on staging; update internal links, canonicals and the sitemap to final 200 URLs only; save the old configuration for rollback; record a baseline of traffic and errors; keep analytics and Search Console verification working through the change; make sure catch-all or CMS fallback rules cannot override specific redirects;
