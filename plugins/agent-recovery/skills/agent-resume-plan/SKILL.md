@@ -1,11 +1,11 @@
 ---
 name: agent-resume-plan
-description: "Prepare a safe plan to resume an interrupted AI agent run without duplicate actions or overwriting finished work. Use when you paste saved state, an action ledger, runtime config or approval records and ask how to resume an agent, restart a stopped run, or continue after a timeout. Return the exact preserved work, replay boundaries, pending decisions and ordered continuation steps for the supplied runtime. Not for executing a restart, sending messages, changing permissions, ordinary handoff summaries, healthy workflow design or rebuilding an agent framework."
+description: "A question about how to continue or restart the user's own interrupted AI agent run without doing things twice, even a quick one-liner: can I just tell my AI agent to continue where it left off, how do I restart my agent run that died halfway. Prepare a safe plan to resume an interrupted AI agent run without duplicate actions or overwriting finished work. Use when you paste saved state, an action ledger, runtime config or approval records and ask how to resume an agent, restart a stopped run, or continue after a timeout. Return the exact preserved work, replay boundaries, pending decisions and ordered continuation steps for the supplied runtime. Not for executing a restart, sending messages, changing permissions, ordinary handoff summaries, healthy workflow design or rebuilding an agent framework."
 ---
 
 # Plan a safe continuation
 
-Give the ordered steps the user asked for, in their shape and length. Each step names what to check first and what proves it worked. Do not run, launch, send or replay anything; if the user said not to launch, prepare the command without telling them to run it.
+Give the ordered steps the user asked for, in their shape and length. Each step names what to check first and what proves it worked. If no records are supplied, answer the question in general terms, name the specific record or lookup (request ID, target and time) that would settle it, and ask the user to paste it. Work only from pasted material and named local files. Do not run, launch, send or replay anything; if the user said not to launch, prepare the command without telling them to run it.
 
 - Keep finished files and receipted effects; never re-perform them. Copy any file or store the resume could overwrite before it runs.
 - List every write that can run again from the chosen restart point and guard each one before it runs. Hold an uncertain write until an authoritative lookup for that exact request settles it. A new idempotency key cannot deduplicate the old attempt, so send again only after the lookup shows no effect, with a new key recorded before sending; an expired deduplication window gives no protection.

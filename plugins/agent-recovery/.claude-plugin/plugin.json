@@ -1,7 +1,7 @@
 {
   "name": "agent-recovery",
-  "version": "0.1.5",
-  "description": "Plan recovery of an interrupted AI agent run from checkpoints and action receipts; identify what can resume and which effects need checking before retry. Use pasted traces, logs, configs, transcripts, checkpoints, files and action receipts to reconstruct what completed, prepare a safe resume plan, and check the result after an authorized restart. Distinguishes confirmed effects from uncertain attempts and keeps pending approvals explicit.",
+  "version": "0.1.6",
+  "description": "Plan how to resume an interrupted agent run safely after an agent crashed or stopped, from checkpoints and action receipts; identify what can resume and which effects need checking before retry. Use pasted traces, logs, configs, transcripts, checkpoints, files and action receipts to reconstruct what completed, prepare a safe resume plan, and check the result after an authorized restart. Distinguishes confirmed effects from uncertain attempts and keeps pending approvals explicit.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

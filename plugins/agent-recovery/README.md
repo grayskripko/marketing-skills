@@ -1,6 +1,6 @@
 # Agent Recovery
 
-Plan recovery of an interrupted AI agent run from checkpoints and action receipts; identify what can resume and which effects need checking before retry.
+Plan how to resume an interrupted agent run safely after an agent crashed or stopped, from checkpoints and action receipts; identify what can resume and which effects need checking before retry.
 For developers and operators whose AI agent stopped halfway or whose workers left uncertain actions.
 Paste traces, logs, configs, transcripts, checkpoints, files and receipts, or provide named local files. No setup, keys, accounts or paid APIs are required beyond your existing assistant.
 
@@ -18,15 +18,15 @@ The publisher receives no task data and operates no collection, telemetry, or st
 
 | Skill | What you give it | What you get |
 |---|---|---|
-| agent-state-reconstruct | Saved state, worker records, artifacts and receipts | Completed, pending and uncertain action ledger |
+| agent-state-reconstruct | Saved state, worker records, artifacts and receipts | Finished and uncertain outcomes, what remains, and the check for each open item |
 | agent-resume-plan | Ledger, runtime config and approval records | Ordered continuation plan with replay boundaries |
-| agent-resume-check | Before-and-after artifacts and effect records | Verified, incomplete or unresolved outcome |
+| agent-resume-check | Before-and-after artifacts and effect records | What went right, what went wrong and what stays open |
 
 Ask: “This run stopped halfway. Did the timed-out action happen?” Or: “Plan how to resume this agent without sending twice.” Or: “Check whether recovery preserved the finished files.”
 
-The instructions distinguish LangGraph node replay, Claude Code and Codex session selection, Claude Agent SDK session availability, OpenAI Agents SDK outer approval state and MCP cancellation races. Retrieval-based records retain exact request identity and context; indexing and final outcomes are checked separately.
+The instructions distinguish LangGraph node replay, Claude Code and Codex session selection, Claude Agent SDK session availability, OpenAI Agents SDK outer approval state and MCP cancellation races.
 
-The deliverables use your existing artifact layout. Routine worker assignment belongs to agent-orchestration, shorter handoff summaries to token-saver, durable stored-fact corrections to memory repair, and deeper failure investigation to agent debugging.
+The deliverables use your existing artifact layout. Routine worker assignment, shorter handoff summaries, durable stored-fact corrections and deeper failure investigation are separate jobs.
 
 To obtain missing runtime state, the agent can identify the exact session, checkpoint export or receipt fields needed from your pasted version/config. Use your existing host's export or read-only inspection facility and paste the result. Plans identify the supported resume path and its prerequisites; execution stays in your existing runtime. No framework installation or service connection is bundled.
 
