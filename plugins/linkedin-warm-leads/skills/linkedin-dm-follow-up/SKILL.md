@@ -1,6 +1,6 @@
 ---
 name: linkedin-dm-follow-up
-description: "Any LinkedIn DM or follow-up question, including short questions like \"what do I reply?\", \"they went quiet, now what?\" or \"should I follow up again?\": turn a LinkedIn message thread you paste into a follow-up plan (where the conversation stands, what they actually said, whether and when to follow up, and the next message, plus one later nudge), or find LinkedIn conversations you dropped in your own data export (messages.csv) or, when you ask, in LinkedIn message-notification emails in your mail: unanswered messages, timings they gave that have passed, promises you did not keep, accepted invitations with no first message, likely job changes. Drafts only; never sends, never opens LinkedIn."
+description: "Any LinkedIn DM or LinkedIn follow-up question, including short questions like \"what do I reply to this LinkedIn DM?\", \"my LinkedIn lead went quiet, now what?\" or \"should I follow up again on this LinkedIn thread?\": turn a LinkedIn message thread you paste into a follow-up plan (where the conversation stands, what they actually said, whether and when to follow up, and the next message, plus one later nudge), or find LinkedIn conversations you dropped in your own data export (messages.csv) or, when you ask, in LinkedIn message-notification emails in your mail: unanswered messages, timings they gave that have passed, promises you did not keep, accepted invitations with no first message, likely job changes. Drafts only; never sends, never opens LinkedIn."
 ---
 
 # LinkedIn DMs: what to send next

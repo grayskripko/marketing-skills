@@ -1,6 +1,6 @@
 ---
 name: linkedin-reply-to-comments
-description: "Any LinkedIn question about how to reply to comments, including short questions like \"what do I answer here?\", \"reply to this comment\" or \"help me answer my post comments\": draft a public reply to each comment on your own LinkedIn post that keeps the thread going and, where the person shows a need, moves them toward a DM or a call, plus the DM to send next for those people. Works from the comments you paste (or a screenshot), or the one post URL you give if your assistant can open it. Never posts, never sends, never opens LinkedIn on its own."
+description: "Any LinkedIn question about how to reply to comments on your own post, including short questions like \"what do I answer to this LinkedIn comment?\", \"reply to this comment on my post\" or \"help me answer my LinkedIn post comments\": draft a public reply to each comment on your own LinkedIn post that keeps the thread going and, where the person shows a need, moves them toward a DM or a call, plus the DM to send next for those people. Works from the comments you paste (or a screenshot), or the one post URL you give if your assistant can open it. Never posts, never sends, never opens LinkedIn on its own."
 ---
 
 # Replies to LinkedIn post comments that lead to conversations

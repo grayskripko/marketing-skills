@@ -1,6 +1,6 @@
 ---
 name: linkedin-comments-leads
-description: "Any LinkedIn post comments question, including short questions like \"who here is a potential client?\", \"any leads in these comments?\" or \"which commenters should I DM?\": sort the people who commented on or reacted to your own LinkedIn post into potential clients, peers, job seekers and vendors pitching you, with the evidence from their own words and headline, and a next step and DM draft for the best few. Works from comments you paste (or a screenshot), from the one post URL you give if your assistant can open it, or from LinkedIn comment-notification emails in your mail when you ask. Never opens LinkedIn on its own, never looks people up, never sends."
+description: "Any LinkedIn post comments question about your own post, including short questions like \"who in my LinkedIn comments is a potential client?\", \"any leads in these comments on my post?\" or \"which commenters on my LinkedIn post should I DM?\": sort the people who commented on or reacted to your own LinkedIn post into potential clients, peers, job seekers and vendors pitching you, with the evidence from their own words and headline, and a next step and DM draft for the best few. Works from comments you paste (or a screenshot), from the one post URL you give if your assistant can open it, or from LinkedIn comment-notification emails in your mail when you ask. Never opens LinkedIn on its own, never looks people up, never sends."
 ---
 
 # LinkedIn post comments: who is a potential client
