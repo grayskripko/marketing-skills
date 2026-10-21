@@ -1,6 +1,6 @@
 # Official diagnostic and operational sources
 
-Read 2026-10-11. Every URL below was opened in the web reader; direct HTTP load results are recorded in BUILD-NOTES.md. Sources are embedded at build time. The package makes no runtime network requests. SDK and host pages describe their current documented behavior; match the installed version before applying a host-specific repair.
+Read 2026-10-11. Every URL below was opened by the author. Sources are embedded at build time. The package makes no runtime network requests. SDK and host pages describe their current documented behavior; match the installed version before applying a host-specific repair.
 
 ## Codex instruction discovery
 

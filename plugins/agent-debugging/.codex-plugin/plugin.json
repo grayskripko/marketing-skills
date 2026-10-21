@@ -1,7 +1,7 @@
 {
   "name": "agent-debugging",
-  "version": "0.1.3",
-  "description": "Debug a failed AI agent run from traces, logs, configuration, transcripts and output files; find the supported fault and get a repair or reproducible escalation. Diagnose an agent stuck in a loop, wrong tool calls, unsupported answers, runtime failures and falsely claimed completion. Prepare or apply authorized local repairs through existing host tools, then check the actual task outcome from artifacts and receipts.",
+  "version": "0.1.4",
+  "description": "Debug a failed AI agent run from agent traces, logs, configuration, transcripts and output files; find the supported fault and get a repair or reproducible escalation. Diagnose an agent loop, an agent stuck repeating a tool call, wrong tool calls, unsupported answers, runtime failures and falsely claimed completion. Get a minimal patch, corrected call or upstream issue report, then check the repaired task against the actual artifacts and receipts.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
@@ -25,13 +25,12 @@
   "interface": {
     "displayName": "Agent Debugging",
     "shortDescription": "Debug a failed AI agent run",
-    "longDescription": "Debug a failed AI agent run from traces, logs, configuration, transcripts and output files; find the supported fault and get a repair or reproducible escalation. Diagnose an agent stuck in a loop, wrong tool calls, unsupported answers, runtime failures and falsely claimed completion. Prepare or apply authorized local repairs through existing host tools, then check the actual task outcome from artifacts and receipts.",
+    "longDescription": "Debug a failed AI agent run from agent traces, logs, configuration, transcripts and output files; find the supported fault and get a repair or reproducible escalation. Diagnose an agent loop, an agent stuck repeating a tool call, wrong tool calls, unsupported answers, runtime failures and falsely claimed completion. Get a minimal patch, corrected call or upstream issue report, then check the repaired task against the actual artifacts and receipts.",
     "developerName": "Sergey Skripko",
     "category": "Developer Tools",
     "capabilities": [
       "Interactive",
-      "Read",
-      "Write"
+      "Read"
     ],
     "brandColor": "#183D4A",
     "brandColorDark": "#8BD5C5",
