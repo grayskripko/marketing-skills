@@ -1,6 +1,6 @@
 ---
 name: agent-process-scope
-description: "Map a business process for AI agent design before choosing what to automate. Use when you ask for AI agent design from process notes, staff transcripts, traces, logs, configs or files, say “what can we automate?”, or need the inputs, human judgments and action boundaries written down. Return the current steps, evidence available at each decision, the result required and the responsibilities that stay with people. Not for architecture selection when the process is already clear, running workers, live incident repair or deploying an application."
+description: "A question about which parts of the user's own business process to hand to an AI agent and which stay with people, even a quick one-liner: which part of our equipment-returns process should an AI agent take first, where should an AI agent stop and our support staff take over. Map a business process for AI agent design before choosing what to automate. Use when you ask for AI agent design from process notes, staff transcripts, traces, logs, configs or files, say “what can we automate?”, or need the inputs, human judgments and action boundaries written down. Return the current steps, evidence available at each decision, the result required and the responsibilities that stay with people. Not for architecture selection when the process is already clear, running workers, live incident repair or deploying an application."
 ---
 
 # Process scope

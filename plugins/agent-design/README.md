@@ -1,6 +1,6 @@
-# Agent Design
+# AI Agent Design
 
-Design an AI agent for one process: decide whether an agent is needed, then write its implementation specification.
+Design an agent for one process: decide whether an AI agent is needed, then write its implementation specification.
 For process owners and developers planning one business workflow. Paste process notes, traces, logs, configs, transcripts or files; no account connection, API key or install beyond the plugin is required.
 
 ## What this package runs and connects to
@@ -17,9 +17,9 @@ The publisher receives no task data and operates no collection, telemetry, or st
 |---|---|---|
 | agent-process-scope | Steps, transcripts, logs and available data | A process map with decisions, action boundaries and human ownership |
 | agent-architecture-decide | A process and constraints | An agent vs workflow decision, including single-call and code-only options |
-| agent-build-spec | A process, chosen architecture and tool/config details | An agent specification with interfaces, retrieval, review, stopping conditions and acceptance checks |
+| agent-specification | A process, chosen architecture and tool/config details | An agent specification with interfaces, retrieval, review, stopping conditions and acceptance checks |
 
-Ask for the whole design or just one stage. Each skill works on its own. A full request gets one combined specification rather than three repeated reports.
+Ask for the whole design or just one stage. Each skill works on its own.
 
 The implementation brief checks the chosen stack's approval behavior, MCP error and continuation results, and persistence after interrupted review. Process mapping and the agent vs workflow decision keep that brief tied to the actual work.
 
@@ -33,7 +33,7 @@ Current official guidance is embedded in the skills and dated in [references/sou
 
 ## Inputs and access
 
-Pasted text and supplied exports are the default path. The assistant reads only files you supply or identify for this design; large artifacts can be narrowed to relevant sections. The specification records missing live access as an implementation dependency. If you request setup guidance, the brief outlines the chosen SDK/runtime installation, scoped service access and secret storage that an implementer needs; use redacted configuration, never credentials in chat. Proposed paid services or extra infrastructure require a reason tied to this process.
+Pasted text and supplied exports are the default path. The assistant reads only files you supply or identify for this design. The specification records missing live access as an implementation dependency. If you request setup guidance, the brief outlines the chosen SDK/runtime installation, scoped service access and secret storage that an implementer needs; use redacted configuration, never credentials in chat. Proposed paid services or extra infrastructure require a reason tied to this process.
 
 The optional documentation-refresh workflow and its destinations are described above. Pasted documentation supports the same design path without additional network requests.
 

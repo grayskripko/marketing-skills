@@ -1,6 +1,6 @@
 ---
-name: agent-build-spec
-description: "Write an agent specification for this AI agent or workflow. Use when you ask for an agent specification, AI agent design brief, or “turn this process into an implementation plan” from pasted notes, traces, logs, configs, transcripts or files. Return inputs and outputs, tool boundaries, knowledge retrieval, human review, stopping conditions, ownership and observable acceptance checks for one process. Respect the chosen stack and identify its concrete approval and persistence controls. Not for coding the application, deploying it, repairing tool schemas, enforcing live policy or running an evaluation service."
+name: agent-specification
+description: "A request for a build specification of the user's own AI agent or workflow, even a quick one: what should I hand a developer so they can build my agent, write up the spec for my meeting-notes agent. Write an agent specification for this AI agent or workflow. Use when you ask for an agent specification, AI agent design brief, or “turn this process into an implementation plan” from pasted notes, traces, logs, configs, transcripts or files. Return inputs and outputs, tool boundaries, knowledge retrieval, human review, stopping conditions, ownership and observable acceptance checks for one process. Respect the chosen stack and identify its concrete approval and persistence controls. Not for coding the application, deploying it, repairing tool schemas, enforcing live policy or running an evaluation service."
 ---
 
 # Build specification

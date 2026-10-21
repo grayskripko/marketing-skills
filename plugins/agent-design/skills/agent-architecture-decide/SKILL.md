@@ -1,6 +1,6 @@
 ---
 name: agent-architecture-decide
-description: "Make an agent vs workflow decision for this process, including single-call and code-only options. Use when you ask for an agent vs workflow decision, AI agent design patterns, “do we need an agent?”, or an architecture choice based on pasted process steps, traces, configs, logs, transcripts or files. Return a reasoned choice and the control flow that satisfies the actual constraints, including a code-only option where appropriate. Not for a framework shopping list, assigning available assistants, diagnosing an existing failure or building and deploying the system."
+description: "A question about whether the user's own process needs an AI agent, several agents or a fixed workflow, even a quick one-liner: is one AI agent enough for our invoice matching, should my lead research be an AI agent or a fixed workflow. Make an agent vs workflow decision for this process, including single-call and code-only options. Use when you ask for an agent vs workflow decision, “do we need an agent?”, or an architecture choice based on pasted process steps, traces, configs, logs, transcripts or files. Return a reasoned choice and the control flow that satisfies the actual constraints. Not for configuring Claude Code subagents, staffing human agents, a framework shopping list, assigning available assistants, diagnosing an existing failure or building and deploying the system."
 ---
 
 # Architecture decision
