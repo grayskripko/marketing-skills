@@ -1,8 +1,8 @@
 {
   "name": "marketing-psychology",
-  "displayName": "Marketing Psychology & Dark Pattern Check",
-  "version": "0.1.6",
-  "description": "Evidence grades and consumer-protection rule checks for the psychology in your marketing. Grade a claim such as 'losses hurt twice as much' against the original studies and their replications. Audit a page, email or paywall for the levers it uses: each one is quoted, graded and paired with the fact that makes it legitimate. Check countdowns, stock badges, reviews, 'was' prices, trials and cancellation paths against dated US, EU and UK rules. Read price tiers for anchors and decoys with the arithmetic shown. Find why users stop before a key step, such as connecting data or upgrading, and what to fix first. Never invents proof, studies or a promised lift.",
+  "displayName": "Marketing Psychology & Dark Patterns Check",
+  "version": "0.1.7",
+  "description": "Evidence verdicts and consumer-protection checks for the psychology in your marketing: behavioral science, cognitive bias claims and dark patterns. Check a claim such as 'losses hurt twice as much' against the original studies and their replications. Audit a page, email or paywall for the levers it uses: each one is quoted and marked keep, fix or remove. Check whether a countdown, stock badge, review, 'was' price, trial or cancellation path may mislead buyers or break US, EU or UK consumer rules, with an honest version. Read price tiers for anchors and decoys with the arithmetic shown. Find why users stop before a key step, such as connecting data or upgrading, and what to fix first. Never invents proof, studies or a promised lift.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"

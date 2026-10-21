@@ -1,6 +1,6 @@
 ---
-name: dark-pattern-check
-description: Checks whether a marketing or checkout element is manipulative or may break US, EU or UK consumer-protection rules, and gives an honest version that keeps the business goal. Covers countdowns, stock and "people viewing" messages, reviews, "was/now" prices, hidden fees, pre-ticked extras, trials and renewals, cancel paths, consent banners, repeat prompts, streak or expiry messages and disguised ads. Use when the user asks "is this allowed", "is this manipulative" or "is this a dark pattern", or asks to write or tune one of these elements; a deceptive version is declined and an honest one given. Not for designing cancel flows or save offers. Not legal advice; never calls anything compliant.
+name: dark-patterns-check
+description: "Any 'is this allowed or manipulative?' question about one element of the user's own marketing or checkout, even a quick one-liner: a countdown timer, an urgency line, 'only 3 left', a 'was $99' price, a pre-ticked box, a hard-to-find cancel button. Checks whether such an element misleads or pressures buyers or may break US, EU or UK consumer-protection rules, names the fact that must be true for it to be honest, and gives an honest version that keeps the business goal. Covers countdowns, stock and \"people viewing\" messages, reviews, \"was/now\" prices, hidden fees, pre-ticked extras, trials and renewals, cancel paths, repeat prompts, streak or expiry messages and disguised ads. Use when the user asks \"is this allowed\", \"is this manipulative\" or \"is this a dark pattern\", or asks to write or tune one of these elements; a deceptive version is declined and an honest one given. Not for designing cancel flows or save offers, or for cookie-consent setup. Not legal advice; never calls anything compliant."
 ---
 
 # Dark pattern check
@@ -10,6 +10,7 @@ Decide whether a countdown, badge, price claim, trial, renewal, cancel path, rev
 - The verdict turns on whether the fact the element implies is true (the offer really ends then, the count is live, the old price was really charged). Say which fact, and whether the user's input shows it true or false.
 - Give honest replacement copy with the user's real date, amount and terms. For time-bound copy, say what should show once the deadline or cutoff passes.
 - Name a law only when the user asks about legality, a launch or a market, and then cover the obligations that actually apply to that element in each market the user sells into.
+- Never call an element compliant or legal. When the user asks about legality, say what risk the named rules create and that this is not legal advice.
 
 ## How to answer
 

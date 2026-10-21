@@ -1,8 +1,8 @@
-# Marketing Psychology Kit
+# Marketing Psychology & Dark Patterns Check
 
-Check the psychology in your marketing before you ship it: whether a countdown, "was" price or stock badge may break US, EU or UK consumer rules; which levers on a page to keep, fix or remove; whether a pricing table has a decoy; whether "losses hurt twice as much" is true; and why users stop before a key step. Every lever comes with the fact that must be true for it to be honest.
+Check the psychology in your marketing before you ship it: whether a countdown, "was" price or stock badge may break US, EU or UK consumer rules; which levers on a page to keep, fix or remove; whether a pricing table has a decoy; whether "losses hurt twice as much" is true; and why users stop before a key step. A dark-pattern verdict names the fact that must be true for the element to be honest.
 
-| Element | Legitimate only if | Rules (read 2026-10-03) | Risk |
+| Element | Legitimate only if | Example rules (read 2026-10-03; not legal advice) | Risk |
 |---|---|---|---|
 | "Ends tonight" timer that resets daily | the offer really ends then | US FTC Act §5; EU banned-practices list (Unfair Commercial Practices Directive, Annex I point 7); UK banned-practices list (DMCC Act 2024, Sch. 20 para 7) | High |
 
@@ -10,7 +10,7 @@ Check the psychology in your marketing before you ship it: whether a countdown, 
 
 | Skill | Give it | You get |
 |---|---|---|
-| dark-pattern-check | a countdown, badge, price, trial or cancel path | whether it may break dated US, EU or UK rules, and an honest version |
+| dark-patterns-check | a countdown, badge, price, trial or cancel path | whether it misleads or may break US, EU or UK consumer rules, and an honest version |
 | persuasion-audit | a page or email | keep, fix or remove for each lever, and how to collect real proof |
 | price-framing | your tiers and plans | savings and per-seat math, a decoy check, discount framing |
 | evidence-check | a psychology claim | whether it holds, and how to say it accurately |
@@ -28,15 +28,15 @@ It answers from the facts you give, recomputes your numbers, and gives replaceme
 
 ## Data and network
 
-Network scope: this plugin ships no code and calls no service of its own. It reads what you paste or attach; when you give a public URL and your assistant has a web-fetch tool, it reads that page and at most four more public pages you name, with no logins or forms and robots.txt respected. Without a fetch tool it asks you to paste the text. It changes no files or settings unless you ask. For arithmetic, price-framing and behavior-diagnosis may use your assistant's own code tool when one is available; that code runs only in your session and sends nothing anywhere.
+Network scope: this plugin ships no code and calls no service of its own. It works on what you paste or attach. If you give a public URL and your assistant has its own web-fetch tool, the assistant may read that page; the skills add no fetching of their own. Without a fetch tool, paste the text. It changes no files or settings unless you ask. For arithmetic, price-framing and behavior-diagnosis may use your assistant's own code tool when one is available; that code runs only in your session and sends nothing anywhere.
 
 ## Personal data
 
-Remove customer names and emails before pasting. Any that remain are replaced with neutral labels and never repeated.
+Remove customer names and emails before pasting; the skills do not need them.
 
 ## What it will not do
 
-Fake reviews, counters, deadlines or "was" prices; hidden trial terms; targeting children or people in difficulty; profiling a named person; lift predictions; legal advice.
+Fake reviews, counters, stock levels, deadlines, "was" prices or statistics; lift predictions; calling anything compliant or legal.
 
 ## Support
 
