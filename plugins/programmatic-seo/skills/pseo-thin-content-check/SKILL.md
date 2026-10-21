@@ -1,11 +1,11 @@
 ---
-name: pseo-sample-qa
-description: "Checks pasted sample pages from a template-based page set for near-duplicates, thin pages and unsupported claims, and says what to keep, merge or change for each page. Use when the user pastes sample pages as text or HTML and asks whether they are too similar, too thin or ready to publish. Pages must be pasted; nothing is fetched. Not for auditing a live site."
+name: pseo-thin-content-check
+description: "Checks whether your own template-based pages are duplicate content or thin content, from a question about pages that differ only by a city or product name to pasted sample pages checked for near-duplicates, thin pages and unsupported claims, and says what to keep, merge or change for each page. Use when the user pastes sample pages as text or HTML and asks whether they are too similar, too thin or ready to publish. A per-page verdict needs the pages pasted; nothing is fetched. Not for auditing a live site."
 ---
 
 # Sample page check
 
-Set the shared template text aside and judge what each page tells a reader that its siblings do not; a swapped name, heading or format is not enough on its own. If a kept page is itself thin, say which facts it lacks. Check claims against source rows when given, separating contradictions from claims the data does not support; without rows, factual readiness stays unresolved. Give similarity numbers only if asked, covering every requested pair and saying how you counted. Conclusions cover the pasted pages only.
+Set the shared template text aside and judge what each page tells a reader that its siblings do not; a swapped name, heading or format is not enough on its own. If a kept page is itself thin, say which facts it lacks. Check claims against source rows when given, separating contradictions from claims the data does not support; without rows, factual readiness stays unresolved. Give similarity numbers only if asked, covering every requested pair and saying how you counted. Conclusions cover the pasted pages only. With no pages pasted, answer from what the user describes in general terms and ask for two or three sample pages to settle it.
 
 ## How to answer
 

@@ -2,7 +2,7 @@
 
 Programmatic SEO Gate is a set of instructions and reference text for an AI assistant. It has no server, no account and no storage of its own.
 
-- Network scope: this plugin fetches nothing and runs no web search. It works only on rows, tables and page text you paste or attach, does not search your folders or files for data, runs nothing and changes no files or settings unless you ask, and may use the assistant's code or spreadsheet tool to compute the tables it shows. It stores nothing.
+- Network scope: this plugin fetches nothing and runs no web search. It works only on rows, tables and page text you paste or attach, does not search your folders or files for data, has no scripts of its own, and changes files or settings only if you ask the assistant to. The assistant's code or spreadsheet tool may be used only to compute the tables it shows. The Google links in the skills are reference text and are not fetched. It stores nothing.
 - Categories of data: whatever you paste, typically business, product, place or tool rows and sample page text. It is not meant for personal data; page sets about private individuals are declined, personal contact columns are ignored and never repeated, and names of private people in pasted rows or pages (reviewers, staff, customers) are written as "Person 1", "Person 2".
 - Purpose: computing the tables you ask for, during that conversation.
 - Recipients: the data goes to the provider of the AI assistant you use, under that provider's terms. The plugin sends it nowhere else.

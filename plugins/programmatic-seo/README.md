@@ -10,7 +10,7 @@ Example: six payment tools, where three share the same fee, payout time, currenc
 |---|---|---|
 | pseo-viability | page-set idea plus rows or columns | which rows deserve a page, which can share one, and what data is missing |
 | pseo-template-spec | chosen page type and columns | block spec, empty-field handling, title pattern, block map for one row |
-| pseo-sample-qa | pasted sample pages | keep, merge or change per page, with the reason |
+| pseo-thin-content-check | pasted sample pages | keep, merge or change per page, with the reason |
 | pseo-rollout | page count and URL pattern, later typed batch counts | launch plan, count check, continue or pause, action per group of pages |
 
 ## Examples
@@ -21,11 +21,11 @@ Example: six payment tools, where three share the same fee, payout time, currenc
 
 ## How it works
 
-Each answer opens with the decision and keeps to what you asked. Your constraints (budgets, required fields, windows, approved plans) are kept as given, and no cutoffs or scores are invented; Google is named only where a point rests on it. Missing facts are named; nothing is estimated or invented, including search volume. Requests for many near-identical pages, or for pages about private individuals, are declined with a dataset check offered instead.
+Each answer opens with the decision and keeps to what you asked. Your constraints (budgets, required fields, windows, approved plans) are kept as given, and no cutoffs or scores are invented; Google is named only where a point rests on it. Missing facts are named; nothing is estimated or invented, including search volume. Requests to write the pages themselves, or for pages about private individuals, are declined.
 
 ## Data and network
 
-Network scope: this plugin fetches nothing and runs no web search. It works only on rows, tables and page text you paste or attach, does not search your folders or files for data, runs nothing and changes no files or settings unless you ask, and may use the assistant's code or spreadsheet tool to compute the tables it shows. It stores nothing.
+Network scope: this plugin fetches nothing and runs no web search. It works only on rows, tables and page text you paste or attach, does not search your folders or files for data, has no scripts of its own, and changes files or settings only if you ask the assistant to. The assistant's code or spreadsheet tool may be used only to compute the tables it shows. The Google links in the skills are reference text and are not fetched. It stores nothing.
 
 ## What it will not do
 
