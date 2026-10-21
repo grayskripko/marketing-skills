@@ -1,6 +1,6 @@
 ---
 name: prepare-interview-debrief
-description: "Match hiring interview notes to a rubric and prepare a panel debrief. Use when a hiring panel asks to map notes to criteria, prepare a debrief, compare finalists, or clean up notes that contain personal remarks. Returns evidence per criterion with who said it, what each candidate's evidence shows, what was excluded and why, and gaps. Keeps human ratings as given. Not for applicant coaching, resume screening, automated scores, or guessing personality from appearance, voice or accent."
+description: "A question about how the user's own interview panel can compare its notes against the role's criteria (with no notes supplied, it gives a short method for comparing them), even a quick one-liner: my co-interviewer and I disagree about a job candidate, how do we compare our notes fairly; summarize our hiring panel's interview notes. Match hiring interview notes to a rubric and prepare a panel debrief. Use when a hiring panel asks to map notes to criteria, prepare a debrief, lay out finalists' evidence side by side per criterion, or clean up notes that contain personal remarks. Returns evidence per criterion with who said it, what each candidate's evidence shows, what was excluded and why, and gaps. Keeps human ratings as given. Not for candidate ranking, recommendations to hire or reject anyone, applicant coaching, resume screening, automated scores, or guessing personality from appearance, voice or accent."
 ---
 
 # Prepare interview debrief
@@ -24,10 +24,11 @@ description: "Match hiring interview notes to a rubric and prepare a panel debri
 
 ## Preparing the debrief
 
+0. With no notes supplied, give a short method: each rater maps their own notes to the criteria, ratings stay per rater, disagreements are discussed against the rubric anchors, thin evidence is a gap and not a low score, and the hiring decision stays with the panel. Then offer to map their notes.
 1. Map each usable note to a criterion, with who wrote it. Say in words when something is the candidate's own account rather than what the interviewer saw; no type columns.
 2. Keep supplied human ratings exactly, with who gave them; with several raters, one column per rater, and a rating not given reads "not rated". Show disagreements; do not average, total or break ties.
 3. Say what the evidence shows on each criterion and how strong it is: a concrete example, a one-line impression, or nothing. Thin or missing evidence is a gap, not a low score; say plainly when a criterion cannot be rated yet.
-4. When asked whom to hire: one line that the choice is the panel's, then per criterion which candidate the notes support and how firmly. If the weighting between criteria is not given, ask for it and offer the overall comparison once it is named.
+4. When asked whom to hire: one line that the choice is the panel's, then each candidate's evidence side by side per criterion. No weighting, overall comparison or pick.
 5. If you excluded anything under the fairness rules, list it separately and plainly.
 
 ## References

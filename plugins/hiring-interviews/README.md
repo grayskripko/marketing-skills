@@ -19,7 +19,7 @@ The publisher receives no task data and operates no collection, telemetry, or st
 | `build-structured-interview` | Questions tied to the role, follow-ups, panel owners, timing and approved answer anchors (what interviewers should listen for) | “Build a panel interview from these requirements and our rubric.” |
 | `prepare-interview-debrief` | Observations with sources, human ratings with who gave them, disagreements and missing evidence | “Map these notes to our rubric and show what was not assessed.” |
 
-Paste text you are allowed to share or provide readable files/exports with source labels. For scans, the AI app must be able to extract text from images. A person must check uncertain passages. A missing rubric does not block a requirement map or question draft. A common rubric can apply to every criterion without additional answer anchors. Candidate ratings remain for people to enter. No live ATS connection is provided.
+Paste text you are allowed to share or provide readable files/exports with source labels. For scans, the AI app must be able to extract text from images. A person must check uncertain passages. A missing rubric does not block a requirement map or question draft. A quick question with no brief gets typical requirements or draft questions for the named role, marked as suggestions to confirm. A common rubric can apply to every criterion without additional answer anchors. Candidate ratings remain for people to enter. No live ATS connection is provided.
 
 For employer-side hiring preparation. Applicant coaching, resumes and customer research interviews are outside this package.
 
@@ -32,3 +32,5 @@ Fetches: none. Uses only the material supplied for the task. The package collect
 ## Package
 
 These skills provide instructions for compatible Claude and Codex apps. Both manifests and a local icon are included. The `.claude-plugin/` and `.codex-plugin/` directories contain platform metadata, not executable runtimes or servers. Licensed under [MIT](LICENSE).
+
+Support: https://github.com/grayskripko/marketing-skills/issues

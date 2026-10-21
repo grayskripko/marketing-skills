@@ -1,6 +1,6 @@
 ---
 name: build-structured-interview
-description: "Build a hiring interview kit from a role brief, job description or rubric. Use when a hiring manager asks for structured interview questions, follow-up questions, a panel plan or answer anchors. Returns a timed kit that covers every requirement with questions, follow-ups, practical checks such as roleplays, what to listen for and how to score each answer. Not for candidate coaching, customer research interviews, automated ratings, candidate ranking or decisions to hire or reject anyone."
+description: "A question about what to ask or how to score answers when interviewing for a role the user is hiring for (with no brief supplied, it gives draft questions marked as suggestions to confirm), even a quick one-liner: what should I ask receptionist candidates, make me an interview scorecard so I stop hiring on gut feeling. Build a hiring interview kit from a role brief, job description or rubric. Use when a hiring manager asks for structured interview questions, follow-up questions, a panel plan or answer anchors. Returns a timed kit that covers every requirement with questions, follow-ups, practical checks such as roleplays, what to listen for, and scoring guidance from your rubric or a draft scale if there is none. Not for candidate coaching, customer research interviews, automated ratings, candidate ranking or decisions to hire or reject anyone."
 ---
 
 # Build structured interview
@@ -24,11 +24,11 @@ description: "Build a hiring interview kit from a role brief, job description or
 
 ## Building the kit
 
-1. Cover every requirement and duty in the brief: must-haves, preferred items, software, languages, shift and physical conditions. Give each one or more questions; give must-haves two or three.
+1. With no brief supplied, draft a short kit for the typical duties of the named role, marked as suggestions for the employer to confirm, and offer to tailor it to their brief. Otherwise, cover every requirement and duty in the brief: must-haves, preferred items, software, languages, shift and physical conditions. Give each one or more questions; give must-haves two or three.
 2. Mix question types: a past example ("Tell me about a time..."), a job scenario ("A caller is upset because..."), and a practical check wherever the job has a hands-on part, such as a short roleplay, a brief exchange in each required language, or a small sample task.
 3. Under each main question, list follow-ups that tell a weak answer from a strong one: the candidate's own part, what they did, how they checked, what changed afterwards.
-4. Fit the time. Give a schedule that adds up to the total, with opening, questions, candidate questions and close.
-5. Scoring: every kit ends with how to score. With the user's rubric, use its scale and quote its anchors exactly; where a criterion or level has no anchor, do not write one: name the gaps in one line and offer drafts. With no rubric, give a short scale with a low and a high answer per must-have, marked as your draft.
+4. When a total time is given, fit it. Give a schedule that adds up to the total, with opening, questions, candidate questions and close.
+5. Scoring: every full kit ends with how to score. With the user's rubric, use its scale and quote its anchors exactly; where a criterion or level has no anchor, do not write one: name the gaps in one line and offer drafts. With no rubric, give a short scale with a low and a high answer per must-have, marked as your draft.
 6. With a panel, suggest who asks what by expertise, in a few words.
 7. Preferred items are noted, never pass/fail. Ask everyone the same core questions; the format can still change for an adjustment.
 

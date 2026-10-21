@@ -1,7 +1,7 @@
 {
   "name": "hiring-interviews",
-  "version": "0.1.1",
-  "description": "Prepare hiring interviews from approved role requirements and organize the panel's notes. Use when a hiring manager asks to separate must-haves from preferences, plan interview questions and timing, or match notes to the employer's rubric. Returns requirement tables, interview kits or debrief drafts. Each point has a source; missing evidence and disagreements stay visible. People apply ratings, approve interview accommodations and make hiring decisions. Missing evidence is not failure. Review specific problematic criteria or legal issues when they affect the task. Not for applicant coaching, resumes, customer research interviews, candidate ranking or recommendations to hire or reject anyone.",
+  "version": "0.1.2",
+  "description": "Prepare hiring interviews from role requirements and organize the panel's notes. Use when a hiring manager asks to separate must-haves from preferences, tighten a job ad, plan interview questions and timing, or match notes to the employer's interview rubric. Returns requirement tables, interview kits or debrief drafts. Each point has a source; missing evidence and disagreements stay visible. People apply ratings, approve interview accommodations and make hiring decisions. Missing evidence is not failure. Flags requirements or notes that screen on protected traits and suggests job-related wording; not legal advice. Not for applicant coaching, resumes, customer research interviews, candidate ranking or recommendations to hire or reject anyone.",
   "author": {
     "name": "Sergey Skripko"
   },
@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "Hiring Interviews",
     "shortDescription": "Prepare hiring interviews and organize panel notes",
-    "longDescription": "Prepare hiring interviews from approved role requirements and organize the panel's notes. Use when a hiring manager asks to separate must-haves from preferences, plan interview questions and timing, or match notes to the employer's rubric. Returns requirement tables, interview kits or debrief drafts. Each point has a source; missing evidence and disagreements stay visible. People apply ratings, approve interview accommodations and make hiring decisions. Missing evidence is not failure. Review specific problematic criteria or legal issues when they affect the task. Not for applicant coaching, resumes, customer research interviews, candidate ranking or recommendations to hire or reject anyone.",
+    "longDescription": "Prepare hiring interviews from role requirements and organize the panel's notes. Use when a hiring manager asks to separate must-haves from preferences, tighten a job ad, plan interview questions and timing, or match notes to the employer's interview rubric. Returns requirement tables, interview kits or debrief drafts. Each point has a source; missing evidence and disagreements stay visible. People apply ratings, approve interview accommodations and make hiring decisions. Missing evidence is not failure. Flags requirements or notes that screen on protected traits and suggests job-related wording; not legal advice. Not for applicant coaching, resumes, customer research interviews, candidate ranking or recommendations to hire or reject anyone.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [

@@ -1,6 +1,6 @@
 ---
 name: map-role-requirements
-description: "Turn a role brief, job description or job ad into clear requirements. Use when a hiring manager asks to separate must-haves from nice-to-haves, cut down or rewrite a job ad, or check whether the brief conflicts with the rubric. Returns each requirement sorted as required, preferred or cut, with the reason and source, real conflicts with fixes, and rewritten text when asked. Not for writing resumes, coaching applicants, screening candidates or deciding whom to hire."
+description: "A question about what a role the user is hiring for really requires (with no brief or ad supplied, it gives typical requirements marked as suggestions to confirm), even a quick one-liner: what should I look for when hiring an office manager, how do I turn my vague job ad into real requirements. Turn a role brief, job description or job ad into clear requirements. Use when a hiring manager asks to separate must-haves from nice-to-haves, cut down or rewrite a job ad, or check whether the brief conflicts with the rubric. Returns each requirement sorted as required, preferred or cut, with the reason and source, real conflicts with fixes, and rewritten text when asked. Not for writing resumes, coaching applicants, screening candidates or deciding whom to hire."
 ---
 
 # Map role requirements
@@ -28,7 +28,7 @@ description: "Turn a role brief, job description or job ad into clear requiremen
 2. Treat filters that are not job-related as candidates to cut: degrees, years counts, vague personality labels, scope statements dressed as requirements. Suggest the concrete version where one exists.
 3. A cut ad must be clearly shorter than the original: each point once, no reasons repeated from the table. Then one line on anything the approver must confirm.
 4. Conflicts with a rubric: a conflict is a direct contradiction, such as a years requirement against a rubric note that says years are not scored. Give each conflict a fix and say which side has to change. Rubric criteria the brief does not mention are a gap, not a conflict.
-5. Do not add requirements the material does not support.
+5. Do not add requirements the material does not support. With no brief, ad or rubric supplied, give the typical requirements for the named role as a short list marked as suggestions for the employer to confirm, then offer to sort their own brief or ad.
 
 ## References
 
