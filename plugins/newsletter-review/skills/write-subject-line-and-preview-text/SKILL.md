@@ -1,6 +1,6 @@
 ---
-name: write-subject-and-preview
-description: "Write newsletter subject lines and preview text in pairs that accurately describe the newsletter issue you supply. Gives different options without inventing results, urgency or offer terms. Use when you say “give me subjects for this issue,” “fix this clickbait subject” or “pair a preview with this newsletter.” Checks what each pair promises against the issue and approved source notes. Keeps uncertainty and sponsor conditions. Keeps your requested language and character limit without imposing a universal ideal length. Not for writing the body, predicting opens, spam-filter tricks, live A/B testing or sending. Use edit-newsletter-issue when the body itself needs a full rewrite."
+name: write-subject-line-and-preview-text
+description: "A request for subject lines or preview text for the user's own newsletter issue (it asks for the issue or a summary when missing), even a quick one-liner: what subject line should I use for this week's newsletter, rewrite 'Monthly Update #12' for this issue. Write newsletter subject lines and preview text in pairs that accurately describe the newsletter issue you supply. Gives different options without inventing results, urgency or offer terms. Use when you say “give me subjects for this issue,” “fix this clickbait subject” or “pair a preview with this newsletter.” Checks what each pair promises against the issue and approved source notes. Keeps uncertainty and sponsor conditions. Keeps your requested language and character limit without imposing a universal ideal length. Not for writing the body, predicting opens, spam-filter tricks, live A/B testing or sending. Use edit-newsletter-issue when the body itself needs a full rewrite."
 ---
 
 # Write subject and preview

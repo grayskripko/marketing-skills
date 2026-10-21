@@ -11,17 +11,16 @@ The skills use only task text, attachments, and local files you explicitly suppl
 
 The publisher operates no collection, telemetry, or storage service for this workflow and receives no task data through it. Your assistant provider still processes and may retain your conversation, attachments, and tool activity under its own terms. The skills return editorial text and do not direct file writes; any output file you explicitly request uses your assistant's existing file tools.
 
-This development folder also contains `tests/` with three executable Python harnesses and generated evaluation records, plus `BUILD-NOTES.md` and `REVIEW.md`. The harnesses launch `codex exec` for live model evaluations and write local inputs, outputs, and logs; running them uses the configured assistant provider. The skills never instruct running them, and no manifest launches them. This folder therefore cannot honestly be described as containing no executable scripts. Move development material outside the submitted plugin folder before claiming a clean skills-only release.
 
 ## What you get
 
 | Skill | Give it | You get |
 |---|---|---|
-| check-newsletter-claims | draft and supporting passages | corrected claims and the important differences from your sources |
+| fact-check-newsletter-claims | draft and supporting passages | corrected claims and the important differences from your sources |
 | edit-newsletter-issue | issue, notes, audience and optional voice samples | edited issue that keeps qualifications, disclosures and offer conditions |
-| write-subject-and-preview | final body and any field limits | subject/preview pairs that match the issue |
+| write-subject-line-and-preview-text | final body and any field limits | subject/preview pairs that match the issue |
 
-For a full edit with subject options, start with edit-newsletter-issue. For a few disputed claims, use check-newsletter-claims. For subjects alone, use write-subject-and-preview.
+For a full edit with subject options, start with edit-newsletter-issue. For a few disputed claims, use fact-check-newsletter-claims. For subjects alone, use write-subject-line-and-preview-text.
 
 ## Examples
 

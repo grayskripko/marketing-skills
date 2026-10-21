@@ -1,6 +1,6 @@
 ---
-name: check-newsletter-claims
-description: "Check a newsletter draft against the source excerpts and approved sponsor or subscription facts you supply. Returns corrected passages and briefly explains the important differences from your sources. Use when you say “check this issue against my notes,” “is this claim supported?” or “keep the sponsor terms accurate.” Keeps quoted words, source names, uncertainty, dates and exceptions with each claim. Missing details stay visible without stopping the useful corrections. Not for general fact discovery, performance reports, legal approval, email rendering or sending. For a full prose edit, use edit-newsletter-issue; for subject and preview options, use write-subject-and-preview."
+name: fact-check-newsletter-claims
+description: "A question about whether a specific claim in the user's own newsletter draft is supported by the source notes or approved terms they supply (it asks for them when missing), even a quick one-liner: does my source back 'sales doubled' in this issue, is 'studies show' in my issue supported without a source. Check a newsletter draft against the source excerpts and approved sponsor or subscription facts you supply. Returns corrected passages and briefly explains the important differences from your sources. Use when you say “check this issue against my notes,” “is this claim in my newsletter supported?” or “keep the sponsor terms accurate.” Keeps quoted words, source names, uncertainty, dates and exceptions with each claim. Not for claims outside a newsletter, legal substantiation advice, general fact discovery, performance reports, legal approval, email rendering or sending. Full edits: edit-newsletter-issue; subject lines: write-subject-line-and-preview-text."
 ---
 
 # Check newsletter claims
@@ -19,6 +19,8 @@ description: "Check a newsletter draft against the source excerpts and approved 
 - Return editorial draft copy; do not claim publisher approval. Do not claim rendering, link availability, deliverability or successful sending.
 
 ## Check and repair claims
+
+If a claim arrives without supporting source text or approved terms, say it cannot be checked yet, ask for the relevant excerpt, and do not judge whether the wording is legally permissible.
 
 1. Read the draft and supplied sources. Privately match each factual sentence, quote, date, offer term and subject promise to its supporting passage and approved version.
 2. Check who the claim covers, when, what was measured and any conditions or uncertainty. “Some survey respondents reported” cannot become “all readers achieved.” A proposal cannot become a confirmed change. Keep a source's attribution instead of claiming independent verification.

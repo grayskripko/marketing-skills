@@ -1,7 +1,7 @@
 {
   "name": "newsletter-review",
-  "version": "0.1.0",
-  "description": "Check and edit your newsletter using the draft, source excerpts and approved offer terms you supply. Returns corrected passages, a revised issue or subject and preview pairs. Use when you want to “check this issue against my notes,” “edit this newsletter” or “give me subjects for this issue.” Keeps quoted words, attribution, uncertainty, exceptions and sponsor disclosures. You can also supply voice samples and an audience brief. Not for finding new facts, performance reports, legal approval, testing email layout or sending. No accounts or paid APIs are required. No links are fetched.",
+  "version": "0.1.1",
+  "description": "Check and edit your newsletter using the draft, source excerpts and approved offer terms you supply. Returns corrected passages, a revised issue or subject lines and preview text pairs. Use when you want to “check this issue against my notes,” “edit this newsletter” or “give me subjects for this issue.” Keeps quoted words, attribution, uncertainty, exceptions and sponsor disclosures. You can also supply voice samples and an audience brief. Not for finding new facts, performance reports, legal approval, testing email layout or sending. No accounts or paid APIs are required. No links are fetched.",
   "author": {
     "name": "Sergey Skripko"
   },
@@ -16,7 +16,7 @@
     "preview-text"
   ],
   "displayName": "Newsletter Review",
-  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/newsletter-review/PRIVACY.md",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/newsletter-review/PRIVACY.md",
   "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
-  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/newsletter-review/README.md"
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/newsletter-review/README.md"
 }
