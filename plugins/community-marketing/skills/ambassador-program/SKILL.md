@@ -1,5 +1,5 @@
 ---
-name: advocate-program
+name: ambassador-program
 description: "Designs or audits an ambassador, champion, employee-advocacy, customer-advocate or affiliate programme so every advocate's post says plainly what they get from the brand. Gives disclosure wording advocates can copy for US, UK and EU audiences, says which rewards and review requests are allowed, writes the brief, and checks pasted advocate posts for what needs fixing. Use when the user asks what ambassadors or employees must disclose, whether rewards for referrals or reviews are allowed, or whether advocates' posts comply. Declines rewards tied to positive reviews and inviting only happy customers to review."
 ---
 

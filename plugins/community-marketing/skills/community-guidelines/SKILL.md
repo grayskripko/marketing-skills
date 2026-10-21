@@ -1,5 +1,5 @@
 ---
-name: "community-blueprint"
+name: "community-guidelines"
 description: "Plans or repairs a community the user runs or will run: whether to test demand, join existing venues, sponsor them through their owners or build their own given the hours available; guidelines and moderation rules; and handling an incident with a member. Use when the user is starting, relaunching or reviving a community (\"our Discord is dead\"), writing a code of conduct or moderation rules, or handling an incident."
 ---
 

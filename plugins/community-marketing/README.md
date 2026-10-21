@@ -1,4 +1,4 @@
-# Community Marketing Kit
+# Community & Reddit Marketing
 
 Community marketing without astroturfing.
 
@@ -8,10 +8,10 @@ Community marketing without astroturfing.
 ## What it does
 
 - **community-post-check**: whether to post a draft in a community you don't run (Post, Revise, Ask the moderators first or Do not post), and how to promote there before you have a draft.
-- **venue-rules**: for each community you already take part in, how far you may mention your product, from contribute only to stay out, based on that community's rules.
-- **advocate-program**: disclosure kit, US/UK/EU incentive rules, post audit.
+- **subreddit-rules**: for each subreddit, forum or Discord/Slack community you already take part in, how far you may mention your product, from contribute only to stay out, based on that community's rules.
+- **ambassador-program**: disclosure wording, which rewards and review requests are allowed for US, UK and EU audiences, post audit.
 - **community-health**: from your own community's export or counts: unanswered questions, reply speed, and whether newcomers who got a reply came back.
-- **community-blueprint**: join/sponsor/build, guidelines, moderation, incidents.
+- **community-guidelines**: join/sponsor/build, community guidelines, moderation rules, incidents.
 
 ## Examples
 
@@ -21,7 +21,7 @@ Community marketing without astroturfing.
 
 ## How it works
 
-It works from the rules, drafts and numbers you supply and compares your community only with its own past. Law and platform rules it cites are kept inside each skill with their source pages; source details are available on request. Not legal advice.
+It works from the rules, drafts and numbers you supply and compares your community only with its own past. Law and platform rules it cites are kept inside each skill with their source pages; ask where a rule comes from to get its source. Not legal advice.
 
 ## What it will not do
 
@@ -29,11 +29,11 @@ Fake independent posts, extra accounts, vote requests, paid positive reviews, ba
 
 ## Data and network
 
-Network scope: this plugin runs no web search and calls no service. It works on what you paste or attach. If you name the address of one public community-rules page and your assistant has a fetch tool, the skill may read that single page: public pages only, robots.txt respected, no login, and no second attempt when the site blocks the request; if robots.txt cannot be confirmed or the page is blocked, paste the rules instead. Reddit pages are never fetched; paste the subreddit rules instead. It posts nothing, sends no messages, and changes no files or settings.
+Network scope: this plugin runs no web search and calls no service. It works on what you paste or attach. If you name the address of one public community-rules page and your assistant has a fetch tool, the skill may read that single page: public pages only, no login, and no second attempt when the site blocks the request; if the page is blocked, paste the rules instead. Reddit pages are never fetched; paste the subreddit rules instead. It posts nothing, sends no messages, and changes no files or settings.
 
 ## Personal data
 
-Read only: community exports (whitelisted columns), advocates' posts and names if pasted, incident descriptions. Members appear as M1, M2; advocates as A1, A2. See PRIVACY.md.
+Read only: community exports or counts, advocates' posts and names if pasted, incident descriptions. Members appear only as ids. See PRIVACY.md.
 
 ## Troubleshooting
 
