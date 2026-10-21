@@ -1,8 +1,8 @@
 {
   "name": "client-briefs",
   "displayName": "Client Briefs",
-  "version": "0.1.0",
-  "description": "Check client emails, discovery notes and a draft brief before quoting. Returns a corrected brief, a list of decisions still needed and a client confirmation draft. Use when you ask to check a brief before quoting, sort out conflicting client messages, or confirm what the client wants. Keeps requests, suggestions and approvals separate. Shows source passages for disputed details. Uses pasted text or readable files without accounts or paid APIs. Not for setting prices, legal briefs, interpreting contracts, reading a live inbox or sending messages.",
+  "version": "0.1.1",
+  "description": "Check client emails, discovery notes and a draft project brief before quoting. Can return a corrected brief, a list of decisions still needed or a client confirmation draft, each on request. Use when you ask to check a brief before quoting, sort out conflicting client messages, or confirm what the client wants. Keeps requests, suggestions and approvals separate. Shows source passages for disputed details. Uses pasted text or readable files without accounts or paid APIs. Not for setting prices, legal briefs, interpreting contracts, reading a live inbox or sending messages.",
   "author": {
     "name": "Sergey Skripko"
   },
@@ -15,5 +15,8 @@
     "agency",
     "freelance",
     "brief-confirmation"
-  ]
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/client-briefs/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/client-briefs/README.md"
 }

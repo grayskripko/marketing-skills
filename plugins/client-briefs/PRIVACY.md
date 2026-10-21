@@ -8,6 +8,6 @@ This package contains instructions, reference text and an icon. It runs no servi
 - Recipients: the assistant provider processes the conversation and uploaded files under its own terms. The package sends nothing to any additional recipient.
 - Network: nothing is fetched. No external destinations, redirects, dependency downloads or telemetry. Links require pasted content.
 - Retention: no package storage or background logging. The assistant provider's conversation and file retention still apply; use its controls to delete shared material.
-- Output: internal comments and personal contact details are excluded from client drafts. Review the draft before using it.
+- Output: the instructions direct the assistant to keep internal comments and personal contact details out of client drafts. Review the draft before using it.
 
 Support: https://github.com/grayskripko/marketing-skills/issues

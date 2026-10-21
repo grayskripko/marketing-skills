@@ -1,6 +1,6 @@
 ---
 name: reconcile-client-brief
-description: Check a draft client brief against emails and discovery notes, then returns a corrected brief. Use when you ask to turn scattered client messages into a brief, check a brief before quoting, or fix details that do not match the notes. Keeps conflicting requests visible and shows supplied passages for corrections. Uses only text or readable files for the selected project. For decisions without rewriting the brief, use find-brief-decisions; for a client message, use draft-brief-confirmation. Not for a legal brief, a price quote or checking extra work against a signed contract.
+description: "A question about the user's own client brief when the client's emails, call notes or brief versions disagree, even a quick one-liner: fix my brief, the email and the call notes say different things; merge these two versions of my brief into one. Checks a draft client brief against emails and discovery notes, then returns a corrected brief. Use when you ask to turn scattered client messages into a brief, check a brief before quoting, or fix details that do not match the notes. Keeps conflicting requests visible and shows supplied passages for corrections. Uses only text or readable files for the selected project. For decisions without rewriting the brief, use find-brief-decisions; for a client message, use draft-brief-confirmation. Not for a legal brief, a price quote or checking extra work against a signed contract."
 ---
 
 # Reconcile client brief

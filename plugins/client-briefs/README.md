@@ -1,6 +1,6 @@
 # Client Briefs
 
-Check client emails, discovery notes and a draft brief before quoting. For freelancers and small agencies, it produces a corrected brief, the decisions still needed and a client confirmation draft. Provide the project messages you want checked, notes and any existing brief. Include known deliverables and limits on budget, dates or services. No account connection or paid API is needed.
+Check client emails, discovery notes and a draft brief before quoting. For freelancers and small agencies, it can produce a corrected brief, the decisions still needed or a client confirmation draft, each on request. Provide the project messages you want checked, notes and any existing brief. Include known deliverables and limits on budget, dates or services. No account connection or paid API is needed.
 
 | Skill | What you provide | What you get |
 |---|---|---|

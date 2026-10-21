@@ -1,6 +1,6 @@
 ---
 name: find-brief-decisions
-description: Find what the client still needs to decide before a freelancer or agency quotes. Use when you ask what is missing before quoting, what to clarify with the client, or which conflicting requirements need a decision. Returns a short list with sources from the supplied notes. Explains how each answer changes the work. Keeps known facts out of the question list and does not invent terms. For a corrected brief, use reconcile-client-brief; for a client email, use draft-brief-confirmation. Not for calculating a quote, scoring potential clients or deciding a contract dispute.
+description: "A question about what the user's own client still needs to decide before the user quotes, even a quick one-liner: what do I still need the client to decide in these notes before I quote, which of these conflicting requests needs a client decision. Find what the client still needs to decide before a freelancer or agency quotes. Use when you ask what is missing before quoting, what to clarify with the client, or which conflicting requirements need a decision. Returns a short list with sources from the supplied notes. Explains how each answer changes the work. Keeps known facts out of the question list and does not invent terms. For a corrected brief, use reconcile-client-brief; for a client email, use draft-brief-confirmation. Not for calculating a quote, scoring potential clients or deciding a contract dispute."
 ---
 
 # Find brief decisions
