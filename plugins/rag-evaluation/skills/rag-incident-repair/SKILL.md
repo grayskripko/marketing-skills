@@ -1,6 +1,6 @@
 ---
 name: rag-incident-repair
-description: "Prepare a pipeline correction for a diagnosed RAG failure and check the resulting retrieval and answer evidence. Use when the user asks to fix a known extraction, filter, ranking or passage-delivery problem, or supplies a rerun after a pipeline change. Accept configs, traces, source files, ranked passages and before-and-after answers. Return the smallest supported pipeline correction, the evidence needed from the rerun, and a verdict limited to the supplied question. Not for correcting answer wording or citation mappings alone, building infrastructure, deploying changes or changing permissions."
+description: "A request to fix a RAG failure in your own pipeline whose failing stage is already known, or to check your rerun after that fix, even a quick one sent before the config or trace is pasted. Prepare a pipeline correction for a diagnosed RAG failure and check the resulting retrieval and answer evidence. Use when the user asks to fix a known extraction, filter, ranking or passage-delivery problem, or supplies a rerun after a pipeline change. Accept configs, traces, source files, ranked passages and before-and-after answers. Return the smallest supported pipeline correction, the evidence needed from the rerun, and a verdict limited to the supplied question. Not for correcting answer wording or citation mappings alone, building infrastructure, deploying changes or changing permissions."
 ---
 
 # Repair the failed question and check the result

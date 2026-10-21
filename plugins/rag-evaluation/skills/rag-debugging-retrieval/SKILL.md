@@ -1,5 +1,5 @@
 ---
-name: rag-retrieval-check
+name: rag-debugging-retrieval
 description: "Debug wrong RAG answers by checking retrieval quality, missing documents and the evidence needed for grounded citations. Use when the right knowledge-base document exists but the agent misses it, the user asks for RAG debugging, or retrieved passages do not answer the question. Accept pasted questions, corpus records, ingestion logs, ranked passages, client configs and traces. Return the observed failing stage, supporting document and passage identities, and the next concrete check or correction. Not for building a vector database, repairing saved conversation memory, or checking answer prose without retrieval evidence."
 ---
 

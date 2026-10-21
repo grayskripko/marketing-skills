@@ -17,12 +17,18 @@ The publisher receives no task data and operates no collection, telemetry, or st
 
 | Skill | Ask it to do |
 | --- | --- |
-| `rag-retrieval-check` | Find why the right document or passage did not reach the answer. |
+| `rag-debugging-retrieval` | Find why the right document or passage did not reach the answer. |
 | `rag-answer-check` | Correct unsupported claims and citations against the actual evidence. |
 | `rag-incident-repair` | Prepare a stage-specific fix and inspect the corrected run. |
 
+## Examples
+
+- “Why did my RAG answer miss this document? Here are the question, source, search config and results.”
+- “Check this knowledge-base answer and its citations against the attached passages.”
+- “Check this rerun after the retrieval configuration fix.”
+
 Start with what you have. Source IDs and versions, metadata filters, ranked passages, tool call IDs and citation maps help distinguish the failure. [Evidence template](references/evidence-template.md) provides an optional paste format. Missing artifacts remain specific unanswered boundaries rather than invented results.
 
-The skills embed current official checks for OpenAI file-search result exports, MCP execution errors and structured content, Codex tool filters, Claude Code file-backed results, SDK trace completeness and retrieval-versus-response evaluation. [Dated technical sources](references/official-sources.md) explain the fields and their scope.
+The skills embed dated official checks for OpenAI file-search result exports, MCP execution errors and structured content, Codex tool filters, Claude Code file-backed results, SDK trace completeness and retrieval-versus-response evaluation. [Dated technical sources](references/official-sources.md) explain the fields and their scope.
 
 See [PRIVACY.md](PRIVACY.md) for local file access, user-run requests, and provider retention.
