@@ -1,30 +1,30 @@
-# Ad Creative Preflight Kit
+# Ad Copy & Creative Preflight
 
-Checks ad text before it runs and reads creative tests after. Platform and legal reference rows carry sources and read dates; statistical methods are named, and editorial defaults are identified as plugin conventions. The first example below returns:
+Checks ad text before it runs and reads creative tests after. The rules each skill applies are listed in its skill file with their source pages; statistical methods are named. The first example below returns:
 
 | Text | Rule | Result | Suggested fix |
 |---|---|---|---|
 | "Struggling with anxiety?" | Meta: no line that implies the viewer's health | likely disapproval | "AcmeCalm: an evening wind-down app." |
-| "#1", "doctors recommend" | US FTC: claims need proof before the ad runs | Hold | name the source or drop the claim |
-| "50% off today only" | Google, UK CAP Code: offers and deadlines must be real | Hold | confirm the end date and the old price |
+| "#1", "doctors recommend" | US FTC: claims need proof before the ad runs | needs proof first | name the source or drop the claim |
+| "50% off today only" | UK CAP Code: offers and deadlines must be real | needs proof first | confirm the end date and the old price |
 
 ## Skills
 
-- **ad-preflight**: checks ad text you already have against platform limits and rules; Ready, Fix or Hold per ad, with fixed text.
-- **ad-test-readout**: descriptive creative leads, design-qualified uncertainty, and conditional sample/duration estimates for supported binary-rate tests.
-- **search-ad-set**: 15 Google headlines and 4 descriptions from your facts, checked for standalone meaning and representative combination coherence; universal compatibility requires exhaustive legal-combination checks.
+- **ad-creative-preflight**: checks ad text you already have against the listed platform limits and rules, with fixed text and the rule named.
+- **ad-test-readout**: which ad won on your main metric, whether the gap is real or noise, and whether the comparison was randomised.
+- **search-ad-set**: 15 Google headlines and 4 descriptions from your facts; each headline reads on its own and any three read well together.
 - **social-ad-set**: LinkedIn, Facebook, Instagram and TikTok ad copy, in variants that each change one thing.
 - **angle-matrix**: ad angles drawn from reviews and comments you paste, each traced to what customers said.
 
 ## Examples
 
-- "Count and rule-check this Reels ad: 'Struggling with anxiety? AcmeCalm is the #1 app doctors recommend — 50% off today only!'"
+- "Rule-check this Reels ad: 'Struggling with anxiety? AcmeCalm is the #1 app doctors recommend — 50% off today only!'"
 - "Ad A: 40,000 impressions, 520 clicks, 26 sales. Ad B: 38,000, 610, 22. Same ad set, 10 days. Which one won?"
 - "15 RSA headlines + 4 descriptions for a payroll app. Facts: 14-day trial, no card to try, from $39/mo, setup in one day."
 
 ## How it works
 
-Screens the listed Google, Meta, LinkedIn and TikTok placements and selected US, UK and EU claim rules; this is not comprehensive platform or jurisdictional clearance. Unsupported fields remain unknown. Rules read more than six months ago are flagged; limits the plugin has not checked are reported as unknown, never guessed. Copy uses the facts you give, in your words, and no figure you did not give.
+Screens the listed Google, Meta and TikTok rules, LinkedIn limits and selected US and UK claim rules; this is not complete platform or legal clearance. A limit the plugin does not list is not quoted. The maintainer re-checks rules read more than six months ago. Copy uses the facts you give, in your words, and no figure you did not give.
 
 ## Data and network
 
@@ -38,7 +38,7 @@ Make images or video, change ad accounts, advise on spend, write political ads, 
 
 ## Troubleshooting
 
-"Not in this plugin's checked table": paste the limit your ad tool shows, and it is used as "your limit".
+A field limit the plugin does not list: paste the one your ad tool shows.
 
 ## Support
 

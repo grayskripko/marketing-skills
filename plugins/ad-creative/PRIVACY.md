@@ -4,7 +4,7 @@ This plugin is a set of instructions and reference tables for an AI assistant. I
 
 ## What it reads
 
-Only what you paste or attach in the conversation: ad text, landing-page text, facts about your offer, result counts, and, if you choose, customer reviews, comments or notes and competitor ads you copied yourself. It does not need names, emails or handles; please remove them first. Any that remain are replaced with ids such as E1 and are not repeated.
+Only what you paste or attach in the conversation: ad text, facts about your offer, result counts, and, if you choose, customer reviews, comments or notes and competitor ads you copied yourself. It does not need names, emails or handles; please remove them first. Any that remain are replaced with ids such as E1 and are not repeated.
 
 ## Categories collected
 

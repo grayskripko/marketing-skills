@@ -1,7 +1,7 @@
 {
   "name": "ad-creative",
-  "version": "0.1.9",
-  "description": "Checks ad text before it runs and reads creative tests after. Counts every field against dated Google, Meta, LinkedIn and TikTok limits, screens each line against dated platform rules and US, UK and EU claim rules with their source pages, and gives each ad Ready, Fix or Hold with fixed text. Tells you which ad won, whether the gap is real and how much longer a test needs. Also drafts search and social ad text, and ad angles from your reviews, using the facts you give and no invented figures. Works only on text and numbers you paste; makes no images or video and changes nothing in any ad account.",
+  "version": "0.1.10",
+  "description": "Checks ad copy and ad creative text before it runs, and reads creative tests after. Counts fields against Google search and Performance Max, LinkedIn limits and TikTok's suggested caption length, screens each line against the Google, Meta and TikTok ad rules and US and UK claim rules listed in the plugin, and gives fixed text with the rule named. Tells you which ad won, whether the gap is real or noise and whether the comparison was randomised. Also drafts Google search and paid social ad text, and ad angles from reviews you paste, using only the facts you give. Works only on text and numbers you paste; makes no images or video and changes nothing in any ad account.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -17,17 +17,15 @@
     "character limits",
     "responsive search ads",
     "performance max assets",
-    "claim ledger",
     "creative testing",
     "test readout",
-    "ad angles",
-    "safe zone"
+    "ad angles"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Ad Copy & Creative Preflight",
     "shortDescription": "Ad preflight and test readouts",
-    "longDescription": "Five skills for checking ad text before it runs and reading creative tests after. Ad preflight counts each field of the ad text you paste against dated limits for Google search and Performance Max, Meta Feed and Reels, LinkedIn single image and TikTok in-feed, using each platform's own counting rule, and shows where the feed will cut the text. It then screens every line against platform rules and US, UK and EU claim rules, each with its source page and read date, lists each claim and the proof it needs, checks the offer against your landing text, and gives each ad a Ready, Fix or Hold verdict. Ad test readout fixes the main metric first, gives each rate with a 95% range, says whether the gap between ads is real or noise and whether the comparison was a true split test, and works out how many more impressions and days a test needs. Search ad set and social ad set draft ad text from the facts you give, in your words, with no invented figures; search sets are checked so any three headlines read well together. Angle matrix turns reviews and comments into ad angles, each traced to what customers said. Fields the plugin has no checked limit for are reported as unknown, and rows older than six months are flagged for re-checking. No images, video, spending or account changes.",
+    "longDescription": "Five skills for checking ad text before it runs and reading creative tests after. Ad creative preflight counts each field of the ad text you paste against Google search and Performance Max limits (Chinese, Japanese and Korean characters count 2), LinkedIn single-image and carousel limits and TikTok's suggested caption length, screens every line against the platform rules listed in the plugin (Google editorial and pinning rules, Meta's personal-attribute rule, TikTok's absolute-claim, link and AI-label rules) and US FTC and UK CAP claim rules, and gives the smallest fix with the rule named. Ad test readout judges the winner on your main metric, says whether a gap is real or noise and whether the ads were randomised, adjusts for several variants and flags a possible sample-ratio mismatch. Search ad set and social ad set draft ad text from the facts you give, with no invented figures; any three search headlines read well together. Angle matrix turns reviews and comments you paste into ad angles, each traced to what customers said. Limits the plugin does not list are not quoted. No images, video, spending or account changes.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [
@@ -39,7 +37,7 @@
     "logo": "./assets/icon.svg",
     "composerIcon": "./assets/icon.svg",
     "defaultPrompt": [
-      "Count and rule-check this Reels ad: 'Struggling with anxiety? AcmeCalm is the #1 app doctors recommend — 50% off today only!'",
+      "Rule-check this Reels ad: 'Struggling with anxiety? AcmeCalm is the #1 app doctors recommend — 50% off today only!'",
       "Ad A: 40,000 impressions, 520 clicks, 26 sales. Ad B: 38,000, 610, 22. Same ad set, 10 days. Which one won?",
       "15 RSA headlines + 4 descriptions for a payroll app. Facts: 14-day trial, no card to try, from $39/mo, setup in one day."
     ],

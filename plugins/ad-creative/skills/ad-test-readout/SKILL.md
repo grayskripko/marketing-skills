@@ -1,6 +1,6 @@
 ---
 name: ad-test-readout
-description: "Reads ad or creative test results, or plans a creative test: which ad or concept won, whether a CTR or conversion gap is real or noise, whether the comparison was randomised, and how many more impressions or days a clear answer needs. Use when the user asks which ad or creative won, whether a gap between ads is real, or how many impressions or days a creative test needs. Not for website or landing-page A/B tests, attribution, or spend decisions."
+description: "Questions about which of the user's ads or creatives is winning, even a quick one-liner with two numbers: ad A 2.1% CTR vs ad B 1.8%, is that real; which of my two Facebook ads won: A 1.2% CTR, B 1.0%. Reads ad or creative test results: which ad or concept won on the user's main metric, whether a CTR or conversion gap is real or noise, whether the comparison was randomised, and the smallest lift the test could have detected. Use when the user gives per-ad counts or rates and asks which ad or creative won or whether a gap between ads is real. Not for website or landing-page A/B tests, attribution, or spend decisions."
 ---
 
 # Ad test readout

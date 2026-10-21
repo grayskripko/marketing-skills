@@ -1,6 +1,6 @@
 ---
 name: search-ad-set
-description: "Writes Google search ad text from a keyword theme and the facts the user gives: responsive search ad headlines, descriptions and paths, or a Performance Max text set (headlines, long headlines, descriptions, business name), within Google's limits. Uses only the facts the user gives. Use when the user asks for Google search ads, RSA headlines and descriptions, or Performance Max assets. Not for social ads, landing pages or website copy, keyword research or bid settings."
+description: "Requests to write new Google search or Performance Max ad text, even a quick one-liner: a few Google ad headlines for my plumbing business, two descriptions for this keyword. Writes Google search ad text from a keyword theme and the facts the user gives: responsive search ad headlines, descriptions and paths, or a Performance Max text set (headlines, long headlines, descriptions, business name), within Google's limits. Uses only the facts the user gives. Use when the user asks for new Google search ads, RSA headlines and descriptions, or Performance Max assets. Not for checking ads the user already has, social ads, landing pages or website copy, keyword research or bid settings."
 ---
 
 # Search ad set

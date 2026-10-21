@@ -1,6 +1,6 @@
 ---
-name: ad-preflight
-description: "Checks ad text the user already has before it runs: counts each field against Google search and Performance Max, Meta, LinkedIn and TikTok limits (Chinese, Japanese and Korean characters count 2 on Google), screens it against platform ad rules and US, UK and EU claim rules, explains disapprovals and gives fixed text. Use when the user pastes an ad and asks to check it, count it, explain a disapproval, or whether a ranking, endorsement, discount or deadline claim can run. Not for writing new ads, reading ad results, landing pages or other non-ad copy."
+name: ad-creative-preflight
+description: "Questions about ad text the user pastes, even a quick one-liner: is this headline too long for Google, can I say 'best in town' or '#1' in this ad, does this line break Google's punctuation rules. Checks ad text the user already has before it runs: counts each field against Google search and Performance Max, LinkedIn limits and TikTok's suggested caption length (Chinese, Japanese and Korean characters count 2 on Google), screens it against the platform ad rules and US and UK claim rules the skill lists and gives fixed text. Use when the user pastes an ad and asks to check it, count it, or whether a ranking, endorsement, discount or deadline claim can run. Cannot see ad accounts. Not for writing new ads, reading ad results, landing pages or other non-ad copy."
 ---
 
 # Ad preflight

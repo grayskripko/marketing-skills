@@ -1,8 +1,8 @@
 {
   "name": "ad-creative",
   "displayName": "Ad Copy & Creative Preflight",
-  "version": "0.1.9",
-  "description": "Checks ad text before it runs and reads creative tests after. Counts every field against dated Google, Meta, LinkedIn and TikTok limits, screens each line against dated platform rules and US, UK and EU claim rules with their source pages, and gives each ad Ready, Fix or Hold with fixed text. Tells you which ad won, whether the gap is real and how much longer a test needs. Also drafts search and social ad text, and ad angles from your reviews, using the facts you give and no invented figures. Works only on text and numbers you paste; makes no images or video and changes nothing in any ad account.",
+  "version": "0.1.10",
+  "description": "Checks ad copy and ad creative text before it runs, and reads creative tests after. Counts fields against Google search and Performance Max, LinkedIn limits and TikTok's suggested caption length, screens each line against the Google, Meta and TikTok ad rules and US and UK claim rules listed in the plugin, and gives fixed text with the rule named. Tells you which ad won, whether the gap is real or noise and whether the comparison was randomised. Also drafts Google search and paid social ad text, and ad angles from reviews you paste, using only the facts you give. Works only on text and numbers you paste; makes no images or video and changes nothing in any ad account.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
@@ -11,17 +11,15 @@
   "repository": "https://github.com/grayskripko/marketing-skills",
   "license": "MIT",
   "keywords": [
-    "ad-preflight",
+    "ad-creative-preflight",
     "ad-copy",
     "ad-policy",
     "character-limits",
     "responsive-search-ads",
     "performance-max-assets",
-    "claim-ledger",
     "creative-testing",
     "test-readout",
-    "ad-angles",
-    "safe-zone"
+    "ad-angles"
   ],
   "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/storm/plugins/ad-creative/PRIVACY.md",
   "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",

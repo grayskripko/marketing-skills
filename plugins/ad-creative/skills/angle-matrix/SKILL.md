@@ -1,6 +1,6 @@
 ---
 name: angle-matrix
-description: "Turns customer evidence the user pastes (reviews, ad comments, call or support notes, survey answers) into distinct ad angles, each tied to what customers said, and keeps unsupported ideas apart. Optionally tallies competitor ads the user pastes. Use when the user asks to turn reviews, comments or interview notes into ad angles or ad concepts to test. Not for competitor research documents, market sizing or fetching ad libraries."
+description: "Requests to turn reviews or comments the user pastes into ad ideas, even a quick one-liner with a few reviews: what ad angles do these reviews suggest, what should my ads say given this feedback. Turns customer evidence the user pastes (reviews, ad comments, call or support notes, survey answers) into distinct ad angles, each tied to what customers said, and says which floated ideas the notes do not support. Optionally tallies competitor ads the user pastes. Use when the user asks to turn reviews, comments or interview notes into ad angles or ad concepts to test. Not for competitor research documents, market sizing or fetching ad libraries."
 ---
 
 # Angle matrix
