@@ -1,6 +1,6 @@
 ---
 name: cold-email-review
-description: Review and rewrite a cold outreach email getting no replies, or an existing short follow-up sequence, keeping every supported number, name and claim exactly as given. Use when the user pastes a cold email and asks to review, improve or rewrite it, check its claims against their notes or find out why nobody replies, or says their cold emails get ignored (then ask for one). For a pre-send check of merge fields, opt-out lines or sender setup use cold-email-check; with no draft yet use cold-email-write. Not for website copy, newsletters to subscribers or social posts.
+description: "Any question about whether a cold email or follow-up works, including short questions: is this cold email any good, why does nobody reply, does this sound too pushy, make this outreach shorter. Review and rewrite a cold outreach email getting no replies, or an existing short follow-up sequence, keeping every supported number, name and claim exactly as given. Use when the user pastes a cold email and asks to review, improve or rewrite it, check its claims against their notes or find out why nobody replies, or says their cold emails get ignored (then ask for one). For a pre-send check of merge fields, opt-out lines or sender setup use cold-email-check; with no draft yet use cold-email-write. Not for website copy, newsletters to subscribers or social posts."
 ---
 
 # Cold email review

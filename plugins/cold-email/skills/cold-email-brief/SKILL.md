@@ -1,6 +1,6 @@
 ---
 name: cold-email-brief
-description: Turn your offer and audience into a cold outreach brief, with a ready or not-ready verdict and the facts still needed before writing prospecting emails. Use when the user describes an offer and an audience and asks what to say in cold outreach, whether the offer is ready, or which segment to write to. With a draft email use cold-email-review; to write the emails use cold-email-write. Not for paid campaigns, landing pages or newsletters.
+description: "Any question about who to target with cold outreach and what to offer, including short questions: which segment to email first, which kinds of businesses to approach, whether the offer is ready. Turn your offer and audience into a cold outreach brief, with a ready or not-ready verdict and the facts still needed before writing prospecting emails. Use when the user describes an offer and an audience and asks what to say in cold outreach, whether the offer is ready, or which segment to write to. With a draft email use cold-email-review; to write the emails use cold-email-write. Not for paid campaigns, landing pages or newsletters."
 ---
 
 # Cold email brief

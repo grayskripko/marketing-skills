@@ -1,6 +1,6 @@
 ---
 name: cold-email-hooks
-description: Write one prospect opening line per person for cold outreach from your supplied research notes (up to 20 prospects) or linked public pages (up to 3), using a sourced, dated fact tied to your offer, with dropped facts and the reason. Use when the user has prospect notes or a company page and asks for personalization, hooks, first lines or why-now angles for cold emails. Never finds, guesses or verifies addresses and never searches the web. To write the full emails use cold-email-write; to review a draft use cold-email-review. Not for newsletters or social posts.
+description: "Any request for a personal opening line or a why-now reason to contact a prospect, including short questions: a first line for one person, a reason to email a company that just announced something. Write one prospect opening line per person for cold outreach from your supplied research notes (up to 20 prospects) or linked public pages (up to 3), using a sourced, dated fact tied to your offer, with dropped facts and the reason. Use when the user has prospect notes or a company page and asks for personalization, hooks, first lines or why-now angles for cold emails. Never finds, guesses or verifies addresses and never searches the web. To write the full emails use cold-email-write; to review a draft use cold-email-review. Not for newsletters or social posts."
 ---
 
 # Cold email hooks

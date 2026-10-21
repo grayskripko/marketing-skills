@@ -1,6 +1,6 @@
 ---
 name: cold-email-check
-description: Diagnose why cold emails land in spam or junk and check a cold outreach email or template before sending, returning the fixes and a corrected version from the email, sample recipient rows and sender records you paste. Use when the user says "before I send", asks to check an outreach email or template, merge fields, unsubscribe lines, legal basics, sender authentication, or why mail from their domain lands in junk. To improve the wording itself use cold-email-review. Not for newsletters or announcements to subscribers or existing customers.
+description: "Any question about whether outreach email reaches the inbox or is ready to send, including short questions: why cold emails go to the spam folder, whether SPF, DKIM and DMARC are set up right, whether an unsubscribe line is needed, a last look before sending. Diagnose why cold emails land in spam or junk and check a cold outreach email or template before sending, returning the fixes and a corrected version from the email, sample recipient rows and sender records you paste. Use when the user says \"before I send\", asks to check an outreach email or template, merge fields, unsubscribe lines, legal basics, sender authentication, or why mail from their domain lands in junk. To improve the wording itself use cold-email-review. Not for newsletters or announcements to subscribers or existing customers."
 ---
 
 # Cold email check

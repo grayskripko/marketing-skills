@@ -1,11 +1,12 @@
 {
   "name": "cold-email",
   "displayName": "Cold Email, LinkedIn Outreach & Deliverability",
-  "version": "0.1.28",
-  "description": "Draft B2B cold outreach and prospecting emails, follow-ups and LinkedIn connection notes and messages from your offer and audience; review and rewrite cold emails getting no replies, keeping every number, name and claim. Write prospect opening lines from notes you provide, and diagnose why cold emails land in spam, checking outbound emails before sending from pasted emails, sample rows and sender records. Uses only your facts; never sends email, creates drafts in mail tools, finds addresses or adds contacts.",
+  "version": "0.1.29",
+  "description": "Draft B2B cold outreach and prospecting emails, subject lines, follow-up emails, LinkedIn connection requests and LinkedIn messages from your offer and audience; review and rewrite cold emails getting no replies, keeping every number, name and claim. Write prospect opening lines from notes you provide or up to 3 public pages you link, and diagnose why cold emails land in the spam folder, checking outbound emails before sending from pasted emails, sample rows and sender records. Uses only your facts; never sends email, creates drafts in mail tools, finds addresses or adds contacts.",
   "author": {
     "name": "Sergey Skripko",
-    "url": "https://github.com/grayskripko"
+    "url": "https://github.com/grayskripko",
+    "email": "grayskripko@gmail.com"
   },
   "homepage": "https://github.com/grayskripko/marketing-skills/tree/wind/plugins/cold-email",
   "repository": "https://github.com/grayskripko/marketing-skills",

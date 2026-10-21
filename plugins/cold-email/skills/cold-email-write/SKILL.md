@@ -1,6 +1,6 @@
 ---
 name: cold-email-write
-description: Draft B2B cold outreach emails and follow-ups (up to 5 emails) from your offer and target role or company type, using only the facts you provide. Use when the user asks to write a cold email, a first email to a potential client, follow-ups or a sequence. For an existing draft use cold-email-review; for prospect research notes run cold-email-hooks first. Never sends or creates drafts in a mail tool. Not for newsletters, email to subscribers or existing customers, website copy or social posts.
+description: "Any request to write cold outreach, including short ones: a first email to a potential client, a follow-up to someone who has not replied, a LinkedIn message to a prospect, a subject line. Draft B2B cold outreach emails and follow-ups (up to 5 emails) from your offer and target role or company type, using only the facts you provide. Use when the user asks to write a cold email, a first email to a potential client, follow-ups or a sequence. For an existing draft use cold-email-review; for prospect research notes run cold-email-hooks first. Never sends or creates drafts in a mail tool. Not for newsletters, email to subscribers or existing customers, website copy or social posts."
 ---
 
 # Cold email write
