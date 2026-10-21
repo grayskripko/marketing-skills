@@ -1,12 +1,13 @@
 ---
 name: find-booking-questions
-description: "Find repeated booking questions in customer inquiries and show which ones need an approved answer. Use when you ask “what do customers keep asking?”, “which booking questions need an FAQ?” or “group these appointment messages.” Works from inquiry text with unnecessary personal details removed and your supplied policies. Keeps question examples separate from approved answers and flags missing or conflicting terms. Counts mentions only when you ask, with the total used for each share and any overlap explained. Not for writing a finished FAQ, broad support audits, customer profiling, checking availability, making reservations or sending replies."
+description: "A question about which booking questions the user's own customers keep asking, even a quick one-liner sent before the messages are pasted. Find repeated booking questions in customer inquiries and show which ones need an approved answer. Use when you ask “what do customers keep asking?”, “which booking questions need an FAQ?” or “group these appointment messages.” Works from inquiry text with unnecessary personal details removed and your supplied policies. Keeps question examples separate from approved answers and flags missing or conflicting terms. Counts mentions only when you ask, with the total used for each share and any overlap explained. Not for writing a finished FAQ, broad support audits, customer profiling, checking availability, making reservations or sending replies."
 ---
 
 # Find repeated booking questions
 
 ## Rules for this task
 
+- If no inquiries are supplied yet, ask in one short line for the messages to group (with names and contact details removed), and stop there. Do not guess what customers ask.
 - Put the requested text or list first. Keep notes short and about this case. Do not name this plugin, internal rules, read dates, evidence grades or checks that found nothing. Mention a limitation only when it changes what the user can do with the result.
 - Keep every fact needed for the requested text or list. Keep exact words such as only, all and never. Keep who said it, any uncertainty, exceptions and separately approved clarifications. Leave out anything the user explicitly asks to omit. Follow the grouping, order and form the user asks for. When asked to replace a given passage, replace only that passage and keep its form. Do not turn background notes or writing samples into public claims.
 - Use approved terms as policy. An instruction the owner or user gives in the request is also approved for this task: apply it, and add a short sender note if it is not yet in the written policy. Customer requests and unapproved old text are not policy. Do not invent availability, services, eligibility, prices, refunds, deadlines, links or booking status. If the approved sources that take priority disagree, leave that part undecided for the owner to review.

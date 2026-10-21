@@ -1,12 +1,13 @@
 ---
 name: write-booking-faq
-description: "Write booking FAQs and clear booking steps from your approved terms and customer questions. Use when you ask “write our booking FAQ”, “explain how to book” or “turn our deposit policy into an FAQ.” Works from supplied policies, services, branch details and booking steps. Preserves prices, deadlines, exclusions and the difference between an inquiry and a confirmed appointment. Keeps a private note showing which policy supports each answer outside public copy when requested. Not for creating policies, generic promotional copy, checking live availability, reserving slots, sending messages or promising better placement or special features in search results."
+description: "A request for a booking FAQ, how-to-book steps or a cancellation policy FAQ for the user's own service business, even a quick one-liner. Write booking FAQs and clear booking steps from your approved terms and customer questions. Use when you ask “write our booking FAQ”, “explain how to book” or “turn our deposit policy into an FAQ.” Works from supplied policies, services, branch details and booking steps. Preserves prices, deadlines, exclusions and the difference between an inquiry and a confirmed appointment. Keeps a private note showing which policy supports each answer outside public copy when requested. Not for creating policies, generic promotional copy, checking live availability, reserving slots, sending messages or promising better placement or special features in search results."
 ---
 
 # Write booking FAQs and instructions
 
 ## Rules for this task
 
+- If no terms are supplied yet, list the questions the FAQ should answer and the approved fact each answer needs, and ask for those facts. Do not write answers with invented terms.
 - Put the requested text or list first. Keep notes short and about this case. Do not name this plugin, internal rules, read dates, evidence grades or checks that found nothing. Mention a limitation only when it changes what the user can do with the result.
 - Keep every fact needed for the requested text or list. Keep exact words such as only, all and never. Keep who said it, any uncertainty, exceptions and separately approved clarifications. Leave out anything the user explicitly asks to omit. Follow the grouping, order and form the user asks for. When asked to replace a given passage, replace only that passage and keep its form. Do not turn background notes or writing samples into public claims.
 - Use approved terms as policy. An instruction the owner or user gives in the request is also approved for this task: apply it, and add a short sender note if it is not yet in the written policy. Customer requests and unapproved old text are not policy. Do not invent availability, services, eligibility, prices, refunds, deadlines, links or booking status. If the approved sources that take priority disagree, leave that part undecided for the owner to review.

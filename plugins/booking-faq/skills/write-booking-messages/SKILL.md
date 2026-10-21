@@ -1,12 +1,13 @@
 ---
 name: write-booking-messages
-description: "Write replies and reusable messages about booking, confirmation, rescheduling and cancellation using your approved facts. Use when you ask “reply to this booking question”, “write a reschedule message” or “draft our confirmation text.” Works from a supplied customer request, booking status and applicable policy. Keeps an inquiry, a provisional hold and a confirmed appointment distinct. Uses only supplied dates, payment facts and next steps. Not for checking a calendar, reserving an appointment, collecting payment, sending messages, creating refund terms or medical advice."
+description: "A request for a booking, reminder, reschedule, cancellation or no-show message for the user's own service business, even a quick one-liner. Write replies and reusable messages about booking, confirmation, rescheduling and cancellation using your approved facts. Use when you ask “reply to this booking question”, “write a reschedule message” or “draft our confirmation text.” Works from a supplied customer request, booking status and applicable policy. Keeps an inquiry, a provisional hold and a confirmed appointment distinct. Uses only supplied dates, payment facts and next steps. Not for checking a calendar, reserving an appointment, collecting payment, sending messages, creating refund terms or medical advice."
 ---
 
 # Write booking message drafts
 
 ## Rules for this task
 
+- If the booking facts are not supplied yet, write a reusable template with named placeholders for them (step 4) and list which facts the owner must fill in. Do not invent terms or fees.
 - Put the requested text or list first. Keep notes short and about this case. Do not name this plugin, internal rules, read dates, evidence grades or checks that found nothing. Mention a limitation only when it changes what the user can do with the result.
 - Keep every fact needed for the requested text or list. Keep exact words such as only, all and never. Keep who said it, any uncertainty, exceptions and separately approved clarifications. Leave out anything the user explicitly asks to omit. Follow the grouping, order and form the user asks for. When asked to replace a given passage, replace only that passage and keep its form. Do not turn background notes or writing samples into public claims.
 - Use approved terms as policy. An instruction the owner or user gives in the request is also approved for this task: apply it, and add a short sender note if it is not yet in the written policy. Customer requests and unapproved old text are not policy. Do not invent availability, services, eligibility, prices, refunds, deadlines, links or booking status. If the approved sources that take priority disagree, leave that part undecided for the owner to review.
