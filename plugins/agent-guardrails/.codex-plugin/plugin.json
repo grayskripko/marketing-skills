@@ -1,7 +1,7 @@
 {
   "name": "agent-guardrails",
-  "version": "0.1.2",
-  "description": "Define and check agent permissions, human approval and agent escalation for a real workflow. Use when you ask which actions an agent can take, when a person must approve or take over, or whether your agent guardrails match the runtime settings. Works from pasted tools, configs, traces, logs, transcripts and authorized files. Produces an action matrix, a control review and boundary findings tied to available evidence. Covers human in the loop and MCP security where they affect action authority. Not for connection repair, factual answer scoring or general code security scanning.",
+  "version": "0.1.3",
+  "description": "Agent permissions and human in the loop for AI agents: map which tools and actions an agent may take alone, set escalation rules and an approval workflow, run an agent permissions review against runtime settings, and check traces for actions taken before approval. Use when you ask which tools an agent should have (least-privilege tool access), when a person must approve or take over, or whether your agent guardrails match the settings. Works from your pasted tools, policy, configs, traces and logs. Not for connection repair, factual answer scoring or general code security scanning.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "Agent Guardrails",
     "shortDescription": "Agent permissions & approvals",
-    "longDescription": "Define and check agent permissions, human approval and agent escalation for a real workflow. Use when you ask which actions an agent can take, when a person must approve or take over, or whether your agent guardrails match the runtime settings. Works from pasted tools, configs, traces, logs, transcripts and authorized files. Produces an action matrix, a control review and boundary findings tied to available evidence. Covers human in the loop and MCP security where they affect action authority. Not for connection repair, factual answer scoring or general code security scanning.",
+    "longDescription": "Agent permissions and human in the loop for AI agents: map which tools and actions an agent may take alone, set escalation rules and an approval workflow, run an agent permissions review against runtime settings, and check traces for actions taken before approval. Use when you ask which tools an agent should have (least-privilege tool access), when a person must approve or take over, or whether your agent guardrails match the settings. Works from your pasted tools, policy, configs, traces and logs. Not for connection repair, factual answer scoring or general code security scanning.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [
