@@ -1,9 +1,9 @@
 ---
-name: page-audit
-description: "Says what to fix first when a landing, pricing, product, demo or signup page gets visits but too few demo requests, sign-ups, leads or sales. Use when the user describes or shares such a page with its goal or numbers, for example paid clicks that rarely become demo requests, a long form, or a price missing from the page. Checks competing buttons, an ad's promise missing from the first screen, hidden price or commitment, unattributed proof, pop-ups, mobile reachability, real-user speed, tap targets and goal tracking."
+name: landing-page-audit
+description: "Any question about why the user's own landing, pricing, product or demo page gets visits but few sign-ups, leads or sales, even a quick one-liner: why isn't my landing page converting, is my pricing page ok, should the price be on the page. Says what to fix first on the page itself: an ad's promise missing from the first screen, the main action out of reach on phones, competing buttons, missing price or next-step information, real-user speed, tap targets and whether the goal is counted correctly. Separates clear fixes from questions that need research. Use when the user describes or shares such a page with its goal or numbers. Form and checkout fields go to checkout-audit; step counts by segment go to funnel-analysis."
 ---
 
-# Page audit
+# Landing page audit
 
 First name, in one line, the user fact that most constrains the answer and how it changes the call; build the answer on it. A fact can make the obvious fix wrong (where visitors come from, what they were promised before arriving). Then a short, ordered list of what to fix first, for the team that will do it, in the shape and labels the user asked for.
 

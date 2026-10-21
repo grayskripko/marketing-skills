@@ -1,9 +1,9 @@
 ---
-name: funnel-leaks
-description: "Finds where a website funnel loses people from step counts split by device, source or segment, or set against an earlier period or a target. Separates a traffic-mix shift from a real change in step rates and sizes what each fix is worth against the user's own target or reference. Use when the user gives step counts with such a split or reference and asks where people drop off, why mobile converts worse, why conversion fell, or which step to fix. Aggregate counts only."
+name: funnel-analysis
+description: "Any question about where the user's own website funnel loses people, even a quick one-liner with their step counts: mobile converts at half the desktop rate, why; which funnel step should I fix; why did conversion fall this month. Finds where a website funnel loses people from step counts split by device, source or segment, or set against an earlier period or a target. Checks the counts agree, separates a traffic-mix shift from a real change in step rates and sizes what each fix is worth against the user's own target or reference. Use when the user gives step counts and asks where people drop off, why mobile converts worse, why conversion fell, or which step to fix. Aggregate counts only; not for analytics setup."
 ---
 
-# Funnel leaks
+# Funnel analysis
 
 First name, in one line, the user fact that most constrains the answer and how it changes the call; build the answer on it. Then which step or segment to prioritise and what it is worth, in the user's numbers.
 

@@ -1,9 +1,9 @@
 ---
-name: ab-test-plan
-description: "Plans a website A/B or A/B/n test before it is built: visitors per arm, weeks at the user's traffic, power at the lift they care about, and the lift a fixed time limit can detect. Covers uneven splits, ship-if-not-worse tests, revenue per visitor and conversion windows that delay the readout. Use when the user asks how many visitors or how long a test needs, or whether a change can be A/B tested at their traffic. Not for ad, channel or software tests."
+name: ab-test-sample-size
+description: "Any question about how long or how big a website A/B test needs to be, even a quick one-liner: how many visitors do I need, can I A/B test with 2,000 visitors a month, how long should my test run. Plans a website A/B test before it is built from the user's conversion rate and traffic: visitors per arm, weeks at that traffic, power at the lift they care about, and the smallest lift a fixed time limit can detect, counting conversion windows that delay the readout. Use when the user asks how many visitors or how long a test needs, or whether a change can be A/B tested at their traffic. Not for reading a finished test (ab-test-verdict), or for ad, channel or software tests."
 ---
 
-# A/B test plan
+# A/B test sample size
 
 First name, in one line, the user fact that most constrains the answer and how it changes the call; build the answer on it. Then answer the question asked, in one or two sentences with their numbers, then the working, short.
 

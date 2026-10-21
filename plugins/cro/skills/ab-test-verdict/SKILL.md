@@ -1,6 +1,6 @@
 ---
 name: ab-test-verdict
-description: "Reads a finished or running website A/B or A/B/n test from visitors and conversions per variant (or mean, SD and n) and answers whether to ship, hold or keep testing. Covers uneven traffic splits, peeking and early stopping, tool 'chance to beat control' figures, guardrails and several variants or metrics. Use when the user asks whether B won, whether to ship or stop a test, whether a result is noise, why the split looks uneven, or what a tool's probability means. Aggregate counts only; not for ad-level results or channel tests."
+description: "Any question about whether a website A/B test won, even a quick one-liner with two numbers: B got 52 sign-ups vs A's 45, is that a win, can I stop the test now, what does '94% chance to beat' mean. Reads a finished or running website A/B test from visitors and conversions per variant and answers ship, hold or keep running, with the lift, its p-value as a number and an interval. Checks that the user's figures agree, an uneven traffic split, peeking and early stopping, a tool's 'chance to beat control' figure and a predeclared guardrail. Use when the user asks whether B won, whether to ship or stop a test, whether a result is noise, why the split looks uneven, or what a tool's probability means. Conversion counts only; not for ad-level results, channel tests or planning a test (ab-test-sample-size)."
 ---
 
 # A/B test verdict
