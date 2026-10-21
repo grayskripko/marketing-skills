@@ -1,6 +1,6 @@
 ---
 name: tool-contract-audit
-description: "Find why a connected AI agent tool picks the wrong action, gets wrong arguments or gives misleading results. Use when the user says “audit this tool schema”, “why did it choose this tool”, or “review this function calling interface” and supplies definitions, logs, configs, transcripts or code. Return the contract mismatches and concrete replacement text or patch targets, tied to the intended task. Check neighboring tools and the actual exposed definition before blaming the interface. Not for MCP connection repair, worker brief cleanup, whole-server construction or evaluating final reports."
+description: "A question about why the user's own AI agent picks the wrong tool or which of its tool definitions are confusing, even a quick one-liner: could my tool descriptions be why it picks the wrong tool, is this tool description clear enough, which of my agent's tools overlap. Find why a connected AI agent picks the wrong tool, sends wrong arguments or misreads results. Use when the user says “audit this tool schema”, “why did it choose this tool”, or “review this function calling interface” and supplies definitions, logs, configs, transcripts or code. Return the contract mismatches and concrete replacement text or patch targets, tied to the intended task. Check neighboring tools and the actual exposed definition before blaming the interface. Not for MCP connection repair, worker brief cleanup, whole-server construction or evaluating final reports."
 ---
 
 # Tool contract audit

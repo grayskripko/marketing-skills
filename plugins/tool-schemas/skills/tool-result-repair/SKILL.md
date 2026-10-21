@@ -1,6 +1,6 @@
 ---
 name: tool-result-repair
-description: "Fix structured tool output and tool error handling so an AI agent can tell success, no match and failure apart. Use when the user says “the tool reports false success”, “repair this result contract”, or “make this tool error explicit” and supplies a handler, return schema, actual results or consumer code. Return or apply a matching handler and consumer patch with concrete result shapes and safe retry semantics. Keep source evidence, existing restrictions and known partial effects. Works from pasted records and selected files. Not for final report grading, retrieval index repair or permission policy design."
+description: "A question about what the user's own AI agent tool should return for success, no match or an error, even a quick one-liner: my tool returns an empty list when access is denied, how should my tool's error look so the AI stops guessing. Fix structured tool output and tool error handling so an AI agent can tell success, no match and failure apart. Use when the user says “the tool reports false success”, “repair this result contract”, or “make this tool error explicit” and supplies a handler, return schema, actual results or consumer code. Return or apply a matching handler and consumer patch with concrete result shapes and safe retry semantics. Keep source evidence, existing restrictions and known partial effects. Works from pasted records and selected files. Not for final report grading, retrieval index repair or permission policy design."
 ---
 
 # Tool result repair

@@ -1,6 +1,6 @@
 # Official documentation and public references
 
-Read 2026-10-11 UTC. Each URL below was opened during this build. Status, resolved URL and content size are recorded in [source-loads.json](../tests/source-loads.json). These notes paraphrase public documentation. Rules about output order, minimal edits, redaction and authorization are package operating choices; they are not claims about a protocol requirement. Check the supplied host/version before applying a version-specific rule. Use only the sections needed for the requested repair or conclusion; these references do not require a report template or a broader verification job.
+Read 2026-10-11 UTC. Each URL below was opened during this build. These notes paraphrase public documentation. Rules about output order, minimal edits, redaction and authorization are package operating choices; they are not claims about a protocol requirement. Check the supplied host/version before applying a version-specific rule. Use only the sections needed for the requested repair or conclusion; these references do not require a report template or a broader verification job.
 
 ## MCP tools
 
