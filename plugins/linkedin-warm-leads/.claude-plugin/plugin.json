@@ -2,7 +2,7 @@
   "name": "linkedin-warm-leads",
   "displayName": "LinkedIn Warm Leads",
   "version": "0.2.0",
-  "description": "Find warm LinkedIn leads in what you already have, from one line: which LinkedIn post comments come from potential clients, replies to comments that move people to a DM or a call, a LinkedIn follow-up plan for a DM thread that went quiet, and which LinkedIn connections in your own LinkedIn export are warm. Turns LinkedIn engagement into conversations. Works from comments or messages you paste, one post URL you give, your LinkedIn data export, and, when you ask, LinkedIn notification emails in your connected mail. Drafts only: never sends, never logs in to LinkedIn, never looks people up.",
+  "description": "Find warm LinkedIn leads in what you already have, from one line: which LinkedIn post comments come from potential clients, replies to comments that move people to a DM or a call, a LinkedIn follow-up plan for a DM thread that went quiet, and which LinkedIn connections in your own LinkedIn export are warm. Turns LinkedIn engagement into conversations. Works from comments or messages you paste, one post URL you give, your LinkedIn data export, and, when you ask, LinkedIn notification emails in your connected mail or a check of names in your CRM. Drafts only: never sends, never logs in to LinkedIn, never looks people up on LinkedIn or the web.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
