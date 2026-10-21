@@ -1,7 +1,7 @@
-# Draft tenant replies from a signed lease and case facts.
+# Tenant Replies
 
 Draft tenant replies from a signed lease and case facts. Get a separate private manager note with sources and open questions.
-For property managers. Provide the signed lease, relevant amendments, tenant message and history, current approved policy, unit label and property jurisdiction. Mark unknown details as unknown.
+For landlords and property managers. Provide the signed lease, relevant amendments, tenant message and history, current approved policy, unit label and property jurisdiction. Mark unknown details as unknown.
 No accounts, keys, installs or paid APIs are required. Paste text or provide readable files; for scanned pages, your AI app must extract the text, which must be checked against the original page.
 
 ## What this package runs and connects to
@@ -18,9 +18,9 @@ The Claude and Codex manifests are cross-platform metadata for the same skills; 
 
 | Skill | Give it | You get |
 |---|---|---|
-| find-lease-support | signed documents and the tenant's question | relevant passages, source locations and missing or conflicting support |
+| find-lease-clause | signed documents and the tenant's question | relevant passages, source locations and missing or conflicting support |
 | draft-tenant-reply | documents, message and approved case facts | a calm reply first, then a separate private source note |
-| prepare-manager-escalation | case history, work orders and approved emergency process | a private handoff with reported facts, open decisions and source references |
+| property-manager-escalation | case history, work orders and approved emergency process | a private handoff with reported facts, open decisions and source references |
 
 Ask to write a reply when you need tenant text. Ask for lease support when you only need the passages. Ask for a manager handoff when a decision or escalation is needed.
 
@@ -28,7 +28,11 @@ Ask to write a reply when you need tenant text. Ask for lease support when you o
 
 Keep each case tied to the correct property and unit. Include whether the lease is signed, relevant amendments and printed page labels where available. Redact personal contact details, access codes and unrelated records. Tell the assistant which policy and commitments are approved. Unknown facts stay unknown; a property policy does not become a lease obligation.
 
-Example: “Draft a reply to this locker request using the signed lease and approved manager instruction. Put sources and unresolved questions in a private note.”
+Examples:
+
+- “Draft a reply to this locker request using the signed lease and approved manager instruction. Put sources and unresolved questions in a private note.”
+- “Find the lease clause on pets in this signed lease and its amendment.”
+- “Prepare a private manager handoff from this repair thread about a leak.”
 
 The internal note states the supplied property jurisdiction, or marks it unknown. The package does not draft eviction/default notices, screen tenants, approve accommodations, send messages, dispatch repairs or change records. For safety issues, it follows the supplied approved emergency process before routine case work. Without that process, it says so and still lists the decisions and actions to take that day.
 

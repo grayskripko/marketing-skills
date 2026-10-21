@@ -1,7 +1,7 @@
 {
   "name": "tenant-replies",
-  "version": "0.1.1",
-  "description": "Draft tenant replies from signed leases, amendments and case facts you provide. Find the clauses that support a reply and prepare a separate private manager note with sources and open questions. Use when you ask “write back to this tenant,” “find the lease clause,” or “summarize this case for the manager.” Works from pasted text or readable files, without accounts or paid APIs. Not for sending, dispatch, screening, eviction or default notices, or decisions about legal entitlement, enforceability, accommodations or retaliation disputes.",
+  "version": "0.1.2",
+  "description": "Tenant replies and tenant communication for landlords, property managers and property management teams: draft replies from signed leases, amendments and case facts you provide, find the lease clause that supports a reply, and turn a tenant dispute or maintenance request thread into a separate private property manager note with sources and open questions. Use when you ask “write back to this tenant,” “find the lease clause,” or “summarize this case for the manager.” Works from pasted text or readable files, without accounts or paid APIs. Not for sending, dispatch, screening, eviction or default notices, or decisions about legal entitlement, enforceability, accommodations or retaliation disputes.",
   "author": {
     "name": "Sergey Skripko"
   },
@@ -18,7 +18,7 @@
   "interface": {
     "displayName": "Tenant Replies",
     "shortDescription": "Draft tenant replies from supplied leases",
-    "longDescription": "Draft tenant replies from signed leases, amendments and case facts you provide. Find the clauses that support a reply and prepare a separate private manager note with sources and open questions. Use when you ask “write back to this tenant,” “find the lease clause,” or “summarize this case for the manager.” Works from pasted text or readable files, without accounts or paid APIs. Not for sending, dispatch, screening, eviction or default notices, or decisions about legal entitlement, enforceability, accommodations or retaliation disputes.",
+    "longDescription": "Tenant replies and tenant communication for landlords, property managers and property management teams: draft replies from signed leases, amendments and case facts you provide, find the lease clause that supports a reply, and turn a tenant dispute or maintenance request thread into a separate private property manager note with sources and open questions. Use when you ask “write back to this tenant,” “find the lease clause,” or “summarize this case for the manager.” Works from pasted text or readable files, without accounts or paid APIs. Not for sending, dispatch, screening, eviction or default notices, or decisions about legal entitlement, enforceability, accommodations or retaliation disputes.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [
@@ -35,9 +35,9 @@
       "Prepare a private manager handoff from this repair thread."
     ],
     "websiteURL": "https://github.com/grayskripko/marketing-skills",
-    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/tenant-replies/PRIVACY.md",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/tenant-replies/PRIVACY.md",
     "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
   },
-  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/tenant-replies/PRIVACY.md",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/tenant-replies/PRIVACY.md",
   "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
 }
