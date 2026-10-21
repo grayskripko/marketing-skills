@@ -1,6 +1,6 @@
 ---
-name: rule-file-repair
-description: "Fix conflicting CLAUDE.md and AGENTS.md instructions and stale commands while preserving approvals and exceptions. Use when the user asks “clean up conflicting instructions,” “replace this old test command,” or “make these repository rules consistent.” Work from pasted files, configs, logs, transcripts and command definitions, or identified local files. Return a minimal reviewable patch with a clear owner for each repaired rule, and apply identified instruction-file edits when requested. Not for generic prose shortening, individual skill repair, deployment execution, or changing runtime permissions."
+name: claude-md-repair
+description: "A request to repair a stale command or a conflicting or mis-scoped rule in the user's own CLAUDE.md or AGENTS.md files, even a quick one-liner: the test command in my CLAUDE.md is outdated, these two AGENTS.md rules conflict. Fix conflicting CLAUDE.md and AGENTS.md instructions and stale commands while preserving approvals and exceptions. Use when the user asks “clean up conflicting instructions,” “replace this old test command,” or “make these repository rules consistent.” Work from pasted files, configs, logs, transcripts and command definitions, or identified local files. Return a minimal reviewable patch in the file the host actually loads, and apply identified instruction-file edits when requested. Not for writing a new CLAUDE.md from scratch, general quality review, generic prose shortening, individual skill repair, deployment execution, or changing runtime permissions."
 ---
 
 # Repair repository rules

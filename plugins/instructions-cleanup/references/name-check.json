@@ -6,7 +6,7 @@
   "results": {
     "Instructions Cleanup": [],
     "instructions-cleanup": [],
-    "rule-scope-audit": [],
-    "rule-file-repair": []
+    "agents-md-scope-audit": [],
+    "claude-md-repair": []
   }
 }

@@ -1,6 +1,6 @@
 ---
-name: rule-scope-audit
-description: "Find which CLAUDE.md and AGENTS.md instructions apply and why ignored rules or conflicting instructions appear. Use when the user asks “which AGENTS.md applies here,” “why are my CLAUDE.md rules ignored,” or “do these SDK settings load our guidance?” Work from pasted files, directory trees, configs, traces, logs and transcripts, or identified local files. Return a host-specific scope and ownership map with supported findings. Not for shortening prompts, repairing a single skill, diagnosing MCP connectivity, or redesigning durable memory."
+name: agents-md-scope-audit
+description: "A question about which of the user's own CLAUDE.md or AGENTS.md files and rules apply, conflict or get ignored, even a quick one-liner: which CLAUDE.md does Claude actually read, why does Claude ignore this CLAUDE.md line, do my instruction files contradict each other. Find which CLAUDE.md and AGENTS.md instructions apply and why ignored rules or conflicting instructions appear. Use when the user asks “which AGENTS.md applies here,” “why are my CLAUDE.md rules ignored,” or “do these SDK settings load our guidance?” Work from pasted files, directory trees, configs, traces, logs and transcripts, or identified local files. Return a verdict with the deciding file, line and load rule, plus a scope map when outcomes differ by launch or host. Not for shortening prompts, repairing a single skill, diagnosing MCP connectivity, or redesigning durable memory."
 ---
 
 # Audit repository rules
@@ -19,7 +19,7 @@ Keep the shape and labels the user asked for. A requested PASS/FAIL table has on
 - Before saying no fix is needed, check every loaded line against every other loaded line, across files. For each contradiction, quote both rules, say which one wins in which launch and why (precedence, a local exception, a different host, a stale reference, a loading failure or an open policy choice).
 - Recommend inspecting only records the user says exist. If they say a record was not kept, name the retained record that comes closest and what each outcome there would mean.
 - When one missing fact decides the recommendation, ask for it after the useful work. Pick the fact whose answer flips which option you recommend, not a detail that affects only one option. Say what you recommend for each answer.
-- Do not edit files; rule-file-repair does patches.
+- Do not edit files; claude-md-repair does patches.
 
 ## Platform facts
 

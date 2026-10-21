@@ -1,4 +1,4 @@
-# Instructions Cleanup
+# CLAUDE.md & AGENTS.md Instructions Cleanup
 
 Fix conflicting CLAUDE.md and AGENTS.md instructions: map the active scopes, repair stale references and return a minimal patch that preserves approvals.
 For developers maintaining repository and user instructions across coding agents.
@@ -12,10 +12,10 @@ These skills work only from task text, attachments, and local files that you exp
 
 The publisher receives no task data and operates no collection, telemetry, or storage service for this plugin. Your assistant provider still processes and may retain your conversation and attachments under its own terms. User-identified local files and their supplied imports may be read using your assistant's existing file tools. The audit skill returns findings without editing files. When you explicitly request a repair, the repair skill edits only the identified instruction files using those tools; otherwise it returns a diff. Any output file you explicitly request is created by those tools, not by a bundled program.
 
-- **rule-scope-audit** returns a per-host scope and ownership map, distinguishing supported loading findings, conflicts and unknown loading status.
-- **rule-file-repair** returns a minimal supported patch, or applies it to identified instruction files when requested, preserving approvals and scoped exceptions.
+- **agents-md-scope-audit** returns a verdict with the deciding file, line and load rule, plus a scope map when outcomes differ by launch or host.
+- **claude-md-repair** returns a minimal supported patch, or applies it to identified instruction files when requested, preserving approvals and scoped exceptions.
 
-Try: “Which AGENTS.md applies when I launch from services/payments?” Or: “Clean up these conflicting instructions and replace this old command using the scripts below.”
+Try: “Which AGENTS.md applies when I launch from services/payments?” Or: “Clean up these conflicting instructions and replace this old command using the scripts I pasted.” Or: “Does my Agent SDK setting load our CLAUDE.md?”
 
 The bundled knowledge covers Claude Code's mixed CLAUDE.md/AGENTS.md selection, Codex override discovery, SDK setting sources, import resolution, conditional rules and retrieval boundaries. [Official source register](references/platform-rules.md) includes dated URLs.
 
