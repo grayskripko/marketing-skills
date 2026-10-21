@@ -1,5 +1,5 @@
 ---
-name: analyze-return-and-review-causes
+name: product-returns-analysis
 description: Analyze product return reasons and reviews to find what to fix for each product code (SKU) and variant. Use when a seller asks “what should we fix first?”, “why are buyers returning this?”, or “compare these reviews with the product page.” Keep dropdown reasons separate from customer observations. Link findings to source rows and explain what each count measures. Return rates need matching sales records and a defined return window. Not for sentiment alone, judging whether reviews are genuine, refund decisions, live store monitoring or proving defects. Use fix-listing-expectations for exact copy; use write-supplier-quality-brief for a supplier draft.
 ---
 

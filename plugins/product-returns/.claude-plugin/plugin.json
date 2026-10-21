@@ -1,8 +1,8 @@
 {
   "name": "product-returns",
   "displayName": "Product Returns",
-  "version": "0.1.0",
-  "description": "Analyze product return reasons and reviews to find listing fixes, product investigations and supplier briefs for each product code (SKU). Use when you ask “what should we fix first?” or “turn these complaints into a supplier brief.” Draft exact changes from current listings and approved variant facts, with references to the supplied rows. Keep customer reports separate from confirmed findings. Show sample counts when the records do not support a return rate. Works from pasted text or readable exports, without accounts or paid APIs. Not for publishing, sending messages, deciding or executing refunds, or proving defects. Outputs are drafts for seller review.",
+  "version": "0.1.1",
+  "description": "Product returns analysis for sellers: analyze return reasons and reviews to find listing fixes, product investigations and supplier quality briefs for each product code (SKU). Use when you ask “what should we fix first?” or “turn these complaints into a supplier brief.” Draft exact changes from current listings and approved variant facts, with references to the supplied rows. Keep customer reports separate from confirmed findings. Show sample counts when the records do not support a return rate. Works from pasted text or readable exports, without accounts or paid APIs. Not for publishing, sending messages, deciding or executing refunds, or proving defects. Outputs are drafts for seller review.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
@@ -17,5 +17,7 @@
     "supplier-quality",
     "sku"
   ],
-  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/product-returns/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/product-returns/README.md"
 }

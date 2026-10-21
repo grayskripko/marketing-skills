@@ -1,4 +1,4 @@
-Analyze product return reasons and reviews to find listing fixes, product investigations and supplier briefs for each product code (SKU).
+Product returns analysis for sellers: analyze return reasons and reviews to find listing fixes, product investigations and supplier quality briefs for each product code (SKU).
 For sellers and product teams. Give it authorized review/return text or exports, current listings and approved product facts. To calculate return rates, supply matching sales records. No accounts or paid APIs are required.
 
 ## What this package runs and connects to
@@ -15,7 +15,7 @@ The publisher receives no task data and operates no collection, telemetry, or st
 
 | Skill | Give it | You get |
 |---|---|---|
-| analyze-return-and-review-causes | Feedback rows, SKU/variant IDs, current listings and approved facts; matching sales records and a return window for return rates | Issues linked to source rows, copy fixes backed by facts and priorities for investigation |
+| product-returns-analysis | Feedback rows, SKU/variant IDs, current listings and approved facts; matching sales records and a return window for return rates | Issues linked to source rows, copy fixes backed by facts and priorities for investigation |
 | fix-listing-expectations | Confusing fields, relevant feedback and approved variant facts | Exact replacement fields, FAQs or image briefs |
 | write-supplier-quality-brief | Reported problems, inspection notes and approved specifications | A supplier brief that separates reports, confirmed findings and questions to investigate |
 

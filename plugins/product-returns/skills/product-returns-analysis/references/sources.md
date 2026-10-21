@@ -1,9 +1,5 @@
 # Sources and scope
 
-## Build evidence (maintainer provenance, not task instructions)
-
-The project reports `domain-ecommerce-A.md` and `domain-ecommerce-B.md`, research date 2026-10-09, support the combined review/return/listing workflow. Both require SKU separation, supplied denominators, source-linked fixes and cautious interpretation. B recommends `product-returns` / Returns to Fixes. These are historical research observations, not current name clearance or measured product effectiveness.
-
 ## Public sources
 
 - FTC, Consumer Reviews and Testimonials Rule Q&A: https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers . Project research: read 2026-10-09; builder reopened 2026-10-10. US scope only. Sections 465.2, 465.4 and 465.7 discuss false reviews/testimonials, sentiment-conditioned incentives and specified review-suppression conduct. The plugin's broader refusal to hide criticism is its own safety choice, not a claim that every removal is unlawful.
