@@ -1,8 +1,8 @@
 {
   "name": "voice-messages",
   "displayName": "Voice Messages",
-  "version": "0.1.2",
-  "description": "Clean up voice notes and dictated transcripts so they are easy to read and still sound like you. Use when you say “clean up my voice note,” “turn this dictation into an email,” or “tidy my interview answer.” Paste the text or provide a transcript export. Keeps your facts, doubts and what you or your team actually did. Can produce a chat reply, email, post or interview answer. Not for transcribing audio, adding claims, sending or publishing. Needs no extra account or transcription service.",
+  "version": "0.1.3",
+  "description": "Dictation cleanup and transcript cleanup: clean up voice notes, voice memos and dictated transcripts so they are easy to read and still sound like you. Clean up transcript exports (TXT, SRT or VTT) or pasted text, or turn them into a chat reply, email, post or interview answer. Use when you say “clean up my voice note,” “turn this dictation into an email,” or “tidy my interview answer.” Keeps your facts, doubts and what you or your team actually did. Not for transcribing audio, adding claims, sending or publishing. Needs no extra account or transcription service.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko"
@@ -17,7 +17,7 @@
     "reply-draft",
     "interview-answer"
   ],
-  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/voice-notes/PRIVACY.md",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/voice-messages/PRIVACY.md",
   "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
-  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/voice-notes/README.md"
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/reef/plugins/voice-messages/README.md"
 }

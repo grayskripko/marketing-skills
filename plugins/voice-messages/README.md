@@ -8,7 +8,7 @@ Paste text or provide a TXT/SRT/VTT transcript export. You need no extra account
 
 | Skill | Give it | You get |
 |---|---|---|
-| clean-voice-note | messy dictation or a transcript | complete readable text, not a summary |
+| voice-note-transcript-cleanup | messy dictation or a transcript | complete readable text, not a summary |
 | voice-note-to-message | dictated thoughts and a channel or recipient | a chat reply, email or post ready to paste |
 | dictation-to-interview-answer | a career story and, optionally, the interview question | a clear answer that keeps what you did and the limits of your experience |
 
@@ -20,13 +20,13 @@ Paste text or provide a TXT/SRT/VTT transcript export. You need no extra account
 
 ## Input and limits
 
-Paste the words directly, or provide a text export your assistant can read. For SRT/VTT files, timestamps can be removed unless you need them. Keep speaker labels when they show who said what. An export cannot recover words the recorder missed. Names, numbers, technical terms and speaker changes may need your confirmation. Unclear meaning is marked, not guessed. Shortening must not silently drop facts. You can explicitly choose a narrower topic or facts to leave out.
+Paste the words directly, or provide a text export your assistant can read. Keep speaker labels when they show who said what. An export cannot recover words the recorder missed. Names, numbers, technical terms and speaker changes may need your confirmation. Unclear meaning is marked, not guessed. Shortening must not silently drop facts. You can explicitly choose a narrower topic or facts to leave out.
 
 For an audio recording, use an existing transcript in your assistant if available, or copy/export text from your recorder. For help exporting, provide the recorder name and the menu options you can see. The assistant uses those details without guessing the current menus. You can always paste a rough manual transcript instead. Review a recorder's own privacy and upload settings before using it; this package does not select or connect a transcription service.
 
 ## Data and network
 
-These skills request no network access. They tell the assistant not to fetch URLs, search the web, access accounts or use extra services. The plugin has no network connection and collects no usage data. It contains instructions and reference text, with no executable scripts or service. It does not send, publish or store data itself. Your assistant processes the text and any supplied files under its own terms. Redact private contact details and unrelated personal information before sharing; private addresses and credentials are replaced with markers in the output.
+These skills request no network access. They tell the assistant not to fetch URLs, search the web, access accounts or use extra services. The plugin has no network connection and collects no usage data. It contains instructions and reference text, with no executable scripts or service. It does not send, publish or store data itself. Your assistant processes the text and any supplied files under its own terms. Redact private contact details and unrelated personal information before sharing. The skills keep contact details you dictate for your own message and leave out other people's private details from background material.
 
 ## Support
 

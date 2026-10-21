@@ -1,6 +1,6 @@
 ---
 name: dictation-to-interview-answer
-description: Turn a dictated career story into a clear interview answer without making your experience sound bigger than it was. Use when you say “clean up my interview answer,” “turn this rambling career story into an answer,” or “tidy this answer about my experience.” Paste what you said and the question if you have it. Keeps your reasons, technical details, opinions and uncertainty. Keeps what you did separate from what the team did. Not for scheduling or salary messages to recruiters, inventing achievements, numbers or qualifications, rewriting a whole résumé, or coaching an answer without a source story.
+description: A request to tidy your own dictated interview answer or career story, even a quick one sent before you paste what you said. Turn a dictated career story into a clear interview answer without making your experience sound bigger than it was. Use when you say “clean up my interview answer,” “turn this rambling career story into an answer,” or “tidy this answer about my experience.” Paste what you said and the question if you have it. Keeps your reasons, technical details, opinions and uncertainty. Keeps what you did separate from what the team did. Not for scheduling or salary messages to recruiters, inventing achievements, numbers or qualifications, rewriting a whole résumé, or coaching an answer without a source story.
 ---
 
 # Dictation to interview answer

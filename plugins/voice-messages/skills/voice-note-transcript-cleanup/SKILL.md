@@ -1,5 +1,5 @@
 ---
-name: clean-voice-note
+name: voice-note-transcript-cleanup
 description: Clean up a messy voice note or dictated transcript so it is easy to read and keeps what you meant. Use when you say “clean up my voice note,” “fix this dictation,” or “make this transcript readable.” Provide pasted text or an export. Keeps wording that matters and anything you are unsure about. Removes filler, repeated starts and accidental repetition without summarizing or adding claims. Not for transcribing audio from scratch, translating text on its own, writing new ideas, or making meeting minutes from several people’s discussion.
 ---
 
