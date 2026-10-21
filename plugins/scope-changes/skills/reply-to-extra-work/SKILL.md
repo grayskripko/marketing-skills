@@ -1,6 +1,6 @@
 ---
 name: reply-to-extra-work
-description: Write a client reply about requested scope changes using the agreed scope and approval history you supply. Use when you ask “how do I reply without sounding difficult?”, “tell them this needs a separate quote”, or “write only the client email.” Keeps included revisions and repairs to agreed work separate from extra work. Asks one focused question when the request is unclear. Uses your supplied prices and dates only when relevant. For a detailed comparison use check-scope-request; for proposed terms use draft-change-order. Not for sending messages, threatening collection, making legal claims or implementing software changes.
+description: "A question about how to reply when a client asks for extra or free changes on the user's own project, even a quick one before the messages are pasted. Write a client reply about requested scope changes using the agreed scope and approval history you supply. Use when you ask “how do I reply without sounding difficult?”, “tell them this needs a separate quote”, or “write only the client email.” Keeps included revisions and repairs to agreed work separate from extra work. Asks one focused question when the request is unclear. Uses your supplied prices and dates only when relevant. For a detailed comparison use scope-creep-check; for proposed terms use draft-change-order. Not for sending messages, threatening collection, making legal claims or implementing software changes."
 ---
 
 # Reply to a client request
@@ -25,7 +25,7 @@ Prepare proposed fees and terms for the freelancer or agency to review. Do not a
 
 Return the requested result first unless the user chooses another order. Keep notes short and about this case. Never recite plugin names, rule IDs, read dates, evidence grades, passed checks, tool limits or comments about calculation tools. Keep required formulas and inputs visible. Mention a limitation only when it changes how the user should use the result. Mention laws or platform rules only for a requested regulated act. Give only the rule that decides the issue, in one plain sentence with a short source name. Do not add legal rules to ordinary drafting.
 
-Match the requested language and variant. Treat a word limit as a maximum unless an exact count is requested. Do useful work before asking one essential question about a missing detail. If no records exist, ask for the scope and request. Do not claim causes, forecasts or how a host behaves without evidence.
+Match the requested language and variant. Treat a word limit as a maximum unless an exact count is requested. Do useful work before asking one essential question about a missing detail. If no records exist, answer the question in general terms for this kind of request, say which record would settle it for this project, and ask for the scope and request. Do not claim causes, forecasts or how a host behaves without evidence.
 
 ## Write the reply
 

@@ -1,6 +1,6 @@
 ---
 name: compare-approved-changes
-description: Compare scope versions and approval messages to see which changes the client approved. Use when you ask “which version did they approve?”, “did this email approve the extra work?”, or “what changed between these scopes?” Shows the current agreed scope and a short record of changes, approvals and sources. Keeps proposals and unresolved conflicts separate. Supply the versions, messages and any stated approval process. For a new request use check-scope-request; for a proposed change use draft-change-order. Not for authenticating signatures, deciding legal validity, tracking live accounts or implementing software changes.
+description: Compare scope versions and approval messages to see which changes the client approved. Use when you ask “which version did they approve?”, “did this email approve the extra work?”, or “what changed between these scopes?” Shows the current agreed scope and a short record of changes, approvals and sources. Keeps proposals and unresolved conflicts separate. Supply the versions, messages and any stated approval process. For a new request use scope-creep-check; for a proposed change use draft-change-order. Not for authenticating signatures, deciding legal validity, tracking live accounts or implementing software changes.
 ---
 
 # Compare approved scope changes
@@ -25,7 +25,7 @@ Prepare proposed fees and terms for the freelancer or agency to review. Do not a
 
 Return the requested result first unless the user chooses another order. Keep notes short and about this case. Never recite plugin names, rule IDs, read dates, evidence grades, passed checks, tool limits or comments about calculation tools. Keep required formulas and inputs visible. Mention a limitation only when it changes how the user should use the result. Mention laws or platform rules only for a requested regulated act. Give only the rule that decides the issue, in one plain sentence with a short source name. Do not add legal rules to ordinary drafting.
 
-Match the requested language and variant. Treat a word limit as a maximum unless an exact count is requested. Do useful work before asking one essential question about a missing detail. If no records exist, ask for the scope and request. Do not claim causes, forecasts or how a host behaves without evidence.
+Match the requested language and variant. Treat a word limit as a maximum unless an exact count is requested. Do useful work before asking one essential question about a missing detail. If no records exist, answer the question in general terms for this kind of request, say which record would settle it for this project, and ask for the scope and request. Do not claim causes, forecasts or how a host behaves without evidence.
 
 ## Reconcile the records
 

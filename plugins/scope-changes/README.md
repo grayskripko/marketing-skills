@@ -8,7 +8,7 @@ For freelancers and small agencies. Paste your scope of work or proposal with it
 
 | Skill | Ask it to |
 |---|---|
-| check-scope-request | Check whether each requested item is included, additional or unclear, with supporting passages. |
+| scope-creep-check | Check whether each requested item is included, additional or unclear, with supporting passages. |
 | compare-approved-changes | Compare versions and messages to show what was approved and what remains proposed. |
 | draft-change-order | Draft proposed additions, supplied costs, timing and approval needs. |
 | reply-to-extra-work | Write only the client reply when that is all you need. |

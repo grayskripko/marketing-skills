@@ -1,6 +1,6 @@
 ---
 name: draft-change-order
-description: Write a proposed change order for extra client work using the approved scope and your estimates. Use when you ask “write a change order”, “price these additions from my rates”, or “put the extra work in writing for approval.” Lists added work, supplied fee calculations, proposed timing and approval needs. Keeps requested dates separate from promises. Includes a client reply when requested. If scope is unclear, first compares supplied records. For just a reply use reply-to-extra-work. Not for approving contracts, guessing estimates, charging clients, starting work or implementing software changes.
+description: "A question about writing or pricing a change order for extra work on the user's own client project, even a quick one such as what a change order should include. Write a proposed change order for extra client work using the approved scope and your estimates. Use when you ask “write a change order”, “price these additions from my rates”, or “put the extra work in writing for approval.” Lists added work, supplied fee calculations, proposed timing and approval needs. Keeps requested dates separate from promises. Includes a client reply when requested. If scope is unclear, first compares supplied records. For just a reply use reply-to-extra-work. Not for approving contracts, guessing estimates, charging clients, starting work or implementing software changes."
 ---
 
 # Draft a proposed change order
@@ -25,7 +25,7 @@ Prepare proposed fees and terms for the freelancer or agency to review. Do not a
 
 Return the requested result first unless the user chooses another order. Keep notes short and about this case. Never recite plugin names, rule IDs, read dates, evidence grades, passed checks, tool limits or comments about calculation tools. Keep required formulas and inputs visible. Mention a limitation only when it changes how the user should use the result. Mention laws or platform rules only for a requested regulated act. Give only the rule that decides the issue, in one plain sentence with a short source name. Do not add legal rules to ordinary drafting.
 
-Match the requested language and variant. Treat a word limit as a maximum unless an exact count is requested. Do useful work before asking one essential question about a missing detail. If no records exist, ask for the scope and request. Do not claim causes, forecasts or how a host behaves without evidence.
+Match the requested language and variant. Treat a word limit as a maximum unless an exact count is requested. Do useful work before asking one essential question about a missing detail. If no records exist, answer the question in general terms for this kind of request, say which record would settle it for this project, and ask for the scope and request. Do not claim causes, forecasts or how a host behaves without evidence.
 
 ## Write the proposal
 

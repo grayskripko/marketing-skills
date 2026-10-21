@@ -1,6 +1,6 @@
 ---
-name: check-scope-request
-description: Check whether a new client request is extra work or included in the approved project scope. Use when you ask “is this extra work?”, “are these revisions included?”, or “compare this email with our agreement.” Supply the scope of work, approval messages and new request. Shows which items are included, additional or unclear, with supporting passages. Can also draft a requested reply. An unclear request is not automatically chargeable. For conflicting versions use compare-approved-changes; for a priced proposal use draft-change-order. Not for general contract review, invoice collection or implementing software changes.
+name: scope-creep-check
+description: "A freelancer's or agency's question about whether a client request is extra work, out of scope or scope creep on their own project, even a quick one before the scope is pasted. Check whether a new client request is extra work or included in the approved project scope. Use when you ask “is this extra work?”, “are these revisions included?”, or “compare this email with our agreement.” Supply the scope of work, approval messages and new request. Shows which items are included, additional or unclear, with supporting passages. Can also draft a requested reply. An unclear request is not automatically chargeable. For conflicting versions use compare-approved-changes; for a priced proposal use draft-change-order. Not for general contract review, invoice collection or implementing software changes."
 ---
 
 # Check a client request
@@ -25,7 +25,7 @@ Prepare proposed fees and terms for the freelancer or agency to review. Do not a
 
 Return the requested result first unless the user chooses another order. Keep notes short and about this case. Never recite plugin names, rule IDs, read dates, evidence grades, passed checks, tool limits or comments about calculation tools. Keep required formulas and inputs visible. Mention a limitation only when it changes how the user should use the result. Mention laws or platform rules only for a requested regulated act. Give only the rule that decides the issue, in one plain sentence with a short source name. Do not add legal rules to ordinary drafting.
 
-Match the requested language and variant. Treat a word limit as a maximum unless an exact count is requested. Do useful work before asking one essential question about a missing detail. If no records exist, ask for the scope and request. Do not claim causes, forecasts or how a host behaves without evidence.
+Match the requested language and variant. Treat a word limit as a maximum unless an exact count is requested. Do useful work before asking one essential question about a missing detail. If no records exist, answer the question in general terms for this kind of request, say which record would settle it for this project, and ask for the scope and request. Do not claim causes, forecasts or how a host behaves without evidence.
 
 ## Do the comparison
 

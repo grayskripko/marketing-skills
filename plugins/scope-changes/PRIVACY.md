@@ -1,4 +1,4 @@
-# Privacy — Scope Change
+# Privacy — Scope Changes
 
 This package contains instructions, references and a local icon. It runs no service and ships no executable tools.
 
