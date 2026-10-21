@@ -1,11 +1,13 @@
 ---
-name: optin-check
-description: Checks a lead magnet's opt-in page, sign-up form, thank-you page or confirmation email for US, EU and UK consent, honest claims and field use, and rewrites only the lines that are wrong. Use when the user pastes or links their own opt-in or download page, form or confirmation email and asks whether it is right, legal or GDPR compliant. Not for usability reviews, page layout, or demo and checkout forms.
+name: optin-form-consent-check
+description: "A question about whether the user's own lead magnet opt-in page, sign-up form, consent box or confirmation email is right for US, EU or UK visitors, even a quick one before the page text is pasted. Checks a lead magnet's opt-in page, sign-up form, thank-you page or confirmation email for US, EU and UK consent, honest claims and field use, and rewrites only the lines that are wrong. Use when the user pastes their own opt-in or download page, form or confirmation email and asks whether it is right, legal or GDPR compliant. Not for usability reviews, page layout, or demo and checkout forms."
 ---
 
 # Opt-in check
 
 Open with the verdict (can it go live, and the most serious problem), then the corrected lines ready to paste, then one line per problem saying why.
+
+If no page, form or email text is supplied yet, answer the question in general terms from the rules below and ask for that text.
 
 - Fix every line that is wrong, and write in what is missing but required (e.g. sender's postal address and an opt-out in a marketing email footer); do not leave a fixable defect as an open question. Leave lines that are fine (buttons, valid copy) as they are. No launch requirements or checklists beyond the fix.
 - Use the real figures the user verified (counts, dates). A claim the user cannot back is removed, not reworded.

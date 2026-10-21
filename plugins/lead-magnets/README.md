@@ -1,6 +1,6 @@
-# Lead Magnets Kit
+# Lead Magnets
 
-Pick, write, check and measure lead magnets: what to give away for your product and whether to gate it, the asset from your own notes, an opt-in form checked against dated US, EU and UK consent rules, who you may email afterwards, and which magnet brings sales calls.
+Pick, write, check and measure lead magnets: what to give away for your product and whether to gate it, the asset from your own notes, an opt-in form checked against US, EU and UK consent rules, who you may email afterwards, and which magnet brings sales calls.
 
 Example readout: the checklist got 312 sign-ups from 2,400 visits (13.0%), the calculator 81 from 900 (9.0%). But the calculator brought 14 sales calls against the checklist's 9, about 4.1 times more calls per visit. Keep the calculator; fix how the checklist leads to your offer. Both call counts are small, so the verdict is provisional.
 
@@ -9,10 +9,10 @@ Example readout: the checklist got 312 sign-ups from 2,400 visits (13.0%), the c
 | Skill | You get |
 |---|---|
 | magnet-plan | the magnet to make for your offer, whether to gate it, form fields, consent box text |
-| magnet-build | the asset from your notes, with no invented figures, plus what the page may promise |
-| optin-check | what to fix on your opt-in page, form and emails, with rewrites |
-| magnet-followup | who you may email after a download, and what records to keep |
-| magnet-readout | which magnet brings sign-ups and which brings sales calls, with a verdict for each |
+| magnet-build | the asset from your notes, with no invented figures, plus download-page copy |
+| optin-form-consent-check | what to fix on your opt-in page, form and emails, with rewrites |
+| email-consent-followup | who you may email after a download, and what records to keep |
+| magnet-readout | which magnet brings sign-ups and which brings sales calls, and which one to keep |
 
 ## Examples
 
@@ -26,7 +26,7 @@ Legal points are checks, not legal advice. Figures come only from you; no indust
 
 ## Data and network
 
-Network scope: only optin-check fetches anything: the public URL of your own opt-in page, plus at most one thank-you page you name, after checking that site's robots.txt; it never submits a form, logs in or follows links. No skill searches the web or calls another service, and nothing is sent, changed or stored unless you ask; your assistant's code tool may compute the tables shown.
+Network scope: the skills fetch nothing. Paste the page, form, thank-you page or email text you want checked. No skill searches the web or calls another service, and nothing is sent, changed or stored unless you ask.
 
 Personal data, read only: exports may hold names and emails; the skills ignore them. Remove those columns first. See PRIVACY.md.
 

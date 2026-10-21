@@ -1,11 +1,13 @@
 ---
 name: magnet-readout
-description: Compares the user's own lead magnets from their numbers or export (visits, sign-ups, sales calls or deals, spend per magnet and traffic source) and says which one to keep. Uses no industry rates. Use when the user gives such numbers or asks which of their lead magnets works or brings sales calls. Not for A/B test design, sample sizes, or channel results not split by magnet.
+description: "A question about how the user's own lead magnets perform or how to compare them on sign-ups and sales calls, even a quick one before the numbers are pasted. Compares the user's own lead magnets from their numbers or export (visits, sign-ups, sales calls or deals, spend per magnet and traffic source) and says which one to keep. Uses no industry rates. Use when the user gives such numbers or asks which of their lead magnets works or brings sales calls. Not for A/B test design, sample sizes, or channel results not split by magnet."
 ---
 
 # Magnet readout
 
 Answer the user's question in the first sentence (which magnet, whether the target was met), then one compact table with the counts, rates and costs, then a few lines on limits.
+
+If no numbers are supplied yet, answer in general terms and list the fields per magnet the comparison needs: visits, sign-ups, sales calls or deals, spend and traffic source.
 
 - Use the user's metric exactly as defined, numerator and denominator. Do not swap in a different metric. Label every rate with its denominator ("% of confirmed sign-ups", not "% of sign-ups").
 - When recent sign-ups have not had time to convert, compare like with like: rates on cohorts old enough to convert, and say how far the recent cohort could move the result.

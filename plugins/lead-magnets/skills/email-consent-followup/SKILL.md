@@ -1,5 +1,5 @@
 ---
-name: magnet-followup
+name: email-consent-followup
 description: Says who may be emailed after a lead magnet download, and with what, from the consent each person gave under US, EU and UK rules, and where a person takes over. Can audit a pasted sign-up export for consent record problems without printing any email. Use when the user asks whether or what they may email people who downloaded something, what consent proof to keep, or brings a sign-up export to check. Writes no email copy.
 ---
 
