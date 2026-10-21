@@ -1,6 +1,6 @@
 ---
-name: cancel-flow-audit
-description: "Reviews a subscription cancel flow, current or planned, and says what to change: can customers leave as easily as they joined, and does each screen meet dated cancellation rules for the US (federal and California), the EU (including Germany's cancellation button) and the UK? Gives what fails, the rules for the user's markets, and a redesigned flow with at most one offer beside a cancel button that stays on screen. Use when the user describes the cancel steps, cancellation page or reason screen; asks whether the cancel flow is legal or a dark pattern; wants to change it; or brings coded cancellation-reason counts and asks what to change. Requests to make cancelling harder get the lawful alternative. Not legal advice."
+name: cancellation-flow-audit
+description: "Reviews a subscription cancellation flow (cancel flow), current or planned, and says what to change: can customers leave as easily as they joined, and does each screen meet dated cancellation rules for the US, the EU (the online withdrawal function) and the UK? Gives what fails, the rules that decide it for the user's markets, and a redesigned flow with at most one offer beside a cancel button that stays on screen. Use when the user describes the cancel steps, cancellation page or reason screen; asks whether the cancel flow is legal or a dark pattern; wants to change it; or brings coded cancellation-reason counts and asks what to change. Requests to make cancelling harder get the lawful alternative. Not legal advice."
 ---
 
 # Cancel-flow audit

@@ -1,6 +1,6 @@
 ---
 name: churn-signals
-description: "Tests which warning signs came before subscription cancellations in the user's own account history, and how many days ahead they fired. Leaves out signals recorded after the cut-off or the cancel request, then gives per signal the cancel rate when it fired and when it did not, with 95% ranges, lift, coverage, lead time and a verdict: act on it, too late to act, no difference shown, or too few to tell. Can find a usage threshold for one key action and test an existing health-score formula band by band without inventing weights. Use when the user has account history with who cancelled and asks which signals warn of churn or whether their score works. Results by segment; no lists of named people."
+description: "Tests which warning signs came before subscription cancellations in the user's own account history, and how many days ahead they fired. Leaves out signals recorded after the cut-off or the cancel request, then gives per signal the cancel rate when it fired and when it did not, how many cancellers it caught, the lead time and whether to act on it, too late to act, or too few to tell. Can test an existing health-score formula band by band without inventing weights. Use when the user has account history with who cancelled and asks which signals warn of churn or whether their score works. Results by segment; no lists of named people."
 ---
 
 # Churn signals

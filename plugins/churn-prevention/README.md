@@ -1,18 +1,18 @@
-# Churn Prevention Kit
+# Subscription Churn Prevention
 
-Five skills for subscription businesses that are losing customers. Review your cancel flow against US, EU and UK cancellation rules, check whether a save offer really kept people paying, plan failed-payment retries, test which warning signs come before cancellations, and plan a win-back that respects consent. Answers come from the numbers you paste, with the arithmetic shown.
+Five skills to reduce churn for subscription businesses. Review your cancellation flow against US, EU and UK cancellation rules, check whether a save offer really kept people paying, plan failed-payment retries, test which warning signs come before cancellations, and plan a win-back that respects consent. Answers come from the numbers you paste, with the arithmetic shown.
 
 Example: a cancellation discount that 90 of 360 people accepted (25%) looks like a win. In the first full-price month, 15.0% of the offered group were still paying against 10.0% of a holdout that saw no offer. The difference, +5.0 points (95% range −8.5 to +12.3), could be zero.
 
-Not sure where churn comes from? Start with "customers keep cancelling": the dunning-plan skill splits cancellations into failed payments and chosen ones and says which to fix first.
+Not sure where churn comes from? Start with "customers keep cancelling": the failed-payments-dunning skill splits cancellations into failed payments and chosen ones and says which to fix first.
 
 ## What it does
 
 | Skill | Give it | You get |
 |---|---|---|
-| cancel-flow-audit | cancel steps and copy | what fails and why, dated rules for your markets, a redesigned flow |
-| save-offer-economics | offer results, ideally with a holdout | gain over holdout, cost per subscriber kept |
-| dunning-plan | failed payments by decline code, or churn in general | where to start, retry classes, timeline, messages |
+| cancellation-flow-audit | cancel steps and copy | what fails and why, the rules that decide it for your markets, a redesigned flow |
+| save-offer-economics | offer results, ideally with a holdout | still paying after the discount, gain over holdout, discount cost |
+| failed-payments-dunning | failed payments by decline code, or churn in general | where to start, retry classes, timeline, messages |
 | churn-signals | account history | which signals came before cancellations, how strongly and how many days ahead |
 | win-back-plan | cancellations with reason and consent | consent-checked segments, holdout |
 
@@ -24,7 +24,7 @@ Not sure where churn comes from? Start with "customers keep cancelling": the dun
 
 ## How it works
 
-The answer comes first, then the calculation and the data check behind it. Rates carry their sample size and a 95% range; no industry figures. Rules come from dated tables, each with its read date and link.
+The answer comes first, then the arithmetic that drives it. A 95% range appears only on the headline comparison when the sample is small enough that the effect could be zero; no industry figures. Rules come from dated notes kept in the skills and are cited by their public names.
 
 ## Data and network
 
@@ -40,7 +40,7 @@ Make cancelling harder, charge or send anything, give legal advice, quote benchm
 
 ## Troubleshooting
 
-"Not checked" names a missing column or short window. Wide ranges mean few records.
+If a needed column or period is missing, the answer says which one to export. Wide ranges mean few records.
 
 ## Support
 

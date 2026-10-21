@@ -1,5 +1,5 @@
 ---
-name: dunning-plan
+name: failed-payments-dunning
 description: "Starting point when customers keep cancelling or the user asks for help with churn (\"customers cancel after the first month\", \"help me with our churn\", \"churn is 6% on 3,000 subscribers, where do we start\"): splits cancellations into failed payments, chosen and unknown, ranks them by revenue at stake and names the next step, or says what to export first. Main job: plans recovery of failed subscription payments. Sorts decline codes into never retry, customer must act, and wait and retry under dated Visa and Mastercard limits, flags retries that break them, and lays out retries, grace period and messages, with an App Store and Google Play branch. Not for finding out why customers cancel. Plans only; charges, retries and sends nothing."
 ---
 

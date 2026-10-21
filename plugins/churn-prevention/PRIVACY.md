@@ -1,6 +1,6 @@
 # Privacy
 
-Churn Prevention Kit is a set of instructions and reference text for an AI assistant. It has no server, no account and no storage of its own.
+Subscription Churn Prevention is a set of instructions and reference text for an AI assistant. It has no server, no account and no storage of its own.
 
 - Network scope: this plugin does no web search and fetches no pages. It reads only what you paste or attach, runs nothing, changes no files, settings or billing systems, sends no messages, and may use your assistant's code or spreadsheet tool to compute the tables it shows.
 - Personal data: read only. The plugin reads exports you choose to paste, which may contain customer data; it does not store, send or change that data.

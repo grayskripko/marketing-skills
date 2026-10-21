@@ -1,6 +1,6 @@
 ---
 name: save-offer-economics
-description: "Checks whether a discount, pause or downgrade offered when subscribers cancel really kept them paying after the offer ended, compared with a holdout that saw no offer, and what it cost. Takes counts or rows: offered, accepted, paused, still paying at each billing cycle, price and discount terms. Gives the acceptance rate, the share still paying full price after the discount, the gain over the holdout with a 95% range, the discount cost, the cost per extra subscriber kept and the holdout size for the next test. Use when the user asks whether a save or retention offer worked, whether the discount is worth it, what it cost, or how big a holdout to keep. Quotes no industry save rates."
+description: "Checks whether a discount, pause or downgrade offered when subscribers cancel really kept them paying after the offer ended, compared with a holdout that saw no offer, and what it cost. Takes counts or rows: offered, accepted, paused, still paying at each billing cycle, price and discount terms. Gives the acceptance rate, the share still paying full price after the discount, the gain over the holdout (with a 95% range when the sample is small enough that it could be zero) and the discount cost. Use when the user asks whether a save or retention offer worked, whether the discount is worth it or what it cost. Quotes no industry save rates."
 ---
 
 # Save-offer economics

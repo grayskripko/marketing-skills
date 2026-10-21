@@ -1,6 +1,6 @@
 ---
 name: win-back-plan
-description: "Plans a win-back for subscribers who cancelled. Takes a list or counts of cancelled subscriptions with cancel date, coded reason, tenure, plan, region and marketing-consent status, plus the product changes the user confirms are real. Leaves out everyone who may not be contacted (no valid consent under dated US, EU and UK rules, opted out, chargeback or fraud, business closed), defers those who cancelled too recently and groups the rest by reason, time since cancelling and tenure. Gives each group the real change that answers its reason, or no campaign, with channel, touches, any offer within limits the user sets, and a holdout. Use when the user wants to bring back cancelled subscribers, not one finished email. Writes briefs; sends nothing."
+description: "Plans a win-back for subscribers who cancelled. Takes a list or counts of cancelled subscriptions with cancel date, coded reason, tenure, plan, region and marketing-consent status, plus the product changes the user confirms are real. Leaves out everyone who may not be contacted (no valid marketing consent for their region, opted out, chargeback or fraud, business closed), defers those who cancelled too recently and groups the rest by reason, time since cancelling and tenure. Gives each group the real change that answers its reason, or no campaign, with channel, touches, any offer within limits the user sets, and a holdout. Use when the user wants to bring back cancelled subscribers, not one finished email. Writes briefs; sends nothing."
 ---
 
 # Win-back plan
