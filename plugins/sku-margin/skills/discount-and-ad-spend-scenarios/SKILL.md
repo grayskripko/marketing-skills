@@ -1,6 +1,6 @@
 ---
-name: compare-price-and-ad-scenarios
-description: Compare prices, discounts and ad budgets using your current product costs. Use when you ask “can I afford this discount?”, “how much can I spend on ads?” or “what changes if I raise the price?” Returns side-by-side contribution amounts, the assumptions behind them, plus break-even calculations when the supplied numbers allow them. Uses supplied fee schedules and cost records, with no default platform rate or margin target. Missing costs stay visible instead of becoming zero.
+name: discount-and-ad-spend-scenarios
+description: Compare prices, discounts and ad budgets using your current product costs. Use when you ask “can I afford this discount?”, “how much can I spend on ads?” or “what changes if I raise the price?” Returns side-by-side contribution amounts, the assumptions behind them, plus break-even calculations when the supplied numbers allow them. Uses supplied fee schedules and cost records, with no default platform rate or margin target. Missing cost rows stay visible; a blank cell treated as zero is flagged with its effect.
 ---
 
 # Compare price and ad scenarios

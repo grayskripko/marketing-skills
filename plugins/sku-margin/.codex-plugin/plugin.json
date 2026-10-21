@@ -1,7 +1,7 @@
 {
   "name": "sku-margin",
-  "version": "0.1.2",
-  "description": "Calculate product margins after costs, returns and ads. Use when you ask “can I afford this discount?”, “which products still make money after ads?” or “why do these reports disagree?” Compares your proposed prices, discounts and ad budgets using pasted tables or readable exports. Shows formulas, source rows and missing costs. Shared costs need a stated split. Fee terms and tax treatment come from your inputs. No store connection or paid API is needed.",
+  "version": "0.1.3",
+  "description": "Calculate product margins, unit economics and SKU profitability for ecommerce sellers: profit margin per SKU, measured as contribution margin after product costs, returns, fees and ad spend. Use when you ask “can I afford this discount?”, “which products still make money after ads?” or “why do my Amazon seller or Shopify reports disagree?” Compares your proposed prices, discounts and ad budgets, with break-even points and ACoS where the numbers allow, using pasted tables or readable exports. Shows formulas, source rows and missing costs. Shared costs need a stated split. Fee terms and tax treatment come from your inputs or are shown as labelled assumptions. No store connection or paid API is needed.",
   "author": {
     "name": "Sergey Skripko"
   },
@@ -12,13 +12,15 @@
     "seller-margin",
     "sku-contribution",
     "discount-scenarios",
+    "profit-margin",
+    "unit-economics",
     "export-reconciliation"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "SKU Margin",
     "shortDescription": "Calculate product margins after costs and ads",
-    "longDescription": "Calculate product margins after costs, returns and ads. Use when you ask “can I afford this discount?”, “which products still make money after ads?” or “why do these reports disagree?” Compares your proposed prices, discounts and ad budgets using pasted tables or readable exports. Shows formulas, source rows and missing costs. Shared costs need a stated split. Fee terms and tax treatment come from your inputs. No store connection or paid API is needed.",
+    "longDescription": "Calculate product margins, unit economics and SKU profitability for ecommerce sellers: profit margin per SKU, measured as contribution margin after product costs, returns, fees and ad spend. Use when you ask “can I afford this discount?”, “which products still make money after ads?” or “why do my Amazon seller or Shopify reports disagree?” Compares your proposed prices, discounts and ad budgets, with break-even points and ACoS where the numbers allow, using pasted tables or readable exports. Shows formulas, source rows and missing costs. Shared costs need a stated split. Fee terms and tax treatment come from your inputs or are shown as labelled assumptions. No store connection or paid API is needed.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [

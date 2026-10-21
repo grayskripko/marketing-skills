@@ -1,6 +1,6 @@
 ---
-name: calculate-sku-contribution
-description: Calculate margins for each product after product costs, shipping, fees, returns and ads, using your supplied records. Use when you ask “which products still make money?”, “show margin after ads and returns” or “calculate contribution by SKU”. Returns a contribution table that points to the source rows with formulas, the supplied numbers and missing costs. Keeps fixed overhead separate and shows how shared spend was split. Works from pasted data or readable exports; missing amounts become labelled assumptions. For proposed discounts or ad budgets, use compare-price-and-ad-scenarios. For mismatched totals, duplicate rows or payout differences, use reconcile-seller-exports.
+name: sku-contribution-margin
+description: Calculate margins for each product after product costs, shipping, fees, returns and ads, using your supplied records. Use when you ask “which products still make money?”, “show margin after ads and returns” or “calculate contribution by SKU”. Returns a contribution table that points to the source rows with formulas, the supplied numbers and missing costs. Keeps fixed overhead separate and shows how shared spend was split. Works from pasted data or readable exports; missing amounts become labelled assumptions. For proposed discounts or ad budgets, use discount-and-ad-spend-scenarios. For mismatched totals, duplicate rows or payout differences, use reconcile-seller-exports.
 ---
 
 # Calculate contribution by SKU (product or variant)

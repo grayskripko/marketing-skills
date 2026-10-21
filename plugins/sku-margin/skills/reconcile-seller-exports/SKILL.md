@@ -1,6 +1,6 @@
 ---
 name: reconcile-seller-exports
-description: Check why your sales, refund, fee, shipping and ad reports disagree before deciding on a price or discount. Use when you ask “do these reports agree?”, “have refunds been counted twice?” or “why does my payout differ from sales?” Shows which rows match, why totals differ and which costs still need a source. Works from pasted tables or readable files, using the period, currencies and report definitions you provide. For the contribution calculation, use calculate-sku-contribution after the inputs are clear.
+description: Check why your sales, refund, fee, shipping and ad reports disagree before deciding on a price or discount. Use when you ask “do these reports agree?”, “have refunds been counted twice?” or “why does my payout differ from sales?” Shows which rows match, why totals differ and which costs still need a source. Works from pasted tables or readable files, using the period, currencies and report definitions you provide. For the contribution calculation, use sku-contribution-margin after the inputs are clear.
 ---
 
 # Reconcile seller exports
