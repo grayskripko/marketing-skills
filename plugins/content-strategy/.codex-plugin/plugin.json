@@ -1,7 +1,7 @@
 {
   "name": "content-strategy",
-  "version": "0.1.34",
-  "description": "Decide what your team should publish next: plan blog topics and content marketing priorities around your goals and company evidence, and turn your backlog into a weekly editorial calendar that fits your writers' hours, for your own team or your agency's clients. From your existing article list, recommend which old articles to update, merge or retire; turn a chosen topic and research findings you provide into a writer's brief, and plan lead magnets for your topic clusters. It plans; it does not write the content or build campaigns.",
+  "version": "0.1.35",
+  "description": "Decide what your team should publish next: plan blog topics and content marketing priorities around your goals and company evidence, and turn your backlog into a weekly editorial calendar that fits your writers' hours, for your own team or your agency's clients. From your existing article list, recommend which old articles to update, merge or retire; turn a chosen topic and research findings you provide into a writer's brief, and plan lead magnets for your topic clusters. It plans; it does not write the content or build campaigns. Network use: when you give a sitemap URL, the content audit reads it and up to 10 public pages you name on that site; separately, because its advice draws on dated Google guidance positions it bundles, it may offer to check the most recent dated copy on the author's page, https://black-vector.com/content-strategy/myths, and fetches that page only after you say yes.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
@@ -25,9 +25,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Blog Content Strategy, Calendar & Content Audit",
+    "displayName": "Blog Content Strategy, Content Calendar & Content Audit",
     "shortDescription": "Plan what content to write next",
-    "longDescription": "Five connected skills for teams with limited hours. Decide what happens to existing pages (keep, update, merge, redirect, retire or leave alone), with the reason on every row and a list of what could not be checked. Build a topic map where every topic names the company's own evidence behind it, or is set aside as generic. Turn a list of ideas into a week-by-week plan that fits the team's hours, with a planning score and a not-now list. Write briefs a writer can work from, using the team's own evidence, and plan lead magnets with a stated reason for asking or not asking for an email. A publish date alone never decides a page's fate. It plans; it does not write the content.",
+    "longDescription": "Five connected skills for teams with limited hours. Decide what happens to existing pages (keep, update, merge, redirect, retire or leave alone), with the reason on every row and a list of what could not be checked. Build a topic map where every topic names the company's own evidence behind it, or is set aside as generic. Turn a list of ideas into a week-by-week plan that fits the team's hours, with a planning score and a not-now list. Write briefs a writer can work from, using the team's own evidence, and plan lead magnets with a stated reason for asking or not asking for an email. A publish date alone never decides a page's fate. It plans; it does not write the content. Network use: when you give a sitemap URL, the content audit reads it and up to 10 public pages you name on that site; separately, because its advice draws on dated Google guidance positions it bundles, it may offer to check the most recent dated copy on the author's page, https://black-vector.com/content-strategy/myths, and fetches that page only after you say yes.",
     "developerName": "Sergey Skripko",
     "category": "Business & Operations",
     "capabilities": [

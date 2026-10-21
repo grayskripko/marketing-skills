@@ -1,22 +1,25 @@
-# Privacy policy: Content Strategy Kit
+# Privacy policy: Blog Content Strategy, Content Calendar & Content Audit
 
-Effective date: 2026-10-08.
+Effective date: 2026-10-19.
 
-Content Strategy Kit is a set of instructions and reference documents for an AI assistant. It contains no code that runs, no server, no analytics and no tracking. The publisher receives nothing from your use of it.
-
-| Topic | Answer |
-|---|---|
-| Categories of personal data collected | None. |
-| Purposes of processing | None, because nothing is collected. |
-| Recipients or third parties | None. The plugin sends data nowhere. |
-| Retention | None. The plugin stores nothing. |
-| Your controls | None needed. You can remove the plugin at any time; nothing remains. |
+Blog Content Strategy, Content Calendar & Content Audit is a set of instructions and reference documents for an AI assistant. It contains no code that runs and no tracking of individuals. The author's page at https://black-vector.com/content-strategy/myths receives a standard web request only when you agree to it.
 
 ## What happens when you use it
 
-- Only the content-audit skill fetches anything: when you give a sitemap URL, it reads at most 3 sitemap files as lists of URLs without visiting those URLs, and it fetches at most 10 public pages that you name on the same site, after checking that site's robots.txt and skipping disallowed paths; it never logs in, submits forms or follows links, and no skill runs web searches or calls any other service. The fetching is done by the assistant's own web tool under the assistant provider's privacy terms, not by this plugin.
+- **Your own site, only when you give it.** When you give a sitemap URL, the content-audit skill reads at most 3 sitemap files as lists of URLs without visiting those URLs, and fetches at most 10 public pages that you name on the same site, after checking that site's robots.txt and skipping disallowed paths. It never logs in, submits forms or follows links.
+- **The author's page at https://black-vector.com/content-strategy/myths, only after you say yes.** Because the skills draw on dated Google guidance positions, the assistant may offer to check the most recent dated copy at `https://black-vector.com/content-strategy/myths`. It fetches that page only if you say yes or ask for it.
+- That fetch is made by the assistant's own web tool (from your computer in Claude Code, from the assistant provider's servers on claude.ai), under that provider's privacy terms.
+- No skill runs web searches or calls any other service on its own.
 - If the assistant has a code tool, it may use it to compute the tables and totals from what you pasted; the plugin ships no code and stores nothing.
-- Lists, notes and data you paste stay in your conversation with the assistant, under the assistant provider's privacy terms. Remove names and contact details of customers or interviewees before pasting; the skills do not repeat them and refer to people as Customer A, Customer B.
+- Remove names and contact details of customers or interviewees before pasting; the skills do not repeat them and refer to people as Customer A, Customer B.
+
+## What the author's page at https://black-vector.com/content-strategy/myths keeps
+
+- The page is served by the author's own server, with no CDN or proxy in front of it. Like any web server, it receives the requesting IP address in order to answer.
+- For this page, the server's access log is turned off, so the IP address and the user agent are not written down.
+- No cookies, no scripts, no personal data.
+
+Nothing that identifies you is stored, so nothing about you is retained.
 
 ## Contact
 
