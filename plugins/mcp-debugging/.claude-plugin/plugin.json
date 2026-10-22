@@ -1,6 +1,6 @@
 {
   "name": "mcp-debugging",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "MCP troubleshooting for MCP errors in the client you actually use: MCP server not connecting, MCP authentication failures and MCP tools missing after connection, from pasted traces, logs, configs, transcripts or files. Use when an MCP server won't connect in Claude Code or Codex (connection refused, startup errors), MCP authentication fails, or tools are missing or fail after connection. Get a minimal client-specific repair, what your supplied discovery and call results prove, and the next safe check. Pasted material needs no setup. Optional live checks use an existing trusted client and a documented read-only operation. Not for building MCP servers, general agent debugging or redesigning an owned callable tool interface.",
   "author": {
     "name": "Sergey Skripko"

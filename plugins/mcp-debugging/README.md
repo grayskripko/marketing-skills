@@ -13,7 +13,7 @@ Try "This config works in Claude Code but fails in Codex", "My MCP server won't 
 
 A skills-only package: Markdown instructions, a [dated official source register](references/sources.md), JSON metadata and a static SVG icon. It bundles no scripts, dependencies, installers, hooks, MCP or LSP servers, or background processes, and installing it launches nothing. The `.claude-plugin` and `.codex-plugin` directories contain platform metadata, not servers.
 
-The skills read only the text and files you provide. They may suggest steps you run yourself: editing local JSON/TOML configuration, `claude mcp get`, `claude mcp remove <name> --scope local`, `codex mcp list`, `codex mcp get`, `/mcp`, or reconnecting. Restarting a client or running a server command launches that server. Suggested checks are chosen to be harmless; the skills do not treat message delivery, purchases, account-data writes or permission broadening as checks, and pasted commands are not run just because they appear in a config.
+The skills read only the text and files you provide. They may suggest steps you run yourself: editing local JSON/TOML configuration, `claude mcp get`, `claude mcp remove <name> --scope local`, `claude mcp login <name>`, `codex mcp list`, `codex mcp get`, `codex mcp login <name>`, `/mcp`, or reconnecting. Sign-in happens in your own client; the skills never ask for, read or place tokens. Restarting a client or running a server command launches that server. Suggested checks are chosen to be harmless; the skills do not treat message delivery, purchases, account-data writes or permission broadening as checks, and pasted commands are not run just because they appear in a config.
 
 ## Data and network
 
