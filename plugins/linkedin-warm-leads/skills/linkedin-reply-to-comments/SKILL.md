@@ -32,7 +32,7 @@ If the user has not said what they sell, infer it from the post and their own re
 - Use their first name once at most. Reply in the commenter's language.
 - Specific to their words; no template phrases repeated across replies ("Great point!"). Vary openings.
 - No links in public replies unless the user asks (links in comments are often hidden or look spammy). Offer to DM instead.
-- Never invent facts, client results, numbers or availability the user did not give. If a reply needs a fact the user has not given (a price, a date), write around it and say outside the draft what to add. No bracketed placeholders.
+- State only facts about the user and their offer that the user gave. If a draft needs facts they have not given (a price, a date, where they are based), ask the questions needed instead of guessing. No bracketed placeholders.
 - Never claim the user already sent something.
 
 ## Answer

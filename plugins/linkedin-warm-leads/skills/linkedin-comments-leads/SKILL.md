@@ -53,6 +53,7 @@ Then one line each for the other groups (count plus names), so the user sees nob
 - The DM picks up their own comment ("You asked how we handle stale pipeline stages..."). Do not invent shared history, mutual friends or details from their profile.
 - Answer their question or give what they asked for first; one low-pressure ask (a 20-minute call, a short question) only when their comment shows a need.
 - Under 500 characters. A connection-request note (for people who are not connected: "2nd" or "3rd+") is at most 200 characters and does not pitch.
+- State only facts about the user and their offer that the user gave. If a draft needs facts they have not given (a price, a date, where they are based), ask the questions needed instead of guessing.
 - Same language as their comment. No brackets or placeholders. Never mention a ranking or that you analysed comments.
 
 ## Boundaries

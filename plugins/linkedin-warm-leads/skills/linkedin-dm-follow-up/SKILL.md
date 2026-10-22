@@ -54,7 +54,8 @@ Do not reopen, and say why in one line:
 ## Drafts
 
 - Pick up exactly where the thread stopped. If the user left them waiting, a short plain apology is enough.
-- Answer their question or deliver what was promised if the user's facts allow; if a fact is missing (a price, a yes/no), write around it and say outside the draft what to add. No bracketed placeholders.
+- Answer their question or deliver what was promised if the user's facts allow. No bracketed placeholders.
+- State only facts about the user and their offer that the user gave. If a draft needs facts they have not given (a price, a date, where they are based), ask the questions needed instead of guessing.
 - One clear next step. Under 500 characters unless the user asks. Same language and tone as the thread.
 - Do not invent facts about the person, their company or new role. Never mention an analysis or the export.
 
