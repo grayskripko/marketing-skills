@@ -21,7 +21,7 @@ Free skills-only plugins in the Claude plugin directory. Each plugin lives in it
 
 | Plugin | What it does |
 |---|---|
-| [LinkedIn Warm Leads](https://github.com/grayskripko/marketing-skills/tree/main/plugins/linkedin-warm-leads) | Find warm leads in your own LinkedIn data export: rank connections against your customer, score warmth from your shared history, find dropped conversations and draft follow-ups you send yourself. Synthetic sample export in [samples/linkedin-warm-leads](https://github.com/grayskripko/marketing-skills/tree/main/samples/linkedin-warm-leads). |
+| [LinkedIn Warm Leads](https://github.com/grayskripko/marketing-skills/tree/main/plugins/linkedin-warm-leads) | Find warm LinkedIn leads in what you already have: potential clients in your post comments, replies to comments, DM follow-up plans, warm connections in your own export. Drafts only; never sends. Synthetic samples in [samples/linkedin-warm-leads](https://github.com/grayskripko/marketing-skills/tree/main/samples/linkedin-warm-leads). |
 
 ## Author
 
