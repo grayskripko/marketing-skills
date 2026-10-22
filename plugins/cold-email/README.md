@@ -32,7 +32,13 @@ Notes, rows and replies can contain names and addresses. Use data or a named exp
 
 ## Data and network
 
-Network scope: only the cold-email-hooks skill fetches anything, and only public pages at URLs you give, at most 3 public pages per run, one request each plus the site's robots.txt, following no links and never logging in; a page the site's robots.txt disallows is not fetched. No skill runs a web search. The plugin sends no email, looks up no address, runs no DNS query, calls no other service and stores nothing; if your assistant has a code tool, it may use it to count words and rows.
+Network scope: two kinds of fetch, nothing else.
+1. **Pages you link, in cold-email-hooks.** Only public pages at URLs you give, at most 3 public pages per run, one request each plus the site's robots.txt, following no links and never logging in; a page the site's robots.txt disallows is not fetched.
+2. **The author's page at https://black-vector.com/cold-email/deliverability, only after you say yes.** Advice in any of the five skills can rest on dated rules (for example Gmail's bulk-sender requirements, CAN-SPAM's opt-out duty, Germany's consent rule or LinkedIn's 200-character note): drafting, rewriting or checking an email or LinkedIn message, choosing which people or countries to contact, working from notes about named business contacts, or reading sender records. The bundled copy is dated 2026-10-12 and may be out of date, so an answer may end with a short note: the official page it relied on, its date, and an offer to check it against the plugin's changelog of these rules, https://black-vector.com/cold-email/deliverability, a page kept by the plugin author on a domain he owns. The official pages it names (for example Google, Yahoo at yahooinc.com, Microsoft, the FTC at ftc.gov, legislation.gov.uk, the ICO at ico.org.uk or LinkedIn) are for you to open; the assistant does not fetch them. It fetches that page only if you say yes or ask for it, tells you what changed, and you decide whether to revise anything. If you never say yes, nothing is fetched.
+
+No skill runs a web search. The plugin sends no email, looks up no address, runs no DNS query, calls no other service and stores nothing; if your assistant has a code tool, it may use it to count words and rows.
+
+What the author's page at https://black-vector.com/cold-email/deliverability keeps: see the [privacy policy](PRIVACY.md).
 
 ## Troubleshooting
 

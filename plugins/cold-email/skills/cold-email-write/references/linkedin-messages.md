@@ -42,7 +42,7 @@ Write a follow-up only when asked, from facts supplied for the task; do not reus
 
 Answer with a compact register by topic: the rule, the source and the date it was checked, conflicts between LinkedIn's own pages, and what the pages do not say. Label it as the register bundled with this plugin. If the user asked you to rely on a different document they have not supplied, say so before answering and ask for it; never attribute these facts to that document.
 
-## Sources (checked 2026-10-12)
+## Sources (checked 2026-10-12; LinkedIn rules here are stated as of that date)
 
 - Personalize invitations (200-character note): https://www.linkedin.com/help/linkedin/answer/a563153/personalize-invitations-to-connect
 - Invitation limit reached (no published weekly number; restrictions usually last a week): https://www.linkedin.com/help/linkedin/answer/a551527

@@ -1,6 +1,6 @@
 # Compliance basics
 
-Checks, not legal advice. Rules change; the user confirms what applies to their recipients. Every row here was read on 2026-09-30 (the United Kingdom row re-read on 2026-10-08); if today is more than 6 months later, the output says "These may have changed; check the current text." Read dates stay in this file and are not printed.
+Checks, not legal advice. Rules here are stated as of 2026-10-12, the date of this copy. Rules change; the user confirms what applies to their recipients. Every row here was read on 2026-09-30 (the United Kingdom row re-read on 2026-10-08); if today is more than 6 months later, the output says "These may have changed; check the current text." Per-row read dates stay in this file and are not printed; the copy date 2026-10-12 is the one the "Rule dates" note gives.
 
 ## United States: CAN-SPAM
 Source: Federal Trade Commission, "CAN-SPAM Act: A Compliance Guide for Business", https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business (read 2026-09-30). Duties the check covers:
@@ -36,5 +36,5 @@ When recipient data identifies a person, UK GDPR obligations also apply to busin
 Source: Information Commissioner’s Office, “Business-to-business marketing”, https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/ (read 2026-10-11; guidance under review).
 
 ## Always
-- CO-08 An opt-out reply means stop and suppress (ground rule 7).
-- CO-09 No deceptive subject, sender or claimed relationship (ground rule 5).
+- CO-08 An opt-out reply means stop and suppress (see Boundaries in SKILL.md).
+- CO-09 No deceptive subject, sender or claimed relationship (see Boundaries in SKILL.md).

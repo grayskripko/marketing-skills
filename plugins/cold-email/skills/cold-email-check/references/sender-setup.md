@@ -1,6 +1,6 @@
 # Sender setup
 
-Judged from supplied records or headers. Run no DNS query. Ask about sending volume and destination mix only when needed to determine requested provider-policy applicability. For an authentication diagnosis, report only relevant knowns, unknowns and admin fixes in the requested shape. Provider tables are background for provider-policy questions, not mandatory output. Sources were read on 2026-09-30; if provider-policy advice is requested, identify the applicable scope and any uncertainty about current verification.
+Provider rules here are stated as of 2026-10-12, the date of this copy. Judged from supplied records or headers. Run no DNS query. Ask about sending volume and destination mix only when needed to determine requested provider-policy applicability. For an authentication diagnosis, report only relevant knowns, unknowns and admin fixes in the requested shape. Provider tables are background for provider-policy questions, not mandatory output. Sources were read on 2026-09-30; if provider-policy advice is requested, identify the applicable scope and any uncertainty about current verification.
 
 ## All senders
 

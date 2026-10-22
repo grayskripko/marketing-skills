@@ -1,8 +1,8 @@
 {
   "name": "cold-email",
   "displayName": "Cold Email, LinkedIn Outreach & Deliverability",
-  "version": "0.1.29",
-  "description": "Draft B2B cold outreach and prospecting emails, subject lines, follow-up emails, LinkedIn connection requests and LinkedIn messages from your offer and audience; review and rewrite cold emails getting no replies, keeping every number, name and claim. Write prospect opening lines from notes you provide or up to 3 public pages you link, and diagnose why cold emails land in the spam folder, checking outbound emails before sending from pasted emails, sample rows and sender records. Uses only your facts; never sends email, creates drafts in mail tools, finds addresses or adds contacts.",
+  "version": "0.1.30",
+  "description": "Draft B2B cold outreach and prospecting emails, subject lines, follow-up emails, LinkedIn connection requests and LinkedIn messages from your offer and audience; review and rewrite cold emails getting no replies, keeping every number, name and claim. Write prospect opening lines from notes you provide or up to 3 public pages you link, and diagnose why cold emails land in the spam folder, checking outbound emails before sending from pasted emails, sample rows and sender records. Uses only your facts; never sends email, creates drafts in mail tools, finds addresses or adds contacts. Network use: cold-email-hooks reads up to 3 public pages you link. Answers that rest on sender, email-law or LinkedIn rules cite the official page used (for example Google, yahooinc.com, Microsoft, ftc.gov, legislation.gov.uk, ico.org.uk, LinkedIn) for you to open; because those rules are dated, it may also offer to check the most recent dated copy on the author's page, https://black-vector.com/cold-email/deliverability, and fetches that page only after you say yes.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",

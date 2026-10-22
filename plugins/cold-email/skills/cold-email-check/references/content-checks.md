@@ -12,7 +12,7 @@ Status per row: PASS, FIX or ASK. Evidence is a quote from the email or the row.
 | CC-06 | Subject honesty | "Re:"/"Fwd:" on a first message, or a subject that misstates the body |
 | CC-07 | Urgency | A deadline, discount or limited stock that the user has not confirmed as real |
 | CC-08 | Stock phrasing | Three or more patterns from `stock-phrasing-cold.md` (one or two: PASS with a note) |
-| CC-09 | Sender identity | No real sender name and company, and no footer slot for them (ground rule 8) |
+| CC-09 | Sender identity | No real sender name and company, and no footer slot for them (see Boundaries in SKILL.md) |
 | CC-10 | Opt-out line | Missing, hidden or phrased so the reader cannot easily act on it |
 
 ASK is used when the answer depends on something only the user knows, for example whether a meeting really happened.
