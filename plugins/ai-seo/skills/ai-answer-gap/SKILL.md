@@ -1,6 +1,6 @@
 ---
 name: ai-answer-gap
-description: "Find gaps in your AI brand mentions and citations for one query by comparing the ChatGPT, Perplexity or other AI answers and sources you paste with your page, then recommend what to add or correct. Use when the user gives one target query plus answers or sources they copied, and asks why they are not cited or what is missing. Many prompts or logged runs go to brand-monitoring-ai-visibility-report; a page check without answers goes to ai-page-audit."
+description: "Any question about why an AI answer cites others and not your page for one query, including short questions: \"why does ChatGPT cite them and not us?\", \"what is my page missing for this answer?\". Find gaps in your AI brand mentions and citations for one query by comparing the ChatGPT, Perplexity or other AI answers and sources you paste with your page, then recommend what to add or correct. Use when the user gives one target query plus answers or sources they copied, and asks why they are not cited or what is missing. Many prompts or logged runs go to brand-monitoring-ai-visibility-report; a page check without answers goes to ai-page-audit."
 ---
 
 # Answer gap for one query
