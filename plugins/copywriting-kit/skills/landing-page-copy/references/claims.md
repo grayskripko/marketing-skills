@@ -35,7 +35,7 @@ And three interview questions: what problem made you look for a tool; what chang
 
 ## Background: why evidence matters
 
-Consumer-protection rules in many places expect marketing claims to be backed before they are published and endorsements to be genuine. Examples (each read on the date shown):
+Consumer-protection rules in many places expect marketing claims to be backed before they are published and endorsements to be genuine. Examples, stated as of 2026-10-15 (each read on the date shown):
 - United States: FTC Guides Concerning the Use of Endorsements and Testimonials in Advertising, 16 CFR Part 255, revision published 26 July 2023. https://www.ftc.gov/legal-library/browse/federal-register-notices/16-cfr-part-255-guides-concerning-use-endorsements-testimonials-advertising (read 2026-10-08)
 - United States: FTC Trade Regulation Rule on the Use of Consumer Reviews and Testimonials, 16 CFR Part 465, which bars fake reviews and testimonials; in effect since 21 October 2024 (60 days after its 22 August 2024 publication). https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials (read 2026-10-08)
 - United States: FTC Policy Statement Regarding Advertising Substantiation, 23 November 1984, which expects a reasonable basis for a claim before it is made. https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation (read 2026-10-08)
