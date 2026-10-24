@@ -1,0 +1,42 @@
+{
+  "name": "sponsorship-pitches",
+  "version": "0.1.0",
+  "description": "Check creator audience claims, write sponsor pitches and reply to brand offers from supplied exports, brand notes, inventory and terms. Keeps metric periods and commercial proposals consistent. No sponsor discovery, sending, account access or contract approval.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "sponsorship-pitches",
+    "creator-sponsorship",
+    "media-kit",
+    "audience-claims",
+    "brand-offer"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sponsorship Pitches",
+    "shortDescription": "Check stats, pitch sponsors",
+    "longDescription": "Check creator audience claims, write sponsor pitches and reply to brand offers from supplied exports, brand notes, inventory and terms. Keeps metric periods and commercial proposals consistent. No sponsor discovery, sending, account access or contract approval.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Fix my media-kit audience claims from these dated exports.",
+      "Write a sponsor email and matching placement summary from my brief.",
+      "Compare this brand offer with my rate card and draft a reply."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

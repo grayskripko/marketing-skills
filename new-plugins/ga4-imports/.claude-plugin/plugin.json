@@ -1,0 +1,24 @@
+{
+  "name": "ga4-imports",
+  "version": "0.1.0",
+  "description": "Maps my daily exports and UTM register to my chosen GA4 campaign import schema, returning a candidate CSV or table, rejected rows and a join-readiness verdict. Use when preparing campaign cost, clicks or impressions from pasted text or readable exports, or checking whether a candidate matches recorded campaign identities. Works from supplied data and bundled field rules. No account or API setup is needed. Not for uploading data, connecting advertising accounts, changing historical UTMs or preparing user, item or event imports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ga4",
+    "campaign import",
+    "cost import",
+    "utm",
+    "csv",
+    "join readiness"
+  ],
+  "displayName": "GA4 Imports",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ga4-imports/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ga4-imports/README.md"
+}

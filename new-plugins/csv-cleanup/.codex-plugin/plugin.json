@@ -1,0 +1,45 @@
+{
+  "name": "csv-cleanup",
+  "version": "0.1.0",
+  "description": "Clean and merge Excel and CSV exports without changing the originals. Keeps IDs as text, links output rows to their sources and leaves unclear values for review. Use when you ask “combine these monthly exports,” “clean this CSV without losing IDs,” or “reuse last month’s cleanup.” You get a new copy, an issue list and saved cleanup steps through the assistant’s local tools. Not for live account editing, background refresh, fetching data from the network or accounting conclusions. No account or paid API is required.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "csv",
+    "excel",
+    "csv-cleanup",
+    "data-cleaning",
+    "merge",
+    "duplicates",
+    "reusable-recipe"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CSV Cleanup",
+    "shortDescription": "Clean and combine Excel and CSV exports",
+    "longDescription": "Clean and merge Excel and CSV exports without changing the originals. Keeps IDs as text, links output rows to their sources and leaves unclear values for review. Use when you ask “combine these monthly exports,” “clean this CSV without losing IDs,” or “reuse last month’s cleanup.” You get a new copy, an issue list and saved cleanup steps through the assistant’s local tools. Not for live account editing, background refresh, fetching data from the network or accounting conclusions. No account or paid API is required.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check these CSV files before combining them.",
+      "Clean these exports using the attached mapping.",
+      "Repeat this cleanup recipe on the next export."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/csv-cleanup/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

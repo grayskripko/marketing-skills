@@ -1,0 +1,48 @@
+{
+  "name": "ppap-packets",
+  "version": "0.1.4",
+  "description": "Check a PPAP package before it goes to the customer: match the submission index, pasted evidence, drawing revision and customer checklist into an element-by-element status matrix with stale revisions, wrong part numbers, gaps and reviewer questions. Reconciles ballooned drawing characteristics against dimensional results per cavity, recomputes out-of-tolerance values, capability and gauge R&R, and traces special characteristics from drawing and SCCAF through PFMEA to control plan. Built-in Ford profile (PPAP requirements effective 15 June 2026); other customers use the checklist you paste. For supplier-quality and APQP engineers and PPAP coordinators.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ppap",
+    "ppap-checklist",
+    "part-submission-warrant",
+    "psw",
+    "apqp",
+    "dimensional-results",
+    "special-characteristics",
+    "control-plan",
+    "supplier-quality",
+    "automotive"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PPAP Packets",
+    "shortDescription": "Check a PPAP package against drawing and checklist",
+    "longDescription": "Check a PPAP package before it goes to the customer: match the submission index, pasted evidence, drawing revision and customer checklist into an element-by-element status matrix with stale revisions, wrong part numbers, gaps and reviewer questions. Reconciles ballooned drawing characteristics against dimensional results per cavity, recomputes out-of-tolerance values, capability and gauge R&R, and traces special characteristics from drawing and SCCAF through PFMEA to control plan. Built-in Ford profile (PPAP requirements effective 15 June 2026); other customers use the checklist you paste. For supplier-quality and APQP engineers and PPAP coordinators.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2E4057",
+    "brandColorDark": "#F2A541",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Is this PPAP package complete? Here is the index and the checklist.",
+      "Match these dimensional results to the ballooned drawing, rev D.",
+      "Trace these special characteristics from the SCCAF to the control plan."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-ppap-packets/plugins/ppap-packets/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
+  }
+}

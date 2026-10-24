@@ -1,0 +1,22 @@
+{
+  "name": "linear-triage",
+  "version": "0.1.0",
+  "description": "Diagnose Linear intake and snooze behavior from supplied templates, triage rules, team defaults and issue activity; produce a disposition review list. Use when tickets skip triage, route unexpectedly or wake before their snooze time. Works from pasted settings and exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "linear",
+    "triage",
+    "intake",
+    "snooze",
+    "issue-disposition"
+  ],
+  "displayName": "Linear Triage",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/linear-triage/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/linear-triage/README.md"
+}

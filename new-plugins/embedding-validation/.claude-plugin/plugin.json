@@ -1,0 +1,22 @@
+{
+  "name": "embedding-validation",
+  "displayName": "Embedding Validation",
+  "version": "0.1.0",
+  "description": "Check embedding dimension mismatches, query/document prompts, input truncation and normalization from pasted settings, vectors and index schemas. Check provider contracts across SentenceTransformer, Voyage and Gemini.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "embeddings",
+    "dimension-mismatch",
+    "normalization",
+    "encoder-settings",
+    "vector-index"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/embedding-validation/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/embedding-validation/README.md"
+}

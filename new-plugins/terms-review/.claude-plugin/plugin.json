@@ -1,0 +1,23 @@
+{
+  "name": "terms-review",
+  "version": "0.1.0",
+  "description": "Review UK consumer terms, checkout notices and actual charging/cancellation practices against current CMA37 guidance; produce clause-specific findings and clearer proposed wording. Use when you ask to check customer terms, fix checkout wording, or compare billing and cancellation records with what customers were told. Works from pasted text, ordered screenshots and exports. Not for business-to-business contracts, non-UK terms or account changes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "consumer-terms",
+    "CMA37",
+    "checkout-notices",
+    "cancellation",
+    "refunds"
+  ],
+  "displayName": "Terms Review",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/terms-review/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/terms-review/README.md"
+}

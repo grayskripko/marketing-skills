@@ -1,0 +1,46 @@
+{
+  "name": "sds-reviews",
+  "version": "0.1.2",
+  "description": "Review supplier safety data sheets (SDS) for missing or contradictory information under US OSHA HazCom. Check one SDS section by section, match a chemical inventory to its SDS library, and compare old and new SDS revisions. Works from pasted SDS text and exports; returns passage-linked findings and supplier questions.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "sds-review",
+    "safety-data-sheet",
+    "sds-compliance",
+    "osha-hazcom",
+    "hazard-communication",
+    "chemical-inventory",
+    "sds-management",
+    "ehs"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SDS Reviews",
+    "shortDescription": "Review safety data sheets for OSHA HazCom gaps",
+    "longDescription": "Review supplier safety data sheets (SDS) for missing or contradictory information under US OSHA HazCom. Check one SDS section by section, match a chemical inventory to its SDS library, and compare old and new SDS revisions. Works from pasted SDS text and exports; returns passage-linked findings and supplier questions.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#7A3E12",
+    "brandColorDark": "#E8A05C",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this supplier SDS for missing or contradictory sections.",
+      "Match our chemical inventory list to these SDS revision dates.",
+      "Compare the old and new SDS for this product and tell me what changed."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-sds-reviews/plugins/sds-reviews/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

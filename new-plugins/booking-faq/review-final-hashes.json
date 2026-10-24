@@ -1,0 +1,17 @@
+{
+  ".claude-plugin/plugin.json": "d34ad67a9e673565ac60dddfcd408c6ac420cc6863198bf5bb59fcb1b6a63535",
+  ".codex-plugin/plugin.json": "dffb7b6131eb01082346657980e48c4637f9373bff0aebbfb32dd8a72b775f44",
+  "BUILD-NOTES.md": "fa9623eeca7e81e4ed35a9368bc9e7ae57497da59cbad70995ae8778587f7e8c",
+  "LICENSE": "56becc0c5e5e0faab553d54c505e43b59a590565175d2f2e4c30046cbaf7ab9d",
+  "PRIVACY.md": "c01a796c1ac118a244862793bab6e5e8ac7af67dc3610dd2829584f45661cf8c",
+  "README.md": "32c2877c3ceb762738bce3a499e82db4d83b6c03ddfcaab216714846e4747607",
+  "assets/icon.svg": "856a05df033e3148c5dec6b2cce4dfd7a03af5f94263982fbe442b59c3a7cc86",
+  "skills/check-booking-copy/SKILL.md": "785ba586b100d5762a01bc80cfcf5f85d9157a0ecfcc1b1d14611f1b27074c3d",
+  "skills/check-booking-copy/references/sources.md": "b7aaaeefc1615d7a73daa33923a5c18aa25497b9d40c293be756d0d28970bfa5",
+  "skills/find-booking-questions/SKILL.md": "222f3eb6305b4e5a0aaa4831dea60154ae4ae87ee736e8d19013a39e776769e1",
+  "skills/find-booking-questions/references/sources.md": "b7aaaeefc1615d7a73daa33923a5c18aa25497b9d40c293be756d0d28970bfa5",
+  "skills/write-booking-faq/SKILL.md": "2f926924af421dacde5d138e5af0550e5c22d39bf9b726a630d1f8a45d3b97dd",
+  "skills/write-booking-faq/references/sources.md": "b7aaaeefc1615d7a73daa33923a5c18aa25497b9d40c293be756d0d28970bfa5",
+  "skills/write-booking-messages/SKILL.md": "bb10d970c34ab2b89b0c33f9ada4ef549ff0dbe7930fbc9517e1d8490323c914",
+  "skills/write-booking-messages/references/sources.md": "b7aaaeefc1615d7a73daa33923a5c18aa25497b9d40c293be756d0d28970bfa5"
+}

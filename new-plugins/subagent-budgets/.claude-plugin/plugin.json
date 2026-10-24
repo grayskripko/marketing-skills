@@ -1,0 +1,19 @@
+{
+  "name": "subagent-budgets",
+  "version": "0.1.0",
+  "description": "Show which delegated agents used your allowance and give the next task a budget and stop plan. Analyze pasted traces, usage exports and supplied configuration; separate billed charges from estimates and draft runtime-specific dispatch limits.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "subagents",
+    "usage-accounting",
+    "dispatch-budget",
+    "retry-limits"
+  ],
+  "displayName": "Subagent Budgets",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

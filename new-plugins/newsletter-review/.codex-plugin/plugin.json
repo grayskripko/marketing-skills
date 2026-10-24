@@ -1,0 +1,42 @@
+{
+  "name": "newsletter-review",
+  "version": "0.1.0",
+  "description": "Check and edit your newsletter using the draft, source excerpts and approved offer terms you supply. Returns corrected passages, a revised issue or subject and preview pairs. Use when you want to “check this issue against my notes,” “edit this newsletter” or “give me subjects for this issue.” Keeps quoted words, attribution, uncertainty, exceptions and sponsor disclosures. You can also supply voice samples and an audience brief. Not for finding new facts, performance reports, legal approval, testing email layout or sending. No accounts or paid APIs are required. No links are fetched.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "newsletter",
+    "newsletter-review",
+    "source-check",
+    "subject-line",
+    "preview-text"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Newsletter Review",
+    "shortDescription": "Check newsletter copy against your sources",
+    "longDescription": "Check and edit your newsletter using the draft, source excerpts and approved offer terms you supply. Returns corrected passages, a revised issue or subject and preview pairs. Use when you want to “check this issue against my notes,” “edit this newsletter” or “give me subjects for this issue.” Keeps quoted words, attribution, uncertainty, exceptions and sponsor disclosures. You can also supply voice samples and an audience brief. Not for finding new facts, performance reports, legal approval, testing email layout or sending. No accounts or paid APIs are required. No links are fetched.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this newsletter against these source notes.",
+      "Edit this issue and keep the approved sponsor terms.",
+      "Write subject and preview pairs for this issue."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/newsletter-review/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

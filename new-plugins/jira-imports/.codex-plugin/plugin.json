@@ -1,0 +1,42 @@
+{
+  "name": "jira-imports",
+  "version": "0.1.0",
+  "description": "Prepare Jira Cloud CSV imports and repair reported import errors. Covers hierarchy and field preparation, user/date/status mappings, importer differences, duplicate prevention, attachment and work-item link constraints, and post-import validation handoffs.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "jira",
+    "csv",
+    "imports",
+    "hierarchy",
+    "parent",
+    "field-mapping"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Jira Imports",
+    "shortDescription": "Prepare and repair Jira CSVs",
+    "longDescription": "Prepare Jira Cloud CSV imports and repair reported import errors. Covers hierarchy and field preparation, user/date/status mappings, importer differences, duplicate prevention, attachment and work-item link constraints, and post-import validation handoffs.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#23465C",
+    "brandColorDark": "#91C8DE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Prepare this CSV so Jira imports the hierarchy and fields correctly.",
+      "This Jira import failed. Fix these rows using the error log."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

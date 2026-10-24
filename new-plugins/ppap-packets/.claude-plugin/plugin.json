@@ -1,0 +1,28 @@
+{
+  "name": "ppap-packets",
+  "version": "0.1.4",
+  "description": "Check a PPAP package before it goes to the customer: match the submission index, pasted evidence, drawing revision and customer checklist into an element-by-element status matrix with stale revisions, wrong part numbers, gaps and reviewer questions. Reconciles ballooned drawing characteristics against dimensional results per cavity, recomputes out-of-tolerance values, capability and gauge R&R, and traces special characteristics from drawing and SCCAF through PFMEA to control plan. Built-in Ford profile (PPAP requirements effective 15 June 2026); other customers use the checklist you paste. For supplier-quality and APQP engineers and PPAP coordinators.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ppap",
+    "ppap-checklist",
+    "part-submission-warrant",
+    "psw",
+    "apqp",
+    "dimensional-results",
+    "special-characteristics",
+    "control-plan",
+    "supplier-quality",
+    "automotive"
+  ],
+  "displayName": "PPAP Packets",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-ppap-packets/plugins/ppap-packets/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/discussions",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-ppap-packets/plugins/ppap-packets/README.md"
+}

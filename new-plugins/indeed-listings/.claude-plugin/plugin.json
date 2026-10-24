@@ -1,0 +1,22 @@
+{
+  "name": "indeed-listings",
+  "version": "0.1.0",
+  "description": "Check an Indeed job posting or explain why it is not showing up. Use when an ad needs checking, a vacancy is missing from search, or a posting message needs explaining. For a posting check, supply approved text, country and actual role/location. For missing-job help, start with the message or search observation and country; add relevant status/history/budget evidence. Returns necessary field corrections or an evidence-based next action.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "indeed",
+    "job-posting",
+    "job-visibility",
+    "recruiting",
+    "posting-policies",
+    "sponsored-jobs"
+  ],
+  "displayName": "Indeed Listings",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "calendly-scheduling",
+  "version": "0.1.0",
+  "description": "Explain why Calendly times are unavailable and which setting to review. Explain routing destinations from pasted form answers and rules, with dated official references. Uses supplied text and exports. Needs pasted Troubleshoot codes and relevant settings.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "calendly",
+    "unavailable-slots",
+    "calendar-conflicts",
+    "buffers",
+    "meeting-limits",
+    "routing-forms"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "displayName": "Calendly Scheduling",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/calendly-scheduling/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/calendly-scheduling/README.md"
+}

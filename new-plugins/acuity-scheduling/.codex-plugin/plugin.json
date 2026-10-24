@@ -1,0 +1,41 @@
+{
+  "name": "acuity-scheduling",
+  "version": "0.1.0",
+  "description": "Diagnose unavailable Acuity slots from appointment durations, padding, resources, availability and calendar/global booking limits. Use when clients cannot see a time, an apparently empty calendar cannot accept a booking, or you want to check whether proposed scheduling changes will make a requested slot fit. Works from pasted settings and exports to explain blockers and, when requested, show targeted corrections. The supplied settings determine the result; missing details become focused questions. Not for booking appointments, changing an account, sending reminders or general calendar management.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "acuity",
+    "appointment availability",
+    "padding",
+    "resources",
+    "booking limits"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Acuity Scheduling",
+    "shortDescription": "Diagnose unavailable Acuity slots from pasted settings and exports.",
+    "longDescription": "Diagnose unavailable Acuity slots from appointment durations, padding, resources, availability and calendar/global booking limits. Use when clients cannot see a time, an apparently empty calendar cannot accept a booking, or you want to check whether proposed scheduling changes will make a requested slot fit. Works from pasted settings and exports to explain blockers and, when requested, show targeted corrections. The supplied settings determine the result; missing details become focused questions. Not for booking appointments, changing an account, sending reminders or general calendar management.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#315E59",
+    "brandColorDark": "#92CFC3",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why is this Acuity time missing? Here are my hours, appointment settings and bookings.",
+      "Check whether these proposed Acuity availability changes let clients book the requested times."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

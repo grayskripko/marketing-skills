@@ -1,0 +1,24 @@
+{
+  "name": "accounting-journals",
+  "version": "0.1.0",
+  "description": "Checks Xero manual journal CSV files before import against the selected native or Conversion Toolbox route, template, account codes, tax names and tracking options. Use when you ask “check my Xero journal CSV,” “why will these journals not import,” or “review my conversion journal mapping.” Works from pasted rows or readable exports, the selected route and the destination organisation’s template and settings. Returns row-specific fixes and balances for each journal, separating draft import from posting readiness. Not for deciding accounting treatment, preparing tax returns, posting entries or synchronising an account.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "manual-journals",
+    "xero",
+    "journal-import",
+    "conversion-toolbox",
+    "account-codes",
+    "tracking"
+  ],
+  "displayName": "Accounting Journals",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/accounting-journals/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/accounting-journals/README.md"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "openapi-review",
+  "version": "0.1.0",
+  "description": "Review my OpenAPI YAML or JSON and return location-cited findings and replacement fragments. Use when I want to check a supplied API contract, understand validator or linter messages, or repair an export before sharing it. Reviews the declared OpenAPI version and separates contract defects from configured rules and tool support. Works from pasted text or readable files without accounts or network requests. Not for generating clients or servers, probing a live API, installing validators, or comparing contracts for consumer migration.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "openapi",
+    "api-contract",
+    "yaml",
+    "json",
+    "validation",
+    "schema-review"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/openapi-review/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/openapi-review/README.md",
+  "displayName": "OpenAPI Review"
+}

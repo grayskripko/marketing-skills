@@ -1,0 +1,42 @@
+{
+  "name": "netsuite-journals",
+  "version": "0.1.0",
+  "description": "Check a NetSuite journal CSV before import, or fix failed rows using pasted errors and reference exports. Explain append versus replacement; existing-line changes need complete current lines, and replacements need every retained populated field and its mapping. Works from pasted text and local exports to explain append versus replacement, validate journal groups and references, and prepare supported CSV corrections.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "netsuite-journals",
+    "journal-csv",
+    "journal-import",
+    "import-errors",
+    "subsidiaries"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "NetSuite Journals",
+    "shortDescription": "Check a NetSuite journal CSV and propose row repairs.",
+    "longDescription": "Check a NetSuite journal CSV before import, or fix failed rows using pasted errors and reference exports. Explain append versus replacement; existing-line changes need complete current lines, and replacements need every retained populated field and its mapping. Works from pasted text and local exports to explain append versus replacement, validate journal groups and references, and prepare supported CSV corrections.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245A73",
+    "brandColorDark": "#83BED2",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this NetSuite journal CSV and tell me whether Update appends or replaces its lines.",
+      "Fix these pasted NetSuite journal import errors using my CSV and reference exports."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/netsuite-journals/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

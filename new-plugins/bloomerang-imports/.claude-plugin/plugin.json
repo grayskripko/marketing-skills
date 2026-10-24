@@ -1,0 +1,21 @@
+{
+  "name": "bloomerang-imports",
+  "version": "0.1.0",
+  "description": "Check a Bloomerang donation CSV before import for missing fields, donor matches, unsupported records and file limits. Use pasted rows or exports to find missing donor details, explain import errors, and prepare separate corrected files with field mappings. Designed for nonprofit staff preparing Bloomerang CRM imports, with row-level repairs that preserve donations and account numbers.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "bloomerang",
+    "donations",
+    "csv",
+    "imports",
+    "constituent-matching",
+    "nonprofit"
+  ],
+  "displayName": "Bloomerang Imports",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

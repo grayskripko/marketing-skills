@@ -1,0 +1,42 @@
+{
+  "name": "payroll-taxes",
+  "version": "0.1.0",
+  "description": "Builds a US federal payroll tax deposit and filing calendar from your payroll records and IRS notices. Derive deposit dates from tax liabilities and return history, track filing deadlines, and turn IRS notices into dated actions. Works from pasted text, selected exports, attachments or user-described screenshots. Requires no account or setup.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "payroll",
+    "federal-payroll",
+    "deposit-calendar",
+    "Form-941",
+    "FUTA",
+    "IRS-notices"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Payroll Taxes",
+    "shortDescription": "US payroll tax calendar",
+    "longDescription": "Builds a US federal payroll tax deposit and filing calendar from your payroll records and IRS notices. Derive deposit dates from tax liabilities and return history, track filing deadlines, and turn IRS notices into dated actions. Works from pasted text, selected exports, attachments or user-described screenshots. Requires no account or setup.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245B57",
+    "brandColorDark": "#8ACCC5",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Use our payroll facts and notices to build a US federal deposit and filing checklist."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/payroll-taxes/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

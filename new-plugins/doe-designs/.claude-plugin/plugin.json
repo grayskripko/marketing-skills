@@ -1,0 +1,28 @@
+{
+  "name": "doe-designs",
+  "version": "0.1.2",
+  "description": "Build a design of experiments (DOE) run matrix from your factors, approved levels, responses, run budget and batch limits. Get screening designs (full and fractional factorial, Plackett-Burman, definitive screening), response surface designs (central composite, Box-Behnken) and mixture designs, with blocks, run order, centre points and a plain alias and estimability explanation. Check an existing design for confounding and runs outside approved operating bounds.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "design-of-experiments",
+    "doe",
+    "fractional-factorial",
+    "central-composite-design",
+    "box-behnken",
+    "mixture-design",
+    "alias-structure",
+    "screening-design",
+    "response-surface",
+    "formulation"
+  ],
+  "displayName": "DOE Designs",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-doe-designs/plugins/doe-designs/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-doe-designs/plugins/doe-designs/README.md"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "mtd-income-tax",
+  "version": "0.1.0",
+  "description": "Turn my income and expense export into a checked pack for my next UK quarterly update. Prepare cumulative UK MTD Income Tax totals, category mappings, missing-record questions and a compatible-software handoff from pasted records, exports or screenshot descriptions. Review corrections to earlier records. Requires no account access; submission is completed in compatible software.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "mtd-income-tax",
+    "quarterly-update",
+    "digital-records",
+    "uk-tax",
+    "sole-trader",
+    "landlord"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MTD Income Tax",
+    "shortDescription": "UK quarterly income tax packs",
+    "longDescription": "Turn my income and expense export into a checked pack for my next UK quarterly update. Prepare cumulative UK MTD Income Tax totals, category mappings, missing-record questions and a compatible-software handoff from pasted records, exports or screenshot descriptions. Review corrections to earlier records. Requires no account access; submission is completed in compatible software.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245C52",
+    "brandColorDark": "#82C7B7",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Turn my income and expense export into a checked pack for my next UK quarterly update.",
+      "I found a mistake in records used for an earlier UK quarterly update. Show me how to correct the pack."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/mtd-income-tax/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

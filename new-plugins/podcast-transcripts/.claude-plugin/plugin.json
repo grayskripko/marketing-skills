@@ -1,0 +1,23 @@
+{
+  "name": "podcast-transcripts",
+  "version": "0.1.0",
+  "description": "Check podcast transcripts and upload settings for Apple Podcasts and Spotify. Get route, display, file and timestamp corrections from supplied settings and exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "podcast-transcripts",
+    "apple-podcasts",
+    "spotify",
+    "vtt",
+    "srt",
+    "transcript-ingestion"
+  ],
+  "displayName": "Podcast Transcripts",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/podcast-transcripts/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/podcast-transcripts/README.md"
+}

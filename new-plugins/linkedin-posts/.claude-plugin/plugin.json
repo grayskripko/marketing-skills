@@ -1,0 +1,23 @@
+{
+  "name": "linkedin-posts",
+  "displayName": "LinkedIn Posts",
+  "version": "0.1.0",
+  "description": "Write LinkedIn posts in your voice, rewrite your profile, and draft messages from the facts and text you supply. Use when you ask “rewrite my profile”, “draft a post in my voice”, or “help me reply to a recruiter”. Paste the relevant text or provide an existing export. You get a draft to review and paste yourself. It can also summarize supplied person or company excerpts for a meeting. Not for account access, live profile searches, sending, publishing, scraping or automated engagement. No account connection or network access.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko/marketing-skills"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "linkedin-profile",
+    "linkedin-post",
+    "message-drafts",
+    "profile-rewrite",
+    "meeting-brief"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/linkedin-posts/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/linkedin-posts/README.md"
+}

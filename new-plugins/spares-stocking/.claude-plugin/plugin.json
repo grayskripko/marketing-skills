@@ -1,0 +1,28 @@
+{
+  "name": "spares-stocking",
+  "version": "0.1.2",
+  "description": "Find spare parts that are short, below reorder point or set with the wrong min/max, from stock, reservations, purchase orders, usage and lead times you paste. Matches part numbers across the records, catches unit, revision and duplicate-item mismatches, counts only usable stock and firm receipts, handles slow-moving and intermittent demand with a stated assumption, and checks a critical spare parts list against stock and equipment parts lists. For storeroom and MRO planners and reliability engineers.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "spare-parts",
+    "spare-parts-inventory",
+    "critical-spares",
+    "min-max",
+    "reorder-point",
+    "safety-stock",
+    "mro-inventory",
+    "intermittent-demand",
+    "storeroom",
+    "maintenance"
+  ],
+  "displayName": "Spares Stocking",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-spares-stocking/plugins/spares-stocking/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/discussions",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-spares-stocking/plugins/spares-stocking/README.md"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "newsletter-analytics",
+  "version": "0.1.3",
+  "description": "Checks why newsletter reports disagree, compares issue results, reviews subscriber growth and writes a short results memo. Use when you ask “why are these click rates different?”, “which issue did better?” or “which source brought readers who stayed?” Works from pasted reports or local exports. Shows formulas and separates measured results from possible explanations. Not for connecting accounts, live dashboards, writing newsletter copy, sending messages or changing subscriber lists.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "newsletter",
+    "newsletter-analytics",
+    "subscriber-growth",
+    "click-rates",
+    "cohort-analysis"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Newsletter Analytics",
+    "shortDescription": "Compare newsletter results",
+    "longDescription": "Checks why newsletter reports disagree, compares issue results, reviews subscriber growth and writes a short results memo. Use when you ask “why are these click rates different?”, “which issue did better?” or “which source brought readers who stayed?” Works from pasted reports or local exports. Shows formulas and separates measured results from possible explanations. Not for connecting accounts, live dashboards, writing newsletter copy, sending messages or changing subscriber lists.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Explain why these newsletter reports disagree.",
+      "Compare these issue results and suggest one test.",
+      "Review growth from these subscriber snapshots."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "bloomerang-imports",
+  "version": "0.1.0",
+  "description": "Check a Bloomerang donation CSV before import for missing fields, donor matches, unsupported records and file limits. Use pasted rows or exports to find missing donor details, explain import errors, and prepare separate corrected files with field mappings. Designed for nonprofit staff preparing Bloomerang CRM imports, with row-level repairs that preserve donations and account numbers.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "bloomerang",
+    "donations",
+    "csv",
+    "imports",
+    "constituent-matching",
+    "nonprofit"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Bloomerang Imports",
+    "shortDescription": "Check a Bloomerang donation CSV before import.",
+    "longDescription": "Check a Bloomerang donation CSV before import for missing fields, donor matches, unsupported records and file limits. Use pasted rows or exports to find missing donor details, explain import errors, and prepare separate corrected files with field mappings. Designed for nonprofit staff preparing Bloomerang CRM imports, with row-level repairs that preserve donations and account numbers.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#345C4B",
+    "brandColorDark": "#95C7A6",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this donation CSV before I import it into Bloomerang CRM.",
+      "Make separate individual and organization donation CSVs from these rows."
+    ],
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

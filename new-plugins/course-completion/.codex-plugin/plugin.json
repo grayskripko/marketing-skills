@@ -1,0 +1,41 @@
+{
+  "name": "course-completion",
+  "version": "0.1.0",
+  "description": "Find why a Teachable learner's next lesson is locked or Complete and Continue will not advance. Use pasted settings and learner records to find why a lesson stays locked or Complete and Continue does not advance. Review quiz attempts separately to distinguish passing scores, blank results, remaining retakes and exhausted attempts. Return case evidence and a targeted next check or recovery recommendation. Not for creating courses, changing accounts or connecting to a school.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "teachable",
+    "course-completion",
+    "course-compliance",
+    "learner-progress",
+    "quiz-retakes"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Course Completion",
+    "shortDescription": "Find why Teachable lessons stay locked.",
+    "longDescription": "Find why a Teachable learner's next lesson is locked or Complete and Continue will not advance. Use pasted settings and learner records to find why a lesson stays locked or Complete and Continue does not advance. Review quiz attempts separately to distinguish passing scores, blank results, remaining retakes and exhausted attempts. Return case evidence and a targeted next check or recovery recommendation. Not for creating courses, changing accounts or connecting to a school.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#286B5A",
+    "brandColorDark": "#7FCDB6",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Diagnose why this Teachable learner cannot continue from these settings and progress records.",
+      "Review these Teachable quiz scores and attempts; tell me who can retry."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

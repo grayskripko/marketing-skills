@@ -1,0 +1,28 @@
+{
+  "name": "gage-studies",
+  "version": "0.1.2",
+  "description": "Review Gage R&R results and measurement tables to decide whether a measurement system is acceptable. Reads Minitab, JMP, spreadsheet or AIAG-form output, calculates crossed Gage R&R from part, operator and trial readings, and plans crossed, nested or Type 1 gage studies. Explains %Study Var, %Contribution, %Tolerance and distinct categories against the right denominator, and asks for the evidence a verdict needs. For metrologists and quality engineers working from pasted or exported data.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "gage-rr",
+    "gage-r-and-r",
+    "msa",
+    "measurement-system-analysis",
+    "gage-study",
+    "repeatability",
+    "reproducibility",
+    "type-1-gage-study",
+    "quality-engineering",
+    "metrology"
+  ],
+  "displayName": "Gage Studies",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-gage-studies/plugins/gage-studies/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-gage-studies/plugins/gage-studies/README.md"
+}

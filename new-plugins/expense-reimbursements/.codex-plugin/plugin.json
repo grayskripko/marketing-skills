@@ -1,0 +1,41 @@
+{
+  "name": "expense-reimbursements",
+  "version": "0.1.0",
+  "description": "Write an employee expense reimbursement policy and check receipts for missing evidence. Use when you want to write an employee reimbursement policy, check receipts against your rules, or reconcile an expense advance. Works from pasted rules, expense exports, and screenshots you describe. Separates employer approval from federal accountable-plan requirements, identifies missing records, and flags amounts for payroll review. Covers US employees; not personal tax returns, contractor expenses, state reimbursement mandates, payments, or payroll changes.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "expense-policy",
+    "employee-reimbursement",
+    "accountable-plan",
+    "receipts",
+    "expense-advances"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Expense Reimbursements",
+    "shortDescription": "Expense policy, receipt checks",
+    "longDescription": "Write an employee expense reimbursement policy and check receipts for missing evidence. Use when you want to write an employee reimbursement policy, check receipts against your rules, or reconcile an expense advance. Works from pasted rules, expense exports, and screenshots you describe. Separates employer approval from federal accountable-plan requirements, identifies missing records, and flags amounts for payroll review. Covers US employees; not personal tax returns, contractor expenses, state reimbursement mandates, payments, or payroll changes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245C4B",
+    "brandColorDark": "#83CBB0",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Turn these reimbursement rules into a US employee expense policy and list the decisions we still need to make.",
+      "Check this expense export and tell me exactly what evidence is missing.",
+      "Reconcile this travel advance against the receipts and returned money."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "cms1500-claims",
+  "version": "0.1.0",
+  "description": "Check CMS-1500 claim boxes before submission and return corrections and missing evidence under US Medicare Chapter 26 and supplied payer instructions. Check provider and NPI mappings from pasted fields or readable exports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "cms1500",
+    "cms-1500",
+    "medicare",
+    "professional-claims",
+    "claim-preflight",
+    "provider-roles"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "displayName": "CMS1500 Claims"
+}

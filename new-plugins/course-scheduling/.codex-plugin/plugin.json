@@ -1,0 +1,41 @@
+{
+  "name": "course-scheduling",
+  "version": "0.1.0",
+  "description": "Find when Teachable course sections unlock and when their emails go out, in local time and UTC. Works from pasted settings and exports to build calendars and check release dates, announcement timing and access exceptions.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "course-scheduling",
+    "teachable",
+    "drip-content",
+    "release-calendar",
+    "enrollment",
+    "email-announcements"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Course Scheduling",
+    "shortDescription": "Build and check course release calendars",
+    "longDescription": "Find when Teachable course sections unlock and when their emails go out, in local time and UTC. Builds a calendar from pasted sections and original enrollments, then checks date setup, announcement subjects, activation timing and access exceptions. Shows local dates with UTC offsets across daylight-saving changes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#315D76",
+    "brandColorDark": "#86BCD4",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Turn these Teachable sections and original enrollment dates into a local and UTC calendar.",
+      "Check this Teachable drip plan and explain which announcements are scheduled or suppressed."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

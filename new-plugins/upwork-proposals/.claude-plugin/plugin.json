@@ -1,0 +1,23 @@
+{
+  "name": "upwork-proposals",
+  "version": "0.1.0",
+  "description": "Assess an Upwork job and prepare a proposal from the actual portfolio, screening questions, rate and current Connects conditions. Use pasted jobs, invitations, portfolio records and proposal forms to check fit, draft the cover letter and screening answers, and calculate base and optional boost spending.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "upwork",
+    "proposals",
+    "screening-questions",
+    "connects",
+    "portfolio"
+  ],
+  "displayName": "Upwork Proposals",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/upwork-proposals/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/upwork-proposals/README.md"
+}

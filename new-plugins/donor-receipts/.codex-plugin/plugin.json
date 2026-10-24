@@ -1,0 +1,43 @@
+{
+  "name": "donor-receipts",
+  "version": "0.1.0",
+  "description": "Review US donation acknowledgments and Givebutter receipts using gift records, approved benefit values, account status and campaign/account message settings. Use when you ask to fix a donation tax letter, check a benefit disclosure, or explain a Givebutter receipt amount or message. Works from pasted receipts, gift exports and settings text. Returns corrected acknowledgment wording, itemized amount checks and specific message repairs. Not for fundraising appeals, tax-return preparation, 1099-K filing, account access or sending receipts.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "donation receipts",
+    "donor acknowledgments",
+    "Givebutter",
+    "benefit disclosure"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/donor-receipts/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/donor-receipts/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Donor Receipts",
+    "shortDescription": "Review donation acknowledgments and receipt settings",
+    "longDescription": "Review US donation acknowledgments and Givebutter receipts using gift records, approved benefit values, account status and campaign/account message settings. Use when you ask to fix a donation tax letter, check a benefit disclosure, or explain a Givebutter receipt amount or message. Works from pasted receipts, gift exports and settings text. Returns corrected acknowledgment wording, itemized amount checks and specific message repairs. Not for fundraising appeals, tax-return preparation, 1099-K filing, account access or sending receipts.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#235B49",
+    "brandColorDark": "#8DC8AE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this donation acknowledgment against these gift records and approved benefit values.",
+      "Review this Givebutter receipt using these account and campaign settings."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/donor-receipts/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

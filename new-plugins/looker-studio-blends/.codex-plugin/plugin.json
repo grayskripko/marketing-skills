@@ -1,0 +1,44 @@
+{
+  "name": "looker-studio-blends",
+  "version": "0.1.0",
+  "description": "Design and troubleshoot Looker Studio blends from supplied exports and settings: join conditions, aggregation grain, filters, date ranges and calculated fields. Return concrete configurations and expected totals to check.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "looker-studio",
+    "data-studio",
+    "blends",
+    "join",
+    "aggregation",
+    "dashboard-totals"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Looker Studio Blends",
+    "shortDescription": "Diagnose blend totals",
+    "longDescription": "Design and troubleshoot Looker Studio blends from supplied exports and settings: join conditions, aggregation grain, filters, date ranges and calculated fields. Return concrete configurations and expected totals to check.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245A70",
+    "brandColorDark": "#80BDD0",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "My Looker Studio totals changed after blending. Here are the exports and settings; show which join or grouping caused it.",
+      "Help me fix this Looker Studio blend so the totals keep their meaning.",
+      "Design a Looker Studio blend from these exports and goals, including joins, grain, filters, date ranges and calculated fields."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/looker-studio-blends/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

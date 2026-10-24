@@ -1,0 +1,21 @@
+{
+  "name": "classroom-rubrics",
+  "version": "0.1.0",
+  "description": "Repair a Google Classroom rubric or official Sheets export; preserve its template and validate scoring, criteria, performance levels and order. Use when a rubric has duplicate scores, mixed scoring, misordered levels, or a failed Sheets import. Works from pasted text and supplied exports, returning corrected content and a recovery plan. For damaged exports, get edits to apply in Classroom and fresh-export steps; the supplied file stays unchanged.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "classroom",
+    "rubrics",
+    "scoring",
+    "performance-levels",
+    "sheets-export"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "displayName": "Classroom Rubrics"
+}

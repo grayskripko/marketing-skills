@@ -1,0 +1,41 @@
+{
+  "name": "slack-exports",
+  "version": "0.1.0",
+  "description": "Read this Slack export, rebuild the threads, and tell me what this archive leaves out. Reconstruct supplied Slack JSON threads, summarize supported decisions, and explain date, conversation, retention and attachment gaps. Use pasted records, TXT history or screenshot descriptions when an export is unavailable. No account access or network requests.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "slack-export",
+    "archive",
+    "threads",
+    "retention",
+    "conversation-history"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Slack Exports",
+    "shortDescription": "Slack threads and archive gaps",
+    "longDescription": "Read this Slack export, rebuild the threads, and tell me what this archive leaves out. Reconstruct supplied Slack JSON threads, summarize supported decisions, and explain date, conversation, retention and attachment gaps. Use pasted records, TXT history or screenshot descriptions when an export is unavailable. No account access or network requests.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#234E60",
+    "brandColorDark": "#7AB3C7",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Read this Slack export, rebuild the threads, and tell me what this archive leaves out.",
+      "Tell me whether this export includes DMs and attachment contents."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "tokenizer-templates",
+  "version": "0.1.0",
+  "description": "Paste tokenizer config, template, special-token map and rendered transcript; receive a serialization audit and corrected template/caller text. Use when you ask \u201cwhy is BOS appearing twice,\u201d \u201ccheck my rendered chat,\u201d or \u201cis this serialization right\u201d and can paste tokenizer or processor exports, messages and caller flags. Trace exact message boundaries, token ownership, whitespace and template selection to the supplied artifacts. Return the defects and corrected caller or template fragments, with a clear missing-detail marker where the trained format is unknown. Not for writing system prompts, choosing models, counting billing costs or executing training.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "tokenizer",
+    "chat-template",
+    "serialization",
+    "jinja",
+    "special-tokens",
+    "prefill"
+  ],
+  "displayName": "Tokenizer Templates",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

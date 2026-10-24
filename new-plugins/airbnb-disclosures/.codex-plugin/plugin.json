@@ -1,0 +1,42 @@
+{
+  "name": "airbnb-disclosures",
+  "version": "0.1.0",
+  "description": "Check Airbnb cameras and noise monitors, and fix their listing disclosures. Use pasted inventories, listing descriptions and safety-field exports to find prohibited placements, missing camera locations and misleading noise wording. Get corrective actions and supported replacement text, including the narrow Japan entryway exception.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "airbnb",
+    "device-inventory",
+    "camera-disclosure",
+    "noise-monitor",
+    "listing-safety"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Airbnb Disclosures",
+    "shortDescription": "Check cameras and fix listing disclosures",
+    "longDescription": "Check Airbnb cameras and noise monitors, and fix their listing disclosures. Use pasted inventories, listing descriptions and safety-field exports to find prohibited placements, missing camera locations and misleading noise wording. Get corrective actions and supported replacement text, including the narrow Japan entryway exception.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245C58",
+    "brandColorDark": "#80C5BE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check my Airbnb device inventory and listing text for camera and noise-monitor problems.",
+      "Rewrite my camera disclosures and show the safety fields to update."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/airbnb-disclosures/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

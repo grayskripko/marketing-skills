@@ -1,0 +1,22 @@
+{
+  "name": "jira-automation",
+  "version": "0.1.0",
+  "description": "Create, edit and diagnose Jira Cloud automation rules from supplied requirements, configuration and audit evidence. Draft triggers, conditions, branches, actions and smart values; review actor permissions and define audit-log tests. Diagnose service limits, retrieval caps, branch context and field-edit errors. Produce builder steps from pasted requirements, JSON exports, audit-log text or described screenshots.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "jira-cloud",
+    "automation",
+    "jira-automation",
+    "service-limits"
+  ],
+  "displayName": "Jira Automation",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/jira-automation/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/jira-automation/README.md"
+}

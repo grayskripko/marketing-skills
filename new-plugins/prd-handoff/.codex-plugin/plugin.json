@@ -1,0 +1,42 @@
+{
+  "name": "prd-handoff",
+  "version": "0.1.0",
+  "description": "Compare a versioned product requirements document (PRD) with stories and acceptance criteria. Use when you ask “what was dropped or added?” or “give me the smallest ticket changes.” See which requirements the criteria cover, with exact source passages. Find missing conditions and additions without source support, then get proposed wording fixes. Supply authorized pasted text or readable exports and approved changes. Product and engineering owners review proposed edits. Not for checking implementation, security, compliance or readiness to build. No live tracker is read or edited, and no URLs are fetched. No account or paid API is required.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "prd",
+    "user-stories",
+    "acceptance-criteria",
+    "requirements",
+    "handoff"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PRD Handoff",
+    "shortDescription": "Compare PRDs, stories and acceptance criteria",
+    "longDescription": "Compare a versioned product requirements document (PRD) with stories and acceptance criteria. Use when you ask “what was dropped or added?” or “give me the smallest ticket changes.” See which requirements the criteria cover, with exact source passages. Find missing conditions and additions without source support, then get proposed wording fixes. Supply authorized pasted text or readable exports and approved changes. Product and engineering owners review proposed edits. Not for checking implementation, security, compliance or readiness to build. No live tracker is read or edited, and no URLs are fetched. No account or paid API is required.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Compare this approved PRD with our stories. What was dropped or added?",
+      "Our permissions changed after review. Show which criteria disagree.",
+      "Propose the smallest ticket text changes from this gap review."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

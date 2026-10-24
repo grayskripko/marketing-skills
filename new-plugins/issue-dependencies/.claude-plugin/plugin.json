@@ -1,0 +1,21 @@
+{
+  "name": "issue-dependencies",
+  "displayName": "Issue Dependencies",
+  "version": "0.1.0",
+  "description": "Audit a GitHub issue graph, distinguishing parent/sub-issue hierarchy from blocking dependencies and checking direction, counts and nesting limits. Use pasted issue text, CSV rows or JSON exports to find reversed blocker edges, conflicting parents, over-limit trees and mismatched relationship counts. Receive separate hierarchy and blocker findings with reviewable corrections and explicit counting scopes. Analyze supplied rows without accessing or changing repositories.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "issue-dependencies",
+    "github-issues",
+    "sub-issues",
+    "blocking",
+    "issue-graph"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

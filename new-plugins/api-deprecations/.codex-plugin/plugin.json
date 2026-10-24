@@ -1,0 +1,42 @@
+{
+  "name": "api-deprecations",
+  "version": "0.1.0",
+  "description": "Check API deprecation notices and retirement dates against response headers and supplied policy, or draft a retirement notice and migration guide from approved endpoint changes. Checks deprecation and sunset formats, affected resources and notice periods; drafts retirement notices and migration passages from pasted text or exports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "api-deprecations",
+    "api-retirement",
+    "deprecation-header",
+    "sunset-header",
+    "migration-notice"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "API Deprecations",
+    "shortDescription": "Check API deprecation and draft retirement notices.",
+    "longDescription": "Check API deprecation notices and retirement dates against response headers and supplied policy, or draft a retirement notice and migration guide from approved endpoint changes. Checks deprecation and sunset formats, affected resources and notice periods; drafts retirement notices and migration passages from pasted text or exports.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#24536B",
+    "brandColorDark": "#87C7DF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check our API retirement notice, response headers and endpoint docs for scope and date conflicts.",
+      "Rewrite this API deprecation notice and migration section using the approved replacement details."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/main/new-plugins/api-deprecations",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/api-deprecations/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

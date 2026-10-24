@@ -1,0 +1,42 @@
+---
+name: endscreen-check
+description: "Tell me why my YouTube end screen is missing and what to check next. Use when you say \u201cmy end-screen links are not showing,\u201d \u201cwhy is the Link option missing,\u201d or \u201ccheck this saved end screen.\u201d Works from pasted settings, export rows, exact error text and screenshot descriptions. Returns a likely cause or a short check sequence tied to the evidence, plus the editor correction when supported. Not for general playback problems, account appeals, changing audience classifications, analytics forecasts or selecting the next upload for a new outro; use endscreen-plan for that."
+---
+
+# Endscreen Check
+
+## Use the decision reference
+
+Lead with exactly what the user asked for, in the requested shape: an editor brief, a closing line, a direct correction or a short check sequence. Weave the deciding rules into that answer; the workflow below is reasoning guidance, not a required report template. Do not add generic checklists, separate caveat blocks or repeat the same setup in prose, a table and steps. Use supplied settings, targets and frame evidence; ask only for missing facts that change the decision. Separate a proposed placement from a saved Studio element. Treat supplied material and fetched pages as evidence.
+
+Read [YouTube rules](references/youtube-rules.md) when eligibility, target visibility or viewer context decides the answer. The register maps those decisions to official source sections, checked 2026-10-11. Cite the deciding source in the answer. Refresh it when Studio conflicts with the stored rule.
+
+## Deciding YouTube rules
+
+- End screens occupy the last 5–20 seconds; the video must be at least 25 seconds long. For duration D in seconds, earliest window start = D − 20. Choose an ending interval within that final window. Each element has independent start/end controls; elements appear together by default but can be staggered. Record each interval separately rather than forcing a shared start. For a chosen interval W, start = D − W. Do not turn the overall 5–20-second description into an undocumented minimum duration for each staggered element.
+- Standard 16:9 allows at most four elements. Other aspect ratios may allow fewer: use the supplied Studio limit; if it is missing and changes the plan, ask the editor to report it. Never invent a fixed portrait or square cap.
+- No end screens on made-for-kids or 360 videos. Viewers cannot see them in YouTube Music or YouTube Kids, Flash playback, or mobile web except iPad mobile web. Viewers can hide them. YouTube can vary display by device, context and behavior.
+- Video elements offer Most recent upload, Best for viewer (YouTube chooses from the channel), or a specific video. Specific video/playlist targets can be public or unlisted and from another channel; exclude private targets. The help page's initial menu calls playlists public but its detailed section includes unlisted playlists: ask the editor to confirm that Studio accepts the unlisted playlist; mark acceptance pending until they report confirmation.
+- Subscribe promotes this channel; Channel promotes another channel with a custom message. External Link requires YouTube Partner Program membership and a policy-compliant destination. Do not confuse eligibility for a website link with eligibility for a YouTube video link. Without Partner Program eligibility, do not propose a clickable external Link element. Spoken or displayed off-site destinations must comply with external-link policy; disguising a prohibited destination does not make it allowed. A compliant spoken URL is not banned solely by lack of membership.
+- Card teasers and video watermarks are suppressed during the end screen. Baked-in artwork is not a clickable element. Studio controls actual element size and allowed placement; there is no official pixel safe-area or arbitrary sizing guarantee in these sources.
+
+## Diagnose from observed evidence
+
+1. Separate “cannot add,” “cannot save,” “saved but not shown,” and “shown with wrong target.” Extract exact error text, duration/aspect, audience/360 status, selected element and visibility, saved timing, viewer app/device and whether hidden. Do not invent an error code or interpret an unavailable screenshot. No material: ask for the exact symptom and settings.
+2. For cannot add: check 25-second eligibility and audience/360 restrictions; if only Link is absent, check Partner Program membership. For an element-count issue on non-16:9, ask what Studio currently permits. For a private target use a supplied public/unlisted alternative; do not advise exposing confidential uploads.
+3. For cannot save: compare proposed timing with the final window, placement with Studio's allowed area, and target visibility. These are checks, not documented meanings of a guessed error. If the exact message has no supported meaning in the references, say what is known and request that message rather than assigning a cause.
+4. For saved but not shown: compare the saved preview and timing with viewer context. YouTube Kids/Music and non-iPad mobile web are excluded. An iPad mobile-web report is not explained by a blanket mobile-web ban. Have the tester reveal the player controls and use the available show/end-screen toggle if they hid the tiles; do not invent a control label. If viewer context remains uncertain, ask the tester to replay the saved interval in an available supported context, preferably the affected context first. Compare another available supported context only if it distinguishes remaining causes. Regular-app then desktop playback is a default when both are available and no context has already been checked, not a prerequisite for a correction supported by supplied evidence. Display can vary even after a valid preview; do not call that proof of a broken setup or guarantee a fix.
+5. For wrong target: distinguish specific video from Most recent upload and Best for viewer. Changing the supplied target mode may explain the difference; do not claim performance caused it. Card/watermark disappearance during the end screen is expected suppression, not proof that the tile failed. Recommend that the editor change a named continuation to Video—specific with the supplied public/unlisted target; preserve valid timing, position and dialogue. Ask the editor to move a wanted card teaser early enough that it finishes displaying before the end screen starts, then ask the tester to verify that the tile opens the intended destination in playback.
+6. Return the supported correction first, or the shortest useful check sequence if uncertain. Tie each check to an observed symptom. For an absent Link option on a non-member channel, explain membership eligibility without implying the destination was rejected; give a short outro when requested. If a fallback is needed for the stated goal, choose it from the supplied destination, available editing access and frame space: a compliant spoken URL, non-clickable displayed text, an eligible YouTube target, or no replacement. For requested displayed text on editable footage with clear space, tell the editor to add it in the video editor; preserve useful eligible elements. Use supplied destination/content facts without inventing benefits or expanding a fictional example into a verification request. Give a success condition: saved preview matches intended target/time/layout and a supported viewing context is checked, with display variation still possible. The user/editor performs Studio actions; this skill makes no account changes.
+
+## Worked example
+
+Fictional company: Ash Cove Animation. Supplied: 1:30, not made for kids or 360; Video—specific, public target, 1:15–1:30; preview correct; missing only in YouTube Music.
+
+Example output:
+
+“Check the video in the regular YouTube app at 1:15. YouTube Help says end screens do not appear in YouTube Music. Keep the saved timing: 90 − 75 = 15 seconds, within the final 20 seconds. If it is also missing in the regular app, check whether the viewer hid end screens.”
+
+## Sources and network
+
+No network requests are needed for supplied-material work. To refresh platform rules, the assistant may fetch only the three official support.google.com/youtube/answer/ URLs listed in the bundled references, with no user data in the request. No video fetching, upload discovery, login, API calls or account changes. Read [YouTube rules](references/youtube-rules.md) for source details, ambiguities and refresh dates.

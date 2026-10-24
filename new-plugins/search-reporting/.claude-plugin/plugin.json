@@ -1,0 +1,21 @@
+{
+  "name": "search-reporting",
+  "version": "0.1.0",
+  "description": "Explain Google Search Console AI impressions and why chart and page totals differ. Use when you need a client explanation, reportable growth figures or a reconciliation of several supplied exports and original screen values. Works from pasted report text, CSV files, filter labels and file or cell locations. Produces a readable client table and, when requested, a reusable source ledger and calculation record. Keeps dedicated AI reporting separate from ordinary Web comparisons. Not for SEO content writing, ranking recommendations, account monitoring or changing Search Console settings.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "search-console",
+    "generative-ai",
+    "ai-impressions",
+    "search-reporting",
+    "export-reconciliation"
+  ],
+  "displayName": "Search Reporting",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

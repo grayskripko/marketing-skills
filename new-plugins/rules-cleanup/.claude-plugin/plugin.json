@@ -1,0 +1,21 @@
+{
+  "name": "rules-cleanup",
+  "version": "0.1.0",
+  "description": "Find conflicting or stale repo rules and prepare a small repair patch. Review supplied CLAUDE.md, AGENTS.md, rule files, SDK configs and traces; map client-specific loading, check command definitions, and preserve deployment approvals. Apply instruction-file edits only when requested.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "repo-rules",
+    "agent-instructions",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "instruction-scope"
+  ],
+  "displayName": "Rules Cleanup",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

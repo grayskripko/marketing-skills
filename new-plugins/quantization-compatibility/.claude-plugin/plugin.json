@@ -1,0 +1,20 @@
+{
+  "name": "quantization-compatibility",
+  "version": "0.1.0",
+  "description": "Check whether my quantized model will load in vLLM on my GPU. Use when you ask “will this quantized model load?”, “which combinations are supported?” or “what evidence is missing?” with pasted metadata, configuration or environment exports. Return supported, unsupported or unresolved combinations, the fields that decide each verdict, official source links and the next required evidence. Covers weight, activation and KV-cache distinctions, hardware-method tables and version-specific kernel constraints. Not for quantizing weights, installing backends, estimating GPU capacity or benchmarking accuracy and speed.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "quantization",
+    "vllm",
+    "awq",
+    "fp8",
+    "gpu-compatibility",
+    "checkpoint"
+  ],
+  "displayName": "Quantization Compatibility"
+}

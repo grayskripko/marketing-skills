@@ -1,0 +1,22 @@
+{
+  "name": "excel-links",
+  "version": "0.1.0",
+  "description": "Inventory Excel external dependencies in formulas, names, objects and connections, diagnose refresh problems, and plan safe source changes or fixed snapshots.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "excel",
+    "excel-links",
+    "external-references",
+    "link-repair"
+  ],
+  "displayName": "Excel Links",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/excel-links/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/excel-links/README.md"
+}

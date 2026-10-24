@@ -1,0 +1,17 @@
+{
+  "scope": "round3 review-youtube-readout; manual simulations and local checks only; no new live comparison",
+  "sha256": {
+    ".claude-plugin/plugin.json": "39814b105d6f8384328c02100d54221e8b74fd8313dfd7662ed6d5788ee885e2",
+    ".codex-plugin/plugin.json": "dc3c22c0920991930f32f3c4c1087d3bbc0a5e92b665d92e95f6ed71a03ec4fd",
+    "README.md": "368773836e34c59a774e6e3ddb2e1944bba45e2c06d4dc52d51d387290bb139f",
+    "PRIVACY.md": "ffa5395360f01765063182a5a9d1acf6a066652250eebc16be86a30bf0028c8b",
+    "LICENSE": "56becc0c5e5e0faab553d54c505e43b59a590565175d2f2e4c30046cbaf7ab9d",
+    "assets/icon.svg": "a1be7fdcd4eef22e6c8bc6ad3dc7c1859aa876ba8dc3dda7afb859ef45a4e765",
+    "skills/align-video-exports/SKILL.md": "9d10a85b652b8daab83d132796e245b926ff8c4efc6ee8802d45d0abd0475ebc",
+    "skills/plan-next-video-experiment/SKILL.md": "1514135104df832f508c008f309fe4bba43d609dd5f0a540428575094fc2e5a8",
+    "skills/read-channel-performance/SKILL.md": "999f888e1ffecfbff53ec6d7980f5eb90cdbda77bd70d0cfcc2447ec7b04fb57",
+    "skills/align-video-exports/references/sources.md": "78abfbde508e0391839f2bc6b64b639d8a8db38ea441119f9a5f82d7f050ad63",
+    "skills/plan-next-video-experiment/references/sources.md": "78abfbde508e0391839f2bc6b64b639d8a8db38ea441119f9a5f82d7f050ad63",
+    "skills/read-channel-performance/references/sources.md": "78abfbde508e0391839f2bc6b64b639d8a8db38ea441119f9a5f82d7f050ad63"
+  }
+}

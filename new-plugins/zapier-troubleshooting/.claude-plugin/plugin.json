@@ -1,0 +1,22 @@
+{
+  "name": "zapier-troubleshooting",
+  "version": "0.1.5",
+  "description": "Troubleshoot Zapier setup, authentication, mappings, filters and paths, rate limits, and failed or held runs. Review supplied run history and audit-log evidence to identify the smallest fix, verify its outcome, and assess replay eligibility, duplicate risk, workflow changes, and task cost. Produce diagnosis tables and recovery checklists.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "zapier",
+    "failed-runs",
+    "held-runs",
+    "replay",
+    "workflow-recovery"
+  ],
+  "displayName": "Zapier Troubleshooting",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-zapier-troubleshooting/plugins/zapier-troubleshooting/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-zapier-troubleshooting/plugins/zapier-troubleshooting/README.md"
+}

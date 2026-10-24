@@ -1,0 +1,42 @@
+{
+  "name": "subaward-monitoring",
+  "version": "0.1.0",
+  "description": "Convert US federal subrecipient reports, award terms and audit findings into a 2 CFR 200.332 monitoring checklist with evidence, owners and corrective actions. Use pasted text or readable exports to review subaward terms, risk factors, financial and performance reports, audit coverage and corrective-action evidence. Build the checklist or follow up audit findings with documented responsibility and deadline bases.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "subaward",
+    "subrecipient-monitoring",
+    "2-cfr-200-332",
+    "corrective-action",
+    "single-audit"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Subaward Monitoring",
+    "shortDescription": "Build monitoring checklists with evidence, owners and corrective actions.",
+    "longDescription": "Convert US federal subrecipient reports, award terms and audit findings into a 2 CFR 200.332 monitoring checklist with evidence, owners and corrective actions. Use pasted text or readable exports to review subaward terms, risk factors, financial and performance reports, audit coverage and corrective-action evidence. Build the checklist or follow up audit findings with documented responsibility and deadline bases.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#285B53",
+    "brandColorDark": "#8CCCBF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Build a monitoring checklist from these subaward terms and quarterly reports.",
+      "Turn these audit findings into an owner and corrective-action follow-up table."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/subaward-monitoring/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

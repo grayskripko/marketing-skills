@@ -1,0 +1,22 @@
+{
+  "name": "openapi-compatibility",
+  "version": "0.1.0",
+  "description": "Turn paired OpenAPI exports or an exported diff into a consumer-impact matrix and migration checklist. Use when you ask whether old clients will still work, which consumers a contract change affects, or what must change before an API upgrade. Works with pasted YAML, JSON, change reports and supplied consumer notes. Separates request acceptance, response guarantees, generated-client concerns and runtime evidence. Not for validating one specification, generating SDKs, writing release notes or deploying API changes.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "openapi",
+    "api compatibility",
+    "breaking changes",
+    "consumer impact",
+    "api migration"
+  ],
+  "displayName": "OpenAPI Compatibility",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/openapi-compatibility/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/openapi-compatibility/README.md"
+}

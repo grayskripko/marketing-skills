@@ -1,0 +1,28 @@
+{
+  "name": "ldar-records",
+  "version": "0.1.2",
+  "description": "Reconcile LDAR records for valves under EPA NSPS subpart VVa: turn component, Method 21 monitoring, calibration, repair, delay-of-repair and remonitoring exports into a leak-by-leak chronology checked against the 500 ppm leak definition and the 5-day first-attempt and 15-day repair deadlines. Check calibration and drift records behind each reading, delay-of-repair justifications, monitoring frequency and percent leaking valves, and get a missing-evidence queue. For LDAR coordinators and environmental specialists working from pasted exports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ldar",
+    "leak-detection-and-repair",
+    "method-21",
+    "nsps-vva",
+    "valve-leaks",
+    "delay-of-repair",
+    "fugitive-emissions",
+    "calibration-drift",
+    "environmental-compliance",
+    "refinery"
+  ],
+  "displayName": "LDAR Records",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-ldar-records/plugins/ldar-records/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-ldar-records/plugins/ldar-records/README.md"
+}

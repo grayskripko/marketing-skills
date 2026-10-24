@@ -1,0 +1,21 @@
+{
+  "name": "scope-changes",
+  "version": "0.1.0",
+  "description": "Check whether a new client request is extra work by comparing it with the approved scope and later approved changes. Use when you ask “is this extra work?”, “which version did they approve?”, “write a change order”, or “help me reply to the client.” Paste the scope, approval messages and new client request. Add your rates or estimates for proposed costs. Keeps included revisions, repairs to agreed work, extra work and unclear requests separate, with supporting passages. Prices and dates proposed in a draft still need your review. Not for sending messages, deciding whether contracts are legally enforceable, collecting payment or implementing software changes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "scope-changes",
+    "scope-of-work",
+    "client-reply",
+    "change-order",
+    "approved-amendments"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "displayName": "Scope Changes"
+}

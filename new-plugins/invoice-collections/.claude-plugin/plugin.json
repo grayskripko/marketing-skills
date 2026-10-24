@@ -1,0 +1,23 @@
+{
+  "name": "invoice-collections",
+  "version": "0.1.0",
+  "description": "Draft a proper overdue-invoice reminder and show whether I can add UK business late-payment charges. Use when you want to chase an unpaid UK business invoice, check whether contractual or statutory interest applies, or calculate interest and recovery costs from invoice details and payment history. Works with pasted text, exports and readable attached screenshots or your description of their fields. Returns the requested reminder or charge calculation. When both are requested, keeps the charge decision separate and shows dated rate evidence and arithmetic. Not for consumer penalties, court documents, debt collection or sending messages.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "overdue invoice",
+    "payment reminder",
+    "UK commercial late payments",
+    "statutory interest",
+    "debt recovery costs"
+  ],
+  "displayName": "Invoice Collections",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/invoice-collections/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/invoice-collections/README.md"
+}

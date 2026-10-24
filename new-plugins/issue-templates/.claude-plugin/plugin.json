@@ -1,0 +1,24 @@
+{
+  "name": "issue-templates",
+  "displayName": "Issue Templates",
+  "version": "0.1.0",
+  "description": "Repair GitHub issue-form YAML from pasted validation errors, existing repository labels, organization issue types and project-assignment permissions. Works from pasted YAML, validation messages and settings exports to return a corrected form or metadata patch.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "issue-forms",
+    "issue-templates",
+    "yaml-validation",
+    "github-labels",
+    "issue-types",
+    "project-permissions"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/issue-templates/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/issue-templates/README.md"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "pinterest-trends",
+  "version": "0.1.0",
+  "description": "When should I publish each topic in my region from these Pinterest Trends values? Turn supplied curves into a seasonal calendar with publication windows and production deadlines. Prepare pasted text, exports or user-described screenshots, keeping regional scope, trend types and relative values clear.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "pinterest",
+    "trends",
+    "seasonal-calendar",
+    "regional-trends",
+    "production-lead-time"
+  ],
+  "displayName": "Pinterest Trends"
+}

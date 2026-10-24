@@ -1,0 +1,43 @@
+{
+  "name": "issue-templates",
+  "version": "0.1.0",
+  "description": "Repair GitHub issue-form YAML from pasted validation errors, existing repository labels, organization issue types and project-assignment permissions. Works from pasted YAML, validation messages and settings exports to return a corrected form or metadata patch.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "issue-forms",
+    "issue-templates",
+    "yaml-validation",
+    "github-labels",
+    "issue-types",
+    "project-permissions"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Issue Templates",
+    "shortDescription": "Repair GitHub issue forms and assignments.",
+    "longDescription": "Repair GitHub issue-form YAML from pasted validation errors, existing repository labels, organization issue types and project-assignment permissions. Two skills work from pasted YAML, error messages and label, type and permission exports. Return a corrected form or metadata patch and the settings change needed for missing assignments.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#234F63",
+    "brandColorDark": "#85BDCF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Fix this issue-form YAML using these validation errors.",
+      "Repair missing labels and project assignment from these settings exports."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/issue-templates/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "statuspage-updates",
+  "version": "0.1.0",
+  "description": "Draft the next customer-facing outage update from your timeline, affected components and confirmed recovery evidence, with a justified Statuspage state. Use pasted incident notes or readable exports to prepare incident fields and check whether recovery supports closure. Includes current state meanings, component alignment and notification-channel rules.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "statuspage",
+    "incident updates",
+    "outage communication",
+    "recovery evidence"
+  ],
+  "displayName": "Statuspage Updates"
+}

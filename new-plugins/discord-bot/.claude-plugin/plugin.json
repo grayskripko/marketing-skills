@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "0.1.0",
+  "description": "Discord bot planning and specifications: turn pasted requirements, settings and exports into setup guidance, permission and intent choices, command contracts, ready-to-paste replies, and moderation/onboarding flows. Bot execution requires a separate implementation.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "bot",
+    "slash-commands",
+    "permissions",
+    "intents",
+    "moderation",
+    "onboarding"
+  ],
+  "displayName": "Discord Bot",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

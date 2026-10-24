@@ -1,0 +1,43 @@
+{
+  "name": "expense-exports",
+  "version": "0.1.0",
+  "description": "Explain why Brex says exported when expenses are missing from QuickBooks or another ERP. Use batch history, downloaded CSV, ERP rows, required GL fields and export-type changes. Use pasted accounting records to reconcile missing ERP entries and identify preparation or export blockers. Includes a delivery workpaper and a field-by-field correction plan.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "expense-exports",
+    "brex",
+    "quickbooks",
+    "erp",
+    "accounting",
+    "csv",
+    "reconciliation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Expense Exports",
+    "shortDescription": "Explain Brex export delivery gaps",
+    "longDescription": "Explain why Brex says exported when expenses are missing from QuickBooks or another ERP. Use batch history, downloaded CSV, ERP rows, required GL fields and export-type changes. Use pasted accounting records to reconcile missing ERP entries and identify preparation or export blockers. Includes a delivery workpaper and a field-by-field correction plan.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#236453",
+    "brandColorDark": "#83C9AE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Brex says exported, but these rows are missing in QuickBooks. Reconcile this batch history and CSV against the ERP rows.",
+      "Check these Brex required fields and export errors before we retry."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/expense-exports/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

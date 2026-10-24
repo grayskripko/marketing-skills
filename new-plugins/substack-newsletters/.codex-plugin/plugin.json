@@ -1,0 +1,42 @@
+{
+  "name": "substack-newsletters",
+  "version": "0.1.0",
+  "description": "Plan Substack newsletters, sections and publication organization from supplied notes and settings. Build section setup, audience segmentation and opt-in defaults, with editorial and send checklists for the publication owner.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "substack",
+    "newsletter-sections",
+    "subscriber-segments",
+    "audience-routing",
+    "subscription-settings"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Substack Newsletters",
+    "shortDescription": "Plan Substack newsletters",
+    "longDescription": "Plan Substack newsletters, sections and publication organization from supplied notes and settings. Build section setup, audience segmentation and opt-in defaults, with editorial and send checklists for the publication owner.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#235E58",
+    "brandColorDark": "#75B8AA",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Help me plan optional Substack newsletters without adding every reader.",
+      "Check these Substack section settings and segment filters."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/substack-newsletters/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

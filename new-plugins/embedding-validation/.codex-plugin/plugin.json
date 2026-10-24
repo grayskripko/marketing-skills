@@ -1,0 +1,41 @@
+{
+  "name": "embedding-validation",
+  "version": "0.1.0",
+  "description": "Check embedding dimension mismatches, query/document prompts, input truncation and normalization from pasted settings, vectors and index schemas. Check provider contracts across SentenceTransformer, Voyage and Gemini.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "embeddings",
+    "dimension-mismatch",
+    "normalization",
+    "encoder-settings",
+    "vector-index"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Embedding Validation",
+    "shortDescription": "Check embedding settings and vector contracts",
+    "longDescription": "Check embedding dimension mismatches, query/document prompts, input truncation and normalization from pasted settings, vectors and index schemas. Check provider contracts across SentenceTransformer, Voyage and Gemini.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245E69",
+    "brandColorDark": "#72C2CF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check my query and document encoder settings for prompt and truncation mistakes.",
+      "Can these vector samples be ingested into this index schema?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/embedding-validation/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

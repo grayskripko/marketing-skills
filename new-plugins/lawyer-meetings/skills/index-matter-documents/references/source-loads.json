@@ -1,0 +1,79 @@
+[
+  {
+    "url": "https://docs.stripe.com/invoicing/customer/balance",
+    "status": 200,
+    "bytes": 396175,
+    "final_url": "https://docs.stripe.com/invoicing/customer/balance",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://docs.stripe.com/invoicing/dashboard/credit-notes",
+    "status": 200,
+    "bytes": 354963,
+    "final_url": "https://docs.stripe.com/invoicing/dashboard/credit-notes",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://docs.stripe.com/invoicing/overview",
+    "status": 200,
+    "bytes": 438060,
+    "final_url": "https://docs.stripe.com/invoicing/overview",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://docs.stripe.com/reports/balance-transaction-types",
+    "status": 200,
+    "bytes": 331053,
+    "final_url": "https://docs.stripe.com/reports/balance-transaction-types",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://docs.stripe.com/reports/payout-reconciliation",
+    "status": 200,
+    "bytes": 1026933,
+    "final_url": "https://docs.stripe.com/reports/payout-reconciliation",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.law.cornell.edu/rules/frcp/rule_34",
+    "status": 200,
+    "bytes": 60416,
+    "final_url": "https://www.law.cornell.edu/rules/frcp/rule_34",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.law.cornell.edu/rules/frcp/rule_37",
+    "status": 200,
+    "bytes": 94883,
+    "final_url": "https://www.law.cornell.edu/rules/frcp/rule_37",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.law.cornell.edu/ucc/2/2-607",
+    "status": 200,
+    "bytes": 31165,
+    "final_url": "https://www.law.cornell.edu/ucc/2/2-607",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc2046",
+    "status": 200,
+    "bytes": 460516,
+    "final_url": "https://www.rfc-editor.org/info/rfc2046/",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc5322",
+    "status": 200,
+    "bytes": 616170,
+    "final_url": "https://www.rfc-editor.org/info/rfc5322/",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "url": "https://www.uscourts.gov/sites/default/files/document/federal-rules-of-civil-procedure.pdf",
+    "status": 200,
+    "bytes": 415707,
+    "final_url": "https://www.uscourts.gov/sites/default/files/document/federal-rules-of-civil-procedure.pdf",
+    "content_type": "application/pdf"
+  }
+]

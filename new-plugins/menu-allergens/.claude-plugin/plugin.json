@@ -1,0 +1,22 @@
+{
+  "name": "menu-allergens",
+  "version": "0.1.0",
+  "description": "Make a UK menu allergen sheet from recipes and supplier labels. Update it after substitutions and prepare a staff handover. Works from pasted text and exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "menu-allergens",
+    "recipes",
+    "supplier-labels",
+    "substitutions",
+    "staff-handoff"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/menu-allergens/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/menu-allergens/README.md",
+  "displayName": "Menu Allergens"
+}

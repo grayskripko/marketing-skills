@@ -1,0 +1,25 @@
+{
+  "name": "linear-cycles",
+  "displayName": "Linear Cycles",
+  "version": "0.1.0",
+  "description": "Explain why a Linear cycle graph differs from an issue export and how much work the team completed. Use estimates and membership history to explain early additions and cooldown outcomes. Works from pasted graph values, exports, estimate settings and issue activity. Explain historical/current differences and previous/next-cycle attribution.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "linear",
+    "cycles",
+    "cycle graph",
+    "scope",
+    "completion",
+    "cooldown",
+    "estimates"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/linear-cycles/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/linear-cycles/README.md"
+}

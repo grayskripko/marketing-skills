@@ -1,0 +1,21 @@
+{
+  "name": "acquisition-reporting",
+  "version": "0.1.0",
+  "description": "Reconcile LinkedIn paid-campaign lead and conversion totals using exported settings and the pasted Attribution Model table; produce a client explanation. Use when LinkedIn totals do not match, an agency needs a campaign-report reconciliation, or a freelancer needs to explain an attribution gap. Works from pasted text and exports, preserving metric definitions, filters, conversion settings and missing evidence. Not for campaign optimization, tracking installation, organic reporting or live account monitoring.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "acquisition-reporting",
+    "linkedin-ads",
+    "conversion-attribution",
+    "lead-reconciliation"
+  ],
+  "displayName": "Acquisition Reporting",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/acquisition-reporting/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/acquisition-reporting/README.md"
+}

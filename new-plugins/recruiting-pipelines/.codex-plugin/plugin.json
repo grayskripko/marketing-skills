@@ -1,0 +1,43 @@
+{
+  "name": "recruiting-pipelines",
+  "version": "0.1.0",
+  "description": "Explain why your Lever dashboard and spreadsheet counts disagree, and what changed in this week's recruiting pipeline. Use when your Lever dashboard and weekly sheet disagree, you need to explain this week’s pipeline changes, or you want to identify opportunities waiting in their current stage. Works from pasted CSV, JSON, text and selected export files with the report settings you supply. Produces corrected totals, an ID-based difference table and stage-age exceptions. No account setup is needed. Not for candidate evaluation, resume writing, sourcing, live monitoring or changing Lever records.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "recruiting pipelines",
+    "Lever",
+    "weekly pipeline",
+    "opportunity IDs",
+    "stage aging",
+    "export reconciliation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Recruiting Pipelines",
+    "shortDescription": "Reconcile Lever exports and stage ages",
+    "longDescription": "Explain why your Lever dashboard and spreadsheet counts disagree, and what changed in this week's recruiting pipeline. Use when your Lever dashboard and weekly sheet disagree, you need to explain this week’s pipeline changes, or you want to identify opportunities waiting in their current stage. Works from pasted CSV, JSON, text and selected export files with the report settings you supply. Produces corrected totals, an ID-based difference table and stage-age exceptions. No account setup is needed. Not for candidate evaluation, resume writing, sourcing, live monitoring or changing Lever records.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245C54",
+    "brandColorDark": "#78C9B7",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Reconcile these weekly Lever exports with this dashboard count.",
+      "Find current-stage ages in this Lever export using our cutoff and threshold."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/recruiting-pipelines/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "bamboohr-headcount",
+  "version": "0.1.0",
+  "description": "Explain why BambooHR report and employee directory counts differ, and identify who appears in only one export. Use pasted text or exports to explain count gaps, missing fields and historical membership. Returns matched internal IDs, a count bridge and effective-date decisions.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "bamboohr",
+    "headcount",
+    "employee-directory",
+    "report-reconciliation",
+    "effective-date-history"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BambooHR Headcount",
+    "shortDescription": "Reconcile BambooHR report and directory headcount.",
+    "longDescription": "Explain why BambooHR report and employee directory counts differ, and identify who appears in only one export. Use pasted text or exports to explain count gaps, missing fields and historical membership. Returns matched internal IDs, a count bridge and effective-date decisions.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245B52",
+    "brandColorDark": "#91C9B8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Reconcile these BambooHR report and directory exports.",
+      "Explain missing fields in this BambooHR export.",
+      "Rebuild BambooHR headcount at month end from these history rows."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

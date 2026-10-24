@@ -1,0 +1,21 @@
+{
+  "name": "airbnb-claims",
+  "version": "0.1.0",
+  "description": "Prepare an Airbnb damage-claim evidence packet and separate guest-request/support deadlines using checkout, damage dates, region and documented loss. Use pasted messages, receipts, estimates, photos and reservation exports to produce an itemized packet, guest request and support draft, or a dated action table. Keeps competing official clocks separate and accounts for payments already received. Use when you ask to assemble damage records, draft a reimbursement request or check when to involve support. Not for account access, claim submission, guest refund disputes or review removal.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "airbnb",
+    "damage-claim",
+    "evidence-packet",
+    "checkout",
+    "resolution-center"
+  ],
+  "displayName": "Airbnb Claims",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

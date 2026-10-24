@@ -1,0 +1,42 @@
+{
+  "name": "linear-triage",
+  "version": "0.1.0",
+  "description": "Diagnose Linear intake and snooze behavior from supplied templates, triage rules, team defaults and issue activity; produce a disposition review list. Use when tickets skip triage, route unexpectedly or wake before their snooze time. Works from pasted settings and exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "linear",
+    "triage",
+    "intake",
+    "snooze",
+    "issue-disposition"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Linear Triage",
+    "shortDescription": "Review Linear intake and snooze dispositions.",
+    "longDescription": "Diagnose Linear intake and snooze behavior from supplied templates, triage rules, team defaults and issue activity; produce a disposition review list. Use when tickets skip triage, route unexpectedly or wake before their snooze time. Works from pasted settings and exports.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#334155",
+    "brandColorDark": "#A7F3D0",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why did these Linear issues skip Triage? Here are the templates and history.",
+      "Why did these snoozed issues return early? Review these activity exports.",
+      "Give me a disposition review list from these issues and team defaults."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/linear-triage/README.md",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/linear-triage/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "performance-review-draft",
+  "version": "0.1.0",
+  "description": "Draft performance reviews and self-assessments from dated work examples. Use when you want to organize accomplishments against goals, write a manager review from selected notes, or check a draft for unsupported claims and contradictions. Checks claims against source passages; draft source notes are included when requested. Preserves supplied ratings, criticism, uncertainty and shared team credit. Works from authorized pasted text or readable files, without accounts or paid APIs. Prepared for manager or professional HR review. Not for assigning ratings, deciding pay, promotion or termination, disciplinary findings, monitoring or legal certification.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "performance-review",
+    "self-assessment",
+    "work-examples",
+    "performance-review-draft",
+    "review-claims"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Performance Review Draft",
+    "shortDescription": "Performance reviews from dated examples",
+    "longDescription": "Draft performance reviews and self-assessments from dated work examples. Use when you want to organize accomplishments against goals, write a manager review from selected notes, or check a draft for unsupported claims and contradictions. Checks claims against source passages; draft source notes are included when requested. Preserves supplied ratings, criticism, uncertainty and shared team credit. Works from authorized pasted text or readable files, without accounts or paid APIs. Prepared for manager or professional HR review. Not for assigning ratings, deciding pay, promotion or termination, disciplinary findings, monitoring or legal certification.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Organize these dated notes for my performance review.",
+      "Draft my self-assessment from these goals and work examples.",
+      "Check this review against the notes for wrong-person claims and contradictions."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

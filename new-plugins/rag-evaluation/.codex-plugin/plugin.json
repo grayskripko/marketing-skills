@@ -1,0 +1,44 @@
+{
+  "name": "rag-evaluation",
+  "version": "0.1.1",
+  "description": "Evaluate and debug wrong RAG answers, retrieval quality, missing documents and grounded citations from the question, source documents, retrieved passages and response. Use when the right document exists but the agent misses it, an AI knowledge-base answer makes unsupported claims, or a corrected run needs checking. Accept pasted traces, logs, configs, transcripts and files across stacks. Separate ingestion, retrieval, passage delivery and answer failures; return a supported correction and a focused follow-up check. Not for building vector databases, managing durable memory or deploying pipeline changes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "rag-evaluation",
+    "rag-debugging",
+    "retrieval-quality",
+    "wrong-rag-answers",
+    "missing-documents",
+    "grounded-citations"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RAG Evaluation",
+    "shortDescription": "Debug RAG answers & citations",
+    "longDescription": "Evaluate and debug wrong RAG answers, retrieval quality, missing documents and grounded citations from the question, source documents, retrieved passages and response. Use when the right document exists but the agent misses it, an AI knowledge-base answer makes unsupported claims, or a corrected run needs checking. Accept pasted traces, logs, configs, transcripts and files across stacks. Separate ingestion, retrieval, passage delivery and answer failures; return a supported correction and a focused follow-up check. Not for building vector databases, managing durable memory or deploying pipeline changes.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245E69",
+    "brandColorDark": "#72C2CF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why did my RAG answer miss this document? Here are the question, source, search config and results.",
+      "Check this knowledge-base answer and its citations against the attached passages.",
+      "Check this rerun after the retrieval configuration fix."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-rag-evaluation/plugins/rag-evaluation/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

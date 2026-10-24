@@ -1,0 +1,41 @@
+{
+  "name": "roadmap-planning",
+  "version": "0.1.3",
+  "description": "Compares backlog choices and shows what each choice puts on hold. Use when you ask “what does this urgent feature push out?”, “what fits next quarter?” or “which estimates change our priorities?” Give it your goals, estimates, scoring method, dependencies and capacity in pasted tables or the export you name. It checks inputs, compares choices, tests only the ranges or scenarios you supply and drafts a decision note. Missing facts stay visible. Scores do not prove value or promise delivery dates. Not for general PRDs, fetching URLs, updating trackers, publishing roadmaps or making customer commitments. No accounts or paid APIs are required.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "roadmap",
+    "backlog",
+    "prioritization",
+    "capacity",
+    "tradeoffs"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Roadmap Planning",
+    "shortDescription": "Compare backlog tradeoffs",
+    "longDescription": "Compares backlog choices and shows what each choice puts on hold. Use when you ask “what does this urgent feature push out?”, “what fits next quarter?” or “which estimates change our priorities?” Give it your goals, estimates, scoring method, dependencies and capacity in pasted tables or the export you name. It checks inputs, compares choices, tests only the ranges or scenarios you supply and drafts a decision note. Missing facts stay visible. Scores do not prove value or promise delivery dates. Not for general PRDs, fetching URLs, updating trackers, publishing roadmaps or making customer commitments. No accounts or paid APIs are required.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Compare these backlog options and show what each defers.",
+      "Check which priorities change under these supplied effort ranges."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-roadmap-planning/plugins/roadmap-planning/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

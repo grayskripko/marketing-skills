@@ -1,0 +1,44 @@
+{
+  "name": "bigquery-sql",
+  "version": "0.1.0",
+  "description": "Move this Snowflake query to BigQuery without changing what the dates, nulls or totals mean. Convert pasted SQL or diagnose changed results using supplied schemas, exports and screenshot descriptions. Includes current official guidance on timestamp types, week boundaries, conversion failures, decimal precision and null totals. Produces SQL and focused comparison cases without database access or query execution.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "snowflake",
+    "bigquery",
+    "sql-migration",
+    "bigquery-sql",
+    "date-semantics",
+    "nulls",
+    "decimal-totals"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BigQuery SQL",
+    "shortDescription": "Move my query to BigQuery.",
+    "longDescription": "Move this Snowflake query to BigQuery without changing what the dates, nulls or totals mean. Convert pasted SQL or diagnose changed results using supplied schemas, exports and screenshot descriptions. Includes current official guidance on timestamp types, week boundaries, conversion failures, decimal precision and null totals. Produces SQL and focused comparison cases without database access or query execution.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#174D63",
+    "brandColorDark": "#86DACB",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Move this Snowflake query to BigQuery without changing the dates, nulls or totals.",
+      "Explain why these Snowflake and BigQuery results differ."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/bigquery-sql/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

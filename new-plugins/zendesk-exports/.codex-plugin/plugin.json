@@ -1,0 +1,42 @@
+{
+  "name": "zendesk-exports",
+  "version": "0.1.0",
+  "description": "Check whether my Zendesk export is complete and explain missing comments, fields, tickets or mismatched dates. Use when you ask \u201cis this Zendesk export complete?\u201d, \u201cwhy do CSV and JSON dates differ?\u201d, or \u201cwhy is my full JSON invalid?\u201d. Review pasted records, readable archives and export settings against documented format limits. Identify missing files, comments, fields and pagination evidence. Works without an account connection. Not for customer replies, live synchronization or account changes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "zendesk",
+    "exports",
+    "ndjson",
+    "coverage",
+    "timezone"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Zendesk Exports",
+    "shortDescription": "Check export coverage and explain missing data.",
+    "longDescription": "Check whether my Zendesk export is complete and explain missing comments, fields, tickets or mismatched dates. Use when you ask \u201cis this Zendesk export complete?\u201d, \u201cwhy do CSV and JSON dates differ?\u201d, or \u201cwhy is my full JSON invalid?\u201d. Review pasted records, readable archives and export settings against documented format limits. Identify missing files, comments, fields and pagination evidence. Works without an account connection. Not for customer replies, live synchronization or account changes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#175C55",
+    "brandColorDark": "#6EC9BA",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check these Zendesk export files and settings for coverage and missing evidence.",
+      "Explain this full JSON export parsing error from the pasted lines."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/zendesk-exports/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

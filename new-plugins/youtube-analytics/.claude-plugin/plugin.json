@@ -1,0 +1,20 @@
+{
+  "name": "youtube-analytics",
+  "version": "0.1.0",
+  "description": "Explains your YouTube Studio exports and helps you choose one change to try on your next video. Use when you want to put mismatched reports together, see which uploads worked for your goal, or decide what to try next. Reads supplied CSVs, pasted tables or readable screenshots. Compares matching formats and reporting windows. Keeps Studio’s supplied click-through rate (CTR) when views from counted impressions are missing. Shows the math for calculated figures. Returns a comparison table, a short finding or one practical experiment brief. Not for live channel access, transcript summaries, media creation, publishing or guaranteed growth.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "youtube analytics",
+    "studio exports",
+    "video performance",
+    "creator analytics",
+    "video experiment"
+  ],
+  "displayName": "YouTube Analytics",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

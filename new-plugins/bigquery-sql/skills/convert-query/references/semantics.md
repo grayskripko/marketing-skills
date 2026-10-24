@@ -1,0 +1,42 @@
+# Semantic reference register
+
+All pages below loaded and were read **2026-10-11**. This is the access date, not an asserted publication date. Recheck relevant pages before the intended 2026-10-14 submission. Rules are paraphrased. Engine references govern over migration summaries.
+
+## Direction and migration scope
+
+- [Google: Snowflake SQL translation guide](https://docs.cloud.google.com/bigquery/docs/migration/snowflake-sql). Page footer: **updated 2026-10-07 UTC**. Covers Snowflake → BigQuery, including type mapping. Translation tooling support is described as preview; an automatic translation is not an equivalence guarantee.
+- [Snowflake: BigQuery built-in function translations](https://docs.snowflake.com/en/migrations/aim-for-datawarehouses/code-conversion/translation-references/bigquery/bigquery-functions). No page revision date established. This is **BigQuery → Snowflake**. Its DATE_DIFF mapping swaps operands into DATEDIFF. It supports the sign cross-check, not blind reversal of all mappings.
+
+## Calendar versus elapsed time
+
+- [Snowflake: DATEDIFF](https://docs.snowflake.com/en/sql-reference/functions/datediff). Subtracts second argument from third. Smaller units are discarded rather than rounded. NULL arguments give NULL, whereas Snowflake DATE subtraction with NULL gives an error. Therefore replacing date subtraction with DATE_DIFF also requires preserving that error contract when NULL is possible.
+- [Google: date functions](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/date_functions). DATE_DIFF counts date-part boundaries. WEEK starts Sunday; explicit weekday and ISO parts differ. Month/quarter/year addition clamps to month end when necessary. DATE(timestamp, zone) uses the selected zone; omitted zone defaults UTC.
+- [Snowflake: date and time functions](https://docs.snowflake.com/en/sql-reference/functions-date-time). WEEK_START affects week truncation/difference; 0 and 1 both truncate Monday. WEEK_OF_YEAR_POLICY controls year-edge numbering; 1 makes January 1 start week 1, with partial weeks. ISO functions ignore these settings.
+- [Google: timestamp functions](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/timestamp_functions). TIMESTAMP_DIFF counts whole elapsed units; supported units stop at DAY, which is 24 hours. For NTZ hour-boundary translation, truncating before differencing is a derived rewrite, not a promise for zoned arithmetic. TIMESTAMP_ADD also treats DAY as 24 hours.
+- [Snowflake: datetime types](https://docs.snowflake.com/en/sql-reference/data-types-datetime). TIMESTAMP_NTZ has wall-clock semantics. LTZ uses session timezone for operations; TZ stores an offset with the instant, not the original named zone. TIMESTAMP is an alias controlled by TIMESTAMP_TYPE_MAPPING. Precision can reach nine fractional digits.
+- [Google: data types](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-types). DATETIME is civil time; TIMESTAMP is an instant with microsecond precision. All current types are nullable, with array conditions. NUMERIC scale is 9 and integer capacity 29 digits; BIGNUMERIC scale is 38. Type parameters are not automatically preserved through expressions. The migration overview's BOOL/null statement conflicts with this current reference.
+
+- [Google: datetime functions](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/datetime_functions). DATETIME_TRUNC removes smaller parts; DATETIME_DIFF at HOUR counts whole hours. For NTZ boundary counts the derived rewrite truncates both inputs, then differences them. Preserve sign when the end precedes the start.
+- [Snowflake: DEFAULT_NULL_ORDERING](https://docs.snowflake.com/en/sql-reference/parameters#label-default-null-ordering). The session parameter and sort direction jointly govern implicit NULL placement. Do not infer source window ordering from BigQuery defaults; retain explicit source ordering or resolve its session setting.
+
+## Parsing, error behavior and totals
+
+- [Snowflake: TRY_TO_DECIMAL / TRY_TO_NUMBER](https://docs.snowflake.com/en/sql-reference/functions/try_to_decimal). Input is VARCHAR; conversion failure gives NULL. Default precision is 38; default scale is 0. Optional SQL format models affect accepted strings. Do not assume a target cast reproduces those formats and rounding.
+- [Google: conversion functions](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/conversion_functions). SAFE_CAST converts runtime cast failures to NULL but static impossible casts still fail. Excess fractional digits in decimal casts are rounded; overflow fails. PARSE_NUMERIC has its own text grammar, so it is not an automatic Snowflake format-model substitute.
+- [Snowflake: DIV0NULL](https://docs.snowflake.com/en/sql-reference/functions/div0null). Division returns zero for a zero or NULL divisor. An explicit CASE for those divisor values preserves that branch; COALESCE(SAFE_DIVIDE(...),0) can also hide unrelated errors or a NULL numerator and is not the same contract.
+- [Google: mathematical functions](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/mathematical_functions). SAFE_DIVIDE returns NULL on an error such as division by zero; ordinary division errors remain errors. INT64/INT64 safe division returns FLOAT64, so result types need attention as well as values.
+- [Snowflake: SUM](https://docs.snowflake.com/en/sql-reference/functions/sum). Non-null values contribute; all-null groups give NULL. DISTINCT changes which values contribute. String inputs can be implicitly cast to floating point; explicit exact-number parsing is not equivalent to that source behavior without a stated change.
+- [Google: aggregate functions](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions). SUM returns NULL on empty/all-null input and errors on overflow. Floating results can vary with accumulation. COUNT(*) counts rows; COUNT(expression) excludes NULL. Do not replace exact aggregates with approximate functions.
+
+- [Google: debugging functions](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/debugging_functions). ERROR raises a user-supplied error. IF can restrict evaluation to the chosen branch; do not rely on WHERE conditions to guarantee evaluation order. A range guard can preserve a known result limit but does not prove matching intermediate overflow behavior.
+
+## Drafting choices
+
+Draft the requested answer first. Apply only relevant semantic checks, preserving visible placeholders, execution boundaries and exactness requirements. If the requested type or missing metadata prevents a faithful conversion, explain that blocker and supply the supported sample results before asking the deciding question; do not fill the gap with knowingly incompatible SQL.
+
+## Fix-source additions — accessed 2026-10-11
+
+- [Snowflake arithmetic: division](https://docs.snowflake.com/en/sql-reference/operators-arithmetic#division). Fixed-point division uses numerator scale S1 and denominator scale S2: leading capacity L=L1+S2; result scale S=max(S1,min(S1+6,12)); precision is limited to 38. Excess fractional digits round. Its worked 2/7 example returns 0.285714. Preserve expression-stage rounding, not only final storage scale. Target ROUND after division remains conditional on intermediate capacity and rounding parity.
+- [BigQuery datetime subtraction](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/operators#datetime_subtraction). DATE minus DATE returns INTERVAL; DATE_DIFF supplies integer day counts. Source NULL failure needs the conditional ERROR branch already described above.
+- [BigQuery query syntax](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax). Typical evaluation puts WINDOW before QUALIFY and QUALIFY before DISTINCT/ORDER BY/LIMIT. SELECT aliases cannot be reused in a sibling SELECT expression or WHERE; the QUALIFY section demonstrates a window alias. Stage only the unsupported reuse, keeping the window filter at its original stage.
+- [Snowflake SUM usage notes](https://docs.snowflake.com/en/sql-reference/functions/sum) and [BigQuery SUM](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#sum). Snowflake implicitly casts VARCHAR input to floating point and errors on conversion failure; BigQuery supports numeric inputs and INTERVAL, not STRING. A failing FLOAT64 cast is a candidate only when accepted grammar is established. Decimal parsing or SAFE_CAST changes the source contract.

@@ -1,0 +1,42 @@
+{
+  "name": "intakeq-forms",
+  "version": "0.1.0",
+  "description": "Fix my IntakeQ questionnaire questions and profile mappings, and give me an insurance exception checklist. Use pasted questionnaires, mapping tables, payer settings and anonymous profile examples to find missing insurance capture, billing-type rule gaps, manual benefit fields and payer badge exceptions.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "intakeq",
+    "forms",
+    "insurance",
+    "questionnaire",
+    "profile-mapping"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "IntakeQ Forms",
+    "shortDescription": "Fix my IntakeQ mappings and insurance exceptions",
+    "longDescription": "Fix my IntakeQ questionnaire questions and profile mappings, and give me an insurance exception checklist. Use pasted questionnaires, mapping tables, payer settings and anonymous profile examples to find missing insurance capture, billing-type rule gaps, manual benefit fields and payer badge exceptions.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#176B70",
+    "brandColorDark": "#71C6C9",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Fix these IntakeQ questionnaire mappings from my pasted export.",
+      "Check these anonymous profile examples and payer settings for insurance exceptions."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/intakeq-forms/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "remittance-denials",
+  "version": "0.1.0",
+  "description": "Explain insurance denial codes and EOB adjustments, and identify the evidence needed to correct or appeal them. Checks supplied US remittance code combinations, amount restrictions, encounter status and party-specific Medicare filing routes against dated official sources.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "remittance",
+    "ERA",
+    "EOB",
+    "CARC",
+    "RARC",
+    "denials",
+    "appeal-evidence"
+  ],
+  "displayName": "Remittance Denials",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/remittance-denials/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/remittance-denials/README.md"
+}

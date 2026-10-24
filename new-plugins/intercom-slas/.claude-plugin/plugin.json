@@ -1,0 +1,23 @@
+{
+  "name": "intercom-slas",
+  "version": "0.1.0",
+  "description": "Explain why an Intercom SLA was missed and why report percentages disagree. Use pasted chat/ticket events, historical office hours, pause settings and exported rows to explain replacements, late completion and report denominators.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "intercom",
+    "sla",
+    "target-history",
+    "sla-reporting",
+    "pause-settings",
+    "support-operations"
+  ],
+  "displayName": "Intercom SLAs",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/intercom-slas/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/intercom-slas/README.md"
+}

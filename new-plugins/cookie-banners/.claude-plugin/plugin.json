@@ -1,0 +1,23 @@
+{
+  "name": "cookie-banners",
+  "version": "0.1.0",
+  "description": "Checks EU cookie banner text, buttons, consent settings and cookie lists; gives corrected wording, specific changes and the evidence needed. Use when you have banner text, screenshots or CMP exports and want corrected choices, a settings handoff or evidence gaps. Applies the EDPB report and scoped French CNIL guidance, including measurement exemptions and authenticated cross-device choices. Works from pasted material without an account or setup.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "cookie-banner",
+    "cookie-consent",
+    "CMP",
+    "EDPB",
+    "CNIL"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/cookie-banners/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/cookie-banners/README.md",
+  "displayName": "Cookie Banners"
+}

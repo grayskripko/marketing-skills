@@ -1,0 +1,43 @@
+{
+  "name": "terms-review",
+  "version": "0.1.0",
+  "description": "Review UK consumer terms, checkout notices and actual charging/cancellation practices against current CMA37 guidance; produce clause-specific findings and clearer proposed wording. Use when you ask to check customer terms, fix checkout wording, or compare billing and cancellation records with what customers were told. Works from pasted text, ordered screenshots and exports. Not for business-to-business contracts, non-UK terms or account changes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "consumer-terms",
+    "CMA37",
+    "checkout-notices",
+    "cancellation",
+    "refunds"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Terms Review",
+    "shortDescription": "Review UK consumer terms and charging practices.",
+    "longDescription": "Review UK consumer terms, checkout notices and actual charging/cancellation practices against current CMA37 guidance; produce clause-specific findings and clearer proposed wording. Use when you ask to check customer terms, fix checkout wording, or compare billing and cancellation records with what customers were told. Works from pasted text, ordered screenshots and exports. Not for business-to-business contracts, non-UK terms or account changes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#24565A",
+    "brandColorDark": "#8ECBC5",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Review these UK customer terms and propose clearer clauses.",
+      "Review this checkout copy and where each notice appears.",
+      "Compare these cancellation records with our terms and notices."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/terms-review/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

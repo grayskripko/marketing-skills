@@ -1,0 +1,11 @@
+# Model fields and fee cases
+
+Read alongside the [source register](../../../references/cms-sources.md). Core decisions remain in SKILL.md. A standard itemized $0 estimate retains the required estimate-variation notice while preserving the approved free-service promise; abbreviated-model wording is a separate conditional path.
+
+The standard model shows patient identity, mailing/contact information and contact preference; diagnosis if determined; primary service, scheduled dates or unscheduled box; estimate date; provider summary; each provider's name/type/address/contact, NPI/TIN; item rows with service location, diagnosis where needed for the calculation, service-code type/number, quantity and expected charge; provider and combined totals; separately scheduled services and how to get their estimates; patient-rights text. Account suffix is optional. Contact fields facilitate delivery; do not present every model blank as a statutory requirement.
+
+No-cost: only when the provider expects to bill nothing for all items/services on the covered dates (or, if unscheduled, any items/services) and no included care is expected from co-providers/co-facilities, may the abbreviated model be used. A $0 line among paid services is not enough. Use approved no-billing terms, identity, provider identifiers/location, dates if scheduled, estimate date and patient-rights text. CMS Part 4 Q2–Q3 strongly recommends the complete form for providers charging for some services but not others. Prefer standard itemization for a free screening with chargeable later care; do not assume charitable or sliding-scale care is no-cost.
+
+Sliding-scale case: Part 4 Q1 has different paths for new patients with unknown discount eligibility and existing patients with established discounts. Read Q1 before drafting this case; do not invent household income, discount eligibility or turn an unknown rate into $0. Preserve the approved undiscounted rate/discount schedule and mark the missing eligibility inputs.
+
+Version: the live CMS example is the 12-page “Good Faith Estimate for Health Care Items and Services” model and displays expiration 11/2025. Do not reproduce an OMB approval date as current. Use a field-based draft unless the user supplies their approved current form.

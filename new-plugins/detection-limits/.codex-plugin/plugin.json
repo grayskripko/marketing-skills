@@ -1,0 +1,48 @@
+{
+  "name": "detection-limits",
+  "version": "0.1.3",
+  "description": "Check EPA method detection limit (MDL) studies under 40 CFR 136 Appendix B Revision 2. Works on spiked-sample and method-blank results you paste, with the lab's own calculation outputs. Matches results by analyte, matrix, instrument, batch, preparation and analysis date and units, then flags ineligible data, missing coverage, calculation errors and stale or mismatched MDL values. Recomputes MDLs, MDLb and the final MDL for initial studies and annual verifications, and reconciles MDL tables against the latest study. For environmental and QC laboratory technical managers and data reviewers.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "method-detection-limit",
+    "mdl",
+    "40-cfr-136",
+    "epa-mdl",
+    "method-blank",
+    "spiked-sample",
+    "detection-limit",
+    "environmental-laboratory",
+    "lab-qc",
+    "annual-verification"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Detection Limits",
+    "shortDescription": "Check EPA MDL studies and annual verifications",
+    "longDescription": "Check EPA method detection limit (MDL) studies under 40 CFR 136 Appendix B Revision 2. Works on spiked-sample and method-blank results you paste, with the lab's own calculation outputs. Matches results by analyte, matrix, instrument, batch, preparation and analysis date and units, then flags ineligible data, missing coverage, calculation errors and stale or mismatched MDL values. Recomputes MDLs, MDLb and the final MDL for initial studies and annual verifications, and reconciles MDL tables against the latest study. For environmental and QC laboratory technical managers and data reviewers.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#264653",
+    "brandColorDark": "#E9C46A",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this MDL study and recompute the MDL. Results pasted below.",
+      "Can we keep our current MDL after this year's verification?",
+      "Does our LIMS MDL table match the latest MDL studies?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-detection-limits/plugins/detection-limits/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
+  }
+}

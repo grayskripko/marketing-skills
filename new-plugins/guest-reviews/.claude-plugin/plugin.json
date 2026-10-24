@@ -1,0 +1,22 @@
+{
+  "name": "guest-reviews",
+  "version": "0.1.0",
+  "description": "Check whether an Airbnb review can be removed and draft a removal request from your evidence. Use pasted reviews, messages and exports to check removal grounds, requester roles and request history, and prepare a source-linked evidence packet with supporting and contrary facts.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "guest-reviews",
+    "review-removal",
+    "review-evidence",
+    "request-eligibility"
+  ],
+  "displayName": "Guest Reviews",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/guest-reviews/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/guest-reviews/README.md"
+}

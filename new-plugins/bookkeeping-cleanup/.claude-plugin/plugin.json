@@ -1,0 +1,24 @@
+{
+  "name": "bookkeeping-cleanup",
+  "displayName": "Bookkeeping Cleanup",
+  "version": "0.1.0",
+  "description": "Checks your bookkeeping exports for inconsistent categories, possible duplicate entries, transfers and missing documents or facts. Prepares proposed corrections linked to the original rows, a list of questions and a table of all original rows for your bookkeeper or accountant. Use when you ask “check my expense categories,” “find duplicate transactions,” or “prepare a correction list for my accountant.” Supply readable exports or pasted rows, approved policies and any supporting documents. Keeps originals and leaves unsupported choices open for review. No account connection, paid API, network fetch or posting entries. Not for tax advice, audit approval, automatic corrections or confirming that incomplete books agree with the bank.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "bookkeeping",
+    "ledger-cleanup",
+    "category-review",
+    "duplicates",
+    "transfers",
+    "correction-workpaper"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/bookkeeping-cleanup/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/bookkeeping-cleanup/README.md"
+}

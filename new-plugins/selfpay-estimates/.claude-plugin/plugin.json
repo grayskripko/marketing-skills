@@ -1,0 +1,19 @@
+{
+  "name": "selfpay-estimates",
+  "version": "0.1.0",
+  "description": "Prepare a US uninsured/self-pay good faith estimate from approved services, codes, fees and dates; check CMS request/scheduling deadlines, model fields and recurring-service treatment. Works from pasted text and supplied exports for clinic administrators, with itemized charges, deadline calculations and corrections to existing estimates.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "self-pay",
+    "uninsured",
+    "good-faith-estimate",
+    "CMS",
+    "recurring-services"
+  ],
+  "displayName": "Selfpay Estimates"
+}

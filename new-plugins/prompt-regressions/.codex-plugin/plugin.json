@@ -1,0 +1,41 @@
+{
+  "name": "prompt-regressions",
+  "version": "0.1.0",
+  "description": "Check whether a prompt change broke the behavior you need before you ship it. Prepare acceptance checks from your supplied cases and runner configuration, or inspect exported results for behavior failures, runtime errors and missing evidence.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "prompt-regressions",
+    "release-check",
+    "claude-code",
+    "codex",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Prompt Regressions",
+    "shortDescription": "Check prompt changes",
+    "longDescription": "Check whether a prompt change broke the behavior you need before you ship it. Prepare acceptance checks from your supplied cases and runner configuration, or inspect exported results for behavior failures, runtime errors and missing evidence.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245A68",
+    "brandColorDark": "#A8E6CF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Prepare checks for these prompt versions and our existing acceptance requests.",
+      "Read these exported runs and tell me what broke."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/prompt-regressions/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "payout-reconciliation",
+  "version": "0.1.0",
+  "description": "Matches payment payouts to bank deposits and explains money left in a clearing account from records you supply. Use when “payouts differ from sales”, “match these deposits”, or “why is my clearing account not zero?”. Chooses Stripe exports for automatic, manual and instant payouts. Shows source rows, fees, refunds, net amounts and differences that remain unexplained. Keeps currencies separate and leaves uncertain matches unresolved. Works from authorized exports or pasted rows, without connectors, keys or paid APIs. Prepares reconciliation notes for accountant review. Not for tax preparation, payroll, deciding when to record revenue, posting entries, making payments or certifying a close.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "settlement",
+    "payouts",
+    "bank-deposits",
+    "clearing-account",
+    "reconciliation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Payout Reconciliation",
+    "shortDescription": "Match payouts, explain balance",
+    "longDescription": "Matches payment payouts to bank deposits and explains money left in a clearing account from records you supply. Use when “payouts differ from sales”, “match these deposits”, or “why is my clearing account not zero?”. Chooses Stripe exports for automatic, manual and instant payouts. Shows source rows, fees, refunds, net amounts and differences that remain unexplained. Keeps currencies separate and leaves uncertain matches unresolved. Works from authorized exports or pasted rows, without connectors, keys or paid APIs. Prepares reconciliation notes for accountant review. Not for tax preparation, payroll, deciding when to record revenue, posting entries, making payments or certifying a close.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Match these processor payouts to my bank deposits and show unmatched rows.",
+      "Which exports do you need for automatic Stripe payouts?",
+      "Explain this clearing balance from the supplied processor and ledger records."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  },
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills"
+}

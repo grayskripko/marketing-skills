@@ -1,0 +1,23 @@
+{
+  "name": "bloomerang-credits",
+  "version": "0.1.0",
+  "description": "Reconcile Bloomerang raised and revenue totals from donation, pledge and soft-credit exports using the September/October 2026 rule changes. Use when you ask to tie out donation exports, explain a changed DAF gift total, or check a soft-credit amount error from September or October. Works from pasted rows, CSV or spreadsheet exports and report snapshots. Produces row contributions, differences and evidence needed for unresolved links. Not for donor imports, bookkeeping entries, account access or record changes.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "bloomerang",
+    "raised",
+    "revenue",
+    "pledges",
+    "soft-credits",
+    "donation-exports"
+  ],
+  "displayName": "Bloomerang Credits",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/bloomerang-credits/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/bloomerang-credits/README.md"
+}

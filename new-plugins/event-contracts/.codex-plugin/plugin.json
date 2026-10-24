@@ -1,0 +1,44 @@
+{
+  "name": "event-contracts",
+  "version": "0.1.0",
+  "description": "Check GA4 event names, tracking plans and sample payloads; return field corrections and an engineering handoff. Use when you ask to check a tracking plan, fix event payloads, or prepare custom definitions from pasted text, JSON, CSV, or exports. Separates web and app rules, collection limits and property quotas. Produces corrected fields, scoped capacity calculations, and an engineering or administrator handoff.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ga4",
+    "event-register",
+    "event-payloads",
+    "custom-dimensions",
+    "tracking-plan"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/event-contracts/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/event-contracts/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Event Contracts",
+    "shortDescription": "Check GA4 event names, tracking plans and payloads.",
+    "longDescription": "Check GA4 event names, tracking plans and sample payloads; return field corrections and an engineering handoff. Use when you ask to check a tracking plan, fix event payloads, or prepare custom definitions from pasted text, JSON, CSV, or exports. Separates web and app rules, collection limits and property quotas. Produces corrected fields, scoped capacity calculations, and an engineering or administrator handoff.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245B54",
+    "brandColorDark": "#80C9BA",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this GA4 event register and payload export and give field-specific fixes and an implementation handoff.",
+      "Plan custom definitions from this GA4 quota export and parameter register."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/event-contracts/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

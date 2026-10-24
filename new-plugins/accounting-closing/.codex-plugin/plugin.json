@@ -1,0 +1,42 @@
+{
+  "name": "accounting-closing",
+  "version": "0.1.0",
+  "description": "Check a NetSuite period close checklist to see what blocks month-end close and what can happen next. Works from pasted text and exports to identify remaining tasks, scope gaps and close-state blockers.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "accounting-closing",
+    "period-close",
+    "close-readiness",
+    "accounting-books",
+    "subsidiaries"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Accounting Closing",
+    "shortDescription": "Check what blocks NetSuite month-end close.",
+    "longDescription": "Check a NetSuite period close checklist to see what blocks month-end close and what can happen next. Diagnose locked and closed states from supplied evidence.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Turn this pasted NetSuite checklist into a readiness list by accounting book and subsidiary.",
+      "Explain this locked-period message and what reopening would affect."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/accounting-closing/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

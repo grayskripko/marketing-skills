@@ -1,0 +1,24 @@
+{
+  "name": "recruiting-pipelines",
+  "version": "0.1.0",
+  "description": "Explain why your Lever dashboard and spreadsheet counts disagree, and what changed in this week's recruiting pipeline. Use when your Lever dashboard and weekly sheet disagree, you need to explain this week’s pipeline changes, or you want to identify opportunities waiting in their current stage. Works from pasted CSV, JSON, text and selected export files with the report settings you supply. Produces corrected totals, an ID-based difference table and stage-age exceptions. No account setup is needed. Not for candidate evaluation, resume writing, sourcing, live monitoring or changing Lever records.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "recruiting pipelines",
+    "Lever",
+    "weekly pipeline",
+    "opportunity IDs",
+    "stage aging",
+    "export reconciliation"
+  ],
+  "displayName": "Recruiting Pipelines",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/recruiting-pipelines/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/recruiting-pipelines/README.md"
+}

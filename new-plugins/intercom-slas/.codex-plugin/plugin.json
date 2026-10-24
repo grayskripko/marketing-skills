@@ -1,0 +1,42 @@
+{
+  "name": "intercom-slas",
+  "version": "0.1.0",
+  "description": "Explain why an Intercom SLA was missed and why report percentages disagree. Use pasted chat/ticket events, historical office hours, pause settings and exported rows to explain replacements, late completion and report denominators.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "intercom",
+    "sla",
+    "target-history",
+    "sla-reporting",
+    "pause-settings",
+    "support-operations"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Intercom SLAs",
+    "shortDescription": "Reconstruct SLA targets and interpret report rows",
+    "longDescription": "Explain why an Intercom SLA was missed and why report percentages disagree. Two skills analyze supplied chat/ticket events, historical schedules and report rows. Preserve due times after office-hours changes, distinguish reapplication from replacement, and explain fixed breaches, target denominators and historical attribution. Separate phone Speed of Answer rows before comparing chat/ticket rates.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245C64",
+    "brandColorDark": "#90CDD2",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why did this SLA start before the workflow applied it? Here are the events and settings.",
+      "Explain these fixed and missed rows, and calculate the target and conversation breach rates."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/intercom-slas/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

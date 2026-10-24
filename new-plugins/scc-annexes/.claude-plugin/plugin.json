@@ -1,0 +1,21 @@
+{
+  "name": "scc-annexes",
+  "displayName": "SCC Annexes",
+  "version": "0.1.0",
+  "description": "Check EU international-transfer SCC modules and Annexes I\u2013III against supplied parties, transfers and implemented security measures; produce a completion workbook and contradiction ledger. Works from pasted text and exports, with transfer-specific field checks and evidence for each proposed completion.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "scc",
+    "international-transfers",
+    "annexes",
+    "security-measures"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/scc-annexes/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/scc-annexes/README.md"
+}

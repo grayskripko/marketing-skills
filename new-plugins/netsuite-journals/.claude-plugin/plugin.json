@@ -1,0 +1,23 @@
+{
+  "name": "netsuite-journals",
+  "version": "0.1.0",
+  "description": "Check a NetSuite journal CSV before import, or fix failed rows using pasted errors and reference exports. Explain append versus replacement; existing-line changes need complete current lines, and replacements need every retained populated field and its mapping. Works from pasted text and local exports to explain append versus replacement, validate journal groups and references, and prepare supported CSV corrections.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "netsuite-journals",
+    "journal-csv",
+    "journal-import",
+    "import-errors",
+    "subsidiaries"
+  ],
+  "displayName": "NetSuite Journals",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/netsuite-journals/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/netsuite-journals/README.md"
+}

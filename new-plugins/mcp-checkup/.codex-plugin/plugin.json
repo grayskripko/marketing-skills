@@ -1,0 +1,43 @@
+{
+  "name": "mcp-checkup",
+  "version": "0.1.0",
+  "description": "Fix my MCP connection and explain missing or failing tools from the configs, traces and files I provide. Review Claude Code, Codex and agent SDK settings; get a minimal repair and a clear verification report. Pasted material needs no setup. Optional live checks use an existing trusted client and documented read-only tools.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "connection",
+    "configuration",
+    "tool-discovery",
+    "diagnostics"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MCP Checkup",
+    "shortDescription": "Fix MCP connections and tools",
+    "longDescription": "Fix my MCP connection and explain missing or failing tools from the configs, traces and files I provide. Review Claude Code, Codex and agent SDK settings; get a minimal repair and a clear verification report. Pasted material needs no setup. Optional live checks use an existing trusted client and documented read-only tools.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#194D52",
+    "brandColorDark": "#9EE7C5",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this MCP config for my client and show the smallest supported fix.",
+      "Explain why this MCP discovery trace is missing the tool I need.",
+      "Review this MCP call result and tell me what actually passed."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/mcp-checkup/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

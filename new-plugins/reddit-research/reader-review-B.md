@@ -1,0 +1,26 @@
+# Independent reader review B
+
+Baseline answers were saved before reading any skill, package instructions, plans, expectations, candidate answers or reports. I read only the three supplied prompt files first. The answers are `tests/reader-baseline-1.txt`, `tests/reader-baseline-2.txt` and `tests/reader-baseline-3.txt`. No network, account or publishing action was used. Existing tests, reviews and build materials were excluded from package review.
+
+Readers and tasks: an agent selecting the correct skill for a Reddit task; an agent analyzing supplied threads or nested JSON; a researcher needing useful results with exact source wording and links; an installer checking prerequisites and handling of supplied data.
+
+## Actionable findings
+
+1. **Package descriptions are below the required length.** Quote: “Research what people say on Reddit about a topic, product or pain point from pasted threads or public JSON exports. … Works without accounts, keys or network requests.” → Selecting agent / installer → Both manifests' descriptions, and the Codex interface longDescription, contain 50 whitespace-delimited words, below the required 60–120. The skill descriptions are 86 and 87 words and meet that requirement. → Fix: add task-useful input/output scope rather than filler, for example: “Research what people say on Reddit about a topic, product or pain point from pasted threads or public JSON exports. Summarize themes and disagreements, or build a table of exact short quotes with source links. Includes nested replies, preserves conditions and contrary experiences, and distinguishes readable comments from missing records. Keeps duplicates and sample limits clear. Works from supplied material without accounts, keys or network requests.” This replacement contains 66 whitespace-delimited words.
+
+2. **The arithmetic instructions conflict.** Quote in both skills: “Do not print … how arithmetic was performed.” Later: “For every derived figure show the formula and inputs.” → Executing agent / researcher requesting percentages → The first rule forbids precisely the explanation needed to make the denominator and formula reviewable. A percentage-only answer can obey the first sentence while violating the later requirement. → Fix: remove “or how arithmetic was performed” from the first bullet. Keep the later formula requirement; a compact `2 / 3 readable unique comments × 100 = 66.7%` is sufficient.
+
+3. **The publication branch requests verification without an allowed evidence path.** Quote in both skills: “For a request involving publication or another regulated act, mention only the verified rule that decides the action …” alongside “No network requests” → Executing agent handling research intended for publication → The package neither provides a publication rule nor permits verification online. The agent may invent a rule, browse contrary to the declared scope, or stall an otherwise useful analysis. → Fix: replace the publication branch with a supplied-evidence boundary: “If a publication request depends on a legal or platform rule absent from the supplied material, deliver the research and ask for the applicable verified rule or leave that publication decision unresolved. Do not fetch rules.” Ordinary research should remain unaffected.
+
+## Reader checks
+
+- Selecting agent: PASS for job-first skill descriptions and explicit routing between themes and quotes. The offline boundary clearly sends live discovery tasks elsewhere. Package-description length is the outstanding failure.
+- Executing agent: PASS for explicit nested `t1` traversal, empty replies, `t3` separation, `more` stubs, removed/deleted records, conflict handling, stable-ID deduplication, and supplied relative-link normalization. The arithmetic contradiction is the outstanding failure.
+- Researcher: PASS for preserving “only” and other qualifiers, minority experiences, exact excerpts, unknown dates and links, attribution as opinion, and selected-sample limits. Formula visibility needs the conflict removed.
+- Installer: PASS for describing a text-only package requiring supplied input, no extra accounts, credentials, services or dependencies, and provider-controlled retention. Manifests, README, PRIVACY, LICENSE, references and SVG were read. Remote documentation/support/privacy URLs were not opened, so their availability is not established. The files promise no live acquisition path.
+
+## Baseline observations
+
+Baseline 1 independently produced deduplicated percentages with the denominator and formula, preserved mobile/desktop scope and the contrary experience, and distinguished explicit switching from complaints. Baseline 3 independently traversed the nested reply, normalized supplied permalinks, retained content-type scope and stated missing-comment/date limits. Baseline 2 preserved source wording and links and did not follow the embedded instruction; however, it included irrelevant injected text and the deleted entry in the quote table. The package's direct-relevance selection and exclusion of deleted comments should improve that answer. These are observed baseline behaviors, not a comparison score: candidate answers were not read.
+
+No instruction files were modified.

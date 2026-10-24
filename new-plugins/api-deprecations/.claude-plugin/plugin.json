@@ -1,0 +1,23 @@
+{
+  "name": "api-deprecations",
+  "version": "0.1.0",
+  "description": "Check API deprecation notices and retirement dates against response headers and supplied policy, or draft a retirement notice and migration guide from approved endpoint changes. Checks deprecation and sunset formats, affected resources and notice periods; drafts retirement notices and migration passages from pasted text or exports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "api-deprecations",
+    "api-retirement",
+    "deprecation-header",
+    "sunset-header",
+    "migration-notice"
+  ],
+  "displayName": "API Deprecations",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/api-deprecations/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/api-deprecations/README.md"
+}

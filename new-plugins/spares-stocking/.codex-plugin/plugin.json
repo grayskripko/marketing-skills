@@ -1,0 +1,48 @@
+{
+  "name": "spares-stocking",
+  "version": "0.1.2",
+  "description": "Find spare parts that are short, below reorder point or set with the wrong min/max, from stock, reservations, purchase orders, usage and lead times you paste. Matches part numbers across the records, catches unit, revision and duplicate-item mismatches, counts only usable stock and firm receipts, handles slow-moving and intermittent demand with a stated assumption, and checks a critical spare parts list against stock and equipment parts lists. For storeroom and MRO planners and reliability engineers.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "spare-parts",
+    "spare-parts-inventory",
+    "critical-spares",
+    "min-max",
+    "reorder-point",
+    "safety-stock",
+    "mro-inventory",
+    "intermittent-demand",
+    "storeroom",
+    "maintenance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Spares Stocking",
+    "shortDescription": "Find short spares and wrong min/max levels",
+    "longDescription": "Find spare parts that are short, below reorder point or set with the wrong min/max, from stock, reservations, purchase orders, usage and lead times you paste. Matches part numbers across the records, catches unit, revision and duplicate-item mismatches, counts only usable stock and firm receipts, handles slow-moving and intermittent demand with a stated assumption, and checks a critical spare parts list against stock and equipment parts lists. For storeroom and MRO planners and reliability engineers.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2E5E4E",
+    "brandColorDark": "#F2B134",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Which of these spares are below reorder point? Stock and open POs pasted below.",
+      "Are our min/max levels right for these slow-moving spares?",
+      "Check our critical spares list against this stock list."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-spares-stocking/plugins/spares-stocking/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
+  }
+}

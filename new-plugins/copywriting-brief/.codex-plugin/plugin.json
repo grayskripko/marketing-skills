@@ -1,0 +1,42 @@
+{
+  "name": "copywriting-assistant",
+  "version": "0.1.0",
+  "description": "Draft Google responsive search ad assets with sourced limits, character counts and required-text placement notes. Review ad combinations and US digital-ad disclosures, or identify missing product details readers need to choose. Also writes pages and email from supplied facts. Use for 'draft Google search ads from this brief' or 'review this product page for buyers checking fit'. Missing facts stay marked. Works from pasted text and readable exports, with embedded dated references; no account connection, web fetching, sending or publishing. Does not predict performance or grant legal or platform approval.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "copywriting",
+    "Google search ad copy",
+    "reader brief",
+    "copy review",
+    "email drafts"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Copywriting Assistant",
+    "shortDescription": "Draft ads and review copy",
+    "longDescription": "Draft Google responsive search ad assets with sourced limits, character counts and required-text placement notes. Review ad combinations and US digital-ad disclosures, or identify missing product details readers need to choose. Also writes pages and email from supplied facts. Use for 'draft Google search ads from this brief' or 'review this product page for buyers checking fit'. Missing facts stay marked. Works from pasted text and readable exports, with embedded dated references; no account connection, web fetching, sending or publishing. Does not predict performance or grant legal or platform approval.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Draft Google responsive search ad assets from this brief, preserving the compatibility limits.",
+      "Review this product page for buyers checking whether the parts fit their equipment."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/copywriting-brief/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "gage-studies",
+  "version": "0.1.2",
+  "description": "Review Gage R&R results and measurement tables to decide whether a measurement system is acceptable. Reads Minitab, JMP, spreadsheet or AIAG-form output, calculates crossed Gage R&R from part, operator and trial readings, and plans crossed, nested or Type 1 gage studies. Explains %Study Var, %Contribution, %Tolerance and distinct categories against the right denominator, and asks for the evidence a verdict needs. For metrologists and quality engineers working from pasted or exported data.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "gage-rr",
+    "gage-r-and-r",
+    "msa",
+    "measurement-system-analysis",
+    "gage-study",
+    "repeatability",
+    "reproducibility",
+    "type-1-gage-study",
+    "quality-engineering",
+    "metrology"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Gage Studies",
+    "shortDescription": "Review and calculate Gage R&R studies",
+    "longDescription": "Review Gage R&R results and measurement tables to decide whether a measurement system is acceptable. Reads Minitab, JMP, spreadsheet or AIAG-form output, calculates crossed Gage R&R from part, operator and trial readings, and plans crossed, nested or Type 1 gage studies. Explains %Study Var, %Contribution, %Tolerance and distinct categories against the right denominator, and asks for the evidence a verdict needs. For metrologists and quality engineers working from pasted or exported data.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#2F3E4E",
+    "brandColorDark": "#F2C14E",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Is my gage R&R acceptable? Here is the Minitab output.",
+      "Calculate a gage R&R from this part, operator and trial table.",
+      "How should I set up a gage study for a destructive test?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-gage-studies/plugins/gage-studies/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

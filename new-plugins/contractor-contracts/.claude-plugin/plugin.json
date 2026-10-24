@@ -1,0 +1,24 @@
+{
+  "name": "contractor-contracts",
+  "version": "0.1.0",
+  "description": "Check a California home-improvement agreement or initial quote for required fields, deposit arithmetic, payment milestones and applicable bond exceptions. Use pasted text or document exports to get specific corrections, price calculations and questions about missing evidence. Includes 2026 cancellation contact and subcontractor requirements. No accounts or connectors required.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "home-improvement",
+    "California",
+    "contract-check",
+    "deposit",
+    "progress-payments",
+    "performance-bond"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/contractor-contracts/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/contractor-contracts/README.md",
+  "displayName": "Contractor Contracts"
+}

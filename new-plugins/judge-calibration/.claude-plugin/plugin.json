@@ -1,0 +1,22 @@
+{
+  "name": "judge-calibration",
+  "version": "0.1.0",
+  "description": "Check whether your AI grader agrees with your reviewers and whether its recorded judgments stay consistent. Use pasted ratings, grader prompts, configs and exported traces to find disagreements, missing judgments, rubric ambiguities and answer-order sensitivity. Separate successful grading from run completion and tool errors. Works without accounts, API keys or a live evaluator connection.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "judge-calibration",
+    "grader-audit",
+    "human-ratings",
+    "rubric-review",
+    "agent-traces"
+  ],
+  "displayName": "Judge Calibration",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/judge-calibration/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/judge-calibration/README.md"
+}

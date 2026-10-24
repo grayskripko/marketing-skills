@@ -1,0 +1,42 @@
+{
+  "name": "rules-cleanup",
+  "version": "0.1.0",
+  "description": "Find conflicting or stale repo rules and prepare a small repair patch. Review supplied CLAUDE.md, AGENTS.md, rule files, SDK configs and traces; map client-specific loading, check command definitions, and preserve deployment approvals. Apply instruction-file edits only when requested.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "repo-rules",
+    "agent-instructions",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "instruction-scope"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rules Cleanup",
+    "shortDescription": "Find and repair repo rules",
+    "longDescription": "Find conflicting or stale repo rules and prepare a small repair patch. Review supplied CLAUDE.md, AGENTS.md, rule files, SDK configs and traces; map client-specific loading, check command definitions, and preserve deployment approvals. Apply instruction-file edits only when requested.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#235C51",
+    "brandColorDark": "#85C9B8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Audit these CLAUDE.md and AGENTS.md files for this launch directory.",
+      "Replace this obsolete test command using these package scripts; keep our deployment approval rule."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

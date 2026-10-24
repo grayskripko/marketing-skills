@@ -1,0 +1,24 @@
+{
+  "name": "support-targets",
+  "version": "0.1.0",
+  "description": "Explain why Zendesk tickets got an SLA target, which targets breached, and why SLA percentages differ from ticket counts. Use when you ask why a ticket got a target, why an SLA percentage differs from ticket counts, or which events caused a breach. For comment-based workflows; excludes live-chat and messaging reply events. Works with pasted policy text, report rows and readable exports. Not for live monitoring, account changes, ticket export generation or support reply drafting.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "zendesk",
+    "sla",
+    "priority",
+    "business-hours",
+    "metric-instances",
+    "breach-ledger"
+  ],
+  "displayName": "Support Targets",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/support-targets/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/support-targets/README.md"
+}

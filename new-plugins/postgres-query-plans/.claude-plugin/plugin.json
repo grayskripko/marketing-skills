@@ -1,0 +1,22 @@
+{
+  "name": "postgres-query-plans",
+  "version": "0.1.2",
+  "description": "Explain this slow Postgres query plan and tell me which change has evidence behind it. Use when you ask why a PostgreSQL query is slow, what an EXPLAIN node means, or whether a proposed index or rewrite is supported by the plan. Works from pasted text, JSON exports, attachments, and screenshot details you describe. Returns the observed work, the strongest supported next test, and the missing evidence that affects the decision. Not for other database engines, executing queries, or changing database settings.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "postgresql",
+    "explain",
+    "query-plan",
+    "query-performance",
+    "sql"
+  ],
+  "displayName": "Postgres Query Plans",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-postgres-query-plans/plugins/postgres-query-plans/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-postgres-query-plans/plugins/postgres-query-plans/README.md"
+}

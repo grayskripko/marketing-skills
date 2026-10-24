@@ -1,0 +1,40 @@
+{
+  "name": "scc-annexes",
+  "version": "0.1.0",
+  "description": "Check EU international-transfer SCC modules and Annexes I\u2013III against supplied parties, transfers and implemented security measures; produce a completion workbook and contradiction ledger. Works from pasted text and exports, with transfer-specific field checks and evidence for each proposed completion.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "scc",
+    "international-transfers",
+    "annexes",
+    "security-measures"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SCC Annexes",
+    "shortDescription": "Check EU international-transfer SCC annexes.",
+    "longDescription": "Check EU international-transfer SCC modules and Annexes I\u2013III against supplied parties, transfers and implemented security measures; produce a completion workbook and contradiction ledger. Works from pasted text and exports, with transfer-specific field checks and evidence for each proposed completion.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#244B61",
+    "brandColorDark": "#93BDCF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Complete the EU transfer SCC annexes from these party and transfer notes.",
+      "Compare these SCC annexes with our implemented security measures and list contradictions."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/scc-annexes/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

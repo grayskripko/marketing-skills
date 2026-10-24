@@ -1,0 +1,22 @@
+{
+  "name": "prompt-regressions",
+  "displayName": "Prompt Regressions",
+  "version": "0.1.0",
+  "description": "Check whether a prompt change broke the behavior you need before you ship it. Prepare acceptance checks from your supplied cases and runner configuration, or inspect exported results for behavior failures, runtime errors and missing evidence.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "prompt-regressions",
+    "release-check",
+    "claude-code",
+    "codex",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/prompt-regressions/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/prompt-regressions/README.md"
+}

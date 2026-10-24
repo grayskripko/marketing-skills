@@ -1,0 +1,39 @@
+{
+  "name": "hubspot-imports",
+  "version": "0.1.0",
+  "description": "Prepare HubSpot contact, company, deal, ticket, and supported association imports from supplied rows or exports. Get column mappings, identifier and duplicate checks, file fixes, manual import settings, error-repair plans, and post-import checks from supplied summaries and exports. Account imports are performed by the user.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "hubspot",
+    "imports",
+    "column-mapping",
+    "deduplication",
+    "crm",
+    "csv"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HubSpot Imports",
+    "shortDescription": "Check and map HubSpot imports",
+    "longDescription": "Prepare HubSpot contact, company, deal, ticket, and supported association imports from supplied rows or exports. Get column mappings, identifier and duplicate checks, file fixes, manual import settings, error-repair plans, and post-import checks from supplied summaries and exports. Account imports are performed by the user.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#235A69",
+    "brandColorDark": "#84BDCB",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this spreadsheet before I import it into HubSpot and map the columns.",
+      "Tell me which rows will update existing HubSpot records and which might duplicate them."
+    ]
+  }
+}

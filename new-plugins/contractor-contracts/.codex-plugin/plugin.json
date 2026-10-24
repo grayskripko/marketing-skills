@@ -1,0 +1,43 @@
+{
+  "name": "contractor-contracts",
+  "version": "0.1.0",
+  "description": "Check a California home-improvement agreement or initial quote for required fields, deposit arithmetic, payment milestones and applicable bond exceptions. Use pasted text or document exports to get specific corrections, price calculations and questions about missing evidence. Includes 2026 cancellation contact and subcontractor requirements. No accounts or connectors required.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "home-improvement",
+    "California",
+    "contract-check",
+    "deposit",
+    "progress-payments",
+    "performance-bond"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Contractor Contracts",
+    "shortDescription": "Check California home-improvement contracts.",
+    "longDescription": "Check a California home-improvement agreement or initial quote for required fields, deposit arithmetic, payment milestones and applicable bond exceptions. Use pasted text or document exports to get specific corrections, price calculations and questions about missing evidence. Includes 2026 cancellation contact and subcontractor requirements. No accounts or connectors required.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#315B57",
+    "brandColorDark": "#8BC7B7",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this California kitchen quote before I accept it: [paste quote]",
+      "Check this deposit, payment schedule and bond claim: [paste terms]"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/contractor-contracts/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

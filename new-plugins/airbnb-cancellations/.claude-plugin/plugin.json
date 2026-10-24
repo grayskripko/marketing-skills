@@ -1,0 +1,22 @@
+{
+  "name": "airbnb-cancellations",
+  "version": "0.1.0",
+  "description": "Calculate what I owe this guest if they cancel, and show which dates and policy apply. Use pasted reservation details, receipts and exports to calculate guest refunds, separate host settlement from money Airbnb returns, and identify reservation-specific deadlines. Covers short and monthly home stays, booking-date changes, regional exceptions, fee treatment and prior refunds.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "airbnb",
+    "cancellation",
+    "guest-refund",
+    "refund-deadlines",
+    "host-settlement"
+  ],
+  "displayName": "Airbnb Cancellations",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/airbnb-cancellations/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/airbnb-cancellations/README.md"
+}

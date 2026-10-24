@@ -1,0 +1,23 @@
+{
+  "name": "airbnb-disclosures",
+  "version": "0.1.0",
+  "description": "Check Airbnb cameras and noise monitors, and fix their listing disclosures. Use pasted inventories, listing descriptions and safety-field exports to find prohibited placements, missing camera locations and misleading noise wording. Get corrective actions and supported replacement text, including the narrow Japan entryway exception.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "airbnb",
+    "device-inventory",
+    "camera-disclosure",
+    "noise-monitor",
+    "listing-safety"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/airbnb-disclosures/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/airbnb-disclosures/README.md",
+  "displayName": "Airbnb Disclosures"
+}

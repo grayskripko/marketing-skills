@@ -1,0 +1,46 @@
+{
+  "name": "utm-governance",
+  "version": "0.1.0",
+  "description": "Create a UTM naming convention and check my campaign links against our register, returning a naming sheet, flagged links, proposed corrected URLs and an exception register while preserving historical campaign identities. Use when I ask to settle campaign names, standardize agency tags or check newsletter links from pasted text and readable exports. Separate approved vocabulary from future proposals, preserve click IDs and anchors, and flag ambiguous aliases, duplicate fields and identity conflicts. Not for live analytics access, redirect testing, campaign performance reporting or account changes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "utm",
+    "campaign-naming",
+    "campaign-register",
+    "url-audit",
+    "taxonomy",
+    "exceptions"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/utm-governance/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/utm-governance/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UTM Governance",
+    "shortDescription": "Create a UTM naming convention and check campaign links.",
+    "longDescription": "Create a UTM naming convention and check my campaign links against our register, returning a naming sheet, flagged links, proposed corrected URLs and an exception register while preserving historical campaign identities. Use when I ask to settle campaign names, standardize agency tags or check newsletter links from pasted text and readable exports. Separate approved vocabulary from future proposals, preserve click IDs and anchors, and flag ambiguous aliases, duplicate fields and identity conflicts. Not for live analytics access, redirect testing, campaign performance reporting or account changes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245A67",
+    "brandColorDark": "#84C5D1",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Settle our UTM taxonomy from this campaign register and naming rules.",
+      "Check these campaign links and propose corrected URLs with an exception register."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/utm-governance/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

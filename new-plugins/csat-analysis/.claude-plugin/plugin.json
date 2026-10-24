@@ -1,0 +1,19 @@
+{
+  "name": "csat-analysis",
+  "displayName": "CSAT Analysis",
+  "version": "0.1.1",
+  "description": "Checks survey counts, compares customer satisfaction (CSAT) across two periods and turns complaints into improvement tasks backed by specific cases. Use when you ask “Can I trust these ratings?”, “Why did CSAT fall?” or “What should we fix from this feedback?” Works from survey and ticket exports you supply, with your rating definition. Shows formulas and identifies ratings with no ticket match. Not for connecting to live helpdesk accounts, changing tickets, proving causes, ranking employees, sending replies or publishing changes.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "csat",
+    "survey",
+    "customer-support",
+    "ticket-analysis"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

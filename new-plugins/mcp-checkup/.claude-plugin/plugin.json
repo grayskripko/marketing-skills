@@ -1,0 +1,23 @@
+{
+  "name": "mcp-checkup",
+  "version": "0.1.0",
+  "description": "Fix my MCP connection and explain missing or failing tools from the configs, traces and files I provide. Review Claude Code, Codex and agent SDK settings; get a minimal repair and a clear verification report. Pasted material needs no setup. Optional live checks use an existing trusted client and documented read-only tools.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "connection",
+    "configuration",
+    "tool-discovery",
+    "diagnostics"
+  ],
+  "displayName": "MCP Checkup",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/mcp-checkup/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/mcp-checkup/README.md"
+}

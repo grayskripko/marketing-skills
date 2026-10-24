@@ -1,0 +1,24 @@
+{
+  "name": "dpa-agreements",
+  "version": "0.1.0",
+  "description": "Check what is missing from an EU supplier DPA, fill its processing annex, and turn conflicting security answers or subprocessor lists into questions for the vendor. Use when checking missing supplier duties, filling processing annexes, or preparing questions from security and subprocessor evidence. Work from pasted agreement text and selected PDF, CSV or spreadsheet exports. Distinguish binding commitments from evidence gaps and controller–processor clauses from transfer clauses. Produce proposed changes, an activity-specific processing schedule or vendor-ready questions, preserving unknowns and source locations. No accounts, connectors or runtime network access are required.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "dpa",
+    "gdpr",
+    "article-28",
+    "controller-processor",
+    "subprocessors",
+    "vendor-review"
+  ],
+  "displayName": "DPA Agreements",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/dpa-agreements/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/dpa-agreements/README.md"
+}

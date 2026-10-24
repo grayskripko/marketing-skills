@@ -1,0 +1,45 @@
+{
+  "name": "booking-restrictions",
+  "version": "0.1.0",
+  "description": "Check why a Booking.com stay is unavailable, including minimum-stay settings and closed arrival or departure dates. Return the blocking fields and proposed settings changes. Use pasted inventory tables, restriction exports, B.XML requests or response bodies to explain why a stay cannot be sold or review a proposed fix. Separate minimum stay across occupied nights from minimum stay on arrival, check arrival and departure closures on their actual dates, and show room-level closure and shared-inventory effects. No account or installation is needed for pasted text or exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "booking-restrictions",
+    "availability",
+    "minimum-stay",
+    "inventory",
+    "arrival",
+    "departure"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/booking-restrictions/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/booking-restrictions/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Booking Restrictions",
+    "shortDescription": "Trace availability blockers and review fixes",
+    "longDescription": "Check why a Booking.com stay is unavailable, including minimum-stay settings and closed arrival or departure dates. Return the blocking fields and proposed settings changes. Use pasted inventory tables, restriction exports, B.XML requests or response bodies to explain why a stay cannot be sold or review a proposed fix. Separate minimum stay across occupied nights from minimum stay on arrival, check arrival and departure closures on their actual dates, and show room-level closure and shared-inventory effects. No account or installation is needed for pasted text or exports.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#28565B",
+    "brandColorDark": "#90CBD0",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why is this itinerary blocked? Here are the inventory and restriction rows.",
+      "Review these proposed restriction changes against this itinerary."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/booking-restrictions/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

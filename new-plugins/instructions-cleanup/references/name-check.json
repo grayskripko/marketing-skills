@@ -1,0 +1,12 @@
+{
+  "catalog": "plans/overnight/research/catalog/claude-directory-all.json",
+  "sha256": "d212a3a9dc5fa3807b2d2266d03b23154e619be47b918911764f7304dc350c34",
+  "records": 4184,
+  "normalization": "lowercase ASCII alphanumeric; Levenshtein distance 0-2",
+  "results": {
+    "Instructions Cleanup": [],
+    "instructions-cleanup": [],
+    "rule-scope-audit": [],
+    "rule-file-repair": []
+  }
+}

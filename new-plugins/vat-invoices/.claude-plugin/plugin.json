@@ -1,0 +1,22 @@
+{
+  "name": "vat-invoices",
+  "displayName": "VAT Invoices",
+  "version": "0.1.0",
+  "description": "Check this UK invoice before I send it and show exactly which fields need fixing. Review pasted text, readable exports or described screenshots against UK business identity and VAT field requirements. Show exact replacements, missing details and corrected totals. Review VAT credit notes against original invoice references, rates and refund dates.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "uk-invoice",
+    "vat-invoices",
+    "vat-invoice",
+    "credit-note",
+    "invoice-fields"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/vat-invoices/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/vat-invoices/README.md"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "payout-reconciliation",
+  "displayName": "Payout Reconciliation",
+  "version": "0.1.0",
+  "description": "Matches payment payouts to bank deposits and explains money left in a clearing account from records you supply. Use when “payouts differ from sales”, “match these deposits”, or “why is my clearing account not zero?”. Chooses Stripe exports for automatic, manual and instant payouts. Shows source rows, fees, refunds, net amounts and differences that remain unexplained. Keeps currencies separate and leaves uncertain matches unresolved. Works from authorized exports or pasted rows, without connectors, keys or paid APIs. Prepares reconciliation notes for accountant review. Not for tax preparation, payroll, deciding when to record revenue, posting entries, making payments or certifying a close.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "settlement",
+    "payouts",
+    "bank-deposits",
+    "clearing-account",
+    "reconciliation"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills"
+}

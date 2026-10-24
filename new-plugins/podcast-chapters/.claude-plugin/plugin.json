@@ -1,0 +1,24 @@
+{
+  "name": "podcast-chapters",
+  "version": "0.1.0",
+  "description": "Review timed podcast chapters for Apple and Spotify and produce route-specific corrected timestamps and titles. Use pasted descriptions, timed chapter lists, TXT downloads, RSS XML, chapter JSON or host exports to repair manual chapters and review automatic chapters. Separate required fields and editor constraints from title and spacing recommendations. Diagnose missing or stale Apple chapters and identify Spotify chapter hooks. No platform account, API key or additional software is needed to review supplied text.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "podcast-chapters",
+    "apple-podcasts",
+    "spotify",
+    "timestamps",
+    "rss",
+    "chapter-review"
+  ],
+  "displayName": "Podcast Chapters",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/podcast-chapters/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/podcast-chapters/README.md"
+}

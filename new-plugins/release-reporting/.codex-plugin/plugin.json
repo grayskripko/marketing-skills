@@ -1,0 +1,47 @@
+{
+  "name": "release-reporting",
+  "version": "0.1.0",
+  "description": "Explain missing PRs in GitHub release notes and check the notes against release.yml. Draft supported notes from supplied PRs, labels, authors and tags. Use when you ask why a merged PR is missing, want to check release.yml against generated notes, or need release notes from pasted PR exports. Work from the release range and evidence you supply. Get an omission report or ready-to-edit Markdown notes with supported PR links and attribution. Not for creating tags, publishing releases, deploying code or configuring release automation.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "release-notes",
+    "github-releases",
+    "release-reporting",
+    "release-yml",
+    "changelog",
+    "pull-requests"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/release-reporting/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/release-reporting/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Release Reporting",
+    "shortDescription": "Explain missing PRs in GitHub release notes",
+    "longDescription": "Explain missing PRs in GitHub release notes and check the notes against release.yml. Draft supported notes from supplied PRs, labels, authors and tags. Use when you ask why a merged PR is missing, want to check release.yml against generated notes, or need release notes from pasted PR exports. Work from the release range and evidence you supply. Get an omission report or ready-to-edit Markdown notes with supported PR links and attribution. Not for creating tags, publishing releases, deploying code or configuring release automation.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#315A75",
+    "brandColorDark": "#99C5E0",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Explain why these PRs are missing from our generated release notes.",
+      "Draft release notes from these PRs and our release.yml.",
+      "Check this tag range and pasted generation response."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/release-reporting/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

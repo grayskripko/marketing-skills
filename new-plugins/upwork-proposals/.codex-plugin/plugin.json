@@ -1,0 +1,43 @@
+{
+  "name": "upwork-proposals",
+  "version": "0.1.0",
+  "description": "Assess an Upwork job and prepare a proposal from the actual portfolio, screening questions, rate and current Connects conditions. Use pasted jobs, invitations, portfolio records and proposal forms to check fit, draft the cover letter and screening answers, and calculate base and optional boost spending.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "upwork",
+    "proposals",
+    "screening-questions",
+    "connects",
+    "portfolio"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Upwork Proposals",
+    "shortDescription": "Assess jobs and draft Upwork proposals.",
+    "longDescription": "Assess an Upwork job and prepare a proposal from the actual portfolio, screening questions, rate and current Connects conditions. Use pasted jobs, invitations, portfolio records and proposal forms to check fit, draft the cover letter and screening answers, and calculate base and optional boost spending.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#285A46",
+    "brandColorDark": "#8FC6AB",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Is this Upwork job worth applying to with my portfolio?",
+      "Draft my Upwork cover letter and screening answers from these records.",
+      "Explain these Connects charges and compare applying with and without a boost."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/upwork-proposals/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

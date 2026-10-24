@@ -1,0 +1,40 @@
+{
+  "name": "booking-faq",
+  "version": "0.1.0",
+  "description": "Write booking FAQs, explain how to book, draft booking replies and check existing booking text using your approved terms. Use when you ask “write our booking FAQ”, “reply to this booking question” or “check our cancellation answers.” For local service owners. Provide customer questions with unnecessary personal details removed and approved terms for each branch. Keeps deposit and cancellation exceptions and separates booking questions, provisional holds and confirmed appointments. Uses only supplied text and files. Not for calendar access, checking availability, making reservations, sending messages or fetching links.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "booking-faq",
+    "appointment-policy",
+    "booking-messages",
+    "cancellation-copy"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Booking FAQ",
+    "shortDescription": "Write and check booking FAQs and messages",
+    "longDescription": "Write booking FAQs, explain how to book, draft booking replies and check existing booking text using your approved terms. Use when you ask “write our booking FAQ”, “reply to this booking question” or “check our cancellation answers.” For local service owners. Provide customer questions with unnecessary personal details removed and approved terms for each branch. Keeps deposit and cancellation exceptions and separates booking questions, provisional holds and confirmed appointments. Uses only supplied text and files. Not for calendar access, checking availability, making reservations, sending messages or fetching links.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Write booking FAQs from these approved policies and questions.",
+      "Reply to this inquiry using the supplied booking status.",
+      "Fix this booking copy against the approved branch policy."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

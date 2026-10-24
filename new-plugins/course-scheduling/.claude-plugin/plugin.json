@@ -1,0 +1,21 @@
+{
+  "name": "course-scheduling",
+  "displayName": "Course Scheduling",
+  "version": "0.1.0",
+  "description": "Find when Teachable course sections unlock and when their emails go out, in local time and UTC. Works from pasted settings and exports to build calendars and check release dates, announcement timing and access exceptions.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "course-scheduling",
+    "teachable",
+    "drip-content",
+    "release-calendar",
+    "enrollment",
+    "email-announcements"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

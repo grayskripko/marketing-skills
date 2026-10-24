@@ -1,0 +1,42 @@
+{
+  "name": "agent-orchestration",
+  "version": "0.1.0",
+  "description": "Helps you decide whether to use several agents, give them separate tasks, check their combined results, and explain what a run cost. Use when you ask “should I use subagents?”, “run these tasks with agents and check their answers”, or “why did this run cost so much?”. Works from pasted text, authorized local files, or redacted usage exports. Running agents needs your assistant’s existing subagent tools. Keeps work within agreed budgets and retry limits. Not for ordinary proofreading, installing agent software, accessing billing accounts, guessing prices, or pretending that one assistant is several independent agents.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "parallel-agents",
+    "subagents",
+    "task-splitting",
+    "agent-verification",
+    "agent-cost"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Orchestration",
+    "shortDescription": "Plan, run, check agent work",
+    "longDescription": "Helps you decide whether to use several agents, give them separate tasks, check their combined results, and explain what a run cost. Use when you ask “should I use subagents?”, “run these tasks with agents and check their answers”, or “why did this run cost so much?”. Works from pasted text, authorized local files, or redacted usage exports. Running agents needs your assistant’s existing subagent tools. Keeps work within agreed budgets and retry limits. Not for ordinary proofreading, installing agent software, accessing billing accounts, guessing prices, or pretending that one assistant is several independent agents.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Should I use parallel agents to compare these three pasted reports? Plan it without launching anything.",
+      "Run two native agents on independent local sources and combine cited findings. Stop after one repair per source.",
+      "Audit this redacted agent usage export with the rates I provide."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

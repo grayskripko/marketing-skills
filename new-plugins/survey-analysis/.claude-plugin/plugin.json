@@ -1,0 +1,23 @@
+{
+  "name": "survey-analysis",
+  "version": "0.1.0",
+  "description": "Provides descriptive analysis of supplied survey responses through checked question tables, a table linking open answers to themes and a short findings report. Use when the user says “summarize these survey results,” “group these comments,” or “write a short findings report.” Works from pasted responses or CSV/XLSX files, supplied question wording and rules for showing or skipping questions. Shows counts and what each percentage is based on, keeps uncertain theme labels and answers that disagree visible, and prepares drafts for human review. No survey account or paid API is required. Not for questionnaire design, collecting responses, employee rankings, estimates for the wider population or claims about causes. Inferential testing and weighting require separate additions.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "survey",
+    "survey-results",
+    "open-answers",
+    "response-coding",
+    "survey-report"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/survey-analysis/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/survey-analysis/README.md",
+  "displayName": "Survey Analysis"
+}

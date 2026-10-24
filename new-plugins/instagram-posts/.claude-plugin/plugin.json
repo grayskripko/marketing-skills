@@ -1,0 +1,20 @@
+{
+  "name": "instagram-content",
+  "version": "0.1.0",
+  "description": "Write Instagram captions, carousels and reel scripts with hooks and hashtags from your facts. Paste your product details, event notes, existing draft or transcript and get copy ready to review and paste, with claims and exceptions preserved. Works without accounts, paid APIs or setup. Produces text drafts only.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "captions",
+    "carousels",
+    "reel-scripts",
+    "hooks",
+    "hashtags"
+  ],
+  "displayName": "Instagram Content"
+}

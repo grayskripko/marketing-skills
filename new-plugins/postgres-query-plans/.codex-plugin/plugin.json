@@ -1,0 +1,38 @@
+{
+  "name": "postgres-query-plans",
+  "version": "0.1.2",
+  "description": "Explain this slow Postgres query plan and tell me which change has evidence behind it. Use when you ask why a PostgreSQL query is slow, what an EXPLAIN node means, or whether a proposed index or rewrite is supported by the plan. Works from pasted text, JSON exports, attachments, and screenshot details you describe. Returns the observed work, the strongest supported next test, and the missing evidence that affects the decision. Not for other database engines, executing queries, or changing database settings.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "postgresql",
+    "explain",
+    "query-plan",
+    "query-performance",
+    "sql"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Postgres Query Plans",
+    "shortDescription": "Explain Postgres query plans",
+    "longDescription": "Explain this slow Postgres query plan and tell me which change has evidence behind it. Use when you ask why a PostgreSQL query is slow, what an EXPLAIN node means, or whether a proposed index or rewrite is supported by the plan. Works from pasted text, JSON exports, attachments, and screenshot details you describe. Returns the observed work, the strongest supported next test, and the missing evidence that affects the decision. Not for other database engines, executing queries, or changing database settings.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#28566E",
+    "brandColorDark": "#9BC9DF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Explain this PostgreSQL EXPLAIN ANALYZE plan and suggest the best-supported next test.",
+      "Compare these before and after PostgreSQL plans. Does the evidence support keeping the change?"
+    ]
+  }
+}

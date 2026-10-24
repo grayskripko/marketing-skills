@@ -1,0 +1,25 @@
+{
+  "name": "patreon-benefits",
+  "displayName": "Patreon Benefits",
+  "version": "0.1.0",
+  "description": "Work out who should receive this month's Patreon benefits and explain missing rewards from pasted member exports. Use monthly eligibility, tier terms and delivery records to separate ready recipients, upcoming renewals, annual coverage, gift access, no-tier pledges, refund questions and address holds. Returns a month-specific delivery table or a member-by-member correction checklist. For creators and media teams reviewing their own exports. Reads supplied text and selected files; no account connection or network requests.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "patreon",
+    "benefits",
+    "benefit-eligibility",
+    "member-export",
+    "creator-membership",
+    "gifted-members",
+    "annual-members"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/patreon-benefits/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/patreon-benefits/README.md"
+}

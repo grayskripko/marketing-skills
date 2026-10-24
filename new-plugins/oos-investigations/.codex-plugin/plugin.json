@@ -1,0 +1,48 @@
+{
+  "name": "oos-investigations",
+  "version": "0.1.2",
+  "description": "Investigate an out-of-specification (OOS) lab result from the original result, approved specification, analyst notes, raw data and retest history. Build the Phase I evidence chronology and hypothesis register, check retests, resampling, averaging and outlier tests against FDA, MHRA and EU GMP expectations, and draft the Phase II handoff with missing-record requests, other-batch impact and reporting clocks. For QC investigators and QA reviewers working from pasted records and exports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "oos-investigation",
+    "out-of-specification",
+    "phase-i-investigation",
+    "phase-ii-investigation",
+    "retest",
+    "laboratory-investigation",
+    "quality-control",
+    "gmp",
+    "data-integrity",
+    "capa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OOS Investigations",
+    "shortDescription": "Investigate an out-of-specification lab result",
+    "longDescription": "Investigate an out-of-specification (OOS) lab result from the original result, approved specification, analyst notes, raw data and retest history. Build the Phase I evidence chronology and hypothesis register, check retests, resampling, averaging and outlier tests against FDA, MHRA and EU GMP expectations, and draft the Phase II handoff with missing-record requests, other-batch impact and reporting clocks. For QC investigators and QA reviewers working from pasted records and exports.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F3B5A",
+    "brandColorDark": "#9ED0F0",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Build the Phase I OOS investigation from these lab records.",
+      "Can we average these retests with the original OOS result?",
+      "Draft the Phase II OOS handoff for QA from this file."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-oos-investigations/plugins/oos-investigations/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

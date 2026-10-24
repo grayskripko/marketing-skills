@@ -1,0 +1,40 @@
+{
+  "name": "help-articles",
+  "version": "0.1.0",
+  "description": "Check and fix your help articles and saved replies against approved policies, with exact replacements and source references. Use when you want to check articles after a policy change, update saved replies from release notes, or find confusing help content from tickets. Supply policy or release documents, article and saved-reply exports, and optional tickets with unnecessary private details removed. Keeps dates, plans, language or location settings and versions separate. Unverified ticket fixes remain proposals. Requires content-owner review. Not for legal certification, general ticket triage, publishing, sending or live helpdesk access. Fetches nothing from the network. No accounts or paid APIs are required.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "support-content",
+    "help-articles",
+    "saved-replies",
+    "policy-consistency"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Help Articles",
+    "shortDescription": "Check articles and replies",
+    "longDescription": "Check and fix your help articles and saved replies against approved policies, with exact replacements and source references. Use when you want to check articles after a policy change, update saved replies from release notes, or find confusing help content from tickets. Supply policy or release documents, article and saved-reply exports, and optional tickets with unnecessary private details removed. Keeps dates, plans, language or location settings and versions separate. Unverified ticket fixes remain proposals. Requires content-owner review. Not for legal certification, general ticket triage, publishing, sending or live helpdesk access. Fetches nothing from the network. No accounts or paid APIs are required.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245B54",
+    "brandColorDark": "#86C7B6",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Compare these approved policy changes with our help articles and saved replies. Give exact source-linked replacements.",
+      "Update these article sections and macros from the approved release notes.",
+      "Compare these tickets, with unnecessary private details removed, with our help library. Propose additions supported by approved sources."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

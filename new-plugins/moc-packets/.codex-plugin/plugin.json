@@ -1,0 +1,48 @@
+{
+  "name": "moc-packets",
+  "version": "0.1.2",
+  "description": "Build a management of change (MOC) packet from a proposed process change, design specification, site MOC form and affected-document export. Returns a before/after table, a clause-to-evidence matrix against OSHA PSM 1910.119(l), PSSR and EPA RMP 68.75, an open-items register for documents, training and authorizations, and an attribute-by-attribute comparison for replacement-in-kind questions. Works from pasted or exported data and supports the qualified engineer's and process safety reviewer's sign-off.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "moc",
+    "management-of-change",
+    "moc-packet",
+    "process-safety-management",
+    "psm",
+    "osha-1910-119",
+    "rmp",
+    "pre-startup-safety-review",
+    "replacement-in-kind",
+    "process-safety"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MOC Packets",
+    "shortDescription": "Build MOC packets and open-item registers",
+    "longDescription": "Build a management of change (MOC) packet from a proposed process change, design specification, site MOC form and affected-document export. Returns a before/after table, a clause-to-evidence matrix against OSHA PSM 1910.119(l), PSSR and EPA RMP 68.75, an open-items register for documents, training and authorizations, and an attribute-by-attribute comparison for replacement-in-kind questions. Works from pasted or exported data and supports the qualified engineer's and process safety reviewer's sign-off.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E5F",
+    "brandColorDark": "#9FD3C7",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Build the MOC packet for this change from our form and P&ID list.",
+      "What is still open on these MOCs before start-up?",
+      "Is this substitute gasket the same as our piping class spec?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-moc-packets/plugins/moc-packets/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,12 @@
+# Measurement notes
+
+Primary sources opened 2026-10-10. Historical research A/B records earlier observations; this file uses the actual new read date. Provider documentation explains possible measurement differences, not the settings of a supplied export.
+
+- [Mailchimp bot activity](https://mailchimp.com/help/about-bot-activity/), read 2026-10-10. Automated interactions can inflate opens and clicks; account filtering settings affect reported results. Check the supplied export instead of presuming its setting. Supporting passage: “Bot activity includes any non-human interactions with your campaigns”.
+- [Mailchimp Apple MPP FAQ](https://mailchimp.com/help/apple-privacy-faq/), read 2026-10-10. MPP affects open measurement; opens alone do not establish attentive reading. This is Mailchimp's explanation of Apple Mail behavior, not a correction factor for any export.
+- [beehiiv Verified Clicks](https://www.beehiiv.com/support/article/28404633659159-introducing-verified-clicks-accurate-email-engagement-metrics), read 2026-10-10. Distinguishes total, verified total, unique and verified unique clicks. Supporting passage: “We provide both unfiltered click data and verified metrics”. Its summary rate labels do not establish a denominator for the user's export; request field definitions rather than guess.
+- [beehiiv Subscribers Report](https://www.beehiiv.com/support/article/14492955466007-understanding-your-subscribers-report), read 2026-10-10. Engagement counts in this report concern new subscribers within the selected period, so publication-wide analytics may differ. It exposes first-X-days cohort comparisons. Supporting passage: “they only reflect data for new subscribers within the specified time frame”.
+
+Formulas are arithmetic definitions under the stated inputs, not universal provider labels. Equal follow-up, weighting pooled issue rates by their denominators, and separating observed differences from causes are this plugin's analytical rules of thumb, not platform mandates. No Substack-specific denominator or export availability is assumed. No universal benchmark or minimum sample size is imposed.
+
+Use these notes to explain a decision-relevant definition in the requested answer. They do not require an extra measurement report or a separate block of limitations. Keep total email clicks and anonymous web events separate from unique recipients; for a comparison request, they can be shown as captured counts with their elapsed windows even when they cannot establish a final winner.

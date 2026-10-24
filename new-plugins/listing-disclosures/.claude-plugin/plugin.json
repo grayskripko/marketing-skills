@@ -1,0 +1,23 @@
+{
+  "name": "listing-disclosures",
+  "version": "0.1.0",
+  "description": "Check a US sale/rental lead-disclosure packet against property age, exemptions, available records, timing, electronic consent and signed-record retention. Use when reviewing pasted disclosure forms, property facts, available-report indexes, consent terms or execution logs before signing, or auditing signed copies after a sale or lease begins. Get case-specific missing-document, field and timing corrections and federal minimum retention dates. Works without accounts or connectors. Not for public listing copy, renovation practices, paint testing or general contract drafting.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "lead-disclosure",
+    "rental-disclosure",
+    "sale-disclosure",
+    "electronic-consent",
+    "record-retention"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/listing-disclosures/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/listing-disclosures/README.md",
+  "displayName": "Listing Disclosures"
+}

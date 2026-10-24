@@ -1,0 +1,26 @@
+{
+  "name": "sds-reviews",
+  "version": "0.1.2",
+  "description": "Review supplier safety data sheets (SDS) for missing or contradictory information under US OSHA HazCom. Check one SDS section by section, match a chemical inventory to its SDS library, and compare old and new SDS revisions. Works from pasted SDS text and exports; returns passage-linked findings and supplier questions.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "sds-review",
+    "safety-data-sheet",
+    "sds-compliance",
+    "osha-hazcom",
+    "hazard-communication",
+    "chemical-inventory",
+    "sds-management",
+    "ehs"
+  ],
+  "displayName": "SDS Reviews",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-sds-reviews/plugins/sds-reviews/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-sds-reviews/plugins/sds-reviews/README.md"
+}

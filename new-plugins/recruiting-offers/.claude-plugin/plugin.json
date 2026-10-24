@@ -1,0 +1,24 @@
+{
+  "name": "recruiting-offers",
+  "version": "0.1.0",
+  "description": "Explain why Greenhouse offer acceptance reports disagree and list offers still waiting for a response. Compare resolved-offer rates and build dated queues from pasted exports, with scope gaps and ambiguous versions kept visible.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "recruiting",
+    "offers",
+    "offer acceptance",
+    "outstanding offers",
+    "Greenhouse",
+    "offer reports"
+  ],
+  "displayName": "Recruiting Offers",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/recruiting-offers/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/recruiting-offers/README.md"
+}

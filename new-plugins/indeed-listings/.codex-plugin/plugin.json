@@ -1,0 +1,42 @@
+{
+  "name": "indeed-listings",
+  "version": "0.1.0",
+  "description": "Check an Indeed job posting or explain why it is not showing up. Use when an ad needs checking, a vacancy is missing from search, or a posting message needs explaining. For a posting check, supply approved text, country and actual role/location. For missing-job help, start with the message or search observation and country; add relevant status/history/budget evidence. Returns necessary field corrections or an evidence-based next action.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "indeed",
+    "job-posting",
+    "job-visibility",
+    "recruiting",
+    "posting-policies",
+    "sponsored-jobs"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Indeed Listings",
+    "shortDescription": "Check an Indeed ad or explain why it is not showing up.",
+    "longDescription": "Check an Indeed job posting or explain why it is not showing up. Use when an ad needs checking, a vacancy is missing from search, or a posting message needs explaining. For a posting check, supply approved text, country and actual role/location. For missing-job help, start with the message or search observation and country; add relevant status/history/budget evidence. Returns necessary field corrections or an evidence-based next action.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#254C73",
+    "brandColorDark": "#9DC3E6",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this approved Indeed posting against the real role and work location.",
+      "Explain why our Indeed job is not showing up using this message and status/budget export."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

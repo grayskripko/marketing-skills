@@ -1,0 +1,40 @@
+{
+  "name": "pinterest-trends",
+  "version": "0.1.0",
+  "description": "When should I publish each topic in my region from these Pinterest Trends values? Turn supplied curves into a seasonal calendar with publication windows and production deadlines. Prepare pasted text, exports or user-described screenshots, keeping regional scope, trend types and relative values clear.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "pinterest",
+    "trends",
+    "seasonal-calendar",
+    "regional-trends",
+    "production-lead-time"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pinterest Trends",
+    "shortDescription": "Plan seasonal topic publishing",
+    "longDescription": "When should I publish each topic in my region from these Pinterest Trends values? Turn supplied curves into a seasonal calendar with publication windows and production deadlines. Prepare pasted text, exports or user-described screenshots, keeping regional scope, trend types and relative values clear.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#A43E48",
+    "brandColorDark": "#F2A7AF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "When should I publish each topic in my region from these Pinterest Trends values?",
+      "Turn these Pinterest Trends screenshot notes into a dated curve table."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

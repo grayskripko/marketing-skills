@@ -1,0 +1,43 @@
+{
+  "name": "accounting-journals",
+  "version": "0.1.0",
+  "description": "Checks Xero manual journal CSV files before import against the selected native or Conversion Toolbox route, template, account codes, tax names and tracking options. Use when you ask “check my Xero journal CSV,” “why will these journals not import,” or “review my conversion journal mapping.” Works from pasted rows or readable exports, the selected route and the destination organisation’s template and settings. Returns row-specific fixes and balances for each journal, separating draft import from posting readiness. Not for deciding accounting treatment, preparing tax returns, posting entries or synchronising an account.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "manual-journals",
+    "xero",
+    "journal-import",
+    "conversion-toolbox",
+    "account-codes",
+    "tracking"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Accounting Journals",
+    "shortDescription": "Checks Xero journal CSV files before import.",
+    "longDescription": "Checks Xero manual journal CSV files before import against the selected native or Conversion Toolbox route, template, account codes, tax names and tracking options. Use when you ask “check my Xero journal CSV,” “why will these journals not import,” or “review my conversion journal mapping.” Works from pasted rows or readable exports, the selected route and the destination organisation’s template and settings. Returns row-specific fixes and balances for each journal, separating draft import from posting readiness. Not for deciding accounting treatment, preparing tax returns, posting entries or synchronising an account.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check my native Xero journal CSV against this template and these settings.",
+      "Check these Conversion Toolbox journals and mappings before the preview."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/accounting-journals/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

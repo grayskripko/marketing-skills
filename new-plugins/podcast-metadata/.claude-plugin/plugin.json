@@ -1,0 +1,21 @@
+{
+  "name": "podcast-metadata",
+  "version": "0.1.0",
+  "description": "Repair Apple podcast RSS and episode metadata from XML and host-form exports. Preserve episode GUIDs, find duplicate media URLs, and return corrected XML or a field change table. Separate host edits from Apple Podcasts Connect edits, episode sorting from availability, and Connect form limits from RSS host limits. Works from pasted text and supplied exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "podcast",
+    "metadata",
+    "rss",
+    "episode",
+    "guid",
+    "enclosure"
+  ],
+  "displayName": "Podcast Metadata",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

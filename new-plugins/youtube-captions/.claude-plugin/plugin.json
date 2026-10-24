@@ -1,0 +1,21 @@
+{
+  "name": "youtube-captions",
+  "version": "0.1.0",
+  "description": "Fix translated YouTube captions while keeping their timestamps and technical terms. Repair supplied SRT, SBV and WebVTT files using YouTube format and styling rules. Review translated terminology against supplied source cues and an approved glossary. Works from pasted text, selected exports and screenshot details you describe. Returns a repaired timed-text draft, cue-level terminology decisions and any remaining upload blockers. Use for caption export repair or technical subtitle review.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "captions",
+    "localization",
+    "youtube",
+    "srt",
+    "sbv",
+    "webvtt",
+    "terminology"
+  ],
+  "displayName": "YouTube Captions"
+}

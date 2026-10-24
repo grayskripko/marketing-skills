@@ -1,0 +1,43 @@
+{
+  "name": "rental-inspections",
+  "version": "0.1.0",
+  "description": "Check an EICR (electrical safety certificate) for a rental property in England: expiry, required work and tenant or council copies. Check a social landlord’s supplied-appliance inventory and safety records. Use when asking “is this EICR still valid?”, “what must we fix and deliver?” or “which supplied appliances need records?” from pasted reports, inventories and tenancy exports. Get dated actions tied to findings, occupation, written requests and completed work, including the older social-tenancy first-check deadline. Works without accounts or connectors. Not for gas inspections, electrical testing, certification, other UK nations or general tenancy drafting.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "rental-inspections",
+    "eicr",
+    "electrical-safety",
+    "social-housing",
+    "equipment-inventory",
+    "england"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rental Inspections",
+    "shortDescription": "Check EICRs and social appliance records.",
+    "longDescription": "Check an EICR (electrical safety certificate) for a rental property in England: expiry, required work and tenant or council copies. Check a social landlord’s supplied-appliance inventory and safety records. Use when asking “is this EICR still valid?”, “what must we fix and deliver?” or “which supplied appliances need records?” from pasted reports, inventories and tenancy exports. Get dated actions tied to findings, occupation, written requests and completed work, including the older social-tenancy first-check deadline. Works without accounts or connectors. Not for gas inspections, electrical testing, certification, other UK nations or general tenancy drafting.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#244A60",
+    "brandColorDark": "#9DDBC7",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this England rental EICR and its delivery dates.",
+      "Reconcile this social landlord equipment inventory and safety records."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/rental-inspections/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

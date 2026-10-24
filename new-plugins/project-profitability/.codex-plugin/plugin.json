@@ -1,0 +1,43 @@
+{
+  "name": "project-profitability",
+  "version": "0.1.0",
+  "description": "Check which Harvest projects made money and explain differences between profit, invoices and budgets. Use pasted text or readable exports to explain reported-versus-calculated revenue, cost and margin, and identify the exact missing inputs behind a mismatch. Includes fixed-fee timing, invoice overrides, team/task allocation, currency filters and budget differences.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "project profitability",
+    "Harvest",
+    "gross profit",
+    "fixed fee",
+    "cost rates",
+    "reconciliation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Project Profitability",
+    "shortDescription": "Check which Harvest projects made money.",
+    "longDescription": "Check which Harvest projects made money and explain differences between profit, invoices and budgets. Use pasted text or readable exports to explain reported-versus-calculated revenue, cost and margin, and identify the exact missing inputs behind a mismatch. Includes fixed-fee timing, invoice overrides, team/task allocation, currency filters and budget differences.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#225B4A",
+    "brandColorDark": "#8BC9AF",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Reconcile these Harvest project exports for this month.",
+      "Why does this fixed-fee project show different revenue from its invoices?",
+      "Find the missing rates and dates behind this profitability warning."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/project-profitability/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "podcast-transcripts",
+  "version": "0.1.0",
+  "description": "Check podcast transcripts and upload settings for Apple Podcasts and Spotify. Get route, display, file and timestamp corrections from supplied settings and exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "podcast-transcripts",
+    "apple-podcasts",
+    "spotify",
+    "vtt",
+    "srt",
+    "transcript-ingestion"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Podcast Transcripts",
+    "shortDescription": "Check transcripts for Apple Podcasts and Spotify.",
+    "longDescription": "Check podcast transcripts and upload settings for Apple Podcasts and Spotify. Get route, display, file and timestamp corrections from supplied settings and exports.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#28546B",
+    "brandColorDark": "#87C7D9",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this transcript and these upload settings for Apple Podcasts and Spotify.",
+      "Why is my supplied transcript missing? Here are my host settings and the warning text."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/podcast-transcripts/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

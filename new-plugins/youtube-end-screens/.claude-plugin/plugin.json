@@ -1,0 +1,22 @@
+{
+  "name": "youtube-end-screens",
+  "displayName": "YouTube End Screens",
+  "version": "0.1.0",
+  "description": "Given this video's ending and my upload list, tell my editor where to put the YouTube end-screen elements. Checks eligibility, selects elements and targets, proposes timing and placement, and diagnoses missing elements from supplied settings. Plans are handed off to the creator or editor to apply in YouTube Studio.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "end-screen",
+    "video-editing",
+    "outro",
+    "next-video"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/youtube-end-screens/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/youtube-end-screens/README.md"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "weibull-analysis",
+  "version": "0.1.2",
+  "description": "Fit and review Weibull analyses of component failure and suspension data: beta, eta, B10 life and confidence bounds, with survivors kept as suspensions and a clear not-estimable verdict when the data are too thin. Check Minitab, Weibull++, JMP or spreadsheet Weibull output for dropped survivors, flipped censor flags, mixed failure modes, swapped parameters and unsupported confidence claims. Test repair histories of repairable equipment for a rising failure rate before anyone fits Weibull to times between failures. Works from pasted or exported data; cites IEC 61649 and the NIST/SEMATECH e-Handbook.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "weibull-analysis",
+    "weibull",
+    "life-data-analysis",
+    "reliability-engineering",
+    "b10-life",
+    "censored-data",
+    "suspensions",
+    "mtbf",
+    "crow-amsaa",
+    "failure-analysis"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Weibull Analysis",
+    "shortDescription": "Fit and check Weibull life data analyses",
+    "longDescription": "Fit and review Weibull analyses of component failure and suspension data: beta, eta, B10 life and confidence bounds, with survivors kept as suspensions and a clear not-estimable verdict when the data are too thin. Check Minitab, Weibull++, JMP or spreadsheet Weibull output for dropped survivors, flipped censor flags, mixed failure modes, swapped parameters and unsupported confidence claims. Test repair histories of repairable equipment for a rising failure rate before anyone fits Weibull to times between failures. Works from pasted or exported data; cites IEC 61649 and the NIST/SEMATECH e-Handbook.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#23384A",
+    "brandColorDark": "#E9A23B",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Run a Weibull analysis on these failure and survivor ages.",
+      "Is the B10 life in this Minitab Weibull output right?",
+      "Are failures on this pump getting more frequent?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-weibull-analysis/plugins/weibull-analysis/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "webflow-redirects",
+  "version": "0.1.0",
+  "description": "Review supplied Webflow 301 redirect maps for wildcard/path precedence, encoding, chains, loops and destination issues. Preserve existing rules and prepare a merged two-column CSV from a complete current export and approved changes. Check destination paths and domains against supplied information and review returned import-error CSVs.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "webflow",
+    "301-redirects",
+    "redirect-csv",
+    "url-migration",
+    "redirect-map"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "displayName": "Webflow Redirects"
+}

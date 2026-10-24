@@ -1,0 +1,44 @@
+{
+  "name": "remittance-denials",
+  "version": "0.1.0",
+  "description": "Explain insurance denial codes and EOB adjustments, and identify the evidence needed to correct or appeal them. Checks supplied US remittance code combinations, amount restrictions, encounter status and party-specific Medicare filing routes against dated official sources.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "remittance",
+    "ERA",
+    "EOB",
+    "CARC",
+    "RARC",
+    "denials",
+    "appeal-evidence"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Remittance Denials",
+    "shortDescription": "Explain remittance adjustments and evidence",
+    "longDescription": "Explain insurance denial codes and EOB adjustments, and identify the evidence needed to correct or appeal them. Checks supplied US remittance code combinations, amount restrictions, encounter status and party-specific Medicare filing routes against dated official sources.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#174D57",
+    "brandColorDark": "#B4DDE2",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Explain these pasted ERA/EOB adjustments and identify the missing remarks or field evidence.",
+      "Build an evidence worklist for correcting or appealing these remittance lines."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/remittance-denials/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "agent-dispatch",
+  "version": "0.1.0",
+  "description": "Split this job between agents without duplicate work or conflicting edits. Use when you need task dependencies, file owners and worker briefs, recovery from pasted coordination traces, or an integration decision from worker diffs and results. Works from supplied text and named local files; live dispatch uses available native tools only when requested. Not for building agent frameworks, configuring MCP servers, setting API budgets or publishing changes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-dispatch",
+    "agent-coordination",
+    "task-dependencies",
+    "file-ownership",
+    "worker-recovery",
+    "result-reconciliation"
+  ],
+  "displayName": "Agent Dispatch",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/agent-dispatch/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/agent-dispatch/README.md"
+}

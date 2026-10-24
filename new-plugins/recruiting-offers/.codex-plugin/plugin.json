@@ -1,0 +1,43 @@
+{
+  "name": "recruiting-offers",
+  "version": "0.1.0",
+  "description": "Explain why Greenhouse offer acceptance reports disagree and list offers still waiting for a response. Compare resolved-offer rates and build dated queues from pasted exports, with scope gaps and ambiguous versions kept visible.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "recruiting",
+    "offers",
+    "offer acceptance",
+    "outstanding offers",
+    "Greenhouse",
+    "offer reports"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Recruiting Offers",
+    "shortDescription": "Explain offer rates and list waiting offers",
+    "longDescription": "Explain why Greenhouse offer acceptance reports disagree and list offers still waiting for a response. Use supplied reports to compare acceptance counts and build a dated sent/unresolved queue. Preserve date filters, versions and visibility gaps.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#24554B",
+    "brandColorDark": "#8BC6B8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why do these Greenhouse offer acceptance totals disagree?",
+      "Which offers were still outstanding at this cutoff?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/recruiting-offers/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

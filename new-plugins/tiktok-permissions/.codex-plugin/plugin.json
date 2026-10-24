@@ -1,0 +1,42 @@
+{
+  "name": "tiktok-permissions",
+  "version": "0.1.0",
+  "description": "Check what a TikTok permission request allows and whether its scope and expiry match our deal. Use when reviewing a Spark Ads request, comparing a 365-day invitation with shorter terms, or checking authorization export rows before ads run. Return a scope and expiry checklist from pasted requests, agreed terms and optional redacted exports. Separate post permission, account access, commercial dates and platform expiry. Not for ad operation, live account monitoring, sponsorship negotiation, or generating or sharing codes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "tiktok",
+    "spark-ads",
+    "permissions",
+    "authorization",
+    "expiry",
+    "creator-rights"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TikTok Permissions",
+    "shortDescription": "Check permission scope and expiry against a deal",
+    "longDescription": "Check what a TikTok permission request allows and whether its scope and expiry match our deal. Use when reviewing a Spark Ads request, comparing a 365-day invitation with shorter terms, or checking authorization export rows before ads run. Return a scope and expiry checklist from pasted requests, agreed terms and optional redacted exports. Separate post permission, account access, commercial dates and platform expiry. Not for ad operation, live account monitoring, sponsorship negotiation, or generating or sharing codes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#163B49",
+    "brandColorDark": "#BAF3E3",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this TikTok Spark Ads permission request against our agreed scope and dates.",
+      "Compare these redacted authorization rows with our deal and planned ad end dates."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "gdpr-requests",
+  "version": "0.1.0",
+  "description": "Handle an EU GDPR subject access request: match supplied email and CRM records, review redactions, calculate the response deadline and draft the reply. Works from pasted text and readable exports, with record-level search gaps, targeted disclosure proposals and EU calendar-month rules.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "gdpr",
+    "access-request",
+    "dsar",
+    "record-map",
+    "third-party-disclosure",
+    "response-deadline"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "displayName": "GDPR Requests"
+}

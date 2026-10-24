@@ -1,0 +1,44 @@
+{
+  "name": "menu-allergens",
+  "version": "0.1.0",
+  "description": "Make a UK menu allergen sheet from recipes and supplier labels. Update it after substitutions and prepare a staff handover. Works from pasted text and exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "menu-allergens",
+    "recipes",
+    "supplier-labels",
+    "substitutions",
+    "staff-handoff"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/menu-allergens/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/menu-allergens/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Menu Allergens",
+    "shortDescription": "Make a UK menu allergen sheet.",
+    "longDescription": "Make a UK menu allergen sheet from recipes and supplier labels. Update it after substitutions and prepare a staff handover. Two skills trace dish ingredients and prepare version-specific staff notes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#27634A",
+    "brandColorDark": "#8CCFB1",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Map these recipes and supplier labels into a dish allergen matrix.",
+      "Update this allergen sheet after tonight’s substitutions and prepare the staff handoff."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/menu-allergens/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

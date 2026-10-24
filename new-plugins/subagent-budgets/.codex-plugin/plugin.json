@@ -1,0 +1,39 @@
+{
+  "name": "subagent-budgets",
+  "version": "0.1.0",
+  "description": "Show which delegated agents used your allowance and give the next task a budget and stop plan. Analyze pasted traces, usage exports and supplied configuration; separate billed charges from estimates and draft runtime-specific dispatch limits.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "subagents",
+    "usage-accounting",
+    "dispatch-budget",
+    "retry-limits"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Subagent Budgets",
+    "shortDescription": "Track usage, plan task budgets",
+    "longDescription": "Show which delegated agents used your allowance and give the next task a budget and stop plan. Analyze pasted traces, usage exports and supplied configuration; separate billed charges from estimates and draft runtime-specific dispatch limits.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Which subagents used most of this supplied run\u2019s allowance?",
+      "Draft a task budget and stop plan from this configuration."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues",
+    "brandColor": "#173D52",
+    "brandColorDark": "#8BD5BE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg"
+  }
+}

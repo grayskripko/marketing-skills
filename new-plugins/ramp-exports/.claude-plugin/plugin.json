@@ -1,0 +1,23 @@
+{
+  "name": "ramp-exports",
+  "version": "0.1.0",
+  "description": "Map a Ramp accounting export to the supplied target template, checking source-page state, transaction/refund layout and dimension headers. Use when you ask to match a Ramp CSV to an accounting import sheet, explain missing export columns, or check why downloaded transactions remain in the Accounting queue. Works from pasted page text, export settings, CSV rows and the target headers you supply. Produces a column map, transformed rows or a specific export-state diagnosis.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ramp",
+    "accounting-export",
+    "csv-template",
+    "refunds",
+    "accounting-dimensions"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ramp-exports/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ramp-exports/README.md",
+  "displayName": "Ramp Exports"
+}

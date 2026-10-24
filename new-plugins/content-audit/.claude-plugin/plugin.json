@@ -1,0 +1,23 @@
+{
+  "name": "content-audit",
+  "version": "0.1.0",
+  "description": "Decides which old blog posts to keep, update, merge, redirect or delete in a content audit, content refresh or content pruning review of stale content. Use when you ask “which old blog posts should I update, merge or delete,” “find stale content,” or “audit these page exports.” Works from pasted URL lists, page notes, Google Search Console, GA4 and crawler CSV exports. Returns a decision for each URL, the evidence that changes it, and the next edit or destination. Not for new content calendars, full technical SEO audits, or checking help articles against support policies. Draft exact refresh edits from approved facts, or plan overlapping-page merges with content moves, exact redirect targets and rollout checks.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "content audit",
+    "content refresh",
+    "stale content",
+    "content pruning",
+    "merge blog posts",
+    "redirect map",
+    "Google Search Console",
+    "GA4",
+    "crawler CSV"
+  ],
+  "displayName": "Content Audit"
+}

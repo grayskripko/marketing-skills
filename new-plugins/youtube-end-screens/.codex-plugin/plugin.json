@@ -1,0 +1,41 @@
+{
+  "name": "youtube-end-screens",
+  "version": "0.1.0",
+  "description": "Given this video's ending and my upload list, tell my editor where to put the YouTube end-screen elements. Checks eligibility, selects elements and targets, proposes timing and placement, and diagnoses missing elements from supplied settings. Plans are handed off to the creator or editor to apply in YouTube Studio.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "end-screen",
+    "video-editing",
+    "outro",
+    "next-video"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YouTube End Screens",
+    "shortDescription": "Plan YouTube end screens",
+    "longDescription": "Given this video's ending and my upload list, tell my editor where to put the YouTube end-screen elements. Checks eligibility, selects elements and targets, proposes timing and placement, and diagnoses missing elements from supplied settings. Plans are handed off to the creator or editor to apply in YouTube Studio.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#243B53",
+    "brandColorDark": "#A8C4DD",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Plan the next-video links from my ending and upload list.",
+      "Why is my saved YouTube end screen missing?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/youtube-end-screens/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

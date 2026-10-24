@@ -1,0 +1,45 @@
+{
+  "name": "shopify-discounts",
+  "version": "0.1.0",
+  "description": "Explain Shopify code and automatic-discount conflicts and calculate eligible cart savings from pasted settings, exports, or screenshots described by you. Covers eligibility, active dates, usage limits, combination precedence, minimum-spend rules and worked cart examples.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "discounts",
+    "discount combinations",
+    "cart total",
+    "discount codes"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/shopify-discounts/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/shopify-discounts/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Shopify Discounts",
+    "shortDescription": "Discount conflicts and totals",
+    "longDescription": "Explain Shopify code and automatic-discount conflicts and calculate eligible cart savings from pasted settings, exports, or screenshots described by you. Covers eligibility, active dates, usage limits, combination precedence, minimum-spend rules and worked cart examples.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245C42",
+    "brandColorDark": "#79BD95",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why won't these Shopify codes combine? Here are both discount settings and the checkout message.",
+      "What will this Shopify cart pay? Here are the items, discount settings, shipping and tax."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/shopify-discounts/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

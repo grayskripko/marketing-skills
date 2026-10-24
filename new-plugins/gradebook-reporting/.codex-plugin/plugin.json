@@ -1,0 +1,43 @@
+{
+  "name": "gradebook-reporting",
+  "version": "0.1.0",
+  "description": "Recompute Google Classroom overall grades from exported scores, categories, weights and excused states, with a discrepancy ledger. Use pasted text or exports to trace scores, excused work, category contributions and reported differences.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "gradebook",
+    "grades",
+    "Google Classroom",
+    "weighted categories",
+    "excused assignments",
+    "grade reconciliation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Gradebook Reporting",
+    "shortDescription": "Recompute Google Classroom grades with a discrepancy ledger.",
+    "longDescription": "Recompute Google Classroom overall grades from exported scores, categories, weights and excused states, with a discrepancy ledger. Calculate totals or reconcile reported differences using supplied rows and grading settings.",
+    "developerName": "Sergey Skripko",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#234B45",
+    "brandColorDark": "#83B6A9",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Recompute these Google Classroom overall grades from my exported rows and settings.",
+      "Explain the differences between these Classroom and spreadsheet totals."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/gradebook-reporting/PRIVACY.md"
+  }
+}

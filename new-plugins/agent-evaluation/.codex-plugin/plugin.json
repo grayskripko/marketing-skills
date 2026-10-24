@@ -1,0 +1,42 @@
+{
+  "name": "agent-evaluation",
+  "version": "0.1.0",
+  "description": "Plan agent evaluation and verify agent output against supplied requirements, artifacts, action receipts and escalation records. Plan agent evaluation, prepare agent regression tests, verify agent output and check agent results against requirements, sources, saved artifacts, action receipts and escalation. Work from pasted traces, logs, configs, transcripts, files and existing runner exports; return an acceptance report with observed failures and missing evidence.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent evaluation",
+    "agent evals",
+    "verify agent output",
+    "agent regression tests",
+    "check agent results"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Evaluation",
+    "shortDescription": "Plan evals, check agent output",
+    "longDescription": "Plan agent evaluation and verify agent output against supplied requirements, artifacts, action receipts and escalation records. Plan agent evaluation, prepare agent regression tests, verify agent output and check agent results against requirements, sources, saved artifacts, action receipts and escalation. Work from pasted traces, logs, configs, transcripts, files and existing runner exports; return an acceptance report with observed failures and missing evidence.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Plan agent evaluation from these requirements and runner config.",
+      "Verify agent output against these artifacts and action receipts.",
+      "Review these agent regression tests and report release readiness."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-evaluation/plugins/agent-evaluation/README.md",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-agent-evaluation/plugins/agent-evaluation/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

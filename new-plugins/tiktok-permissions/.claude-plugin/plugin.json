@@ -1,0 +1,22 @@
+{
+  "name": "tiktok-permissions",
+  "displayName": "TikTok Permissions",
+  "version": "0.1.0",
+  "description": "Check what a TikTok permission request allows and whether its scope and expiry match our deal. Use when reviewing a Spark Ads request, comparing a 365-day invitation with shorter terms, or checking authorization export rows before ads run. Return a scope and expiry checklist from pasted requests, agreed terms and optional redacted exports. Separate post permission, account access, commercial dates and platform expiry. Not for ad operation, live account monitoring, sponsorship negotiation, or generating or sharing codes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "tiktok",
+    "spark-ads",
+    "permissions",
+    "authorization",
+    "expiry",
+    "creator-rights"
+  ],
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

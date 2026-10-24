@@ -1,0 +1,49 @@
+{
+  "name": "doe-designs",
+  "version": "0.1.2",
+  "description": "Build a design of experiments (DOE) run matrix from your factors, approved levels, responses, run budget and batch limits. Get screening designs (full and fractional factorial, Plackett-Burman, definitive screening), response surface designs (central composite, Box-Behnken) and mixture designs, with blocks, run order, centre points and a plain alias and estimability explanation. Check an existing design for confounding and runs outside approved operating bounds.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "design-of-experiments",
+    "doe",
+    "fractional-factorial",
+    "central-composite-design",
+    "box-behnken",
+    "mixture-design",
+    "alias-structure",
+    "screening-design",
+    "response-surface",
+    "formulation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DOE Designs",
+    "shortDescription": "Build a DOE run matrix within approved bounds",
+    "longDescription": "Build a design of experiments (DOE) run matrix from your factors, approved levels, responses, run budget and batch limits. Get screening designs (full and fractional factorial, Plackett-Burman, definitive screening), response surface designs (central composite, Box-Behnken) and mixture designs, with blocks, run order, centre points and a plain alias and estimability explanation. Check an existing design for confounding and runs outside approved operating bounds.",
+    "developerName": "Sergey Skripko",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#2F4858",
+    "brandColorDark": "#9BD3C8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Set up a fractional factorial for these 6 factors in 16 runs.",
+      "Central composite or Box-Behnken inside these approved limits?",
+      "What is aliased with what in this run sheet?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-doe-designs/plugins/doe-designs/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

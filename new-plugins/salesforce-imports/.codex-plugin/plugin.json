@@ -1,0 +1,46 @@
+{
+  "name": "salesforce-imports",
+  "version": "0.1.0",
+  "description": "Why did my Salesforce import fail, and should I insert, update, or upsert these records? Explain rejected Salesforce import rows and choose insert, update, upsert, or an object-specific match key from pasted errors, exports, and screenshots or their descriptions. Use when an import failed, an external ID is not matching, or an upload might create duplicates. Returns a repair and retry plan or an operation and mapping recommendation. Not for running imports, changing duplicate rules, or general CRM administration.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "salesforce",
+    "imports",
+    "data-loader",
+    "data-import-wizard",
+    "external-id",
+    "upsert",
+    "duplicate-errors"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/salesforce-imports/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/salesforce-imports/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Salesforce Imports",
+    "shortDescription": "Fix Salesforce import errors",
+    "longDescription": "Why did my Salesforce import fail, and should I insert, update, or upsert these records? Explain rejected Salesforce import rows and choose insert, update, upsert, or an object-specific match key from pasted errors, exports, and screenshots or their descriptions. Use when an import failed, an external ID is not matching, or an upload might create duplicates. Returns a repair and retry plan or an operation and mapping recommendation. Not for running imports, changing duplicate rules, or general CRM administration.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245B78",
+    "brandColorDark": "#80BEDB",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why did these Salesforce import rows fail? Here are the error rows and mappings.",
+      "Should I insert, update, or upsert these records? Here is my export and match field."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/salesforce-imports/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

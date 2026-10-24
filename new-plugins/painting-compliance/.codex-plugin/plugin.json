@@ -1,0 +1,44 @@
+{
+  "name": "painting-compliance",
+  "version": "0.1.0",
+  "description": "Screen a US renovation/painting scope against EPA RRP paperwork triggers using property age, disturbed area, work type and supplied test evidence. Use pasted estimates, room measurements, test reports and document exports to identify covered work, small repairs and documented no-lead exceptions. Check certification, pamphlet delivery, work-practice and cleaning records, customer-information dates and retention deadlines. Return scope decisions or a document gap table with next actions. For painters, renovation estimators and rental property managers working from supplied evidence.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "painting",
+    "renovation",
+    "EPA RRP",
+    "lead paint",
+    "paperwork",
+    "compliance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Painting Compliance",
+    "shortDescription": "Screen painting scopes for EPA RRP paperwork.",
+    "longDescription": "Screen a US renovation/painting scope against EPA RRP paperwork triggers using property age, disturbed area, work type and supplied test evidence. Use pasted estimates, room measurements, test reports and document exports to identify covered work, small repairs and documented no-lead exceptions. Check certification, pamphlet delivery, work-practice and cleaning records, customer-information dates and retention deadlines. Return scope decisions or a document gap table with next actions. For painters, renovation estimators and rental property managers working from supplied evidence.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#265C48",
+    "brandColorDark": "#93C7AC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Does this pre-1978 painting scope need lead paperwork?",
+      "Do these negative paint tests cover every affected component?",
+      "Check my RRP document packet and deadlines."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/painting-compliance/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

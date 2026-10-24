@@ -1,0 +1,23 @@
+{
+  "name": "simplepractice-authorizations",
+  "version": "0.1.0",
+  "description": "Check remaining authorized sessions, authorization expiration dates and box 23 on SimplePractice claims. Use de-identified settings, dated remaining-session records, planned visits and payer-specific claim fields to return an exceptions table and proposed claim edits.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "simplepractice",
+    "authorization-tracking",
+    "remaining-sessions",
+    "prior-authorization",
+    "claim-review"
+  ],
+  "displayName": "SimplePractice Authorizations",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/simplepractice-authorizations/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/simplepractice-authorizations/README.md"
+}

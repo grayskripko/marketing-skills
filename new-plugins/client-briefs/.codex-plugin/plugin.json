@@ -1,0 +1,41 @@
+{
+  "name": "client-briefs",
+  "version": "0.1.0",
+  "description": "Check client emails, discovery notes and a draft brief before quoting. Returns a corrected brief, a list of decisions still needed and a client confirmation draft. Use when you ask to check a brief before quoting, sort out conflicting client messages, or confirm what the client wants. Keeps requests, suggestions and approvals separate. Shows source passages for disputed details. Uses pasted text or readable files without accounts or paid APIs. Not for setting prices, legal briefs, interpreting contracts, reading a live inbox or sending messages.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "client-brief",
+    "discovery-notes",
+    "agency",
+    "freelance",
+    "brief-confirmation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Client Briefs",
+    "shortDescription": "Check a client brief before quoting",
+    "longDescription": "Check client emails, discovery notes and a draft brief before quoting. Returns a corrected brief, a list of decisions still needed and a client confirmation draft. Use when you ask to check a brief before quoting, sort out conflicting client messages, or confirm what the client wants. Keeps requests, suggestions and approvals separate. Shows source passages for disputed details. Uses pasted text or readable files without accounts or paid APIs. Not for setting prices, legal briefs, interpreting contracts, reading a live inbox or sending messages.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this client brief against the emails before I quote.",
+      "What decisions do we still need from the client?",
+      "Draft a confirmation from these project notes."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

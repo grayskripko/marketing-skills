@@ -1,0 +1,23 @@
+{
+  "name": "vllm-capacity",
+  "version": "0.1.0",
+  "description": "Check vLLM KV-cache capacity and concurrency from startup logs, or get a minimal engine-argument diff. Reconcile allocation, hybrid cache groups, installed scheduler checks and API admission scope from pasted text or exports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "vllm",
+    "kv-cache",
+    "gpu-memory",
+    "concurrency",
+    "engine-arguments"
+  ],
+  "displayName": "vLLM Capacity",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/vllm-capacity/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/vllm-capacity/README.md"
+}

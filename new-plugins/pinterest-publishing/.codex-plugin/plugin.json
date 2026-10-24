@@ -1,0 +1,41 @@
+{
+  "name": "pinterest-publishing",
+  "version": "0.1.0",
+  "description": "Check this pasted RSS feed and tell me why Pinterest won't turn my articles into Pins. Use when articles do not become Pins, a feed returns an error, or you need item-level fixes and a native setup checklist. Review pasted XML, exports, and screenshots described by you. Explain supported formats, claimed-domain links, image fields, publishing delays, and board visibility. Guide Pinterest native RSS setup without account access. Not for product catalogs, other social networks, scraping, or third-party publishing services.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "pinterest",
+    "rss",
+    "pinterest-publishing",
+    "native-publishing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pinterest Publishing",
+    "shortDescription": "Diagnose Pinterest RSS feeds",
+    "longDescription": "Check this pasted RSS feed and tell me why Pinterest won't turn my articles into Pins. Use when articles do not become Pins, a feed returns an error, or you need item-level fixes and a native setup checklist. Review pasted XML, exports, and screenshots described by you. Explain supported formats, claimed-domain links, image fields, publishing delays, and board visibility. Guide Pinterest native RSS setup without account access. Not for product catalogs, other social networks, scraping, or third-party publishing services.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#9C3346",
+    "brandColorDark": "#EF9AAA",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this pasted RSS feed and tell me why Pinterest won't turn my articles into Pins.",
+      "Help me connect my website RSS feed using Pinterest settings."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/pinterest-publishing/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

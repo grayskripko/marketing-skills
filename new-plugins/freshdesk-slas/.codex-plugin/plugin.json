@@ -1,0 +1,45 @@
+{
+  "name": "freshdesk-slas",
+  "version": "0.1.0",
+  "description": "Convert Freshdesk SLA days to hours and explain ticket due times using your policies, working hours, holidays and ticket history. Include account rollout evidence when available; conversion proposals remain separate from deployed settings and historical ticket results. Works from pasted text and exports for support administrators reviewing Freshdesk SLA settings and ticket due times.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "freshdesk",
+    "sla",
+    "business-hours",
+    "ticket-deadlines",
+    "sla-migration"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/freshdesk-slas/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/freshdesk-slas/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Freshdesk SLAs",
+    "shortDescription": "Convert SLA targets and reconcile ticket deadlines.",
+    "longDescription": "Convert Freshdesk SLA days to hours and explain ticket due times using your policies, working hours, holidays and ticket history. Include account rollout evidence when available; conversion proposals remain separate from deployed settings and historical ticket results. Works from pasted text and exports for support administrators reviewing Freshdesk SLA settings and ticket due times.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245B64",
+    "brandColorDark": "#80C9D2",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Convert these Freshdesk day targets using our group schedules and rollout notice.",
+      "Reconcile these ticket due times with our holidays and status history."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/freshdesk-slas/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

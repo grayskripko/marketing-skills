@@ -1,0 +1,44 @@
+{
+  "name": "reddit-research",
+  "version": "0.1.0",
+  "description": "Research supplied Reddit threads and public JSON exports about a topic, product or pain point. Summarize themes and disagreements, or build a table of exact short quotes with supplied source links. Includes nested replies, preserves conditions and contrary experiences, and distinguishes readable comments from missing records. Keeps duplicates and sample limits clear. Works from supplied material without accounts, keys or network requests.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "reddit",
+    "research",
+    "customer-feedback",
+    "pain-points",
+    "quotes",
+    "voice-of-customer"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Reddit Research",
+    "shortDescription": "Analyze supplied Reddit data",
+    "longDescription": "Research supplied Reddit threads and public JSON exports about a topic, product or pain point. Summarize themes and disagreements, or build a table of exact short quotes with supplied source links. Includes nested replies, preserves conditions and contrary experiences, and distinguishes readable comments from missing records. Keeps duplicates and sample limits clear. Works from supplied material without accounts, keys or network requests.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#24566A",
+    "brandColorDark": "#87C5D9",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Summarize the main complaints and disagreements in these Reddit threads:",
+      "Make a quote table with source links from these Reddit comments:",
+      "Compare product feedback in this Reddit JSON export:"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/reddit-research/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "vat-records",
+  "version": "0.1.4",
+  "description": "Review supplied UK VAT records for MTD digital-link breaks, required record-field gaps, adjustment workings and retention evidence. Prepare ordered repair tasks and acceptance checks for the accountant.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "vat",
+    "mtd",
+    "uk",
+    "digital-links",
+    "spreadsheet",
+    "record-keeping",
+    "accountant"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "VAT Records",
+    "shortDescription": "Review UK VAT records",
+    "longDescription": "Review supplied UK VAT records for MTD digital-link breaks, required record-field gaps, adjustment workings and retention evidence. Prepare ordered repair tasks and acceptance checks for the accountant. Works from supplied workflows, exports, formulas and described screenshots. Covers existing invoice-record fields, separate adjustment totals and general retention guidance. The accountant receives a review and repair checklist.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#164E63",
+    "brandColorDark": "#67E8F9",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Show where our UK VAT spreadsheet loses digital links and give the accountant a repair checklist.",
+      "Turn these VAT transfer defects into ordered repair tasks and acceptance checks."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/blob/pl-vat-records/plugins/vat-records/README.md",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-vat-records/plugins/vat-records/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

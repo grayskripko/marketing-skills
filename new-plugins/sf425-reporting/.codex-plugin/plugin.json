@@ -1,0 +1,43 @@
+{
+  "name": "sf425-reporting",
+  "version": "0.1.0",
+  "description": "Map a supplied NIH award ledger to draft SF425 fields, preserving accounting basis, PMS cash-field treatment, SNAP exceptions and annual/final reporting dates. Use pasted ledger text, CSV exports, award terms and PMS snapshots to draft field values and identify balances that need reconciliation. Includes a separate reporting calendar for NIH awards.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "sf425",
+    "sf-425",
+    "nih",
+    "ffr",
+    "payment-management-system",
+    "snap",
+    "grant-reporting"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SF425 Reporting",
+    "shortDescription": "Map a supplied NIH award ledger to draft SF425 fields.",
+    "longDescription": "Map a supplied NIH award ledger to draft SF425 fields, preserving accounting basis, PMS cash-field treatment, SNAP exceptions and annual/final reporting dates. Use pasted ledger text, CSV exports, award terms and PMS snapshots to draft field values and identify balances that need reconciliation. Includes a separate reporting calendar for NIH awards.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245A61",
+    "brandColorDark": "#89C8CE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Map this NIH ledger export to draft SF425 fields using the stated accounting basis.",
+      "When are the annual and final NIH financial reports due for these award dates?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/sf425-reporting/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

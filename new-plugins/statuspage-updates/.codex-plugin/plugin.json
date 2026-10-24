@@ -1,0 +1,39 @@
+{
+  "name": "statuspage-updates",
+  "version": "0.1.0",
+  "description": "Draft the next customer-facing outage update from your timeline, affected components and confirmed recovery evidence, with a justified Statuspage state. Use pasted incident notes or readable exports to prepare incident fields and check whether recovery supports closure. Includes current state meanings, component alignment and notification-channel rules.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "statuspage",
+    "incident updates",
+    "outage communication",
+    "recovery evidence"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Statuspage Updates",
+    "shortDescription": "Draft outage updates with justified states",
+    "longDescription": "Draft the next customer-facing outage update from your timeline, affected components and confirmed recovery evidence, with a justified Statuspage state. Use pasted incident notes or readable exports to prepare incident fields and check whether recovery supports closure. Includes current state meanings, component alignment and notification-channel rules.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245B78",
+    "brandColorDark": "#8BC9E8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Draft the next incident update from this timeline and component list.",
+      "Can we resolve this incident? Check this recovery evidence and fix the message."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

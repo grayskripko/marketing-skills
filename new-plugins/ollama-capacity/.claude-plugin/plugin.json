@@ -1,0 +1,24 @@
+{
+  "name": "ollama-capacity",
+  "version": "0.1.0",
+  "description": "Explain Ollama out-of-memory errors, CPU fallback and 503 overload from pasted hardware details, ollama ps, settings and logs; get a memory ledger and the smallest relevant settings proposal. Preserve required context and concurrency while separating resident models, KV allocation, queue pressure and GPU discovery.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ollama",
+    "vram",
+    "memory-pressure",
+    "context-length",
+    "kv-cache",
+    "concurrency"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ollama-capacity/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ollama-capacity/README.md",
+  "displayName": "Ollama Capacity"
+}

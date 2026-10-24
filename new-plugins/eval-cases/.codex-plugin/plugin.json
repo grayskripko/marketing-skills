@@ -1,0 +1,41 @@
+{
+  "name": "eval-cases",
+  "version": "0.1.0",
+  "description": "Turn failed agent sessions into reusable cases with source evidence and clear expected outcomes. Prepare redacted fixtures from supplied traces, conversations and configs; flag missing facts and export prepared cases using the user’s existing runner schema. No accounts or setup required for pasted inputs.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "eval-cases",
+    "agent-traces",
+    "jsonl",
+    "case-preparation",
+    "provenance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Eval Cases",
+    "shortDescription": "Prepare and export eval cases",
+    "longDescription": "Turn failed agent sessions into reusable cases with source evidence and clear expected outcomes. Prepare redacted fixtures from supplied traces, conversations and configs; flag missing facts and export prepared cases using the user’s existing runner schema. No accounts or setup required for pasted inputs.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Turn these supplied failed sessions into reusable cases with clear expectations.",
+      "Export these cases using the importer schema I provide."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/eval-cases/README.md",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/eval-cases/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

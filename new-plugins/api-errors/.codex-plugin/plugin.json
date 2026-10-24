@@ -1,0 +1,43 @@
+{
+  "name": "api-errors",
+  "version": "0.1.0",
+  "description": "Make our API error reference consistent with these response examples. Build an error catalog and precise documentation replacements from pasted HTTP statuses, headers, bodies and current docs. Use when you need to list API failures, fix error-response paragraphs, or reconcile Problem Details examples with client guidance. Covers error identity, field types, status meanings, required response headers and conditional retry guidance.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "api-errors",
+    "http",
+    "problem-details",
+    "rfc9457",
+    "error-catalog",
+    "api-documentation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "API Errors",
+    "shortDescription": "Turn HTTP errors into clear API reference entries",
+    "longDescription": "Make our API error reference consistent with these response examples. Build an error catalog and precise documentation replacements from pasted HTTP statuses, headers, bodies and current docs. Use when you need to list API failures, fix error-response paragraphs, or reconcile Problem Details examples with client guidance. Covers error identity, field types, status meanings, required response headers and conditional retry guidance.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#244C66",
+    "brandColorDark": "#7DC4E8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Make our API error reference consistent with these response examples.",
+      "Build an error catalog from these HTTP responses and docs.",
+      "Replace the incorrect error-response passages in this API guide."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/api-errors/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

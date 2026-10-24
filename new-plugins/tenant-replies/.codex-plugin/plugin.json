@@ -1,0 +1,43 @@
+{
+  "name": "tenant-replies",
+  "version": "0.1.0",
+  "description": "Draft tenant replies from signed leases, amendments and case facts you provide. Find the clauses that support a reply and prepare a separate private manager note with sources and open questions. Use when you ask “write back to this tenant,” “find the lease clause,” or “summarize this case for the manager.” Works from pasted text or readable files, without accounts or paid APIs. Not for sending, dispatch, screening, eviction or default notices, or decisions about legal entitlement, enforceability, accommodations or retaliation disputes.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "tenant-reply",
+    "lease",
+    "property-management",
+    "manager-handoff"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Tenant Replies",
+    "shortDescription": "Draft tenant replies from supplied leases",
+    "longDescription": "Draft tenant replies from signed leases, amendments and case facts you provide. Find the clauses that support a reply and prepare a separate private manager note with sources and open questions. Use when you ask “write back to this tenant,” “find the lease clause,” or “summarize this case for the manager.” Works from pasted text or readable files, without accounts or paid APIs. Not for sending, dispatch, screening, eviction or default notices, or decisions about legal entitlement, enforceability, accommodations or retaliation disputes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Draft a tenant reply from this signed lease and tenant message, with a separate private manager note.",
+      "Find the lease passages relevant to this tenant request.",
+      "Prepare a private manager handoff from this repair thread."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/tenant-replies/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  },
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/tenant-replies/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

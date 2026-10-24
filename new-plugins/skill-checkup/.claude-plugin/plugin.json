@@ -1,0 +1,23 @@
+{
+  "name": "skill-checkup",
+  "version": "0.1.0",
+  "description": "Find why your skill does not activate or fails on a missing file, command or tool. Review supplied traces, configurations and package files for Claude Code, Codex and agent SDK workflows; return a small proposed patch and verification steps.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "skill-debugging",
+    "claude-code",
+    "codex",
+    "mcp",
+    "agent-sdk"
+  ],
+  "displayName": "Skill Checkup",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/skill-checkup/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/skill-checkup/README.md"
+}

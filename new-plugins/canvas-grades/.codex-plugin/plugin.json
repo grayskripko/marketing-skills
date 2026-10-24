@@ -1,0 +1,42 @@
+{
+  "name": "canvas-grades",
+  "version": "0.1.0",
+  "description": "Review a Canvas gradebook export and proposed upload; preserve IDs and produce a grade-change diff with rejected or unintended assignment changes. Use supplied CSV exports, pasted grade rows, intended corrections and import preview errors to review an upload or reconcile its result. Flag identity problems, ignored totals, closed periods and unexpected new assignments. Works locally from supplied data with no account setup.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "canvas",
+    "gradebook",
+    "grades",
+    "csv",
+    "grade-import",
+    "education"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Canvas Grades",
+    "shortDescription": "Review Canvas grade uploads and resulting changes",
+    "longDescription": "Review a Canvas gradebook export and proposed upload; preserve IDs and produce a grade-change diff with rejected or unintended assignment changes. Use supplied CSV exports, pasted grade rows, intended corrections and import preview errors to review an upload or reconcile its result. Flag identity problems, ignored totals, closed periods and unexpected new assignments. Works locally from supplied data with no account setup.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#365C86",
+    "brandColorDark": "#92B4DA",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Review this Canvas export and proposed upload against my intended corrections.",
+      "Compare my original, proposed and resulting gradebook exports."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/canvas-grades/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

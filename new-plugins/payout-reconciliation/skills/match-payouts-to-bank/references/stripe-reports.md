@@ -1,0 +1,8 @@
+# Stripe report notes
+
+Source dates: research read 2026-10-09; official pages verified 2026-10-10.
+
+- [Payout reconciliation report](https://docs.stripe.com/reports/payout-reconciliation): automatic payouts have batch reports; manual payouts normally use Balance, with a connected-account automatic-payout exception. Instant payouts lack automatic batch attribution. Date selection uses estimated arrival rather than bank posting. Itemized data includes payout and balance-transaction IDs, gross, fee, net and currency. Inspect the actual report's columns and units. `automatic_payout_effective_at` also defines balance deduction in this report. Optional `payout_reference_token` and supported `trace_id` help locate bank receipts; statement descriptors may be truncated or inconsistent. Ending balance reconciliation offers summary and itemized downloads for the automatic-payout report. For a manual-payout platform, the connected-account exception does not make this section a report of the platform’s own manual payouts; use its Balance report instead.
+- [Balance report](https://docs.stripe.com/reports/balance): provides period balance and activity reporting for a balance-ledger approach. Preserve opening and ending balances and use the actual downloaded definitions. Payout batches can include earlier-period activity; use period activity for an opening-to-ending bridge.
+
+Matching evidence, unique row use, controls, missing-data handling and answer format are this plugin's rules of thumb. They are not Stripe policy or legal/accounting standards. Jurisdiction-specific tax and revenue-recognition rules are outside scope.

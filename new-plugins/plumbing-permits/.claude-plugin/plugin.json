@@ -1,0 +1,23 @@
+{
+  "name": "plumbing-permits",
+  "displayName": "Plumbing Permits",
+  "version": "0.1.0",
+  "description": "Diagnose NYC DOB NOW plumbing filing objections from pasted work types, initial/subsequent filing status and intended combined permits. Use when a plumbing filing is rejected, PL/SP/SD will not combine with GC, or a proposed composite permit has conflicting contractors. Get a corrected filing and permit arrangement and check whether limited plumbing alteration is a suitable route from supplied scope and cost details. Works from pasted objections and user-selected exports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "plumbing-permits",
+    "nyc-dob-now",
+    "filing-objections",
+    "composite-permit",
+    "limited-plumbing-alteration"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/plumbing-permits/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/plumbing-permits/README.md"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "zapier-troubleshooting",
+  "version": "0.1.5",
+  "description": "Troubleshoot Zapier setup, authentication, mappings, filters and paths, rate limits, and failed or held runs. Review supplied run history and audit-log evidence to identify the smallest fix, verify its outcome, and assess replay eligibility, duplicate risk, workflow changes, and task cost. Produce diagnosis tables and recovery checklists.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "zapier",
+    "failed-runs",
+    "held-runs",
+    "replay",
+    "workflow-recovery"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Zapier Troubleshooting",
+    "shortDescription": "Troubleshoot Zapier workflows",
+    "longDescription": "Troubleshoot Zapier setup, authentication, mappings, filters and paths, rate limits, and failed or held runs. Review supplied run history and audit-log evidence to identify the smallest fix, verify its outcome, and assess replay eligibility, duplicate risk, workflow changes, and task cost. Produce diagnosis tables and recovery checklists.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#236B59",
+    "brandColorDark": "#79C8AE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Help me diagnose this Zapier setup or branching problem from these logs.",
+      "Here are my failed Zapier runs. What should I fix?",
+      "Which of these held or failed runs can I safely replay?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-zapier-troubleshooting/plugins/zapier-troubleshooting/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

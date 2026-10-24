@@ -1,0 +1,23 @@
+{
+  "name": "notion-templates",
+  "version": "0.1.0",
+  "description": "Design Notion templates and databases for your workflow, fix formulas and prepare import-ready CSV from pasted notes or exports. Get named properties, views, relations, reusable page content and a manual setup map without connecting an account.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "notion",
+    "templates",
+    "databases",
+    "formulas",
+    "csv-import",
+    "relations",
+    "workflow-design"
+  ],
+  "displayName": "Notion Templates",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues"
+}

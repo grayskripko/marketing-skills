@@ -1,0 +1,24 @@
+{
+  "name": "gradebook-reporting",
+  "version": "0.1.0",
+  "description": "Recompute Google Classroom overall grades from exported scores, categories, weights and excused states, with a discrepancy ledger. Use pasted text or exports to trace scores, excused work, category contributions and reported differences.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "gradebook",
+    "grades",
+    "Google Classroom",
+    "weighted categories",
+    "excused assignments",
+    "grade reconciliation"
+  ],
+  "displayName": "Gradebook Reporting",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/gradebook-reporting/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/gradebook-reporting/README.md"
+}

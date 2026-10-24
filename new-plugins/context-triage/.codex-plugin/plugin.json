@@ -1,0 +1,42 @@
+{
+  "name": "context-triage",
+  "version": "0.1.0",
+  "description": "Find what is filling my agent’s context and remove the waste without losing decisions. Use supplied traces, configuration and files to identify context contributors or prepare a smaller continuation pack with source references. No accounts or API keys required.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "context",
+    "context-triage",
+    "compaction",
+    "agent-history",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Context Triage",
+    "shortDescription": "Trim context, keep decisions",
+    "longDescription": "Find what is filling my agent’s context and remove the waste without losing decisions. Use supplied traces, configuration and files to identify context contributors or prepare a smaller continuation pack with source references. No accounts or API keys required.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#315B67",
+    "brandColorDark": "#8CC4D0",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why does this session compact so often? Here are the trace and config.",
+      "Prepare a smaller context pack for this next task from the files I provide."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/context-triage/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

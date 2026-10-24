@@ -1,0 +1,36 @@
+# Zendesk merge knowledge register
+
+Read and verified 2026-10-11. Applies to Zendesk Support ticket merging, with UI/API distinctions below. All ten original source URLs returned HTTP 200 in this fix pass; the large API page was retrieved directly and its merge section parsed. Article edit dates were not independently exposed in this pass and are omitted. Sources describe current behavior at verification; refresh before the 2026-10-23 submission window.
+
+| Official source | Date evidence | Deciding knowledge / supporting location |
+|---|---|---|
+| [Merging tickets](https://support.zendesk.com/hc/en-us/articles/4408882445594-Merging-tickets) | Read 2026-10-11 | “Ticket merging rules”: source below Solved; Solved target not reopened; category semantics; AI-agent exclusion; requester/CC eligibility and additions; destination field retention and limited public-comment carryover. These facts are inline in both skills. |
+| [Do agents need merge permissions to use merge suggestions?](https://support.zendesk.com/hc/en-us/articles/9964940145306-Do-agents-need-merge-permissions-to-use-merge-suggestions) | Read 2026-10-11 | “Answer”: custom-role Merge tickets switch; light/contributor default exclusion; suggestions error may reflect missing permission; Data Privacy can separately prevent merging. Do not diagnose a ticket's state from error wording alone. |
+| [Managing tickets in bulk](https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk) | Read 2026-10-11; edit date not exposed | “Bulk merging tickets”: permanent operation; shared and Closed exclusion; cross-brand/organization/requester warning. This is not a grant of cross-account disclosure authority. The 100-ticket bulk-update limit elsewhere in this article is not a documented merge limit and is not applied here. |
+| [Merging related tickets based on suggestions](https://support.zendesk.com/hc/en-us/articles/6885971957914-Merging-related-tickets-based-on-suggestions) | Read 2026-10-11; edit date not exposed | Related tickets selected as sources enter the current ticket. Review each merge comment's visibility. Empty comment boxes restore source text. Suggestions are available on Professional and higher, with a monthly usage allowance; no numeric allowance is inferred. Availability is distinct from pair eligibility. |
+| [Understanding CCs and followers](https://support.zendesk.com/hc/en-us/articles/5179445630234-Understanding-CCs-and-followers) | Read 2026-10-11; edit date not exposed | “About CCs and followers” and “About adding CCs”: 48 email CC limit, visible identities, public-comment participation; followers are internal with different visibility. Merge documentation does not establish automatic follower migration. |
+| [Redacting ticket content](https://support.zendesk.com/hc/en-us/articles/4408846470170-Redacting-ticket-content) | Read 2026-10-11; edit date not exposed | “About ticket redaction” and “Ticket redaction limitations”: activated Agent Workspace and redaction permission are required; merge permission does not imply redaction permission. SMS comments and active chats are unsupported; chat/messaging requires a chat role. Hold if required safe cleanup cannot be established. Clean sensitive material before merging. Later source redaction does not clean copied destination content. Generated internal merge notes and attachments cannot be redacted. Internal visibility is not a substitute for pre-merge cleanup. |
+| [Announcing data masking enhancements (ADPP add-on)](https://support.zendesk.com/hc/en-us/articles/10529708070682-Announcing-data-masking-enhancements-ADPP-add-on) | Read 2026-10-11; rollout 2026-04-10 | Custom roles with masking can now be granted merge permission. This corrects the obsolete blanket exclusion of masked roles; other privacy controls remain relevant. |
+| [Explore recipe: Excluding tickets closed by merge](https://support.zendesk.com/hc/en-us/articles/4408843359898-Explore-recipe-Excluding-tickets-closed-by-merge) | Read 2026-10-11; edit date not exposed | Merged sources have closed_by_merge. Recipe requires Explore Professional/Enterprise and Editor/Admin; uses Support - Tickets and distinct-count aggregation. Treat merge closure separately from ordinary resolution. |
+| [Tickets API — Merge Tickets into Target Ticket](https://developer.zendesk.com/api-reference/ticketing/tickets/tickets/#merge-tickets-into-target-ticket) | Read 2026-10-11; edit date not exposed | API endpoint documents source attachment copying into target_comment, including with replacement text, and a background job_status result that must be checked for completion. “cURL (brand-separated)” requires every source/target to share brand_id when brand separation is enabled; different brands block that API path, not an inferred universal UI rule. Comments must remain private for private tickets and tickets created through X, Facebook or Channel framework; otherwise they default to private and visibility parameters can change them. Verified directly with HTTP 200 and parsed article text after browser retrieval hit its size limit. Endpoint behavior is not proof of UI transfer or a live connection. This package performs no API call. |
+| [What's new in Zendesk: October 2026](https://support.zendesk.com/hc/en-us/articles/11299475537306-What-s-new-in-Zendesk-October-2026) | Read 2026-10-11; article month 2026-10 | “Support”: merge-flow enhancements include sidebar drawer, rich text, warnings and preserved Data Privacy restrictions. Freshness cross-check, not a replacement for the detailed eligibility rules. |
+
+| [Required migration to CCs and followers](https://support.zendesk.com/hc/en-us/articles/10297348315418-Announcing-the-required-migration-of-Support-accounts-to-the-CCs-and-followers-experience) | Read 2026-10-11; announced 2026-03-30; forced migration scheduled 2026-10-28 | Ticket Settings migration setup or CCs without followers identifies legacy experience. Confirm the actual experience before applying the current email-CC capacity rule; a future migration date does not establish account state. |
+
+## Reporting detail
+
+Zendesk's Explore recipe excludes closed-by-merge ticket IDs using:
+
+```text
+IF (NOT INCLUDES_ANY([Ticket tags], "closed_by_merge")) THEN [Ticket ID] ENDIF
+```
+
+The metric aggregator is D_COUNT. Source-field reporting after merge is unavailable according to Merging tickets; preserve needed source-field evidence beforehand. Do not remove the tag merely to make merged closures appear like resolutions.
+
+## Authored decision methods
+
+The following are house methods, not Zendesk requirements: prefer an eligible ticket that owns the active commitment and useful structured fields; keep distinct unresolved work separate; reconcile tags before adding them; preserve source attribution and approval conditions; verify references and audience before the permanent operation. No fixed oldest-ticket rule, confidence score, required field policy, UI attachment guarantee or merge-count limit is invented.
+
+## Refresh scope
+
+Before submission, reopen both requested sources and the masking, redaction and CC sources; reconcile any changed rules in both skill bodies. Recheck exact published README/privacy URLs after publication. Missing account settings and incomplete exports remain case-specific input gaps, never inferred global settings.

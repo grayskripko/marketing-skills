@@ -1,0 +1,43 @@
+{
+  "name": "bloomerang-credits",
+  "version": "0.1.0",
+  "description": "Reconcile Bloomerang raised and revenue totals from donation, pledge and soft-credit exports using the September/October 2026 rule changes. Use when you ask to tie out donation exports, explain a changed DAF gift total, or check a soft-credit amount error from September or October. Works from pasted rows, CSV or spreadsheet exports and report snapshots. Produces row contributions, differences and evidence needed for unresolved links. Not for donor imports, bookkeeping entries, account access or record changes.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "bloomerang",
+    "raised",
+    "revenue",
+    "pledges",
+    "soft-credits",
+    "donation-exports"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Bloomerang Credits",
+    "shortDescription": "Reconcile raised, revenue and soft credits",
+    "longDescription": "Reconcile Bloomerang raised and revenue totals from donation, pledge and soft-credit exports using the September/October 2026 rule changes. Use when you ask to tie out donation exports, explain a changed DAF gift total, or check a soft-credit amount error from September or October. Works from pasted rows, CSV or spreadsheet exports and report snapshots. Produces row contributions, differences and evidence needed for unresolved links. Not for donor imports, bookkeeping entries, account access or record changes.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#25615B",
+    "brandColorDark": "#77C8BC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Reconcile these Bloomerang donation, pledge and soft-credit exports.",
+      "Why did the raised total on this old DAF donation change?",
+      "Explain this September soft-credit error using my report snapshots."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/bloomerang-credits/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "substack-migration",
+  "version": "0.1.0",
+  "description": "Prepare the subscriber import from my old newsletter export and flag what happens to my paid readers. Use when moving an email list to Substack, checking skipped subscriber rows, or planning access for existing paid members. Work from pasted text, selected exports, and screenshots described by you. Return field mapping, row exceptions, and a native import handoff, with separate access and billing decisions. No setup is needed to prepare the pack. Not for newsletter writing, audience segmentation, archive or domain moves, account automation, or sending email.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "substack",
+    "newsletter-migration",
+    "subscriber-import",
+    "paid-readers"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Substack Migration",
+    "shortDescription": "Prepare my Substack import",
+    "longDescription": "Prepare the subscriber import from my old newsletter export and flag what happens to my paid readers. Use when moving an email list to Substack, checking skipped subscriber rows, or planning access for existing paid members. Work from pasted text, selected exports, and screenshots described by you. Return field mapping, row exceptions, and a native import handoff, with separate access and billing decisions. No setup is needed to prepare the pack. Not for newsletter writing, audience segmentation, archive or domain moves, account automation, or sending email.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#365E68",
+    "brandColorDark": "#9CC9D1",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Prepare the subscriber import from my old newsletter export and flag what happens to my paid readers.",
+      "Help me plan the move for my paid Ghost subscribers."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/substack-migration/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

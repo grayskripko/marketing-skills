@@ -1,0 +1,45 @@
+{
+  "name": "tool-autopsy",
+  "version": "0.1.0",
+  "description": "Explain why my agent called the wrong tool or kept failing, and give me a fix I can verify. Analyze supplied traces, configurations and tool schemas; return an event-linked diagnosis, corrected arguments or a minimal patch, and a safe reproduction checklist. No live connection, trace upload or automatic replay is provided.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "tool-diagnostics",
+    "agent-traces",
+    "mcp",
+    "claude-code",
+    "codex",
+    "tool-arguments",
+    "reproduction"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Tool Autopsy",
+    "shortDescription": "Find why my tool call failed",
+    "longDescription": "Explain why my agent called the wrong tool or kept failing, and give me a fix I can verify. Analyze supplied traces, configurations and tool schemas; return an event-linked diagnosis, corrected arguments or a minimal patch, and a safe reproduction checklist. No live connection, trace upload or automatic replay is provided.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#183D4A",
+    "brandColorDark": "#8BD5C5",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Read this failed trace and explain the earliest supported failure.",
+      "Fix these tool arguments using the schema I pasted.",
+      "Plan a safe verification without sending the message again."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/tool-autopsy/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

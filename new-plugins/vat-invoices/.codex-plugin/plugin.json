@@ -1,0 +1,41 @@
+{
+  "name": "vat-invoices",
+  "version": "0.1.0",
+  "description": "Check this UK invoice before I send it and show exactly which fields need fixing. Review pasted text, readable exports or described screenshots against UK business identity and VAT field requirements. Show exact replacements, missing details and corrected totals. Review VAT credit notes against original invoice references, rates and refund dates.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "uk-invoice",
+    "vat-invoices",
+    "vat-invoice",
+    "credit-note",
+    "invoice-fields"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "VAT Invoices",
+    "shortDescription": "Check my UK invoice",
+    "longDescription": "Check this UK invoice before I send it and show exactly which fields need fixing. Review pasted text, readable exports or described screenshots against UK business identity and VAT field requirements. Show exact replacements, missing details and corrected totals. Review VAT credit notes against original invoice references, rates and refund dates.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#244C54",
+    "brandColorDark": "#8CC5CE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this UK invoice before I send it and show exactly which fields need fixing.",
+      "Check this UK VAT credit note against the original invoice and show the fixes."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/vat-invoices/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

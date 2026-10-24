@@ -1,0 +1,42 @@
+{
+  "name": "simplepractice-authorizations",
+  "version": "0.1.0",
+  "description": "Check remaining authorized sessions, authorization expiration dates and box 23 on SimplePractice claims. Use de-identified settings, dated remaining-session records, planned visits and payer-specific claim fields to return an exceptions table and proposed claim edits.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "simplepractice",
+    "authorization-tracking",
+    "remaining-sessions",
+    "prior-authorization",
+    "claim-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SimplePractice Authorizations",
+    "shortDescription": "Check authorization uses and claim fields.",
+    "longDescription": "Check remaining authorized sessions, authorization expiration dates and box 23 on SimplePractice claims. Use de-identified settings, dated remaining-session records, planned visits and payer-specific claim fields to return an exceptions table and proposed claim edits.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#21666B",
+    "brandColorDark": "#79C3C8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check these authorization dates and remaining uses against my planned sessions.",
+      "Review box 23 on these primary and secondary claims against the payer authorizations."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/main/new-plugins/simplepractice-authorizations",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/simplepractice-authorizations/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

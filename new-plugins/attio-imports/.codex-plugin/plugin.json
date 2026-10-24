@@ -1,0 +1,42 @@
+{
+  "name": "attio-imports",
+  "version": "0.1.0",
+  "description": "Move this CRM export into Attio without losing links or making duplicate people. Prepare CSVs and matching keys, preserve company and deal relationships, and diagnose partial imports from pasted data or supplied exports. Includes Attio field formats, limits and error meanings. Guides the official importer; does not connect to accounts or run imports.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "attio",
+    "crm-import",
+    "csv-import",
+    "deduplication",
+    "relationships"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Attio Imports",
+    "shortDescription": "Prepare CRM imports for Attio",
+    "longDescription": "Move this CRM export into Attio without losing links or making duplicate people. Prepare CSVs and matching keys, preserve company and deal relationships, and diagnose partial imports from pasted data or supplied exports. Includes Attio field formats, limits and error meanings. Guides the official importer; does not connect to accounts or run imports.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#234B5D",
+    "brandColorDark": "#91C6DB",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Get this CRM export ready for Attio without duplicating contacts.",
+      "Fix my Attio import errors and prepare a narrow retry plan."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/attio-imports/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

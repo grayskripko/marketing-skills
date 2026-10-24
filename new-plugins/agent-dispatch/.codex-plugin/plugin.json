@@ -1,0 +1,44 @@
+{
+  "name": "agent-dispatch",
+  "version": "0.1.0",
+  "description": "Split this job between agents without duplicate work or conflicting edits. Use when you need task dependencies, file owners and worker briefs, recovery from pasted coordination traces, or an integration decision from worker diffs and results. Works from supplied text and named local files; live dispatch uses available native tools only when requested. Not for building agent frameworks, configuring MCP servers, setting API budgets or publishing changes.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-dispatch",
+    "agent-coordination",
+    "task-dependencies",
+    "file-ownership",
+    "worker-recovery",
+    "result-reconciliation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Dispatch",
+    "shortDescription": "Plan, recover, reconcile jobs",
+    "longDescription": "Split this job between agents without duplicate work or conflicting edits. Use when you need task dependencies, file owners and worker briefs, recovery from pasted coordination traces, or an integration decision from worker diffs and results. Works from supplied text and named local files; live dispatch uses available native tools only when requested. Not for building agent frameworks, configuring MCP servers, setting API budgets or publishing changes.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245B67",
+    "brandColorDark": "#85CDD6",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Split this task between agents with clear file owners and prerequisites.",
+      "Recover these blocked workers from the pasted trace.",
+      "Reconcile these worker diffs and test results."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/agent-dispatch/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

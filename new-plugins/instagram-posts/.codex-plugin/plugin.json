@@ -1,0 +1,42 @@
+{
+  "name": "instagram-content",
+  "version": "0.1.0",
+  "description": "Write Instagram captions, carousels and reel scripts with hooks and hashtags from your facts. Paste your product details, event notes, existing draft or transcript and get copy ready to review and paste, with claims and exceptions preserved. Works without accounts, paid APIs or setup. Produces text drafts only.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "captions",
+    "carousels",
+    "reel-scripts",
+    "hooks",
+    "hashtags"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Instagram Content",
+    "shortDescription": "Captions, carousels and reels",
+    "longDescription": "Write Instagram captions, carousels and reel scripts with hooks and hashtags from your facts. Paste your product details, event notes, existing draft or transcript and get copy ready to review and paste, with claims and exceptions preserved. Works without accounts, paid APIs or setup. Produces text drafts only.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#924C74",
+    "brandColorDark": "#E6A5C8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Write an Instagram caption from these product facts.",
+      "Turn these notes into a five-slide Instagram carousel.",
+      "Write a 20-second reel script using this footage."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

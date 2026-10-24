@@ -1,0 +1,28 @@
+{
+  "name": "svhc-declarations",
+  "version": "0.1.4",
+  "description": "Check supplier SVHC declarations against your BOM and the REACH Candidate List. Matches part numbers and revisions exactly, dates each declaration against the list it covers (253 entries, updated 4 February 2026), computes SVHC concentration on each component rather than the whole product, and names stale, near-match and missing declarations. Writes the Article 33 notice for customers, the 45-day consumer reply and the follow-up email to suppliers. For product-stewardship and supplier-quality engineers.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "svhc",
+    "reach",
+    "candidate-list",
+    "article-33",
+    "supplier-declaration",
+    "bom-compliance",
+    "product-compliance",
+    "scip",
+    "echa",
+    "supplier-quality"
+  ],
+  "displayName": "SVHC Declarations",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-svhc-declarations/plugins/svhc-declarations/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/discussions",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-svhc-declarations/plugins/svhc-declarations/README.md"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "skill-checkup",
+  "version": "0.1.0",
+  "description": "Find why your skill does not activate or fails on a missing file, command or tool. Review supplied traces, configurations and package files for Claude Code, Codex and agent SDK workflows; return a small proposed patch and verification steps.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "skill-debugging",
+    "claude-code",
+    "codex",
+    "mcp",
+    "agent-sdk"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Skill Checkup",
+    "shortDescription": "Check skill activation errors",
+    "longDescription": "Find why your skill does not activate or fails on a missing file, command or tool. Review supplied traces, configurations and package files for Claude Code, Codex and agent SDK workflows; return a small proposed patch and verification steps.",
+    "developerName": "Sergey Skripko",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#185C50",
+    "brandColorDark": "#71BBA7",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why is this skill missing from my session? Here are the host settings and SKILL.md.",
+      "Find the broken dependency in this skill using the files and trace I supplied."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/skill-checkup/PRIVACY.md"
+  }
+}

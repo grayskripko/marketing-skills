@@ -1,0 +1,43 @@
+{
+  "name": "agent-recovery",
+  "version": "0.1.0",
+  "description": "Plan recovery of an interrupted AI agent run from checkpoints and action receipts; identify what can resume and which effects need checking before retry. Use pasted traces, logs, configs, transcripts, checkpoints, files and action receipts to reconstruct what completed, prepare a safe resume plan, and check the result after an authorized restart. Distinguishes confirmed effects from uncertain attempts and keeps pending approvals explicit.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-recovery",
+    "resume-agent",
+    "interrupted-agent",
+    "duplicate-actions",
+    "checkpoints",
+    "action-receipts"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Recovery",
+    "shortDescription": "Plan AI agent run recovery",
+    "longDescription": "Plan recovery of an interrupted AI agent run from checkpoints and action receipts; identify what can resume and which effects need checking before retry. Use pasted traces, logs, configs, transcripts, checkpoints, files and action receipts to reconstruct what completed, prepare a safe resume plan, and check the result after an authorized restart. Distinguishes confirmed effects from uncertain attempts and keeps pending approvals explicit.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#245B67",
+    "brandColorDark": "#85CDD6",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "This AI agent run stopped halfway. What finished and what remains uncertain?",
+      "Prepare a safe resume plan from these checkpoints and receipts.",
+      "Check these before-and-after records for duplicate actions and preserved work."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

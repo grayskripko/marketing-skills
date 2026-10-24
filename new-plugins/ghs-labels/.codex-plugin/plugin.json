@@ -1,0 +1,48 @@
+{
+  "name": "ghs-labels",
+  "version": "0.1.2",
+  "description": "Check a GHS chemical label against its SDS and approved hazard classification under the US OSHA HazCom standard. Build the right pictograms, signal word, hazard and precautionary statements from an approved classification, apply precedence rules, and decide the labeling path for shipped, small, bulk and workplace containers. Works from pasted label text, artwork, SDS sections and classifications; returns a checklist and annotated corrections for the qualified reviewer's sign-off.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ghs-labels",
+    "ghs-label",
+    "hazcom",
+    "osha-hazard-communication",
+    "sds",
+    "pictograms",
+    "signal-word",
+    "chemical-label",
+    "secondary-container-label",
+    "small-container-label"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GHS Labels",
+    "shortDescription": "Check GHS labels against the SDS and HazCom",
+    "longDescription": "Check a GHS chemical label against its SDS and approved hazard classification under the US OSHA HazCom standard. Build the right pictograms, signal word, hazard and precautionary statements from an approved classification, apply precedence rules, and decide the labeling path for shipped, small, bulk and workplace containers. Works from pasted label text, artwork, SDS sections and classifications; returns a checklist and annotated corrections for the qualified reviewer's sign-off.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#8A1C1C",
+    "brandColorDark": "#F2A49A",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Check this GHS label proof against our SDS section 2.",
+      "Which pictograms and signal word go on a label with these classes?",
+      "What label does a 3 mL ampoule in a kit need?"
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/pl-ghs-labels/plugins/ghs-labels/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "ga4-reporting",
+  "version": "0.1.0",
+  "description": "Reconcile GA4 acquisition and exploration exports into a monthly client report using supplied scopes, attribution settings and quality indicators. Use when GA4 reports and explorations disagree, you need to explain acquisition totals, or you want a monthly analytics report for a client. Works from pasted tables, supplied exports and settings, keeping first-user, session and event credit separate. Produces a reconciliation and a client-ready report with formulas and the quality findings that affect interpretation. Not for tracking installation, campaign optimization, live account access or scheduled monitoring.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ga4-reporting",
+    "google-analytics",
+    "acquisition",
+    "explorations",
+    "monthly-report",
+    "attribution"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GA4 Reporting",
+    "shortDescription": "Reconcile GA4 exports into a monthly client report.",
+    "longDescription": "Reconcile GA4 acquisition and exploration exports into a monthly client report using supplied scopes, attribution settings and quality indicators. Use when GA4 reports and explorations disagree, you need to explain acquisition totals, or you want a monthly analytics report for a client. Works from pasted tables, supplied exports and settings, keeping first-user, session and event credit separate. Produces a reconciliation and a client-ready report with formulas and the quality findings that affect interpretation. Not for tracking installation, campaign optimization, live account access or scheduled monitoring.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Read"
+    ],
+    "brandColor": "#245C4A",
+    "brandColorDark": "#8CCAB4",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Reconcile these GA4 acquisition and exploration exports with these settings and quality indicators.",
+      "Write a monthly client report from these GA4 exports and attribution settings."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ga4-reporting/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

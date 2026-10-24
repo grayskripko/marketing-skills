@@ -1,0 +1,20 @@
+{
+  "name": "hubspot-imports",
+  "version": "0.1.0",
+  "description": "Prepare HubSpot contact, company, deal, ticket, and supported association imports from supplied rows or exports. Get column mappings, identifier and duplicate checks, file fixes, manual import settings, error-repair plans, and post-import checks from supplied summaries and exports. Account imports are performed by the user.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "hubspot",
+    "imports",
+    "column-mapping",
+    "deduplication",
+    "crm",
+    "csv"
+  ],
+  "displayName": "HubSpot Imports"
+}

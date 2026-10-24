@@ -1,0 +1,23 @@
+{
+  "name": "context-triage",
+  "displayName": "Context Triage",
+  "version": "0.1.0",
+  "description": "Find what is filling my agent’s context and remove the waste without losing decisions. Use supplied traces, configuration and files to identify context contributors or prepare a smaller continuation pack with source references. No accounts or API keys required.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "context",
+    "context-triage",
+    "compaction",
+    "agent-history",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/context-triage/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/context-triage/README.md"
+}

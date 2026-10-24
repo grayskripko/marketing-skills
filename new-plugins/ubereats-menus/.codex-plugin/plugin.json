@@ -1,0 +1,43 @@
+{
+  "name": "ubereats-menus",
+  "version": "0.1.0",
+  "description": "Find why Uber Eats menu items or modifiers cannot be ordered or have the wrong price, and turn pasted menu data into a corrected configuration specification. Use menu JSON or item, group, constraint and price tables to trace affected items, selection requirements, context prices, availability and tax settings. Two skills cover diagnosis and configuration handoffs from supplied facts.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "uber-eats",
+    "menu",
+    "modifiers",
+    "menu-configuration",
+    "menu-prices"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UberEats Menus",
+    "shortDescription": "Check Uber Eats menu items and fix settings.",
+    "longDescription": "Find why Uber Eats menu items or modifiers cannot be ordered or have the wrong price, and turn pasted menu data into a corrected configuration specification. Use menu JSON or item, group, constraint and price tables to trace affected items, selection requirements, context prices, availability and tax settings. Two skills cover diagnosis and configuration handoffs from supplied facts.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#35624B",
+    "brandColorDark": "#95C7AE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why can customers not order this item? Here are the item and modifier constraints.",
+      "Explain these menu and modifier price overrides and give corrected settings.",
+      "Turn these menu, item and option tables into a configuration specification."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ubereats-menus/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

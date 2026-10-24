@@ -1,0 +1,24 @@
+{
+  "name": "peppol-invoices",
+  "version": "0.1.0",
+  "description": "Explain why this invoice export is rejected and give my invoicing provider the exact fixes. Reviews supplied Peppol BIS Billing invoice or credit-note exports, rejection text and described screenshots. Returns field corrections, arithmetic and a provider-ready handoff. No account connection or transmission is required.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "peppol-invoices",
+    "peppol-billing",
+    "invoice-export",
+    "ubl",
+    "credit-note",
+    "validation"
+  ],
+  "displayName": "Peppol Invoices",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/peppol-invoices/PRIVACY.md",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/peppol-invoices/README.md"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "shopify-inventory",
+  "version": "0.1.0",
+  "description": "Prepare my Shopify inventory CSV correction from a stock count and later movements. Use when I have a Shopify inventory CSV and a physical count, need to keep recent inventory changes, or want to understand rejected correction rows. Returns a correction draft or a failed-row repair plan from pasted text, exports, and screenshots I describe. Uses dated stock evidence and keeps current-stock validation. Not for product catalog imports, forecasting, order editing, automatic store monitoring, or uploading changes to my account.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "inventory",
+    "stock correction",
+    "Shopify inventory CSV",
+    "inventory import",
+    "stock count"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Shopify Inventory",
+    "shortDescription": "Prepare inventory corrections",
+    "longDescription": "Prepare my Shopify inventory CSV correction from a stock count and later movements. Use when I have a Shopify inventory CSV and a physical count, need to keep recent inventory changes, or want to understand rejected correction rows. Returns a correction draft or a failed-row repair plan from pasted text, exports, and screenshots I describe. Uses dated stock evidence and keeps current-stock validation. Not for product catalog imports, forecasting, order editing, automatic store monitoring, or uploading changes to my account.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#295E52",
+    "brandColorDark": "#85C5AE",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Prepare my Shopify inventory correction from this export and count.",
+      "Explain these rejected inventory rows and prepare a safe retry."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/shopify-inventory/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "bigquery-sql",
+  "version": "0.1.0",
+  "description": "Move this Snowflake query to BigQuery without changing what the dates, nulls or totals mean. Convert pasted SQL or diagnose changed results using supplied schemas, exports and screenshot descriptions. Includes current official guidance on timestamp types, week boundaries, conversion failures, decimal precision and null totals. Produces SQL and focused comparison cases without database access or query execution.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "snowflake",
+    "bigquery",
+    "sql-migration",
+    "bigquery-sql",
+    "date-semantics",
+    "nulls",
+    "decimal-totals"
+  ],
+  "displayName": "BigQuery SQL",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/bigquery-sql/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/bigquery-sql/README.md"
+}

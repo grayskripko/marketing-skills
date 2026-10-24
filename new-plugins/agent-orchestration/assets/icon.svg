@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Three tasks join into one result">
+<rect width="512" height="512" rx="96" fill="#1F4E79"/>
+<path d="M136 160V256H328M136 256H328M136 352V256M328 256L376 256" fill="none" stroke="#F4F7FB" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#F4F7FB"><circle cx="136" cy="160" r="32"/><circle cx="136" cy="256" r="32"/><circle cx="136" cy="352" r="32"/></g>
+<circle cx="376" cy="256" r="56" fill="#2E9E6B"/>
+<path d="M351 256L370 275L403 237" fill="none" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

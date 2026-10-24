@@ -1,0 +1,22 @@
+{
+  "name": "eval-cases",
+  "version": "0.1.0",
+  "description": "Turn failed agent sessions into reusable cases with source evidence and clear expected outcomes. Prepare redacted fixtures from supplied traces, conversations and configs; flag missing facts and export prepared cases using the user’s existing runner schema. No accounts or setup required for pasted inputs.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "eval-cases",
+    "agent-traces",
+    "jsonl",
+    "case-preparation",
+    "provenance"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/eval-cases/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/eval-cases/README.md",
+  "displayName": "Eval Cases"
+}

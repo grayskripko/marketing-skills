@@ -1,0 +1,25 @@
+{
+  "name": "vat-records",
+  "version": "0.1.4",
+  "description": "Review supplied UK VAT records for MTD digital-link breaks, required record-field gaps, adjustment workings and retention evidence. Prepare ordered repair tasks and acceptance checks for the accountant.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "vat",
+    "mtd",
+    "uk",
+    "digital-links",
+    "spreadsheet",
+    "record-keeping",
+    "accountant"
+  ],
+  "displayName": "VAT Records",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-vat-records/plugins/vat-records/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-vat-records/plugins/vat-records/README.md"
+}

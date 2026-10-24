@@ -1,0 +1,44 @@
+# RRP paperwork source register
+
+Read 2026-10-11. Scope: federal US renovation documentation. All links below loaded substantive content. eCFR Title 40 displayed currency through 2026-10-07 and last title amendment 2026-10-02. Verification applies to this build, not the future 2026-10-20 submission. Reopen the deciding sections and administering-authority requirements for later work.
+
+| Source, read 2026-10-11 | Deciding passage and scope |
+|---|---|
+| [EPA Contractors](https://www.epa.gov/lead/renovation-repair-and-painting-program-contractors) — updated March 31, 2026 | Overview, covered activities and paint testing: pre-1978 paid disturbance; certification; tests optional; qualified testing of affected surfaces. |
+| [EPA Program Rules](https://www.epa.gov/lead/lead-renovation-repair-and-painting-program-rules) — updated December 15, 2025 | History/index, including removal of owner opt-out in 2010. Old opt-out packets do not clear current work. |
+| [EPA Firm Certification](https://www.epa.gov/lead/renovation-repair-and-painting-program-firm-certification) | “Determine if You Apply” lists authorized states and Bois Forte Tribe with official links; “RRP Rule Requires Firm Certification” says EPA firm validity is five years. Course certificates and pending applications do not establish firm certification. |
+| [40 CFR 745.83](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-E/section-745.83) | Minor-area definition, full removed-component area, same-room nonemergency 30-day aggregation, and child-occupied attendance thresholds. |
+| [40 CFR 745.103](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-F/section-745.103) | Target housing/zero-bedroom definitions with child-under-six exception; November 2024 amendment is reflected. Paint thresholds differ from dust levels. |
+| [40 CFR 745.82](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-E/section-745.82) | (a) component-specific qualified no-lead evidence; limited integrated-whole kit/chip sampling. (b) emergency definition, pamphlet relief, limited extra relief and remaining cleaning/verification/records. |
+| [EPA Lead Test Kits](https://www.epa.gov/lead/testkits) — updated November 6, 2025 | LeadCheck/D-Lead recognition covers wood, ferrous metal, drywall/plaster; Massachusetts kit covers drywall/plaster only. Negative homeowner swabs do not establish the certified testing path. |
+| [40 CFR 745.84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-E/section-745.84) | (a) owner and tenant delivery; (b) common-area notice and changed-scope updates; (c) owner/facility/parent recipients; (d) receipt contents/language. Timing: within 60 days before start, certificate-of-mailing route at least seven days before start. Tenant/facility unsuccessful acknowledgment record differs from owner route. |
+| [40 CFR 745.85](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-E/section-745.85) | (a)(3) method restrictions; (b) interior verification vs exterior visual inspection; (c) clearance substitute requires contractual/legal clearance, qualified sampler and re-cleaning to current action levels. Follow its current cross-reference for dust numbers. |
+| [40 CFR 745.86](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-E/section-745.86) | (a) three-year retention after completion; (b)(1) no-lead reports, kit maker/model/component/location/result and chip lab/result fields; (b)(2)–(5) delivery/notification records; (b)(6) training, signed practice and verification certification including wet/dry cloth counts and emergency deviations; (c)/(d) customer compliance/clearance reports by earlier final invoice or completion +30 days. Sample checklist is an option. |
+| [EPA Work Practices](https://www.epa.gov/lead/renovation-repair-and-painting-program-work-practices) | Official overview loads and links practical materials; current numbered regulations above supply precise packet tests. |
+
+- [40 CFR 745.90](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-E/section-745.90), read 2026-10-11. Paragraph (a)(4): initial/hands-on renovator term five years, non-hands-on refresher three years; next refresher must include hands-on; expired certification requires initial course again. Paragraph (b)(7): initial/latest refresher course certificates at worksite. Paragraph .84(b)(2) distinguishes expected start/end in written notices from anticipated completion on ongoing signs.
+
+- [40 CFR 745.89](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-E/section-745.89), read 2026-10-11. (b)(1)(i) complete recertification application electronically submitted at least 90 days before expiry continues current certification until expiry or final decision, whichever is later; (ii) late application does not extend beyond expiry without approval. Firm expiry screening needs application/decision evidence where claimed.
+
+## Field decisions
+
+“Not supplied” describes the inspected export, not a finding that the activity never happened. Signed practice records concern actual performance; blanks may be drafted, but results and signatures cannot be invented. Photo evidence alone is not the interior cleaning-verification procedure. Certification validity should be compared with actual work dates, not only the intake date. Common-area and child-facility packets have distinct recipient groups.
+
+Gap-table labels and answer order are editorial workflow choices, not legal field names. Date arithmetic uses calendar days. If the final invoice date is unknown, completion +30 days is only the latest deadline; an earlier invoice changes it. Test date and credential identifiers assist evidence matching but are not added as purported verbatim mandatory kit-record fields.
+
+## Emergency cross-reference check
+
+Current §745.82(b) points to §745.86(b)(6) and (b)(7), but the retrieved §745.86 displays no (b)(7). Preserve that source discrepancy when a precise cross-reference is requested. The express surviving cleaning/verification and emergency/practice documentation requirements are readable; do not invent a missing subsection or infer a waiver of customer reporting from it.
+
+## Negative-test reporting clarification
+
+[EPA negative-test exception FAQ](https://www.epa.gov/lead/if-certified-renovator-using-epa-recognized-lead-test-kit-or-paint-chip-sampling-determines), read 2026-10-11; updated September 30, 2026. The exempt renovation may be performed without the usual certified-firm/work-practice packet, but the certified renovator’s testing firm remains subject to .86(a), (b)(1)(ii)/(iii) and (c): retain test records three years and report applicable test information. EPA recommends a separate exempt renovation firm retain a copy. Match obligation to the firm’s role; no-lead means less paperwork, not no testing-firm reporting. Emergency relief in .82 does not exempt .86(c) reporting; apply the normal earlier invoice/completion +30-day deadline to surviving compliance information.
+
+## Rebuild verification — read 2026-10-11
+
+- [Emergency applicability, §745.82(b)](https://www.ecfr.gov/current/title-40/section-745.82): non-interim emergency relief is limited to warning signs, containment, waste handling, training and certification as necessary for response. Elevated-blood-lead interim controls receive only information-distribution relief. Cleaning requires a certified renovator or a worker trained by one; verification requires a certified renovator. Removal-method restrictions are not among the relieved categories.
+- [Child-facility notice, §745.84(c)(2)–(3)](https://www.ecfr.gov/current/title-40/section-745.84): both parent/guardian routes require nature, locations, anticipated completion date and free compliance-record access; signs also need the pamphlet or free-access instructions. Keep the signed dated notification statement.
+- [Records, §745.86(a), (b)(6), (c)](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-745/subpart-E/section-745.86): record emergency nature and omitted provisions; retain applicable records three years after completion; customer information is due at earlier final-invoice delivery or completion +30 days.
+- [Target-housing definition, §745.103](https://www.ecfr.gov/current/title-40/section-745.103): the November 12, 2024 amendment note supports the current zero-bedroom child exception. The EPA Program Rules history lists earlier RRP amendments; it does not supply this 2024 definition amendment.
+
+Substantive sections were opened during this rebuild. The .84 response displayed title currency October 2, 2026; .82/.86/.103 displayed October 7, 2026. Title amendment date was October 2 in both responses. These display dates are not RRP amendment dates.

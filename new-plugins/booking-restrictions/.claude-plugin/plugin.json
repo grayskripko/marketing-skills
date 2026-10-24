@@ -1,0 +1,23 @@
+{
+  "name": "booking-restrictions",
+  "version": "0.1.0",
+  "description": "Check why a Booking.com stay is unavailable, including minimum-stay settings and closed arrival or departure dates. Return the blocking fields and proposed settings changes. Use pasted inventory tables, restriction exports, B.XML requests or response bodies to explain why a stay cannot be sold or review a proposed fix. Separate minimum stay across occupied nights from minimum stay on arrival, check arrival and departure closures on their actual dates, and show room-level closure and shared-inventory effects. No account or installation is needed for pasted text or exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "booking-restrictions",
+    "availability",
+    "minimum-stay",
+    "inventory",
+    "arrival",
+    "departure"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/booking-restrictions/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/booking-restrictions/README.md",
+  "displayName": "Booking Restrictions"
+}

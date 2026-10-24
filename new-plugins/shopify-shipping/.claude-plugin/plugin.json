@@ -1,0 +1,23 @@
+{
+  "name": "shopify-shipping",
+  "version": "0.1.0",
+  "description": "Explain this unexpected checkout shipping charge from my settings and this cart. Use when Shopify checkout charges more than expected, adds shipping from different profiles or locations, or shows Included after a shipping upgrade. Reconcile supplied cart details, rate settings and checkout selections, or check why an expected option is missing. Works with pasted text, exports and screenshots described by the user. Not for tracking parcels, buying labels, changing store settings or reconstructing a carrier quote without its supporting output.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "checkout",
+    "shipping-rates",
+    "shipping-profiles",
+    "split-shipping",
+    "shipping-options"
+  ],
+  "displayName": "Shopify Shipping",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/shopify-shipping/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/shopify-shipping/README.md"
+}

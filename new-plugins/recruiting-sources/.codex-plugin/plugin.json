@@ -1,0 +1,43 @@
+{
+  "name": "recruiting-sources",
+  "version": "0.1.0",
+  "description": "Audit Greenhouse source attribution and report interpretation from application rows, gh_src tracking links and source-quality exports. Use pasted rows and exports to locate attribution gaps, separate pipeline quality from hire rate, and reconcile report filters.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "recruiting-sources",
+    "greenhouse",
+    "source-attribution",
+    "gh_src",
+    "source-quality",
+    "recruiting-reports"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Recruiting Sources",
+    "shortDescription": "Audit Greenhouse attribution and source reports.",
+    "longDescription": "Audit Greenhouse source attribution and report interpretation from application rows, gh_src tracking links and source-quality exports. Use pasted rows and exports to locate attribution gaps, separate pipeline quality from hire rate, and reconcile report filters.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#275D72",
+    "brandColorDark": "#8CCAD9",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Audit these Greenhouse application sources against the pasted tracking links and token mapping.",
+      "Explain this Greenhouse source-quality export and reconcile it with these application rows."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/recruiting-sources/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

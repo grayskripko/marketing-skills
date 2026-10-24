@@ -1,0 +1,41 @@
+{
+  "name": "podcast-metadata",
+  "version": "0.1.0",
+  "description": "Repair Apple podcast RSS and episode metadata from XML and host-form exports. Preserve episode GUIDs, find duplicate media URLs, and return corrected XML or a field change table. Separate host edits from Apple Podcasts Connect edits, episode sorting from availability, and Connect form limits from RSS host limits. Works from pasted text and supplied exports.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "podcast",
+    "metadata",
+    "rss",
+    "episode",
+    "guid",
+    "enclosure"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Podcast Metadata",
+    "shortDescription": "Repair podcast RSS and episode metadata.",
+    "longDescription": "Repair Apple podcast RSS and episode metadata from XML and host-form exports. Preserve episode GUIDs, find duplicate media URLs, and return corrected XML or a field change table. Separate host edits from Apple Podcasts Connect edits, episode sorting from availability, and Connect form limits from RSS host limits. Works from pasted text and supplied exports.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#234D60",
+    "brandColorDark": "#8CCDD8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Fix these podcast RSS episode fields and keep the existing episode identities.",
+      "Reconcile this host export with Apple Podcasts Connect and tell me where each edit belongs."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

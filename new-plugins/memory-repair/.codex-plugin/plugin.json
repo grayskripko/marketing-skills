@@ -1,0 +1,44 @@
+{
+  "name": "memory-repair",
+  "version": "0.1.0",
+  "description": "Repair stale or conflicting AI agent memory using original sources; correct saved facts and check that the existing store retrieves the updated information. Audit source attribution, validity and scope from pasted files, exports, logs, configs or transcripts. Prepare corrections in the existing format, apply requested accessible changes, and inspect fresh retrieval evidence.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ai agent memory",
+    "stale memory",
+    "stale facts",
+    "persistent memory",
+    "memory conflicts",
+    "memory repair"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Memory Repair",
+    "shortDescription": "Repair stale AI agent memory",
+    "longDescription": "Repair stale or conflicting AI agent memory using original sources; correct saved facts and check that the existing store retrieves the updated information. Work from pasted memory and source records, preserve the existing format, and inspect retrieval traces.",
+    "developerName": "Sergey Skripko",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#235C52",
+    "brandColorDark": "#8BD0BC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Find conflicts in these saved memory entries and sources.",
+      "Correct this outdated memory record in its existing format.",
+      "Check these retrieval logs after my memory correction."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills/tree/main/new-plugins/memory-repair",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/memory-repair/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

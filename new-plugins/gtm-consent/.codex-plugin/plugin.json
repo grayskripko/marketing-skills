@@ -1,0 +1,42 @@
+{
+  "name": "gtm-consent",
+  "version": "0.1.0",
+  "description": "Diagnose pasted Tag Assistant events and consent settings, with an event-by-event explanation, likely fixes and the precise next trace needed. Use when consent stays denied after acceptance, defaults appear late, Google tags are blocked, or regional settings disagree. Works from pasted text and container exports for marketing teams and developers. Review consent defaults, updates, template APIs and tag consent checks without account setup.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "gtm",
+    "consent-mode",
+    "tag-assistant",
+    "consent-mode-v2",
+    "tag-manager"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GTM Consent",
+    "shortDescription": "Diagnose pasted GTM consent events and settings.",
+    "longDescription": "Diagnose pasted Tag Assistant events and consent settings, with an event-by-event explanation, likely fixes and the precise next trace needed. Use when consent stays denied after acceptance, defaults appear late, Google tags are blocked, or regional settings disagree. Works from pasted text and container exports for marketing teams and developers. Review consent defaults, updates, template APIs and tag consent checks without account setup.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#176B60",
+    "brandColorDark": "#73C9B8",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Why does consent stay denied after accept? Here are my Tag Assistant events.",
+      "Check these GTM consent settings and tell me exactly what to capture next."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/gtm-consent/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

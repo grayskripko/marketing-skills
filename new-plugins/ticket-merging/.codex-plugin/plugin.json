@@ -1,0 +1,45 @@
+{
+  "name": "ticket-merging",
+  "version": "0.1.0",
+  "description": "Check whether duplicate Zendesk tickets can be merged, which ticket should survive, and what happens to their fields, comments and recipients. Use when you ask whether duplicate tickets can be combined, which ticket should survive, or what to keep before merging. Works from pasted ticket text or readable exports, including statuses, participants, fields and comment histories. Not for live ticket access, merging tickets, general ticket triage or other helpdesks.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ticket-merging",
+    "Zendesk",
+    "merge-eligibility",
+    "requester-cc",
+    "ticket-preservation"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ticket-merging/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ticket-merging/README.md",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ticket Merging",
+    "shortDescription": "Check duplicate tickets before merging",
+    "longDescription": "Check whether duplicate Zendesk tickets can be merged, which ticket should survive, and what happens to their fields, comments and recipients. Use when you ask whether duplicate tickets can be combined, which ticket should survive, or what to keep before merging. Works from pasted ticket text or readable exports, including statuses, participants, fields and comment histories. Not for live ticket access, merging tickets, general ticket triage or other helpdesks.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#275D74",
+    "brandColorDark": "#93CADB",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Can these Zendesk tickets be merged, and which should survive?",
+      "Prepare a preservation checklist for this proposed ticket merge."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ticket-merging/PRIVACY.md",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

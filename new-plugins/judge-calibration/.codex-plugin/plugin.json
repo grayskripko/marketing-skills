@@ -1,0 +1,41 @@
+{
+  "name": "judge-calibration",
+  "version": "0.1.0",
+  "description": "Check whether your AI grader agrees with your reviewers and whether its recorded judgments stay consistent. Use pasted ratings, grader prompts, configs and exported traces to find disagreements, missing judgments, rubric ambiguities and answer-order sensitivity. Separate successful grading from run completion and tool errors. Works without accounts, API keys or a live evaluator connection.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "judge-calibration",
+    "grader-audit",
+    "human-ratings",
+    "rubric-review",
+    "agent-traces"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Judge Calibration",
+    "shortDescription": "Check AI grader agreement",
+    "longDescription": "Check whether your AI grader agrees with your reviewers and whether its recorded judgments stay consistent. Use pasted ratings, grader prompts, configs and exported traces to find disagreements, missing judgments, rubric ambiguities and answer-order sensitivity. Separate successful grading from run completion and tool errors. Works without accounts, API keys or a live evaluator connection.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "brandColor": "#315A68",
+    "brandColorDark": "#9ECAD5",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Compare these human ratings and grader results; show the disagreements.",
+      "Audit this grader rubric and these exported traces for missing judgments and inconsistent decisions."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/wind/plugins/judge-calibration/PRIVACY.md"
+  }
+}

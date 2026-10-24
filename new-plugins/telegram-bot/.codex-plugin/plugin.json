@@ -1,0 +1,42 @@
+{
+  "name": "telegram-bot",
+  "version": "0.1.0",
+  "description": "Set up a Telegram bot and prepare one alert. Use when you ask “create a Telegram bot”, “send this with my bot” or “can a bot read my chats?”. Gives setup steps and message drafts. A live send needs a separately available secure tool. Also helps review chat exports you have permission to process. Not for bulk outreach or a connection to your personal inbox. Includes no sending program, scheduler or service that keeps listening for updates.",
+  "author": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "telegram",
+    "bot-notifications",
+    "chat-export",
+    "automation-setup"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Telegram Bot",
+    "shortDescription": "Set up a Telegram bot and prepare one alert.",
+    "longDescription": "Set up a Telegram bot and prepare one alert. Use when you ask “create a Telegram bot”, “send this with my bot” or “can a bot read my chats?”. Gives setup steps and message drafts. A live send needs a separately available secure tool. Also helps review chat exports you have permission to process. Not for bulk outreach or a connection to your personal inbox. Includes no sending program, scheduler or service that keeps listening for updates.",
+    "developerName": "Sergey Skripko",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#1F4E79",
+    "brandColorDark": "#6FA8DC",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Help me create a Telegram bot and prepare one alert without sharing tokens.",
+      "Can a bot read my old private chats, or should I export them?",
+      "Help me set up a bot alert to my team group without pasting a token here."
+    ],
+    "websiteURL": "https://github.com/grayskripko/marketing-skills",
+    "supportURL": "https://github.com/grayskripko/marketing-skills/issues"
+  }
+}

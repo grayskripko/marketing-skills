@@ -1,0 +1,23 @@
+{
+  "name": "ga4-ecommerce",
+  "displayName": "GA4 Ecommerce",
+  "version": "0.1.0",
+  "description": "Check my GA4 ecommerce events and map purchases and refunds to my supplied order facts, then give me field-level defects and corrected example payloads. Use pasted data-layer messages, event JSON or readable exports with matching order and refund facts. Preserve known fields, separate merchandise from tax and shipping, and keep aggregate facts at aggregate scope.",
+  "author": {
+    "name": "Sergey Skripko"
+  },
+  "homepage": "https://github.com/grayskripko/marketing-skills",
+  "repository": "https://github.com/grayskripko/marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "ga4",
+    "ecommerce",
+    "purchase",
+    "refund",
+    "data-layer",
+    "gtm"
+  ],
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ga4-ecommerce/PRIVACY.md",
+  "supportUrl": "https://github.com/grayskripko/marketing-skills/issues",
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/new-plugins/ga4-ecommerce/README.md"
+}
