@@ -1,6 +1,6 @@
 {
-  "name": "google-update-check",
-  "displayName": "Google Algorithm Update & Traffic Drop Check",
+  "name": "search-update-check",
+  "displayName": "Search Update & Traffic Drop Check",
   "version": "0.1.0",
   "description": "Check whether a Google core update, spam update or other confirmed Google Search ranking update, a Search incident or a Search Console reporting error lines up with a traffic drop or rankings change on your dates. Network use: the skills call the plugin's read-only data server at https://black-vector.com/mcp/search-updates, run by the plugin author; each call carries only dates and an optional update kind, never your site, numbers or text, and needs no account or sign-in. Compares your dates with Google's own rollout windows, Search Console data anomalies and Google Search ranking, serving or indexing incidents, each with Google's source link and an as-of date. Also says whether a Google algorithm update is rolling out now, before a site migration or launch, and lists Google's ranking updates since November 2021; the server refreshes daily from Google's public Search Status Dashboard and Search Console help pages. Independent tool: not affiliated with or endorsed by Google.",
   "author": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/grayskripko",
     "email": "grayskripko@gmail.com"
   },
-  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/google-update-check",
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/search-update-check",
   "repository": "https://github.com/grayskripko/marketing-skills",
   "license": "MIT",
   "keywords": [
@@ -21,7 +21,7 @@
     "seo",
     "search-status-dashboard"
   ],
-  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/google-update-check/PRIVACY.md",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/search-update-check/PRIVACY.md",
   "supportUrl": "https://github.com/grayskripko/marketing-skills/discussions",
-  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/google-update-check/README.md"
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/search-update-check/README.md"
 }

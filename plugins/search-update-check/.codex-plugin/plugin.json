@@ -1,5 +1,5 @@
 {
-  "name": "google-update-check",
+  "name": "search-update-check",
   "version": "0.1.0",
   "description": "Check whether a Google core update, spam update or other confirmed Google Search ranking update, a Search incident or a Search Console reporting error lines up with a traffic drop or rankings change on your dates. Network use: the skills call the plugin's read-only data server at https://black-vector.com/mcp/search-updates, run by the plugin author; each call carries only dates and an optional update kind, never your site, numbers or text, and needs no account or sign-in. Compares your dates with Google's own rollout windows, Search Console data anomalies and Google Search ranking, serving or indexing incidents, each with Google's source link and an as-of date. Also says whether a Google algorithm update is rolling out now, before a site migration or launch, and lists Google's ranking updates since November 2021; the server refreshes daily from Google's public Search Status Dashboard and Search Console help pages. Independent tool: not affiliated with or endorsed by Google.",
   "author": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/grayskripko",
     "email": "grayskripko@gmail.com"
   },
-  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/google-update-check",
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/search-update-check",
   "repository": "https://github.com/grayskripko/marketing-skills",
   "license": "MIT",
   "keywords": [
@@ -23,7 +23,7 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Google Algorithm Update & Traffic Drop Check",
+    "displayName": "Search Update & Traffic Drop Check",
     "shortDescription": "Did a Google update cause my traffic drop?",
     "longDescription": "Not affiliated with or endorsed by Google. Network use: the skills call the plugin's read-only data server at https://black-vector.com/mcp/search-updates, run by the plugin author, which refreshes daily from Google's public pages; each call carries only dates and an optional update kind, and needs no account or sign-in. Three connected skills over that server. Traffic drop check: matches the dates of a drop or rise in clicks, impressions, sessions or rankings with Google's confirmed rollout windows, Search Console data anomalies and Search incidents, and says which of four cases fits (a reporting error, a Google incident, an update overlap, or nothing on Google's side), with the checks that separate Google from site causes. Rollout status: whether an update or incident is live today, what that means for a launch, migration, redesign or SEO test, and what to watch. Update history: Google's confirmed updates since November 2021 as a table, chart annotations or a client paragraph. Every answer names Google's source page and an as-of date; overlap is never stated as proof.",
     "developerName": "Sergey Skripko",
@@ -42,7 +42,7 @@
       "List Google's core updates since 2025 with start and end dates for my client report."
     ],
     "websiteURL": "https://github.com/grayskripko/marketing-skills",
-    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/google-update-check/PRIVACY.md",
+    "privacyPolicyURL": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/search-update-check/PRIVACY.md",
     "supportURL": "https://github.com/grayskripko/marketing-skills/discussions"
   }
 }

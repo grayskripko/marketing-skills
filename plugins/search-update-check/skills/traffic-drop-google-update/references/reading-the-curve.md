@@ -17,19 +17,21 @@ A heuristic of this check, not a Google rule; say so when you use it.
 
 ## Which anomaly affects which metric
 
-The tool gives each Search Console data anomaly with `surfaces` and `metrics`. Match them to where the user saw the fall. This table only says how to match; the dated entries come from the tool.
+The tool gives each Search Console data anomaly with `surfaces`, `metrics` and `affects` (the metrics per surface). Match them to where the user saw the change, surface by surface. This table only says how to match; the dated entries come from the tool.
 
 | Anomaly surface (tool value) | Explains a fall in | Does not explain a fall in |
 |---|---|---|
 | `web_search` | the named metrics in the Search results performance report | analytics sessions; Discover; metrics the entry says were not affected |
+| `not_named` | the named metrics in whichever performance report the user reads (Google files it under «Performance reports (Search results / Discover / Google News)» and names none; say so, do not pick one) | analytics sessions; metrics the entry says were not affected |
 | `discover` | Discover performance report clicks and impressions | web search clicks or impressions; analytics sessions |
 | `generative_ai_search` | Generative AI performance report (Search) impressions | web search clicks or impressions in the main report; analytics sessions |
 | `generative_ai_discover` | Generative AI features in Discover impressions | web search; analytics sessions |
 | `search_appearance_job_listings`, `search_appearance_faq` | impressions or clicks filtered to that search appearance, or its rich result report | the site's total clicks, unless that appearance carried most of them |
 | `bulk_data_export` | rows missing from BigQuery bulk exports on those days | the Search Console interface; analytics |
 
-- Direction comes from `effect` (what the error did to the report on its days: `decrease`, `missing`, `inaccurate` with no direction given, `real_change`) and `after_fix` (what Google says the fix brings: `restored`, `decrease`, `not_recovered`, or empty). `fixed_on` is the date Google gives for the fix, or the day after the last affected day when Google writes only that the issue is resolved (`fixed_on_basis` says which). `meaning` is the one-sentence reading; quote it with Google's text.
-- A fall explains as a report error only where the report showed less: `decrease` or `missing` on its days, or a fix with `after_fix: decrease` that starts at the end of an `inaccurate` window. A fall inside an `inaccurate` window is not explained by that entry.
+- Direction comes from `effect` (what Google says about the report on its days: `decrease`, `missing`, `inaccurate` with no direction given, `real_change`) and `after_fix` (what Google says the fix brings: `restored`, `decrease`, `not_recovered`, or empty). `fixed_on` is the date of Google's «Update (<date>)» note, or, with `fixed_on_inferred: true`, only the day after the last affected day: Google gave no date, so never call it Google's fix date. `google_says` is a neutral summary of Google's entry; the rules here and in SKILL.md decide what fits.
+- `inaccurate` plus `after_fix: decrease` means the report showed more than it should have during the window (the fix lowers it). A rise in the affected metric inside the window, and a fall starting around its end, fit the entry; a fall in the middle of the window does not.
+- A fall explains as a report error only where the report showed less: `decrease` or `missing` on its days, or the corrected report after an over-reporting window. `inaccurate` with no `after_fix` gives no direction.
 - An entry with `data_logging_only: true` means Google says real traffic was not affected, only the report.
 - An entry with `data_logging_only: false` can describe a real change on Google's side (for example a results feature that stopped showing). Say what Google wrote and that the fall may be real.
 - An entry on impressions only (`metrics` without `clicks`) does not explain a fall in clicks.

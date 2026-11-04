@@ -1,8 +1,8 @@
-# Privacy policy: Google Algorithm Update & Traffic Drop Check
+# Privacy policy: Search Update & Traffic Drop Check
 
 Effective date: 2026-11-04.
 
-Google Algorithm Update & Traffic Drop Check is a set of instructions and reference documents for an AI assistant, plus the address of one read-only data server. It contains no code that runs on your computer. The server is https://black-vector.com/mcp/search-updates, run by the plugin author; it holds public Google Search event dates and nothing about you.
+Search Update & Traffic Drop Check is a set of instructions and reference documents for an AI assistant, plus the address of one read-only data server. It contains no code that runs on your computer. The server is https://black-vector.com/mcp/search-updates, run by the plugin author; it holds public Google Search event dates and nothing about you.
 
 ## What is sent, and when
 
@@ -15,13 +15,14 @@ Google Algorithm Update & Traffic Drop Check is a set of instructions and refere
 ## What the server keeps
 
 - The server is run by the plugin author on a rented server (Hetzner), with no CDN or proxy service in front of it. Like any web server, it receives the IP address of the connection in order to answer.
-- For this address, the web server (nginx) keeps neither an access log nor an error log: both are turned off for `/mcp/search-updates`, on https and on plain http (which only redirects to https). The service itself writes no request log.
+- For this address, the web server (nginx) keeps neither an access log nor an error log. That holds for every request to it: on https and on plain http (which only redirects to https), for variants such as a trailing slash, for nginx's own error answers (for example a body that is too large), and for requests nginx turns away itself before they reach the service (for example a malformed header). The service itself writes no request log.
 - For each tool call, the service writes one counter line with the UTC date and the tool name, for example `2026-11-04 agent-updates_in_range`. It is used to count how often each tool is used.
 - The service does not store IP addresses, the dates or kind you asked about, the app's name or version, or anything you type.
-- One exception, common to every nginx server: if a connection fails before nginx has read which address it asks for (for example a broken TLS handshake), nginx can write a line with the connecting IP address to the server's general error log. Such a line does not show the address asked for or any request content; that log is kept for about two weeks, then deleted.
+- Two exceptions, common to every nginx server: if a connection fails before nginx has read which address it asks for (for example a broken TLS handshake), or a request is so malformed that nginx cannot read the address, nginx can write a line with the connecting IP address to the server's general logs. Such a line does not show this address or any request content. Those logs are kept for about two weeks, then deleted.
+- Four lines written on 4 November 2026 between 15:24 and 15:52 UTC, before this setup was finished, do name this address with the connecting IP address (three in the general access log, one in the general error log). They are deleted with the normal log rotation by 20 November 2026.
 - No cookies, no scripts, no account.
 
-Apart from that exception, nothing that identifies you is retained.
+Apart from these exceptions, nothing that identifies you is retained.
 
 ## Where the data comes from
 

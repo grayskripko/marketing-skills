@@ -1,6 +1,6 @@
 ---
 name: traffic-drop-google-update
-description: "A drop or rise in organic traffic, clicks, impressions or rankings on known or rough dates, and whether Google is behind it: 'traffic fell after May 20, was that a Google update?', 'clicks down since last Tuesday, what happened?', 'did the core update hit us?', 'were we penalized in March?', 'was that a Google update?'. Checks the dates against Google's confirmed ranking updates and their rollout windows, Search Console data anomalies and Google Search ranking, serving, indexing or crawling incidents, then says which case fits: a Search Console reporting error, a Google incident, dates that overlap a Google update, or nothing on Google's side. Use when the question is whether a Google update, incident or reporting error explains a dated change, with or without an export. For whether an update is rolling out now use core-update-rollout-status; for a list of past updates, google-update-history. Not for Google Ads, email or social traffic."
+description: "A drop or rise in organic traffic, clicks, impressions or rankings that the user asks Google about: 'traffic fell after May 20, was that a Google update?', 'did the core update hit us?', 'penalized by Google in March?', 'Search Console impressions fell from 25 September, why?'. Checks the dates against Google's confirmed ranking updates and their rollout windows, Search Console data anomalies and Google Search incidents (ranking, serving, indexing), then says which case fits: a Search Console reporting error, a Google incident, dates that overlap a Google update, or nothing on Google's side. Use when the user asks whether a Google update, the algorithm, a penalty, an incident or a reporting error explains a change, or gives dates of a change in Google traffic or Search Console and asks why. Not for a drop the user never ties to Google ('clicks down, why?'), audits, Google Ads, email or social traffic. For updates rolling out now use core-update-rollout-status; for past update lists, google-update-history."
 ---
 
 # Traffic drop: Google update check
@@ -32,6 +32,8 @@ If daily numbers are available, find the first day of the fall with `references/
 
 If the question has no dates to check, for example «how do I recover from a core update?» or «what is a spam update?», answer from general guidance and do not call the tool.
 
+If the user has not brought Google into it (no Google, Search Console, Discover, update, algorithm, penalty or Google organic traffic in the request or the chat), this check does not apply: help with the drop as a general traffic question and do not call the tool. The words «clicks», «impressions», «rankings» or «traffic» alone do not bring Google in: «clicks down since Tuesday, what happened?» gets general help and, at most, one line offering to check Google's side if the user wants.
+
 ## Step 2. Call `updates_in_range` once
 
 Turn the user's dates into the query range:
@@ -45,29 +47,37 @@ Turn the user's dates into the query range:
 
 The 14 days before the start are there because a rollout begins before its effect shows: a fall visible on day 10 belongs to a rollout that began earlier. Never send a date after today. Keep the range within 400 days; for a longer period, ask which drop to check first. Leave `kinds` empty so updates, data anomalies and incidents all come back in the same call.
 
-One call per question. Call again only if the user corrects the dates, or the tool rejects the input (fix it as the error says, once).
+Exactly one tool call per answer: this one call returns updates, data anomalies and incidents together, so do not call `search_status_now`, `list_updates` or `updates_in_range` again to check, widen or confirm. A second call only if the user corrects the dates, or the tool rejects the input (fix it as the error says, once).
 
 ## Step 3. Read the result
 
-The result has `as_of`, a `stale` flag, `coverage`, and three lists of dated events, each with a Google link: `updates` (confirmed ranking rollouts: name, kind, begin, end, days as Google counts them; no end while still rolling out), `search_console_anomalies` (report, surfaces, metrics, begin, end, `effect`, `after_fix`, `fixed_on`, `meaning`, Google's own text, whether it affects data logging only) and `incidents` (product Ranking, Serving, Indexing or Crawling: Google Search problems that are not updates, such as «Ranking is experiencing an ongoing issue»). Dates are US/Pacific calendar dates, as on Google's dashboard.
+The result has `as_of`, a `stale` flag, `coverage`, and three lists of dated events, each with a Google link: `updates` (confirmed ranking rollouts: name, kind, begin, end, `days` from the begin date to the end date; no end while still rolling out), `search_console_anomalies` (report, `surfaces`, `affects` with the metrics per surface, begin, end, `effect`, `after_fix`, `fixed_on` with `fixed_on_inferred`, `google_says`, Google's own text, whether it affects data logging only) and `incidents` (product Ranking, Serving, Indexing or Crawling: Google Search problems that are not updates, such as «Ranking is experiencing an ongoing issue»). Dates are US/Pacific calendar dates, as on Google's dashboard.
 
 - `overlap_days` counts days shared with the query range, which includes the 14 days before the user's start; do not quote it as days of the drop. Work out the drop's own day from the dates.
 - If `stale` is true, say the Google event data runs only to its as-of date; events after it are not covered.
 - If the dates asked are earlier than a list's `coverage` date, say that list was not checked for those dates. «Nothing found» then means «not covered», not «nothing happened». An anomaly with `began_before_coverage: true` is still a Google entry and counts; only other anomalies before the coverage date are unknown.
+- `google_says` is a plain summary of Google's entry, not a verdict: the rules in Step 4 decide what fits.
+- `surfaces: ["not_named"]` (with `surface_note`) means Google files the entry under «Performance reports (Search results / Discover / Google News)» without saying which report. Never name a report or surface for Google; say Google does not name it, and read it as possibly affecting any performance report that shows the named metric.
+- `fixed_on_inferred: true` means Google gives no fix date; `fixed_on` is only the day after the last affected day. Never present it as Google's date: write «after <end>, the last affected day Google names».
 - `range.note` says when the end was moved back to the as-of date, or that the whole range is after it (then nothing is known for those days yet; say so, no verdict).
 
 ## Step 4. Decide, in this order
 
 Check every case in this order and keep each one that applies. A reporting error comes first because it decides whether there is a real drop at all.
 
-**A. Search Console reporting error.** A data anomaly made the report show less on the days of the fall, *and* its `surfaces` and `metrics` match what the user is looking at (table in `references/reading-the-curve.md`). Read the direction from `effect` and `after_fix`, not from the dates alone, and quote `meaning` or Google's text:
+**A. Search Console reporting error.** A data anomaly changed what the report showed on the days of the user's change, *and* its `affects` (surface and metrics) match what the user is looking at (table in `references/reading-the-curve.md`). Read the direction from `effect` and `after_fix` with these rules, not from the dates alone, and quote Google's text:
 
 - `effect` `decrease` or `missing`: a fall on the anomaly's days fits A.
-- `effect` `inaccurate`: Google says the numbers were not accurate but not that they were too low, so a fall *inside* the window is not A. If `after_fix` is `decrease`, Google says the fix itself may show as a decrease: a fall in the affected metric that starts at the end of the window (around `fixed_on`, flagged `fix_in_range`) fits A. Example: Google's impressions entry from 13 May 2025 to 27 April 2026 (heading «April 3») explains an impressions fall from about 28 April 2026, not one in, say, September 2025.
-- `after_fix` `restored`: Google filled the days back in on `fixed_on`; a dip seen before that date may be gone in the report now, so suggest re-checking the same days.
-- `effect` `real_change` (`data_logging_only: false`): not a report error; the fall may be real, caused by the change Google describes (for example FAQ results no longer shown). Say so as a Google-side change, not as case A.
+- `effect` `inaccurate` alone: Google gives no direction, so neither a fall nor a rise inside the window is A by this entry; say what Google wrote.
+- `effect` `inaccurate` with `after_fix` `decrease`: Google says the fix may show as a decrease, so during the window the report showed more than it should have (over-reporting). Then:
+  - a **rise** in the affected metric inside the window (or starting near its begin) fits A: part of it may be the error, not real growth;
+  - a **fall** that starts around the end of the window fits A: it may be the corrected report;
+  - a fall in the middle of the window is not explained by this entry.
+  Example: Google's entry headed «April 3» says impressions (and CTR and average position) were not reported accurately from 13 May 2025 to 27 April 2026, that the issue has been resolved, and that you may notice a decrease in impressions. Google gives no fix date and does not name the report. A rise in impressions from mid-May 2025 or a fall from about 28 April 2026 fits; a fall in September 2025 does not; clicks were not affected.
+- `after_fix` `restored`: Google filled the days back in; a dip seen before then may be gone in the report now, so suggest re-checking the same days.
+- `effect` `real_change` (`data_logging_only: false`): not a report error; the change may be real, caused by what Google describes (for example FAQ results no longer shown). Say so as a Google-side change, not as case A.
 
-An anomaly in Search Console does not explain a fall in analytics sessions. An anomaly in Discover or in the Generative AI report does not explain a fall in web search clicks. An anomaly on impressions only does not explain a fall in clicks. If the user has not said which metric fell, say both readings in one line: «if the fall is in <affected metric> on <surface>, it may be the report; if it is in <other metric>, this anomaly does not explain it.» Next check: an unaffected metric for the same days, usually clicks or analytics sessions from Google organic. Do not guess how much of the fall the anomaly accounts for; Google gives no size.
+Match metrics per surface from `affects`: an entry can affect clicks and impressions in Discover but only impressions in Generative AI features in Discover. An anomaly in Search Console does not explain a fall in analytics sessions. An anomaly in Discover or in a Generative AI report does not explain a fall in web search clicks. An anomaly on impressions only does not explain a fall in clicks. If the user has not said which metric changed, say both readings in one line: «if the change is in <affected metric>, it may be the report; if it is in <other metric>, this entry does not explain it.» Next check: an unaffected metric for the same days, usually clicks or analytics sessions from Google organic. Do not guess how much of the change the anomaly accounts for; Google gives no size.
 
 **B. Google Search incident (ranking, serving, indexing or crawling).** An incident overlaps the first days of the fall. Incidents with product Ranking («Ranking is experiencing an ongoing issue») are ranking problems Google reported, not updates; treat them here, not under C. A serving, indexing or crawling incident fits a short dip of a few days, or new pages not appearing; a ranking incident fits ranking or traffic changes during its days. If the fall continues more than 7 days after the incident ended, the incident alone does not fit.
 
@@ -85,12 +95,15 @@ For a sharp rise, use the same steps and say «rise» instead of «fall».
 
 ## Step 5. Answer
 
-Lead with the case in one or two sentences, using the wording below. Then each matching Google event: name, dates, how many days into the rollout the fall began, Google link. Then the control checks or the next checks. Close with: «Google event data as of <as_of>, from Google's own pages linked above.»
+Lead with the case in one or two sentences, using the wording below. Then each matching Google event: name, dates, how many days into the rollout the fall began, Google link. Then the control checks or the next checks.
+
+Every answer that uses the tool's result ends with this line, whatever the format, length or language the user asked for, a one-line answer included: «Google event data as of <as_of>, from Google's own pages linked above.» Check the last line before you send.
 
 Wording, one sentence each, adapted to the case:
 
 - **A:** «Google lists a Search Console reporting error for <report / surface> on <dates>, the same days your <metric> fell, so part or all of the fall may be in the report, not in real traffic. Compare <unaffected metric> for those days.»
-- **A, the fix shows as a fall:** «Google says <metric> were reported inaccurately from <begin> to <end> and that the fix may show as a decrease; your <metric> fell from <date>, when the fix took effect, so the fall may be the corrected report rather than lost traffic. Compare clicks for those days.»
+- **A, the fix shows as a fall:** «Google says <metric> were not reported accurately from <begin> to <end> and that, now it is resolved, you may notice a decrease; your <metric> fell from <date>, just after the last affected day, so the fall may be the corrected report rather than lost traffic. Compare clicks for those days.»
+- **A, a rise inside an over-reported window:** «Google says <metric> were not reported accurately from <begin> to <end> and that the fix may show as a decrease, so the report showed more than it should have in that window; part of your rise in <metric> may be the error. Compare clicks for those days.»
 - **B:** «Google reported a Search <ranking / serving / indexing / crawling> problem from <date> to <date>, which overlaps your fall. Such problems are usually short; if your numbers have not come back by <end + 7 days>, look for another cause.»
 - **C:** «The dates overlap the <update name>, which rolled out from <date> to <date>; your fall began on day <n> of the rollout. The timing fits, but overlap alone does not show the update was the cause. These checks separate it from site causes: …»
 - **C, fall began before the rollout:** «Your fall began on <date>, <n> days before the <update name> rollout started, so the update is less likely to be the reason.»

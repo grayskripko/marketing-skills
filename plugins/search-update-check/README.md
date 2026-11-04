@@ -1,4 +1,4 @@
-# Google Algorithm Update & Traffic Drop Check
+# Search Update & Traffic Drop Check
 
 Find out whether a Google core update, spam update, a Google Search incident or a Search Console reporting error lines up with the dates your organic traffic, clicks, impressions or rankings fell or rose. The plugin checks your dates against Google's own dated pages and says which case fits, with Google's source link and an as-of date on every answer. It also says whether an update is rolling out now, before a launch or migration, and lists Google's confirmed updates since November 2021.
 
