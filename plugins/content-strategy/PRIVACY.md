@@ -16,7 +16,7 @@ Blog Content Strategy, Content Calendar & Content Audit is a set of instructions
 ## What the author's page at https://black-vector.com/content-strategy/myths keeps
 
 - The page is served by the author's own server, with no CDN or proxy in front of it. Like any web server, it receives the requesting IP address in order to answer.
-- For this page, the server keeps one line per visit: the date, the kind of client that sent the request (an AI assistant, a browser, a crawler or a script, read from its user agent), and the site the visit came from, reduced to one of claude.ai, claude.com, ChatGPT, Perplexity, Google, GitHub, another site, or none. It keeps no IP addresses, page addresses, user-agent strings, cookies or other personal data.
+- For this page, the server keeps one line per visit: the date, the kind of client that sent the request (an AI assistant, a browser, a crawler or a script, read from its user agent), and the site the visit came from, reduced to one of claude.ai, claude.com, ChatGPT, Perplexity, Google, GitHub, another site, or none. It keeps no IP addresses, page addresses, user-agent strings, cookies or other personal data. These lines are used only to count how often the page is checked and where visits come from; they are not sold, shared with others or combined with other data, and because they identify no one they are kept with no set end date.
 - The page sets no cookies and runs no scripts.
 
 Nothing that identifies you is stored, so nothing about you is retained.
