@@ -1,6 +1,6 @@
 # Buying-committee roles
 
-In B2B, one purchase usually passes several people. A topic should say which of them it helps.
+In B2B, one purchase usually goes through several people. A topic should say which of them it helps.
 
 | Role | What they need from content |
 |---|---|
