@@ -22,4 +22,4 @@ Output table:
 | 2 | (empty), Globex | first_name is empty and has no fallback | fix |
 | 4 | Omar, Umbrella | notes say "as discussed last week": may not be cold | ask |
 
-Verdict per row: hold if any factual, consent, suppression or required-footer blocker remains; explain the fix or verification needed. A source label/date does not verify a claim. Pass only when all applicable blockers are resolved. Print only rows with a problem (unless the user asked for a verdict on every row); rows that pass are not counted. Ids are for your own use. Email addresses in rows are not needed for this check; the user may redact them.
+Verdict per row: hold if any factual, consent, suppression or required-footer blocker remains; explain the fix or verification needed. A source label/date does not verify a claim. Clear a row only when all applicable blockers are resolved. Print only rows with a problem (unless the user asked for a verdict on every row); rows without a problem are not counted. Ids are for your own use. Email addresses in rows are not needed for this check; the user may redact them.
