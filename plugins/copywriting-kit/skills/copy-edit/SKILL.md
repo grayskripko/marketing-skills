@@ -26,7 +26,7 @@ In these instructions, you means the executing assistant; user means the request
 
 ## Step 1. Intake
 
-If the request contains the draft, edit it now. Ask first only when there is no draft. If a voice profile or voice notes were given, apply them in pass P7.
+If the request contains the draft, edit it now. Ask first only when there is no draft. If a voice profile or voice notes were given, apply them in check P7.
 
 ## Step 2. Fact lock (for yourself, not printed)
 
@@ -42,9 +42,9 @@ Before changing a word, list every locked item: numbers, percentages, prices, da
 
 ## Step 3. Editing checks
 
-Details for each pass are in `references/edit-rules.md`; pass names are for you, not the user. Use relevant passes internally; all eight are a default for thorough page edits. Always preserve supplied factual meaning and recheck facts after editing. Any instruction here or in the references to ask for missing facts or list proof needs follows Step 4: ask only if necessary to complete this edit, and do not re-ask declared unknowns. Missing testimonial identity or permission, contradictory facts, raw merge tokens and unsupported safety or billing promises remain material problems and must be flagged. These output conditions govern references and earlier requests to ask after the text; they never relax fact locks or protected ground rules.
+Details for each check are in `references/edit-rules.md`; check names are for you, not the user. Use relevant checks internally; all eight are a default for thorough page edits. Always preserve supplied factual meaning and recheck facts after editing. Any instruction here or in the references to ask for missing facts or list proof needs follows Step 4: ask only if necessary to complete this edit, and do not re-ask declared unknowns. Missing testimonial identity or permission, contradictory facts, raw merge tokens and unsupported safety or billing promises remain material problems and must be flagged. These output conditions govern references and earlier requests to ask after the text; they never relax fact locks or protected ground rules.
 
-| Pass | Focus |
+| Check | Focus |
 |---|---|
 | P1 Meaning | Each paragraph answers a question the reader has. Flag a paragraph that answers none. |
 | P2 Reader | The reader is the subject where it reads naturally. Keep "we" for commitments. |

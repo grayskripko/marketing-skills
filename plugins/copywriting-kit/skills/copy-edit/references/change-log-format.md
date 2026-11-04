@@ -12,7 +12,7 @@ The normal answer is the requested edited copy. Use this format only when the us
 
 - One row per change. Merge identical changes repeated in several places ("same change in 4 places").
 - The reason is one short sentence about the reader, not about style preferences.
-- Pass and rule ids are for your own tracking; do not print them.
+- Check and rule ids are for your own tracking; do not print them.
 
 ## Facts kept
 

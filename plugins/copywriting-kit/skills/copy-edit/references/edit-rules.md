@@ -1,6 +1,6 @@
-# Edit rules (passes P1 to P8)
+# Edit rules (checks P1 to P8)
 
-Use the eight passes as a thorough-edit checklist. Select relevant checks for short or constrained requests and iterate when checks conflict. Always preserve supplied factual meaning and recheck facts after editing; report only requested explanations or material conflicts. Pass and rule ids are for your own tracking; never show them to the user.
+Use the eight checks as a thorough-edit checklist. Select relevant checks for short or constrained requests and iterate when checks conflict. Always preserve supplied factual meaning and recheck facts after editing; report only requested explanations or material conflicts. Check and rule ids are for your own tracking; never show them to the user.
 
 Reference-wide output gate: ask for missing facts or list evidence needs only when necessary to complete the requested edit or when a newly discovered material issue affects it. Do not repeat declared unknowns. Keep checks internal and notes outside public copy.
 
