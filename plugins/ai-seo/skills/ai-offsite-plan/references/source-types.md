@@ -4,7 +4,7 @@
 |---|---|---|
 | Roundup or comparison article | "Best X", "top X", "X vs Y" articles on third-party sites | Pitch the editor with the fact pack when the brand is missing and fits; request a correction when facts are wrong or outdated |
 | Community or forum thread | Q&A sites, forums, community discussions | Disclosed answers from people who know the product, where the community allows it |
-| Reference work | Encyclopedias, wikis, directories with editorial rules | Correction requests through the talk page or edit request, with independent sources; never write about the user's own organization |
+| Reference work | Encyclopedias, wikis, directories with editorial rules | Correction requests through the talk page or edit request, with independent sources; follow the site's conflict-of-interest rules and disclose affiliation |
 | Video | Video platforms, transcripts, descriptions | Useful explainers or demos the user's team publishes, or accurate facts offered to creators who already cover the category |
 | Review platform | Software or product review sites | Ask real customers to leave honest reviews in the way each platform allows; keep the profile facts current |
 | News | News sites and trade press | Real news with facts; corrections through the editor |
