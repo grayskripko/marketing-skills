@@ -2,7 +2,7 @@
 
 The skills in this plugin do not report the items below as problems. If the user raises one, answer in one or two sentences in plain words and name the source (Google Search Central, SEO Starter Guide and related documentation). 
 
-The Google pages behind these rows were re-read on 2026-10-08. If more than six months have passed, say the dated rows may be out of date and point to the source.
+The Google pages behind these rows were re-read on 2026-10-08. If that date is more than six months ago, say the dated rows may be out of date and point to the source.
 
 ## Documented by Google as not mattering (or not in the way people think)
 

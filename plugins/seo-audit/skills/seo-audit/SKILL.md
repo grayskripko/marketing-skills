@@ -45,7 +45,7 @@ The 10-page cap means sampling by template, not crawling. Fetch in this order:
 
 `references/site-types.md` lists which templates matter for each kind of site.
 
-## Step 3. Diagnose (pass 1)
+## Step 3. Diagnose (round 1)
 
 Walk the checks in `references/checks.md` in this order, collecting evidence before forming any opinion:
 
@@ -68,7 +68,7 @@ Preserve deliberate exclusions for search, filter, private and staging pages; as
 
 Never report these as problems (Google documents them as non-issues; details in `references/myths.md`): missing meta keywords, word count, heading order or the number of H1s, keywords in the domain, a missing llms.txt, sitemap priority or changefreq, a low Lighthouse lab score on its own. If the user asks about one, answer briefly.
 
-Do not rewrite copy or propose content in this pass.
+Do not rewrite copy or propose content in this round.
 
 Recent Google changes. Use a fact only when it changes the answer; never list them.
 - Googlebot reads only the first 2 MB of an HTML response, headers included; later text, links or JSON-LD are ignored (15 MB is other crawlers' default, not Googlebot's). <!-- developers.google.com/search/blog/2026/03/crawler-blog-post (2026-03-31); checked 2026-10-15 -->
@@ -79,7 +79,7 @@ Recent Google changes. Use a fact only when it changes the answer; never list th
 
 Pick the 2-3 areas with the highest likely impact on the goal and look again, within the cap: more pages of the affected template, the exact directive or tag responsible, and whether the pattern repeats on other templates. Report "template Y lacks X, here is where it comes from", not "some pages seem to lack X".
 
-## Step 5. Rank (pass 2)
+## Step 5. Rank (round 2)
 
 Keep confirmed blockers prominent for affected goal pages and put them before dependent improvements. Rank independent work by business value, reach, confidence, dependencies, effort and risk; separate priority from capacity commitments. Details: `references/prioritization.md`.
 
