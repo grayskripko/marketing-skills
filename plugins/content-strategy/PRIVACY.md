@@ -1,6 +1,6 @@
 # Privacy policy: Blog Content Strategy, Content Calendar & Content Audit
 
-Effective date: 2026-10-19.
+Effective date: 2026-11-04.
 
 Blog Content Strategy, Content Calendar & Content Audit is a set of instructions and reference documents for an AI assistant. It contains no code that runs and no tracking of individuals. The author's page at https://black-vector.com/content-strategy/myths receives a standard web request only when you agree to it.
 
@@ -16,8 +16,8 @@ Blog Content Strategy, Content Calendar & Content Audit is a set of instructions
 ## What the author's page at https://black-vector.com/content-strategy/myths keeps
 
 - The page is served by the author's own server, with no CDN or proxy in front of it. Like any web server, it receives the requesting IP address in order to answer.
-- For this page, the server's access log is turned off, so the IP address and the user agent are not written down.
-- No cookies, no scripts, no personal data.
+- For this page, the server keeps one line per visit: the date, the kind of client that sent the request (an AI assistant, a browser, a crawler or a script, read from its user agent), and the site the visit came from, reduced to one of claude.ai, claude.com, ChatGPT, Perplexity, Google, GitHub, another site, or none. It keeps no IP addresses, page addresses, user-agent strings, cookies or other personal data.
+- The page sets no cookies and runs no scripts.
 
 Nothing that identifies you is stored, so nothing about you is retained.
 
