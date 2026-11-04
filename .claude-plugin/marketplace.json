@@ -25,6 +25,11 @@
       "name": "linkedin-warm-leads",
       "source": "./plugins/linkedin-warm-leads",
       "description": "Find warm LinkedIn leads in what you already have: potential clients in your post comments, replies to comments, DM follow-up plans, warm connections in your own export. Drafts only; never sends."
+    },
+    {
+      "name": "google-update-check",
+      "source": "./plugins/google-update-check",
+      "description": "Check whether a Google core update, spam update, Search incident or Search Console reporting error lines up with a traffic drop, using Google's own dated pages."
     }
   ]
 }

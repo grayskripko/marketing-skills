@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "search-updates": {
+      "type": "http",
+      "url": "https://black-vector.com/mcp/search-updates"
+    }
+  }
+}
