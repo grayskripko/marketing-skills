@@ -2,9 +2,11 @@
 
 Find out whether a Google core update, spam update, a Google Search incident or a Search Console reporting error lines up with the dates your organic traffic, clicks, impressions or rankings fell or rose. The plugin checks your dates against Google's own dated pages and says which case fits, with Google's source link and an as-of date on every answer. It also says whether an update is rolling out now, before a launch or migration, and lists Google's confirmed updates since November 2021.
 
+An independent tool: not affiliated with, endorsed by or sponsored by Google.
+
 ## What it does
 
-- **traffic-drop-google-update:** matches the dates of a drop or rise with Google's confirmed ranking rollouts, Search Console data anomalies (days when Google says its reports were wrong) and Google Search serving, indexing or crawling incidents. It says which of four cases fits: a Search Console reporting error, a Google incident, dates that overlap a Google update, or nothing on Google's side. A reporting error counts only when it affects the metric and report you are looking at. For an overlap it gives the checks that separate the update from site causes, and runs them on your data if you paste it.
+- **traffic-drop-google-update:** matches the dates of a drop or rise with Google's confirmed ranking rollouts, Search Console data anomalies (days when Google says its reports were wrong) and Google Search ranking, serving, indexing or crawling incidents. It says which of four cases fits: a Search Console reporting error, a Google incident, dates that overlap a Google update, or nothing on Google's side. A reporting error counts only when it affects the metric and report you are looking at. For an overlap it gives the checks that separate the update from site causes, and runs them on your data if you paste it.
 - **core-update-rollout-status:** whether a Google update or Search incident is live today, when the last core and spam updates ended, what that means for the before/after numbers of a launch, migration, redesign, content pruning or SEO test, and what to watch during and after the change. There is no «safe» or «unsafe» verdict: an update makes the result of a change harder to read, and you choose.
 - **google-update-history:** Google's confirmed ranking updates for a period or of one kind, with rollout start and end dates and Google's link, as a table for a report, chart annotations (rows, CSV or shaded bands on a plot) or a short paragraph for a client.
 
@@ -25,7 +27,7 @@ Answers never say an update «hit» or «penalized» a site. Only events with a 
 The plugin connects to one service: a read-only data server at https://black-vector.com/mcp/search-updates, run by the plugin author. It holds Google's public event dates and nothing about you:
 
 - confirmed ranking updates from Google's Search Status Dashboard ranking history, from November 2021;
-- Google Search serving, indexing and crawling incidents from the same dashboard;
+- Google Search ranking, serving, indexing and crawling incidents from the same dashboard (for example «Ranking is experiencing an ongoing issue», which is an incident, not an update);
 - the entries of Google's «Data anomalies in Search Console» help page.
 
 A daily job reads Google's dashboard data and the data anomalies page and merges new or changed entries; no AI model is involved. Every answer from the server carries the date it was last refreshed and the Google page each item comes from.
@@ -50,7 +52,7 @@ If a skill works wrongly for your task, tell me in GitHub Discussions — I read
 
 Bug reports also work in GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
 
-Sergey Skripko. I build AI agents.
+Sergey Skripko
 
 ## License
 

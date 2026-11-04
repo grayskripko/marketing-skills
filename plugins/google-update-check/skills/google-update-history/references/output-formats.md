@@ -10,7 +10,7 @@ Dates in ISO or the user's own date style. Newest first; oldest first for a time
 |---|---|---|---|---|---|
 | <name> | <kind> | <begin> | <end, or «still rolling out»> | <days> | [Google](<google_url>) |
 
-Days = end minus begin, plus one. A row still rolling out has no day count; write the days so far as of the as-of date if the user needs one.
+Days = end minus begin, as Google counts a rollout (21 May to 2 June = 12 days); the tool's `days` field already is this. A row still rolling out has no day count; write the days so far as of the as-of date if the user needs one.
 
 ## Annotation rows
 

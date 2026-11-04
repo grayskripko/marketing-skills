@@ -41,7 +41,7 @@ First read `as_of`. If `stale` is true, or `as_of` is more than 2 days before to
 |---|---|---|
 | **Rolling out now** | an item in `rolling_out_now` | rankings may shift for reasons other than the change until it ends; a before/after comparison taken across the rollout mixes the two |
 | **Just ended** | nothing rolling out; `last_core` or `last_spam` ended 14 days or less before `as_of` | Google has marked it complete; a buffer of about a week after the end before treating numbers as settled is a measurement habit, not a Google rule |
-| **Search incident open** | an item in `open_incidents` (serving, indexing or crawling) | new or moved pages may be slow to appear for reasons on Google's side; matters most for a launch or migration this week |
+| **Search incident open** | an item in `open_incidents` (ranking, serving, indexing or crawling) | new or moved pages may be slow to appear for reasons on Google's side; matters most for a launch or migration this week |
 | **Quiet** | none of the above | nothing confirmed is live today; Google gives no advance notice, so this says nothing about next week |
 
 More than one state can apply (a rollout plus an incident): give each, the rollout first. An open Search Console anomaly matters only if the user will read Search Console numbers for the surface it names; then say Search Console figures for those days may be off, with Google's link.

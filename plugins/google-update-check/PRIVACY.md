@@ -15,12 +15,13 @@ Google Algorithm Update & Traffic Drop Check is a set of instructions and refere
 ## What the server keeps
 
 - The server is run by the plugin author on a rented server (Hetzner), with no CDN or proxy service in front of it. Like any web server, it receives the IP address of the connection in order to answer.
-- For this address, the web server's access log is turned off. The service itself writes no request log.
+- For this address, the web server (nginx) keeps neither an access log nor an error log: both are turned off for `/mcp/search-updates`, on https and on plain http (which only redirects to https). The service itself writes no request log.
 - For each tool call, the service writes one counter line with the UTC date and the tool name, for example `2026-11-04 agent-updates_in_range`. It is used to count how often each tool is used.
-- It does not store IP addresses, the dates or kind you asked about, the app's name or version, or anything you type.
+- The service does not store IP addresses, the dates or kind you asked about, the app's name or version, or anything you type.
+- One exception, common to every nginx server: if a connection fails before nginx has read which address it asks for (for example a broken TLS handshake), nginx can write a line with the connecting IP address to the server's general error log. Such a line does not show the address asked for or any request content; that log is kept for about two weeks, then deleted.
 - No cookies, no scripts, no account.
 
-The counter lines hold nothing that identifies you, so nothing about you is retained.
+Apart from that exception, nothing that identifies you is retained.
 
 ## Where the data comes from
 

@@ -28,6 +28,8 @@ The tool gives each Search Console data anomaly with `surfaces` and `metrics`. M
 | `search_appearance_job_listings`, `search_appearance_faq` | impressions or clicks filtered to that search appearance, or its rich result report | the site's total clicks, unless that appearance carried most of them |
 | `bulk_data_export` | rows missing from BigQuery bulk exports on those days | the Search Console interface; analytics |
 
+- Direction comes from `effect` (what the error did to the report on its days: `decrease`, `missing`, `inaccurate` with no direction given, `real_change`) and `after_fix` (what Google says the fix brings: `restored`, `decrease`, `not_recovered`, or empty). `fixed_on` is the date Google gives for the fix, or the day after the last affected day when Google writes only that the issue is resolved (`fixed_on_basis` says which). `meaning` is the one-sentence reading; quote it with Google's text.
+- A fall explains as a report error only where the report showed less: `decrease` or `missing` on its days, or a fix with `after_fix: decrease` that starts at the end of an `inaccurate` window. A fall inside an `inaccurate` window is not explained by that entry.
 - An entry with `data_logging_only: true` means Google says real traffic was not affected, only the report.
 - An entry with `data_logging_only: false` can describe a real change on Google's side (for example a results feature that stopped showing). Say what Google wrote and that the fall may be real.
 - An entry on impressions only (`metrics` without `clicks`) does not explain a fall in clicks.
