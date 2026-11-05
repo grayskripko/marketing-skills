@@ -1,8 +1,8 @@
 {
   "name": "seo-audit",
   "displayName": "SEO Audit",
-  "version": "0.1.29",
-  "description": "Use cases: SEO audit, website audit, technical SEO audit, on-page SEO, ecommerce SEO audit for Shopify stores and WordPress sites, online store SEO, organic traffic drop, Google Search Console errors, Google indexing and sitemap problems. Find SEO problems that may be holding your website back on Google and decide which fixes to make first to improve organic search. Audit a website, a single page, Search Console and crawler exports, or a site's source code. Every finding in the SEO report shows its evidence and how sure it is, and findings can be turned into a prioritized fix plan with developer tickets.",
+  "version": "0.1.30",
+  "description": "SEO audit, website audit, technical SEO, on-page SEO and ecommerce SEO for your own site, Shopify or online store, WordPress site or blog. Use it when pages are not indexed or not showing up on Google, organic traffic dropped after a relaunch or platform move, you have a Search Console or crawler export to read, you want to know what to fix first, or an agency or tool sent a list of SEO issues and you need to know which ones matter. Also checks one page's title and description, and a site's source code for noindex, sitemap and canonical mistakes. Audit findings show their evidence; fixes become a ranked plan with developer tickets.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
