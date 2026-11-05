@@ -51,6 +51,8 @@ If a skill works wrongly for your task, tell me in GitHub Discussions — I read
 
 Bug reports also work in GitHub Issues: https://github.com/grayskripko/marketing-skills/issues
 
+Each skill names what it cannot do (for example, crawling a whole site or pulling Search Console data itself). For such cases you can write to me by email: grayskripko+content-strategy@gmail.com
+
 Sergey Skripko. I build AI agents.
 
 ## License
