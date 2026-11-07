@@ -1,6 +1,6 @@
 {
   "name": "cold-email",
-  "version": "0.1.34",
+  "version": "0.1.35",
   "description": "Cold email and LinkedIn outreach for B2B prospecting: write cold outreach emails, subject lines, follow-ups and LinkedIn connection requests or messages. Use it when nobody replies to your sales emails (paste one to see why and get a rewrite), a prospect went quiet after your first email and needs a follow-up, your emails land in spam or junk, or you have notes about a prospect or a page you link and want a personalized first line. Checks an email, merge fields, opt-out line and pasted SPF, DKIM and DMARC records before you send; helps pick who to email first and whether your offer is ready. Uses only facts you give; never sends email, finds addresses or adds contacts. Network use: cold-email-hooks reads up to 3 public pages you link. Answers that rest on sender, email-law or LinkedIn rules cite the official page used (for example Google, yahooinc.com, Microsoft, ftc.gov, legislation.gov.uk, ico.org.uk, LinkedIn) for you to open; because those rules are dated, it may also offer to check the most recent dated copy on the author's page, https://black-vector.com/cold-email/deliverability, and fetches that page only after you say yes.",
   "author": {
     "name": "Sergey Skripko",
