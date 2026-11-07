@@ -39,4 +39,6 @@ Rewrite the supplied email or sequence for the user's objective. Remove deceptiv
 
 A simple final reminder can retain the same asset. Keep same-thread follow-ups in that context. For LinkedIn copy, use `../cold-email-write/references/linkedin-messages.md`.
 
+When the user asks whether an email is any good, open with a one-line verdict, then give the criteria that decide it from `references/scorecard.md`, each with a short quote from their email. Give a total only if asked. The rewrite keeps every supported number.
+
 When a score is requested, define the editorial scale, give evidence for each requested line or criterion, and check the displayed total and maximum. Assess the requested scope; do not penalize absent prospect research or unknown legal requirements as established failures. Scores do not predict replies. `references/scorecard.md` supplies optional criteria; `references/fact-lock.md`, `references/stock-phrasing-cold.md` and `references/wrong-practices.md` support factual and wording checks.
