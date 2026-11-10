@@ -1,0 +1,15 @@
+{
+  "name": "pl-notion-templates",
+  "description": "Design Notion templates and databases for your workflow, fix formulas and prepare import-ready CSV from pasted notes or exports. Get named properties, views, relations, reusable page content and a manual setup map without connecting an account.",
+  "owner": {
+    "name": "Sergey Skripko",
+    "url": "https://github.com/grayskripko"
+  },
+  "plugins": [
+    {
+      "name": "notion-templates",
+      "source": "./plugins/notion-templates",
+      "description": "Design Notion templates and databases for your workflow, fix formulas and prepare import-ready CSV from pasted notes or exports. Get named properties, views, relations, reusable page content and a manual setup map without connecting an account."
+    }
+  ]
+}
