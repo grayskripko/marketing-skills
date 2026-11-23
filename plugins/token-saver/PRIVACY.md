@@ -1,6 +1,6 @@
 # Privacy
 
-Token Saver Kit is a set of instructions and reference text for an AI assistant. It contains no code that runs, and it has no server.
+Token Usage Reducer is a set of instructions and reference text for an AI assistant. It contains no code that runs, and it has no server.
 
 Network scope: this plugin fetches nothing and sends nothing. It works only on text the user pastes or files the user names in the current workspace, and it runs nothing and changes no files or settings unless the user asks.
 
