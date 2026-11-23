@@ -1,14 +1,14 @@
 {
   "name": "seo-audit",
   "displayName": "SEO Audit",
-  "version": "0.1.30",
+  "version": "0.1.31",
   "description": "SEO audit, website audit, technical SEO, on-page SEO and ecommerce SEO for your own site, Shopify or online store, WordPress site or blog. Use it when pages are not indexed or not showing up on Google, organic traffic dropped after a relaunch or platform move, you have a Search Console or crawler export to read, you want to know what to fix first, or an agency or tool sent a list of SEO issues and you need to know which ones matter. Also checks one page's title and description, and a site's source code for noindex, sitemap and canonical mistakes. Audit findings show their evidence; fixes become a ranked plan with developer tickets.",
   "author": {
     "name": "Sergey Skripko",
     "url": "https://github.com/grayskripko",
     "email": "grayskripko@gmail.com"
   },
-  "homepage": "https://github.com/grayskripko/marketing-skills/tree/main/plugins/seo-audit",
+  "homepage": "https://github.com/grayskripko/marketing-skills/tree/pl-seo-audit/plugins/seo-audit",
   "repository": "https://github.com/grayskripko/marketing-skills",
   "license": "MIT",
   "keywords": [
@@ -26,7 +26,7 @@
     "core-web-vitals",
     "structured-data"
   ],
-  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/seo-audit/PRIVACY.md",
+  "privacyPolicyUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-seo-audit/plugins/seo-audit/PRIVACY.md",
   "supportUrl": "https://github.com/grayskripko/marketing-skills/discussions",
-  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/main/plugins/seo-audit/README.md"
+  "documentationUrl": "https://github.com/grayskripko/marketing-skills/blob/pl-seo-audit/plugins/seo-audit/README.md"
 }
